@@ -25,3 +25,18 @@ Due to JGI's insistence of your acceptance of their Data Distribution policy, th
 ## Ensembl Fungi
  * http://fungi.ensembl.org/index.html
 ## Ensembl 
+
+# Notes
+## Preferred Portal/Assembly
+Quite often one taxa will be available from many of the sources therefore it is important to decide which version to use in this database for accountability.
+
+To do this I have decided upon two criteria:
+ 1 How easy is it to obtain the predicted proteins?
+ 2 What is the original source of the predicted proteins?
+
+For example:
+ 1 If the genome is in NCBI then it is very easy to download, let's do that.
+ 2 If the genome is in JGI but originates from BROAD, let's take the original, unless 1.
+
+At all points I will maintain the spreadsheet to indicate the prefered source. If you prefer a particular source, then you may "swap" out the genome's predicted proteins as you like, I am not suggesting that my preference is correct or best.
+
