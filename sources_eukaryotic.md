@@ -2,12 +2,16 @@
 
 # JGI
 Due to JGI's insistence of your acceptance of their Data Distribution policy, the user will have to retreive these data manually. Methods to do this will be outlined below.
+
 ## Genome Portal
  * http://genome.jgi-psf.org/
+
 ## Phytozome v10.2
  * http://phytozome.jgi.doe.gov/pz/portal.html
+
 ## Mycocosm
  * http://genome.jgi-psf.org/programs/fungi/index.jsf
+
 ## Metazome v3.0
  * http://www.metazome.net/ - Abandoned?
 
