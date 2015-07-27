@@ -46,5 +46,8 @@ For example:
  1. If the genome is in NCBI then it is very easy to download, let's do that.
  2. If the genome is in JGI but originates from BROAD, let's take the original, unless 1.
 
+From completely anecdoral evidence I have noticed that NCBI fasta headers are generally easier to parse than those from other portals and projects. So, NCBI will be preffered based solely on this consideration. JGI and BROAD generally keep there fasta header information consistent but it varies between portals and projects on occassions but Ensembl also generally have a consistent header in their fastas. In these cases I think Ensembl is easier to parse than JGI, then followed by BROAD. This translates to:
+ 1. NCBI > Ensembl -> JGI -> BROAD
+
 At all points I will maintain the spreadsheet to indicate the prefered source. If you prefer a particular source, then you may "swap" out the genome's predicted proteins as you like, I am not suggesting that my preference is correct or best.
 
