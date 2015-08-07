@@ -3,8 +3,8 @@
 ## NCBI Protein
 
 ### Citations for Style
-http://blast.ncbi.nlm.nih.gov/blastcgihelp.shtml
-http://www.ncbi.nlm.nih.gov/toolkit/doc/book/ch_demo/?rendertype=table#ch_demo.T5
+ * http://blast.ncbi.nlm.nih.gov/blastcgihelp.shtml
+ * http://www.ncbi.nlm.nih.gov/toolkit/doc/book/ch_demo/?rendertype=table#ch_demo.T5
 
 Not that these are always upheld, but for the most part - especially the sequences returned by scripts in this package - they should all fall in to this same format.
 
@@ -15,7 +15,7 @@ Not that these are always upheld, but for the most part - especially the sequenc
 
 ### Archetype
 
->gi|Genbank Identifier|db|Accession| Other Information
+>>gi|Genbank Identifier|db|Accession| Other Information
  * gi = GenInfo Integrated Databsae, 2-3 chars, e.g. gi, ref, emb, dbj
  * Genbank Identifier (integer), e.g. 569442236
  * db = Database, 2-3 chars, e.g. gb, ref, emb, dbj
@@ -28,7 +28,7 @@ Not that these are always upheld, but for the most part - especially the sequenc
 ### Regex
 
 ```
-(>)([A-z]{2,3})(\|)(\d+)(\|)([A-z]{2,3})(\|)(.*)
+(>)([A-z]{2,3})(\|)(\d+)(\|)([A-z]{2,3})(\|)(\d+)(\|)(.*)
 ```
 Whilst this regex would work fine, we can 'cheat' and split the line on the '|' character and return positions 2 (GI) and 4 (Accession)
 
