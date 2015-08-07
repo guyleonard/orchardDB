@@ -1,4 +1,6 @@
-# 
+# REGEX Extraction of Information from FASTA Headers for Different Databases
+
+This shows what assumptions we make for the scripts that build the orchardDB. As we retrieve mostly NCBI, JGI, Ensembl and BROAD who mostly stick to 'standard' FASTA header formats we can generally split the lines on special characters rather than rely on regexes, but some genomes come from other sources that may not stick to a good format. So either we can use a regex to get the information we are interested in, or we use a split character and a number for the location of the accession and other important information. This guide shows you how to extend this for your needs.
 
 ## NCBI Protein
 
@@ -14,8 +16,9 @@ Not that these are always upheld, but for the most part - especially the sequenc
  * >gi|67623749|ref|XP_668157.1| dbj|baa86974.1 [Cryptosporidium hominis TU502]
 
 ### Archetype
-
+```
 \>gi|Genbank Identifier|db|Accession| Other Information
+```
  * gi = GenInfo Integrated Databsae, 2-3 chars, e.g. gi, ref, emb, dbj
  * Genbank Identifier (integer), e.g. 569442236
  * db = Database, 2-3 chars, e.g. gb, ref, emb, dbj
@@ -71,7 +74,9 @@ This does not seem to be current or kept up-to-date. All the taxa are available 
 
 #### Mycocosm
 
+```
 \>jgi|JGI Taxon Code|Accession|Gene Information
+```
  * jgi
  * Three letters of Genus and two of species names, often with a number. Often goes outside of the general pattern
  * Accession number
