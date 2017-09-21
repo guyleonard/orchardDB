@@ -1,42 +1,5 @@
 Genus,species,,ID,Synonym,Other ID,Origin,Version,Source,JGI ID,NCBI Tax ID,URL
-Hanseniaspora,valbyensis,,NRRL Y-1626,,,,v1.1,JGI,Hanva1_1,,http://genome.jgi.doe.gov/Hanva1_1/download/Hanva1_1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Hebeloma,cylindrosporum,,h7,,,,v2.0,JGI,Hebcy2,,http://genome.jgi.doe.gov/Hebcy2/download/Hebcy2.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Heliocybe,sulcata,,OMC1185,,,,v1.0,JGI,Helsul1,,http://genome.jgi.doe.gov/Helsul1/download/Helsul1_GeneCatalog_proteins_20150720.aa.fasta.gz
-Hesseltinella,vesiculosa,,NRRL3301,,,,v2.0,JGI,Hesve2finisherSC,,http://genome.jgi.doe.gov/Hesve2finisherSC/download/Hesve2finisherSC_GeneCatalog_proteins_20150707.aa.fasta.gz
-Heterobasidion,annosum,,,,,,v2.0,JGI,Hetan2,,http://genome.jgi.doe.gov/Hetan2/download/Hannosum_v2.FilteredModels1.proteins.fasta.gz
-Heterogastridium,pycnidioideum,,ATCC MYA-4631,,,,v1.0,JGI,Hetpy1,,http://genome.jgi.doe.gov/Hetpy1/download/Hetpy1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Hexagonia,nitida,,CIRM-BRFM 1802,,,,v1.0,JGI,Hexnit1,,http://genome.jgi.doe.gov/Hexnit1/download/Hexnit1_GeneCatalog_proteins_20170619.aa.fasta.gz
-Histoplasma,capsulatum,,NAm1,,,,,JGI,Hisca1,,http://genome.jgi.doe.gov/Hisca1/download/Hisca1.all_proteins.BroadModels.gff3.gz.tar.gz
-Homolaphlyctis,polyrhiza,,JEL142,,,,v1.0,JGI,Hompol1,,http://genome.jgi.doe.gov/Hompol1/download/Hompol1_GeneCatalog_proteins_20160803.aa.fasta.gz
-Hortaea,acidophila,,CBS 113389,,,,v1.0,JGI,Horac1,,http://genome.jgi.doe.gov/Horac1/download/Horac1_GeneCatalog_proteins_20160326.aa.fasta.gz
-Hortaea,werneckii,,EXF-2000 M0,,,,v1.0,JGI,Horwer1,,http://genome.jgi.doe.gov/Horwer1/download/Horwer1_GeneCatalog_proteins_20160803.aa.fasta.gz
-Hyalopycnis,blepharistoma,,ATCC 48560,,,,v1.0,JGI,Hyabl1,,http://genome.jgi.doe.gov/Hyabl1/download/Hyabl1_GeneCatalog_proteins_20150410.aa.fasta.gz
-Hydnomerulius,pinastri,,,,,,v2.0,JGI,Hydpi2,,http://genome.jgi.doe.gov/Hydpi2/download/Hydpi2.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Hydnopolyporus,fimbriatus,,CBS 384.51,,,,v1.0,JGI,Hydfim1,,http://genome.jgi.doe.gov/Hydfim1/download/Hydfim1_GeneCatalog_proteins_20160510.aa.fasta.gz
-Hydnum,rufescens,,UP504,,,,v2.0,JGI,Hydru2,,http://genome.jgi.doe.gov/Hydru2/download/Hydru2_GeneCatalog_proteins_20150110.aa.fasta.gz
-Hymenopellis,radicata,,IJFM A160,,,,v1.0,JGI,Hymrad1,,http://genome.jgi.doe.gov/Hymrad1/download/Hymrad1_GeneCatalog_proteins_20151222.aa.fasta.gz
-Hymenoscyphus,varicosporoides,,PMI_453,,,,v1.0,JGI,Hymvar1,,http://genome.jgi.doe.gov/Hymvar1/download/Hymvar1_GeneCatalog_proteins_20161013.aa.fasta.gz
-Hypholoma,sublateritium,,,,,,v1.0,JGI,Hypsu1,,http://genome.jgi.doe.gov/Hypsu1/download/Hypsu1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Hyphopichia,burtonii,,NRRL Y-1933,,,,v1.0,JGI,Hypbu1,,http://genome.jgi.doe.gov/Hypbu1/download/Hypbu1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Hypoxylon,sp.,,CI-4A,,,,v1.0,JGI,HypCI4A_1,,http://genome.jgi.doe.gov/HypCI4A_1/download/HypCI4A_1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Hypoxylon,sp.,,CO27-5,,,,v1.0,JGI,HypCO275_1,,http://genome.jgi.doe.gov/HypCO275_1/download/HypCO275_1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Hypoxylon,sp.,,EC38,,,,v3.0,JGI,HypEC38_3,,http://genome.jgi.doe.gov/HypEC38_3/download/HypEC38_3.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Hysterium,pulicare,,,,,,,JGI,Hyspu1_1,,http://genome.jgi.doe.gov/Hyspu1_1/download/Hyspu1_1_GeneCatalog_proteins_20150205.aa.fasta.gz
-Ilyonectria,europaea,,CBS 129078,,,,v1.0,JGI,Ilyeu1,,http://genome.jgi.doe.gov/Ilyeu1/download/Ilyeu1_GeneCatalog_proteins_20170627.aa.fasta.gz
-Ilyonectria,robusta,,PMI_751,,,,v1.0,JGI,Ilyrob1,,http://genome.jgi.doe.gov/Ilyrob1/download/Ilyrob1_GeneCatalog_proteins_20161014.aa.fasta.gz
-Ilyonectria,sp.,,,,,,v1.0,JGI,Ilysp1,,http://genome.jgi.doe.gov/Ilysp1/download/Ilysp1.all_proteins.FilteredModels2.gff3.gz.tar.gz
-Irpex,lacteus,,CCBAS Fr. 238 617/93,,,,v1.0,JGI,Irplac1,,http://genome.jgi.doe.gov/Irplac1/download/Irplac1_GeneCatalog_proteins_20170103.aa.fasta.gz
-Jaapia,argillacea,,,,,,v1.0,JGI,Jaaar1,,http://genome.jgi.doe.gov/Jaaar1/download/Jaaar1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Jaminaea,sp.,,MCA 5214,,,,v1.0,JGI,Jamsp1,,http://genome.jgi.doe.gov/Jamsp1/download/Jamsp1_GeneCatalog_proteins_20141226.aa.fasta.gz
-Kalaharituber,pfeilii,,F3,,,,v1.0,JGI,Kalpfe1,,http://genome.jgi.doe.gov/Kalpfe1/download/Kalpfe1_GeneCatalog_proteins_20151214.aa.fasta.gz
-Karstenula,rhodostoma,,CBS 690.94,,,,v1.0,JGI,Karrh1,,http://genome.jgi.doe.gov/Karrh1/download/Karrh1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Kazachstania,africana,,CBS 2517,,,,,JGI,Kazaf1,,http://genome.jgi.doe.gov/Kazaf1/download/Kazaf1_GeneCatalog_proteins_20150111.aa.fasta.gz
-Khuskia,oryzae,,ATCC 28132,,,,v1.0,JGI,Khuory1,,http://genome.jgi.doe.gov/Khuory1/download/Khuory1_GeneCatalog_proteins_20160404.aa.fasta.gz
-Kickxella,alabastrina,,RSA 675,,,,v1.0,JGI,Kicala1,,http://genome.jgi.doe.gov/Kicala1/download/Kicala1_GeneCatalog_proteins_20170410.aa.fasta.gz
-Kluyveromyces,lactis,,,,,,,JGI,Klula1,,http://genome.jgi.doe.gov/Klula1/download/Klula1.all_proteins.ExternalModels.gff3.gz.tar.gz
-Kockovaella,imperatae,,NRRL Y-17943,,,,v1.0,JGI,Kocim1,,http://genome.jgi.doe.gov/Kocim1/download/Kocim1_GeneCatalog_proteins_20160906.aa.fasta.gz
-Kuraishia,capsulata,,CBS 1993,,,,,JGI,Kurca1,,http://genome.jgi.doe.gov/Kurca1/download/Kurca1_GeneCatalog_proteins_20160603.aa.fasta.gz
-Laccaria,amethystina,,LaAM-08-1,,,,v2.0,JGI,Lacam2,,http://genome.jgi.doe.gov/Lacam2/download/Lacam2_GeneCatalog_proteins_20150823.aa.fasta.gz
+Laccaria,amethystina,,,,LaAM-08-1,,v2.0,JGI,Lacam2,,http://genome.jgi.doe.gov/Lacam2/download/Lacam2_GeneCatalog_proteins_20150823.aa.fasta.gz
 Laccaria,bicolor,,,,,,v2.0,JGI,Lacbi2,,http://genome.jgi.doe.gov/Lacbi2/download/Lacbi2.all_proteins.FilteredModels1.gff3.gz.tar.gz
 Lactarius,quietus,,S23C,,,,v1.0,JGI,Lacqui1,,http://genome.jgi.doe.gov/Lacqui1/download/Lacqui1_GeneCatalog_proteins_20160525.aa.fasta.gz
 Lactifluus,subvellereus,,BPL653,,,,v1.0,JGI,Lacsub1,,http://genome.jgi.doe.gov/Lacsub1/download/Lacsub1_GeneCatalog_proteins_20170114.aa.fasta.gz
@@ -899,3 +862,40 @@ Gymnopus,earleae,,,,GB-263.02,,v1.0,JGI,Gymear1,,http://genome.jgi.doe.gov/Gymea
 Gymnopus,luxurians,,,,,,v1.0,JGI,Gymlu1,,http://genome.jgi.doe.gov/Gymlu1/download/Gymlu1.all_proteins.FilteredModels1.gff3.gz.tar.gz
 Gyrodon,lividus,,BX,,,,v1.0,JGI,Gyrli1,,http://genome.jgi.doe.gov/Gyrli1/download/Gyrli1.all_proteins.FilteredModels1.gff3.gz.tar.gz
 Gyromitra,esculenta,,,,CBS 101906,,v1.0,JGI,Gyresc1,,http://genome.jgi.doe.gov/Gyresc1/download/Gyresc1_GeneCatalog_proteins_20160326.aa.fasta.gz
+Hanseniaspora,valbyensis,,NRRL Y-1626,,,,v1.1,JGI,Hanva1_1,,http://genome.jgi.doe.gov/Hanva1_1/download/Hanva1_1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Hebeloma,cylindrosporum,,h7,,,,v2.0,JGI,Hebcy2,,http://genome.jgi.doe.gov/Hebcy2/download/Hebcy2.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Heliocybe,sulcata,,,,OMC1185,,v1.0,JGI,Helsul1,,http://genome.jgi.doe.gov/Helsul1/download/Helsul1_GeneCatalog_proteins_20150720.aa.fasta.gz
+Hesseltinella,vesiculosa,,,,NRRL3301,,v2.0,JGI,Hesve2finisherSC,,http://genome.jgi.doe.gov/Hesve2finisherSC/download/Hesve2finisherSC_GeneCatalog_proteins_20150707.aa.fasta.gz
+Heterobasidion,annosum,,,,,,v2.0,JGI,Hetan2,,http://genome.jgi.doe.gov/Hetan2/download/Hannosum_v2.FilteredModels1.proteins.fasta.gz
+Heterogastridium,pycnidioideum,,ATCC MYA-4631,,,,v1.0,JGI,Hetpy1,,http://genome.jgi.doe.gov/Hetpy1/download/Hetpy1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Hexagonia,nitida,,,,CIRM-BRFM 1802,,v1.0,JGI,Hexnit1,,http://genome.jgi.doe.gov/Hexnit1/download/Hexnit1_GeneCatalog_proteins_20170619.aa.fasta.gz
+Histoplasma,capsulatum,,NAm1,,,,,JGI,Hisca1,,http://genome.jgi.doe.gov/Hisca1/download/Hisca1.all_proteins.BroadModels.gff3.gz.tar.gz
+Homoloaphlyctis,polyrhiza,,JEL 142,,,,v1.0,JGI,Hompol1,,http://genome.jgi.doe.gov/Hompol1/download/Hompol1_GeneCatalog_proteins_20160803.aa.fasta.gz
+Hortaea,acidophila,,,,CBS 113389,,v1.0,JGI,Horac1,,http://genome.jgi.doe.gov/Horac1/download/Horac1_GeneCatalog_proteins_20160326.aa.fasta.gz
+Hortaea,werneckii,,,,EXF-2000 M0,,v1.0,JGI,Horwer1,,http://genome.jgi.doe.gov/Horwer1/download/Horwer1_GeneCatalog_proteins_20160803.aa.fasta.gz
+Hyalopycnis,blepharistoma,,,,ATCC 48560,,v1.0,JGI,Hyabl1,,http://genome.jgi.doe.gov/Hyabl1/download/Hyabl1_GeneCatalog_proteins_20150410.aa.fasta.gz
+Hydnomerulius,pinastri,,,,,,v2.0,JGI,Hydpi2,,http://genome.jgi.doe.gov/Hydpi2/download/Hydpi2.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Hydnopolyporus,fimbriatus,,,,CBS 384.51,,v1.0,JGI,Hydfim1,,http://genome.jgi.doe.gov/Hydfim1/download/Hydfim1_GeneCatalog_proteins_20160510.aa.fasta.gz
+Hydnum,rufescens,,UP504,,,,v2.0,JGI,Hydru2,,http://genome.jgi.doe.gov/Hydru2/download/Hydru2_GeneCatalog_proteins_20150110.aa.fasta.gz
+Hymenopellis,radicata,,,,IJFM A160,,v1.0,JGI,Hymrad1,,http://genome.jgi.doe.gov/Hymrad1/download/Hymrad1_GeneCatalog_proteins_20151222.aa.fasta.gz
+Hymenoscyphus,varicosporoides,,,,PMI_453,,v1.0,JGI,Hymvar1,,http://genome.jgi.doe.gov/Hymvar1/download/Hymvar1_GeneCatalog_proteins_20161013.aa.fasta.gz
+Hypholoma,sublateritium,,,,,,v1.0,JGI,Hypsu1,,http://genome.jgi.doe.gov/Hypsu1/download/Hypsu1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Hyphopichia,burtonii,,NRRL Y-1933,,,,v1.0,JGI,Hypbu1,,http://genome.jgi.doe.gov/Hypbu1/download/Hypbu1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Hypoxylon,sp.,,CI-4A,,,,v1.0,JGI,HypCI4A_1,,http://genome.jgi.doe.gov/HypCI4A_1/download/HypCI4A_1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Hypoxylon,sp.,,CO27-5,,,,v1.0,JGI,HypCO275_1,,http://genome.jgi.doe.gov/HypCO275_1/download/HypCO275_1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Hypoxylon,sp.,,EC38,,,,v3.0,JGI,HypEC38_3,,http://genome.jgi.doe.gov/HypEC38_3/download/HypEC38_3.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Hysterium,pulicare,,,,,,,JGI,Hyspu1_1,,http://genome.jgi.doe.gov/Hyspu1_1/download/Hyspu1_1_GeneCatalog_proteins_20150205.aa.fasta.gz
+Ilyonectria,europaea,,,,CBS 129078,,v1.0,JGI,Ilyeu1,,http://genome.jgi.doe.gov/Ilyeu1/download/Ilyeu1_GeneCatalog_proteins_20170627.aa.fasta.gz
+Ilyonectria,robusta,,,,PMI_751,,v1.0,JGI,Ilyrob1,,http://genome.jgi.doe.gov/Ilyrob1/download/Ilyrob1_GeneCatalog_proteins_20161014.aa.fasta.gz
+Ilyonectria,sp.,,,,,,v1.0,JGI,Ilysp1,,http://genome.jgi.doe.gov/Ilysp1/download/Ilysp1.all_proteins.FilteredModels2.gff3.gz.tar.gz
+Irpex,lacteus,,,,CCBAS Fr. 238 617/93,,v1.0,JGI,Irplac1,,http://genome.jgi.doe.gov/Irplac1/download/Irplac1_GeneCatalog_proteins_20170103.aa.fasta.gz
+Jaapia,argillacea,,,,,,v1.0,JGI,Jaaar1,,http://genome.jgi.doe.gov/Jaaar1/download/Jaaar1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Jaminaea,sp.,,MCA 5214,,,,v1.0,JGI,Jamsp1,,http://genome.jgi.doe.gov/Jamsp1/download/Jamsp1_GeneCatalog_proteins_20141226.aa.fasta.gz
+Kalaharituber,pfeilii,,,,F3,,v1.0,JGI,Kalpfe1,,http://genome.jgi.doe.gov/Kalpfe1/download/Kalpfe1_GeneCatalog_proteins_20151214.aa.fasta.gz
+Karstenula,rhodostoma,,CBS 690.94,,,,v1.0,JGI,Karrh1,,http://genome.jgi.doe.gov/Karrh1/download/Karrh1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Kazachstania,africana,,CBS 2517,,,,,JGI,Kazaf1,,http://genome.jgi.doe.gov/Kazaf1/download/Kazaf1_GeneCatalog_proteins_20150111.aa.fasta.gz
+Khuskia,oryzae,,,,ATCC 28132,,v1.0,JGI,Khuory1,,http://genome.jgi.doe.gov/Khuory1/download/Khuory1_GeneCatalog_proteins_20160404.aa.fasta.gz
+Kickxella,alabastrina,,,,RSA 675,,v1.0,JGI,Kicala1,,http://genome.jgi.doe.gov/Kicala1/download/Kicala1_GeneCatalog_proteins_20170410.aa.fasta.gz
+Kluyveromyces,lactis,,,,,,,JGI,Klula1,,http://genome.jgi.doe.gov/Klula1/download/Klula1.all_proteins.ExternalModels.gff3.gz.tar.gz
+Kockovaella,imperatae,,,,NRRL Y-17943,,v1.0,JGI,Kocim1,,http://genome.jgi.doe.gov/Kocim1/download/Kocim1_GeneCatalog_proteins_20160906.aa.fasta.gz
+Kuraishia,capsulata,,CBS 1993,,,,,JGI,Kurca1,,http://genome.jgi.doe.gov/Kurca1/download/Kurca1_GeneCatalog_proteins_20160603.aa.fasta.gz
