@@ -1,54 +1,4 @@
 Genus,species,,ID,Synonym,Other ID,Origin,Version,Source,JGI ID,NCBI Tax ID,URL
-Dacryopinax,primogenitus,,,,DJM 731 SSP1,,v1.0,JGI,Dacsp1,,http://genome.jgi.doe.gov/Dacsp1/download/Dacsp1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Daedalea,quercina,,,,,,v1.0,JGI,Daequ1,,http://genome.jgi.doe.gov/Daequ1/download/Daequ1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Daldinia,eschscholzii,,EC12,,,,v1.0,JGI,DalEC12_1,,http://genome.jgi.doe.gov/DalEC12_1/download/DalEC12_1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Debaryomyces,hansenii,,,,,,,JGI,Debha1,,http://genome.jgi.doe.gov/Debha1/download/Debha1.all_proteins.ExternalModels.gff3.gz.tar.gz
-Decorospora,gaudefroyi,,,,,,v1.0,JGI,Decga1,,http://genome.jgi.doe.gov/Decga1/download/Decga1_GeneCatalog_proteins_20150425.aa.fasta.gz
-Dekkera,bruxellensis,,CBS 2499,,,,v2.0,JGI,Dekbr2,,http://genome.jgi.doe.gov/Dekbr2/download/Dekbr2.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Delitschia,confertaspora,,ATCC 74209,,,,v1.0,JGI,Delco1,,http://genome.jgi.doe.gov/Delco1/download/Delco1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Delphinella,strobiligena,,CBS 735.71,,,,v1.0,JGI,Delst1,,http://genome.jgi.doe.gov/Delst1/download/Delst1_GeneCatalog_proteins_20160906.aa.fasta.gz
-Dendrothele,bispora,,CBS 962.96,,,,v1.0,JGI,Denbi1,,http://genome.jgi.doe.gov/Denbi1/download/Denbi1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Dentipellis,sp.,,KUC8613,,,,v1.0,JGI,Densp1,,http://genome.jgi.doe.gov/Densp1/download/Densp1_GeneCatalog_proteins_20150825.aa.fasta.gz
-Diaporthe,ampelina,,UCDDA912,,,,,JGI,Diaam1,,http://genome.jgi.doe.gov/Diaam1/download/Diaam1_GeneCatalog_proteins_20150926.aa.fasta.gz
-Dichomitus,squalens,,CBS 463.89,,,,v1.0,JGI,Dicsqu463_1,,http://genome.jgi.doe.gov/Dicsqu463_1/download/Dicsqu463_1_GeneCatalog_proteins_20151203.aa.fasta.gz
-Dichomitus,squalens,,CBS 464.89,,,,v1.0,JGI,Dicsqu464_1,,http://genome.jgi.doe.gov/Dicsqu464_1/download/Dicsqu464_1_GeneCatalog_proteins_20151220.aa.fasta.gz
-Dichomitus,squalens,,LYAD-421 SS1,,,,v1.0,JGI,Dicsq1,,http://genome.jgi.doe.gov/Dicsq1/download/Dicsq1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Dichomitus,squalens,,OM18370.1,,,,v1.0,JGI,Dicsqu18370_1,,http://genome.jgi.doe.gov/Dicsqu18370_1/download/Dicsqu18370_1_GeneCatalog_proteins_20151202.aa.fasta.gz
-Dichotomocladium,elegans,,RSA -919,,,,v1.0,JGI,Dicele1,,http://genome.jgi.doe.gov/Dicele1/download/Dicele1_GeneCatalog_proteins_20170425.aa.fasta.gz
-Didymella,exigua,,CBS 183.55,,,,v1.0,JGI,Didex1,,http://genome.jgi.doe.gov/Didex1/download/Didex1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Didymella,zeae-maydis,,3018,,,,,JGI,Didma1,,http://genome.jgi.doe.gov/Didma1/download/Didma1_GeneCatalog_proteins_20160126.aa.fasta.gz
-Didymocrea,sadasivanii,,CBS 438.65,,,,v1.0,JGI,Didsa1,,http://genome.jgi.doe.gov/Didsa1/download/Didsa1_GeneCatalog_proteins_20170324.aa.fasta.gz
-Dioszegia,cryoxerica,,,,,,v1.0,JGI,Diocr1,,http://genome.jgi.doe.gov/Diocr1/download/Diocr1.all_proteins.FilteredModels2.gff3.gz.tar.gz
-Diplodia,seriata,,DS831,,,,,JGI,Dipse1,,http://genome.jgi.doe.gov/Dipse1/download/Dipse1_GeneCatalog_proteins_20150930.aa.fasta.gz
-Dissoconium,aciculare,,,,,,v1.0,JGI,Disac1,,http://genome.jgi.doe.gov/Disac1/download/Disac1.all_proteins.FilteredModels2.gff3.gz.tar.gz
-Dothidotthia,symphoricarpi,,,,,,v1.0,JGI,Dotsy1,,http://genome.jgi.doe.gov/Dotsy1/download/Dotsy1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Dothistroma,septosporum,,NZE10,,,,v1.0,JGI,Dotse1,,http://genome.jgi.doe.gov/Dotse1/download/Dotse1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Elsinoe,ampelina,,CECT 20119,,,,v1.0,JGI,Elsamp1,,http://genome.jgi.doe.gov/Elsamp1/download/Elsamp1_GeneCatalog_proteins_20151205.aa.fasta.gz
-Encephalitozoon,cuniculi,,GB-M1,,,,,JGI,Enccu1,,http://genome.jgi.doe.gov/Enccu1/download/Enccu1.all_proteins.GenoscopeModels.gff3.gz.tar.gz
-Encephalitozoon,hellem,,ATCC 50504,,,,,JGI,Enche1,,http://genome.jgi.doe.gov/Enche1/download/Enche1.all_proteins.ExternalModels.gff3.gz.tar.gz
-Encephalitozoon,intestinalis,,ATCC 50506,,,,,JGI,Encin1,,http://genome.jgi.doe.gov/Encin1/download/Encin1.all_proteins.ExternalModels.gff3.gz.tar.gz
-Encephalitozoon,romaleae,,SJ-2008,,,,,JGI,Encro1,,http://genome.jgi.doe.gov/Encro1/download/Encro1.all_proteins.ExternalModels.gff3.gz.tar.gz
-Endocarpon,pusillum,,Z07020,,,,,JGI,EndpusZ1,,http://genome.jgi.doe.gov/EndpusZ1/download/EndpusZ1_GeneCatalog_proteins_20161028.aa.fasta.gz
-Enterocytozoon,bieneusi,,H348,,,,,JGI,Entbi1,,http://genome.jgi.doe.gov/Entbi1/download/Entbi1.all_proteins.ExternalModels.gff3.gz.tar.gz
-Entoleuca,mammata,,CFL468,,,,v1.0,JGI,Entma1,,http://genome.jgi.doe.gov/Entma1/download/Entma1_GeneCatalog_proteins_20161112.aa.fasta.gz
-Entophlyctis,helioformis,,JEL805,,,,v1.0,JGI,Enthel1,,http://genome.jgi.doe.gov/Enthel1/download/Enthel1_GeneCatalog_proteins_20161121.aa.fasta.gz
-Eremomyces,bilateralis,,CBS 781.7,,,,v1.0,JGI,Erebi1,,http://genome.jgi.doe.gov/Erebi1/download/Erebi1_GeneCatalog_proteins_20150104.aa.fasta.gz
-Eremothecium,gossypii,,ATCC 10895,,,,,JGI,Ashgo1_1,,http://genome.jgi.doe.gov/Ashgo1_1/download/Ashgo1_1_GeneCatalog_proteins_20140830.aa.fasta.gz
-Erysiphe,necator,,c,,,NCBI,,JGI,Erynec1,,http://genome.jgi.doe.gov/Erynec1/download/Erynec1_GeneCatalog_proteins_20170914.aa.fasta.gz
-Erythrobasidium,hasegawianum,,ATCC 9536,,,,v1.0,JGI,Eryha1,,http://genome.jgi.doe.gov/Eryha1/download/Eryha1_GeneCatalog_proteins_20141112.aa.fasta.gz
-Eurotium,rubrum,,,,,,v1.0,JGI,Eurhe1,,http://genome.jgi.doe.gov/Eurhe1/download/Eurhe1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Eutypa,lata,,UCREL1,,,,,JGI,Eutla1,,http://genome.jgi.doe.gov/Eutla1/download/Eutla1.all_proteins.ExternalModels.gff3.gz.tar.gz
-Exidia,glandulosa,,,,,,v1.0,JGI,Exigl1,,http://genome.jgi.doe.gov/Exigl1/download/Exigl1_GeneCatalog_proteins_20130529.aa.fasta.gz
-Exobasidium,vaccinii,,MPITM,,,,v1.0,JGI,Exova1,,http://genome.jgi.doe.gov/Exova1/download/Exova1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Exophiala,alcalophila,,ATCC 48519,,,,v1.0,JGI,Exoalc1,,http://genome.jgi.doe.gov/Exoalc1/download/Exoalc1_GeneCatalog_proteins_20160519.aa.fasta.gz
-Exophiala,alcalophila,,J33,,,,v1.0,JGI,Exoalc1_J33,,http://genome.jgi.doe.gov/Exoalc1_J33/download/Exoalc1_J33_GeneCatalog_proteins_20160520.aa.fasta.gz
-Exophiala,aquamarina,,CBS 119918,,,,,JGI,Exoaq1,,http://genome.jgi.doe.gov/Exoaq1/download/Exoaq1_GeneCatalog_proteins_20160901.aa.fasta.gz
-Exophiala,dermatitidis,,UT8656,,,,,JGI,Exode1,,http://genome.jgi.doe.gov/Exode1/download/Exode1_GeneCatalog_proteins_20160902.aa.fasta.gz
-Exophiala,mesophila,,CBS 40295,,,,,JGI,Exome1,,http://genome.jgi.doe.gov/Exome1/download/Exome1_GeneCatalog_proteins_20160902.aa.fasta.gz
-Exophiala,oligosperma,,CBS 72588,,,,,JGI,Exool1,,http://genome.jgi.doe.gov/Exool1/download/Exool1_GeneCatalog_proteins_20160902.aa.fasta.gz
-Exophiala,sideris,,CBS 121828,,,,,JGI,Exosi1,,http://genome.jgi.doe.gov/Exosi1/download/Exosi1_GeneCatalog_proteins_20160902.aa.fasta.gz
-Exophiala,spinifera,,CBS 89968,,,,,JGI,Exosp1,,http://genome.jgi.doe.gov/Exosp1/download/Exosp1_GeneCatalog_proteins_20160827.aa.fasta.gz
-Exophiala,xenobiotica,,CBS 118157,,,,,JGI,Exoxe1,,http://genome.jgi.doe.gov/Exoxe1/download/Exoxe1_GeneCatalog_proteins_20160828.aa.fasta.gz
 Fellomyces,penicillatus,,Phaff54-35,,,,v1.0,JGI,Felpe1,,http://genome.jgi.doe.gov/Felpe1/download/Felpe1_GeneCatalog_proteins_20160326.aa.fasta.gz
 Fennellomyces,sp.,,T-0311,,,,v1.0,JGI,Fenlin1,,http://genome.jgi.doe.gov/Fenlin1/download/Fenlin1_GeneCatalog_proteins_20170109.aa.fasta.gz
 Fibroporia,radiculosa,,TFFH 294,,,,,JGI,Fibra1,,http://genome.jgi.doe.gov/Fibra1/download/Fibra1.all_proteins.ExternalModels.gff3.gz.tar.gz
@@ -899,3 +849,53 @@ Cylindrobasidium,torrendii,,,,FP15055,,v1.0,JGI,Cylto1,,http://genome.jgi.doe.go
 Cyphellophora,europaea,,CBS 101466,,,,,JGI,Cypeu1,,http://genome.jgi.doe.gov/Cypeu1/download/Cypeu1_GeneCatalog_proteins_20160902.aa.fasta.gz
 Cystostereum,murrayi,,,,CysMur001,,v1.0,JGI,Cysmur1,,http://genome.jgi.doe.gov/Cysmur1/download/Cysmur1_GeneCatalog_proteins_20160906.aa.fasta.gz
 Cytidiella,melzeri,,,,FP 102339,,v1.0,JGI,Cytmel1,,http://genome.jgi.doe.gov/Cytmel1/download/Cytmel1_GeneCatalog_proteins_20170103.aa.fasta.gz
+Dacryopinax,primogenitus,,,,DJM 731 SSP1,,v1.0,JGI,Dacsp1,,http://genome.jgi.doe.gov/Dacsp1/download/Dacsp1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Daedalea,quercina,,,,,,v1.0,JGI,Daequ1,,http://genome.jgi.doe.gov/Daequ1/download/Daequ1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Daldinia,eschscholzii,,,,EC12,,v1.0,JGI,DalEC12_1,,http://genome.jgi.doe.gov/DalEC12_1/download/DalEC12_1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Debaryomyces,hansenii,,,,,,,JGI,Debha1,,http://genome.jgi.doe.gov/Debha1/download/Debha1.all_proteins.ExternalModels.gff3.gz.tar.gz
+Decorospora,gaudefroyi,,,,,,v1.0,JGI,Decga1,,http://genome.jgi.doe.gov/Decga1/download/Decga1_GeneCatalog_proteins_20150425.aa.fasta.gz
+Dekkera,bruxellensis,,CBS 2499,,,,v2.0,JGI,Dekbr2,,http://genome.jgi.doe.gov/Dekbr2/download/Dekbr2.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Delitschia,confertaspora,,ATCC 74209,,,,v1.0,JGI,Delco1,,http://genome.jgi.doe.gov/Delco1/download/Delco1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Delphinella,strobiligena,,,,CBS 735.71,,v1.0,JGI,Delst1,,http://genome.jgi.doe.gov/Delst1/download/Delst1_GeneCatalog_proteins_20160906.aa.fasta.gz
+Dendrothele,bispora,,CBS 962.96,,,,v1.0,JGI,Denbi1,,http://genome.jgi.doe.gov/Denbi1/download/Denbi1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Dentipellis,sp.,,KUC8613,,,,v1.0,JGI,Densp1,,http://genome.jgi.doe.gov/Densp1/download/Densp1_GeneCatalog_proteins_20150825.aa.fasta.gz
+Diaporthe,ampelina,,,,UCDDA912,,,JGI,Diaam1,,http://genome.jgi.doe.gov/Diaam1/download/Diaam1_GeneCatalog_proteins_20150926.aa.fasta.gz
+Dichomitus,squalens,,,,CBS 463.89,,v1.0,JGI,Dicsqu463_1,,http://genome.jgi.doe.gov/Dicsqu463_1/download/Dicsqu463_1_GeneCatalog_proteins_20151203.aa.fasta.gz
+Dichomitus,squalens,,,,CBS 464.89,,v1.0,JGI,Dicsqu464_1,,http://genome.jgi.doe.gov/Dicsqu464_1/download/Dicsqu464_1_GeneCatalog_proteins_20151220.aa.fasta.gz
+Dichomitus,squalens,,LYAD-421 SS1,,,,v1.0,JGI,Dicsq1,,http://genome.jgi.doe.gov/Dicsq1/download/Dicsq1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Dichomitus,squalens,,,,OM18370.1,,v1.0,JGI,Dicsqu18370_1,,http://genome.jgi.doe.gov/Dicsqu18370_1/download/Dicsqu18370_1_GeneCatalog_proteins_20151202.aa.fasta.gz
+Dichotomocladium,elegans,,,,RSA 919,,v1.0,JGI,Dicele1,,http://genome.jgi.doe.gov/Dicele1/download/Dicele1_GeneCatalog_proteins_20170425.aa.fasta.gz
+Didymella,exigua,,CBS 183.55,,,,v1.0,JGI,Didex1,,http://genome.jgi.doe.gov/Didex1/download/Didex1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Didymella,zeae-maydis,,,,3018,,,JGI,Didma1,,http://genome.jgi.doe.gov/Didma1/download/Didma1_GeneCatalog_proteins_20160126.aa.fasta.gz
+Didymocrea,sadasivanii,,,,CBS 438.65,,v1.0,JGI,Didsa1,,http://genome.jgi.doe.gov/Didsa1/download/Didsa1_GeneCatalog_proteins_20170324.aa.fasta.gz
+Dioszegia,cryoxerica,,,,,,v1.0,JGI,Diocr1,,http://genome.jgi.doe.gov/Diocr1/download/Diocr1.all_proteins.FilteredModels2.gff3.gz.tar.gz
+Diplodia,seriata,,,,DS831,,,JGI,Dipse1,,http://genome.jgi.doe.gov/Dipse1/download/Dipse1_GeneCatalog_proteins_20150930.aa.fasta.gz
+Dissoconium,aciculare,,,,,,v1.0,JGI,Disac1,,http://genome.jgi.doe.gov/Disac1/download/Disac1.all_proteins.FilteredModels2.gff3.gz.tar.gz
+Dothidotthia,symphoricarpi,,,,,,v1.0,JGI,Dotsy1,,http://genome.jgi.doe.gov/Dotsy1/download/Dotsy1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Dothistroma,septosporum,,NZE10,,,,v1.0,JGI,Dotse1,,http://genome.jgi.doe.gov/Dotse1/download/Dotse1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Elsinoe,ampelina,,,,CECT 20119,,v1.0,JGI,Elsamp1,,http://genome.jgi.doe.gov/Elsamp1/download/Elsamp1_GeneCatalog_proteins_20151205.aa.fasta.gz
+Encephalitozoon,cuniculi,,GB-M1,,,,,JGI,Enccu1,,http://genome.jgi.doe.gov/Enccu1/download/Enccu1.all_proteins.GenoscopeModels.gff3.gz.tar.gz
+Encephalitozoon,hellem,,ATCC 50504,,,,,JGI,Enche1,,http://genome.jgi.doe.gov/Enche1/download/Enche1.all_proteins.ExternalModels.gff3.gz.tar.gz
+Encephalitozoon,intestinalis,,ATCC 50506,,,,,JGI,Encin1,,http://genome.jgi.doe.gov/Encin1/download/Encin1.all_proteins.ExternalModels.gff3.gz.tar.gz
+Encephalitozoon,romaleae,,SJ-2008,,,,,JGI,Encro1,,http://genome.jgi.doe.gov/Encro1/download/Encro1.all_proteins.ExternalModels.gff3.gz.tar.gz
+Endocarpon,pusillum,,Z07020,,,,,JGI,EndpusZ1,,http://genome.jgi.doe.gov/EndpusZ1/download/EndpusZ1_GeneCatalog_proteins_20161028.aa.fasta.gz
+Enterocytozoon,bieneusi,,H348,,,,,JGI,Entbi1,,http://genome.jgi.doe.gov/Entbi1/download/Entbi1.all_proteins.ExternalModels.gff3.gz.tar.gz
+Entoleuca,mammata,,,,CFL468,,v1.0,JGI,Entma1,,http://genome.jgi.doe.gov/Entma1/download/Entma1_GeneCatalog_proteins_20161112.aa.fasta.gz
+Entophlyctis,helioformis,,,,JEL805,,v1.0,JGI,Enthel1,,http://genome.jgi.doe.gov/Enthel1/download/Enthel1_GeneCatalog_proteins_20161121.aa.fasta.gz
+Eremomyces,bilateralis,,,,CBS 781.7,,v1.0,JGI,Erebi1,,http://genome.jgi.doe.gov/Erebi1/download/Erebi1_GeneCatalog_proteins_20150104.aa.fasta.gz
+Eremothecium,gossypii,,ATCC 10895,,,,,JGI,Ashgo1_1,,http://genome.jgi.doe.gov/Ashgo1_1/download/Ashgo1_1_GeneCatalog_proteins_20140830.aa.fasta.gz
+Erysiphe,necator,,,,,NCBI,,JGI,Erynec1,,http://genome.jgi.doe.gov/Erynec1/download/Erynec1_GeneCatalog_proteins_20170914.aa.fasta.gz
+Erythrobasidium,hasegawianum,,ATCC 9536,,,,v1.0,JGI,Eryha1,,http://genome.jgi.doe.gov/Eryha1/download/Eryha1_GeneCatalog_proteins_20141112.aa.fasta.gz
+Eurotium,rubrum,,,,,,v1.0,JGI,Eurhe1,,http://genome.jgi.doe.gov/Eurhe1/download/Eurhe1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Eutypa,lata,,UCREL1,,,,,JGI,Eutla1,,http://genome.jgi.doe.gov/Eutla1/download/Eutla1.all_proteins.ExternalModels.gff3.gz.tar.gz
+Exidia,glandulosa,,,,,,v1.0,JGI,Exigl1,,http://genome.jgi.doe.gov/Exigl1/download/Exigl1_GeneCatalog_proteins_20130529.aa.fasta.gz
+Exobasidium,vaccinii,,MPITM,,,,v1.0,JGI,Exova1,,http://genome.jgi.doe.gov/Exova1/download/Exova1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Exophiala,alcalophila,,,,ATCC 48519,,v1.0,JGI,Exoalc1,,http://genome.jgi.doe.gov/Exoalc1/download/Exoalc1_GeneCatalog_proteins_20160519.aa.fasta.gz
+Exophiala,alcalophila,,,,J33,,v1.0,JGI,Exoalc1_J33,,http://genome.jgi.doe.gov/Exoalc1_J33/download/Exoalc1_J33_GeneCatalog_proteins_20160520.aa.fasta.gz
+Exophiala,aquamarina,,CBS 119918,,,,,JGI,Exoaq1,,http://genome.jgi.doe.gov/Exoaq1/download/Exoaq1_GeneCatalog_proteins_20160901.aa.fasta.gz
+Exophiala,dermatitidis,,,,UT8656,,,JGI,Exode1,,http://genome.jgi.doe.gov/Exode1/download/Exode1_GeneCatalog_proteins_20160902.aa.fasta.gz
+Exophiala,mesophila,,,,CBS 40295,,,JGI,Exome1,,http://genome.jgi.doe.gov/Exome1/download/Exome1_GeneCatalog_proteins_20160902.aa.fasta.gz
+Exophiala,oligosperma,,,,CBS 72588,,,JGI,Exool1,,http://genome.jgi.doe.gov/Exool1/download/Exool1_GeneCatalog_proteins_20160902.aa.fasta.gz
+Exophiala,sideris,,,,CBS 121828,,,JGI,Exosi1,,http://genome.jgi.doe.gov/Exosi1/download/Exosi1_GeneCatalog_proteins_20160902.aa.fasta.gz
+Exophiala,spinifera,,,,CBS 89968,,,JGI,Exosp1,,http://genome.jgi.doe.gov/Exosp1/download/Exosp1_GeneCatalog_proteins_20160827.aa.fasta.gz
+Exophiala,xenobiotica,,,,CBS 118157,,,JGI,Exoxe1,,http://genome.jgi.doe.gov/Exoxe1/download/Exoxe1_GeneCatalog_proteins_20160828.aa.fasta.gz
