@@ -1,264 +1,4 @@
 Genus,species,,type,Synonym,other,Origin,Version,Source,JGI ID,NCBI Tax ID,URL
-Pycnoporus,coccineus,,BRFM310,,,,v1.0,JGI,Pycco1,,http://genome.jgi.doe.gov/Pycco1/download/Pycco1_GeneCatalog_proteins_20140114.aa.fasta.gz
-Pycnoporus,coccineus,,,,CIRM1662,,,JGI,Pycco1662_1,,http://genome.jgi.doe.gov/Pycco1662_1/download/Pycco1662_1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Pycnoporus,puniceus,,,,CIRM-BRFM 1868,,v1.0,JGI,Pycpun1,,http://genome.jgi.doe.gov/Pycpun1/download/Pycpun1_GeneCatalog_proteins_20160226.aa.fasta.gz
-Trametes,sanguinea,,,Pycnoporus sanguineus ,BRFM 1264,,v1.0,JGI,Pycsa1,,http://genome.jgi.doe.gov/Pycsa1/download/Pycsa1_GeneCatalog_proteins_20140123.aa.fasta.gz
-Pyrenochaeta,lycopersici,,,,ISPaVe ER 1252,,v1.0,JGI,Pyrly1,,http://genome.jgi.doe.gov/Pyrly1/download/Pyrly1_GeneCatalog_proteins_20170623.aa.fasta.gz
-Pyrenochaeta,sp.,,,,DS3sAY3a,,v1.0,JGI,Pyrsp1,,http://genome.jgi.doe.gov/Pyrsp1/download/Pyrsp1_GeneCatalog_proteins_20141006.aa.fasta.gz
-Pyrenophora,teres,f. teres,,,,,,JGI,Pyrtt1,,http://genome.jgi.doe.gov/Pyrtt1/download/Pyrtt1.all_proteins.ExternalModels.gff3.gz.tar.gz
-Pyrenophora,tritici-repentis,,,,,,,JGI,Pyrtr1,,http://genome.jgi.doe.gov/Pyrtr1/download/Pyrenophora_tritici_repentis_proteins.fasta.gz
-Pyronema,confluens,,CBS 100304,,,,,JGI,Pyrco1,,http://genome.jgi.doe.gov/Pyrco1/download/Pyrco1.all_proteins.ExternalModels.gff3.gz.tar.gz
-Radiomyces,spectabilis,,,,NRRL 2753,,v1.0,JGI,Radspe1,,http://genome.jgi.doe.gov/Radspe1/download/Radspe1_GeneCatalog_proteins_20161011.aa.fasta.gz
-Ramaria,rubella,,,,UT-36052-T,,v1.0,JGI,Ramac1,,http://genome.jgi.doe.gov/Ramac1/download/Ramac1.all_proteins.FilteredModels5.gff3.gz.tar.gz
-Ramicandelaber,brevisporus,,CBS 109374,,,,v1.0,JGI,Rambr1,,http://genome.jgi.doe.gov/Rambr1/download/Rambr1_GeneCatalog_proteins_20140929.aa.fasta.gz
-Rhizoclosmatium,globosum,,,,JEL800,,v1.0,JGI,Rhihy1,,http://genome.jgi.doe.gov/Rhihy1/download/Rhihy1_GeneCatalog_proteins_20151219.aa.fasta.gz
-Rhizoctonia,solani,,AG-1 IB,,,,,JGI,Rhiso1,,http://genome.jgi.doe.gov/Rhiso1/download/Rhiso1.all_proteins.ExternalModels.gff3.gz.tar.gz
-Rhizodiscina,lignyota,,,,CBS 133067,,v1.0,JGI,Rhili1,,http://genome.jgi.doe.gov/Rhili1/download/Rhili1_GeneCatalog_proteins_20150422.aa.fasta.gz
-Rhizophagus,irregularis,,DAOM 181602,,,,v1.0,JGI,Gloin1,,http://genome.jgi.doe.gov/Gloin1/download/Gloin1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Rhizopogon,salebrosus,,TDB-379,,,,v1.0,JGI,Rhisa1,,http://genome.jgi.doe.gov/Rhisa1/download/Rhisa1_GeneCatalog_proteins_20141012.aa.fasta.gz
-Rhizopogon,vesiculosus,,,,Smith,,,JGI,Rhives1,,http://genome.jgi.doe.gov/Rhives1/download/Rhives1_GeneCatalog_proteins_20170403.aa.fasta.gz
-Rhizopogon,vinicolor,,AM-OR11-026,,,,v1.0,JGI,Rhivi1,,http://genome.jgi.doe.gov/Rhivi1/download/Rhivi1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Rhizopus,delemar,,RA 99-880,,,BROAD,,JGI,Rhior3,,http://genome.jgi.doe.gov/Rhior3/download/Rhior3.all_proteins.BroadGene.gff3.gz.tar.gz
-Rhizopus,microsporus,,,,ATCC 11559,,v1.0,JGI,Rhimi_ATCC11559_1,,http://genome.jgi.doe.gov/Rhimi_ATCC11559_1/download/Rhimi_ATCC11559_1_GeneCatalog_proteins_20150408.aa.fasta.gz
-Rhizopus,microsporus,var. chinensis,CCTCC M201021,,,,,JGI,Rhich1,,http://genome.jgi.doe.gov/Rhich1/download/Rhich1.all_proteins.ExternalModels.gff3.gz.tar.gz
-Rhizopus,microsporus,var. microsporus,,,ATCC 52813,,v1.0,JGI,Rhimi1_1,,http://genome.jgi.doe.gov/Rhimi1_1/download/Rhimi1_1.all_proteins.FilteredModels2.gff3.gz.tar.gz
-Rhizopus,microsporus,var. microsporus,,,ATCC 52814,,v1.0,JGI,Rhimi_ATCC52814_1,,http://genome.jgi.doe.gov/Rhimi_ATCC52814_1/download/Rhimi_ATCC52814_1_GeneCatalog_proteins_20150309.aa.fasta.gz
-Rhizoscyphus,ericae,,,,UAMH 7357,,v1.0,JGI,Rhier1,,http://genome.jgi.doe.gov/Rhier1/download/Rhier1_GeneCatalog_proteins_20141012.aa.fasta.gz
-Rhodocollybia,butyracea,,,,AH 40177,,v1.0,JGI,Rhobut1_1,,http://genome.jgi.doe.gov/Rhobut1_1/download/Rhobut1_1_GeneCatalog_proteins_20160415.aa.fasta.gz
-Rhodotorula,glutinis,,,,,,v1.0,JGI,Rhoglu1,,http://genome.jgi.doe.gov/Rhoglu1/download/Rhoglu1_GeneCatalog_proteins_20160519.aa.fasta.gz
-Rhodotorula,graminis,,strain WP1,,,,v1.1,JGI,Rhoba1_1,,http://genome.jgi.doe.gov/Rhoba1_1/download/Rhoba1_1.all_proteins.FilteredModels2.gff3.gz.tar.gz
-Rhodotorula,minuta,,MCA 4210,,,,v1.0,JGI,Rhomi1,,http://genome.jgi.doe.gov/Rhomi1/download/Rhomi1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Rhodotorula,mucilaginosa,,,,ATCC58901,,v1.0,JGI,Rhomuc1,,http://genome.jgi.doe.gov/Rhomuc1/download/Rhomuc1_GeneCatalog_proteins_20160519.aa.fasta.gz
-Rhodotorula,sp.,,,,J31,,v1.0,JGI,RhodotJ31_1,,http://genome.jgi.doe.gov/RhodotJ31_1/download/RhodotJ31_1_GeneCatalog_proteins_20160519.aa.fasta.gz
-Rhodotorula,sp.,,JG-1b,,,,,JGI,Rhosp1,,http://genome.jgi.doe.gov/Rhosp1/download/Rhosp1_GeneCatalog_proteins_20140409.aa.fasta.gz
-Rhytidhysteron,rufulum,,,,,,,JGI,Rhyru1_1,,http://genome.jgi.doe.gov/Rhyru1_1/download/Rhyru1_1_GeneCatalog_proteins_20150204.aa.fasta.gz
-Rickenella,fibula,,,,HBK330-10,,v1.0,JGI,Ricfib1,,http://genome.jgi.doe.gov/Ricfib1/download/Ricfib1_GeneCatalog_proteins_20160317.aa.fasta.gz
-Rickenella,mellea,,,,,,v1.0,JGI,Ricmel1,,http://genome.jgi.doe.gov/Ricmel1/download/Ricmel1_GeneCatalog_proteins_20151108.aa.fasta.gz
-Rigidoporus,microporus,,,,ED310,,v1.0,JGI,Rigmic1,,http://genome.jgi.doe.gov/Rigmic1/download/Rigmic1_GeneCatalog_proteins_20170307.aa.fasta.gz
-Rozella,allomycis,,CSF55,,,,,JGI,Rozal1_1,,http://genome.jgi.doe.gov/Rozal1_1/download/Rozal1_1.all_proteins.ExternalModels.gff3.gz.tar.gz
-Russula,brevipes,,,,BPL707,,v1.0,JGI,Rusbre1,,http://genome.jgi.doe.gov/Rusbre1/download/Rusbre1_GeneCatalog_proteins_20161010.aa.fasta.gz
-Russula,compacta,,,,BPL669,,v1.0,JGI,Ruscom1,,http://genome.jgi.doe.gov/Ruscom1/download/Ruscom1_GeneCatalog_proteins_20170112.aa.fasta.gz
-Russula,dissimulans,,,,BPL704,,v1.0,JGI,Rusdis1,,http://genome.jgi.doe.gov/Rusdis1/download/Rusdis1_GeneCatalog_proteins_20160910.aa.fasta.gz
-Russula,rugulosa,,,,BPL654,,v1.0,JGI,Rusrug1,,http://genome.jgi.doe.gov/Rusrug1/download/Rusrug1_GeneCatalog_proteins_20161111.aa.fasta.gz
-Russula,vinacea,,,,BPL710,,v1.0,JGI,Rusvin1,,http://genome.jgi.doe.gov/Rusvin1/download/Rusvin1_GeneCatalog_proteins_20170417.aa.fasta.gz
-Rutstroemia,firma,,,,CBS 115.86,,v1.0,JGI,Rutfi1,,http://genome.jgi.doe.gov/Rutfi1/download/Rutfi1_GeneCatalog_proteins_20150501.aa.fasta.gz
-Saccharata,proteae,,,,CBS 121410,,v1.0,JGI,Sacpr1,,http://genome.jgi.doe.gov/Sacpr1/download/Sacpr1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Saccharomyces,cerevisiae,,M3707 Dikaryon,,,,,JGI,SacceM3707_1,,http://genome.jgi.doe.gov/SacceM3707_1/download/SacceM3707_1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Saccharomyces,cerevisiae,,M3836,,,,v1.0,JGI,SacceM3836_1,,http://genome.jgi.doe.gov/SacceM3836_1/download/SacceM3836_1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Saccharomyces,cerevisiae,,M3837,,,,v1.0,JGI,SacceM3837_1,,http://genome.jgi.doe.gov/SacceM3837_1/download/SacceM3837_1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Saccharomyces,cerevisiae,,M3838,,,,v1.0,JGI,SacceM3838_1,,http://genome.jgi.doe.gov/SacceM3838_1/download/SacceM3838_1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Saccharomyces,cerevisiae,,M3839,,,,v1.0,JGI,SacceM3839_1,,http://genome.jgi.doe.gov/SacceM3839_1/download/SacceM3839_1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Saccharomyces,cerevisiae,,S288C,,,,,JGI,Sacce1,,http://genome.jgi.doe.gov/Sacce1/download/Sacce1.all_proteins.ExternalModels.gff3.gz.tar.gz
-Saccharomyces,cerevisiae,,YB210,,,,v1.0,JGI,SacceYB210_1,,http://genome.jgi.doe.gov/SacceYB210_1/download/SacceYB210_1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Saitoella,complicata,,NRRL Y-17804,,,,v1.0,JGI,Saico1,,http://genome.jgi.doe.gov/Saico1/download/Saico1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Saksenaea,vasiformis,,B4078,,,,,JGI,Sakvas1,,http://genome.jgi.doe.gov/Sakvas1/download/Sakvas1_GeneCatalog_proteins_20160730.aa.fasta.gz
-Sarcoscypha,coccinea,,ATCC 58028,,,,v1.0,JGI,Sarco1,,http://genome.jgi.doe.gov/Sarco1/download/Sarco1_GeneCatalog_proteins_20150213.aa.fasta.gz
-Schizophyllum,commune,,H4-8,,,,v3.0,JGI,Schco3,,http://genome.jgi.doe.gov/Schco3/download/Schco3.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Schizophyllum,commune,,Loenen D,,,,v1.0,JGI,Schco_LoeD_1,,http://genome.jgi.doe.gov/Schco_LoeD_1/download/Schco_LoeD_1.all_proteins.FilteredModels2.gff3.gz.tar.gz
-Schizophyllum,commune,,Tattone D,,,,v1.0,JGI,Schco_TatD_1,,http://genome.jgi.doe.gov/Schco_TatD_1/download/Schco_TatD_1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Schizopora,paradoxa,,KUC8140,,,,v1.0,JGI,Schpa1,,http://genome.jgi.doe.gov/Schpa1/download/Schpa1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Schizosaccharomyces,cryophilus,,OY26,,,,,JGI,Schcy1,,http://genome.jgi.doe.gov/Schcy1/download/Schcy1.all_proteins.BroadModels.gff3.gz.tar.gz
-Schizosaccharomyces,japonicus,,yFS275,,,,,JGI,Schja1,,http://genome.jgi.doe.gov/Schja1/download/Schja1.all_proteins.BroadModels.gff3.gz.tar.gz
-Schizosaccharomyces,octosporus,,yFS286,,,,,JGI,Schoc1,,http://genome.jgi.doe.gov/Schoc1/download/Schoc1.all_proteins.BroadModels.gff3.gz.tar.gz
-Schizosaccharomyces,pombe,,,,,,,JGI,Schpo1,,http://genome.jgi.doe.gov/Schpo1/download/Schpo1.all_proteins.ExternalModels.gff3.gz.tar.gz
-Schizothecium,vesticola,,SMH3187-1,,,,v1.0,JGI,Schves1,,http://genome.jgi.doe.gov/Schves1/download/Schves1_GeneCatalog_proteins_20170615.aa.fasta.gz
-Scleroderma,citrinum,,Foug A,,,,v1.0,JGI,Sclci1,,http://genome.jgi.doe.gov/Sclci1/download/Sclci1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Sclerogaster,hysterangioides,,SCL2.BST,,,,v1.0,JGI,Sclhys1_1,,http://genome.jgi.doe.gov/Sclhys1_1/download/Sclhys1_1_GeneCatalog_proteins_20160415.aa.fasta.gz
-Sclerophora,sanguinea,,CBS 100924,,,,v1.0,JGI,Sclsan1,,http://genome.jgi.doe.gov/Sclsan1/download/Sclsan1_GeneCatalog_proteins_20170329.aa.fasta.gz
-Sclerotinia,sclerotiorum,,,,,,v1.0,JGI,Sclsc1,,http://genome.jgi.doe.gov/Sclsc1/download/Sclsc1.all_proteins.ExternalModels.gff3.gz.tar.gz
-Scytinostroma,sp.,,KUC9335,,,,v1.0,JGI,Scysp1_1,,http://genome.jgi.doe.gov/Scysp1_1/download/Scysp1_1_GeneCatalog_proteins_20160715.aa.fasta.gz
-Sebacina,vermifera,,MAFF 305830,,,,v1.0,JGI,Sebve1,,http://genome.jgi.doe.gov/Sebve1/download/Sebve1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Sebacina,vermifera,,ssp. bescii,,,,v1.0,JGI,Sebvebe1,,http://genome.jgi.doe.gov/Sebvebe1/download/Sebvebe1_GeneCatalog_proteins_20150401.aa.fasta.gz
-Septobasidium,sp.,,PNB30-8B,,,,v1.0,JGI,Sepsp1,,http://genome.jgi.doe.gov/Sepsp1/download/Sepsp1_GeneCatalog_proteins_20150424.aa.fasta.gz
-Septoria,musiva,,SO2202,,,,v1.0,JGI,Sepmu1,,http://genome.jgi.doe.gov/Sepmu1/download/Sepmu1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Septoria,populicola,,,,,,v1.0,JGI,Seppo1,,http://genome.jgi.doe.gov/Seppo1/download/Seppo1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Serpula,lacrymans,,S7.3,,,,v2.0,JGI,SerlaS7_3_2,,http://genome.jgi.doe.gov/SerlaS7_3_2/download/SerlaS7_3_2.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Serpula,lacrymans,,S7.9,,,,v2.0,JGI,SerlaS7_9_2,,http://genome.jgi.doe.gov/SerlaS7_9_2/download/SerlaS7_9_2.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Serpula,lacrymans,var shastensis,SHA21-2,,,,v1.0,JGI,Serla_varsha1,,http://genome.jgi.doe.gov/Serla_varsha1/download/Serla_varsha1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Setomelanomma,holmii,,CBS 110217,,,,v1.0,JGI,Setho1,,http://genome.jgi.doe.gov/Setho1/download/Setho1_GeneCatalog_proteins_20150424.aa.fasta.gz
-Setosphaeria,turcica,,Et28A,,,,v1.0,JGI,Settu1,,http://genome.jgi.doe.gov/Settu1/download/Settu1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Setosphaeria,turcica,,NY001,,,,v1.0,JGI,Settur1,,http://genome.jgi.doe.gov/Settur1/download/Settur1_GeneCatalog_proteins_20150706.aa.fasta.gz
-Sirobasidium,intermedium,,CBS 7805,,,,v1.0,JGI,Sirint1,,http://genome.jgi.doe.gov/Sirint1/download/Sirint1_GeneCatalog_proteins_20160411.aa.fasta.gz
-Sistotremastrum,niveocremeum,,HHB9708 ss-1 1,,,,,JGI,Sisni1,,http://genome.jgi.doe.gov/Sisni1/download/Sisni1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Sistotremastrum,suecicum,,,,,,v1.0,JGI,Sissu1,,http://genome.jgi.doe.gov/Sissu1/download/Sissu1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Smittium,culicis,,GSMNP,,,,,JGI,SmicuMNP_2,,http://genome.jgi.doe.gov/SmicuMNP_2/download/SmicuMNP_2_GeneCatalog_proteins_20170807.aa.fasta.gz
-Smittium,culicis,,ID-206-W2,,,,,JGI,SmiculW2_1,,http://genome.jgi.doe.gov/SmiculW2_1/download/SmiculW2_1_GeneCatalog_proteins_20170804.aa.fasta.gz
-Smittium,mucronatum,,ALG-7-W6,,,,,JGI,Smimuc2,,http://genome.jgi.doe.gov/Smimuc2/download/Smimuc2_GeneCatalog_proteins_20170808.aa.fasta.gz
-Sodiomyces,alkalinus,,,,,,v1.0,JGI,Sodal1,,http://genome.jgi.doe.gov/Sodal1/download/Sodal1_GeneCatalog_proteins_20130716.aa.fasta.gz
-Sparassis,latifolia,,CCMJ1100,,,,v1.0,JGI,Spalat1,,http://genome.jgi.doe.gov/Spalat1/download/Spalat1_GeneCatalog_proteins_20161107.aa.fasta.gz
-Spathaspora,passalidarum,,NRRL Y-27907,,,,v2.0,JGI,Spapa3,,http://genome.jgi.doe.gov/Spapa3/download/Spapa3.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Spathularia,flavida,,,,,,,JGI,Spafl1,,http://genome.jgi.doe.gov/Spafl1/download/Spafl1.all_proteins.ExternalModels.gff3.gz.tar.gz
-Sphaerobolus,stellatus,,,,,,v1.0,JGI,Sphst1,,http://genome.jgi.doe.gov/Sphst1/download/Sphst1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Spinellus,fusiger,,NRRL 22323,,,,v1.0,JGI,Spifus1,,http://genome.jgi.doe.gov/Spifus1/download/Spifus1_GeneCatalog_proteins_20161021.aa.fasta.gz
-Spizellomyces,punctatus,,DAOM BR117,,,,,JGI,Spipu1,,http://genome.jgi.doe.gov/Spipu1/download/Spipu1.all_proteins.BroadModels.gff3.gz.tar.gz
-Sporidiobolus,pararoseus,,Phaff 68-350,,,,v1.0,JGI,Spopa1,,http://genome.jgi.doe.gov/Spopa1/download/Spopa1_GeneCatalog_proteins_20160208.aa.fasta.gz
-Sporisorium,reilianum,,SRZ2,,,,,JGI,Spore1,,http://genome.jgi.doe.gov/Spore1/download/Spore1.all_proteins.ExternalModels.gff3.gz.tar.gz
-Sporobolomyces,linderae,,CBS 7893,,,,v1.0,JGI,Spoli1,,http://genome.jgi.doe.gov/Spoli1/download/Spoli1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Sporobolomyces,roseus,,,,,,v1.0,JGI,Sporo1,,http://genome.jgi.doe.gov/Sporo1/download/Sporo1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Sporodiniella,umbellata,,MES 1446,,,,v1.0,JGI,Spoumb1,,http://genome.jgi.doe.gov/Spoumb1/download/Spoumb1_GeneCatalog_proteins_20170626.aa.fasta.gz
-Sporopachydermia,lactativora,,Phaff 68-199,,,,v1.0,JGI,Spola1,,http://genome.jgi.doe.gov/Spola1/download/Spola1_GeneCatalog_proteins_20160222.aa.fasta.gz
-Sporormia,fimetaria,,,,,,v1.0,JGI,Spofi1,,http://genome.jgi.doe.gov/Spofi1/download/Spofi1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Stachybotrys,elegans,,LAHC-LSPK-M15,,,,v1.0,JGI,Stael1,,http://genome.jgi.doe.gov/Stael1/download/Stael1_GeneCatalog_proteins_20170424.aa.fasta.gz
-Stagonospora,nodorum,,SN15,,,,v2.0,JGI,Stano2,,http://genome.jgi.doe.gov/Stano2/download/Stano2.all_proteins.ExternalModels.gff3.gz.tar.gz
-Stagonospora,sp.,,SRC1lsM3a,,,,v1.0,JGI,Stasp1,,http://genome.jgi.doe.gov/Stasp1/download/Stasp1_GeneCatalog_proteins_20141004.aa.fasta.gz
-Stanjemonium,grisellum,,CBS 655.79,,,,v1.0,JGI,Stagr1,,http://genome.jgi.doe.gov/Stagr1/download/Stagr1_GeneCatalog_proteins_20141015.aa.fasta.gz
-Stemphylium,lycopersici,,CIDEFI-216,,,,,JGI,Stely1,,http://genome.jgi.doe.gov/Stely1/download/Stely1_GeneCatalog_proteins_20170711.aa.fasta.gz
-Stereum,hirsutum,,FP-91666 SS1,,,,v1.0,JGI,Stehi1,,http://genome.jgi.doe.gov/Stehi1/download/Stehi1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Sugiyamaella,americana,,NRRL YB-2067,,,,v1.0,JGI,Sugame1,,http://genome.jgi.doe.gov/Sugame1/download/Sugame1_GeneCatalog_proteins_20160411.aa.fasta.gz
-Suillus,americanus,,EM31,,,,v1.0,JGI,Suiame1,,http://genome.jgi.doe.gov/Suiame1/download/Suiame1_GeneCatalog_proteins_20151214.aa.fasta.gz
-Suillus,brevipes,,Sb2,,,,v2.0,JGI,Suibr2,,http://genome.jgi.doe.gov/Suibr2/download/Suibr2_GeneCatalog_proteins_20150912.aa.fasta.gz
-Suillus,decipiens,,EM49,,,,v1.0,JGI,Suidec1,,http://genome.jgi.doe.gov/Suidec1/download/Suidec1_GeneCatalog_proteins_20150904.aa.fasta.gz
-Suillus,granulatus,,EM37,,,,v1.0,JGI,Suigr1,,http://genome.jgi.doe.gov/Suigr1/download/Suigr1_GeneCatalog_proteins_20150504.aa.fasta.gz
-Suillus,hirtellus,,EM16,,,,v1.0,JGI,Suihi1,,http://genome.jgi.doe.gov/Suihi1/download/Suihi1_GeneCatalog_proteins_20150416.aa.fasta.gz
-Suillus,luteus,,UH-Slu-Lm8-n1,,,,v3.0,JGI,Suilu4,,http://genome.jgi.doe.gov/Suilu4/download/Suilu4_GeneCatalog_proteins_20170628.aa.fasta.gz
-Suillus,pictus,,EM44,,,,v1.0,JGI,Suipic1,,http://genome.jgi.doe.gov/Suipic1/download/Suipic1_GeneCatalog_proteins_20160216.aa.fasta.gz
-Suillus,tomentosus,,FC115,,,,v1.0,JGI,Suitom1,,http://genome.jgi.doe.gov/Suitom1/download/Suitom1_GeneCatalog_proteins_20170729.aa.fasta.gz
-Symbiotaphrina,kochii,,,,,,v1.0,JGI,Symko1,,http://genome.jgi.doe.gov/Symko1/download/Symko1.all_proteins.FilteredModels2.gff3.gz.tar.gz
-Sympodiomyces,attinorum,,NRRL Y-27639,,,,v1.0,JGI,Symat1,,http://genome.jgi.doe.gov/Symat1/download/Symat1_GeneCatalog_proteins_20150304.aa.fasta.gz
-Syncephalastrum,racemosum,,NRRL 2496,,,,v1.0,JGI,Synrac1,,http://genome.jgi.doe.gov/Synrac1/download/Synrac1_GeneCatalog_proteins_20160125.aa.fasta.gz
-Syncephalis,fuscata,,S228,,,,v1.0,JGI,Synfus1,,http://genome.jgi.doe.gov/Synfus1/download/Synfus1_GeneCatalog_proteins_20170105.aa.fasta.gz
-Syncephalis,plumigaleata,,NRRL S24,,,,v1.0,JGI,Synplu1,,http://genome.jgi.doe.gov/Synplu1/download/Synplu1_GeneCatalog_proteins_20160902.aa.fasta.gz
-Talaromyces,aculeatus,,ATCC 10409,,,,v1.0,JGI,Penac1,,http://genome.jgi.doe.gov/Penac1/download/Penac1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Talaromyces,marneffei,,ATCC 18224,,,,,JGI,Talma1_2,,http://genome.jgi.doe.gov/Talma1_2/download/Talma1_2.all_proteins.ExternalModels.gff3.gz.tar.gz
-Talaromyces,proteolyticus,,PMI_201,,,,v1.0,JGI,Talpro1,,http://genome.jgi.doe.gov/Talpro1/download/Talpro1_GeneCatalog_proteins_20161118.aa.fasta.gz
-Talaromyces,stipitatus,,ATCC 10500,,,,,JGI,Talst1_2,,http://genome.jgi.doe.gov/Talst1_2/download/Talst1_2.all_proteins.JCVIModels.gff3.gz.tar.gz
-Taphrina,deformans,,,,,,,JGI,Tapde1_1,,http://genome.jgi.doe.gov/Tapde1_1/download/Tapde1_1.all_proteins.ExternalModels.gff3.gz.tar.gz
-Teratosphaeria,nubilosa,,CBS 116005,,,,v1.0,JGI,Ternu1,,http://genome.jgi.doe.gov/Ternu1/download/Ternu1_GeneCatalog_proteins_20140925.aa.fasta.gz
-Terfezia,boudieri,,ATCC MYA-4762,,,,v1.1,JGI,Terbo2,,http://genome.jgi.doe.gov/Terbo2/download/Terbo2_GeneCatalog_proteins_20141124.aa.fasta.gz
-Terfezia,claveryi,,T7,,,,v1.0,JGI,Tercla1,,http://genome.jgi.doe.gov/Tercla1/download/Tercla1_GeneCatalog_proteins_20170113.aa.fasta.gz
-Testicularia,cyperi,,MCA 3645,,,,v1.0,JGI,Tescy1,,http://genome.jgi.doe.gov/Tescy1/download/Tescy1_GeneCatalog_proteins_20150113.aa.fasta.gz
-Thamnidium,elegans,,,,,,v1.0,JGI,Thaele1,,http://genome.jgi.doe.gov/Thaele1/download/Thaele1_GeneCatalog_proteins_20160208.aa.fasta.gz
-Thanatephorus,cucumeris,,PT424,,,,v1.0,JGI,Thacu1,,http://genome.jgi.doe.gov/Thacu1/download/Thacu1_GeneCatalog_proteins_20170424.aa.fasta.gz
-Thelebolus,microsporus,,ATCC 90970,,,,v1.0,JGI,Themi1,,http://genome.jgi.doe.gov/Themi1/download/Themi1_GeneCatalog_proteins_20141205.aa.fasta.gz
-Thelebolus,stercoreus,,,,,,,JGI,Thest1,,http://genome.jgi.doe.gov/Thest1/download/Thest1.all_proteins.ExternalModels.gff3.gz.tar.gz
-Thelephora,ganbajun,,P2,,,,v1.0,JGI,Thega1,,http://genome.jgi.doe.gov/Thega1/download/Thega1_GeneCatalog_proteins_20150318.aa.fasta.gz
-Thermoascus,aurantiacus,,,,,,v1.0,JGI,Theau1,,http://genome.jgi.doe.gov/Theau1/download/Theau1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Thermomyces,lanuginosus,,SSBP,,,,,JGI,Thelan1,,http://genome.jgi.doe.gov/Thelan1/download/Thelan1_GeneCatalog_proteins_20160730.aa.fasta.gz
-Thielavia,antarctica,,CBS 123565,,,,v1.0,JGI,Thian1,,http://genome.jgi.doe.gov/Thian1/download/Thian1.all_proteins.FilteredModels2.gff3.gz.tar.gz
-Thielavia,appendiculata,,CBS 731.68,,,,v1.0,JGI,Thiap1,,http://genome.jgi.doe.gov/Thiap1/download/Thiap1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Thielavia,arenaria,,CBS 508.74,,,,v1.0,JGI,Thiar1,,http://genome.jgi.doe.gov/Thiar1/download/Thiar1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Thielavia,hyrcaniae,,CBS 757.83,,,,v1.0,JGI,Thihy1,,http://genome.jgi.doe.gov/Thihy1/download/Thihy1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Thielavia,terrestris,,,,,,v2.0,JGI,Thite2,,http://genome.jgi.doe.gov/Thite2/download/Thite2.all_proteins.FilteredModels2.gff3.gz.tar.gz
-Thozetella,sp.,,PMI_491,,,,v2.0,JGI,ThoPMI491_1,,http://genome.jgi.doe.gov/ThoPMI491_1/download/ThoPMI491_1_GeneCatalog_proteins_20140726.aa.fasta.gz
-Tilletiaria,anomala,,UBC 951,,,,v1.0,JGI,Tilan2,,http://genome.jgi.doe.gov/Tilan2/download/Tilan2.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Tilletiopsis,albescens,,,,,,v1.0,JGI,Tilalb1,,http://genome.jgi.doe.gov/Tilalb1/download/Tilalb1_GeneCatalog_proteins_20160202.aa.fasta.gz
-Tilletiopsis,sp.,,TKC30,,,,v1.0,JGI,Tillet1,,http://genome.jgi.doe.gov/Tillet1/download/Tillet1_GeneCatalog_proteins_20170626.aa.fasta.gz
-Tilletiopsis,washingtonensis,,MCA 4186,,,,v1.0,JGI,Tilwa1,,http://genome.jgi.doe.gov/Tilwa1/download/Tilwa1_GeneCatalog_proteins_20141225.aa.fasta.gz
-Tolypocladium,inflatum,,NRRL 8044,,,,,JGI,Tolinf1,,http://genome.jgi.doe.gov/Tolinf1/download/Tolinf1_GeneCatalog_proteins_20160803.aa.fasta.gz
-Torpedospora,radiata,,JK5252C,,,,v1.0,JGI,Torra1,,http://genome.jgi.doe.gov/Torra1/download/Torra1_GeneCatalog_proteins_20150428.aa.fasta.gz
-Tortispora,caseinolytica,,Y-17796,,,,v1.0,JGI,Canca1,,http://genome.jgi.doe.gov/Canca1/download/Canca1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Torulaspora,delbrueckii,,CBS 1146,,,,,JGI,Torde1,,http://genome.jgi.doe.gov/Torde1/download/Torde1_GeneCatalog_proteins_20150128.aa.fasta.gz
-Tothia,fuscella,,CBS 130266,,,,v1.0,JGI,Totfu1,,http://genome.jgi.doe.gov/Totfu1/download/Totfu1_GeneCatalog_proteins_20140831.aa.fasta.gz
-Trametes,cingulata,,BRFM 1805,,,,v1.0,JGI,Traci1,,http://genome.jgi.doe.gov/Traci1/download/Traci1_GeneCatalog_proteins_20150209.aa.fasta.gz
-Trametes,gibbosa,,CIRM-BRFM 1770,,,,v1.0,JGI,Tragib1,,http://genome.jgi.doe.gov/Tragib1/download/Tragib1_GeneCatalog_proteins_20161031.aa.fasta.gz
-Trametes,ljubarskyi,,CIRM1659,,,,v1.0,JGI,Tralj1,,http://genome.jgi.doe.gov/Tralj1/download/Tralj1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Trametes,meyenii,,CIRM-BRFM 1810,,,,v1.0,JGI,Tramey1,,http://genome.jgi.doe.gov/Tramey1/download/Tramey1_GeneCatalog_proteins_20170620.aa.fasta.gz
-Trametes,pubescens,,FBCC735,,,,,JGI,Trapub1,,http://genome.jgi.doe.gov/Trapub1/download/Trapub1_GeneCatalog_proteins_20160929.aa.fasta.gz
-Trametes,versicolor,,,,,,v1.0,JGI,Trave1,,http://genome.jgi.doe.gov/Trave1/download/Trave1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Trametopsis,cervina,,CIRM-BRFM 1824,,,,v1.0,JGI,Trace1,,http://genome.jgi.doe.gov/Trace1/download/Trace1_GeneCatalog_proteins_20150503.aa.fasta.gz
-Trematosphaeria,pertusa,,CBS 122368,,,,v1.0,JGI,Trepe1,,http://genome.jgi.doe.gov/Trepe1/download/Trepe1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Tremella,encephala,,68-887.2,,,,v1.0,JGI,Treen1,,http://genome.jgi.doe.gov/Treen1/download/Treen1_GeneCatalog_proteins_20160201.aa.fasta.gz
-Tremella,mesenterica,,Fries,,,,v1.0,JGI,Treme1,,http://genome.jgi.doe.gov/Treme1/download/Treme1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Trichaptum,abietinum,,,,,,v1.0,JGI,Triab1_1,,http://genome.jgi.doe.gov/Triab1_1/download/Triab1_1_GeneCatalog_proteins_20130513.aa.fasta.gz
-Trichodelitschia,bisporula,,CBS 262.69,,,,v1.0,JGI,Tribi1,,http://genome.jgi.doe.gov/Tribi1/download/Tribi1_GeneCatalog_proteins_20141117.aa.fasta.gz
-Trichoderma,asperellum,,CBS 433.97,,,,v1.0,JGI,Trias1,,http://genome.jgi.doe.gov/Trias1/download/Trias1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Trichoderma,asperellum,,TR356,,,,v1.0,JGI,Triasp1,,http://genome.jgi.doe.gov/Triasp1/download/Triasp1_GeneCatalog_proteins_20150522.aa.fasta.gz
-Trichoderma,atroviride,,,,,,v2.0,JGI,Triat2,,http://genome.jgi.doe.gov/Triat2/download/Tatroviridev2_FrozenGeneCatalog_20100319.proteins.fasta.gz
-Trichoderma,citrinoviride,,TUCIM 6016,,,,v4.0,JGI,Trici4,,http://genome.jgi.doe.gov/Trici4/download/Trici4.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Trichoderma,gamsii,,T6085,,,,,JGI,Trigam1,,http://genome.jgi.doe.gov/Trigam1/download/Trigam1_GeneCatalog_proteins_20170914.aa.fasta.gz
-Trichoderma,harzianum,,CBS 226.95,,,,v1.0,JGI,Triha1,,http://genome.jgi.doe.gov/Triha1/download/Triha1_GeneCatalog_proteins_20120306.aa.fasta.gz
-Trichoderma,harzianum,,TR274,,,,v1.0,JGI,Trihar1,,http://genome.jgi.doe.gov/Trihar1/download/Trihar1_GeneCatalog_proteins_20141017.aa.fasta.gz
-Trichoderma,longibrachiatum,,ATCC 18648,,,,v3.0,JGI,Trilo3,,http://genome.jgi.doe.gov/Trilo3/download/Trilo3.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Trichoderma,reesei,,RUT C-30,,,,v1.0,JGI,TrireRUTC30_1,,http://genome.jgi.doe.gov/TrireRUTC30_1/download/TrireRUTC30_1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Trichoderma,reesei,,,,,,v2.0,JGI,Trire2,,http://genome.jgi.doe.gov/Trire2/download/TreeseiV2_FilteredModelsv2.0.proteins.fasta.gz
-Trichoderma,virens,,Gv29-8,,,,v2.0,JGI,TriviGv29_8_2,,http://genome.jgi.doe.gov/TriviGv29_8_2/download/TriviGv29_8_2.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Tricholoma,matsutake,,945,,,,v3.0,JGI,Trima3,,http://genome.jgi.doe.gov/Trima3/download/Trima3.all_proteins.FilteredModels2.gff3.gz.tar.gz
-Trichomonascus,petasosporus,,NRRL YB-2093,,,,v1.0,JGI,Tripe1,,http://genome.jgi.doe.gov/Tripe1/download/Tripe1_GeneCatalog_proteins_20150117.aa.fasta.gz
-Trichophaea,hybrida,,UTF0779,,,,v1.0,JGI,Trihyb1,,http://genome.jgi.doe.gov/Trihyb1/download/Trihyb1_GeneCatalog_proteins_20161123.aa.fasta.gz
-Trichophyton,rubrum,,CBS 118892,,,,,JGI,Triru1,,http://genome.jgi.doe.gov/Triru1/download/Triru1.all_proteins.BroadModels.gff3.gz.tar.gz
-Trichophyton,verrucosum,,HKI 517,,,,,JGI,Triver1,,http://genome.jgi.doe.gov/Triver1/download/Triver1.all_proteins.ExternalModels.gff3.gz.tar.gz
-Trichosporon,asahii,var. asahii CBS 2479,,,,,,JGI,Trias2479,,http://genome.jgi.doe.gov/Trias2479/download/Trias2479_GeneCatalog_proteins_20170710.aa.fasta.gz
-Trichosporon,asahii,var. asahii CBS 8904,,,,,,JGI,Trias8904,,http://genome.jgi.doe.gov/Trias8904/download/Trias8904_GeneCatalog_proteins_20170712.aa.fasta.gz
-Trichosporon,chiarellii,,MYA-4694,,,,v1.0,JGI,Trich1,,http://genome.jgi.doe.gov/Trich1/download/Trich1_GeneCatalog_proteins_20150114.aa.fasta.gz
-Trichosporon,guehoae,,,,,,v1.0,JGI,Trigue1,,http://genome.jgi.doe.gov/Trigue1/download/Trigue1_GeneCatalog_proteins_20160218.aa.fasta.gz
-Trichosporon,oleaginosus,,IBC0246,,,,v1.0,JGI,Triol1,,http://genome.jgi.doe.gov/Triol1/download/Triol1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Trinosporium,guianense,,CBS 132537,,,,v1.0,JGI,Trigu1,,http://genome.jgi.doe.gov/Trigu1/download/Trigu1_GeneCatalog_proteins_20141217.aa.fasta.gz
-Tritirachium,sp.,,CBS 265.96,,,,v1.0,JGI,Trisp1,,http://genome.jgi.doe.gov/Trisp1/download/Trisp1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Truncatella,angustata,,HP017,,,,v1.0,JGI,Truan1,,http://genome.jgi.doe.gov/Truan1/download/Truan1_GeneCatalog_proteins_20170627.aa.fasta.gz
-Trypethelium,eluteriae,,,,,,v1.0,JGI,Tryvi1,,http://genome.jgi.doe.gov/Tryvi1/download/Tryvi1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Tuber,borchii,,Tbo3840,,,,v1.0,JGI,Tubbor1,,http://genome.jgi.doe.gov/Tubbor1/download/Tubbor1_GeneCatalog_proteins_20160610.aa.fasta.gz
-Tuber,melanosporum,,Mel28,,,,v1.0,JGI,Tubme1,,http://genome.jgi.doe.gov/Tubme1/download/Tubme1.all_proteins.Genoscope_genes.gff3.gz.tar.gz
-Tulasnella,calospora,,AL13/4D,,,,v1.0,JGI,Tulca1,,http://genome.jgi.doe.gov/Tulca1/download/Tulca1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Umbelopsis,ramanniana,,AG,,,,v1.0,JGI,Umbra1,,http://genome.jgi.doe.gov/Umbra1/download/Umbra1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Umbelopsis,sp.,,AD052,,,,v1.0,JGI,Umbsp_AD052_1,,http://genome.jgi.doe.gov/Umbsp_AD052_1/download/Umbsp_AD052_1_GeneCatalog_proteins_20160912.aa.fasta.gz
-Uncinocarpus,reesii,,1704,,,,,JGI,Uncre1,,http://genome.jgi.doe.gov/Uncre1/download/Uncre1.all_proteins.BroadModels.gff3.gz.tar.gz
-Usnea,florida,,ATCC18376,,,,v1.0,JGI,Usnflo1,,http://genome.jgi.doe.gov/Usnflo1/download/Usnflo1_GeneCatalog_proteins_20160419.aa.fasta.gz
-Ustilaginoidea,virens,,,,,,,JGI,Ustvir1,,http://genome.jgi.doe.gov/Ustvir1/download/Ustvir1_GeneCatalog_proteins_20170701.aa.fasta.gz
-Ustilago,hordei,,Uh4857_4,,,,,JGI,Usthor1,,http://genome.jgi.doe.gov/Usthor1/download/Usthor1_GeneCatalog_proteins_20170410.aa.fasta.gz
-Ustilago,maydis,,,,,,,JGI,Ustma1,,http://genome.jgi.doe.gov/Ustma1/download/Ustilago_maydis.proteins.fasta.gz
-Valetoniellopsis,laxa,,CBS 191.97,,,,v1.0,JGI,Valla1,,http://genome.jgi.doe.gov/Valla1/download/Valla1_GeneCatalog_proteins_20141003.aa.fasta.gz
-Vararia,minispora,,EC-137,,,,v1.0,JGI,Varmin1,,http://genome.jgi.doe.gov/Varmin1/download/Varmin1_GeneCatalog_proteins_20160225.aa.fasta.gz
-Venturia,inaequalis,,,,,,,JGI,Venin1,,http://genome.jgi.doe.gov/Venin1/download/Venin1_GeneCatalog_proteins_20141010.aa.fasta.gz
-Venturia,pirina,,,,,,,JGI,Venpi1,,http://genome.jgi.doe.gov/Venpi1/download/Venpi1_GeneCatalog_proteins_20150407.aa.fasta.gz
-Verruconis,gallopava,,,,,,,JGI,Verga1,,http://genome.jgi.doe.gov/Verga1/download/Verga1_GeneCatalog_proteins_20160827.aa.fasta.gz
-Verruculina,enalia,,CBS 304.66,,,,v1.0,JGI,Veren1,,http://genome.jgi.doe.gov/Veren1/download/Veren1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Verticillium,alfalfae,,VaMs.102,,,,,JGI,Veral1,,http://genome.jgi.doe.gov/Veral1/download/Veral1.all_proteins.BroadModels.gff3.gz.tar.gz
-Verticillium,dahliae,,,,,,v1.0,JGI,Verda1,,http://genome.jgi.doe.gov/Verda1/download/Verda1.all_proteins.ExternalModels.gff3.gz.tar.gz
-Violaceomyces,palustris,,SA 807,,,,v1.0,JGI,Ustsp1,,http://genome.jgi.doe.gov/Ustsp1/download/Ustsp1_GeneCatalog_proteins_20150106.aa.fasta.gz
-Volvariella,volvacea,,V23,,,,,JGI,Volvo1,,http://genome.jgi.doe.gov/Volvo1/download/Volvo1.all_proteins.ExternalModels.gff3.gz.tar.gz
-Vuilleminia,comedens,,VcCUCC2015_SSI6,,,,v1.0,JGI,Vuicom1,,http://genome.jgi.doe.gov/Vuicom1/download/Vuicom1_GeneCatalog_proteins_20170111.aa.fasta.gz
-Wallemia,ichthyophaga,,EXF-994,,,,,JGI,Walic1,,http://genome.jgi.doe.gov/Walic1/download/Walic1.all_proteins.ExternalModels.gff3.gz.tar.gz
-Wallemia,sebi,,,,,,v1.0,JGI,Walse1,,http://genome.jgi.doe.gov/Walse1/download/Walse1.all_proteins.FilteredModels2.gff3.gz.tar.gz
-Westerdykella,ornata,,CBS 379.55,,,,v1.0,JGI,Wesor1,,http://genome.jgi.doe.gov/Wesor1/download/Wesor1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Wickerhamiella,domercqiae,,NRRL Y-6692,,,,v1.0,JGI,Wicdo1,,http://genome.jgi.doe.gov/Wicdo1/download/Wicdo1_GeneCatalog_proteins_20160729.aa.fasta.gz
-Wickerhamomyces,anomalus,,NRRL Y-366-8,,,,v1.0,JGI,Wican1,,http://genome.jgi.doe.gov/Wican1/download/Wican1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Wilcoxina,mikolae,,CBS 423.85,,,,v1.0,JGI,Wilmi1,,http://genome.jgi.doe.gov/Wilmi1/download/Wilmi1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Wolfiporia,cocos,,MD-104 SS10,,,,v1.0,JGI,Wolco1,,http://genome.jgi.doe.gov/Wolco1/download/Wolco1.all_proteins.FilteredModels2.gff3.gz.tar.gz
-Xanthoria,parietina,,46-1-SA22,,,,v1.1,JGI,Xanpa2,,http://genome.jgi.doe.gov/Xanpa2/download/Xanpa2_GeneCatalog_proteins_20140928.aa.fasta.gz
-Xenasmatella,vaga,,CBS 212.54,,,,v1.0,JGI,Xenvag1,,http://genome.jgi.doe.gov/Xenvag1/download/Xenvag1_GeneCatalog_proteins_20160511.aa.fasta.gz
-Xerocomus,badius,,84.06,,,,v1.0,JGI,Xerba1,,http://genome.jgi.doe.gov/Xerba1/download/Xerba1_GeneCatalog_proteins_20150320.aa.fasta.gz
-Xylaria,hypoxylon,,OSC100004,,,,v1.0,JGI,Xylhyp1,,http://genome.jgi.doe.gov/Xylhyp1/download/Xylhyp1_GeneCatalog_proteins_20160130.aa.fasta.gz
-Xylariales,sp.,,PMI_506,,,,v1.0,JGI,XylPMI506,,http://genome.jgi.doe.gov/XylPMI506/download/XylPMI506_GeneCatalog_proteins_20161028.aa.fasta.gz
-Xylona,heveae,,TC161,,,,v1.0,JGI,Xylhe1,,http://genome.jgi.doe.gov/Xylhe1/download/Xylhe1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Yarrowia,lipolytica,,CLIB122,,,,,JGI,Yarli1,,http://genome.jgi.doe.gov/Yarli1/download/Yarli1.all_proteins.ExternalModels.gff3.gz.tar.gz
-Yarrowia,lipolytica,,FKP355,,,,v1.0,JGI,Yarlip1,,http://genome.jgi.doe.gov/Yarlip1/download/Yarlip1_GeneCatalog_proteins_20160930.aa.fasta.gz
-Zancudomyces,culisetae,,COL-18-3,,,,,JGI,Zancul2,,http://genome.jgi.doe.gov/Zancul2/download/Zancul2_GeneCatalog_proteins_20170807.aa.fasta.gz
-Zasmidium,cellare,,ATCC 36951,,,,v1.0,JGI,Zasce1,,http://genome.jgi.doe.gov/Zasce1/download/Zasce1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Zopfia,rhizophila,,,,,,v1.0,JGI,Zoprh1,,http://genome.jgi.doe.gov/Zoprh1/download/Zoprh1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Zychaea,mexicana,,RSA 1403,,,,v1.0,JGI,Zycmex1,,http://genome.jgi.doe.gov/Zycmex1/download/Zycmex1_GeneCatalog_proteins_20160711.aa.fasta.gz
-Zygoascus,hellenicus,,Y-7136,,,,v1.0,JGI,Zyghe1_2,,http://genome.jgi.doe.gov/Zyghe1_2/download/Zyghe1_2_GeneCatalog_proteins_20150916.aa.fasta.gz
-Zygosaccharomyces,rouxii,,CBS 732,,,,,JGI,Zygro1,,http://genome.jgi.doe.gov/Zygro1/download/Zygro1_GeneCatalog_proteins_20150128.aa.fasta.gz
-Zymoseptoria,ardabiliae,,STIR04_1.1.1,,,,,JGI,Zymar1,,http://genome.jgi.doe.gov/Zymar1/download/Zymar1_GeneCatalog_proteins_20141012.aa.fasta.gz
-Zymoseptoria,brevis,,Zb18110,,,,,JGI,Zymbr1,,http://genome.jgi.doe.gov/Zymbr1/download/Zymbr1_GeneCatalog_proteins_20170711.aa.fasta.gz
-Zymoseptoria,pseudotritici,,STIR04_2.2.1,,,,,JGI,Zymps1,,http://genome.jgi.doe.gov/Zymps1/download/Zymps1_GeneCatalog_proteins_20141012.aa.fasta.gz
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
----,,,,,,,,,,,
-Currently Not in NCBI,,,,,,,,,,,
-Artolenzites,elegans,,CIRM-BRFM 1122,,,,v1.0,JGI,Artele1122_1,,http://genome.jgi.doe.gov/Artele1122_1/download/Artele1122_1_GeneCatalog_proteins_20160227.aa.fasta.gz
-Artolenzites,elegans,,CIRM-BRFM 1663,,,,v1.0,JGI,Artel1,,http://genome.jgi.doe.gov/Artel1/download/Artel1.all_proteins.FilteredModels1.gff3.gz.tar.gz
-Cantharellus,anzutake,,C23,,,,v1.0,JGI,Cananz1,,http://genome.jgi.doe.gov/Cananz1/download/Cananz1_GeneCatalog_proteins_20160317.aa.fasta.gz
-Lasiosphaeria,miniovina,,,,SMH2392-1A,,v1.0,JGI,Lasmin1,,http://genome.jgi.doe.gov/Lasmin1/download/Lasmin1_GeneCatalog_proteins_20170616.aa.fasta.gz
-Mucor,cordense,,,,RSA 1222,,v1.0,JGI,Kircor1,,http://genome.jgi.doe.gov/Kircor1/download/Kircor1_GeneCatalog_proteins_20160812.aa.fasta.gz
-Phycomyces,nitens,,,,S607,,v1.0,JGI,PnitS607_1,,http://genome.jgi.doe.gov/PnitS607_1/download/PnitS607_1_GeneCatalog_proteins_20170410.aa.fasta.gz
-Phycomyces,nitens,,,,S608,,v1.0,JGI,PnitS608_1,,http://genome.jgi.doe.gov/PnitS608_1/download/PnitS608_1_GeneCatalog_proteins_20170410.aa.fasta.gz
-Phycomyces,nitens,,,,S609,,v1.0,JGI,PnitS609_1,,http://genome.jgi.doe.gov/PnitS609_1/download/PnitS609_1_GeneCatalog_proteins_20170410.aa.fasta.gz
-Puccinia,coronata,,avenae 12NC29,,,,,JGI,PuccoNC29_1,,http://genome.jgi.doe.gov/PuccoNC29_1/download/PuccoNC29_1_GeneCatalog_proteins_20170808.aa.fasta.gz
-Puccinia,coronata,,avenae 12SD80,,,,,JGI,PuccoSD80_1,,http://genome.jgi.doe.gov/PuccoSD80_1/download/PuccoSD80_1_GeneCatalog_proteins_20170808.aa.fasta.gz
-Rhodosporidium,toruloides,,ATCC26217,,,,v1.0,JGI,Rhoto_ATCC26217_1,,http://genome.jgi.doe.gov/Rhoto_ATCC26217_1/download/Rhoto_ATCC26217_1_GeneCatalog_proteins_20160520.aa.fasta.gz
-Rhodosporidium,toruloides,,IFO0559_1,,,,,JGI,Rhoto_IFO0559_1,,http://genome.jgi.doe.gov/Rhoto_IFO0559_1/download/Rhoto_IFO0559_1_GeneCatalog_proteins_20151023.aa.fasta.gz
-Rhodosporidium,toruloides,,IFO0880,,,,v2.0,JGI,Rhoto_IFO0880_2,,http://genome.jgi.doe.gov/Rhoto_IFO0880_2/download/Rhoto_IFO0880_2_GeneCatalog_proteins_20160222.aa.fasta.gz
-Rhodosporidium,toruloides,,IFO0880,,,,v4.0,JGI,Rhoto_IFO0880_4,,http://genome.jgi.doe.gov/Rhoto_IFO0880_4/download/Rhoto_IFO0880_4_GeneCatalog_proteins_20170509.aa.fasta.gz
-Rhodosporidium,toruloides,,IFO1236_1,,,,,JGI,Rhoto_IFO1236_1,,http://genome.jgi.doe.gov/Rhoto_IFO1236_1/download/Rhoto_IFO1236_1_GeneCatalog_proteins_20151022.aa.fasta.gz
-Rhodosporidium,toruloides,,NP11,,,,,JGI,Rhoto1,,http://genome.jgi.doe.gov/Rhoto1/download/Rhoto1_GeneCatalog_proteins_20141208.aa.fasta.gz
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
----,,,,,,,,,,,
-Completed,,,,,,,,,,,
 Aaosphaeria,arxii,,CBS 175.79,,,,v1.0,JGI,Aaoar1,,http://genome.jgi.doe.gov/Aaoar1/download/Aaoar1.all_proteins.FilteredModels1.gff3.gz.tar.gz
 Abortiporus,biennis,,,,CIRM-BRFM1778,,v1.0,JGI,Abobie1,,http://genome.jgi.doe.gov/Abobie1/download/Abobie1_GeneCatalog_proteins_20170621.aa.fasta.gz
 Chlamydoabsidia,padenii,,NRRL 2977,Absidia,,,v1.0,JGI,Chlpad1,,http://genome.jgi.doe.gov/Chlpad1/download/Chlpad1_GeneCatalog_proteins_20160815.aa.fasta.gz
@@ -903,3 +643,252 @@ Punctularia,strigosozonata,,,,,,v1.0,JGI,Punst1,,http://genome.jgi.doe.gov/Punst
 Purpureocillium,sp.,,UdeA0106,,,,v1.0,JGI,Pursp1,,http://genome.jgi.doe.gov/Pursp1/download/Pursp1_GeneCatalog_proteins_20160908.aa.fasta.gz
 Pycnoporus,cinnabarinus,,BRFM137,,,,,JGI,Pycci1,,http://genome.jgi.doe.gov/Pycci1/download/Pycci1.all_proteins.ExternalModels.gff3.gz.tar.gz
 Pycnoporus,cinnabarinus,,,,CIRM-BRFM 50,,v1.0,JGI,Pyccin1,,http://genome.jgi.doe.gov/Pyccin1/download/Pyccin1_GeneCatalog_proteins_20170112.aa.fasta.gz
+Pycnoporus,coccineus,,BRFM310,,,,v1.0,JGI,Pycco1,,http://genome.jgi.doe.gov/Pycco1/download/Pycco1_GeneCatalog_proteins_20140114.aa.fasta.gz
+Pycnoporus,coccineus,,,,CIRM1662,,,JGI,Pycco1662_1,,http://genome.jgi.doe.gov/Pycco1662_1/download/Pycco1662_1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Pycnoporus,puniceus,,,,CIRM-BRFM 1868,,v1.0,JGI,Pycpun1,,http://genome.jgi.doe.gov/Pycpun1/download/Pycpun1_GeneCatalog_proteins_20160226.aa.fasta.gz
+Trametes,sanguinea,,,Pycnoporus sanguineus ,BRFM 1264,,v1.0,JGI,Pycsa1,,http://genome.jgi.doe.gov/Pycsa1/download/Pycsa1_GeneCatalog_proteins_20140123.aa.fasta.gz
+Pyrenochaeta,lycopersici,,,,ISPaVe ER 1252,,v1.0,JGI,Pyrly1,,http://genome.jgi.doe.gov/Pyrly1/download/Pyrly1_GeneCatalog_proteins_20170623.aa.fasta.gz
+Pyrenochaeta,sp.,,,,DS3sAY3a,,v1.0,JGI,Pyrsp1,,http://genome.jgi.doe.gov/Pyrsp1/download/Pyrsp1_GeneCatalog_proteins_20141006.aa.fasta.gz
+Pyrenophora,teres,f. teres,,,,,,JGI,Pyrtt1,,http://genome.jgi.doe.gov/Pyrtt1/download/Pyrtt1.all_proteins.ExternalModels.gff3.gz.tar.gz
+Pyrenophora,tritici-repentis,,,,,,,JGI,Pyrtr1,,http://genome.jgi.doe.gov/Pyrtr1/download/Pyrenophora_tritici_repentis_proteins.fasta.gz
+Pyronema,confluens,,CBS 100304,,,,,JGI,Pyrco1,,http://genome.jgi.doe.gov/Pyrco1/download/Pyrco1.all_proteins.ExternalModels.gff3.gz.tar.gz
+Radiomyces,spectabilis,,,,NRRL 2753,,v1.0,JGI,Radspe1,,http://genome.jgi.doe.gov/Radspe1/download/Radspe1_GeneCatalog_proteins_20161011.aa.fasta.gz
+Ramaria,rubella,,,,UT-36052-T,,v1.0,JGI,Ramac1,,http://genome.jgi.doe.gov/Ramac1/download/Ramac1.all_proteins.FilteredModels5.gff3.gz.tar.gz
+Ramicandelaber,brevisporus,,CBS 109374,,,,v1.0,JGI,Rambr1,,http://genome.jgi.doe.gov/Rambr1/download/Rambr1_GeneCatalog_proteins_20140929.aa.fasta.gz
+Rhizoclosmatium,globosum,,,,JEL800,,v1.0,JGI,Rhihy1,,http://genome.jgi.doe.gov/Rhihy1/download/Rhihy1_GeneCatalog_proteins_20151219.aa.fasta.gz
+Rhizoctonia,solani,,AG-1 IB,,,,,JGI,Rhiso1,,http://genome.jgi.doe.gov/Rhiso1/download/Rhiso1.all_proteins.ExternalModels.gff3.gz.tar.gz
+Rhizodiscina,lignyota,,,,CBS 133067,,v1.0,JGI,Rhili1,,http://genome.jgi.doe.gov/Rhili1/download/Rhili1_GeneCatalog_proteins_20150422.aa.fasta.gz
+Rhizophagus,irregularis,,DAOM 181602,,,,v1.0,JGI,Gloin1,,http://genome.jgi.doe.gov/Gloin1/download/Gloin1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Rhizopogon,salebrosus,,TDB-379,,,,v1.0,JGI,Rhisa1,,http://genome.jgi.doe.gov/Rhisa1/download/Rhisa1_GeneCatalog_proteins_20141012.aa.fasta.gz
+Rhizopogon,vesiculosus,,,,Smith,,,JGI,Rhives1,,http://genome.jgi.doe.gov/Rhives1/download/Rhives1_GeneCatalog_proteins_20170403.aa.fasta.gz
+Rhizopogon,vinicolor,,AM-OR11-026,,,,v1.0,JGI,Rhivi1,,http://genome.jgi.doe.gov/Rhivi1/download/Rhivi1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Rhizopus,delemar,,RA 99-880,,,BROAD,,JGI,Rhior3,,http://genome.jgi.doe.gov/Rhior3/download/Rhior3.all_proteins.BroadGene.gff3.gz.tar.gz
+Rhizopus,microsporus,,,,ATCC 11559,,v1.0,JGI,Rhimi_ATCC11559_1,,http://genome.jgi.doe.gov/Rhimi_ATCC11559_1/download/Rhimi_ATCC11559_1_GeneCatalog_proteins_20150408.aa.fasta.gz
+Rhizopus,microsporus,var. chinensis,CCTCC M201021,,,,,JGI,Rhich1,,http://genome.jgi.doe.gov/Rhich1/download/Rhich1.all_proteins.ExternalModels.gff3.gz.tar.gz
+Rhizopus,microsporus,var. microsporus,,,ATCC 52813,,v1.0,JGI,Rhimi1_1,,http://genome.jgi.doe.gov/Rhimi1_1/download/Rhimi1_1.all_proteins.FilteredModels2.gff3.gz.tar.gz
+Rhizopus,microsporus,var. microsporus,,,ATCC 52814,,v1.0,JGI,Rhimi_ATCC52814_1,,http://genome.jgi.doe.gov/Rhimi_ATCC52814_1/download/Rhimi_ATCC52814_1_GeneCatalog_proteins_20150309.aa.fasta.gz
+Rhizoscyphus,ericae,,,,UAMH 7357,,v1.0,JGI,Rhier1,,http://genome.jgi.doe.gov/Rhier1/download/Rhier1_GeneCatalog_proteins_20141012.aa.fasta.gz
+Rhodocollybia,butyracea,,,,AH 40177,,v1.0,JGI,Rhobut1_1,,http://genome.jgi.doe.gov/Rhobut1_1/download/Rhobut1_1_GeneCatalog_proteins_20160415.aa.fasta.gz
+Rhodotorula,glutinis,,,,,,v1.0,JGI,Rhoglu1,,http://genome.jgi.doe.gov/Rhoglu1/download/Rhoglu1_GeneCatalog_proteins_20160519.aa.fasta.gz
+Rhodotorula,graminis,,strain WP1,,,,v1.1,JGI,Rhoba1_1,,http://genome.jgi.doe.gov/Rhoba1_1/download/Rhoba1_1.all_proteins.FilteredModels2.gff3.gz.tar.gz
+Rhodotorula,minuta,,MCA 4210,,,,v1.0,JGI,Rhomi1,,http://genome.jgi.doe.gov/Rhomi1/download/Rhomi1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Rhodotorula,mucilaginosa,,,,ATCC58901,,v1.0,JGI,Rhomuc1,,http://genome.jgi.doe.gov/Rhomuc1/download/Rhomuc1_GeneCatalog_proteins_20160519.aa.fasta.gz
+Rhodotorula,sp.,,,,J31,,v1.0,JGI,RhodotJ31_1,,http://genome.jgi.doe.gov/RhodotJ31_1/download/RhodotJ31_1_GeneCatalog_proteins_20160519.aa.fasta.gz
+Rhodotorula,sp.,,JG-1b,,,,,JGI,Rhosp1,,http://genome.jgi.doe.gov/Rhosp1/download/Rhosp1_GeneCatalog_proteins_20140409.aa.fasta.gz
+Rhytidhysteron,rufulum,,,,,,,JGI,Rhyru1_1,,http://genome.jgi.doe.gov/Rhyru1_1/download/Rhyru1_1_GeneCatalog_proteins_20150204.aa.fasta.gz
+Rickenella,fibula,,,,HBK330-10,,v1.0,JGI,Ricfib1,,http://genome.jgi.doe.gov/Ricfib1/download/Ricfib1_GeneCatalog_proteins_20160317.aa.fasta.gz
+Rickenella,mellea,,,,,,v1.0,JGI,Ricmel1,,http://genome.jgi.doe.gov/Ricmel1/download/Ricmel1_GeneCatalog_proteins_20151108.aa.fasta.gz
+Rigidoporus,microporus,,,,ED310,,v1.0,JGI,Rigmic1,,http://genome.jgi.doe.gov/Rigmic1/download/Rigmic1_GeneCatalog_proteins_20170307.aa.fasta.gz
+Rozella,allomycis,,CSF55,,,,,JGI,Rozal1_1,,http://genome.jgi.doe.gov/Rozal1_1/download/Rozal1_1.all_proteins.ExternalModels.gff3.gz.tar.gz
+Russula,brevipes,,,,BPL707,,v1.0,JGI,Rusbre1,,http://genome.jgi.doe.gov/Rusbre1/download/Rusbre1_GeneCatalog_proteins_20161010.aa.fasta.gz
+Russula,compacta,,,,BPL669,,v1.0,JGI,Ruscom1,,http://genome.jgi.doe.gov/Ruscom1/download/Ruscom1_GeneCatalog_proteins_20170112.aa.fasta.gz
+Russula,dissimulans,,,,BPL704,,v1.0,JGI,Rusdis1,,http://genome.jgi.doe.gov/Rusdis1/download/Rusdis1_GeneCatalog_proteins_20160910.aa.fasta.gz
+Russula,rugulosa,,,,BPL654,,v1.0,JGI,Rusrug1,,http://genome.jgi.doe.gov/Rusrug1/download/Rusrug1_GeneCatalog_proteins_20161111.aa.fasta.gz
+Russula,vinacea,,,,BPL710,,v1.0,JGI,Rusvin1,,http://genome.jgi.doe.gov/Rusvin1/download/Rusvin1_GeneCatalog_proteins_20170417.aa.fasta.gz
+Rutstroemia,firma,,,,CBS 115.86,,v1.0,JGI,Rutfi1,,http://genome.jgi.doe.gov/Rutfi1/download/Rutfi1_GeneCatalog_proteins_20150501.aa.fasta.gz
+Saccharata,proteae,,,,CBS 121410,,v1.0,JGI,Sacpr1,,http://genome.jgi.doe.gov/Sacpr1/download/Sacpr1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Saccharomyces,cerevisiae,,M3707,,Dikaryon,,,JGI,SacceM3707_1,,http://genome.jgi.doe.gov/SacceM3707_1/download/SacceM3707_1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Saccharomyces,cerevisiae,,M3836,,,,v1.0,JGI,SacceM3836_1,,http://genome.jgi.doe.gov/SacceM3836_1/download/SacceM3836_1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Saccharomyces,cerevisiae,,M3837,,,,v1.0,JGI,SacceM3837_1,,http://genome.jgi.doe.gov/SacceM3837_1/download/SacceM3837_1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Saccharomyces,cerevisiae,,M3838,,,,v1.0,JGI,SacceM3838_1,,http://genome.jgi.doe.gov/SacceM3838_1/download/SacceM3838_1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Saccharomyces,cerevisiae,,M3839,,,,v1.0,JGI,SacceM3839_1,,http://genome.jgi.doe.gov/SacceM3839_1/download/SacceM3839_1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Saccharomyces,cerevisiae,,S288C,,,,,JGI,Sacce1,,http://genome.jgi.doe.gov/Sacce1/download/Sacce1.all_proteins.ExternalModels.gff3.gz.tar.gz
+Saccharomyces,cerevisiae,,YB210,,,,v1.0,JGI,SacceYB210_1,,http://genome.jgi.doe.gov/SacceYB210_1/download/SacceYB210_1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Saitoella,complicata,,NRRL Y-17804,,,,v1.0,JGI,Saico1,,http://genome.jgi.doe.gov/Saico1/download/Saico1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Saksenaea,vasiformis,,B4078,,,,,JGI,Sakvas1,,http://genome.jgi.doe.gov/Sakvas1/download/Sakvas1_GeneCatalog_proteins_20160730.aa.fasta.gz
+Sarcoscypha,coccinea,,,,ATCC 58028,,v1.0,JGI,Sarco1,,http://genome.jgi.doe.gov/Sarco1/download/Sarco1_GeneCatalog_proteins_20150213.aa.fasta.gz
+Schizophyllum,commune,,H4-8,,,,v3.0,JGI,Schco3,,http://genome.jgi.doe.gov/Schco3/download/Schco3.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Schizophyllum,commune,,Loenen D,,,,v1.0,JGI,Schco_LoeD_1,,http://genome.jgi.doe.gov/Schco_LoeD_1/download/Schco_LoeD_1.all_proteins.FilteredModels2.gff3.gz.tar.gz
+Schizophyllum,commune,,Tattone D,,,,v1.0,JGI,Schco_TatD_1,,http://genome.jgi.doe.gov/Schco_TatD_1/download/Schco_TatD_1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Schizopora,paradoxa,,,,KUC8140,,v1.0,JGI,Schpa1,,http://genome.jgi.doe.gov/Schpa1/download/Schpa1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Schizosaccharomyces,cryophilus,,OY26,,,,,JGI,Schcy1,,http://genome.jgi.doe.gov/Schcy1/download/Schcy1.all_proteins.BroadModels.gff3.gz.tar.gz
+Schizosaccharomyces,japonicus,,yFS275,,,,,JGI,Schja1,,http://genome.jgi.doe.gov/Schja1/download/Schja1.all_proteins.BroadModels.gff3.gz.tar.gz
+Schizosaccharomyces,octosporus,,yFS286,,,,,JGI,Schoc1,,http://genome.jgi.doe.gov/Schoc1/download/Schoc1.all_proteins.BroadModels.gff3.gz.tar.gz
+Schizosaccharomyces,pombe,,,,,,,JGI,Schpo1,,http://genome.jgi.doe.gov/Schpo1/download/Schpo1.all_proteins.ExternalModels.gff3.gz.tar.gz
+Schizothecium,vesticola,,,,SMH3187-1,,v1.0,JGI,Schves1,,http://genome.jgi.doe.gov/Schves1/download/Schves1_GeneCatalog_proteins_20170615.aa.fasta.gz
+Scleroderma,citrinum,,Foug A,,,,v1.0,JGI,Sclci1,,http://genome.jgi.doe.gov/Sclci1/download/Sclci1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Sclerogaster,hysterangioides,,,,SCL2.BST,,v1.0,JGI,Sclhys1_1,,http://genome.jgi.doe.gov/Sclhys1_1/download/Sclhys1_1_GeneCatalog_proteins_20160415.aa.fasta.gz
+Sclerophora,sanguinea,,,,CBS 100924,,v1.0,JGI,Sclsan1,,http://genome.jgi.doe.gov/Sclsan1/download/Sclsan1_GeneCatalog_proteins_20170329.aa.fasta.gz
+Sclerotinia,sclerotiorum,,,,,,v1.0,JGI,Sclsc1,,http://genome.jgi.doe.gov/Sclsc1/download/Sclsc1.all_proteins.ExternalModels.gff3.gz.tar.gz
+Sebacina,vermifera,,MAFF 305830,,,,v1.0,JGI,Sebve1,,http://genome.jgi.doe.gov/Sebve1/download/Sebve1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Sebacina,vermifera,,,,ssp. bescii,,v1.0,JGI,Sebvebe1,,http://genome.jgi.doe.gov/Sebvebe1/download/Sebvebe1_GeneCatalog_proteins_20150401.aa.fasta.gz
+Septobasidium,sp.,,PNB30-8B,,,,v1.0,JGI,Sepsp1,,http://genome.jgi.doe.gov/Sepsp1/download/Sepsp1_GeneCatalog_proteins_20150424.aa.fasta.gz
+Septoria,musiva,,SO2202,,,,v1.0,JGI,Sepmu1,,http://genome.jgi.doe.gov/Sepmu1/download/Sepmu1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Septoria,populicola,,,,,,v1.0,JGI,Seppo1,,http://genome.jgi.doe.gov/Seppo1/download/Seppo1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Serpula,lacrymans,var. lacrymans,S7.3,,,,v2.0,JGI,SerlaS7_3_2,,http://genome.jgi.doe.gov/SerlaS7_3_2/download/SerlaS7_3_2.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Serpula,lacrymans,var. lacrymans,S7.9,,,,v2.0,JGI,SerlaS7_9_2,,http://genome.jgi.doe.gov/SerlaS7_9_2/download/SerlaS7_9_2.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Serpula,lacrymans,var shastensis,SHA21-2,,,,v1.0,JGI,Serla_varsha1,,http://genome.jgi.doe.gov/Serla_varsha1/download/Serla_varsha1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Setomelanomma,holmii,,,,CBS 110217,,v1.0,JGI,Setho1,,http://genome.jgi.doe.gov/Setho1/download/Setho1_GeneCatalog_proteins_20150424.aa.fasta.gz
+Setosphaeria,turcica,,Et28A,,,,v1.0,JGI,Settu1,,http://genome.jgi.doe.gov/Settu1/download/Settu1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Setosphaeria,turcica,,,,NY001,,v1.0,JGI,Settur1,,http://genome.jgi.doe.gov/Settur1/download/Settur1_GeneCatalog_proteins_20150706.aa.fasta.gz
+Sirobasidium,intermedium,,,,CBS 7805,,v1.0,JGI,Sirint1,,http://genome.jgi.doe.gov/Sirint1/download/Sirint1_GeneCatalog_proteins_20160411.aa.fasta.gz
+Sistotremastrum,niveocremeum,,,,HHB9708 ss-1 1,,,JGI,Sisni1,,http://genome.jgi.doe.gov/Sisni1/download/Sisni1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Sistotremastrum,suecicum,,,,,,v1.0,JGI,Sissu1,,http://genome.jgi.doe.gov/Sissu1/download/Sissu1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Smittium,mucronatum,,,,ALG-7-W6,,,JGI,Smimuc2,,http://genome.jgi.doe.gov/Smimuc2/download/Smimuc2_GeneCatalog_proteins_20170808.aa.fasta.gz
+Sodiomyces,alkalinus,,,,,,v1.0,JGI,Sodal1,,http://genome.jgi.doe.gov/Sodal1/download/Sodal1_GeneCatalog_proteins_20130716.aa.fasta.gz
+Sparassis,latifolia,,,,CCMJ1100,,v1.0,JGI,Spalat1,,http://genome.jgi.doe.gov/Spalat1/download/Spalat1_GeneCatalog_proteins_20161107.aa.fasta.gz
+Spathaspora,passalidarum,,NRRL Y-27907,,,,v2.0,JGI,Spapa3,,http://genome.jgi.doe.gov/Spapa3/download/Spapa3.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Spathularia,flavida,,,,,,,JGI,Spafl1,,http://genome.jgi.doe.gov/Spafl1/download/Spafl1.all_proteins.ExternalModels.gff3.gz.tar.gz
+Sphaerobolus,stellatus,,,,,,v1.0,JGI,Sphst1,,http://genome.jgi.doe.gov/Sphst1/download/Sphst1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Spinellus,fusiger,,,,NRRL 22323,,v1.0,JGI,Spifus1,,http://genome.jgi.doe.gov/Spifus1/download/Spifus1_GeneCatalog_proteins_20161021.aa.fasta.gz
+Spizellomyces,punctatus,,DAOM BR117,,,,,JGI,Spipu1,,http://genome.jgi.doe.gov/Spipu1/download/Spipu1.all_proteins.BroadModels.gff3.gz.tar.gz
+Sporidiobolus,pararoseus,,,,Phaff 68-350,,v1.0,JGI,Spopa1,,http://genome.jgi.doe.gov/Spopa1/download/Spopa1_GeneCatalog_proteins_20160208.aa.fasta.gz
+Sporisorium,reilianum,,SRZ2,,,,,JGI,Spore1,,http://genome.jgi.doe.gov/Spore1/download/Spore1.all_proteins.ExternalModels.gff3.gz.tar.gz
+Sporobolomyces,linderae,,CBS 7893,,,,v1.0,JGI,Spoli1,,http://genome.jgi.doe.gov/Spoli1/download/Spoli1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Sporobolomyces,roseus,,,,,,v1.0,JGI,Sporo1,,http://genome.jgi.doe.gov/Sporo1/download/Sporo1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Sporodiniella,umbellata,,,,MES 1446,,v1.0,JGI,Spoumb1,,http://genome.jgi.doe.gov/Spoumb1/download/Spoumb1_GeneCatalog_proteins_20170626.aa.fasta.gz
+Sporopachydermia,lactativora,,,,Phaff 68-199,,v1.0,JGI,Spola1,,http://genome.jgi.doe.gov/Spola1/download/Spola1_GeneCatalog_proteins_20160222.aa.fasta.gz
+Sporormia,fimetaria,,,,,,v1.0,JGI,Spofi1,,http://genome.jgi.doe.gov/Spofi1/download/Spofi1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Stachybotrys,elegans,,,,LAHC-LSPK-M15,,v1.0,JGI,Stael1,,http://genome.jgi.doe.gov/Stael1/download/Stael1_GeneCatalog_proteins_20170424.aa.fasta.gz
+Parastagonospora,nodorum,SN15,,,,,v2.0,JGI,Stano2,,http://genome.jgi.doe.gov/Stano2/download/Stano2.all_proteins.ExternalModels.gff3.gz.tar.gz
+Stagonospora,sp.,,SRC1lsM3a,,,,v1.0,JGI,Stasp1,,http://genome.jgi.doe.gov/Stasp1/download/Stasp1_GeneCatalog_proteins_20141004.aa.fasta.gz
+Stanjemonium,grisellum,,,,CBS 655.79,,v1.0,JGI,Stagr1,,http://genome.jgi.doe.gov/Stagr1/download/Stagr1_GeneCatalog_proteins_20141015.aa.fasta.gz
+Stemphylium,lycopersici,,,,CIDEFI-216,,,JGI,Stely1,,http://genome.jgi.doe.gov/Stely1/download/Stely1_GeneCatalog_proteins_20170711.aa.fasta.gz
+Stereum,hirsutum,,FP-91666 SS1,,,,v1.0,JGI,Stehi1,,http://genome.jgi.doe.gov/Stehi1/download/Stehi1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Sugiyamaella,americana,,NRRL YB-2067,,,,v1.0,JGI,Sugame1,,http://genome.jgi.doe.gov/Sugame1/download/Sugame1_GeneCatalog_proteins_20160411.aa.fasta.gz
+Suillus,americanus,,,,EM31,,v1.0,JGI,Suiame1,,http://genome.jgi.doe.gov/Suiame1/download/Suiame1_GeneCatalog_proteins_20151214.aa.fasta.gz
+Suillus,brevipes,,,,Sb2,,v2.0,JGI,Suibr2,,http://genome.jgi.doe.gov/Suibr2/download/Suibr2_GeneCatalog_proteins_20150912.aa.fasta.gz
+Suillus,decipiens,,,,EM49,,v1.0,JGI,Suidec1,,http://genome.jgi.doe.gov/Suidec1/download/Suidec1_GeneCatalog_proteins_20150904.aa.fasta.gz
+Suillus,granulatus,,,,EM37,,v1.0,JGI,Suigr1,,http://genome.jgi.doe.gov/Suigr1/download/Suigr1_GeneCatalog_proteins_20150504.aa.fasta.gz
+Suillus,hirtellus,,,,EM16,,v1.0,JGI,Suihi1,,http://genome.jgi.doe.gov/Suihi1/download/Suihi1_GeneCatalog_proteins_20150416.aa.fasta.gz
+Suillus,luteus,,,,UH-Slu-Lm8-n1,,v3.0,JGI,Suilu4,,http://genome.jgi.doe.gov/Suilu4/download/Suilu4_GeneCatalog_proteins_20170628.aa.fasta.gz
+Suillus,pictus,,,,EM44,,v1.0,JGI,Suipic1,,http://genome.jgi.doe.gov/Suipic1/download/Suipic1_GeneCatalog_proteins_20160216.aa.fasta.gz
+Suillus,tomentosus,,,,FC115,,v1.0,JGI,Suitom1,,http://genome.jgi.doe.gov/Suitom1/download/Suitom1_GeneCatalog_proteins_20170729.aa.fasta.gz
+Symbiotaphrina,kochii,,,,,,v1.0,JGI,Symko1,,http://genome.jgi.doe.gov/Symko1/download/Symko1.all_proteins.FilteredModels2.gff3.gz.tar.gz
+Sympodiomyces,attinorum,,,,NRRL Y-27639,,v1.0,JGI,Symat1,,http://genome.jgi.doe.gov/Symat1/download/Symat1_GeneCatalog_proteins_20150304.aa.fasta.gz
+Syncephalastrum,racemosum,,,,NRRL 2496,,v1.0,JGI,Synrac1,,http://genome.jgi.doe.gov/Synrac1/download/Synrac1_GeneCatalog_proteins_20160125.aa.fasta.gz
+Syncephalis,fuscata,,,,S228,,v1.0,JGI,Synfus1,,http://genome.jgi.doe.gov/Synfus1/download/Synfus1_GeneCatalog_proteins_20170105.aa.fasta.gz
+Syncephalis,plumigaleata,,,,NRRL S24,,v1.0,JGI,Synplu1,,http://genome.jgi.doe.gov/Synplu1/download/Synplu1_GeneCatalog_proteins_20160902.aa.fasta.gz
+Talaromyces,aculeatus,,,,ATCC 10409,,v1.0,JGI,Penac1,,http://genome.jgi.doe.gov/Penac1/download/Penac1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Talaromyces,marneffei,,ATCC 18224,,,,,JGI,Talma1_2,,http://genome.jgi.doe.gov/Talma1_2/download/Talma1_2.all_proteins.ExternalModels.gff3.gz.tar.gz
+Talaromyces,proteolyticus,,,,PMI_201,,v1.0,JGI,Talpro1,,http://genome.jgi.doe.gov/Talpro1/download/Talpro1_GeneCatalog_proteins_20161118.aa.fasta.gz
+Talaromyces,stipitatus,,ATCC 10500,,,,,JGI,Talst1_2,,http://genome.jgi.doe.gov/Talst1_2/download/Talst1_2.all_proteins.JCVIModels.gff3.gz.tar.gz
+Taphrina,deformans,,,,,,,JGI,Tapde1_1,,http://genome.jgi.doe.gov/Tapde1_1/download/Tapde1_1.all_proteins.ExternalModels.gff3.gz.tar.gz
+Teratosphaeria,nubilosa,,CBS 116005,,,,v1.0,JGI,Ternu1,,http://genome.jgi.doe.gov/Ternu1/download/Ternu1_GeneCatalog_proteins_20140925.aa.fasta.gz
+Terfezia,boudieri,,ATCC MYA-4762,,,,v1.1,JGI,Terbo2,,http://genome.jgi.doe.gov/Terbo2/download/Terbo2_GeneCatalog_proteins_20141124.aa.fasta.gz
+Terfezia,claveryi,,T7,,,,v1.0,JGI,Tercla1,,http://genome.jgi.doe.gov/Tercla1/download/Tercla1_GeneCatalog_proteins_20170113.aa.fasta.gz
+Testicularia,cyperi,,,,MCA 3645,,v1.0,JGI,Tescy1,,http://genome.jgi.doe.gov/Tescy1/download/Tescy1_GeneCatalog_proteins_20150113.aa.fasta.gz
+Thamnidium,elegans,,,,,,v1.0,JGI,Thaele1,,http://genome.jgi.doe.gov/Thaele1/download/Thaele1_GeneCatalog_proteins_20160208.aa.fasta.gz
+Thanatephorus,cucumeris,,,,PT424,,v1.0,JGI,Thacu1,,http://genome.jgi.doe.gov/Thacu1/download/Thacu1_GeneCatalog_proteins_20170424.aa.fasta.gz
+Thelebolus,microsporus,,,,ATCC 90970,,v1.0,JGI,Themi1,,http://genome.jgi.doe.gov/Themi1/download/Themi1_GeneCatalog_proteins_20141205.aa.fasta.gz
+Thelebolus,stercoreus,,,,,,,JGI,Thest1,,http://genome.jgi.doe.gov/Thest1/download/Thest1.all_proteins.ExternalModels.gff3.gz.tar.gz
+Thelephora,ganbajun,,,,P2,,v1.0,JGI,Thega1,,http://genome.jgi.doe.gov/Thega1/download/Thega1_GeneCatalog_proteins_20150318.aa.fasta.gz
+Thermoascus,aurantiacus,,,,,,v1.0,JGI,Theau1,,http://genome.jgi.doe.gov/Theau1/download/Theau1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Thermomyces,lanuginosus,,SSBP,,,,,JGI,Thelan1,,http://genome.jgi.doe.gov/Thelan1/download/Thelan1_GeneCatalog_proteins_20160730.aa.fasta.gz
+Thielavia,antarctica,,CBS 123565,,,,v1.0,JGI,Thian1,,http://genome.jgi.doe.gov/Thian1/download/Thian1.all_proteins.FilteredModels2.gff3.gz.tar.gz
+Thielavia,appendiculata,,CBS 731.68,,,,v1.0,JGI,Thiap1,,http://genome.jgi.doe.gov/Thiap1/download/Thiap1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Thielavia,arenaria,,CBS 508.74,,,,v1.0,JGI,Thiar1,,http://genome.jgi.doe.gov/Thiar1/download/Thiar1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Thielavia,hyrcaniae,,CBS 757.83,,,,v1.0,JGI,Thihy1,,http://genome.jgi.doe.gov/Thihy1/download/Thihy1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Thielavia,terrestris,,,,,,v2.0,JGI,Thite2,,http://genome.jgi.doe.gov/Thite2/download/Thite2.all_proteins.FilteredModels2.gff3.gz.tar.gz
+Thozetella,sp.,,PMI_491,,,,v2.0,JGI,ThoPMI491_1,,http://genome.jgi.doe.gov/ThoPMI491_1/download/ThoPMI491_1_GeneCatalog_proteins_20140726.aa.fasta.gz
+Tilletiaria,anomala,,UBC 951,,,,v1.0,JGI,Tilan2,,http://genome.jgi.doe.gov/Tilan2/download/Tilan2.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Tilletiopsis,albescens,,,,,,v1.0,JGI,Tilalb1,,http://genome.jgi.doe.gov/Tilalb1/download/Tilalb1_GeneCatalog_proteins_20160202.aa.fasta.gz
+Tilletiopsis,sp.,,TKC30,,,,v1.0,JGI,Tillet1,,http://genome.jgi.doe.gov/Tillet1/download/Tillet1_GeneCatalog_proteins_20170626.aa.fasta.gz
+Tilletiopsis,washingtonensis,,,,MCA 4186,,v1.0,JGI,Tilwa1,,http://genome.jgi.doe.gov/Tilwa1/download/Tilwa1_GeneCatalog_proteins_20141225.aa.fasta.gz
+Tolypocladium,inflatum,,,,NRRL 8044,,,JGI,Tolinf1,,http://genome.jgi.doe.gov/Tolinf1/download/Tolinf1_GeneCatalog_proteins_20160803.aa.fasta.gz
+Torpedospora,radiata,,,,JK5252C,,v1.0,JGI,Torra1,,http://genome.jgi.doe.gov/Torra1/download/Torra1_GeneCatalog_proteins_20150428.aa.fasta.gz
+Tortispora,caseinolytica,,,,Y-17796,,v1.0,JGI,Canca1,,http://genome.jgi.doe.gov/Canca1/download/Canca1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Torulaspora,delbrueckii,,CBS 1146,,,,,JGI,Torde1,,http://genome.jgi.doe.gov/Torde1/download/Torde1_GeneCatalog_proteins_20150128.aa.fasta.gz
+Tothia,fuscella,,,,CBS 130266,,v1.0,JGI,Totfu1,,http://genome.jgi.doe.gov/Totfu1/download/Totfu1_GeneCatalog_proteins_20140831.aa.fasta.gz
+Trametes,cingulata,,,,BRFM 1805,,v1.0,JGI,Traci1,,http://genome.jgi.doe.gov/Traci1/download/Traci1_GeneCatalog_proteins_20150209.aa.fasta.gz
+Trametes,gibbosa,,,,CIRM-BRFM 1770,,v1.0,JGI,Tragib1,,http://genome.jgi.doe.gov/Tragib1/download/Tragib1_GeneCatalog_proteins_20161031.aa.fasta.gz
+Trametes,ljubarskyi,,,,CIRM1659,,v1.0,JGI,Tralj1,,http://genome.jgi.doe.gov/Tralj1/download/Tralj1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Trametes,meyenii,,,,CIRM-BRFM 1810,,v1.0,JGI,Tramey1,,http://genome.jgi.doe.gov/Tramey1/download/Tramey1_GeneCatalog_proteins_20170620.aa.fasta.gz
+Trametes,pubescens,,,,FBCC735,,,JGI,Trapub1,,http://genome.jgi.doe.gov/Trapub1/download/Trapub1_GeneCatalog_proteins_20160929.aa.fasta.gz
+Trametes,versicolor,,,,,,v1.0,JGI,Trave1,,http://genome.jgi.doe.gov/Trave1/download/Trave1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Trametopsis,cervina,,,,CIRM-BRFM 1824,,v1.0,JGI,Trace1,,http://genome.jgi.doe.gov/Trace1/download/Trace1_GeneCatalog_proteins_20150503.aa.fasta.gz
+Trematosphaeria,pertusa,,CBS 122368,,,,v1.0,JGI,Trepe1,,http://genome.jgi.doe.gov/Trepe1/download/Trepe1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Tremella,encephala,,,,68-887.2,,v1.0,JGI,Treen1,,http://genome.jgi.doe.gov/Treen1/download/Treen1_GeneCatalog_proteins_20160201.aa.fasta.gz
+Tremella,mesenterica,,,,Fries,,v1.0,JGI,Treme1,,http://genome.jgi.doe.gov/Treme1/download/Treme1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Trichaptum,abietinum,,,,,,v1.0,JGI,Triab1_1,,http://genome.jgi.doe.gov/Triab1_1/download/Triab1_1_GeneCatalog_proteins_20130513.aa.fasta.gz
+Trichodelitschia,bisporula,,,,CBS 262.69,,v1.0,JGI,Tribi1,,http://genome.jgi.doe.gov/Tribi1/download/Tribi1_GeneCatalog_proteins_20141117.aa.fasta.gz
+Trichoderma,asperellum,,,,CBS 433.97,,v1.0,JGI,Trias1,,http://genome.jgi.doe.gov/Trias1/download/Trias1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Trichoderma,asperellum,,,,TR356,,v1.0,JGI,Triasp1,,http://genome.jgi.doe.gov/Triasp1/download/Triasp1_GeneCatalog_proteins_20150522.aa.fasta.gz
+Trichoderma,atroviride,,,,,,v2.0,JGI,Triat2,,http://genome.jgi.doe.gov/Triat2/download/Tatroviridev2_FrozenGeneCatalog_20100319.proteins.fasta.gz
+Trichoderma,citrinoviride,,,,TUCIM 6016,,v4.0,JGI,Trici4,,http://genome.jgi.doe.gov/Trici4/download/Trici4.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Trichoderma,gamsii,,,,T6085,,,JGI,Trigam1,,http://genome.jgi.doe.gov/Trigam1/download/Trigam1_GeneCatalog_proteins_20170914.aa.fasta.gz
+Trichoderma,harzianum,,CBS 226.95,,,,v1.0,JGI,Triha1,,http://genome.jgi.doe.gov/Triha1/download/Triha1_GeneCatalog_proteins_20120306.aa.fasta.gz
+Trichoderma,harzianum,,,,TR274,,v1.0,JGI,Trihar1,,http://genome.jgi.doe.gov/Trihar1/download/Trihar1_GeneCatalog_proteins_20141017.aa.fasta.gz
+Trichoderma,longibrachiatum,,ATCC 18648,,,,v3.0,JGI,Trilo3,,http://genome.jgi.doe.gov/Trilo3/download/Trilo3.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Trichoderma,reesei,,RUT C-30,,,,v1.0,JGI,TrireRUTC30_1,,http://genome.jgi.doe.gov/TrireRUTC30_1/download/TrireRUTC30_1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Trichoderma,reesei,,,,,,v2.0,JGI,Trire2,,http://genome.jgi.doe.gov/Trire2/download/TreeseiV2_FilteredModelsv2.0.proteins.fasta.gz
+Trichoderma,virens,,Gv29-8,,,,v2.0,JGI,TriviGv29_8_2,,http://genome.jgi.doe.gov/TriviGv29_8_2/download/TriviGv29_8_2.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Tricholoma,matsutake,,945,,,,v3.0,JGI,Trima3,,http://genome.jgi.doe.gov/Trima3/download/Trima3.all_proteins.FilteredModels2.gff3.gz.tar.gz
+Trichomonascus,petasosporus,,,,NRRL YB-2093,,v1.0,JGI,Tripe1,,http://genome.jgi.doe.gov/Tripe1/download/Tripe1_GeneCatalog_proteins_20150117.aa.fasta.gz
+Trichophaea,hybrida,,,,UTF0779,,v1.0,JGI,Trihyb1,,http://genome.jgi.doe.gov/Trihyb1/download/Trihyb1_GeneCatalog_proteins_20161123.aa.fasta.gz
+Trichophyton,rubrum,,CBS 118892,,,,,JGI,Triru1,,http://genome.jgi.doe.gov/Triru1/download/Triru1.all_proteins.BroadModels.gff3.gz.tar.gz
+Trichophyton,verrucosum,,,,HKI 517,,,JGI,Triver1,,http://genome.jgi.doe.gov/Triver1/download/Triver1.all_proteins.ExternalModels.gff3.gz.tar.gz
+Trichosporon,asahii,var. asahii,CBS 2479,,,,,JGI,Trias2479,,http://genome.jgi.doe.gov/Trias2479/download/Trias2479_GeneCatalog_proteins_20170710.aa.fasta.gz
+Trichosporon,asahii,var. asahii,CBS 8904,,,,,JGI,Trias8904,,http://genome.jgi.doe.gov/Trias8904/download/Trias8904_GeneCatalog_proteins_20170712.aa.fasta.gz
+Trichosporon,chiarellii,,,,MYA-4694,,v1.0,JGI,Trich1,,http://genome.jgi.doe.gov/Trich1/download/Trich1_GeneCatalog_proteins_20150114.aa.fasta.gz
+Trichosporon,guehoae,,,,,,v1.0,JGI,Trigue1,,http://genome.jgi.doe.gov/Trigue1/download/Trigue1_GeneCatalog_proteins_20160218.aa.fasta.gz
+Trichosporon,oleaginosus,,,,IBC0246,,v1.0,JGI,Triol1,,http://genome.jgi.doe.gov/Triol1/download/Triol1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Trinosporium,guianense,,CBS 132537,,,,v1.0,JGI,Trigu1,,http://genome.jgi.doe.gov/Trigu1/download/Trigu1_GeneCatalog_proteins_20141217.aa.fasta.gz
+Tritirachium,sp.,,CBS 265.96,,,,v1.0,JGI,Trisp1,,http://genome.jgi.doe.gov/Trisp1/download/Trisp1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Truncatella,angustata,,,,HP017,,v1.0,JGI,Truan1,,http://genome.jgi.doe.gov/Truan1/download/Truan1_GeneCatalog_proteins_20170627.aa.fasta.gz
+Trypethelium,eluteriae,,,,,,v1.0,JGI,Tryvi1,,http://genome.jgi.doe.gov/Tryvi1/download/Tryvi1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Tuber,borchii,,,,Tbo3840,,v1.0,JGI,Tubbor1,,http://genome.jgi.doe.gov/Tubbor1/download/Tubbor1_GeneCatalog_proteins_20160610.aa.fasta.gz
+Tuber,melanosporum,,Mel28,,,,v1.0,JGI,Tubme1,,http://genome.jgi.doe.gov/Tubme1/download/Tubme1.all_proteins.Genoscope_genes.gff3.gz.tar.gz
+Tulasnella,calospora,,AL13/4D,,,,v1.0,JGI,Tulca1,,http://genome.jgi.doe.gov/Tulca1/download/Tulca1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Umbelopsis,ramanniana,,AG,,,,v1.0,JGI,Umbra1,,http://genome.jgi.doe.gov/Umbra1/download/Umbra1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Umbelopsis,sp.,,AD052,,,,v1.0,JGI,Umbsp_AD052_1,,http://genome.jgi.doe.gov/Umbsp_AD052_1/download/Umbsp_AD052_1_GeneCatalog_proteins_20160912.aa.fasta.gz
+Uncinocarpus,reesii,,1704,,,,,JGI,Uncre1,,http://genome.jgi.doe.gov/Uncre1/download/Uncre1.all_proteins.BroadModels.gff3.gz.tar.gz
+Usnea,florida,,,,ATCC18376,,v1.0,JGI,Usnflo1,,http://genome.jgi.doe.gov/Usnflo1/download/Usnflo1_GeneCatalog_proteins_20160419.aa.fasta.gz
+Ustilaginoidea,virens,,,,,,,JGI,Ustvir1,,http://genome.jgi.doe.gov/Ustvir1/download/Ustvir1_GeneCatalog_proteins_20170701.aa.fasta.gz
+Ustilago,hordei,,Uh4857_4,,,,,JGI,Usthor1,,http://genome.jgi.doe.gov/Usthor1/download/Usthor1_GeneCatalog_proteins_20170410.aa.fasta.gz
+Ustilago,maydis,,,,,,,JGI,Ustma1,,http://genome.jgi.doe.gov/Ustma1/download/Ustilago_maydis.proteins.fasta.gz
+Valetoniellopsis,laxa,,CBS 191.97,,,,v1.0,JGI,Valla1,,http://genome.jgi.doe.gov/Valla1/download/Valla1_GeneCatalog_proteins_20141003.aa.fasta.gz
+Vararia,minispora,,EC-137,,,,v1.0,JGI,Varmin1,,http://genome.jgi.doe.gov/Varmin1/download/Varmin1_GeneCatalog_proteins_20160225.aa.fasta.gz
+Venturia,inaequalis,,,,,,,JGI,Venin1,,http://genome.jgi.doe.gov/Venin1/download/Venin1_GeneCatalog_proteins_20141010.aa.fasta.gz
+Venturia,pirina,,,,,,,JGI,Venpi1,,http://genome.jgi.doe.gov/Venpi1/download/Venpi1_GeneCatalog_proteins_20150407.aa.fasta.gz
+Verruconis,gallopava,,,,,,,JGI,Verga1,,http://genome.jgi.doe.gov/Verga1/download/Verga1_GeneCatalog_proteins_20160827.aa.fasta.gz
+Verruculina,enalia,,,,CBS 304.66,,v1.0,JGI,Veren1,,http://genome.jgi.doe.gov/Veren1/download/Veren1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Verticillium,alfalfae,,VaMs.102,,,,,JGI,Veral1,,http://genome.jgi.doe.gov/Veral1/download/Veral1.all_proteins.BroadModels.gff3.gz.tar.gz
+Verticillium,dahliae,,,,,,v1.0,JGI,Verda1,,http://genome.jgi.doe.gov/Verda1/download/Verda1.all_proteins.ExternalModels.gff3.gz.tar.gz
+Violaceomyces,palustris,,SA 807,,,,v1.0,JGI,Ustsp1,,http://genome.jgi.doe.gov/Ustsp1/download/Ustsp1_GeneCatalog_proteins_20150106.aa.fasta.gz
+Volvariella,volvacea,,V23,,,,,JGI,Volvo1,,http://genome.jgi.doe.gov/Volvo1/download/Volvo1.all_proteins.ExternalModels.gff3.gz.tar.gz
+Vuilleminia,comedens,,,,VcCUCC2015_SSI6,,v1.0,JGI,Vuicom1,,http://genome.jgi.doe.gov/Vuicom1/download/Vuicom1_GeneCatalog_proteins_20170111.aa.fasta.gz
+Wallemia,ichthyophaga,,EXF-994,,,,,JGI,Walic1,,http://genome.jgi.doe.gov/Walic1/download/Walic1.all_proteins.ExternalModels.gff3.gz.tar.gz
+Wallemia,sebi,,,,,,v1.0,JGI,Walse1,,http://genome.jgi.doe.gov/Walse1/download/Walse1.all_proteins.FilteredModels2.gff3.gz.tar.gz
+Westerdykella,ornata,,CBS 379.55,,,,v1.0,JGI,Wesor1,,http://genome.jgi.doe.gov/Wesor1/download/Wesor1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Wickerhamiella,domercqiae,,NRRL Y-6692,,,,v1.0,JGI,Wicdo1,,http://genome.jgi.doe.gov/Wicdo1/download/Wicdo1_GeneCatalog_proteins_20160729.aa.fasta.gz
+Wickerhamomyces,anomalus,,NRRL Y-366-8,,,,v1.0,JGI,Wican1,,http://genome.jgi.doe.gov/Wican1/download/Wican1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Wilcoxina,mikolae,,CBS 423.85,,,,v1.0,JGI,Wilmi1,,http://genome.jgi.doe.gov/Wilmi1/download/Wilmi1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Wolfiporia,cocos,,MD-104 SS10,,,,v1.0,JGI,Wolco1,,http://genome.jgi.doe.gov/Wolco1/download/Wolco1.all_proteins.FilteredModels2.gff3.gz.tar.gz
+Xanthoria,parietina,,46-1-SA22,,,,v1.1,JGI,Xanpa2,,http://genome.jgi.doe.gov/Xanpa2/download/Xanpa2_GeneCatalog_proteins_20140928.aa.fasta.gz
+Xenasmatella,vaga,,,,CBS 212.54,,v1.0,JGI,Xenvag1,,http://genome.jgi.doe.gov/Xenvag1/download/Xenvag1_GeneCatalog_proteins_20160511.aa.fasta.gz
+Xerocomus,badius,,,,84.06,,v1.0,JGI,Xerba1,,http://genome.jgi.doe.gov/Xerba1/download/Xerba1_GeneCatalog_proteins_20150320.aa.fasta.gz
+Xylaria,hypoxylon,,,,OSC100004,,v1.0,JGI,Xylhyp1,,http://genome.jgi.doe.gov/Xylhyp1/download/Xylhyp1_GeneCatalog_proteins_20160130.aa.fasta.gz
+Xylariales,sp.,,PMI_506,,,,v1.0,JGI,XylPMI506,,http://genome.jgi.doe.gov/XylPMI506/download/XylPMI506_GeneCatalog_proteins_20161028.aa.fasta.gz
+Xylona,heveae,,TC161,,,,v1.0,JGI,Xylhe1,,http://genome.jgi.doe.gov/Xylhe1/download/Xylhe1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Yarrowia,lipolytica,,CLIB122,,,,,JGI,Yarli1,,http://genome.jgi.doe.gov/Yarli1/download/Yarli1.all_proteins.ExternalModels.gff3.gz.tar.gz
+Yarrowia,lipolytica,,,,FKP355,,v1.0,JGI,Yarlip1,,http://genome.jgi.doe.gov/Yarlip1/download/Yarlip1_GeneCatalog_proteins_20160930.aa.fasta.gz
+Zancudomyces,culisetae,,COL-18-3,,,,,JGI,Zancul2,,http://genome.jgi.doe.gov/Zancul2/download/Zancul2_GeneCatalog_proteins_20170807.aa.fasta.gz
+Zasmidium,cellare,,ATCC 36951,,,,v1.0,JGI,Zasce1,,http://genome.jgi.doe.gov/Zasce1/download/Zasce1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Zopfia,rhizophila,,,,,,v1.0,JGI,Zoprh1,,http://genome.jgi.doe.gov/Zoprh1/download/Zoprh1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Zychaea,mexicana,,RSA 1403,,,,v1.0,JGI,Zycmex1,,http://genome.jgi.doe.gov/Zycmex1/download/Zycmex1_GeneCatalog_proteins_20160711.aa.fasta.gz
+Zygoascus,hellenicus,,,,Y-7136,,v1.0,JGI,Zyghe1_2,,http://genome.jgi.doe.gov/Zyghe1_2/download/Zyghe1_2_GeneCatalog_proteins_20150916.aa.fasta.gz
+Zygosaccharomyces,rouxii,,CBS 732,,,,,JGI,Zygro1,,http://genome.jgi.doe.gov/Zygro1/download/Zygro1_GeneCatalog_proteins_20150128.aa.fasta.gz
+Zymoseptoria,ardabiliae,,STIR04_1.1.1,,,,,JGI,Zymar1,,http://genome.jgi.doe.gov/Zymar1/download/Zymar1_GeneCatalog_proteins_20141012.aa.fasta.gz
+Zymoseptoria,brevis,,,,Zb18110,,,JGI,Zymbr1,,http://genome.jgi.doe.gov/Zymbr1/download/Zymbr1_GeneCatalog_proteins_20170711.aa.fasta.gz
+Zymoseptoria,pseudotritici,,STIR04_2.2.1,,,,,JGI,Zymps1,,http://genome.jgi.doe.gov/Zymps1/download/Zymps1_GeneCatalog_proteins_20141012.aa.fasta.gz
+---Currently Not in NCBI ,,,,,,,,,,,
+Artolenzites,elegans,,CIRM-BRFM 1122,,,,v1.0,JGI,Artele1122_1,,http://genome.jgi.doe.gov/Artele1122_1/download/Artele1122_1_GeneCatalog_proteins_20160227.aa.fasta.gz
+Artolenzites,elegans,,CIRM-BRFM 1663,,,,v1.0,JGI,Artel1,,http://genome.jgi.doe.gov/Artel1/download/Artel1.all_proteins.FilteredModels1.gff3.gz.tar.gz
+Cantharellus,anzutake,,C23,,,,v1.0,JGI,Cananz1,,http://genome.jgi.doe.gov/Cananz1/download/Cananz1_GeneCatalog_proteins_20160317.aa.fasta.gz
+Lasiosphaeria,miniovina,,,,SMH2392-1A,,v1.0,JGI,Lasmin1,,http://genome.jgi.doe.gov/Lasmin1/download/Lasmin1_GeneCatalog_proteins_20170616.aa.fasta.gz
+Mucor,cordense,,,,RSA 1222,,v1.0,JGI,Kircor1,,http://genome.jgi.doe.gov/Kircor1/download/Kircor1_GeneCatalog_proteins_20160812.aa.fasta.gz
+Phycomyces,nitens,,,,S607,,v1.0,JGI,PnitS607_1,,http://genome.jgi.doe.gov/PnitS607_1/download/PnitS607_1_GeneCatalog_proteins_20170410.aa.fasta.gz
+Phycomyces,nitens,,,,S608,,v1.0,JGI,PnitS608_1,,http://genome.jgi.doe.gov/PnitS608_1/download/PnitS608_1_GeneCatalog_proteins_20170410.aa.fasta.gz
+Phycomyces,nitens,,,,S609,,v1.0,JGI,PnitS609_1,,http://genome.jgi.doe.gov/PnitS609_1/download/PnitS609_1_GeneCatalog_proteins_20170410.aa.fasta.gz
+Puccinia,coronata,,avenae 12NC29,,,,,JGI,PuccoNC29_1,,http://genome.jgi.doe.gov/PuccoNC29_1/download/PuccoNC29_1_GeneCatalog_proteins_20170808.aa.fasta.gz
+Puccinia,coronata,,avenae 12SD80,,,,,JGI,PuccoSD80_1,,http://genome.jgi.doe.gov/PuccoSD80_1/download/PuccoSD80_1_GeneCatalog_proteins_20170808.aa.fasta.gz
+Rhodosporidium,toruloides,,ATCC26217,,,,v1.0,JGI,Rhoto_ATCC26217_1,,http://genome.jgi.doe.gov/Rhoto_ATCC26217_1/download/Rhoto_ATCC26217_1_GeneCatalog_proteins_20160520.aa.fasta.gz
+Rhodosporidium,toruloides,,IFO0559_1,,,,,JGI,Rhoto_IFO0559_1,,http://genome.jgi.doe.gov/Rhoto_IFO0559_1/download/Rhoto_IFO0559_1_GeneCatalog_proteins_20151023.aa.fasta.gz
+Rhodosporidium,toruloides,,IFO0880,,,,v2.0,JGI,Rhoto_IFO0880_2,,http://genome.jgi.doe.gov/Rhoto_IFO0880_2/download/Rhoto_IFO0880_2_GeneCatalog_proteins_20160222.aa.fasta.gz
+Rhodosporidium,toruloides,,IFO0880,,,,v4.0,JGI,Rhoto_IFO0880_4,,http://genome.jgi.doe.gov/Rhoto_IFO0880_4/download/Rhoto_IFO0880_4_GeneCatalog_proteins_20170509.aa.fasta.gz
+Rhodosporidium,toruloides,,IFO1236_1,,,,,JGI,Rhoto_IFO1236_1,,http://genome.jgi.doe.gov/Rhoto_IFO1236_1/download/Rhoto_IFO1236_1_GeneCatalog_proteins_20151022.aa.fasta.gz
+Rhodosporidium,toruloides,,NP11,,,,,JGI,Rhoto1,,http://genome.jgi.doe.gov/Rhoto1/download/Rhoto1_GeneCatalog_proteins_20141208.aa.fasta.gz
+Scytinostroma,sp.,,,,KUC9335,,v1.0,JGI,Scysp1_1,,http://genome.jgi.doe.gov/Scysp1_1/download/Scysp1_1_GeneCatalog_proteins_20160715.aa.fasta.gz
+Smittium,culicis,,GSMNP,,,,,JGI,SmicuMNP_2,,http://genome.jgi.doe.gov/SmicuMNP_2/download/SmicuMNP_2_GeneCatalog_proteins_20170807.aa.fasta.gz
+Smittium,culicis,,ID-206-W2,,,,,JGI,SmiculW2_1,,http://genome.jgi.doe.gov/SmiculW2_1/download/SmiculW2_1_GeneCatalog_proteins_20170804.aa.fasta.gz
