@@ -7,7 +7,7 @@ use warnings;
 #use File::Basename;
 #use Time::localtime;
 use DBD::mysql;
-use Digest::MD5;
+use Digest::MD5 qw(md5_hex);
 use Getopt::Long;    #::Complete;
 
 use Data::Dumper;
@@ -15,8 +15,9 @@ use Data::Dumper;
 my $VERSION = "OrchardDB v1.0 -- plant.pl v0.1";
 
 # directories
-my $input_dir;       # original FASTA format protein directory
-my $output_dir;      # modified FASTA format protein directory
+my $input_fasta_dir;     # original FASTA format protein directory
+my $output_fasta_dir;    # modified FASTA format protein directory
+my $taxadb_dir;          # location of the NCBI taxadb files
 
 # database access
 my $ip_address;
@@ -74,6 +75,8 @@ sub setup_mysql_db {
     $dbh->disconnect();
 }
 
-sub hash_accession { }
-
-sub
+sub hash_header {
+    my $header = shift;
+    $header = md5_hex($header);
+    return $header;
+}
