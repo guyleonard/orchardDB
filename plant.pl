@@ -3,18 +3,26 @@
 use strict;
 use warnings;
 
+#use Cwd;
 #use Time::localtime;
-use Cwd;
+use Bio::SeqIO;
+use Bio::SeqIO::fasta;
 use DBD::mysql;
 use Digest::MD5 qw(md5_hex);
 use File::Basename;
 use File::Find;
-use Getopt::Long;    #::Complete;
+use File::Path qw(make_path);
+use File::Spec;
+use Getopt::Long;
+use IO::Uncompress::Gunzip qw(gunzip $GunzipError);
 use v5.10;
 
 use Data::Dumper;
 
 my $VERSION = "OrchardDB v1.0\n--plant.pl v0.1";
+
+# things
+#my $work_dir = cwd();
 
 # directories
 my $input_fasta_dir;     # original FASTA format protein directory
@@ -45,17 +53,111 @@ GetOptions(
 
 my @fasta_input = get_genome_files($input_fasta_dir);
 
+########################
+##        MAIN        ##
+########################
+
+foreach my $file_path (@fasta_input) {
+
+    my $abs_path = File::Spec->rel2abs($file_path);
+    my @part = split( /\//, $file_path );
+
+    my $source    = $part[1];
+    my $subsource = $part[1];
+    my $filename  = $part[2];
+    if ( $source ne "NCBI" ) {
+        $subsource = $part[2];
+        $filename  = $part[3];
+    }
+
+    # some files may be gziped, we need to use a different input
+    # for those and we need absolute path for output
+    my ( $name, $path, $suffix ) = fileparse( $abs_path, '.gz' );
+
+    if ( $suffix eq ".gz" ) {
+        say "Unzipping $file_path";
+        my $status = gunzip "$abs_path" => "$path\/$name"
+            or die "gunzip failed: $GunzipError\n";
+
+        say "Reading $name";
+        my $seqio_object = Bio::SeqIO->new(
+            -file   => "$path\/$name",
+            -format => 'fasta'
+        );
+
+        process_seqio( $seqio_object, $path, $output_fasta_dir, $filename );
+
+        # gzip
+    }
+    else {
+        say "Reading $file_path";
+        my $seqio_object = Bio::SeqIO->new(
+            -file   => "$file_path",
+            -format => 'fasta'
+        );
+
+        process_seqio( $seqio_object, $path, $output_fasta_dir, $filename );
+
+        # gzip
+    }
+}
 
 ########################
 ##        SUBS        ##
 ########################
+
+sub process_seqio {
+    my ( $seqio_object, $abs_path, $output_fasta_dir, $filename ) = @_;
+
+    my ( $dir, $source ) = split( $input_fasta_dir, $abs_path );
+    my $current_out = "$dir\/$output_fasta_dir";
+
+    # make the output directory
+    if ( !-d $current_out ) { make_path($current_out) }
+    
+    ###
+    # This will come from the input filename list soon...
+    my ( $name, $path, $suffix ) = fileparse( $filename, '\.*' );
+    say "Output: $current_out\/$name\.fasta";
+    ###
+
+    my $output = Bio::SeqIO->new(
+        -file   => ">$current_out\/$name\.fasta",
+        -format => 'fasta'
+    );
+
+    while ( my $seq = $seqio_object->next_seq() ) {
+    	# get full header, made from id and description
+        my $original_header = $seq->id . " " . $seq->desc;
+        my $sequence        = $seq->seq;
+
+        # replace header info with a hash
+        my $hashed_accession = hash_header($original_header);
+        $seq->id("$hashed_accession");
+
+        # remove non-useful phylogenetic information from sequence data
+        # stop codons at the end of the sequence
+        $sequence =~ s/\*$//;
+
+        # replace with X if not a valid protein code
+        $sequence =~ s/[^A-z|^\-]/X/g;
+        $seq->seq("$sequence");
+
+        $output->write_seq($seq);
+    }
+}
+
+sub process_JGI {
+
+
+}
 
 sub get_genome_files {
     my $input_fasta_dir = shift;
     my @fasta_files;
     my $file_finder = sub {
         return if !-f;
-        return if !/\.fa|\.fasta|\.fas|\.gz\z/;
+        return if !/\.fa|\.fasta|\.fas|\.aa|\.gz\z/;
         push @fasta_files, $File::Find::name;
     };
     find( $file_finder, $input_fasta_dir );
