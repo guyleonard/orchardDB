@@ -78,35 +78,28 @@ foreach my $file_path (@fasta_input) {
         say "Unzipping $file_path";
         my $status = gunzip "$abs_path" => "$path\/$name"
             or die "gunzip failed: $GunzipError\n";
-
-        say "Reading $name";
-        my $seqio_object = Bio::SeqIO->new(
-            -file   => "$path\/$name",
-            -format => 'fasta'
-        );
-
-        process_seqio( $seqio_object, $path, $output_fasta_dir, $filename );
-
-        # gzip
+        $file_path =~ s/\.gz//;
     }
-    else {
-        say "Reading $file_path";
-        my $seqio_object = Bio::SeqIO->new(
-            -file   => "$file_path",
-            -format => 'fasta'
-        );
+    
+    say "Reading $file_path";
+    my $seqio_object = Bio::SeqIO->new(
+        -file   => "$file_path",
+        -format => 'fasta'
+    );
 
-        process_seqio( $seqio_object, $path, $output_fasta_dir, $filename );
+    process_fasta( $seqio_object, $path, $output_fasta_dir, $filename );
 
-        # gzip
-    }
+    # gzip
+
 }
 
 ########################
 ##        SUBS        ##
 ########################
 
-sub process_seqio {
+# takes the  bioperl seqio object, along with
+#
+sub process_fasta {
     my ( $seqio_object, $abs_path, $output_fasta_dir, $filename ) = @_;
 
     my ( $dir, $source ) = split( $input_fasta_dir, $abs_path );
@@ -114,7 +107,7 @@ sub process_seqio {
 
     # make the output directory
     if ( !-d $current_out ) { make_path($current_out) }
-    
+
     ###
     # This will come from the input filename list soon...
     my ( $name, $path, $suffix ) = fileparse( $filename, '\.*' );
@@ -127,7 +120,8 @@ sub process_seqio {
     );
 
     while ( my $seq = $seqio_object->next_seq() ) {
-    	# get full header, made from id and description
+
+        # get full header, made from id and description
         my $original_header = $seq->id . " " . $seq->desc;
         my $sequence        = $seq->seq;
 
@@ -148,7 +142,6 @@ sub process_seqio {
 }
 
 sub process_JGI {
-
 
 }
 
