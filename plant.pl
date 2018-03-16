@@ -3,15 +3,18 @@
 use strict;
 use warnings;
 
-#use Cwd;
-#use Time::localtime;
-use Bio::SeqIO;
+use Cwd;
+
+use Bio::DB::Taxonomy;
 use Bio::SeqIO::fasta;
+use Bio::SeqIO;
+use DateTime;
 use DBD::mysql;
 use Digest::MD5 qw(md5_hex);
 use File::Basename;
 use File::Find;
 use File::Path qw(make_path);
+use File::Slurp;
 use File::Spec;
 use Getopt::Long;
 use IO::Uncompress::Gunzip qw(gunzip $GunzipError);
@@ -22,12 +25,13 @@ use Data::Dumper;
 my $VERSION = "OrchardDB v1.0\n--plant.pl v0.1";
 
 # things
-#my $work_dir = cwd();
+my $work_dir = cwd();
 
-# directories
+# input directories etc
 my $input_fasta_dir;     # original FASTA format protein directory
 my $output_fasta_dir;    # modified FASTA format protein directory
 my $taxadb_dir;          # location of the NCBI taxadb files
+my $ncbi_taxid_file;
 
 # database access
 my $ip_address = "";
@@ -43,6 +47,7 @@ unless (@ARGV) {
 GetOptions(
     'in=s'      => \$input_fasta_dir,
     'out=s'     => \$output_fasta_dir,
+    'ncbi=s'    => \$ncbi_taxid_file,
     'ip|i=s'    => \$ip_address,
     'user|u=s'  => \$user,
     'pass|p=s'  => \$password,
@@ -52,6 +57,7 @@ GetOptions(
 ) or help_message();
 
 my @fasta_input = get_genome_files($input_fasta_dir);
+my @ncbi_taxids = read_file( "$ncbi_taxid_file", chomp => 1 );
 
 ########################
 ##        MAIN        ##
@@ -59,35 +65,76 @@ my @fasta_input = get_genome_files($input_fasta_dir);
 
 foreach my $file_path (@fasta_input) {
 
+    # find the absolute path for input files, if not specified
     my $abs_path = File::Spec->rel2abs($file_path);
-    my @part = split( /\//, $file_path );
 
-    my $source    = $part[1];
-    my $subsource = $part[1];
-    my $filename  = $part[2];
+    # extract the directory structure in to source/subsource
+    # and filename
+    my @parts     = split( /\//, $file_path );
+    my $source    = $parts[1];
+    my $subsource = $parts[1];
+    my $filename  = $parts[2];
     if ( $source ne "NCBI" ) {
-        $subsource = $part[2];
-        $filename  = $part[3];
+        $subsource = $parts[2];
+        $filename  = $parts[3];
     }
 
-    # some files may be gziped, we need to use a different input
-    # for those and we need absolute path for output
-    my ( $name, $path, $suffix ) = fileparse( $abs_path, '.gz' );
-
-    if ( $suffix eq ".gz" ) {
-        say "Unzipping $file_path";
-        my $status = gunzip "$abs_path" => "$path\/$name"
+    # check if a file in gzip, if so
+    # we need to unzip it and update file_path
+    if ( $filename =~ /\.gz$/ ) {
+        $filename =~ s/\.gz$//;
+        say "\tUnzipping: $filename";
+        my $status = gunzip "$abs_path" => "$filename"
             or die "gunzip failed: $GunzipError\n";
         $file_path =~ s/\.gz//;
     }
-    
-    say "Reading $file_path";
-    my $seqio_object = Bio::SeqIO->new(
-        -file   => "$file_path",
-        -format => 'fasta'
-    );
 
-    process_fasta( $seqio_object, $path, $output_fasta_dir, $filename );
+    # set up the output path which will be in the
+    # directory one up from the absolute path given
+    # by the input directory and named by the user input
+    my @dir         = split( $input_fasta_dir, $abs_path );
+    my $input_path  = "$dir[0]";
+    my $output_path = "$dir[0]$output_fasta_dir";
+
+    ## Process fasta files
+    # read in the original file and process it to have
+    # new headers and output in the output folder
+    say "Reading: $file_path";
+    my $seqio_process = open_seqio($file_path);
+    process_fasta( $seqio_process, $output_path, $filename );
+
+    ## Get and convert taxids to taxonomy
+    #
+    get_taxonomy( $filename, @ncbi_taxids, );
+
+    ## Construct MySQL input
+
+    # date time values in 'YYYY-MM-DD HH:MM:SS'
+    my $date_time = DateTime->now( time_zone => "local" )->datetime();
+
+    # Remove the erroneous T - not good for MYSQL
+    $date_time =~ s/T/ /igs;
+
+    #
+    my $seqio_mysql = open_seqio($file_path);
+    if ( $source =~ /JGI/i ) {
+        process_JGI( $seqio_mysql, $source, $subsource, $filename,
+            $date_time );
+    }
+    elsif ( $source =~ /NCBI/i ) {
+
+    }
+    elsif ( $source =~ /Ensembl/i ) {
+
+    }
+    elsif ( $source =~ /EuPathDB/i ) {
+
+    }
+
+    # other
+    else {
+
+    }
 
     # gzip
 
@@ -97,25 +144,58 @@ foreach my $file_path (@fasta_input) {
 ##        SUBS        ##
 ########################
 
-# takes the  bioperl seqio object, along with
-#
+# takes bioperl seqio object, along with
+sub process_JGI {
+    my ( $seqio_object, $source, $subsource, $filename, $date_time ) = @_;
+    my $accession;
+
+    while ( my $seq = $seqio_object->next_seq() ) {
+
+        # get full header, made from id and description
+        my $original_header = $seq->id . " " . $seq->desc;
+
+        # different JGI portals have different headers
+        # some of fungi may also break here
+        if ( $subsource =~ /fungi|mycocosm/i ) {
+
+            # jgi|Encro1|1|EROM_010010m.01
+            $original_header =~ /jgi\|.*\|(\d+)\|.*/;
+            $accession = $1;
+        }
+        elsif ( $subsource =~ /phytozome/i ) {
+
+            #94000 pacid=27412871 transcript=94000 locus=ost_18_004_031 \
+            #ID=94000.2.0.231 annot-version=v2.0
+            $original_header =~ /\d+\s+pacid\=(\d+)\s+.*/;
+            $accession = $1;
+        }
+        else {
+            $accession = $seq->id;
+        }
+
+        # replace header info with a hash
+        my $hashed_accession = hash_header($original_header);
+        say
+            "$hashed_accession - $accession - $original_header - $date_time - $source - $subsource - $filename";
+    }
+}
+
+# takes the bioperl seqio object, along with
+# the output path and new filename
 sub process_fasta {
-    my ( $seqio_object, $abs_path, $output_fasta_dir, $filename ) = @_;
+    my ( $seqio_object, $output_path, $filename ) = @_;
 
-    my ( $dir, $source ) = split( $input_fasta_dir, $abs_path );
-    my $current_out = "$dir\/$output_fasta_dir";
-
-    # make the output directory
-    if ( !-d $current_out ) { make_path($current_out) }
+    # make the output directory if it doesn't exist already
+    if ( !-d $output_path ) { make_path($output_path) }
 
     ###
     # This will come from the input filename list soon...
     my ( $name, $path, $suffix ) = fileparse( $filename, '\.*' );
-    say "Output: $current_out\/$name\.fasta";
+    say "Output: $output_path\/$name\.fasta";
     ###
 
     my $output = Bio::SeqIO->new(
-        -file   => ">$current_out\/$name\.fasta",
+        -file   => ">$output_path\/$name\.fasta",
         -format => 'fasta'
     );
 
@@ -141,8 +221,31 @@ sub process_fasta {
     }
 }
 
-sub process_JGI {
+sub get_taxonomy {
+    my ( $filename, @ncbi_taxid_file ) = @_;
 
+    my ($match) = grep { $_ =~ $filename } @ncbi_taxid_file;
+    my ( $filenamex, $taxid ) = split( /,/, $match );
+
+    my $db = Bio::DB::Taxonomy->new(
+        -source    => 'flatfile',
+        -nodesfile => 'nodes.dmp',
+        -namesfile => 'names.dmp'
+    );
+
+    my $taxon = $db->get_taxon(-taxonid => $taxid);
+
+    say "$taxon - $filename";
+
+}
+
+sub open_seqio {
+    my $file_path = shift;
+    my $seqio_in  = Bio::SeqIO->new(
+        -file   => "$file_path",
+        -format => 'fasta'
+    );
+    return $seqio_in;
 }
 
 sub get_genome_files {
