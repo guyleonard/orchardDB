@@ -5,7 +5,7 @@ use warnings;
 
 use Cwd;
 
-use Bio::DB::Taxonomy;
+use Bio::LITE::Taxonomy::NCBI;
 use Bio::SeqIO::fasta;
 use Bio::SeqIO;
 use DateTime;
@@ -227,15 +227,22 @@ sub get_taxonomy {
     my ($match) = grep { $_ =~ $filename } @ncbi_taxid_file;
     my ( $filenamex, $taxid ) = split( /,/, $match );
 
-    my $db = Bio::DB::Taxonomy->new(
-        -source    => 'flatfile',
-        -nodesfile => 'nodes.dmp',
-        -namesfile => 'names.dmp'
-    );
+    # flat file access is to slow
+    #my $db = Bio::DB::Taxonomy->new(
+    #    -source    => 'flatfile',
+    #    -nodesfile => 'nodes.dmp',
+    #    -namesfile => 'names.dmp'
+    #);
+    #my $taxon = $db->get_taxon(-taxonid => $taxid);
 
-    my $taxon = $db->get_taxon(-taxonid => $taxid);
+    #my $taxDB = Bio::LITE::Taxonomy::NCBI->new(
+    #    db    => "NCBI",
+    #    names => "/home/cs02gl/Dropbox/git/orchardDB/taxdump/names.dmp",
+    #    nodes => "/home/cs02gl/Dropbox/git/orchardDB/taxdump/nodes.dmp"
+    #);
+    #my $tax = $taxDB->get_taxonomy($taxid);
 
-    say "$taxon - $filename";
+    say "$tax - $filename";
 
 }
 
