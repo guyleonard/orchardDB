@@ -22,7 +22,8 @@ use v5.10;
 
 use Data::Dumper;
 
-my $VERSION = "OrchardDB v1.0\n--plant.pl v0.1";
+our $VERSION = 0.1;
+my $version = "OrchardDB v1.0\n--plant.pl v0.1";
 
 # things
 my $work_dir = cwd();
@@ -35,13 +36,13 @@ my $ncbi_taxid_file;
 my $ncbi_taxdump_dir;
 
 # database access
-my $ip_address = "";
+my $ip_address = q{};
 my $dsn        = "dbi:mysql:orchardDB:$ip_address";
 my $user;
 my $password;
 my $table_name;
 
-unless (@ARGV) {
+if ( !@ARGV ) {
     help_message();
 }
 
@@ -54,7 +55,7 @@ GetOptions(
     'user|u=s'  => \$user,
     'pass|p=s'  => \$password,
     'table|t=s' => \$table_name,
-    'version|v' => sub { say "$VERSION" },
+    'version|v' => sub { say "$version" },
     'help|h'    => sub { help_message() }
 ) or help_message();
 
@@ -72,35 +73,37 @@ foreach my $file_path (@fasta_input) {
 
     # extract the directory structure in to source/subsource
     # and filename
-    my @parts     = split( /\//, $file_path );
+    my @parts     = split /\//, $file_path;
     my $source    = $parts[1];
     my $subsource = $parts[1];
     my $filename  = $parts[2];
-    if ( $source ne "NCBI" ) {
+    if ( $source ne 'NCBI' ) {
         $subsource = $parts[2];
         $filename  = $parts[3];
     }
 
     # check if a file in gzip, if so
     # we need to unzip it and update file_path
-    if ( $filename =~ /\.gz$/ ) {
-        $filename =~ s/\.gz$//;
-        say "\tUnzipping: $filename";
+    if ( $filename =~ /[.]gz$/ ) {
+        $filename =~ s/[.]gz$//;
+        say "Unzipping: $filename";
         my $status = gunzip "$abs_path" => "$filename"
             or die "gunzip failed: $GunzipError\n";
-        $file_path =~ s/\.gz//;
+        $file_path =~ s/[.]gz//;
     }
 
     # set up the output path which will be in the
     # directory one up from the absolute path given
     # by the input directory and named by the user input
-    my @dir         = split( $input_fasta_dir, $abs_path );
+    my @dir         = split $input_fasta_dir, $abs_path;
     my $input_path  = "$dir[0]";
     my $output_path = "$dir[0]$output_fasta_dir";
 
     ## Get and convert taxids to taxonomy
     #
-    my $full_name = get_taxonomy( $filename, @ncbi_taxids, $ncbi_taxdump_dir );
+    my ($full_name, $superkingdom, $kingdom, $subkingdom, $phylum,
+        $subphylum, $class,        $order,   $family,     $special
+    ) = get_taxonomy( $filename, @ncbi_taxids, $ncbi_taxdump_dir );
 
     ## Process fasta files
     # read in the original file and process it to have
@@ -112,34 +115,33 @@ foreach my $file_path (@fasta_input) {
     ## Construct MySQL input
 
     # date time values in 'YYYY-MM-DD HH:MM:SS'
-    my $date_time = DateTime->now( time_zone => "local" )->datetime();
+    my $date_time = DateTime->now( time_zone => 'local' )->datetime();
 
     # Remove the erroneous T - not good for MYSQL
     $date_time =~ s/T/ /igs;
 
     #
     my $seqio_mysql = open_seqio($file_path);
-    if ( $source =~ /JGI/i ) {
-        process_JGI( $seqio_mysql, $source, $subsource, $filename,
-            $date_time );
-    }
-    elsif ( $source =~ /NCBI/i ) {
+    foreach ($source) {
+        when ( $source =~ /JGI/i ) {
+            process_jgi( $seqio_mysql, $source, $subsource, $filename,
+                $date_time );
+        }
+        when ( $source =~ /NCBI/i ) {
 
-    }
-    elsif ( $source =~ /Ensembl/i ) {
+        }
+        when ( $source =~ /Ensembl/i ) {
 
-    }
-    elsif ( $source =~ /EuPathDB/i ) {
+        }
+        when ( $source =~ /EuPathDB/i ) {
 
-    }
+        }
+        default {
 
-    # other
-    else {
-
+        }
     }
 
     # gzip
-
 }
 
 ########################
@@ -147,21 +149,21 @@ foreach my $file_path (@fasta_input) {
 ########################
 
 # takes bioperl seqio object, along with
-sub process_JGI {
+sub process_jgi {
     my ( $seqio_object, $source, $subsource, $filename, $date_time ) = @_;
     my $accession;
 
     while ( my $seq = $seqio_object->next_seq() ) {
 
         # get full header, made from id and description
-        my $original_header = $seq->id . " " . $seq->desc;
+        my $original_header = $seq->id . ' ' . $seq->desc;
 
         # different JGI portals have different headers
         # some of fungi may also break here
         if ( $subsource =~ /fungi|mycocosm/i ) {
 
             # jgi|Encro1|1|EROM_010010m.01
-            $original_header =~ /jgi\|.*\|(\d+)\|.*/;
+            $original_header =~ /jgi\[|].*\[|](\d+)\[|].*/;
             $accession = $1;
         }
         elsif ( $subsource =~ /phytozome/i ) {
@@ -192,9 +194,11 @@ sub process_fasta {
 
     # replace spaces with underscores
     $full_name =~ s/\s+/\_/g;
+
     # replace non-alphanumeric chars with underscore
     # include . and -
-    $full_name =~ s/[^A-z|^0-9|^\.|^\-]/_/g;
+    #$full_name =~ s/[^A-z[|]^0-9[|]^\.[|]^\-]/_/g;
+    $full_name =~ s/[^\w[|]^[.][|]^\-]/_/g;
 
     my $output = Bio::SeqIO->new(
         -file   => ">$output_path\/$full_name\.fasta",
@@ -204,7 +208,7 @@ sub process_fasta {
     while ( my $seq = $seqio_object->next_seq() ) {
 
         # get full header, made from id and description
-        my $original_header = $seq->id . " " . $seq->desc;
+        my $original_header = $seq->id . ' ' . $seq->desc;
         my $sequence        = $seq->seq;
 
         # replace header info with a hash
@@ -213,7 +217,7 @@ sub process_fasta {
 
         # remove non-useful phylogenetic information from sequence data
         # stop codons at the end of the sequence
-        $sequence =~ s/\*$//;
+        $sequence =~ s/[*]$//;
 
         # replace with X if not a valid protein code
         $sequence =~ s/[^A-z|^\-]/X/g;
@@ -227,13 +231,15 @@ sub get_taxonomy {
     my ( $filename, @ncbi_taxid_file ) = @_;
 
     my ($match) = grep { $_ =~ $filename } @ncbi_taxid_file;
-    my ( $filenamex, $taxid ) = split( /,/, $match );
+    my ( $filenamex, $taxid ) = split /,/, $match;
 
+    # if the sqlite db does not exist, warn user
     if ( !-f "$ncbi_taxdump_dir\/taxonomy.sqlite" ) {
         say
             "[INFO]:\tIndexing NCBI Taxonomy - this may take a few minutes on the first run!";
     }
 
+    # read in taxonomy from taxdump
     my $db = Bio::DB::Taxonomy->new(
         -source    => 'sqlite',
         -db        => "$ncbi_taxdump_dir\/taxonomy.sqlite",
@@ -241,40 +247,58 @@ sub get_taxonomy {
         -namesfile => "$ncbi_taxdump_dir\/names.dmp"
     );
 
+    # given the NCBI taxa ID from user input, get the taxon info
+    # from the taxdump info
     my $taxon = $db->get_taxon( -taxonid => $taxid );
 
+    # build a bioperl tree
     my $tree_functions = Bio::Tree::Tree->new();
-    my @lineage        = $tree_functions->get_lineage_nodes($taxon);
 
-    my $lineage1    = $tree_functions->get_lineage_string($taxon);
-    my @lineage2    = split( /;/, $lineage1 );
-    my $full_name = $lineage2[-1];
+    # get the taxonomy lineage and extract full name
+    my $lineage_string = $tree_functions->get_lineage_string($taxon);
 
-    my %taxonomy = ( 'no name' => 'empty' );
+    # extract the last element via list splice for taxon full name
+    my $full_name = ( split /;/, $lineage_string )[-1];
 
-    my $count = 0;
-    foreach my $item (@lineage) {
-        my $name = $item->node_name;
-        $name =~ s/\'//ig;    #remove ''
-        my $rank = $item->rank;
+    # get the taxonomy lineage with associated levels, e.g. Kingdom
+    my @lineage_groups = $tree_functions->get_lineage_nodes($taxon);
 
-        #print "x$count\n";
+    my ($superkingdom, $kingdom, $subkingdom, $phylum, $subphylum,
+        $class,        $order,   $family,     $special
+    ) = qw (X X X X X X X X X);
 
-        if ( $rank eq 'no rank' ) {
-            $rank = $rank . $count;
-            $count++;
+    foreach my $node (@lineage_groups) {
+        if ( $node->rank eq 'superkingdom' ) {
+            $superkingdom = $node->node_name;
         }
-        $taxonomy{$rank} = $name;
-
-        #print "$name -> $rank\n";
+        if ( $node->rank eq 'kingdom' ) {
+            $kingdom = $node->node_name;
+        }
+        if ( $node->rank eq 'subkingdom' ) {
+            $subkingdom = $node->node_name;
+        }
+        if ( $node->rank eq 'phylum' ) {
+            $phylum = $node->node_name;
+        }
+        if ( $node->rank eq 'subphylum' ) {
+            $subphylum = $node->node_name;
+        }
+        if ( $node->rank eq 'class' ) {
+            $class = $node->node_name;
+        }
+        if ( $node->rank eq 'order' ) {
+            $order = $node->node_name;
+        }
+        if ( $node->rank eq 'family' ) {
+            $family = $node->node_name;
+        }
+        if ( $node->rank eq 'no rank' ) {
+            $special = $node->node_name;
+        }
     }
 
-    #say Dumper %taxonomy;
-    #say Dumper $taxa_name;
-    #say Dumper @lineage;
-    say Dumper $full_name;
-
-    return $full_name;
+    return $full_name, $superkingdom, $kingdom, $subkingdom, $phylum,
+        $subphylum, $class, $order, $family, $special;
 }
 
 sub open_seqio {
@@ -287,14 +311,14 @@ sub open_seqio {
 }
 
 sub get_genome_files {
-    my $input_fasta_dir = shift;
+    my $input_dir = shift;
     my @fasta_files;
     my $file_finder = sub {
         return if !-f;
-        return if !/\.fa|\.fasta|\.fas|\.aa|\.gz\z/;
+        return if !/[.]fa[|][.]fasta[|][.]fas[|][.]aa[|][.]gz/;
         push @fasta_files, $File::Find::name;
     };
-    find( $file_finder, $input_fasta_dir );
+    find( $file_finder, $input_dir );
     return @fasta_files;
 }
 
@@ -351,6 +375,6 @@ sub hash_header {
 }
 
 sub help_message {
-    say "Help!";
+    say 'Help!';
     exit(1);
 }
