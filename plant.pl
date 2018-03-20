@@ -62,6 +62,8 @@ GetOptions(
 my @fasta_input = get_genome_files($input_fasta_dir);
 my @ncbi_taxids = read_file( "$ncbi_taxid_file", chomp => 1 );
 
+#say "$input_fasta_dir $output_fasta_dir $ncbi_taxid_file $ip_address $user $password $table_name";
+
 ########################
 ##        MAIN        ##
 ########################
@@ -71,7 +73,7 @@ foreach my $file_path (@fasta_input) {
     # find the absolute path for input files, if not specified
     my $abs_path = File::Spec->rel2abs($file_path);
 
-    # extract the directory structure in to source/subsource
+    # extract the directory structure into source/subsource
     # and filename
     my @parts     = split /\//, $file_path;
     my $source    = $parts[1];
@@ -122,23 +124,26 @@ foreach my $file_path (@fasta_input) {
 
     #
     my $seqio_mysql = open_seqio($file_path);
-    foreach ($source) {
-        when ( $source =~ /JGI/i ) {
-            process_jgi( $seqio_mysql, $source, $subsource, $filename,
-                $date_time );
-        }
-        when ( $source =~ /NCBI/i ) {
+    say "Source: $source";
+    if ( $source =~ /JGI/i ) {
+        process_jgi(
+            $seqio_mysql, $source,       $subsource, $filename,
+            $date_time,   $superkingdom, $kingdom,   $subkingdom,
+            $phylum,      $subphylum,    $class,     $order,
+            $family,      $special
+        );
+    }
+    elsif ( $source =~ /NCBI/i ) {
 
-        }
-        when ( $source =~ /Ensembl/i ) {
+    }
+    elsif ( $source =~ /Ensembl/i ) {
 
-        }
-        when ( $source =~ /EuPathDB/i ) {
+    }
+    elsif ( $source =~ /EuPathDB/i ) {
 
-        }
-        default {
+    }
+    else {
 
-        }
     }
 
     # gzip
@@ -150,7 +155,11 @@ foreach my $file_path (@fasta_input) {
 
 # takes bioperl seqio object, along with
 sub process_jgi {
-    my ( $seqio_object, $source, $subsource, $filename, $date_time ) = @_;
+    my ($seqio_object, $source,       $subsource, $filename,
+        $date_time,    $superkingdom, $kingdom,   $subkingdom,
+        $phylum,       $subphylum,    $class,     $order,
+        $family,       $special
+    ) = @_;
     my $accession;
 
     while ( my $seq = $seqio_object->next_seq() ) {
@@ -163,7 +172,7 @@ sub process_jgi {
         if ( $subsource =~ /fungi|mycocosm/i ) {
 
             # jgi|Encro1|1|EROM_010010m.01
-            $original_header =~ /jgi\[|].*\[|](\d+)\[|].*/;
+            $original_header =~ /jgi[|].*[|](\d+)[|].*/;
             $accession = $1;
         }
         elsif ( $subsource =~ /phytozome/i ) {
@@ -180,7 +189,8 @@ sub process_jgi {
         # replace header info with a hash
         my $hashed_accession = hash_header($original_header);
         say
-            "$hashed_accession - $accession - $original_header - $date_time - $source - $subsource - $filename";
+            "$hashed_accession - $accession - $original_header - $date_time - $source - $subsource - $filename - $superkingdom, $kingdom, $subkingdom, $phylum,
+        $subphylum, $class,        $order,   $family,     $special";
     }
 }
 
@@ -315,7 +325,7 @@ sub get_genome_files {
     my @fasta_files;
     my $file_finder = sub {
         return if !-f;
-        return if !/[.]fa[|][.]fasta[|][.]fas[|][.]aa[|][.]gz/;
+        return if !/\.fa|\.fasta|\.fas|\.aa|\.gz/;
         push @fasta_files, $File::Find::name;
     };
     find( $file_finder, $input_dir );
