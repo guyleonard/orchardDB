@@ -4,10 +4,10 @@ use strict;
 use warnings;
 
 use Cwd;
-
-use Bio::LITE::Taxonomy::NCBI;
+use Bio::DB::Taxonomy;
 use Bio::SeqIO::fasta;
 use Bio::SeqIO;
+use Bio::Tree::Tree;
 use DateTime;
 use DBD::mysql;
 use Digest::MD5 qw(md5_hex);
@@ -32,6 +32,7 @@ my $input_fasta_dir;     # original FASTA format protein directory
 my $output_fasta_dir;    # modified FASTA format protein directory
 my $taxadb_dir;          # location of the NCBI taxadb files
 my $ncbi_taxid_file;
+my $ncbi_taxdump_dir;
 
 # database access
 my $ip_address = "";
@@ -48,6 +49,7 @@ GetOptions(
     'in=s'      => \$input_fasta_dir,
     'out=s'     => \$output_fasta_dir,
     'ncbi=s'    => \$ncbi_taxid_file,
+    'dump=s'    => \$ncbi_taxdump_dir,
     'ip|i=s'    => \$ip_address,
     'user|u=s'  => \$user,
     'pass|p=s'  => \$password,
@@ -96,16 +98,16 @@ foreach my $file_path (@fasta_input) {
     my $input_path  = "$dir[0]";
     my $output_path = "$dir[0]$output_fasta_dir";
 
+    ## Get and convert taxids to taxonomy
+    #
+    my $full_name = get_taxonomy( $filename, @ncbi_taxids, $ncbi_taxdump_dir );
+
     ## Process fasta files
     # read in the original file and process it to have
     # new headers and output in the output folder
     say "Reading: $file_path";
     my $seqio_process = open_seqio($file_path);
-    process_fasta( $seqio_process, $output_path, $filename );
-
-    ## Get and convert taxids to taxonomy
-    #
-    get_taxonomy( $filename, @ncbi_taxids, );
+    process_fasta( $seqio_process, $output_path, $filename, $full_name );
 
     ## Construct MySQL input
 
@@ -183,19 +185,19 @@ sub process_JGI {
 # takes the bioperl seqio object, along with
 # the output path and new filename
 sub process_fasta {
-    my ( $seqio_object, $output_path, $filename ) = @_;
+    my ( $seqio_object, $output_path, $filename, $full_name ) = @_;
 
     # make the output directory if it doesn't exist already
     if ( !-d $output_path ) { make_path($output_path) }
 
-    ###
-    # This will come from the input filename list soon...
-    my ( $name, $path, $suffix ) = fileparse( $filename, '\.*' );
-    say "Output: $output_path\/$name\.fasta";
-    ###
+    # replace spaces with underscores
+    $full_name =~ s/\s+/\_/g;
+    # replace non-alphanumeric chars with underscore
+    # include . and -
+    $full_name =~ s/[^A-z|^0-9|^\.|^\-]/_/g;
 
     my $output = Bio::SeqIO->new(
-        -file   => ">$output_path\/$name\.fasta",
+        -file   => ">$output_path\/$full_name\.fasta",
         -format => 'fasta'
     );
 
@@ -227,23 +229,52 @@ sub get_taxonomy {
     my ($match) = grep { $_ =~ $filename } @ncbi_taxid_file;
     my ( $filenamex, $taxid ) = split( /,/, $match );
 
-    # flat file access is to slow
-    #my $db = Bio::DB::Taxonomy->new(
-    #    -source    => 'flatfile',
-    #    -nodesfile => 'nodes.dmp',
-    #    -namesfile => 'names.dmp'
-    #);
-    #my $taxon = $db->get_taxon(-taxonid => $taxid);
+    if ( !-f "$ncbi_taxdump_dir\/taxonomy.sqlite" ) {
+        say
+            "[INFO]:\tIndexing NCBI Taxonomy - this may take a few minutes on the first run!";
+    }
 
-    #my $taxDB = Bio::LITE::Taxonomy::NCBI->new(
-    #    db    => "NCBI",
-    #    names => "/home/cs02gl/Dropbox/git/orchardDB/taxdump/names.dmp",
-    #    nodes => "/home/cs02gl/Dropbox/git/orchardDB/taxdump/nodes.dmp"
-    #);
-    #my $tax = $taxDB->get_taxonomy($taxid);
+    my $db = Bio::DB::Taxonomy->new(
+        -source    => 'sqlite',
+        -db        => "$ncbi_taxdump_dir\/taxonomy.sqlite",
+        -nodesfile => "$ncbi_taxdump_dir\/nodes.dmp",
+        -namesfile => "$ncbi_taxdump_dir\/names.dmp"
+    );
 
-    say "$tax - $filename";
+    my $taxon = $db->get_taxon( -taxonid => $taxid );
 
+    my $tree_functions = Bio::Tree::Tree->new();
+    my @lineage        = $tree_functions->get_lineage_nodes($taxon);
+
+    my $lineage1    = $tree_functions->get_lineage_string($taxon);
+    my @lineage2    = split( /;/, $lineage1 );
+    my $full_name = $lineage2[-1];
+
+    my %taxonomy = ( 'no name' => 'empty' );
+
+    my $count = 0;
+    foreach my $item (@lineage) {
+        my $name = $item->node_name;
+        $name =~ s/\'//ig;    #remove ''
+        my $rank = $item->rank;
+
+        #print "x$count\n";
+
+        if ( $rank eq 'no rank' ) {
+            $rank = $rank . $count;
+            $count++;
+        }
+        $taxonomy{$rank} = $name;
+
+        #print "$name -> $rank\n";
+    }
+
+    #say Dumper %taxonomy;
+    #say Dumper $taxa_name;
+    #say Dumper @lineage;
+    say Dumper $full_name;
+
+    return $full_name;
 }
 
 sub open_seqio {
