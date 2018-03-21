@@ -158,7 +158,7 @@ if ($populate) {
             my $seqio_mysql = open_seqio($file_path);
             say "Source: $source // $subsource";
             if ( $source =~ /JGI/i ) {
-                say "Inserting: $full_name\n";
+
                 my @mysql_push = process_jgi(
                     $seqio_mysql, $source,     $subsource,
                     $filename,    $date_time,  $superkingdom,
@@ -167,10 +167,12 @@ if ($populate) {
                     $family,      $special,    $full_name
                 );
 
+                say "Inserting: $full_name\n";
                 insert_mysql(
                     $user,       $password, $ip_address,
                     $table_name, @mysql_push
                 );
+                say "Done!";
             }
             elsif ( $source =~ /NCBI/i ) {
 
@@ -245,6 +247,8 @@ sub process_jgi {
 
     my @array_for_mysql;
 
+    say "Preparing data for insertion";
+
     while ( my $seq = $seqio_object->next_seq() ) {
 
         # get full header, made from id and description
@@ -272,13 +276,13 @@ sub process_jgi {
         # replace header info with a hash
         my $hashed_accession = hash_header($original_header);
 
-        my $record = "$hashed_accession, $accession, $original_header,
-        $filename, $full_name, $date_time, $source, $subsource, $superkingdom,
-        $kingdom, $subkingdom, $phylum, $subphylum, $class, $order, $family,
-        $special";
+        # this must not have spaces!
+        my $record
+            = "$hashed_accession,$accession,$original_header,$filename,$full_name,$date_time,$source,$subsource,$superkingdom,$kingdom,$subkingdom,$phylum,$subphylum,$class,$order,$family,$special";
 
         push @array_for_mysql, $record;
     }
+    say "Done.";
 
     return @array_for_mysql;
 }
