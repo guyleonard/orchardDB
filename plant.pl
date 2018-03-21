@@ -206,23 +206,7 @@ sub insert_mysql {
         $full_name
     ) = @_;
 
-    say "'$hashed_accession',
-         '$accession',
-         '$original_header',
-         '$filename',
-         '$full_name',
-         '$date_time',
-         '$source',
-         '$subsource',
-         '$superkingdom',
-         '$kingdom',
-         '$subkingdom',
-         '$phylum',
-         '$subphylum',
-         '$class',
-         '$order',
-         '$family',
-         '$special'";
+    say "Inserting: $hashed_accession from $full_name and $source - $subsource";
 
     my $dsn  = "dbi:mysql:database=orchardDB;host=$ip_address";
     my %attr = ( PrintError => 0, RaiseError => 1 );
