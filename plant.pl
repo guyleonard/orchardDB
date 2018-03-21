@@ -116,12 +116,12 @@ if ($populate) {
 
             # check if a file in gzip, if so
             # we need to unzip it and update file_path
-            if ( $filename =~ /[.]gz$/ ) {
-                $filename =~ s/[.]gz$//;
-                say "Unzipping: $filename";
+            if ( $filename =~ /\.gz$/ ) {
+                $filename =~ s/\.gz$//;
+                say "Unzipping: $filename from $abs_path";
                 my $status = gunzip "$abs_path" => "$filename"
                     or die "gunzip failed: $GunzipError\n";
-                $file_path =~ s/[.]gz//;
+                $file_path =~ s/\.gz//;
             }
 
             # set up the output path which will be in the
@@ -157,8 +157,9 @@ if ($populate) {
 
             #
             my $seqio_mysql = open_seqio($file_path);
-            say "Source: $source";
+            say "Source: $source // $subsource";
             if ( $source =~ /JGI/i ) {
+            	say "Inserting: $full_name";
                 process_jgi(
                     $user,         $password,    $ip_address,
                     $table_name,   $seqio_mysql, $source,
@@ -206,7 +207,8 @@ sub insert_mysql {
         $full_name
     ) = @_;
 
-    say "Inserting: $hashed_accession from $full_name and $source - $subsource";
+    # Output here is slowing
+    #say "Inserting: $hashed_accession from $full_name and $source - $subsource";
 
     my $dsn  = "dbi:mysql:database=orchardDB;host=$ip_address";
     my %attr = ( PrintError => 0, RaiseError => 1 );
