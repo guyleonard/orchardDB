@@ -136,8 +136,7 @@ if ($populate) {
             my ($full_name, $superkingdom, $kingdom, $subkingdom,
                 $phylum,    $subphylum,    $class,   $order,
                 $family,    $special
-                )
-                = get_taxonomy( $filename, @ncbi_taxids, $ncbi_taxdump_dir );
+            ) = get_taxonomy( $filename, @ncbi_taxids );
 
             ## Process fasta files
             # read in the original file and process it to have
@@ -159,15 +158,18 @@ if ($populate) {
             my $seqio_mysql = open_seqio($file_path);
             say "Source: $source // $subsource";
             if ( $source =~ /JGI/i ) {
-            	say "Inserting: $full_name";
-                process_jgi(
-                    $user,         $password,    $ip_address,
-                    $table_name,   $seqio_mysql, $source,
-                    $subsource,    $filename,    $date_time,
-                    $superkingdom, $kingdom,     $subkingdom,
-                    $phylum,       $subphylum,   $class,
-                    $order,        $family,      $special,
-                    $full_name
+                say "Inserting: $full_name\n";
+                my @mysql_push = process_jgi(
+                    $seqio_mysql, $source,     $subsource,
+                    $filename,    $date_time,  $superkingdom,
+                    $kingdom,     $subkingdom, $phylum,
+                    $subphylum,   $class,      $order,
+                    $family,      $special,    $full_name
+                );
+
+                insert_mysql(
+                    $user,       $password, $ip_address,
+                    $table_name, @mysql_push
                 );
             }
             elsif ( $source =~ /NCBI/i ) {
@@ -199,16 +201,7 @@ if ($populate) {
 
 sub insert_mysql {
 
-    my ($user,             $password,   $ip_address,      $table_name,
-        $hashed_accession, $accession,  $original_header, $date_time,
-        $source,           $subsource,  $filename,        $superkingdom,
-        $kingdom,          $subkingdom, $phylum,          $subphylum,
-        $class,            $order,      $family,          $special,
-        $full_name
-    ) = @_;
-
-    # Output here is slowing
-    #say "Inserting: $hashed_accession from $full_name and $source - $subsource";
+    my ( $user, $password, $ip_address, $table_name, @mysql_rows ) = @_;
 
     my $dsn  = "dbi:mysql:database=orchardDB;host=$ip_address";
     my %attr = ( PrintError => 0, RaiseError => 1 );
@@ -227,28 +220,30 @@ sub insert_mysql {
        )
        VALUES
        (
-         '$hashed_accession', '$accession', '$original_header',
-         '$filename', '$full_name', '$date_time',
-         '$source', '$subsource', '$superkingdom',
-         '$kingdom', '$subkingdom', '$phylum',
-         '$subphylum', '$class', '$order',
-         '$family', '$special'
+         ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
        );"
     ) or die "\nError($DBI::err):$DBI::errstr\n";
 
-    $statement->execute or die "\nError($DBI::err):$DBI::errstr\n";
+    $dbh->begin_work();
 
+    foreach my $row (@mysql_rows) {
+        $statement->execute( split /,/, $row );
+    }
+
+    #  end the transaction #
+    $dbh->commit();
 }
 
 # takes bioperl seqio object, along with
 sub process_jgi {
-    my ($user,         $password,     $ip_address, $table_name,
-        $seqio_object, $source,       $subsource,  $filename,
-        $date_time,    $superkingdom, $kingdom,    $subkingdom,
-        $phylum,       $subphylum,    $class,      $order,
+    my ($seqio_object, $source,       $subsource, $filename,
+        $date_time,    $superkingdom, $kingdom,   $subkingdom,
+        $phylum,       $subphylum,    $class,     $order,
         $family,       $special,      $full_name
     ) = @_;
     my $accession;
+
+    my @array_for_mysql;
 
     while ( my $seq = $seqio_object->next_seq() ) {
 
@@ -277,16 +272,15 @@ sub process_jgi {
         # replace header info with a hash
         my $hashed_accession = hash_header($original_header);
 
-        insert_mysql(
-            $user,            $password,         $ip_address,
-            $table_name,      $hashed_accession, $accession,
-            $original_header, $date_time,        $source,
-            $subsource,       $filename,         $superkingdom,
-            $kingdom,         $subkingdom,       $phylum,
-            $subphylum,       $class,            $order,
-            $family,          $special,          $full_name
-        );
+        my $record = "$hashed_accession, $accession, $original_header,
+        $filename, $full_name, $date_time, $source, $subsource, $superkingdom,
+        $kingdom, $subkingdom, $phylum, $subphylum, $class, $order, $family,
+        $special";
+
+        push @array_for_mysql, $record;
     }
+
+    return @array_for_mysql;
 }
 
 # takes the bioperl seqio object, along with
