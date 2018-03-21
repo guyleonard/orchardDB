@@ -31,134 +31,247 @@ my $work_dir = cwd();
 # input directories etc
 my $input_fasta_dir;     # original FASTA format protein directory
 my $output_fasta_dir;    # modified FASTA format protein directory
-my $taxadb_dir;          # location of the NCBI taxadb files
 my $ncbi_taxid_file;
 my $ncbi_taxdump_dir;
 
 # database access
 my $ip_address = q{};
-my $dsn        = "dbi:mysql:orchardDB:$ip_address";
+
 my $user;
 my $password;
 my $table_name;
+
+# options
+my $setup;
+my $populate;
 
 if ( !@ARGV ) {
     help_message();
 }
 
 GetOptions(
+    'setup'     => \$setup,
+    'user|u=s'  => \$user,
+    'pass|p=s'  => \$password,
+    'ip|i=s'    => \$ip_address,
+    'table|t=s' => \$table_name,
+    'populate'  => \$populate,
     'in=s'      => \$input_fasta_dir,
     'out=s'     => \$output_fasta_dir,
     'ncbi=s'    => \$ncbi_taxid_file,
     'dump=s'    => \$ncbi_taxdump_dir,
-    'ip|i=s'    => \$ip_address,
-    'user|u=s'  => \$user,
-    'pass|p=s'  => \$password,
-    'table|t=s' => \$table_name,
+
     'version|v' => sub { say "$version" },
     'help|h'    => sub { help_message() }
 ) or help_message();
-
-my @fasta_input = get_genome_files($input_fasta_dir);
-my @ncbi_taxids = read_file( "$ncbi_taxid_file", chomp => 1 );
-
-#say "$input_fasta_dir $output_fasta_dir $ncbi_taxid_file $ip_address $user $password $table_name";
 
 ########################
 ##        MAIN        ##
 ########################
 
-foreach my $file_path (@fasta_input) {
-
-    # find the absolute path for input files, if not specified
-    my $abs_path = File::Spec->rel2abs($file_path);
-
-    # extract the directory structure into source/subsource
-    # and filename
-    my @parts     = split /\//, $file_path;
-    my $source    = $parts[1];
-    my $subsource = $parts[1];
-    my $filename  = $parts[2];
-    if ( $source ne 'NCBI' ) {
-        $subsource = $parts[2];
-        $filename  = $parts[3];
+if ($setup) {
+    if ( $user && $password && $ip_address && $table_name ) {
+        say
+            "Setting up the table $table_name in MySQL $user\@$ip_address:OrchardDB";
+        setup_mysql_db( $user, $password, $ip_address, $table_name );
     }
-
-    # check if a file in gzip, if so
-    # we need to unzip it and update file_path
-    if ( $filename =~ /[.]gz$/ ) {
-        $filename =~ s/[.]gz$//;
-        say "Unzipping: $filename";
-        my $status = gunzip "$abs_path" => "$filename"
-            or die "gunzip failed: $GunzipError\n";
-        $file_path =~ s/[.]gz//;
+    else {
+        say "You are Missing Variables";
+        help_message();
     }
+}
 
-    # set up the output path which will be in the
-    # directory one up from the absolute path given
-    # by the input directory and named by the user input
-    my @dir         = split $input_fasta_dir, $abs_path;
-    my $input_path  = "$dir[0]";
-    my $output_path = "$dir[0]$output_fasta_dir";
+if ($populate) {
+    if (   $user
+        && $password
+        && $ip_address
+        && $table_name
+        && $input_fasta_dir
+        && $output_fasta_dir
+        && $ncbi_taxid_file
+        && $ncbi_taxdump_dir )
+    {
 
-    ## Get and convert taxids to taxonomy
-    #
-    my ($full_name, $superkingdom, $kingdom, $subkingdom, $phylum,
-        $subphylum, $class,        $order,   $family,     $special
-    ) = get_taxonomy( $filename, @ncbi_taxids, $ncbi_taxdump_dir );
+        # read in genome filenames
+        my @fasta_input = get_genome_files($input_fasta_dir);
 
-    ## Process fasta files
-    # read in the original file and process it to have
-    # new headers and output in the output folder
-    say "Reading: $file_path";
-    my $seqio_process = open_seqio($file_path);
-    process_fasta( $seqio_process, $output_path, $filename, $full_name );
+        # read in ncbi taxids associated with filenames
+        my @ncbi_taxids = read_file( "$ncbi_taxid_file", chomp => 1 );
 
-    ## Construct MySQL input
+        foreach my $file_path (@fasta_input) {
 
-    # date time values in 'YYYY-MM-DD HH:MM:SS'
-    my $date_time = DateTime->now( time_zone => 'local' )->datetime();
+            # find the absolute path for input files, if not specified
+            my $abs_path = File::Spec->rel2abs($file_path);
 
-    # Remove the erroneous T - not good for MYSQL
-    $date_time =~ s/T/ /igs;
+            # extract the directory structure into source/subsource
+            # and filename
+            my @parts     = split /\//, $file_path;
+            my $source    = $parts[1];
+            my $subsource = $parts[1];
+            my $filename  = $parts[2];
+            if ( $source ne 'NCBI' ) {
+                $subsource = $parts[2];
+                $filename  = $parts[3];
+            }
 
-    #
-    my $seqio_mysql = open_seqio($file_path);
-    say "Source: $source";
-    if ( $source =~ /JGI/i ) {
-        process_jgi(
-            $seqio_mysql, $source,       $subsource, $filename,
-            $date_time,   $superkingdom, $kingdom,   $subkingdom,
-            $phylum,      $subphylum,    $class,     $order,
-            $family,      $special
-        );
-    }
-    elsif ( $source =~ /NCBI/i ) {
+            # check if a file in gzip, if so
+            # we need to unzip it and update file_path
+            if ( $filename =~ /[.]gz$/ ) {
+                $filename =~ s/[.]gz$//;
+                say "Unzipping: $filename";
+                my $status = gunzip "$abs_path" => "$filename"
+                    or die "gunzip failed: $GunzipError\n";
+                $file_path =~ s/[.]gz//;
+            }
 
-    }
-    elsif ( $source =~ /Ensembl/i ) {
+            # set up the output path which will be in the
+            # directory one up from the absolute path given
+            # by the input directory and named by the user input
+            my @dir         = split $input_fasta_dir, $abs_path;
+            my $input_path  = "$dir[0]";
+            my $output_path = "$dir[0]$output_fasta_dir";
 
-    }
-    elsif ( $source =~ /EuPathDB/i ) {
+            ## Get and convert taxids to taxonomy
+            #
+            my ($full_name, $superkingdom, $kingdom, $subkingdom,
+                $phylum,    $subphylum,    $class,   $order,
+                $family,    $special
+                )
+                = get_taxonomy( $filename, @ncbi_taxids, $ncbi_taxdump_dir );
+
+            ## Process fasta files
+            # read in the original file and process it to have
+            # new headers and output in the output folder
+            say "Reading: $file_path";
+            my $seqio_process = open_seqio($file_path);
+            process_fasta( $seqio_process, $output_path, $filename,
+                $full_name );
+
+            ## Construct MySQL input
+
+            # date time values in 'YYYY-MM-DD HH:MM:SS'
+            my $date_time = DateTime->now( time_zone => 'local' )->datetime();
+
+            # Remove the erroneous T - not good for MYSQL
+            $date_time =~ s/T/ /igs;
+
+            #
+            my $seqio_mysql = open_seqio($file_path);
+            say "Source: $source";
+            if ( $source =~ /JGI/i ) {
+                process_jgi(
+                    $user,         $password,    $ip_address,
+                    $table_name,   $seqio_mysql, $source,
+                    $subsource,    $filename,    $date_time,
+                    $superkingdom, $kingdom,     $subkingdom,
+                    $phylum,       $subphylum,   $class,
+                    $order,        $family,      $special,
+                    $full_name
+                );
+            }
+            elsif ( $source =~ /NCBI/i ) {
+
+            }
+            elsif ( $source =~ /Ensembl/i ) {
+
+            }
+            elsif ( $source =~ /EuPathDB/i ) {
+
+            }
+            else {
+
+            }
+
+            # gzip
+        }
 
     }
     else {
-
+        say "You are Missing Variables";
+        help_message();
     }
-
-    # gzip
 }
 
 ########################
 ##        SUBS        ##
 ########################
 
+sub insert_mysql {
+
+    my ($user,             $password,   $ip_address,      $table_name,
+        $hashed_accession, $accession,  $original_header, $date_time,
+        $source,           $subsource,  $filename,        $superkingdom,
+        $kingdom,          $subkingdom, $phylum,          $subphylum,
+        $class,            $order,      $family,          $special,
+        $full_name
+    ) = @_;
+
+    say "$user,             $password,   $ip_address,      $table_name,
+        $hashed_accession, $accession,  $original_header, $date_time,
+        $source,           $subsource,  $filename,        $superkingdom,
+        $kingdom,          $subkingdom, $phylum,          $subphylum,
+        $class,            $order,      $family,          $special,
+        $full_name";
+
+    my $dsn  = "dbi:mysql:database=orchardDB;host=$ip_address";
+    my %attr = ( PrintError => 0, RaiseError => 1 );
+    my $dbh  = DBI->connect( $dsn, $user, $password, \%attr );
+
+    # DEFINE A MySQL QUERY
+    my $statement = $dbh->prepare(
+        "INSERT IGNORE into $table_name
+       (
+         hashed_accession,
+         extracted_accession,
+         original_header,
+         original_fn,
+         new_fn,
+         date_added,
+         source,
+         subsource,
+         t_superkingdom,
+         t_kingdom,
+         t_subkingdom,
+         t_phylum,
+         t_subphylum,
+         t_class,
+         t_order,
+         t_family,
+         t_special,
+       )
+       VALUES
+       (
+         '$hashed_accession',
+         '$accession',
+         '$original_header',
+         '$filename',
+         '$full_name',
+         '$date_time',
+         '$source',
+         '$subsource',
+         '$superkingdom',
+         '$kingdom',
+         '$subkingdom',
+         '$phylum',
+         '$subphylum',
+         '$class',
+         '$order',
+         '$family',
+         '$special'
+       )"
+    ) or die "\nError($DBI::err):$DBI::errstr\n";
+
+    $statement->execute or die "\nError($DBI::err):$DBI::errstr\n";
+
+}
+
 # takes bioperl seqio object, along with
 sub process_jgi {
-    my ($seqio_object, $source,       $subsource, $filename,
-        $date_time,    $superkingdom, $kingdom,   $subkingdom,
-        $phylum,       $subphylum,    $class,     $order,
-        $family,       $special
+    my ($user,         $password,     $ip_address, $table_name,
+        $seqio_object, $source,       $subsource,  $filename,
+        $date_time,    $superkingdom, $kingdom,    $subkingdom,
+        $phylum,       $subphylum,    $class,      $order,
+        $family,       $special,      $full_name
     ) = @_;
     my $accession;
 
@@ -188,9 +301,16 @@ sub process_jgi {
 
         # replace header info with a hash
         my $hashed_accession = hash_header($original_header);
-        say
-            "$hashed_accession - $accession - $original_header - $date_time - $source - $subsource - $filename - $superkingdom, $kingdom, $subkingdom, $phylum,
-        $subphylum, $class,        $order,   $family,     $special";
+
+        insert_mysql(
+            $user,            $password,         $ip_address,
+            $table_name,      $hashed_accession, $accession,
+            $original_header, $date_time,        $source,
+            $subsource,       $filename,         $superkingdom,
+            $kingdom,         $subkingdom,       $phylum,
+            $subphylum,       $class,            $order,
+            $family,          $special,          $full_name
+        );
     }
 }
 
@@ -229,7 +349,8 @@ sub process_fasta {
         # stop codons at the end of the sequence
         $sequence =~ s/[*]$//;
 
-        # replace with X if not a valid protein code
+        # replace with X if not a valid protein code, not useful in blast
+        # or alignment downstream
         $sequence =~ s/[^A-z|^\-]/X/g;
         $seq->seq("$sequence");
 
@@ -339,36 +460,53 @@ sub get_genome_files {
 # original header
 # extracted "accession", e.g. NCBI accessions
 # date of inclusion
-# version of gene preds if known, else 1
-# source DB, e.g. NCBI, JGI_Mycocosm, JGI_Phytozome, Ensenmbl, Other, etc
+# source/subsource DB, e.g. NCBI, JGI, Ensenmbl, Other, etc
 # taxonomy information
-# ????
 sub setup_mysql_db {
 
-    my ( $dsn, $user, $password, $table_name ) = @_;
+    my ( $user, $password, $ip_address, $table_name ) = @_;
 
-    # connect to MySQL database
+    # connect directly to the MySQL server, without a DB
+    my $dsn  = "DBI:mysql:host=$ip_address";
     my %attr = ( PrintError => 0, RaiseError => 1 );
-    my $dbh = DBI->connect( $dsn, $user, $password, \%attr );
+    my $dbh  = DBI->connect( $dsn, $user, $password, \%attr );
 
+    # if the orchardDB database doesn't exist then create it
+    my $create_database = ("CREATE DATABASE IF NOT EXISTS orchardDB;");
+    $dbh->do($create_database);
+
+    # reconnect to the server using the orchardDB
+    $dsn = "dbi:mysql:database=orchardDB;host=$ip_address";
+    $dbh = DBI->connect( $dsn, $user, $password, \%attr );
+
+    # create the table schema
     my $create_table = (
-        "CREATE TABLE $table_name (
-  hashed_accession varchar(50) NOT NULL DEFAULT '',
-  original_fn varchar(50) DEFAULT NULL,
-  fixed_fn varchar(50) DEFAULT NULL,
-  original_header varchar(200) DEFAULT NULL,
-  extracted_accession varchar(20) DEFAULT NULL,
-  date_added datetime DEFAULT NULL,
-  version text,
-  source text,
-  taxonomy text,
-  PRIMARY KEY (hashed_accession)
-  ) ENGINE=InnoDB;"
+        "CREATE TABLE $table_name
+  (
+     hashed_accession    VARCHAR(32) NOT NULL DEFAULT '',
+     extracted_accession VARCHAR(100) DEFAULT NULL,
+     original_header     VARCHAR(255) DEFAULT NULL,
+     original_fn         VARCHAR(255) DEFAULT NULL,
+     new_fn              VARCHAR(255) DEFAULT NULL,
+     date_added          DATETIME DEFAULT NULL,
+     source              TEXT,
+     subsource           TEXT,
+     t_superkingdom      VARCHAR(50) DEFAULT NULL,
+     t_kingdom           VARCHAR(50) DEFAULT NULL,
+     t_subkingdom        VARCHAR(50) DEFAULT NULL,
+     t_phylum            VARCHAR(50) DEFAULT NULL,
+     t_subphylum         VARCHAR(50) DEFAULT NULL,
+     t_class             VARCHAR(50) DEFAULT NULL,
+     t_order             VARCHAR(50) DEFAULT NULL,
+     t_family            VARCHAR(50) DEFAULT NULL,
+     t_special           VARCHAR(50) DEFAULT NULL,
+     PRIMARY KEY (hashed_accession)
+  ) engine=innodb;"
     );
 
     $dbh->do($create_table);
 
-    say "$table_name was created successfully!";
+    say "The $table_name in OrchardDB was created successfully!";
 
     # disconnect from the MySQL database
     $dbh->disconnect();
