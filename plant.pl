@@ -206,42 +206,7 @@ sub insert_mysql {
         $full_name
     ) = @_;
 
-    say "$user,             $password,   $ip_address,      $table_name,
-        $hashed_accession, $accession,  $original_header, $date_time,
-        $source,           $subsource,  $filename,        $superkingdom,
-        $kingdom,          $subkingdom, $phylum,          $subphylum,
-        $class,            $order,      $family,          $special,
-        $full_name";
-
-    my $dsn  = "dbi:mysql:database=orchardDB;host=$ip_address";
-    my %attr = ( PrintError => 0, RaiseError => 1 );
-    my $dbh  = DBI->connect( $dsn, $user, $password, \%attr );
-
-    # DEFINE A MySQL QUERY
-    my $statement = $dbh->prepare(
-        "INSERT IGNORE into $table_name
-       (
-         hashed_accession,
-         extracted_accession,
-         original_header,
-         original_fn,
-         new_fn,
-         date_added,
-         source,
-         subsource,
-         t_superkingdom,
-         t_kingdom,
-         t_subkingdom,
-         t_phylum,
-         t_subphylum,
-         t_class,
-         t_order,
-         t_family,
-         t_special,
-       )
-       VALUES
-       (
-         '$hashed_accession',
+    say "'$hashed_accession',
          '$accession',
          '$original_header',
          '$filename',
@@ -257,8 +222,32 @@ sub insert_mysql {
          '$class',
          '$order',
          '$family',
-         '$special'
-       )"
+         '$special'";
+
+    my $dsn  = "dbi:mysql:database=orchardDB;host=$ip_address";
+    my %attr = ( PrintError => 0, RaiseError => 1 );
+    my $dbh  = DBI->connect( $dsn, $user, $password, \%attr );
+
+    # DEFINE A MySQL QUERY
+    my $statement = $dbh->prepare(
+        "INSERT IGNORE into $table_name
+       (
+         hashed_accession, extracted_accession, original_header,
+         original_fn, new_fn, date_added,
+         source, subsource, t_superkingdom,
+         t_kingdom, t_subkingdom, t_phylum,
+         t_subphylum, t_class, t_order,
+         t_family, t_special
+       )
+       VALUES
+       (
+         '$hashed_accession', '$accession', '$original_header',
+         '$filename', '$full_name', '$date_time',
+         '$source', '$subsource', '$superkingdom',
+         '$kingdom', '$subkingdom', '$phylum',
+         '$subphylum', '$class', '$order',
+         '$family', '$special'
+       );"
     ) or die "\nError($DBI::err):$DBI::errstr\n";
 
     $statement->execute or die "\nError($DBI::err):$DBI::errstr\n";
