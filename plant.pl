@@ -167,12 +167,12 @@ if ($populate) {
                     $family,      $special,    $full_name
                 );
 
-                say "Inserting: $full_name\n";
+                print "Inserting: $full_name - ";
                 insert_mysql(
                     $user,       $password, $ip_address,
                     $table_name, @mysql_push
                 );
-                say "Done!";
+                print "done!\n\n";
             }
             elsif ( $source =~ /NCBI/i ) {
 
@@ -206,8 +206,9 @@ sub insert_mysql {
     my ( $user, $password, $ip_address, $table_name, @mysql_rows ) = @_;
 
     my $dsn  = "dbi:mysql:database=orchardDB;host=$ip_address";
-    my %attr = ( PrintError => 0, RaiseError => 1 );
-    my $dbh  = DBI->connect( $dsn, $user, $password, \%attr );
+    my %attr = ( PrintError => 0, RaiseError => 1, AutoCommit => 1 );
+    my $dbh  = DBI->connect( $dsn, $user, $password, \%attr )
+        or die "Couldn't connect to database: " . DBI->errstr;
 
     # DEFINE A MySQL QUERY
     my $statement = $dbh->prepare(
@@ -224,16 +225,14 @@ sub insert_mysql {
        (
          ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
        );"
-    ) or die "\nError($DBI::err):$DBI::errstr\n";
-
-    $dbh->begin_work();
+    ) or die "Couldn't connect to database: " . DBI->errstr;
 
     foreach my $row (@mysql_rows) {
         $statement->execute( split /,/, $row );
     }
 
-    #  end the transaction #
-    $dbh->commit();
+    # close the database connection
+    $dbh->disconnect;
 }
 
 # takes bioperl seqio object, along with
@@ -247,7 +246,7 @@ sub process_jgi {
 
     my @array_for_mysql;
 
-    say "Preparing data for insertion";
+    print "Preparing data for insertion - ";
 
     while ( my $seq = $seqio_object->next_seq() ) {
 
@@ -282,7 +281,7 @@ sub process_jgi {
 
         push @array_for_mysql, $record;
     }
-    say "Done.";
+    print "done!\n";
 
     return @array_for_mysql;
 }
@@ -442,7 +441,8 @@ sub setup_mysql_db {
     # connect directly to the MySQL server, without a DB
     my $dsn  = "DBI:mysql:host=$ip_address";
     my %attr = ( PrintError => 0, RaiseError => 1 );
-    my $dbh  = DBI->connect( $dsn, $user, $password, \%attr );
+    my $dbh  = DBI->connect( $dsn, $user, $password, \%attr )
+        or die "Couldn't connect to database: " . DBI->errstr;
 
     # if the orchardDB database doesn't exist then create it
     my $create_database = ("CREATE DATABASE IF NOT EXISTS orchardDB;");
@@ -450,7 +450,8 @@ sub setup_mysql_db {
 
     # reconnect to the server using the orchardDB
     $dsn = "dbi:mysql:database=orchardDB;host=$ip_address";
-    $dbh = DBI->connect( $dsn, $user, $password, \%attr );
+    $dbh = DBI->connect( $dsn, $user, $password, \%attr )
+        or die "Couldn't connect to database: " . DBI->errstr;
 
     # create the table schema
     my $create_table = (
