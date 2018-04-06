@@ -1,13 +1,12 @@
 #!/usr/bin/env perl
-
 use strict;
 use warnings;
 
-use Cwd;
 use Bio::DB::Taxonomy;
 use Bio::SeqIO::fasta;
 use Bio::SeqIO;
 use Bio::Tree::Tree;
+use Cwd;
 use DateTime;
 use DBD::mysql;
 use Digest::MD5 qw(md5_hex);
@@ -23,7 +22,7 @@ use v5.10;
 use Data::Dumper;
 
 our $VERSION = 0.1;
-my $version = "OrchardDB v1.0\n--plant.pl v0.1";
+my $version = "OrchardDB v1.0 -- plant.pl v0.1";
 
 # things
 my $work_dir = cwd();
@@ -36,7 +35,6 @@ my $ncbi_taxdump_dir;
 
 # database access
 my $ip_address = q{};
-
 my $user;
 my $password;
 my $table_name;
@@ -44,6 +42,7 @@ my $table_name;
 # options
 my $setup;
 my $populate;
+my $mysql = 1;
 
 if ( !@ARGV ) {
     help_message();
@@ -60,6 +59,7 @@ GetOptions(
     'out=s'     => \$output_fasta_dir,
     'ncbi=s'    => \$ncbi_taxid_file,
     'dump=s'    => \$ncbi_taxdump_dir,
+    'mysql=i'   => \$mysql,
 
     'version|v' => sub { say "$version" },
     'help|h'    => sub { help_message() }
@@ -167,12 +167,15 @@ if ($populate) {
                     $family,      $special,    $full_name
                 );
 
-                print "Inserting: $full_name - ";
-                insert_mysql(
-                    $user,       $password, $ip_address,
-                    $table_name, @mysql_push
-                );
+                if ($mysql == 1) {
+                    print "Inserting: $full_name - ";
+                    insert_mysql(
+                        $user,       $password, $ip_address,
+                        $table_name, @mysql_push
+                    );
+                }
                 print "done!\n\n";
+
             }
             elsif ( $source =~ /NCBI/i ) {
 
@@ -246,7 +249,7 @@ sub process_jgi {
 
     my @array_for_mysql;
 
-    print "Preparing data for insertion - ";
+    print "Preparing data: ";
 
     while ( my $seq = $seqio_object->next_seq() ) {
 
@@ -422,6 +425,10 @@ sub get_genome_files {
         push @fasta_files, $File::Find::name;
     };
     find( $file_finder, $input_dir );
+
+    # sort the order
+    @fasta_files = sort @fasta_files;
+
     return @fasta_files;
 }
 
@@ -454,17 +461,22 @@ sub setup_mysql_db {
         or die "Couldn't connect to database: " . DBI->errstr;
 
     # create the table schema
+    # STORAGE:
+    # TEXT = 2 + c, where c is length of string
+    # VARCHAR = 1 + c up to 255 chars
     my $create_table = (
         "CREATE TABLE $table_name
   (
      hashed_accession    VARCHAR(32) NOT NULL DEFAULT '',
-     extracted_accession VARCHAR(100) DEFAULT NULL,
-     original_header     VARCHAR(255) DEFAULT NULL,
-     original_fn         VARCHAR(255) DEFAULT NULL,
-     new_fn              VARCHAR(255) DEFAULT NULL,
+     extracted_accession VARCHAR(25) DEFAULT NULL,
+     original_header     TEXT DEFAULT NULL,
+     original_fn         TEXT DEFAULT NULL,
+     new_fn              TEXT DEFAULT NULL,
      date_added          DATETIME DEFAULT NULL,
-     source              TEXT,
-     subsource           TEXT,
+     source              TEXT DEFAULT NULL,
+     subsource           TEXT DEFAULT NULL,
+     type                VARCHAR(3) DEFAULT NULL,
+     version             TEXT DEFAULT NULL,
      t_superkingdom      VARCHAR(50) DEFAULT NULL,
      t_kingdom           VARCHAR(50) DEFAULT NULL,
      t_subkingdom        VARCHAR(50) DEFAULT NULL,
@@ -497,6 +509,17 @@ sub hash_header {
 }
 
 sub help_message {
-    say 'Help!';
+    say "$version";
+    say "Usage: perl plant.pl [options]\nRequired:";
+    say
+        "\t-user <username> -pass <password> -ip <ip address> -table <tablename>";
+    say "Setup Database:";
+    say "\t--setup [required options]";
+    say "Populate Database:";
+    say
+        "\t--populate [required options] -in <input directory> -out <output directory> -ncbi <NCBI taxa ID list> -dump <NCBI taxdump directory>";
+    say "Options:";
+    say "";
+
     exit(1);
 }
