@@ -32,12 +32,14 @@ my $input_fasta_dir;     # original FASTA format protein directory
 my $output_fasta_dir;    # modified FASTA format protein directory
 my $ncbi_taxid_file;
 my $ncbi_taxdump_dir;
+my $ome_type = "DNA";    #DNA (genome) or RNA (transcriptome)
 
 # database access
 my $ip_address = q{};
 my $user;
 my $password;
 my $table_name;
+my $annotation_version;
 
 # options
 my $setup;
@@ -57,6 +59,7 @@ GetOptions(
     'populate'  => \$populate,
     'in=s'      => \$input_fasta_dir,
     'out=s'     => \$output_fasta_dir,
+    'type=s'    => \$ome_type,
     'ncbi=s'    => \$ncbi_taxid_file,
     'dump=s'    => \$ncbi_taxdump_dir,
     'mysql=i'   => \$mysql,
@@ -106,7 +109,7 @@ if ($populate) {
             # extract the directory structure into source/subsource
             # and filename
             my @parts     = split /\//, $file_path;
-            my $source    = $parts[1];
+            my $source    = $parts[0];
             my $subsource = $parts[1];
             my $filename  = $parts[2];
             if ( $source ne 'NCBI' ) {
@@ -160,14 +163,15 @@ if ($populate) {
             if ( $source =~ /JGI/i ) {
 
                 my @mysql_push = process_jgi(
-                    $seqio_mysql, $source,     $subsource,
-                    $filename,    $date_time,  $superkingdom,
-                    $kingdom,     $subkingdom, $phylum,
-                    $subphylum,   $class,      $order,
-                    $family,      $special,    $full_name
+                    $seqio_object, $filename,           $full_name,
+                    $date_time,    $source,             $subsource,
+                    $ome_type,         $annotation_version, $superkingdom,
+                    $kingdom,      $subkingdom,         $phylum,
+                    $subphylum,    $class,              $order,
+                    $family,       $special,
                 );
 
-                if ($mysql == 1) {
+                if ( $mysql == 1 ) {
                     print "Inserting: $full_name - ";
                     insert_mysql(
                         $user,       $password, $ip_address,
@@ -219,7 +223,7 @@ sub insert_mysql {
        (
          hashed_accession, extracted_accession, original_header,
          original_fn, new_fn, date_added,
-         source, subsource, t_superkingdom,
+         source, subsource, type, version, t_superkingdom,
          t_kingdom, t_subkingdom, t_phylum,
          t_subphylum, t_class, t_order,
          t_family, t_special
@@ -240,10 +244,12 @@ sub insert_mysql {
 
 # takes bioperl seqio object, along with
 sub process_jgi {
-    my ($seqio_object, $source,       $subsource, $filename,
-        $date_time,    $superkingdom, $kingdom,   $subkingdom,
-        $phylum,       $subphylum,    $class,     $order,
-        $family,       $special,      $full_name
+    my ($seqio_object, $filename,           $full_name,
+        $date_time,    $source,             $subsource,
+        $ome_type,         $annotation_version, $superkingdom,
+        $kingdom,      $subkingdom,         $phylum,
+        $subphylum,    $class,              $order,
+        $family,       $special,
     ) = @_;
     my $accession;
 
@@ -256,8 +262,8 @@ sub process_jgi {
         # get full header, made from id and description
         my $original_header = $seq->id . ' ' . $seq->desc;
 
-        # different JGI portals have different headers
-        # some of fungi may also break here
+        # each JGI portals has different headers
+        # some of the fungi may also break here
         if ( $subsource =~ /fungi|mycocosm/i ) {
 
             # jgi|Encro1|1|EROM_010010m.01
@@ -280,7 +286,7 @@ sub process_jgi {
 
         # this must not have spaces!
         my $record
-            = "$hashed_accession,$accession,$original_header,$filename,$full_name,$date_time,$source,$subsource,$superkingdom,$kingdom,$subkingdom,$phylum,$subphylum,$class,$order,$family,$special";
+            = "$hashed_accession,$accession,$original_header,$filename,$full_name,$date_time,$source,$subsource,$ome_type,$annotation_version,$superkingdom,$kingdom,$subkingdom,$phylum,$subphylum,$class,$order,$family,$special";
 
         push @array_for_mysql, $record;
     }
@@ -342,7 +348,7 @@ sub get_taxonomy {
     # if the sqlite db does not exist, warn user
     if ( !-f "$ncbi_taxdump_dir\/taxonomy.sqlite" ) {
         say
-            "[INFO]:\tIndexing NCBI Taxonomy - this may take a few minutes on the first run!";
+            "[INFO]:\tIndexing NCBI Taxonomy - This may take a few minutes on the first run!";
     }
 
     # read in taxonomy from taxdump
@@ -501,7 +507,8 @@ sub setup_mysql_db {
 # The idea is that every header will be different, even across
 # different taxa, but they are messy and we need a unique ID,
 # hashes are perfect for this. They're not human readable, but
-# we'll be converting them back to Genus species names anyway.
+# we'll be converting them back to Genus species names along
+# with the extracted accession anyway.
 sub hash_header {
     my $header = shift;
     $header = md5_hex($header);
@@ -519,7 +526,7 @@ sub help_message {
     say
         "\t--populate [required options] -in <input directory> -out <output directory> -ncbi <NCBI taxa ID list> -dump <NCBI taxdump directory>";
     say "Options:";
-    say "";
+    say "-type = DNA or RNA (default: DNA)";
 
     exit(1);
 }
