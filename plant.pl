@@ -39,7 +39,7 @@ my $ip_address = q{};
 my $user;
 my $password;
 my $table_name;
-my $annotation_version;
+my $annotation_version = '1';
 
 # options
 my $setup;
@@ -109,7 +109,7 @@ if ($populate) {
             # extract the directory structure into source/subsource
             # and filename
             my @parts     = split /\//, $file_path;
-            my $source    = $parts[0];
+            my $source    = $parts[1];
             my $subsource = $parts[1];
             my $filename  = $parts[2];
             if ( $source ne 'NCBI' ) {
@@ -150,22 +150,20 @@ if ($populate) {
                 $full_name );
 
             ## Construct MySQL input
-
             # date time values in 'YYYY-MM-DD HH:MM:SS'
             my $date_time = DateTime->now( time_zone => 'local' )->datetime();
-
             # Remove the erroneous T - not good for MYSQL
             $date_time =~ s/T/ /igs;
 
-            #
+            ##
             my $seqio_mysql = open_seqio($file_path);
             say "Source: $source // $subsource";
             if ( $source =~ /JGI/i ) {
 
                 my @mysql_push = process_jgi(
-                    $seqio_object, $filename,           $full_name,
+                    $seqio_mysql,  $filename,           $full_name,
                     $date_time,    $source,             $subsource,
-                    $ome_type,         $annotation_version, $superkingdom,
+                    $ome_type,     $annotation_version, $superkingdom,
                     $kingdom,      $subkingdom,         $phylum,
                     $subphylum,    $class,              $order,
                     $family,       $special,
@@ -230,7 +228,7 @@ sub insert_mysql {
        )
        VALUES
        (
-         ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+         ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
        );"
     ) or die "Couldn't connect to database: " . DBI->errstr;
 
