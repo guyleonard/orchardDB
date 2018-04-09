@@ -121,6 +121,14 @@ if ($populate) {
             my ($match) = grep { $_ =~ $filename } @ncbi_taxids;
             my ( $filenamex, $taxid ) = split /,/, $match;
 
+            my $taxa_exists
+                = check_taxa_in_mysql( $user, $password, $ip_address,
+                $table_name, $taxid );
+            if ( $taxa_exists eq 1 ) {
+                print "[WARN] Skipping: $filename - $taxid as it exists in the orchardDB already.\n";
+                next;
+            }
+
             # check if a file in gzip, if so
             # we need to unzip it and update file_path
             if ( $filename =~ /\.gz$/ ) {
@@ -162,7 +170,7 @@ if ($populate) {
 
             ##
             my $seqio_mysql = open_seqio($file_path);
-            say "Info: $taxid // $source // $subsource";
+            say "[INFO] $taxid // $source // $subsource";
             if ( $source =~ /JGI/i ) {
 
                 my @mysql_push = process_jgi(
@@ -267,6 +275,25 @@ sub process_jgi {
 ########################
 ##        SUBS        ##
 ########################
+
+sub check_taxa_in_mysql {
+    my ( $user, $password, $ip_address, $table_name, $taxid ) = @_;
+
+    my $dsn  = "dbi:mysql:database=orchardDB;host=$ip_address";
+    my %attr = ( PrintError => 0, RaiseError => 1, AutoCommit => 1 );
+    my $dbh  = DBI->connect( $dsn, $user, $password, \%attr )
+        or die "Couldn't connect to database: " . DBI->errstr;
+
+    # DEFINE A MySQL QUERY
+    my $statement
+        = $dbh->prepare(
+        "SELECT * FROM orchardDB.$table_name WHERE taxid='$taxid' LIMIT 1;")
+        or die "Couldn't connect to database: " . DBI->errstr;
+
+    my $status = $statement->execute();
+
+    return $status;
+}
 
 sub insert_mysql {
 
@@ -431,7 +458,7 @@ sub get_genome_files {
     my @fasta_files;
     my $file_finder = sub {
         return if !-f;
-        return if !/\.fa|\.fasta|\.fas|\.aa|\.gz/;
+        return if !/\.fa|\.faa|\.fas|\.fasta|\.aa|\.pep|\.gz/;
         push @fasta_files, $File::Find::name;
     };
     find( $file_finder, $input_dir );
