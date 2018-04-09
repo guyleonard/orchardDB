@@ -208,7 +208,7 @@ if ($populate) {
 }
 
 ########################
-##   Portal SUBS    ##
+##   Portal SUBS      ##
 ########################
 
 # takes bioperl seqio object, along with
