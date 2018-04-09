@@ -156,6 +156,7 @@ if ($populate) {
             ## Construct MySQL input
             # date time values in 'YYYY-MM-DD HH:MM:SS'
             my $date_time = DateTime->now( time_zone => 'local' )->datetime();
+
             # Remove the erroneous T - not good for MYSQL
             $date_time =~ s/T/ /igs;
 
@@ -167,10 +168,10 @@ if ($populate) {
                 my @mysql_push = process_jgi(
                     $seqio_mysql,  $filename,           $full_name,
                     $date_time,    $source,             $subsource,
-                    $ome_type,     $annotation_version, $superkingdom,
-                    $kingdom,      $subkingdom,         $phylum,
-                    $subphylum,    $class,              $order,
-                    $family,       $special,
+                    $ome_type,     $annotation_version, $taxid,
+                    $superkingdom, $kingdom,            $subkingdom,
+                    $phylum,       $subphylum,          $class,
+                    $order,        $family,             $special,
                 );
 
                 if ( $mysql == 1 ) {
@@ -225,14 +226,14 @@ sub insert_mysql {
        (
          hashed_accession, extracted_accession, original_header,
          original_fn, new_fn, date_added,
-         source, subsource, type, version, t_superkingdom,
-         t_kingdom, t_subkingdom, t_phylum,
-         t_subphylum, t_class, t_order,
-         t_family, t_special
+         source, subsource, type, version, taxid,
+         t_superkingdom, t_kingdom, t_subkingdom, 
+         t_phylum, t_subphylum, t_class, 
+         t_order, t_family, t_special
        )
        VALUES
        (
-         ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+         ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
        );"
     ) or die "Couldn't connect to database: " . DBI->errstr;
 
@@ -248,10 +249,10 @@ sub insert_mysql {
 sub process_jgi {
     my ($seqio_object, $filename,           $full_name,
         $date_time,    $source,             $subsource,
-        $ome_type,     $annotation_version, $superkingdom,
-        $kingdom,      $subkingdom,         $phylum,
-        $subphylum,    $class,              $order,
-        $family,       $special,
+        $ome_type,     $annotation_version, $taxid,
+        $superkingdom, $kingdom,            $subkingdom,
+        $phylum,       $subphylum,          $class,
+        $order,        $family,             $special,
     ) = @_;
     my $accession;
 
@@ -288,7 +289,7 @@ sub process_jgi {
 
         # this must not have spaces!
         my $record
-            = "$hashed_accession,$accession,$original_header,$filename,$full_name,$date_time,$source,$subsource,$ome_type,$annotation_version,$superkingdom,$kingdom,$subkingdom,$phylum,$subphylum,$class,$order,$family,$special";
+            = "$hashed_accession,$accession,$original_header,$filename,$full_name,$date_time,$source,$subsource,$ome_type,$annotation_version,$taxid,$superkingdom,$kingdom,$subkingdom,$phylum,$subphylum,$class,$order,$family,$special";
 
         push @array_for_mysql, $record;
     }
@@ -482,6 +483,7 @@ sub setup_mysql_db {
      subsource           TEXT DEFAULT NULL,
      type                VARCHAR(3) DEFAULT NULL,
      version             TEXT DEFAULT NULL,
+     taxid               TEXT DEFAULT NULL,
      t_superkingdom      VARCHAR(50) DEFAULT NULL,
      t_kingdom           VARCHAR(50) DEFAULT NULL,
      t_subkingdom        VARCHAR(50) DEFAULT NULL,
