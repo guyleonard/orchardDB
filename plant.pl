@@ -208,42 +208,8 @@ if ($populate) {
 }
 
 ########################
-##        SUBS        ##
+##   Portal SUBS    ##
 ########################
-
-sub insert_mysql {
-
-    my ( $user, $password, $ip_address, $table_name, @mysql_rows ) = @_;
-
-    my $dsn  = "dbi:mysql:database=orchardDB;host=$ip_address";
-    my %attr = ( PrintError => 0, RaiseError => 1, AutoCommit => 1 );
-    my $dbh  = DBI->connect( $dsn, $user, $password, \%attr )
-        or die "Couldn't connect to database: " . DBI->errstr;
-
-    # DEFINE A MySQL QUERY
-    my $statement = $dbh->prepare(
-        "INSERT IGNORE into $table_name
-       (
-         hashed_accession, extracted_accession, original_header,
-         original_fn, new_fn, date_added,
-         source, subsource, type, version, taxid,
-         t_superkingdom, t_kingdom, t_subkingdom, 
-         t_phylum, t_subphylum, t_class, 
-         t_order, t_family, t_special
-       )
-       VALUES
-       (
-         ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-       );"
-    ) or die "Couldn't connect to database: " . DBI->errstr;
-
-    foreach my $row (@mysql_rows) {
-        $statement->execute( split /,/, $row );
-    }
-
-    # close the database connection
-    $dbh->disconnect;
-}
 
 # takes bioperl seqio object, along with
 sub process_jgi {
@@ -296,6 +262,44 @@ sub process_jgi {
     print "done!\n";
 
     return @array_for_mysql;
+}
+
+########################
+##        SUBS        ##
+########################
+
+sub insert_mysql {
+
+    my ( $user, $password, $ip_address, $table_name, @mysql_rows ) = @_;
+
+    my $dsn  = "dbi:mysql:database=orchardDB;host=$ip_address";
+    my %attr = ( PrintError => 0, RaiseError => 1, AutoCommit => 1 );
+    my $dbh  = DBI->connect( $dsn, $user, $password, \%attr )
+        or die "Couldn't connect to database: " . DBI->errstr;
+
+    # DEFINE A MySQL QUERY
+    my $statement = $dbh->prepare(
+        "INSERT IGNORE into $table_name
+       (
+         hashed_accession, extracted_accession, original_header,
+         original_fn, new_fn, date_added,
+         source, subsource, type, version, taxid,
+         t_superkingdom, t_kingdom, t_subkingdom, 
+         t_phylum, t_subphylum, t_class, 
+         t_order, t_family, t_special
+       )
+       VALUES
+       (
+         ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+       );"
+    ) or die "Couldn't connect to database: " . DBI->errstr;
+
+    foreach my $row (@mysql_rows) {
+        $statement->execute( split /,/, $row );
+    }
+
+    # close the database connection
+    $dbh->disconnect;
 }
 
 # takes the bioperl seqio object, along with
