@@ -117,6 +117,10 @@ if ($populate) {
                 $filename  = $parts[3];
             }
 
+            # Get the NCBI TaxID from the input file
+            my ($match) = grep { $_ =~ $filename } @ncbi_taxids;
+            my ( $filenamex, $taxid ) = split /,/, $match;
+
             # check if a file in gzip, if so
             # we need to unzip it and update file_path
             if ( $filename =~ /\.gz$/ ) {
@@ -139,7 +143,7 @@ if ($populate) {
             my ($full_name, $superkingdom, $kingdom, $subkingdom,
                 $phylum,    $subphylum,    $class,   $order,
                 $family,    $special
-            ) = get_taxonomy( $filename, @ncbi_taxids );
+            ) = get_taxonomy( $filename, $taxid );
 
             ## Process fasta files
             # read in the original file and process it to have
@@ -157,7 +161,7 @@ if ($populate) {
 
             ##
             my $seqio_mysql = open_seqio($file_path);
-            say "Source: $source // $subsource";
+            say "Info: $taxid // $source // $subsource";
             if ( $source =~ /JGI/i ) {
 
                 my @mysql_push = process_jgi(
@@ -244,7 +248,7 @@ sub insert_mysql {
 sub process_jgi {
     my ($seqio_object, $filename,           $full_name,
         $date_time,    $source,             $subsource,
-        $ome_type,         $annotation_version, $superkingdom,
+        $ome_type,     $annotation_version, $superkingdom,
         $kingdom,      $subkingdom,         $phylum,
         $subphylum,    $class,              $order,
         $family,       $special,
@@ -338,10 +342,7 @@ sub process_fasta {
 }
 
 sub get_taxonomy {
-    my ( $filename, @ncbi_taxid_file ) = @_;
-
-    my ($match) = grep { $_ =~ $filename } @ncbi_taxid_file;
-    my ( $filenamex, $taxid ) = split /,/, $match;
+    my ( $filename, $taxid ) = @_;
 
     # if the sqlite db does not exist, warn user
     if ( !-f "$ncbi_taxdump_dir\/taxonomy.sqlite" ) {
