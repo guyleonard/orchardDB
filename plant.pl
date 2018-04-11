@@ -26,6 +26,7 @@ my $version = "OrchardDB v1.0 -- plant.pl v0.1";
 
 # things
 my $work_dir = cwd();
+my $info     = 0;
 
 # input directories etc
 my $input_fasta_dir;     # original FASTA format protein directory
@@ -94,6 +95,7 @@ if ($populate) {
         && $ncbi_taxid_file
         && $ncbi_taxdump_dir )
     {
+        say "\nRunning: $version\n";
 
         # read in genome filenames
         my @fasta_input = get_genome_files($input_fasta_dir);
@@ -125,7 +127,8 @@ if ($populate) {
                 = check_taxa_in_mysql( $user, $password, $ip_address,
                 $table_name, $taxid );
             if ( $taxa_exists eq 1 ) {
-                print "[WARN] Skipping: $filename - $taxid as it exists in the orchardDB already.\n";
+                print
+                    "\t[WARN] Skipping: $filename - $taxid as it exists in the orchardDB already.\n";
                 next;
             }
 
@@ -170,7 +173,7 @@ if ($populate) {
 
             ##
             my $seqio_mysql = open_seqio($file_path);
-            say "[INFO] $taxid // $source // $subsource";
+            say "[INFO] $taxid // $source // $subsource" if $info == 1;
             if ( $source =~ /JGI/i ) {
 
                 my @mysql_push = process_jgi(
@@ -193,13 +196,63 @@ if ($populate) {
 
             }
             elsif ( $source =~ /NCBI/i ) {
+                my @mysql_push = process_ncbi(
+                    $seqio_mysql,  $filename,           $full_name,
+                    $date_time,    $source,             $subsource,
+                    $ome_type,     $annotation_version, $taxid,
+                    $superkingdom, $kingdom,            $subkingdom,
+                    $phylum,       $subphylum,          $class,
+                    $order,        $family,             $special,
+                );
+
+                if ( $mysql == 1 ) {
+                   print "Inserting: $full_name - ";
+                   insert_mysql(
+                       $user,       $password, $ip_address,
+                       $table_name, @mysql_push
+                   );
+                }
+                print "done!\n\n";
 
             }
             elsif ( $source =~ /Ensembl/i ) {
+                my @mysql_push = process_ensembl(
+                    $seqio_mysql,  $filename,           $full_name,
+                    $date_time,    $source,             $subsource,
+                    $ome_type,     $annotation_version, $taxid,
+                    $superkingdom, $kingdom,            $subkingdom,
+                    $phylum,       $subphylum,          $class,
+                    $order,        $family,             $special,
+                );
+
+                if ( $mysql == 1 ) {
+                    print "Inserting: $full_name - ";
+                    insert_mysql(
+                        $user,       $password, $ip_address,
+                        $table_name, @mysql_push
+                    );
+                }
+                print "done!\n\n";
 
             }
             elsif ( $source =~ /EuPathDB/i ) {
+                my @mysql_push = process_eupathdb(
+                    $seqio_mysql,  $filename,           $full_name,
+                    $date_time,    $source,             $subsource,
+                    $ome_type,     $annotation_version, $taxid,
+                    $superkingdom, $kingdom,            $subkingdom,
+                    $phylum,       $subphylum,          $class,
+                    $order,        $family,             $special,
+                );
 
+                if ( $mysql == 1 ) {
+                    print "Inserting: $full_name - ";
+                    insert_mysql(
+                        $user,       $password, $ip_address,
+                        $table_name, @mysql_push
+                    );
+                }
+                print "done!\n\n";
             }
             else {
 
@@ -261,11 +314,150 @@ sub process_jgi {
         # replace header info with a hash
         my $hashed_accession = hash_header($original_header);
 
+        # remove all commas from headers prior to submission
+        # to mysql insertion - causes issues!
+        $original_header =~ s/\,//g;
+
         # this must not have spaces!
         my $record
             = "$hashed_accession,$accession,$original_header,$filename,$full_name,$date_time,$source,$subsource,$ome_type,$annotation_version,$taxid,$superkingdom,$kingdom,$subkingdom,$phylum,$subphylum,$class,$order,$family,$special";
 
         push @array_for_mysql, $record;
+    }
+    print "done!\n";
+
+    return @array_for_mysql;
+}
+
+sub process_ensembl {
+    my ($seqio_object, $filename,           $full_name,
+        $date_time,    $source,             $subsource,
+        $ome_type,     $annotation_version, $taxid,
+        $superkingdom, $kingdom,            $subkingdom,
+        $phylum,       $subphylum,          $class,
+        $order,        $family,             $special,
+    ) = @_;
+    my $accession;
+
+    my @array_for_mysql;
+
+    print "Preparing data: ";
+
+    while ( my $seq = $seqio_object->next_seq() ) {
+
+        # get full header, made from id and description
+        my $original_header = $seq->id . ' ' . $seq->desc;
+
+        #EER13651 pep supercontig:JCVI_PMG_1.0:scf_1104 ...
+        $original_header =~ /(.*)\s+pep\s+.*/;
+        $accession = $1;
+
+        # replace header info with a hash
+        my $hashed_accession = hash_header($original_header);
+
+        # remove all commas from headers prior to submission
+        # to mysql insertion - causes issues!
+        $original_header =~ s/\,//g;
+
+        # this must not have spaces!
+        my $record
+            = "$hashed_accession,$accession,$original_header,$filename,$full_name,$date_time,$source,$subsource,$ome_type,$annotation_version,$taxid,$superkingdom,$kingdom,$subkingdom,$phylum,$subphylum,$class,$order,$family,$special";
+
+        push @array_for_mysql, $record;
+
+    }
+    print "done!\n";
+
+    return @array_for_mysql;
+}
+
+sub process_ncbi {
+    my ($seqio_object, $filename,           $full_name,
+        $date_time,    $source,             $subsource,
+        $ome_type,     $annotation_version, $taxid,
+        $superkingdom, $kingdom,            $subkingdom,
+        $phylum,       $subphylum,          $class,
+        $order,        $family,             $special,
+    ) = @_;
+    my $accession;
+    my $warning = 0;
+
+    my @array_for_mysql;
+
+    print "Preparing data: ";
+
+    while ( my $seq = $seqio_object->next_seq() ) {
+
+        # get full header, made from id and description
+        my $original_header = $seq->id . ' ' . $seq->desc;
+
+        if ( $seq->id =~ /^gi/ ) {
+            say
+                "\n\t[WARN] Old NCBI Headers Detected. Considering updating your data."
+                if $warning == 1;
+            $original_header =~ /gi\|.*\|.*\|(.*)\|.*/;
+            $accession = $1;
+            $warning++;
+        }
+        else {
+            $accession = $seq->id;
+        }
+
+        # replace header info with a hash
+        my $hashed_accession = hash_header($original_header);
+
+        # remove all commas from headers prior to submission
+        # to mysql insertion - causes issues!
+        $original_header =~ s/\,//g;
+
+        # this must not have spaces!
+        my $record
+            = "$hashed_accession,$accession,$original_header,$filename,$full_name,$date_time,$source,$subsource,$ome_type,$annotation_version,$taxid,$superkingdom,$kingdom,$subkingdom,$phylum,$subphylum,$class,$order,$family,$special";
+
+        push @array_for_mysql, $record;
+
+    }
+    print "done!\n";
+
+    return @array_for_mysql;
+}
+
+sub process_eupathdb {
+    my ($seqio_object, $filename,           $full_name,
+        $date_time,    $source,             $subsource,
+        $ome_type,     $annotation_version, $taxid,
+        $superkingdom, $kingdom,            $subkingdom,
+        $phylum,       $subphylum,          $class,
+        $order,        $family,             $special,
+    ) = @_;
+    my $accession;
+
+    my @array_for_mysql;
+
+    print "Preparing data: ";
+
+    while ( my $seq = $seqio_object->next_seq() ) {
+
+        # get full header, made from id and description
+        my $original_header = $seq->id . ' ' . $seq->desc;
+
+     #AEWD_010030-t26_1-p1 | transcript=AEWD_010030-t26_1 | gene=AEWD_010030 |
+        $original_header =~ /.*gene=(.*)\s+\|\s+org.*/;
+        $accession = $1;
+
+        # replace header info with a hash
+        my $hashed_accession = hash_header($original_header);
+
+        # remove all commas from headers prior to submission
+        # to mysql insertion - causes issues!
+        $original_header =~ s/\,//g;
+
+        # this must not have spaces!
+        my $record
+            = "$hashed_accession,$accession,$original_header,$filename,$full_name,$date_time,$source,$subsource,$ome_type,$annotation_version,$taxid,$superkingdom,$kingdom,$subkingdom,$phylum,$subphylum,$class,$order,$family,$special";
+
+        push @array_for_mysql, $record;
+
     }
     print "done!\n";
 
