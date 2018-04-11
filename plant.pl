@@ -26,7 +26,7 @@ my $version = "OrchardDB v1.0 -- plant.pl v0.1";
 
 # things
 my $work_dir = cwd();
-my $info     = 0;
+my $info     = 1;
 
 # input directories etc
 my $input_fasta_dir;     # original FASTA format protein directory
@@ -60,7 +60,6 @@ GetOptions(
     'populate'  => \$populate,
     'in=s'      => \$input_fasta_dir,
     'out=s'     => \$output_fasta_dir,
-    'type=s'    => \$ome_type,
     'ncbi=s'    => \$ncbi_taxid_file,
     'dump=s'    => \$ncbi_taxdump_dir,
     'mysql=i'   => \$mysql,
@@ -118,24 +117,26 @@ if ($populate) {
                 $subsource = $parts[2];
                 $filename  = $parts[3];
             }
-            my ( $filenamex, $taxid );
-
+            
+            # Skip over files not in sub folders
             if (! defined $filename) {
                 say "\t[WARN] Erroneous file $file_path - skipping. Please put in correct folder.";
                 next;
             }
 
-            # Get the NCBI TaxID from the input file if it exists in the
+            # Get the NCBI taxid from the input file if it exists in the
             # input file/taxid match list
+            my ( $filenamex, $taxid );
             if (my ($match) = grep { $_ =~ $filename } @ncbi_taxids) {
-                ( $filenamex, $taxid ) = split /,/, $match;
+                ( $filenamex, $taxid, $ome_type ) = split /,/, $match;
+                if (! defined $ome_type) { $ome_type = 'DNA'}
             }
             else {
                 say "\t[ERROR] The $filename file is missing from input file but exists in the input dir.";
                 next;
             }
             
-
+            # Check for existing taxa based on taxid
             my $taxa_exists
                 = check_taxa_in_mysql( $user, $password, $ip_address,
                 $table_name, $taxid );
@@ -186,7 +187,7 @@ if ($populate) {
 
             ##
             my $seqio_mysql = open_seqio($file_path);
-            say "[INFO] $taxid // $source // $subsource" if $info == 1;
+            say "[INFO] $taxid // $source // $subsource // $ome_type" if $info == 1;
             if ( $source =~ /JGI/i ) {
 
                 my @mysql_push = process_jgi(
