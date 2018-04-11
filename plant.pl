@@ -120,13 +120,18 @@ if ($populate) {
             }
             my ( $filenamex, $taxid );
 
+            if (! defined $filename) {
+                say "\t[WARN] Erroneous file $file_path - skipping. Please put in correct folder.";
+                next;
+            }
+
             # Get the NCBI TaxID from the input file if it exists in the
             # input file/taxid match list
             if (my ($match) = grep { $_ =~ $filename } @ncbi_taxids) {
                 ( $filenamex, $taxid ) = split /,/, $match;
             }
             else {
-                print "\t[ERROR] The $filename file is missing from input file but exists in the input dir.\n";
+                say "\t[ERROR] The $filename file is missing from input file but exists in the input dir.";
                 next;
             }
             
