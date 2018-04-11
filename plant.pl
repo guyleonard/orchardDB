@@ -206,11 +206,11 @@ if ($populate) {
                 );
 
                 if ( $mysql == 1 ) {
-                   print "Inserting: $full_name - ";
-                   insert_mysql(
-                       $user,       $password, $ip_address,
-                       $table_name, @mysql_push
-                   );
+                    print "Inserting: $full_name - ";
+                    insert_mysql(
+                        $user,       $password, $ip_address,
+                        $table_name, @mysql_push
+                    );
                 }
                 print "done!\n\n";
 
@@ -255,6 +255,23 @@ if ($populate) {
                 print "done!\n\n";
             }
             else {
+                my @mysql_push = process_other(
+                    $seqio_mysql,  $filename,           $full_name,
+                    $date_time,    $source,             $subsource,
+                    $ome_type,     $annotation_version, $taxid,
+                    $superkingdom, $kingdom,            $subkingdom,
+                    $phylum,       $subphylum,          $class,
+                    $order,        $family,             $special,
+                );
+                
+                if ( $mysql == 1 ) {
+                    print "Inserting: $full_name - ";
+                    insert_mysql(
+                        $user,       $password, $ip_address,
+                        $table_name, @mysql_push
+                    );
+                }
+                print "done!\n\n";
 
             }
 
@@ -444,6 +461,46 @@ sub process_eupathdb {
      #AEWD_010030-t26_1-p1 | transcript=AEWD_010030-t26_1 | gene=AEWD_010030 |
         $original_header =~ /.*gene=(.*)\s+\|\s+org.*/;
         $accession = $1;
+
+        # replace header info with a hash
+        my $hashed_accession = hash_header($original_header);
+
+        # remove all commas from headers prior to submission
+        # to mysql insertion - causes issues!
+        $original_header =~ s/\,//g;
+
+        # this must not have spaces!
+        my $record
+            = "$hashed_accession,$accession,$original_header,$filename,$full_name,$date_time,$source,$subsource,$ome_type,$annotation_version,$taxid,$superkingdom,$kingdom,$subkingdom,$phylum,$subphylum,$class,$order,$family,$special";
+
+        push @array_for_mysql, $record;
+
+    }
+    print "done!\n";
+
+    return @array_for_mysql;
+}
+
+sub process_other {
+    my ($seqio_object, $filename,           $full_name,
+        $date_time,    $source,             $subsource,
+        $ome_type,     $annotation_version, $taxid,
+        $superkingdom, $kingdom,            $subkingdom,
+        $phylum,       $subphylum,          $class,
+        $order,        $family,             $special,
+    ) = @_;
+    my $accession;
+
+    my @array_for_mysql;
+
+    print "Preparing data: ";
+
+    while ( my $seq = $seqio_object->next_seq() ) {
+
+        # get full header, made from id and description
+        my $original_header = $seq->id . ' ' . $seq->desc;
+
+        $accession = $seq->id;
 
         # replace header info with a hash
         my $hashed_accession = hash_header($original_header);
