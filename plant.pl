@@ -128,8 +128,9 @@ if ($populate) {
             # input file/taxid match list
             my ( $filenamex, $taxid );
             if (my ($match) = grep { $_ =~ $filename } @ncbi_taxids) {
-                ( $filenamex, $taxid, $ome_type ) = split /,/, $match;
-                if (! defined $ome_type) { $ome_type = 'DNA'}
+                ( $filenamex, $taxid, $ome_type, $annotation_version ) = split /,/, $match;
+                if (! defined $ome_type or $ome_type eq '') { $ome_type = 'DNA'}
+                if (! defined $annotation_version or $annotation_version eq '') { $annotation_version = '1'}
             }
             else {
                 say "\t[ERROR] The $filename file is missing from input file but exists in the input dir.";
@@ -187,7 +188,7 @@ if ($populate) {
 
             ##
             my $seqio_mysql = open_seqio($file_path);
-            say "[INFO] $taxid // $source // $subsource // $ome_type" if $info == 1;
+            say "[INFO] $taxid // $source // $subsource // $ome_type // $annotation_version" if $info == 1;
             if ( $source =~ /JGI/i ) {
 
                 my @mysql_push = process_jgi(
