@@ -1,54 +1,54 @@
 Genus	species		type	Synonym	other	Origin	Version	Source	NCBI Tax ID	URL	Ensembl
-Aegilops	tauschii						ASM34733v1	EnsemblPlants	37682	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastaaegilops_tauschii/pep/Aegilops_tauschii.ASM34733v1.pep.all.fa.gz	aegilops_tauschii
-Amborella	trichopoda						AMTR1.0	EnsemblPlants	13333	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastaamborella_trichopoda/pep/Amborella_trichopoda.AMTR1.0.pep.all.fa.gz	amborella_trichopoda
-Arabidopsis	lyrata						v.1.0	EnsemblPlants	81972	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastaarabidopsis_lyrata/pep/Arabidopsis_lyrata.v.1.0.pep.all.fa.gz	arabidopsis_lyrata
-Arabidopsis	thaliana						TAIR10	EnsemblPlants	3702	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastaarabidopsis_thaliana/pep/Arabidopsis_thaliana.TAIR10.pep.all.fa.gz	arabidopsis_thaliana
-Beta	vulgaris	subsp. vulgaris 					RefBeet-1.2.2	EnsemblPlants	3555	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastabeta_vulgaris/pep/Beta_vulgaris.RefBeet-1.2.2.pep.all.fa.gz	beta_vulgaris
-Brachypodium	distachyon						v1.0	EnsemblPlants	15368	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastabrachypodium_distachyon/pep/Brachypodium_distachyon.v1.0.pep.all.fa.gz	brachypodium_distachyon
-Brassica	napus						AST_PRJEB5043_v1	EnsemblPlants	3708	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastabrassica_napus/pep/Brassica_napus.AST_PRJEB5043_v1.pep.all.fa.gz	brassica_napus
-Brassica	oleracea						v2.1	EnsemblPlants	109376	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastabrassica_oleracea/pep/Brassica_oleracea.v2.1.pep.all.fa.gz	brassica_oleracea
-Brassica	rapa						IVFCAASv1	EnsemblPlants	51351	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastabrassica_rapa/pep/Brassica_rapa.IVFCAASv1.pep.all.fa.gz	brassica_rapa
-Chlamydomonas	reinhardtii						v3.1	EnsemblPlants	3055	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastachlamydomonas_reinhardtii/pep/Chlamydomonas_reinhardtii.v3.1.pep.all.fa.gz	chlamydomonas_reinhardtii
-Chondrus	crispus						ASM35022v2	EnsemblPlants	2769	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastachondrus_crispus/pep/Chondrus_crispus.ASM35022v2.pep.all.fa.gz	chondrus_crispus
-Corchorus	capsularis						CCACVL1_1.0	EnsemblPlants	210143	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastacorchorus_capsularis/pep/Corchorus_capsularis.CCACVL1_1.0.pep.all.fa.gz	corchorus_capsularis
-Cucumis	sativus						ASM407v2	EnsemblPlants	3659	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastacucumis_sativus/pep/Cucumis_sativus.ASM407v2.pep.all.fa.gz	cucumis_sativus
-Cyanidioschyzon	merolae						ASM9120v1	EnsemblPlants	280699	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastacyanidioschyzon_merolae/pep/Cyanidioschyzon_merolae.ASM9120v1.pep.all.fa.gz	cyanidioschyzon_merolae
-Dioscorea	rotundata						TDr96_F1_Pseudo_Chromosome_v1.0	EnsemblPlants	55577	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastadioscorea_rotundata/pep/Dioscorea_rotundata.TDr96_F1_Pseudo_Chromosome_v1.0.pep.all.fa.gz	dioscorea_rotundata
-Galdieria	sulphuraria						ASM34128v1	EnsemblPlants	130081	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastagaldieria_sulphuraria/pep/Galdieria_sulphuraria.ASM34128v1.pep.all.fa.gz	galdieria_sulphuraria
-Glycine	max						Glycine_max_v2.0	EnsemblPlants	3847	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastaglycine_max/pep/Glycine_max.Glycine_max_v2.0.pep.all.fa.gz	glycine_max
-Gossypium	raimondii						Graimondii2_0	EnsemblPlants	29730	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastagossypium_raimondii/pep/Gossypium_raimondii.Graimondii2_0.pep.all.fa.gz	gossypium_raimondii
-Helianthus	annuus						HanXRQr1.0	EnsemblPlants	4232	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastahelianthus_annuus/pep/Helianthus_annuus.HanXRQr1.0.pep.all.fa.gz	helianthus_annuus
-Hordeum	vulgare						IBSC v2	EnsemblPlants	112509	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastahordeum_vulgare/pep/Hordeum_vulgare.Hv_IBSC_PGSB_v2.pep.all.fa.gz	hordeum_vulgare
-Leersia	perrieri						Lperr_V1.4	EnsemblPlants	77586	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastaleersia_perrieri/pep/Leersia_perrieri.Lperr_V1.4.pep.all.fa.gz	leersia_perrieri
-Lupinus	angustifolius						LupAngTanjil_v1.0	EnsemblPlants	3871	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastalupinus_angustifolius/pep/Lupinus_angustifolius.LupAngTanjil_v1.0.pep.all.fa.gz	lupinus_angustifolius
-Manihot	esculenta						Manihot_esculenta_v6	EnsemblPlants	3983	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastamanihot_esculenta/pep/Manihot_esculenta.Manihot_esculenta_v6.pep.all.fa.gz	manihot_esculenta
-Medicago	truncatula						MedtrA17_4.0	EnsemblPlants	3880	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastamedicago_truncatula/pep/Medicago_truncatula.MedtrA17_4.0.pep.all.fa.gz	medicago_truncatula
-Musa	acuminata						MA1	EnsemblPlants	214687	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastamusa_acuminata/pep/Musa_acuminata.MA1.pep.all.fa.gz	musa_acuminata
-Nicotiana	attenuata	str. UT 					NIATTr2	EnsemblPlants	49451	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastanicotiana_attenuata/pep/Nicotiana_attenuata.NIATTr2.pep.all.fa.gz	nicotiana_attenuata
-Oryza	barthii						O.barthii_v1	EnsemblPlants	65489	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastaoryza_barthii/pep/Oryza_barthii.O.barthii_v1.pep.all.fa.gz	oryza_barthii
-Oryza	brachyantha						Oryza_brachyantha.v1.4b	EnsemblPlants	4533	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastaoryza_brachyantha/pep/Oryza_brachyantha.Oryza_brachyantha.v1.4b.pep.all.fa.gz	oryza_brachyantha
-Oryza	glaberrima						AGI1.1	EnsemblPlants	4538	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastaoryza_glaberrima/pep/Oryza_glaberrima.AGI1.1.pep.all.fa.gz	oryza_glaberrima
-Oryza	glumaepatula						ALNU02000000	EnsemblPlants	40148	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastaoryza_glumaepatula/pep/Oryza_glumaepatula.ALNU02000000.pep.all.fa.gz	oryza_glumaepatula
-Oryza	sativa	Indica					ASM465v1	EnsemblPlants	39946	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastaoryza_indica/pep/Oryza_indica.ASM465v1.pep.all.fa.gz	oryza_indica
-Oryza	longistaminata						O_longistaminata_v1.0	EnsemblPlants	4528	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastaoryza_longistaminata/pep/Oryza_longistaminata.O_longistaminata_v1.0.pep.all.fa.gz	oryza_longistaminata
-Oryza	meridionalis						Oryza_meridionalis_v1.3	EnsemblPlants	40149	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastaoryza_meridionalis/pep/Oryza_meridionalis.Oryza_meridionalis_v1.3.pep.all.fa.gz	oryza_meridionalis
-Oryza	nivara						AWHD00000000	EnsemblPlants	4536	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastaoryza_nivara/pep/Oryza_nivara.AWHD00000000.pep.all.fa.gz	oryza_nivara
-Oryza	punctata						AVCL00000000	EnsemblPlants	4537	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastaoryza_punctata/pep/Oryza_punctata.AVCL00000000.pep.all.fa.gz	oryza_punctata
-Oryza	rufipogon						OR_W1943	EnsemblPlants	4529	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastaoryza_rufipogon/pep/Oryza_rufipogon.OR_W1943.pep.all.fa.gz	oryza_rufipogon
-Oryza	sativa	Japonica					IRGSP-1.0	EnsemblPlants	39947	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastaoryza_sativa/pep/Oryza_sativa.IRGSP-1.0.pep.all.fa.gz	oryza_sativa
-Ostreococcus	lucimarinus						ASM9206v1	EnsemblPlants	436017	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastaostreococcus_lucimarinus/pep/Ostreococcus_lucimarinus.ASM9206v1.pep.all.fa.gz	ostreococcus_lucimarinus
-Phaseolus	vulgaris						PhaVulg1_0	EnsemblPlants	3885	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastaphaseolus_vulgaris/pep/Phaseolus_vulgaris.PhaVulg1_0.pep.all.fa.gz	phaseolus_vulgaris
-Physcomitrella	patens						ASM242v1	EnsemblPlants	3218	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastaphyscomitrella_patens/pep/Physcomitrella_patens.ASM242v1.pep.all.fa.gz	physcomitrella_patens
-Populus	trichocarpa						JGI2.0	EnsemblPlants	3694	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastapopulus_trichocarpa/pep/Populus_trichocarpa.JGI2.0.pep.all.fa.gz	populus_trichocarpa
-Prunus	persica						Prunus_persica_NCBIv2	EnsemblPlants	3760	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastaprunus_persica/pep/Prunus_persica.Prunus_persica_NCBIv2.pep.all.fa.gz	prunus_persica
-Selaginella	moellendorffii						v1.0	EnsemblPlants	88036	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastaselaginella_moellendorffii/pep/Selaginella_moellendorffii.v1.0.pep.all.fa.gz	selaginella_moellendorffii
-Setaria	italica						JGIv2.0	EnsemblPlants	4555	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastasetaria_italica/pep/Setaria_italica.JGIv2.0.pep.all.fa.gz	setaria_italica
-Solanum	lycopersicum						SL2.50	EnsemblPlants	4081	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastasolanum_lycopersicum/pep/Solanum_lycopersicum.SL2.50.pep.all.fa.gz	solanum_lycopersicum
-Solanum	tuberosum						SolTub_3.0	EnsemblPlants	4113	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastasolanum_tuberosum/pep/Solanum_tuberosum.SolTub_3.0.pep.all.fa.gz	solanum_tuberosum
-Sorghum	bicolor						Sorghum_bicolor_NCBIv3	EnsemblPlants	4558	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastasorghum_bicolor/pep/Sorghum_bicolor.Sorghum_bicolor_NCBIv3.pep.all.fa.gz	sorghum_bicolor
-Theobroma	cacao						Theobroma_cacao_20110822	EnsemblPlants	3641	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastatheobroma_cacao/pep/Theobroma_cacao.Theobroma_cacao_20110822.pep.all.fa.gz	theobroma_cacao
-Trifolium	pratense						Trpr	EnsemblPlants	57577	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastatrifolium_pratense/pep/Trifolium_pratense.Trpr.pep.all.fa.gz	trifolium_pratense
-Triticum	aestivum						TGACv1	EnsemblPlants	4565	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastatriticum_aestivum/pep/Triticum_aestivum.TGACv1.pep.all.fa.gz	triticum_aestivum
-Triticum	urartu						ASM34745v1	EnsemblPlants	4572	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastatriticum_urartu/pep/Triticum_urartu.ASM34745v1.pep.all.fa.gz	triticum_urartu
-Vitis	vinifera						IGGP_12x	EnsemblPlants	29760	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastavitis_vinifera/pep/Vitis_vinifera.IGGP_12x.pep.all.fa.gz	vitis_vinifera
-Zea	mays						B73 RefGen_v4	EnsemblPlants	4577	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fastazea_mays/pep/Zea_mays.AGPv4.pep.all.fa.gz	zea_mays
+Aegilops	tauschii						ASM34733v1	EnsemblPlants	37682	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/aegilops_tauschii/pep/Aegilops_tauschii.ASM34733v1.pep.all.fa.gz	aegilops_tauschii
+Amborella	trichopoda						AMTR1.0	EnsemblPlants	13333	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/amborella_trichopoda/pep/Amborella_trichopoda.AMTR1.0.pep.all.fa.gz	amborella_trichopoda
+Arabidopsis	lyrata						v.1.0	EnsemblPlants	81972	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/arabidopsis_lyrata/pep/Arabidopsis_lyrata.v.1.0.pep.all.fa.gz	arabidopsis_lyrata
+Arabidopsis	thaliana						TAIR10	EnsemblPlants	3702	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/arabidopsis_thaliana/pep/Arabidopsis_thaliana.TAIR10.pep.all.fa.gz	arabidopsis_thaliana
+Beta	vulgaris	subsp. vulgaris 					RefBeet-1.2.2	EnsemblPlants	3555	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/beta_vulgaris/pep/Beta_vulgaris.RefBeet-1.2.2.pep.all.fa.gz	beta_vulgaris
+Brachypodium	distachyon						v1.0	EnsemblPlants	15368	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/brachypodium_distachyon/pep/Brachypodium_distachyon.v1.0.pep.all.fa.gz	brachypodium_distachyon
+Brassica	napus						AST_PRJEB5043_v1	EnsemblPlants	3708	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/brassica_napus/pep/Brassica_napus.AST_PRJEB5043_v1.pep.all.fa.gz	brassica_napus
+Brassica	oleracea						v2.1	EnsemblPlants	109376	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/brassica_oleracea/pep/Brassica_oleracea.v2.1.pep.all.fa.gz	brassica_oleracea
+Brassica	rapa						IVFCAASv1	EnsemblPlants	51351	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/brassica_rapa/pep/Brassica_rapa.IVFCAASv1.pep.all.fa.gz	brassica_rapa
+Chlamydomonas	reinhardtii						v3.1	EnsemblPlants	3055	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/chlamydomonas_reinhardtii/pep/Chlamydomonas_reinhardtii.v3.1.pep.all.fa.gz	chlamydomonas_reinhardtii
+Chondrus	crispus						ASM35022v2	EnsemblPlants	2769	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/chondrus_crispus/pep/Chondrus_crispus.ASM35022v2.pep.all.fa.gz	chondrus_crispus
+Corchorus	capsularis						CCACVL1_1.0	EnsemblPlants	210143	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/corchorus_capsularis/pep/Corchorus_capsularis.CCACVL1_1.0.pep.all.fa.gz	corchorus_capsularis
+Cucumis	sativus						ASM407v2	EnsemblPlants	3659	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/cucumis_sativus/pep/Cucumis_sativus.ASM407v2.pep.all.fa.gz	cucumis_sativus
+Cyanidioschyzon	merolae						ASM9120v1	EnsemblPlants	280699	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/cyanidioschyzon_merolae/pep/Cyanidioschyzon_merolae.ASM9120v1.pep.all.fa.gz	cyanidioschyzon_merolae
+Dioscorea	rotundata						TDr96_F1_Pseudo_Chromosome_v1.0	EnsemblPlants	55577	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/dioscorea_rotundata/pep/Dioscorea_rotundata.TDr96_F1_Pseudo_Chromosome_v1.0.pep.all.fa.gz	dioscorea_rotundata
+Galdieria	sulphuraria						ASM34128v1	EnsemblPlants	130081	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/galdieria_sulphuraria/pep/Galdieria_sulphuraria.ASM34128v1.pep.all.fa.gz	galdieria_sulphuraria
+Glycine	max						Glycine_max_v2.0	EnsemblPlants	3847	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/glycine_max/pep/Glycine_max.Glycine_max_v2.0.pep.all.fa.gz	glycine_max
+Gossypium	raimondii						Graimondii2_0	EnsemblPlants	29730	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/gossypium_raimondii/pep/Gossypium_raimondii.Graimondii2_0.pep.all.fa.gz	gossypium_raimondii
+Helianthus	annuus						HanXRQr1.0	EnsemblPlants	4232	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/helianthus_annuus/pep/Helianthus_annuus.HanXRQr1.0.pep.all.fa.gz	helianthus_annuus
+Hordeum	vulgare						IBSC v2	EnsemblPlants	112509	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/hordeum_vulgare/pep/Hordeum_vulgare.Hv_IBSC_PGSB_v2.pep.all.fa.gz	hordeum_vulgare
+Leersia	perrieri						Lperr_V1.4	EnsemblPlants	77586	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/leersia_perrieri/pep/Leersia_perrieri.Lperr_V1.4.pep.all.fa.gz	leersia_perrieri
+Lupinus	angustifolius						LupAngTanjil_v1.0	EnsemblPlants	3871	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/lupinus_angustifolius/pep/Lupinus_angustifolius.LupAngTanjil_v1.0.pep.all.fa.gz	lupinus_angustifolius
+Manihot	esculenta						Manihot_esculenta_v6	EnsemblPlants	3983	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/manihot_esculenta/pep/Manihot_esculenta.Manihot_esculenta_v6.pep.all.fa.gz	manihot_esculenta
+Medicago	truncatula						MedtrA17_4.0	EnsemblPlants	3880	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/medicago_truncatula/pep/Medicago_truncatula.MedtrA17_4.0.pep.all.fa.gz	medicago_truncatula
+Musa	acuminata						MA1	EnsemblPlants	214687	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/musa_acuminata/pep/Musa_acuminata.MA1.pep.all.fa.gz	musa_acuminata
+Nicotiana	attenuata	str. UT 					NIATTr2	EnsemblPlants	49451	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/nicotiana_attenuata/pep/Nicotiana_attenuata.NIATTr2.pep.all.fa.gz	nicotiana_attenuata
+Oryza	barthii						O.barthii_v1	EnsemblPlants	65489	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/oryza_barthii/pep/Oryza_barthii.O.barthii_v1.pep.all.fa.gz	oryza_barthii
+Oryza	brachyantha						Oryza_brachyantha.v1.4b	EnsemblPlants	4533	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/oryza_brachyantha/pep/Oryza_brachyantha.Oryza_brachyantha.v1.4b.pep.all.fa.gz	oryza_brachyantha
+Oryza	glaberrima						AGI1.1	EnsemblPlants	4538	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/oryza_glaberrima/pep/Oryza_glaberrima.AGI1.1.pep.all.fa.gz	oryza_glaberrima
+Oryza	glumaepatula						ALNU02000000	EnsemblPlants	40148	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/oryza_glumaepatula/pep/Oryza_glumaepatula.ALNU02000000.pep.all.fa.gz	oryza_glumaepatula
+Oryza	sativa	Indica					ASM465v1	EnsemblPlants	39946	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/oryza_indica/pep/Oryza_indica.ASM465v1.pep.all.fa.gz	oryza_indica
+Oryza	longistaminata						O_longistaminata_v1.0	EnsemblPlants	4528	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/oryza_longistaminata/pep/Oryza_longistaminata.O_longistaminata_v1.0.pep.all.fa.gz	oryza_longistaminata
+Oryza	meridionalis						Oryza_meridionalis_v1.3	EnsemblPlants	40149	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/oryza_meridionalis/pep/Oryza_meridionalis.Oryza_meridionalis_v1.3.pep.all.fa.gz	oryza_meridionalis
+Oryza	nivara						AWHD00000000	EnsemblPlants	4536	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/oryza_nivara/pep/Oryza_nivara.AWHD00000000.pep.all.fa.gz	oryza_nivara
+Oryza	punctata						AVCL00000000	EnsemblPlants	4537	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/oryza_punctata/pep/Oryza_punctata.AVCL00000000.pep.all.fa.gz	oryza_punctata
+Oryza	rufipogon						OR_W1943	EnsemblPlants	4529	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/oryza_rufipogon/pep/Oryza_rufipogon.OR_W1943.pep.all.fa.gz	oryza_rufipogon
+Oryza	sativa	Japonica					IRGSP-1.0	EnsemblPlants	39947	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/oryza_sativa/pep/Oryza_sativa.IRGSP-1.0.pep.all.fa.gz	oryza_sativa
+Ostreococcus	lucimarinus						ASM9206v1	EnsemblPlants	436017	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/ostreococcus_lucimarinus/pep/Ostreococcus_lucimarinus.ASM9206v1.pep.all.fa.gz	ostreococcus_lucimarinus
+Phaseolus	vulgaris						PhaVulg1_0	EnsemblPlants	3885	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/phaseolus_vulgaris/pep/Phaseolus_vulgaris.PhaVulg1_0.pep.all.fa.gz	phaseolus_vulgaris
+Physcomitrella	patens						ASM242v1	EnsemblPlants	3218	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/physcomitrella_patens/pep/Physcomitrella_patens.ASM242v1.pep.all.fa.gz	physcomitrella_patens
+Populus	trichocarpa						JGI2.0	EnsemblPlants	3694	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/populus_trichocarpa/pep/Populus_trichocarpa.JGI2.0.pep.all.fa.gz	populus_trichocarpa
+Prunus	persica						Prunus_persica_NCBIv2	EnsemblPlants	3760	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/prunus_persica/pep/Prunus_persica.Prunus_persica_NCBIv2.pep.all.fa.gz	prunus_persica
+Selaginella	moellendorffii						v1.0	EnsemblPlants	88036	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/selaginella_moellendorffii/pep/Selaginella_moellendorffii.v1.0.pep.all.fa.gz	selaginella_moellendorffii
+Setaria	italica						JGIv2.0	EnsemblPlants	4555	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/setaria_italica/pep/Setaria_italica.JGIv2.0.pep.all.fa.gz	setaria_italica
+Solanum	lycopersicum						SL2.50	EnsemblPlants	4081	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/solanum_lycopersicum/pep/Solanum_lycopersicum.SL2.50.pep.all.fa.gz	solanum_lycopersicum
+Solanum	tuberosum						SolTub_3.0	EnsemblPlants	4113	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/solanum_tuberosum/pep/Solanum_tuberosum.SolTub_3.0.pep.all.fa.gz	solanum_tuberosum
+Sorghum	bicolor						Sorghum_bicolor_NCBIv3	EnsemblPlants	4558	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/sorghum_bicolor/pep/Sorghum_bicolor.Sorghum_bicolor_NCBIv3.pep.all.fa.gz	sorghum_bicolor
+Theobroma	cacao						Theobroma_cacao_20110822	EnsemblPlants	3641	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/theobroma_cacao/pep/Theobroma_cacao.Theobroma_cacao_20110822.pep.all.fa.gz	theobroma_cacao
+Trifolium	pratense						Trpr	EnsemblPlants	57577	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/trifolium_pratense/pep/Trifolium_pratense.Trpr.pep.all.fa.gz	trifolium_pratense
+Triticum	aestivum						TGACv1	EnsemblPlants	4565	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/triticum_aestivum/pep/Triticum_aestivum.TGACv1.pep.all.fa.gz	triticum_aestivum
+Triticum	urartu						ASM34745v1	EnsemblPlants	4572	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/triticum_urartu/pep/Triticum_urartu.ASM34745v1.pep.all.fa.gz	triticum_urartu
+Vitis	vinifera						IGGP_12x	EnsemblPlants	29760	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/vitis_vinifera/pep/Vitis_vinifera.IGGP_12x.pep.all.fa.gz	vitis_vinifera
+Zea	mays						B73 RefGen_v4	EnsemblPlants	4577	ftp://ftp.ensemblgenomes.org/pub/release-38/plants/fasta/zea_mays/pep/Zea_mays.AGPv4.pep.all.fa.gz	zea_mays
