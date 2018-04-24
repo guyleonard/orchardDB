@@ -38,18 +38,13 @@ Glomerella acutata	JGI	mycocosm	TRUE	Colletotrichum acutatum CBS 112980
 Glomerella cingulata	JGI	mycocosm	TRUE	Colletotrichum gloeosporioides 23	
 Mycosphaerella fijiensis	JGI	mycocosm	TRUE	Pseudocercospora fijiensis	
 Plenodomus tracheiphilus IPT5	JGI	mycocosm	TRUE	Phoma tracheiphila IPT5	
-Ramaria acris UT-36052-T	JGI	mycocosm	FALSE	Ramaria rubella	
-Rhizopus microsporus var. microsporus ATCC52814	JGI	mycocosm	FALSE		
-Scytinostroma sp. KUC9335	JGI	mycocosm	FALSE		
-Sparassis latifolia CCMJ1100	JGI	mycocosm	FALSE		
-Terfezia boudieri S1	JGI	mycocosm	FALSE		
-Trichoderma harzianum TR274	JGI	mycocosm	FALSE		
-Asterochloris sp. Cgr/DA1phos	JGI	other	FALSE		
-Chlorella variabilis NC64A	JGI	other	FALSE		
-Ostreococcus sp. RCC809	JGI	other	FALSE		
-Ostreococcus tauri	JGI	other	FALSE		
-Schizochytrium limacinum ATCC MYA-1381	JGI	other	FALSE		
-Chlorella vulgaris C-169	JGI	phytozome	FALSE		
+Ramaria acris UT-36052-T	JGI	mycocosm	TRUE	Ramaria rubella	
+Terfezia boudieri S1	JGI	mycocosm	TRUE	Terfezia boudieri ATCC MYA-4762	
+Trichoderma harzianum TR274	JGI	mycocosm	TRUE	Trichoderma harzianum	
+Asterochloris sp. Cgr/DA1phos	JGI	other	TRUE	Asterochloris sp. Cgr/DA1pho	
+Chlorella variabilis NC64A	JGI	other	FALSE	Chlorella variabilis	JGI Added
+Ostreococcus sp. RCC809	JGI	other	TRUE	Ostreococcus sp. RCC809	JGI Added
+Ostreococcus tauri	JGI	other	TRUE	Ostreococcus tauri	JGI Added
 Acytostelium subglobosum	NCBI	EMBL	FALSE		
 Oikopleura dioica	NCBI	EMBL	FALSE		
 Zygosaccharomyces bailii CLIB 213	NCBI	EMBL	FALSE		
@@ -135,7 +130,6 @@ Odobenus rosmarus	NCBI	Refseq	FALSE
 Orcinus orca	NCBI	Refseq	FALSE		
 Orycteropus afer afer	NCBI	Refseq	FALSE		
 Panthera tigris altaica	NCBI	Refseq	FALSE		
-Paramecium bursaria Chlorella virus 1	NCBI	Refseq	FALSE		
 Physeter catodon	NCBI	Refseq	FALSE		
 Pithovirus sibericum	NCBI	Refseq	FALSE		
 Poecilia reticulata	NCBI	Refseq	FALSE		

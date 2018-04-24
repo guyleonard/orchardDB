@@ -21,6 +21,7 @@ Capsella,rubella,,,,,Phytozome,v1.0,,81985,https://genome.jgi.doe.gov/portal/Phy
 Carica,papaya,,ASGPB,,,Phytozome,v0.4,,3649,https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/585474c77ded5e78cff8c4bd/Cpapaya_113_ASGPBv0.4.protein.fa.gz
 Chenopodium,quinoa,,,,,Phytozome,v1.0,,63459,https://genome.jgi.doe.gov/portal/Cquinoa/download/_JAMO/57bcd2937ded5e0c8712b082/Cquinoa_392_v1.0.protein.fa.gz
 Chlamydomonas,reinhardtii,,,,,Phytozome,v5.5,,3055,https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/56981ce00d87851ee9727d47/Creinhardtii_281_v5.5.protein.fa.gz
+Chlorella,variabilis,NC64A,,,,Other,,,554065,https://genome.jgi.doe.gov/portal/ChlNC64A_1/download/Chlorella_NC64A.all_proteins.fasta.gz 
 Chromochloris,zofingiensis,,,,,Phytozome,v5.2.3.2,,31302,https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/591a8cd77ded5e1e49005e30/Czofingiensis_461_v5.2.3.2.protein.fa.gz
 Cicer,arietinum,,,,,Phytozome,v1.0,,3827,https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/59a4ae1a7ded5e41edd8dcdd/Carietinum_492_v1.0.protein.fa.gz
 Citrus,clementina,,,,,Phytozome,v1.0,,85681,https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/56981cce0d87851ee9727cc9/Cclementina_182_v1.0.protein.fa.gz
@@ -52,8 +53,10 @@ Miscanthus,sinensis,,,,,Phytozome,v7.1,,62337,https://genome.jgi.doe.gov/portal/
 Musa,acuminata,,,,,Phytozome,v1,,4641,https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/555a28f90d8785178e713fe0/Macuminata_304_v1.protein.fa.gz
 Olea,europaea,var. sylvestris ,,,,Phytozome,v1.0,,158386,https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/59e148fd7ded5e372ecbabed/Oeuropaea_451_v1.0.protein.fa.gz
 Oropetium,thomaeum,,,,,Phytozome,v1.0,,1148796,https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/575b4bcc7ded5e3df1ee6bf2/Othomaeum_386_v1.0.protein.fa.gz
-Oryza,sativa,,,,,Phytozome,v7_JGI,JGI,4530,https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/5693356b0d87851ee9726afc/Osativa_323_v7.0.protein.fa.gz
+Oryza,sativa,,,,,Phytozome,v7_JGI,,4530,https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/5693356b0d87851ee9726afc/Osativa_323_v7.0.protein.fa.gz
 Ostreococcus,lucimarinus,,,,,Phytozome,v2.0,,242159,https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/56981cdf0d87851ee9727d33/Olucimarinus_231_v2.0.protein.fa.gz
+Ostreococcus,sp.,,RCC809,,,Other,v2.0,,385169,https://genome.jgi.doe.gov/portal/OstRCC809_2/download/OstreococcusRCC809v2.allModels.proteins.fasta.gz
+Ostreococcus,tauri,,,,,Other,v3.0,,70448,https://genome.jgi.doe.gov/portal/Ostta4221_3/download/Ostta4221_3_GeneCatalog_proteins_20161028.aa.fasta.gz
 Panicum,virgatum,,,,,Phytozome,v1.1,,38727,https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/585474977ded5e78cff8c4a6/Pvirgatum_273_v1.1.protein.fa.gz
 Panicum,hallii,,,,,Phytozome,v3.1,,206008,https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/59cd36907ded5e2f18695aed/Phallii_495_v3.1.protein.fa.gz
 Panicum,hallii,var. hallii ,,,,Phytozome,v2.1,,1504633,https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/59cd367f7ded5e2f18695ac8/PhalliiHAL_496_v2.1.protein.fa.gz
