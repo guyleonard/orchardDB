@@ -1,0 +1,10 @@
+Genus,species,,type,Synonym,other,Origin,Version,Source,NCBI Tax ID,URL
+Bodo,saltans,,,,,,,GeneDB,75058,ftp://ftp.sanger.ac.uk/pub/pathogens/Bodo/saltans/Bodo_proteins.fasta
+Theileria,annulata,,,,,,,GeneDB,5874,ftp://ftp.sanger.ac.uk/pub/pathogens/T_annulata/TANN.GeneDB.pep
+Neospora,caninum,,,,,,,GeneDB,29176,ftp://ftp.sanger.ac.uk/pub/pathogens/Neospora/caninum/Sep2009/proteins/protein.fas
+Bursaphelenchus,xylophilus,,,,,,,GeneDB,6326,ftp://ftp.sanger.ac.uk/pub/pathogens/Bursaphelenchus/xylophilus/Assembly-v1.2/BUX.v1.2.genedb.protein.fa.gz
+Echinococcus,granulosus,,,,,,,GeneDB,6210,ftp://ftp.sanger.ac.uk/pub/pathogens/Echinococcus/granulosus/genome/Egranulosus_v3_2014_05_27.aa
+Echinococcus,multilocularis,,,,,,,GeneDB,6211,ftp://ftp.sanger.ac.uk/pub/pathogens/Echinococcus/multilocularis/genome/Emultilocularis_v3_2014_04_27.aa
+Globodera,pallida,,,,,,,GeneDB,36090,ftp://ftp.sanger.ac.uk/pub/pathogens/Globodera/pallida/Gene_Predictions/Gpal.v1.0.AA.fa
+Hymenolepis,microstoma,,,,,,,GeneDB,85433,ftp://ftp.sanger.ac.uk/pub/pathogens/Hymenolepis/microstoma/Hmicrostoma_v1_2014_05_27.aa
+Schistosoma,mansoni,,,,,,7.1,GeneDB,6183,ftp://ftp.sanger.ac.uk/pub/pathogens/Schistosoma/mansoni/v7/annotation/Sm_v7.1.pep.fa.gz
