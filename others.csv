@@ -38,19 +38,10 @@ Cercospora,beticola,,,,,,,NCBI,122368,ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF
 Phoenix,dactylifera,,,,,,,NCBI,42345,ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/413/155/GCF_000413155.1_DPV01/GCF_000413155.1_DPV01_protein.faa.gz
 Cyanophora,paradoxa,,,,,,,Rutgers,2762,http://cyanophora.rutgers.edu/cyanophora/Cyanophora_paradoxa_MAKER_gene_predictions-022111-aa.fasta
 Porphyridium,purpureum,,,,,,,Rutgers,35688,http://cyanophora.rutgers.edu/porphyridium/Porphyridium_genemodels_UPDATED.fasta
-Saccharomyces,mikatae,,IFO 1815,,,,other,saccharomycessensustricto.org,226126,http://www.saccharomycessensustricto.org/current/Smik/Smik.aa
-Saccharomyces,paradoxus,,,,,,other,saccharomycessensustricto.org,27291,http://www.saccharomycessensustricto.org/current/Spar/Spar.aa
-Schrenkiella,parvulum,,,Eutrema parvulum,,,other,thellungiella.org,98039,http://thellungiella.org/blast/db/TpV84ORFs.protein
-Monocercomonoides,sp.,,PA,,,,other,VladaHampl,,
-Blechomonas,ayalai,,,,,,other,WireduBoakyeDominic,,
-Crithidia,fasciculata,,,,,,other,WireduBoakyeDominic,,
-Cytauxzoon,felis,,,,,,other,WireduBoakyeDominic,,
-Endotrypanum,monterogeii,,,,,,other,WireduBoakyeDominic,,
-Eriocheir,sinensis,,,,,,other,WireduBoakyeDominic,,
-Glossina,morsitans,,,,,,other,WireduBoakyeDominic,,
-Saccharomyces,bayanus,,,,,,other,YGDB,,
-Saccharomyces,castellii,,,,,,other,YGDB,,
-Rhizomucor,miehei,,,,,,other,Zhengqiang_Jiang,,
+Saccharomyces,mikatae,,IFO 1815,,,,,saccharomycessensustricto.org,226126,http://www.saccharomycessensustricto.org/current/Smik/Smik.aa
+Saccharomyces,paradoxus,,,,,,,saccharomycessensustricto.org,27291,http://www.saccharomycessensustricto.org/current/Spar/Spar.aa
+Schrenkiella,parvulum,,,Eutrema parvulum,,,,thellungiella.org,98039,http://thellungiella.org/blast/db/TpV84ORFs.protein
+,,,,,,,,,,
 ,,,,,,,,,,
 ---,,,,,,,,,,
 No Access,,,,,,,,,,
