@@ -1,62 +1,58 @@
-CIDER DB	Source	Source_ID		OrchardDB v0.1	Source
-Ajellomyces dermatitidis ATCC 18188	broad	BROAD	TRUE	Blastomyces dermatitidis ATCC 18188	
-Ajellomyces dermatitidis ATCC 26199	broad	BROAD	TRUE	Blastomyces dermatitidis ATCC 26199	
-Ajellomyces dermatitidis ER-3	broad	BROAD	TRUE	Blastomyces dermatitidis ER-3	
-Ajellomyces dermatitidis SLH14081	broad	BROAD	TRUE	Blastomyces dermatitidis SLH14081	
-Candida lusitaniae	broad	broad	TRUE	Clavispora lusitaniae	
-Cryptococcus gattii R265	broad	BROAD	TRUE	Cryptococcus deuterogattii R265	
-Geomyces destructans	broad	broad	TRUE	Pseudogymnoascus destructans 20631-21	
-Microsporum gypseum	broad	broad	TRUE	Nannizzia gypsea CBS 118893	
+CIDER DB	Source	Source_ID		OrchardDB v0.1	OtherDB
+Acytostelium subglobosum	NCBI	EMBL	FALSE		*
+Entamoeba histolytica KU27	NCBI	GenBank	TRUE	Entamoeba histolytica KU27	
+Thraustotheca clavata	other	 Ian Misner	FALSE		*
+Hyphochytrium catenoides	other	Guy Leonard	FALSE		*
+Achlya hypogyna	other	Ian Misner	FALSE		*
+Blastocladiella emersonii	other	InHouse	FALSE		*
+Mastigamoeba balamuthi	other	JanTachezy	FALSE		*
+Saccoglossus kowalevskii	other	JGI	FALSE		*
+Pyropia yezoensis	other	NoriDB	FALSE		*
+Acropora digitifera	other	OISTMarine	FALSE		*
+Pinctada fucata	other	OISTMarine	FALSE		*
+Symbiodinium minutum	other	OISTMarine	FALSE		*
+Bathycoccus prasinos	other	OrcAE	FALSE		*
+Catharanthus roseus	other	OrcAE	FALSE		*
+Ectocarpus siliculosus	other	OrcAE	FALSE		*
+Paramecium biaurelia	other	ParameciumDB_Fin	FALSE		*
+Paramecium caudatum	other	ParameciumDB_Fin	FALSE		*
+Paramecium multimicronucleatum	other	ParameciumDB_Fin	FALSE		*
+Paramecium primaurelia	other	ParameciumDB_Fin	FALSE		*
+Paramecium sexaurelia	other	ParameciumDB_Fin	FALSE		*
+Phoenix dactylifera	other	qatar_cornell	FALSE		*
+Malawimonas jakobiformis	other	RomainDerelle	FALSE		*
+Calliarthron tuberculosum	other	Rutgers	FALSE		*
+Cyanophora paradoxa	other	Rutgers	FALSE		*
+Porphyridium purpureum	other	Rutgers	FALSE		*
+Saccharomyces mikatae	other	saccharomycessensust	FALSE		*
+Saccharomyces paradoxus	other	saccharomycessensust	FALSE		*
+Eutrema parvulum	other	thellungiella.org	FALSE		*
+Monocercomonoides sp. PA	other	VladaHampl	FALSE		*
+Blechomonas ayalai	other	WireduBoakyeDominic	FALSE		*
+Crithidia fasciculata	other	WireduBoakyeDominic	FALSE		*
+Cytauxzoon felis	other	WireduBoakyeDominic	FALSE		*
+Endotrypanum monterogeii	other	WireduBoakyeDominic	FALSE		*
+Eriocheir sinensis	other	WireduBoakyeDominic	FALSE		*
+Glossina morsitans	other	WireduBoakyeDominic	FALSE		*
+Saccharomyces bayanus	other	YGDB	FALSE		*
+Saccharomyces castellii	other	YGDB	FALSE		*
+Rhizomucor miehei	other	Zhengqiang_Jiang	FALSE		*
+Colletotrichum gloeosporioides Nara gc5	ensembl	fungi	FALSE		Ensembl Fungi
+Microcebus murinus	ensembl	E75	FALSE		Ensembl92
 Tetrahymena borealis	broad	broad	FALSE		http://ciliate.org/index.php/home/downloads
 Tetrahymena elliotti	broad	broad	FALSE		http://ciliate.org/index.php/home/downloads
 Tetrahymena malaccensis	broad	broad	FALSE		http://ciliate.org/index.php/home/downloads
 Wuchereria bancrofti	broad	broad	FALSE		https://parasite.wormbase.org/Wuchereria_bancrofti_prjeb536/Info/Index/
-Macropus eugenii	ensembl	E75	TRUE	Notamacropus eugenii	
-Microcebus murinus	ensembl	E75	FALSE		Ensembl92
-Tarsius syrichta	ensembl	E75	TRUE	Carlito syrichta	
-Colletotrichum gloeosporioides Nara gc5	ensembl	fungi	FALSE		Ensembl Fungi
-Glomerella graminicola	ensembl	fungi	TRUE	Colletotrichum graminicola	
-Aporpium caryae L_13461	JGI	fungi	TRUE	Elmerina caryae L-13461	
-Arthroascus fermentans 17710	JGI	fungi	TRUE	Saccharomycopsis fermentans	
-Arxula adeninivorans	JGI	fungi	TRUE	Blastobotrys adeninivorans	
-Aspergillus niger van Tieghem ATCC 13496	JGI	fungi	TRUE	Aspergillus niger ATCC 13496	
-Aspergillus phoenicis CordaThom ATCC 13157	JGI	fungi	TRUE	Aspergillus phoenicis ATCC 13157	
-Byssothecium circinans CBS 675.92	JGI	fungi	TRUE	Byssothecium circinans	
-Capronia semiimmersa CBS27337	JGI	fungi	TRUE	Phialophora americana	
-Rhodosporidium toruloides NP11	JGI	fungi	TRUE	Rhodotorula toruloides NP11	
-Sebacina vermifera ssp. bescii	JGI	fungi	TRUE	Serendipita vermifera MAFF 305830	
-Ustilaginomycotina sp. SA 807	JGI	fungi	TRUE	Violaceomyces palustris SA 807	
-Agaricostilbum hyphaenes	JGI	mycocosm	TRUE	Sterigmatomyces hyphaenes	
-Ajellomyces capsulatus NAm1	JGI	mycocosm	TRUE	Histoplasma capsulatum NAm1	
 Artomyces pyxidatus	JGI	mycocosm	FALSE	Clavispora lusitaniae	JGI Added
-Calocera cornea	JGI	mycocosm	TRUE	Calocera cornea HHB12733	
-Calocera viscosa	JGI	mycocosm	TRUE	Calocera viscosa TUFC12733	
-Candida caseinolytica NRRL Y-17796	JGI	mycocosm	TRUE	Tortispora caseinolytica NRRL Y-17796	
-Ceriporiopsis subvermispora B	JGI	mycocosm	TRUE	Gelatoporia subvermispora B	
-Clitocybe gibba IJFM A808	JGI	mycocosm	TRUE	Infundibulicybe gibba	
-Glomerella acutata	JGI	mycocosm	TRUE	Colletotrichum acutatum CBS 112980	
-Glomerella cingulata	JGI	mycocosm	TRUE	Colletotrichum gloeosporioides 23	
-Mycosphaerella fijiensis	JGI	mycocosm	TRUE	Pseudocercospora fijiensis	
-Plenodomus tracheiphilus IPT5	JGI	mycocosm	TRUE	Phoma tracheiphila IPT5	
-Ramaria acris UT-36052-T	JGI	mycocosm	TRUE	Ramaria rubella	
-Terfezia boudieri S1	JGI	mycocosm	TRUE	Terfezia boudieri ATCC MYA-4762	
-Trichoderma harzianum TR274	JGI	mycocosm	TRUE	Trichoderma harzianum	
-Asterochloris sp. Cgr/DA1phos	JGI	other	TRUE	Asterochloris sp. Cgr/DA1pho	
 Chlorella variabilis NC64A	JGI	other	FALSE	Chlorella variabilis	JGI Added
-Ostreococcus sp. RCC809	JGI	other	TRUE	Ostreococcus sp. RCC809	JGI Added
-Ostreococcus tauri	JGI	other	TRUE	Ostreococcus tauri	JGI Added
-Acytostelium subglobosum	NCBI	EMBL	FALSE		
+					
+					
 Oikopleura dioica	NCBI	EMBL	FALSE		
 Zygosaccharomyces bailii CLIB 213	NCBI	EMBL	FALSE		
 Acromyrmex echinatior	NCBI	GenBank	FALSE		
 Ascaris suum	NCBI	GenBank	FALSE		
-Babesia equi strain WA	NCBI	GenBank	FALSE		
-Catovirus CTV1	NCBI	GenBank	FALSE		
-Entamoeba histolytica KU27	NCBI	GenBank	FALSE		
 Genlisea aurea	NCBI	GenBank	FALSE		
 Harpegnathos saltator	NCBI	GenBank	FALSE		
-Heterosigma akashiwo virus 01	NCBI	GenBank	FALSE		
-Klosneuvirus KNV1	NCBI	GenBank	FALSE		
 Pararge aegeria	NCBI	GenBank	FALSE		
 Picea sitchensis	NCBI	GenBank	FALSE		
 Pseudozyma brasiliensis	NCBI	GenBank	FALSE		
@@ -150,7 +146,6 @@ Ursus maritimus	NCBI	Refseq	FALSE
 Wiseana iridescent virus	NCBI	Refseq	FALSE		
 Xenopus laevis	NCBI	Refseq	FALSE		
 Zonotrichia albicollis	NCBI	Refseq	FALSE		
-Thraustotheca clavata	other	 Ian Misner	FALSE		
 Picea abies	other	Congenie	FALSE		
 Primula veris	other	datadryad	FALSE		
 Lytechinus variegatus	other	Echinobase	FALSE		
@@ -179,15 +174,10 @@ Nanorana parkeri	other	GigaDB	FALSE
 Pantholops hodgsonii	other	GigaDB	FALSE		
 Schistosoma haematobium	other	GigaDB	FALSE		
 Vaccinium corymbosum	other	GigaDB	FALSE		
-Hyphochytrium catenoides	other	Guy Leonard	FALSE		
 Hyphochytrium catenoides old	other	Guy Leonard	FALSE		
 Castanea mollissima	other	hardwoodgenomics	FALSE		
-Achlya hypogyna	other	Ian Misner	FALSE		
 Citrullus lanatus subsp. Vulgaris	other	icugi.org	FALSE		
 Rhodosporidium toruloides MTCC 457	other	IMTECH	FALSE		
-Blastocladiella emersonii	other	InHouse	FALSE		
-Mastigamoeba balamuthi	other	JanTachezy	FALSE		
-Saccoglossus kowalevskii	other	JGI	FALSE		
 Jatropha curcas	other	kazusa.or.jp	FALSE		
 Klebsormidium flaccidum	other	KlebGP	FALSE		
 Cucumis melo L.	other	melonomics	FALSE		
@@ -196,18 +186,6 @@ Lachancea waltii	other	Nature	FALSE
 Phyllostachys edulis	other	ncgr.cn	FALSE		
 Azadirachta indica	other	neemgdb	FALSE		
 Cicer arietinum L.	other	nipgr.res.in	FALSE		
-Pyropia yezoensis	other	NoriDB	FALSE		
-Acropora digitifera	other	OISTMarine	FALSE		
-Pinctada fucata	other	OISTMarine	FALSE		
-Symbiodinium minutum	other	OISTMarine	FALSE		
-Bathycoccus prasinos	other	OrcAE	FALSE		
-Catharanthus roseus	other	OrcAE	FALSE		
-Ectocarpus siliculosus	other	OrcAE	FALSE		
-Paramecium biaurelia	other	ParameciumDB_Fin	FALSE		
-Paramecium caudatum	other	ParameciumDB_Fin	FALSE		
-Paramecium multimicronucleatum	other	ParameciumDB_Fin	FALSE		
-Paramecium primaurelia	other	ParameciumDB_Fin	FALSE		
-Paramecium sexaurelia	other	ParameciumDB_Fin	FALSE		
 Arachis duranensis	other	peanutbase	FALSE		
 Arachis ipaensis	other	peanutbase	FALSE		
 Capsicum annuum	other	PepperGenome	FALSE		
@@ -255,34 +233,15 @@ Tauraco erythrolophus	other	phybirds	FALSE
 Tinamus guttatus	other	phybirds	FALSE		
 Tyto alba	other	phybirds	FALSE		
 Lotus japonicus	other	PlantGDB	FALSE		
-Podospora anserina	other	PodosporaDB	FALSE		
-Phoenix dactylifera	other	qatar_cornell	FALSE		
-Malawimonas jakobiformis	other	RomainDerelle	FALSE		
-Calliarthron tuberculosum	other	Rutgers	FALSE		
-Cyanophora paradoxa	other	Rutgers	FALSE		
-Porphyridium purpureum	other	Rutgers	FALSE		
 Saccharomyces bayanus var. uvarum	other	saccharomycessensust	FALSE		
 Saccharomyces kudriavzevii ZP591	other	saccharomycessensust	FALSE		
-Saccharomyces mikatae	other	saccharomycessensust	FALSE		
-Saccharomyces paradoxus	other	saccharomycessensust	FALSE		
 Trichuris muris	other	Sanger	FALSE		
 Nicotiana benthamiana	other	solgenomics	FALSE		
 Solanum pimpinellifolium	other	solgenomics	FALSE		
 Taenia solium	other	TaeniaDB	FALSE		
-Eutrema parvulum	other	thellungiella.org	FALSE		
 Pinus taeda	other	UCDavis	FALSE		
-Monocercomonoides sp. PA	other	VladaHampl	FALSE		
-Blechomonas ayalai	other	WireduBoakyeDominic	FALSE		
-Crithidia fasciculata	other	WireduBoakyeDominic	FALSE		
-Cytauxzoon felis	other	WireduBoakyeDominic	FALSE		
-Endotrypanum monterogeii	other	WireduBoakyeDominic	FALSE		
-Eriocheir sinensis	other	WireduBoakyeDominic	FALSE		
-Glossina morsitans	other	WireduBoakyeDominic	FALSE		
 Nucleospora salmonis	other	WireduBoakyeDominic	FALSE		
 Oncorhynchus mykiss	other	WireduBoakyeDominic	FALSE		
-Saccharomyces bayanus	other	YGDB	FALSE		
-Saccharomyces castellii	other	YGDB	FALSE		
-Rhizomucor miehei	other	Zhengqiang_Jiang	FALSE		
 					
 					
 			FALSE	Fusarium poae	
@@ -571,7 +530,6 @@ Rhizomucor miehei	other	Zhengqiang_Jiang	FALSE
 			FALSE	Entamoeba histolytica HM-1:IMSS-A	
 			FALSE	Entamoeba histolytica HM-1:IMSS-B	
 			FALSE	Entamoeba histolytica HM-3:IMSS	
-			FALSE	Entamoeba histolytica KU27	
 			FALSE	Entamoeba moshkovskii	
 			FALSE	Enterocytozoon hepatopenaei	
 			FALSE	Eremothecium gossypii FDAG1	
@@ -1262,6 +1220,7 @@ Agaricus bisporus var. bisporus H97	JGI	mycocosm	TRUE	Agaricus bisporus var. bis
 Agaricus bisporus var. burnettii JB137-S8	JGI	mycocosm	TRUE	Agaricus bisporus var. burnettii JB137-S8	
 Agrocybe pediades AH 40210	JGI	fungi	TRUE	Agrocybe pediades AH 40210	
 Ailuropoda melanoleuca	ensembl	E75	TRUE	Ailuropoda melanoleuca	
+Ajellomyces dermatitidis ATCC 18188	broad	BROAD	TRUE	Blastomyces dermatitidis ATCC 18188	
 Albugo candida	NCBI	EMBL	TRUE	Albugo candida	
 Albugo laibachii Nc14	ensembl	protists	TRUE	Albugo laibachii Nc14	
 Allomyces macrogynus atcc 38327	broad	broad	TRUE	Allomyces macrogynus ATCC 38327	
@@ -1290,6 +1249,7 @@ Apiospora montagnei NRRL 25634	JGI	mycocosm	TRUE	Apiospora montagnei NRRL 25634
 Apis mellifera	ensembl	metazoa	TRUE	Apis mellifera	
 Aplanochytrium kerguelense PBS07	JGI	other	TRUE	Aplanochytrium kerguelense PBS07	
 Aplosporella prunicola CBS 121167	JGI	mycocosm	TRUE	Aplosporella prunicola CBS 121167	
+Aporpium caryae L_13461	JGI	fungi	TRUE	Elmerina caryae L-13461	
 Aquilegia coerulea	JGI	phytozome	TRUE	Aquilegia coerulea	
 Arabidopsis halleri	JGI	phytozome	TRUE	Arabidopsis halleri	
 Arabidopsis lyrata	JGI	phytozome	TRUE	Arabidopsis lyrata	
@@ -1409,11 +1369,14 @@ Caenorhabditis japonica	ensembl	metazoa	TRUE	Caenorhabditis japonica
 Caenorhabditis remanei	ensembl	metazoa	TRUE	Caenorhabditis remanei	
 Caliciopsis orientalis	JGI	fungi	TRUE	Caliciopsis orientalis	
 Callithrix jacchus	ensembl	E75	TRUE	Callithrix jacchus	
+Calocera cornea	JGI	mycocosm	TRUE	Calocera cornea HHB12733	
+Calocera viscosa	JGI	mycocosm	TRUE	Calocera viscosa TUFC12733	
 Caloscypha fulgens	JGI	fungi	TRUE	Caloscypha fulgens	
 Calosphaeria pulchella	JGI	fungi	TRUE	Calosphaeria pulchella	
 Candida albicans sc5314	broad	broad	TRUE	Candida albicans SC5314	
 Candida albicans WO-1	broad	broad	TRUE	Candida albicans WO-1	
 Candida arabinofermentans NRRL YB-2248	JGI	mycocosm	TRUE	Candida arabinofermentans NRRL YB-2248	
+Candida caseinolytica NRRL Y-17796	JGI	mycocosm	TRUE	Tortispora caseinolytica NRRL Y-17796	
 Candida dubliniensis CD36	NCBI	Refseq	TRUE	Candida dubliniensis CD36	
 Candida glabrata	NCBI	Refseq	TRUE	Candida glabrata	
 Candida orthopsilosis Co 90-125	other	CandidaDB	TRUE	Candida orthopsilosis Co 90-125	
@@ -1439,6 +1402,7 @@ Ceraceosorus sp. MCA 4658	JGI	fungi	TRUE	Ceraceosorus sp. MCA 4658
 Ceratobasidium sp.	JGI	fungi	TRUE	Ceratobasidium sp.	
 Cercospora zeae-maydis	JGI	mycocosm	TRUE	Cercospora zeae-maydis	
 Cerinomyces ceraceus	JGI	fungi	TRUE	Cerinomyces ceraceus	
+Ceriporiopsis subvermispora B	JGI	mycocosm	TRUE	Gelatoporia subvermispora B	
 Cerrena unicolor	JGI	mycocosm	TRUE	Cerrena unicolor	
 Chaetomium globosum	JGI	mycocosm	TRUE	Chaetomium globosum	
 Chaetomium thermophilum var. thermophilum	other	fungalgenomics.ca	TRUE	Chaetomium thermophilum var. thermophilum	
@@ -1470,6 +1434,7 @@ Cladosporium fulvum	JGI	mycocosm	TRUE	Cladosporium fulvum
 Clathrospora elynae	JGI	fungi	TRUE	Clathrospora elynae	
 Clavulina sp. PMI_390	JGI	fungi	TRUE	Clavulina sp. PMI_390	
 Climacocystis borealis	JGI	mycocosm	TRUE	Climacocystis borealis	
+Clitocybe gibba IJFM A808	JGI	mycocosm	TRUE	Infundibulicybe gibba	
 Clohesyomyces aquaticus	JGI	fungi	TRUE	Clohesyomyces aquaticus	
 Clonostachys rosea	JGI	fungi	TRUE	Clonostachys rosea	
 Coccidioides immitis H538.4	broad	broad	TRUE	Coccidioides immitis H538.4	
@@ -1677,6 +1642,7 @@ Glarea lozoyensis ATCC 20868	JGI	mycocosm	TRUE	Glarea lozoyensis ATCC 20868
 Globomyces pollinis-pini	JGI	mycocosm	TRUE	Globomyces pollinis-pini	
 Gloeopeniophorella convolvens	JGI	mycocosm	TRUE	Gloeopeniophorella convolvens	
 Gloeophyllum trabeum	JGI	mycocosm	TRUE	Gloeophyllum trabeum	
+Glomerella graminicola	ensembl	fungi	TRUE	Colletotrichum graminicola	
 Glonium stellatum	JGI	fungi	TRUE	Glonium stellatum	
 Glycine max	JGI	phytozome	TRUE	Glycine max	
 Gonapodya prolifera	JGI	mycocosm	TRUE	Gonapodya prolifera	
@@ -1798,6 +1764,7 @@ Macaca fascicularis	NCBI	Refseq	TRUE	Macaca fascicularis
 Macaca mulatta	ensembl	E75	TRUE	Macaca mulatta	
 Macrolepiota fuliginosa MF-IS2	JGI	mycocosm	TRUE	Macrolepiota fuliginosa MF-IS2	
 Macrophomina phaseolina MS6	JGI	mycocosm	TRUE	Macrophomina phaseolina MS6	
+Macropus eugenii	ensembl	E75	TRUE	Notamacropus eugenii	
 Macroventuria anomochaeta CBS 525.71	JGI	mycocosm	TRUE	Macroventuria anomochaeta CBS 525.71	
 Magnaporthe grisea	JGI	mycocosm	TRUE	Magnaporthe grisea	
 Magnaporthiopsis poae ATCC 64411	JGI	fungi	TRUE	Magnaporthiopsis poae ATCC 64411	
@@ -1933,6 +1900,8 @@ Oryza sativa	JGI	phytozome	TRUE	Oryza sativa
 Oryza sativa Indica	ensembl	plants	TRUE	Oryza sativa Indica	
 Oryzias latipes	ensembl	E75	TRUE	Oryzias latipes	
 Ostreococcus lucimarinus	JGI	phytozome	TRUE	Ostreococcus lucimarinus	
+Ostreococcus sp. RCC809	JGI	other	TRUE	Ostreococcus sp. RCC809	JGI Added
+Ostreococcus tauri	JGI	other	TRUE	Ostreococcus tauri	JGI Added
 Otolemur garnettii	ensembl	E75	TRUE	Otolemur garnettii	
 Oudemansiella mucida	JGI	fungi	TRUE	Oudemansiella mucida	
 Ovis aries	ensembl	E75	TRUE	Ovis aries	
@@ -2106,6 +2075,7 @@ Rhizopus microsporus var. microsporus	JGI	mycocosm	TRUE	Rhizopus microsporus var
 Rhizoscyphus ericae	JGI	fungi	TRUE	Rhizoscyphus ericae	
 Rhodnius prolixus	ensembl	metazoa	TRUE	Rhodnius prolixus	
 Rhodocollybia butyracea	JGI	fungi	TRUE	Rhodocollybia butyracea	
+Rhodosporidium toruloides NP11	JGI	fungi	TRUE	Rhodotorula toruloides NP11	
 Rhodotorula graminis WP1	JGI	mycocosm	TRUE	Rhodotorula graminis WP1	
 Rhodotorula minuta MCA 4210	JGI	mycocosm	TRUE	Rhodotorula minuta MCA 4210	
 Rhodotorula sp. JG-1b	JGI	fungi	TRUE	Rhodotorula sp. JG-1b	
@@ -2216,6 +2186,7 @@ Talaromyces marneffei ATCC 18224	JGI	mycocosm	TRUE	Talaromyces marneffei ATCC 18
 Talaromyces proteolyticus	JGI	mycocosm	TRUE	Talaromyces proteolyticus	
 Talaromyces stipitatus ATCC 10500	JGI	mycocosm	TRUE	Talaromyces stipitatus ATCC 10500	
 Taphrina deformans	JGI	mycocosm	TRUE	Taphrina deformans	
+Tarsius syrichta	ensembl	E75	TRUE	Carlito syrichta	
 Teratosphaeria nubilosa CBS 116005	JGI	fungi	TRUE	Teratosphaeria nubilosa CBS 116005	
 Terfezia boudieri ATCC MYA-4762	JGI	fungi	TRUE	Terfezia boudieri ATCC MYA-4762	
 Testicularia cyperi	JGI	fungi	TRUE	Testicularia cyperi	
@@ -2355,3 +2326,28 @@ Zygosaccharomyces rouxii	NCBI	Refseq	TRUE	Zygosaccharomyces rouxii
 Zymoseptoria ardabiliae STIR04_1.1.1	JGI	fungi	TRUE	Zymoseptoria ardabiliae STIR04_1.1.1	
 Zymoseptoria pseudotritici STIR04_2.2.1	JGI	fungi	TRUE	Zymoseptoria pseudotritici STIR04_2.2.1	
 Zymoseptoria tritici	ensembl	fungi	TRUE	Zymoseptoria tritici	
+Ajellomyces dermatitidis ATCC 26199	broad	BROAD	TRUE	Blastomyces dermatitidis ATCC 26199	
+Arthroascus fermentans 17710	JGI	fungi	TRUE	Saccharomycopsis fermentans	
+Glomerella acutata	JGI	mycocosm	TRUE	Colletotrichum acutatum CBS 112980	
+Sebacina vermifera ssp. bescii	JGI	fungi	TRUE	Serendipita vermifera MAFF 305830	
+Ajellomyces dermatitidis ER-3	broad	BROAD	TRUE	Blastomyces dermatitidis ER-3	
+Arxula adeninivorans	JGI	fungi	TRUE	Blastobotrys adeninivorans	
+Glomerella cingulata	JGI	mycocosm	TRUE	Colletotrichum gloeosporioides 23	
+Ustilaginomycotina sp. SA 807	JGI	fungi	TRUE	Violaceomyces palustris SA 807	
+Agaricostilbum hyphaenes	JGI	mycocosm	TRUE	Sterigmatomyces hyphaenes	
+Ajellomyces dermatitidis SLH14081	broad	BROAD	TRUE	Blastomyces dermatitidis SLH14081	
+Aspergillus niger van Tieghem ATCC 13496	JGI	fungi	TRUE	Aspergillus niger ATCC 13496	
+Mycosphaerella fijiensis	JGI	mycocosm	TRUE	Pseudocercospora fijiensis	
+Ajellomyces capsulatus NAm1	JGI	mycocosm	TRUE	Histoplasma capsulatum NAm1	
+Aspergillus phoenicis CordaThom ATCC 13157	JGI	fungi	TRUE	Aspergillus phoenicis ATCC 13157	
+Plenodomus tracheiphilus IPT5	JGI	mycocosm	TRUE	Phoma tracheiphila IPT5	
+Byssothecium circinans CBS 675.92	JGI	fungi	TRUE	Byssothecium circinans	
+Candida lusitaniae	broad	broad	TRUE	Clavispora lusitaniae	
+Ramaria acris UT-36052-T	JGI	mycocosm	TRUE	Ramaria rubella	
+Capronia semiimmersa CBS27337	JGI	fungi	TRUE	Phialophora americana	
+Cryptococcus gattii R265	broad	BROAD	TRUE	Cryptococcus deuterogattii R265	
+Terfezia boudieri S1	JGI	mycocosm	TRUE	Terfezia boudieri ATCC MYA-4762	
+Geomyces destructans	broad	broad	TRUE	Pseudogymnoascus destructans 20631-21	
+Trichoderma harzianum TR274	JGI	mycocosm	TRUE	Trichoderma harzianum	
+Asterochloris sp. Cgr/DA1phos	JGI	other	TRUE	Asterochloris sp. Cgr/DA1pho	
+Microsporum gypseum	broad	broad	TRUE	Nannizzia gypsea CBS 118893	
