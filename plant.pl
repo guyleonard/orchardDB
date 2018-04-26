@@ -722,7 +722,7 @@ sub get_genome_files {
     my @fasta_files;
     my $file_finder = sub {
         return if !-f;
-        return if !/\.fa|\.faa|\.fas|\.fasta|\.aa|\.pep|\.gz/;
+        return if !/\.fa|\.faa|\.fas|\.fasta|\.aa|\.pep|\.protein|\.prot|\.gz/;
         push @fasta_files, $File::Find::name;
     };
     find( $file_finder, $input_dir );
