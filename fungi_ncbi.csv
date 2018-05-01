@@ -1,13 +1,12 @@
 Genus	species		type	Synonym	other	Origin	Version	Source	NCBI ID	NCBI TaxID	URL	genes	proteins	type
 Absidia	glauca								GCA_900079185.1	4829		15117	14891	Scaffold
 Absidia	repens								GCA_002105175.1	90262		15151	14915	Contig
-Acidomyces	richmondensis								GCA_001572075.1	245562		10338	10338	Contig
 Acidomyces	richmondensis		BFW						GCA_001592465.1	766039		11177	11177	Scaffold
+Acidomyces	richmondensis								GCA_001572075.1	245562		10338	10338	Contig
 Acremonium	chrysogenum		ATCC 11550						GCA_000769265.1	857340		9050	8901	Scaffold
 Agaricus	bisporus	var. bisporus	H97						GCA_000300575.1	936046		10606	10448	Scaffold
 Agaricus	bisporus	var. burnettii	JB137-S8						GCA_000300555.1	597362		11455	11278	Scaffold
 Allomyces	macrogynus		ATCC 38327						GCA_000151295.1	578462		19132	19447	Scaffold
-Alternaria	alternata								GCA_001572055.1	5599		12048	12048	Contig
 Alternaria	alternata								GCA_001642055.1	5599		13577	13466	Scaffold
 Amanita	muscaria		Koide BX008						GCA_000827485.1	946122		18091	18093	Scaffold
 Amanita	thiersii		Skay4041						GCA_002554575.1	703135		10346	10346	Scaffold
@@ -37,30 +36,27 @@ Aspergillus	cristatus								GCA_001717485.1	573508		10344	10344	Scaffold
 Aspergillus	fischeri		NRRL 181						GCA_000149645.2	331117		10599	10395	Scaffold
 Aspergillus	flavus		AF70						GCA_000952835.1	1392242		13196	13196	Contig
 Aspergillus	flavus		NRRL3357						GCA_000006275.2	332952		13485	13485	Scaffold
-Aspergillus	fumigatus								GCA_002234985.1	746128		9462	9284	Contig
-Aspergillus	fumigatus								GCA_002234955.1	746128		9729	9549	Contig
+Aspergillus	fumigatus	var.	RP-2014						GCA_000731615.1	1476192		8825	8825	Scaffold
 Aspergillus	fumigatus		A1163						GCA_000150145.1	451804		10123	9929	Scaffold
 Aspergillus	fumigatus		Af293						GCA_000002655.1	330879		19832	19260	Chromosome
-Aspergillus	fumigatus	var.	RP-2014						GCA_000731615.1	1476192		8825	8825	Scaffold
 Aspergillus	fumigatus		Z5						GCA_001029325.1	1437362		9540	9540	Scaffold
+Aspergillus	fumigatus								GCA_002234955.1	746128		9729	9549	Contig
 Aspergillus	glaucus		CBS 516.65						GCA_001890805.1	1160497		11429	11255	Scaffold
 Aspergillus	kawachii		IFO 4308						GCA_000239835.2	1033177		11488	11491	Scaffold
 Aspergillus	lentulus								GCA_001445615.1	293939		9966	9680	Contig
-Aspergillus	luchuensis								GCA_001602395.1	1069201		12920	12920	Contig
 Aspergillus	luchuensis		CBS 106.47						GCA_001890685.1	1137211		13784	13503	Scaffold
-Aspergillus	nidulans		FGSC A4						GCA_000149205.2	227321		9595	9561	Scaffold
+Aspergillus	luchuensis								GCA_001602395.1	1069201		12920	12920	Contig
 Aspergillus	nidulans		FGSC A4						GCA_000011425.1	227321		10597	10534	Chromosome
-Aspergillus	niger								GCA_001515345.1	5061		10373	10373	Scaffold
-Aspergillus	niger								GCA_002211485.1	5061		11601	11190	Contig
 Aspergillus	niger		ATCC 1015						GCA_000230395.2	380704		10947	10950	Contig
+Aspergillus	niger								GCA_001515345.1	5061		10373	10373	Scaffold
 Aspergillus	nomius		NRRL 13137						GCA_001204775.1	1509407		11904	11904	Contig
 Aspergillus	novofumigatus		IBT 16806						GCA_002847465.1	1392255		11729	11534	Contig
-Aspergillus	ochraceoroseus								GCA_000986665.1	138278		7829	7829	Contig
 Aspergillus	ochraceoroseus		IBT 24754						GCA_002846915.2	1392256		9070	8917	Contig
-Aspergillus	oryzae								GCA_002007945.1	5062		11456	11456	Contig
-Aspergillus	oryzae		100-8						GCA_000691885.1	1197718		11188	11187	Contig
+Aspergillus	ochraceoroseus								GCA_000986665.1	138278		7829	7829	Contig
 Aspergillus	oryzae		3.042						GCA_000269785.2	1160506		11639	11397	Contig
+Aspergillus	oryzae		100-8						GCA_000691885.1	1197718		11188	11187	Contig
 Aspergillus	oryzae		RIB40						GCA_000184455.3	510516		12347	12074	Chromosome
+Aspergillus	oryzae								GCA_002007945.1	5062		11456	11456	Contig
 Aspergillus	parasiticus		SU-1						GCA_000956085.1	1403190		8645	8645	Contig
 Aspergillus	rambellii								GCA_000986645.1	308745		7761	7761	Contig
 Aspergillus	ruber		CBS 135680						GCA_000600275.1	1388766		10241	10066	Scaffold
@@ -69,15 +65,14 @@ Aspergillus	sydowii		CBS 593.65						GCA_001890705.1	1036612		13717	13579	Scaffo
 Aspergillus	terreus		NIH2624						GCA_000149615.1	341663		10551	10401	Scaffold
 Aspergillus	thermomutatus								GCA_002237265.1	41047		10814	10624	Contig
 Aspergillus	tubingensis		CBS 134.48						GCA_001890745.1	767770		12592	12319	Scaffold
-Aspergillus	turcosus								GCA_002234975.1	1245748		10120	9940	Contig
 Aspergillus	turcosus								GCA_002234965.1	1245748		10235	10057	Contig
 Aspergillus	udagawae								GCA_001078395.1	91492		10195	9999	Contig
 Aspergillus	versicolor		CBS 583.65						GCA_001890125.1	1036611		13364	13222	Scaffold
 Aspergillus	wentii		DTO 1.34E+11						GCA_001890725.1	1073089		12659	12435	Scaffold
 Aureobasidium	melanogenum		CBS 110374						GCA_000721775.1	1043003		10584	10584	Scaffold
 Aureobasidium	namibiae		CBS 147.97						GCA_000721765.1	1043004		10259	10259	Scaffold
-Aureobasidium	pullulans								GCA_001678115.1	5580		6411	6411	Scaffold
 Aureobasidium	pullulans		EXF-150						GCA_000721785.1	1043002		11844	11844	Scaffold
+Aureobasidium	pullulans								GCA_001678115.1	5580		6411	6411	Scaffold
 Aureobasidium	subglaciale		EXF-2481						GCA_000721755.1	1043005		10792	10792	Scaffold
 Auricularia	subglabra		TFB-10046 SS5						GCA_000265015.1	717982		23783	23555	Scaffold
 Babjeviella	inositovora		NRRL Y-12698						GCA_001661335.1	984486		6796	6399	Scaffold
@@ -86,10 +81,9 @@ Batrachochytrium	dendrobatidis		JAM81						GCA_000203795.1	684364		8700	8700	Sca
 Batrachochytrium	dendrobatidis		JEL423						GCA_000149865.1	403673		8762	9879	Scaffold
 Batrachochytrium	salamandrivorans								GCA_002006685.1	1357716		10172	12471	Scaffold
 Baudoinia	panamericana		UAMH 10762						GCA_000338955.1	717646		10549	10508	Scaffold
-Beauveria	bassiana								GCA_001682635.1	176275		10125	10210	Contig
-Beauveria	bassiana								GCA_002871155.1	176275		10841	10695	Contig
 Beauveria	bassiana		ARSEF 2860						GCA_000280675.1	655819		10364	10364	Scaffold
 Beauveria	bassiana		D1-5						GCA_000770705.1	1245745		12038	11861	Contig
+Beauveria	bassiana								GCA_002871155.1	176275		10841	10695	Contig
 Bifiguratus	adelaidae								GCA_002261195.1	1938954		5790	5719	Scaffold
 Bipolaris	maydis		ATCC 48331						GCA_000354255.1	665024		12809	12705	Scaffold
 Bipolaris	maydis		C5						GCA_000338975.1	701091		13456	13316	Scaffold
@@ -134,35 +128,11 @@ Candida	albicans		P78048						GCA_000773725.1	1094989		6440	6312	Scaffold
 Candida	albicans		P87						GCA_000774085.1	1094984		6379	6250	Scaffold
 Candida	albicans		P94015						GCA_000773755.1	1094983		6368	6241	Scaffold
 Candida	albicans		SC5314						GCA_000182965.3	237561		6263	6030	Chromosome
-Candida	albicans		SC5314						GCA_000784655.1	237561		6470	6337	Scaffold
-Candida	albicans		SC5314						GCA_000784635.1	237561		6524	6392	Scaffold
 Candida	albicans		WO-1						GCA_000149445.2	294748		6101	5752	Chromosome
 Candida	arabinofermentans		NRRL YB-2248						GCA_001661425.1	983967		5946	5830	Scaffold
-Candida	auris								GCA_003013715.1	498019		5541	5382	Scaffold
-Candida	auris								GCA_002759435.2	498019		5584	5417	Scaffold
-Candida	auris								GCA_002775015.1	498019		5714	5520	Scaffold
 Candida	auris								GCA_001189475.1	498019		7988	7461	Scaffold
-Candida	boidinii								GCA_002007995.1	5477		4991	4991	Scaffold
-Candida	boidinii								GCA_002007985.1	5477		5181	5181	Scaffold
-Candida	boidinii								GCA_002008085.1	5477		5530	5530	Scaffold
-Candida	boidinii								GCA_002008095.1	5477		5530	5530	Scaffold
-Candida	boidinii								GCA_002008065.1	5477		5534	5534	Scaffold
-Candida	boidinii								GCA_002008075.1	5477		5643	5643	Scaffold
-Candida	boidinii								GCA_002008015.1	5477		5662	5662	Scaffold
-Candida	boidinii								GCA_002008025.1	5477		5689	5689	Scaffold
 Candida	dubliniensis		CD36						GCA_000026945.1	573826		6093	5859	Complete Genome
-Candida	glabrata								GCA_900166875.1	5478		5250	5068	Contig
-Candida	glabrata								GCA_900096545.1	5478		5320	5136	Contig
-Candida	glabrata								GCA_001466535.1	5478		5191	5191	Scaffold
-Candida	glabrata								GCA_000002545.2	5478		5458	5213	Chromosome
-Candida	glabrata								GCA_001466525.1	5478		5215	5214	Scaffold
-Candida	glabrata								GCA_001466575.1	5478		5293	5293	Scaffold
-Candida	glabrata								GCA_002219185.1	5478		5543	5293	Chromosome
-Candida	glabrata								GCA_002219195.1	5478		5544	5297	Chromosome
-Candida	glabrata								GCA_001466685.1	5478		5318	5317	Scaffold
-Candida	glabrata								GCA_001466565.1	5478		5334	5331	Scaffold
 Candida	glabrata								GCA_001466635.1	5478		5985	5985	Scaffold
-Candida	intermedia								GCA_900106115.1	45354		5936	5931	Chromosome
 Candida	intermedia								GCA_900106125.1	45354		6073	6050	Chromosome
 Candida	maltosa		Xu316						GCA_000344705.1	1245528		5986	5986	Contig
 Candida	orthopsilosis		Co 90-125						GCA_000315875.1	1136231		5782	5678	Chromosome
@@ -185,15 +155,14 @@ Chaetomium	globosum		CBS 148.51						GCA_000143365.1	306901		11228	11048	Scaffol
 Chaetomium	thermophilum	var. thermophilum	DSM 1495						GCA_000221225.1	759272		7470	7165	Scaffold
 Choanephora	cucurbitarum								GCA_001683725.1	101091		11977	11977	Scaffold
 Cladophialophora	bantiana		CBS 173.52						GCA_000835475.1	1442370		12817	12762	Scaffold
-Cladophialophora	carrionii								GCA_001700775.1	86049		11240	11181	Scaffold
 Cladophialophora	carrionii		CBS 160.54						GCA_000365165.2	1279043		10428	10373	Scaffold
+Cladophialophora	carrionii								GCA_001700775.1	86049		11240	11181	Scaffold
 Cladophialophora	immunda								GCA_000835495.1	569365		12879	14033	Scaffold
-Cladophialophora	immunda								GCA_000785585.1	569365		15228	17887	Contig
 Cladophialophora	psammophila		CBS 110553						GCA_000585535.1	1182543		13421	13421	Scaffold
 Cladophialophora	yegresii		CBS 114405						GCA_000585515.1	1182544		10118	10118	Scaffold
 Claviceps	purpurea		20.1						GCA_000347355.1	1111077		8979	8823	Scaffold
-Clavispora	lusitaniae								GCA_001673695.2	36911		5740	5537	Scaffold
 Clavispora	lusitaniae		ATCC 42720						GCA_000003835.1	306902		6133	5936	Scaffold
+Clavispora	lusitaniae								GCA_001673695.2	36911		5740	5537	Scaffold
 Clohesyomyces	aquaticus								GCA_002105025.1	1231657		15869	15811	Contig
 Coccidioides	immitis		H538.4						GCA_000149815.1	396776		10723	10593	Scaffold
 Coccidioides	immitis		RMSCC 2394						GCA_000149895.1	404692		10524	10408	Scaffold
@@ -208,9 +177,8 @@ Colletotrichum	fioriniae		PJ7						GCA_000582985.1	1445577		13759	13759	Scaffold
 Colletotrichum	gloeosporioides		Cg-14						GCA_000446055.1	1237896		16538	16538	Contig
 Colletotrichum	gloeosporioides		Nara gc5						GCA_000319635.1	1213859		15440	15381	Scaffold
 Colletotrichum	graminicola		M1.001						GCA_000149035.1	645133		12387	12020	Scaffold
-Colletotrichum	higginsianum								GCA_000313795.2	80884		16511	16141	Scaffold
 Colletotrichum	higginsianum		IMI 349063						GCA_001672515.1	759273		14650	14650	Chromosome
-Colletotrichum	incanum								GCA_001855235.1	1573173		12000	11852	Scaffold
+Colletotrichum	higginsianum								GCA_000313795.2	80884		16511	16141	Scaffold
 Colletotrichum	incanum								GCA_001625285.1	1573173		12809	12809	Scaffold
 Colletotrichum	nymphaeae		SA-01						GCA_001563115.1	1460502		14404	14404	Scaffold
 Colletotrichum	orbiculare		MAFF 240422						GCA_000350065.1	1213857		13393	13347	Scaffold
@@ -226,8 +194,8 @@ Coniophora	puteana		RWD-64-598 SS2						GCA_000271625.1	741705		13896	13758	Scaf
 Coniosporium	apollinis		CBS 100218						GCA_000281105.1	1168221		9366	9308	Scaffold
 Coprinopsis	cinerea		okayama7#130						GCA_000182895.1	240176		13651	13356	Contig
 Cordyceps	brongniartii		RCEF 3172						GCA_001636735.1	1081107		9595	9595	Scaffold
-Cordyceps	confragosa								GCA_001653215.1	1105325		8126	8126	Scaffold
 Cordyceps	confragosa		RCEF 1005						GCA_001636795.1	1081108		11030	11030	Scaffold
+Cordyceps	confragosa								GCA_001653215.1	1105325		8126	8126	Scaffold
 Cordyceps	fumosorosea		ARSEF 2679						GCA_001636725.1	1081104		10061	10061	Scaffold
 Cordyceps	militaris		CM01						GCA_000225605.1	983644		9651	9651	Scaffold
 Cordyceps	sp.		RAO-2017						GCA_002591385.1	2004951		11255	11255	Scaffold
@@ -252,53 +220,40 @@ Cryptococcus	gattii		VGII R265						GCA_000149475.3	294750		6637	6472	Scaffold
 Cryptococcus	gattii		VGII Ram5						GCA_000836375.1	1296110		6613	6463	Scaffold
 Cryptococcus	gattii		VGIV IND107						GCA_000835755.1	1296105		6843	6696	Scaffold
 Cryptococcus	gattii		WM276						GCA_000185945.1	367775		6576	6561	Chromosome
-Cryptococcus	neoformans		var. grubii						GCA_002217545.1	178876		6840	6840	Scaffold
-Cryptococcus	neoformans		var. grubii						GCA_002222245.1	178876		6927	6927	Scaffold
-Cryptococcus	neoformans		var. grubii						GCA_002222025.1	178876		6941	6941	Scaffold
-Cryptococcus	neoformans		var. grubii						GCA_002222135.1	178876		6942	6942	Scaffold
-Cryptococcus	neoformans		var. grubii						GCA_002222145.1	178876		6942	6942	Scaffold
-Cryptococcus	neoformans		var. grubii						GCA_002222155.1	178876		6943	6943	Scaffold
-Cryptococcus	neoformans		var. grubii						GCA_002222165.1	178876		6947	6947	Scaffold
-Cryptococcus	neoformans		var. grubii						GCA_002222115.1	178876		6949	6949	Scaffold
-Cryptococcus	neoformans		var. grubii						GCA_002222015.1	178876		6969	6969	Scaffold
-Cryptococcus	neoformans		var. grubii						GCA_002220045.1	178876		6996	6996	Scaffold
-Cryptococcus	neoformans		var. grubii						GCA_002222095.1	178876		6996	6996	Scaffold
-Cryptococcus	neoformans		var. grubii						GCA_002215755.1	178876		7037	7037	Scaffold
-Cryptococcus	neoformans		var. grubii						GCA_002215745.1	178876		7040	7040	Scaffold
+Cryptococcus	neoformans	var. grubii	125.91						GCA_002215885.1	1230079		6939	6939	Scaffold
+Cryptococcus	neoformans	var. grubii	A1-35-8						GCA_002221985.1	1230081		7114	7114	Scaffold
+Cryptococcus	neoformans	var. grubii	A2-102-5						GCA_002222375.1	1230057		6915	6915	Scaffold
+Cryptococcus	neoformans	var. grubii	A5-35-17						GCA_002222215.1	1230080		7144	7144	Scaffold
+Cryptococcus	neoformans	var. grubii	AD1-7a						GCA_002220445.1	1230056		6878	6878	Contig
+Cryptococcus	neoformans	var. grubii	AD1-83a						GCA_002215765.1	1230065		6969	6969	Scaffold
+Cryptococcus	neoformans	var. grubii	AD2-60a						GCA_002215775.1	1230059		6862	6862	Scaffold
+Cryptococcus	neoformans	var. grubii	Br795						GCA_002222225.1	1230061		6945	6945	Contig
+Cryptococcus	neoformans	var. grubii	Bt1						GCA_002215705.1	1230073		6907	6907	Scaffold
+Cryptococcus	neoformans	var. grubii	Bt120						GCA_002222465.1	1230070		6906	6906	Scaffold
+Cryptococcus	neoformans	var. grubii	Bt15						GCA_002222335.1	1230071		6917	6917	Scaffold
+Cryptococcus	neoformans	var. grubii	Bt63						GCA_002234625.1	1230075		6914	6914	Scaffold
+Cryptococcus	neoformans	var. grubii	Bt85						GCA_002215835.1	1230076		6900	6900	Scaffold
+Cryptococcus	neoformans	var. grubii	C23						GCA_002215825.1	1230055		6932	6932	Scaffold
+Cryptococcus	neoformans	var. grubii	c45						GCA_002215855.1	1230068		6900	6900	Scaffold
+Cryptococcus	neoformans	var. grubii	c8						GCA_002222405.1	1230063		6961	6961	Scaffold
+Cryptococcus	neoformans	var. grubii	CHC193						GCA_002222295.1	1230064		6960	6960	Contig
+Cryptococcus	neoformans	var. grubii	D17-1						GCA_002222255.1	1230058		6895	6895	Scaffold
+Cryptococcus	neoformans	var. grubii	Gb118						GCA_002224005.1	1230060		6908	6908	Scaffold
+Cryptococcus	neoformans	var. grubii	MW-RSA1955						GCA_002222455.1	1230066		6940	6940	Contig
+Cryptococcus	neoformans	var. grubii	MW-RSA36						GCA_002222395.1	1230062		6911	6911	Scaffold
+Cryptococcus	neoformans	var. grubii	MW-RSA852						GCA_002220035.1	1230069		6909	6909	Contig
+Cryptococcus	neoformans	var. grubii	Th84						GCA_002222315.1	1230067		6941	6941	Scaffold
+Cryptococcus	neoformans	var. grubii	Tu259-1						GCA_002222325.1	1230072		6942	6942	Scaffold
+Cryptococcus	neoformans	var. grubii	Tu401-1						GCA_002222475.1	1230077		6862	6862	Scaffold
+Cryptococcus	neoformans	var. grubii	Ze90-1						GCA_002222385.1	1230078		6912	6912	Scaffold
 Cryptococcus	neoformans		var. grubii						GCA_002216725.1	178876		6967	7818	Chromosome
-Cryptococcus	neoformans		var. grubii 125.91						GCA_002215885.1	1230079		6939	6939	Scaffold
-Cryptococcus	neoformans		var. grubii A1-35-8						GCA_002221985.1	1230081		7114	7114	Scaffold
-Cryptococcus	neoformans		var. grubii A2-102-5						GCA_002222375.1	1230057		6915	6915	Scaffold
-Cryptococcus	neoformans		var. grubii A5-35-17						GCA_002222215.1	1230080		7144	7144	Scaffold
-Cryptococcus	neoformans		var. grubii AD1-7a						GCA_002220445.1	1230056		6878	6878	Contig
-Cryptococcus	neoformans		var. grubii AD1-83a						GCA_002215765.1	1230065		6969	6969	Scaffold
-Cryptococcus	neoformans		var. grubii AD2-60a						GCA_002215775.1	1230059		6862	6862	Scaffold
-Cryptococcus	neoformans		var. grubii Br795						GCA_002222225.1	1230061		6945	6945	Contig
-Cryptococcus	neoformans		var. grubii Bt1						GCA_002215705.1	1230073		6907	6907	Scaffold
-Cryptococcus	neoformans		var. grubii Bt120						GCA_002222465.1	1230070		6906	6906	Scaffold
-Cryptococcus	neoformans		var. grubii Bt15						GCA_002222335.1	1230071		6917	6917	Scaffold
-Cryptococcus	neoformans		var. grubii Bt63						GCA_002234625.1	1230075		6914	6914	Scaffold
-Cryptococcus	neoformans		var. grubii Bt85						GCA_002215835.1	1230076		6900	6900	Scaffold
-Cryptococcus	neoformans		var. grubii C23						GCA_002215825.1	1230055		6932	6932	Scaffold
-Cryptococcus	neoformans		var. grubii c45						GCA_002215855.1	1230068		6900	6900	Scaffold
-Cryptococcus	neoformans		var. grubii c8						GCA_002222405.1	1230063		6961	6961	Scaffold
-Cryptococcus	neoformans		var. grubii CHC193						GCA_002222295.1	1230064		6960	6960	Contig
-Cryptococcus	neoformans		var. grubii D17-1						GCA_002222255.1	1230058		6895	6895	Scaffold
-Cryptococcus	neoformans		var. grubii Gb118						GCA_002224005.1	1230060		6908	6908	Scaffold
 Cryptococcus	neoformans		var. grubii H99						GCA_000149245.3	235443		8338	7826	Chromosome
-Cryptococcus	neoformans		var. grubii MW-RSA1955						GCA_002222455.1	1230066		6940	6940	Contig
-Cryptococcus	neoformans		var. grubii MW-RSA36						GCA_002222395.1	1230062		6911	6911	Scaffold
-Cryptococcus	neoformans		var. grubii MW-RSA852						GCA_002220035.1	1230069		6909	6909	Contig
-Cryptococcus	neoformans		var. grubii Th84						GCA_002222315.1	1230067		6941	6941	Scaffold
-Cryptococcus	neoformans		var. grubii Tu259-1						GCA_002222325.1	1230072		6942	6942	Scaffold
-Cryptococcus	neoformans		var. grubii Tu401-1						GCA_002222475.1	1230077		6862	6862	Scaffold
-Cryptococcus	neoformans		var. grubii Ze90-1						GCA_002222385.1	1230078		6912	6912	Scaffold
 Cryptococcus	neoformans		var. neoformans B-3501A						GCA_000149385.1	283643		13218	13156	Chromosome
 Cryptococcus	neoformans		var. neoformans JEC21						GCA_000091045.1	214684		6617	6475	Chromosome
 Cutaneotrichosporon	oleaginosum								GCA_001027345.1	879819		8602	8320	Scaffold
 Cyberlindnera	fabianii								GCA_001983305.1	36022		5509	5509	Contig
-Cyberlindnera	jadinii								GCA_001245095.1	4903		5566	5057	Scaffold
 Cyberlindnera	jadinii		NRRL Y-1542						GCA_001661405.1	983966		6184	6032	Scaffold
+Cyberlindnera	jadinii								GCA_001245095.1	4903		5566	5057	Scaffold
 Cylindrobasidium	torrendii		FP15055 ss-10						GCA_000934385.1	1314674		14242	13936	Scaffold
 Cyphellophora	europaea		CBS 101466						GCA_000365145.2	1220924		11153	11094	Scaffold
 Dacryopinax	primogenitus								GCA_000292625.1	1858805		10301	10240	Scaffold
@@ -311,21 +266,19 @@ Diaporthe	ampelina								GCA_001006365.1	1214573		10704	10704	Scaffold
 Dichomitus	squalens		LYAD-421 SS1						GCA_000275845.1	732165		12509	12287	Scaffold
 Diplocarpon	rosae								GCA_002317995.1	946125		13761	13761	Scaffold
 Diplodia	corticola								GCA_001883845.1	236234		10839	10839	Scaffold
-Diplodia	seriata								GCA_001975905.1	420778		8050	8050	Scaffold
 Diplodia	seriata								GCA_001006355.1	420778		9343	9343	Scaffold
 Dothistroma	septosporum		NZE10						GCA_000340195.1	675120		12456	12415	Scaffold
 Drechmeria	coniospora								GCA_001625195.1	98403		8428	8236	Chromosome
-Drechmeria	coniospora								GCA_001618945.1	98403		8661	8661	Scaffold
 Drechslerella	stenobrocha		248						GCA_000525045.1	1043628		5597	5597	Scaffold
 Edhazardia	aedis		USNM 41457						GCA_000230595.3	1003232		4256	4190	Scaffold
 Elaphomyces	granulatus								GCA_002240705.1	519963		7171	7178	Scaffold
 Elsinoe	australis								GCA_003013795.1	40998		9239	9223	Scaffold
 Elsinoe	sp.		CQ-2017a						GCA_002895985.1	1983410		8281	8256	Scaffold
 Emergomyces	pasteuriana		Ep9510						GCA_001883825.1	1447872		9064	8950	Scaffold
-Emmonsia	crescens								GCA_002572855.1	73230		8908	8908	Scaffold
 Emmonsia	crescens		UAMH 3008						GCA_001008285.1	1247875		9558	9444	Scaffold
-Emmonsia	parva								GCA_002572885.1	73231		8201	8201	Scaffold
+Emmonsia	crescens								GCA_002572855.1	73230		8908	8908	Scaffold
 Emmonsia	parva		UAMH 139						GCA_001014755.1	1246674		8695	8562	Scaffold
+Emmonsia	parva								GCA_002572885.1	73231		8201	8201	Scaffold
 Emmonsia	sp.		CAC-2015a						GCA_001660665.1	1658172		8857	8769	Scaffold
 Encephalitozoon	cuniculi		EcunIII-L						GCA_001078035.1	1355160		1896	1834	Contig
 Encephalitozoon	cuniculi		GB-M1						GCA_000091225.1	284813		2029	1996	Chromosome
@@ -359,34 +312,21 @@ Fomitiporia	mediterranea		MF3/22						GCA_000271605.1	694068		11419	11338	Scaffo
 Fomitopsis	pinicola		FP-58527 SS1						GCA_000344655.2	743788		13993	13852	Scaffold
 Fonsecaea	erecta								GCA_001651985.1	1367422		12099	12090	Scaffold
 Fonsecaea	monophora								GCA_001642475.1	254056		11999	11984	Contig
-Fonsecaea	multimorphosa								GCA_001646985.1	979981		11815	11804	Scaffold
 Fonsecaea	multimorphosa		CBS 102226						GCA_000836435.1	1442371		12405	12369	Scaffold
+Fonsecaea	multimorphosa								GCA_001646985.1	979981		11815	11804	Scaffold
 Fonsecaea	nubica								GCA_001646965.1	856822		11696	11681	Scaffold
 Fonsecaea	pedrosoi		CBS 271.37						GCA_000835455.1	1442368		12573	12527	Scaffold
 fungal	sp.		No.11243						GCA_000836255.1	1603295		9730	9693	Scaffold
 fungal	sp.		No.14919						GCA_002003505.1	1813822		14606	14342	Scaffold
 Fusarium	avenaceum								GCA_000769215.1	40199		13217	13092	Scaffold
 Fusarium	culmorum								GCA_003033665.1	5516		12378	12378	Contig
-Fusarium	fujikuroi								GCA_001023035.1	5127		15054	14799	Scaffold
-Fusarium	fujikuroi								GCA_001023045.1	5127		15077	14830	Scaffold
-Fusarium	fujikuroi								GCA_001023065.1	5127		15213	15182	Scaffold
-Fusarium	fujikuroi								GCA_900096615.1	5127		15694	15371	Scaffold
-Fusarium	fujikuroi								GCA_900096625.1	5127		16056	15725	Scaffold
-Fusarium	fujikuroi								GCA_900096505.1	5127		16170	15852	Scaffold
-Fusarium	fujikuroi								GCA_900096635.1	5127		16244	15904	Scaffold
-Fusarium	fujikuroi								GCA_900096645.1	5127		16260	15920	Scaffold
-Fusarium	fujikuroi								GCA_900096605.1	5127		16268	15940	Contig
-Fusarium	fujikuroi								GCA_900096685.1	5127		16395	16054	Scaffold
-Fusarium	fujikuroi								GCA_900096705.1	5127		16413	16088	Scaffold
 Fusarium	fujikuroi		IMI 58289						GCA_900079805.1	1279085		14943	14810	Chromosome
-Fusarium	graminearum								GCA_002352725.1	5518		11827	11827	Scaffold
-Fusarium	graminearum								GCA_000599445.1	5518		13355	13355	Chromosome
-Fusarium	graminearum								GCA_900044135.1	5518		28291	14143	Chromosome
+Fusarium	fujikuroi								GCA_900096705.1	5127		16413	16088	Scaffold
 Fusarium	graminearum		PH-1						GCA_000240135.3	229533		13701	13313	Chromosome
+Fusarium	graminearum								GCA_900044135.1	5518		28291	14143	Chromosome
 Fusarium	langsethiae								GCA_001292635.1	179993		12183	11940	Scaffold
 Fusarium	mangiferae								GCA_900044065.1	192010		16146	15804	Scaffold
 Fusarium	nygamai								GCA_002894225.1	42673		16019	16019	Scaffold
-Fusarium	oxysporum								GCA_900096695.1	5507		17339	16976	Scaffold
 Fusarium	oxysporum	f. sp. conglutinans	race 2 54008						GCA_000260215.2	1089457		20232	26246	Scaffold
 Fusarium	oxysporum	f. sp. cubense	race 1						GCA_000350345.1	1229664		15623	15438	Scaffold
 Fusarium	oxysporum	f. sp. cubense	race 4						GCA_000350365.1	1229665		14595	14459	Scaffold
@@ -402,9 +342,10 @@ Fusarium	oxysporum	f. sp. vasinfectum	25433						GCA_000260175.2	1089449		19271	
 Fusarium	oxysporum		Fo47						GCA_000271705.2	660027		18553	24818	Scaffold
 Fusarium	oxysporum		Fo5176						GCA_000222805.1	660025		17817	17817	Contig
 Fusarium	oxysporum		FOSC 3-a						GCA_000271745.2	909455		17642	23735	Scaffold
+Fusarium	oxysporum								GCA_900096695.1	5507		17339	16976	Scaffold
 Fusarium	poae								GCA_001675295.1	36050		14816	14740	Scaffold
-Fusarium	proliferatum								GCA_900029915.1	948311		15602	15254	Scaffold
 Fusarium	proliferatum		ET1						GCA_900067095.1	1227346		16509	16143	Scaffold
+Fusarium	proliferatum								GCA_900029915.1	948311		15602	15254	Scaffold
 Fusarium	pseudograminearum		CS3096						GCA_000303195.2	1028729		12397	12397	Chromosome
 Fusarium	verticillioides		7600						GCA_000149555.1	334819		16278	20574	Chromosome
 Gaeumannomyces	tritici		R3-111a-1						GCA_000145635.1	644352		14743	14650	Scaffold
@@ -423,12 +364,11 @@ Gymnopus	luxurians		FD-317 M1						GCA_000827265.1	944289		22395	22046	Scaffold
 Hanseniaspora	guilliermondii								GCA_900119595.1	56406		4147	4070	Scaffold
 Hanseniaspora	opuntiae								GCA_001749795.1	211096		4167	4167	Scaffold
 Hanseniaspora	osmophila								GCA_001747045.1	56408		4657	4657	Scaffold
-Hanseniaspora	uvarum								GCA_001747055.1	29833		4061	4061	Scaffold
 Hanseniaspora	uvarum		DSM 2768						GCA_000968475.1	1246595		3169	3043	Contig
+Hanseniaspora	uvarum								GCA_001747055.1	29833		4061	4061	Scaffold
 Hanseniaspora	valbyensis		NRRL Y-1626						GCA_001664025.1	766949		4869	4772	Scaffold
 Hebeloma	cylindrosporum		h7						GCA_000827355.1	686832		15525	15376	Scaffold
 Helicocarpus	griseus		UAMH5409						GCA_002573585.1	1447875		10224	10224	Scaffold
-Hepatospora	eriocheir								GCA_002087885.1	1081669		2716	2691	Scaffold
 Hepatospora	eriocheir								GCA_002087875.1	1081669		3058	3052	Contig
 Hesseltinella	vesiculosa								GCA_002104935.1	101127		11243	11139	Contig
 Heterobasidion	irregulare		TC 32-1						GCA_000320585.2	747525		13272	13275	Scaffold
@@ -452,15 +392,13 @@ Kazachstania	naganishii		CBS 8797						GCA_000348985.1	1071383		5486	5319	Chromo
 Kazachstania	saulgeensis								GCA_900180425.1	1789683		5869	5329	Scaffold
 Kluyveromyces	dobzhanskii		CBS 2104						GCA_000820885.1	1427455		4964	4957	Contig
 Kluyveromyces	lactis								GCA_000002515.1	28985		5335	5085	Complete Genome
-Kluyveromyces	marxianus								GCA_001417835.1	4911		5112	4912	Complete Genome
 Kluyveromyces	marxianus		DMKU3-1042						GCA_001417885.1	1003335		5151	4952	Complete Genome
+Kluyveromyces	marxianus								GCA_001417835.1	4911		5112	4912	Complete Genome
 Kockovaella	imperatae								GCA_002102565.1	4999		7428	7392	Contig
 Komagataella	pastoris								GCA_001708105.1	4922		5274	5057	Chromosome
-Komagataella	phaffii								GCA_001708085.1	460519		5268	5057	Chromosome
 Komagataella	phaffii		CBS 7435						GCA_900235035.1	981350		5427	5282	Complete Genome
-Komagataella	phaffii		CBS 7435						GCA_000223565.1	981350		5527	5291	Chromosome
-Komagataella	phaffii		GS115						GCA_000027005.1	644223		5040	5040	Chromosome
 Komagataella	phaffii		GS115						GCA_001746955.1	644223		5266	5064	Chromosome
+Komagataella	phaffii								GCA_001708085.1	460519		5268	5057	Chromosome
 Kuraishia	capsulata		CBS 1993						GCA_000576695.1	1382522		5989	5989	Scaffold
 Kwoniella	bestiolae		CBS 10118						GCA_000512585.2	1296100		9270	9133	Scaffold
 Kwoniella	dejecticola		CBS 10117						GCA_000512565.2	1296121		8723	8602	Scaffold
@@ -503,7 +441,6 @@ Magnaporthiopsis	poae		ATCC 64411						GCA_000193285.1	644358		12363	12329	Scaff
 Malassezia	globosa		CBS 7966						GCA_000181695.1	425265		4286	4286	Contig
 Malassezia	pachydermatis								GCA_001278385.1	77020		4202	4202	Scaffold
 Malassezia	sp.		JP-2017						GCA_002818225.1	2020962		3816	3791	Scaffold
-Malassezia	sympodialis		ATCC 42132						GCA_000349305.2	1230383		3507	3318	Scaffold
 Malassezia	sympodialis		ATCC 42132						GCA_900149145.1	1230383		4663	4502	Complete Genome
 Marssonina	brunnea	f. sp. 'multigermtubi'	MB_m1						GCA_000298775.1	1072389		10027	10027	Scaffold
 Marssonina	coronariae								GCA_002204255.1	503106		9563	9355	Scaffold
@@ -512,16 +449,16 @@ Meliniomyces	bicolor		E						GCA_002865645.1	1095630		18653	18617	Scaffold
 Meliniomyces	variabilis		F						GCA_002865655.1	1149755		20432	20386	Scaffold
 Metarhizium	acridum		CQMa 102						GCA_000187405.1	655827		9974	9849	Scaffold
 Metarhizium	album		ARSEF 1941						GCA_000804445.1	1081103		8472	8472	Scaffold
-Metarhizium	anisopliae								GCA_000739145.1	5530		10958	10795	Contig
 Metarhizium	anisopliae		ARSEF 549						GCA_000814975.1	1276135		10891	10891	Scaffold
 Metarhizium	anisopliae		BRIP 53284						GCA_000426985.1	1291519		11456	11456	Scaffold
 Metarhizium	anisopliae		BRIP 53293						GCA_000426965.1	1291518		11415	11415	Scaffold
+Metarhizium	anisopliae								GCA_000739145.1	5530		10958	10795	Contig
 Metarhizium	brunneum		ARSEF 3297						GCA_000814965.1	1276141		10689	10689	Scaffold
 Metarhizium	guizhouense		ARSEF 977						GCA_000814955.1	1276136		11787	11787	Scaffold
 Metarhizium	majus		ARSEF 297						GCA_000814945.1	1276143		11535	11535	Scaffold
 Metarhizium	rileyi		RCEF 4871						GCA_001636745.1	1081105		8764	8764	Scaffold
-Metarhizium	robertsii								GCA_000591435.1	568076		12476	12384	Scaffold
 Metarhizium	robertsii		ARSEF 23						GCA_000187425.2	655844		11688	11688	Scaffold
+Metarhizium	robertsii								GCA_000591435.1	568076		12476	12384	Scaffold
 Metschnikowia	bicuspidata	var. bicuspidata	NRRL YB-4993						GCA_001664035.1	869754		6090	5838	Scaffold
 Meyerozyma	guilliermondii		ATCC 6260						GCA_000149425.1	294746		6062	5920	Scaffold
 Microbotryum	intermedium								GCA_900096595.1	269621		8142	8142	Contig
@@ -530,15 +467,14 @@ Microdochium	bolleyi								GCA_001566295.1	196109		13338	13165	Scaffold
 Microsporum	canis		CBS 113480						GCA_000151145.1	554155		8847	8765	Scaffold
 Millerozyma	farinosa		CBS 7064						GCA_000315895.1	559304		11746	11175	Chromosome
 Mitosporidium	daphniae								GCA_000760515.1	1485682		3330	3330	Contig
-Mixia	osmundae		IAM 14324						GCA_000241205.2	764103		6726	6726	Contig
 Mixia	osmundae		IAM 14324						GCA_000708205.1	764103		6858	6858	Scaffold
 Moelleriella	libera		RCEF 2490						GCA_001636675.1	1081109		8461	8461	Scaffold
-Moesziomyces	antarcticus								GCA_000747765.1	84753		6879	6766	Scaffold
 Moesziomyces	antarcticus		T-34						GCA_000334475.1	1151754		6560	6640	Scaffold
+Moesziomyces	antarcticus								GCA_000747765.1	84753		6879	6766	Scaffold
 Moesziomyces	aphidis		DSM 70725						GCA_000517465.1	1391700		6011	6011	Scaffold
 Moniliophthora	perniciosa		FA553						GCA_000183025.1	554373		13973	13560	Scaffold
-Moniliophthora	roreri								GCA_001466705.1	221103		20131	20131	Scaffold
 Moniliophthora	roreri		MCA 2997						GCA_000488995.1	1381753		17910	17910	Contig
+Moniliophthora	roreri								GCA_001466705.1	221103		20131	20131	Scaffold
 Mortierella	elongata		AG-77						GCA_001651415.1	1314771		15211	14961	Scaffold
 Mortierella	verticillata		NRRL 6337						GCA_000739165.1	1069443		12774	12595	Scaffold
 Mucor	ambiguus								GCA_000950595.1	91626		11651	11343	Scaffold
@@ -563,19 +499,17 @@ Neofusicoccum	parvum		UCRNP2						GCA_000385595.1	1287680		10366	10366	Scaffold
 Neolecta	irregularis		DAH-3						GCA_001929475.1	1198029		5531	5579	Scaffold
 Neolentinus	lepideus		HHB14362 ss-1						GCA_001632425.1	1314782		13310	13157	Scaffold
 Neonectria	ditissima								GCA_001306435.1	78410		12711	12685	Contig
-Neurospora	crassa								GCA_000786625.1	5141		12368	11968	Scaffold
 Neurospora	crassa		OR74A						GCA_000182925.2	367110		10455	10812	Chromosome
-Neurospora	tetrasperma		FGSC 2508						GCA_000213175.1	510951		10380	10380	Scaffold
+Neurospora	crassa								GCA_000786625.1	5141		12368	11968	Scaffold
 Neurospora	tetrasperma		FGSC 2509						GCA_000213195.1	510952		11186	11186	Scaffold
 Nosema	apis		BRL 1						GCA_000447185.1	1037528		2764	2764	Scaffold
 Nosema	bombycis		CQ1						GCA_000383075.1	578461		4468	4468	Scaffold
-Nosema	ceranae								GCA_000988165.1	40302		3264	3209	Contig
 Nosema	ceranae		BRL01						GCA_000182985.1	578460		2376	2060	Contig
+Nosema	ceranae								GCA_000988165.1	40302		3264	3209	Contig
 Obba	rivulosa								GCA_001687445.1	1052685		13374	13198	Scaffold
 Ogataea	parapolymorpha		DL-1						GCA_000187245.3	871575		10813	10650	Chromosome
 Ogataea	polymorpha								GCA_001664045.1	460523		5251	5173	Contig
 Oidiodendron	maius		Zn						GCA_000827325.1	913774		16776	16702	Scaffold
-Ophiocordyceps	australis								GCA_002591405.1	1399860		7992	7992	Scaffold
 Ophiocordyceps	australis								GCA_002591415.1	1399860		8171	8171	Scaffold
 Ophiocordyceps	camponoti-rufipedis								GCA_002591395.1	2004952		7618	7618	Scaffold
 Ophiocordyceps	sinensis		CO18						GCA_000448365.1	911162		6972	6972	Scaffold
@@ -583,10 +517,9 @@ Ophiocordyceps	unilateralis								GCA_001272575.2	268505		8577	8577	Scaffold
 Ophiostoma	piceae		UAMH 11346						GCA_000410735.1	1262450		8884	8884	Scaffold
 Ordospora	colligata		OC4						GCA_000803265.1	1354746		1877	1820	Contig
 Pachysolen	tannophilus		NRRL Y-2460						GCA_001661245.1	669874		5797	5666	Scaffold
-Paracoccidioides	brasiliensis								GCA_001713645.1	121759		8186	8070	Scaffold
-Paracoccidioides	brasiliensis								GCA_001713695.1	121759		8438	8324	Scaffold
 Paracoccidioides	brasiliensis		Pb03						GCA_000150475.2	482561		8548	8427	Scaffold
 Paracoccidioides	brasiliensis		Pb18						GCA_000150735.2	502780		8522	8390	Scaffold
+Paracoccidioides	brasiliensis								GCA_001713695.1	121759		8438	8324	Scaffold
 Paracoccidioides	lutzii		Pb01						GCA_000150705.2	502779		8953	8826	Scaffold
 Paramicrosporidium	saccamoebae								GCA_002794465.1	1246581		3791	3766	Scaffold
 Paraphaeosphaeria	sporulosa								GCA_001642045.1	1460663		14844	14734	Scaffold
@@ -597,7 +530,6 @@ Paxillus	rubicundulus		Ve08.2h10						GCA_000827395.1	930991		22354	22036	Scaffo
 Penicilliopsis	zonata		CBS 506.65						GCA_001890105.1	1073090		10027	9870	Scaffold
 Penicillium	antarcticum								GCA_002072345.1	416450		11514	11514	Scaffold
 Penicillium	arizonense								GCA_001773325.1	1835702		12200	12200	Scaffold
-Penicillium	brasilianum								GCA_002016555.1	104259		10521	10352	Scaffold
 Penicillium	brasilianum								GCA_001048715.1	104259		11432	11943	Scaffold
 Penicillium	camemberti		FM 13						GCA_000513335.1	1429867		14511	14418	Scaffold
 Penicillium	chrysogenum								GCA_000710275.1	5076		11460	11198	Chromosome
@@ -605,8 +537,6 @@ Penicillium	coprophilum								GCA_002072405.1	36646		8999	8999	Scaffold
 Penicillium	decumbens								GCA_002072245.1	69771		7149	7149	Scaffold
 Penicillium	digitatum		Pd1						GCA_000315645.2	1170230		8962	8961	Scaffold
 Penicillium	digitatum		PHI26						GCA_000315665.1	1170229		9134	9133	Scaffold
-Penicillium	expansum								GCA_000769755.1	27334		10663	10663	Contig
-Penicillium	expansum								GCA_000769735.1	27334		11023	11023	Contig
 Penicillium	expansum								GCA_000769745.1	27334		11060	11060	Contig
 Penicillium	flavigenum								GCA_002072365.1	254877		10994	10994	Scaffold
 Penicillium	freii								GCA_001513925.1	48697		11739	11739	Scaffold
@@ -614,7 +544,6 @@ Penicillium	griseofulvum								GCA_001561935.1	5078		9630	9630	Contig
 Penicillium	italicum								GCA_000769765.1	40296		9996	9996	Contig
 Penicillium	nalgiovense								GCA_002072425.1	60175		11853	11853	Scaffold
 Penicillium	nordicum								GCA_001278595.1	229535		12959	12959	Scaffold
-Penicillium	occitanis								GCA_002382855.1	290292		11231	11231	Contig
 Penicillium	occitanis								GCA_002382835.1	290292		11267	11267	Contig
 Penicillium	oxalicum		114-2						GCA_000346795.1	933388		10013	9979	Scaffold
 Penicillium	polonicum								GCA_002072265.1	60169		10694	10694	Scaffold
@@ -638,11 +567,9 @@ Phialophora	attae								GCA_001299255.1	1664694		11848	11848	Contig
 Phlebia	centrifuga								GCA_001913855.2	98765		13889	13684	Contig
 Phlebiopsis	gigantea		11061_1 CR5-6						GCA_000832265.1	745531		12014	11855	Scaffold
 Phycomyces	blakesleeanus		NRRL 1555(-)						GCA_001638985.2	763407		16850	16543	Scaffold
-Pichia	kudriavzevii								GCA_002166775.1	4909		5130	4949	Contig
-Pichia	kudriavzevii								GCA_001983325.1	4909		5385	5385	Scaffold
 Pichia	kudriavzevii								GCA_000764455.1	4909		7107	7107	Scaffold
-Pichia	membranifaciens								GCA_001950575.1	4926		4319	4163	Contig
 Pichia	membranifaciens		NRRL Y-2026						GCA_001661235.1	763406		5701	5542	Scaffold
+Pichia	membranifaciens								GCA_001950575.1	4926		4319	4163	Contig
 Piloderma	croceum		F 1598						GCA_000827315.1	765440		21607	21524	Scaffold
 Piromyces	finnis								GCA_002104945.1	1754191		11314	10978	Contig
 Piromyces	sp.		E2						GCA_002157105.1	73868		14612	14612	Scaffold
@@ -651,8 +578,8 @@ Pisolithus	tinctorius		Marx 270						GCA_000827335.1	870435		22845	22653	Scaffol
 Pleurotus	ostreatus		PC15						GCA_000697685.1	1137138		12460	12296	Scaffold
 Plicaturopsis	crispa		FD-325 SS-3						GCA_000827205.1	944288		13729	13617	Scaffold
 Pneumocystis	carinii		B80						GCA_001477545.1	1408658		3695	3646	Contig
-Pneumocystis	jirovecii								GCA_000333975.2	42068		3754	3537	Contig
 Pneumocystis	jirovecii		RU7						GCA_001477535.1	1408657		3811	3761	Contig
+Pneumocystis	jirovecii								GCA_000333975.2	42068		3754	3537	Contig
 Pneumocystis	murina		B123						GCA_000349005.2	1069680		3675	3623	Contig
 Pochonia	chlamydosporia		170						GCA_001653235.2	1380566		14318	14204	Chromosome
 Podospora	anserina		S mat+						GCA_000226545.1	515849		11062	10548	Scaffold
@@ -662,8 +589,8 @@ Postia	placenta		MAD-698-R-SB12						GCA_002117355.1	670580		12716	12539	Scaffol
 Protomyces	lactucaedebilis								GCA_002105105.1	56484		6771	6725	Contig
 Pseudocercospora	fijiensis		CIRAD86						GCA_000340215.1	383855		13131	13066	Scaffold
 Pseudocercospora	musae								GCA_001578225.1	113226		10402	13129	Scaffold
-Pseudogymnoascus	destructans								GCA_001641265.1	655981		9527	9405	Scaffold
 Pseudogymnoascus	destructans		20631-21						GCA_000184105.1	658429		9224	9153	Scaffold
+Pseudogymnoascus	destructans								GCA_001641265.1	655981		9527	9405	Scaffold
 Pseudogymnoascus	sp.		03VT05						GCA_001662645.1	1622148		10392	10252	Scaffold
 Pseudogymnoascus	sp.		05NY08						GCA_001662605.1	1622149		10662	10514	Scaffold
 Pseudogymnoascus	sp.		23342-1-I1						GCA_001662575.1	1524831		10914	10762	Scaffold
@@ -690,11 +617,9 @@ Pseudozyma	hubeiensis		SY62						GCA_000403515.1	1305764		7618	7472	Scaffold
 Psilocybe	cyanescens								GCA_002938375.1	93625		15936	15936	Scaffold
 Puccinia	graminis	f. sp. tritici	CRL 75-36-700-3						GCA_000149925.1	418459		16304	15979	Scaffold
 Puccinia	sorghi								GCA_001263375.1	27349		21687	21078	Scaffold
-Puccinia	striiformis								GCA_002920205.1	27350		14629	14629	Contig
 Puccinia	striiformis								GCA_002920065.1	27350		15090	15090	Scaffold
 Puccinia	triticina		01/01/18 BBBD Race 1						GCA_000151525.2	630390		15539	15685	Scaffold
 Punctularia	strigosozonata		HHB-11173 SS5						GCA_000264995.1	741275		11647	11540	Scaffold
-Purpureocillium	lilacinum								GCA_001653265.1	33203		11850	11763	Scaffold
 Purpureocillium	lilacinum								GCA_001653205.1	33203		11861	11773	Scaffold
 Pyrenochaeta	sp.		DS3sAY3a						GCA_001644535.1	765867		15074	14990	Scaffold
 Pyrenophora	teres		f. teres 0-1						GCA_000166005.1	861557		11799	11799	Scaffold
@@ -705,33 +630,26 @@ Ramularia	collo-cygni								GCA_900074925.1	112498		11544	11612	Scaffold
 Rasamsonia	emersonii		CBS 393.64						GCA_000968595.1	1408163		9843	9843	Contig
 Rhinocladiella	mackenziei		CBS 650.93						GCA_000835555.1	1442369		11418	11382	Scaffold
 Rhizoclosmatium	globosum								GCA_002104985.1	329046		17656	16987	Contig
-Rhizoctonia	solani								GCA_001286725.1	456999		12012	11897	Scaffold
 Rhizoctonia	solani		123E						GCA_000715385.1	1423351		10993	10993	Contig
 Rhizoctonia	solani		AG-1 IA						GCA_000334115.1	983506		10590	10489	Scaffold
-Rhizoctonia	solani		AG-1 IB						GCA_000350255.1	1108050		12393	12268	Contig
 Rhizoctonia	solani		AG-1 IB						GCA_000832345.1	1108050		12860	12616	Contig
 Rhizoctonia	solani		AG-3 Rhs1AP						GCA_000524645.1	1086054		12737	12726	Scaffold
 Rhizoctonia	solani		AG-8 WAC10335						GCA_000695385.1	1287689		13952	13952	Scaffold
-Rhizophagus	irregularis								GCA_001593145.1	588596		26470	26373	Scaffold
-Rhizophagus	irregularis								GCA_001593205.1	588596		26526	26430	Scaffold
-Rhizophagus	irregularis								GCA_001593125.1	588596		26582	26476	Scaffold
-Rhizophagus	irregularis								GCA_001593155.1	588596		26711	26618	Scaffold
-Rhizophagus	irregularis		DAOM 181602=DAOM 197198						GCA_000439145.3	747089		26245	26147	Scaffold
+Rhizoctonia	solani								GCA_001286725.1	456999		12012	11897	Scaffold
 Rhizophagus	irregularis		DAOM 181602=DAOM 197198						GCA_002897155.1	747089		41601	43673	Contig
 Rhizophagus	irregularis		DAOM 197198w						GCA_000597685.1	1432141		27300	29911	Scaffold
+Rhizophagus	irregularis								GCA_001593155.1	588596		26711	26618	Scaffold
 Rhizopogon	vesiculosus								GCA_001882365.1	180088		14191	14197	Scaffold
 Rhizopogon	vinicolor		AM-OR11-026						GCA_001658105.1	1314800		14601	14465	Scaffold
 Rhizopus	delemar		RA 99-880						GCA_000149305.1	246409		17703	17459	Scaffold
-Rhizopus	microsporus								GCA_002083735.1	58291		11402	11352	Scaffold
-Rhizopus	microsporus								GCA_000825725.1	58291		19564	20087	Scaffold
-Rhizopus	microsporus								GCA_900000135.1	58291		18885	22427	Scaffold
 Rhizopus	microsporus		ATCC 52813						GCA_002708625.1	1340429		10959	10891	Scaffold
 Rhizopus	microsporus		var. microsporus						GCA_002083745.1	86635		11554	11496	Scaffold
+Rhizopus	microsporus								GCA_900000135.1	58291		18885	22427	Scaffold
 Rhodotorula	graminis		WP1						GCA_001329695.1	578459		7429	7278	Scaffold
 Rhodotorula	sp.		JG-1b						GCA_001541205.1	1305733		6790	6681	Scaffold
-Rhodotorula	toruloides								GCA_000988875.2	5286		8609	8490	Contig
 Rhodotorula	toruloides		ATCC 204091						GCA_000222205.2	1001064		3353	2817	Scaffold
 Rhodotorula	toruloides		NP11						GCA_000320785.2	1130832		8167	8140	Scaffold
+Rhodotorula	toruloides								GCA_000988875.2	5286		8609	8490	Contig
 Rhynchosporium	agropyri								GCA_900074905.1	914238		13808	13673	Scaffold
 Rhynchosporium	commune								GCA_900074885.1	914237		12329	12211	Scaffold
 Rhynchosporium	secalis								GCA_900074895.1	38038		13173	13145	Scaffold
@@ -741,9 +659,6 @@ Rutstroemia	sp.		NJR-2017a BBW						GCA_002946425.1	2070414		11463	10975	Contig
 Rutstroemia	sp.		NJR-2017a BVV2						GCA_002946415.1	2070413		11419	9320	Contig
 Rutstroemia	sp.		NJR-2017a WRK4						GCA_002946385.1	2070412		11409	10968	Contig
 Saccharomyces	arboricola		H-6						GCA_000292725.1	1160507		3740	3659	Chromosome
-Saccharomyces	cerevisiae								GCA_002804325.1	4932		5602	5327	Contig
-Saccharomyces	cerevisiae								GCA_001983315.1	4932		5445	5445	Contig
-Saccharomyces	cerevisiae								GCA_001634645.1	4932		6967	6319	Chromosome
 Saccharomyces	cerevisiae		AWRI1631						GCA_000182175.1	545124		5568	5451	Contig
 Saccharomyces	cerevisiae		AWRI796						GCA_000190195.1	764097		5267	3786	Chromosome
 Saccharomyces	cerevisiae		CEN.PK113-7D						GCA_000269885.1	889517		5451	5451	Chromosome
@@ -856,12 +771,11 @@ Saccharomyces	cerevisiae		YJM987						GCA_000976575.4	1294329		7532	5482	Chromos
 Saccharomyces	cerevisiae		YJM990						GCA_000976605.3	1294330		6793	5385	Chromosome
 Saccharomyces	cerevisiae		YJM993						GCA_000662435.2	1294331		6961	5470	Chromosome
 Saccharomyces	cerevisiae		YJM996						GCA_000976665.2	1294332		7258	5474	Chromosome
+Saccharomyces	cerevisiae								GCA_001634645.1	4932		6967	6319	Chromosome
 Saccharomyces	eubayanus								GCA_001298625.1	1080349		5683	5377	Chromosome
 Saccharomyces	kudriavzevii		IFO 1802						GCA_000167075.2	226230		3764	3764	Scaffold
-Saccharomyces	sp.		'boulardii'						GCA_001298375.2	252598		5482	5482	Chromosome
 Saccharomyces	sp.		'boulardii'						GCA_001413975.1	252598		5493	5493	Chromosome
 Saccharomycetaceae	sp.		'Ashbya aceri'						GCA_000412225.2	566037		4690	4487	Complete Genome
-Saitoella	complicata		NRRL Y-17804						GCA_001661265.1	698492		7211	7034	Scaffold
 Saitoella	complicata		NRRL Y-17804						GCA_000227095.3	698492		7119	7119	Contig
 Sanghuangporus	baumii								GCA_001481415.2	108892		8455	8455	Scaffold
 Scedosporium	apiospermum								GCA_000732125.1	563466		10917	8375	Scaffold
@@ -875,7 +789,6 @@ Schizosaccharomyces	pombe								GCA_000002945.2	4896		6974	5132	Chromosome
 Scleroderma	citrinum		Foug A						GCA_000827425.1	1036808		20993	20995	Scaffold
 Sclerotinia	borealis		F-4128						GCA_000503235.1	1432307		10346	10166	Scaffold
 Sclerotinia	sclerotiorum		1980 UF-70						GCA_001857865.1	665079		11368	11130	Chromosome
-Sclerotinia	sclerotiorum		1980 UF-70						GCA_000146945.2	665079		14714	14490	Scaffold
 Serendipita	indica		DSM 11827						GCA_000313545.1	1109443		11879	11791	Scaffold
 Serendipita	vermifera		MAFF 305830						GCA_000827415.1	933852		15317	15245	Scaffold
 Serpula	lacrymans	var. lacrymans	S7.3						GCA_000218725.1	936435		14481	14481	Scaffold
@@ -883,7 +796,6 @@ Serpula	lacrymans	var. lacrymans	S7.9						GCA_000218685.1	578457		12923	12925	S
 Setosphaeria	turcica		Et28A						GCA_000359705.1	671987		11846	11698	Scaffold
 Sistotremastrum	niveocremeum		HHB9708						GCA_001630475.1	1314777		13148	13076	Scaffold
 Sistotremastrum	suecicum		HHB10207 ss-3						GCA_001632355.1	1314776		13730	13654	Scaffold
-Smittium	culicis								GCA_001970865.1	133412		11547	11260	Scaffold
 Smittium	culicis								GCA_001970855.1	133412		12444	12166	Scaffold
 Smittium	mucronatum								GCA_001953115.1	133383		8372	8247	Scaffold
 Sordaria	macrospora		k-hell						GCA_000182805.2	771870		10551	9896	Scaffold
@@ -944,25 +856,19 @@ Tremella	mesenterica		DSM 1558						GCA_000271645.1	578456		8309	8308	Scaffold
 Trichoderma	asperellum		CBS 433.97						GCA_003025105.1	1042311		12801	12557	Scaffold
 Trichoderma	atroviride		IMI 206040						GCA_000171015.2	452589		11810	11816	Contig
 Trichoderma	citrinoviride								GCA_003025115.1	58853		9929	9735	Scaffold
-Trichoderma	gamsii								GCA_002894205.1	398673		10994	10994	Scaffold
 Trichoderma	gamsii								GCA_001481775.2	398673		11171	11171	Scaffold
 Trichoderma	guizhouense								GCA_002022785.1	1491466		11255	11255	Scaffold
-Trichoderma	harzianum								GCA_002894145.1	5544		11264	11264	Scaffold
-Trichoderma	harzianum								GCA_000988865.1	5544		11498	11498	Scaffold
-Trichoderma	harzianum								GCA_002838845.1	5544		13925	13925	Contig
 Trichoderma	harzianum		CBS 226.95						GCA_003025095.1	983964		14294	14065	Scaffold
+Trichoderma	harzianum								GCA_000988865.1	5544		11498	11498	Scaffold
 Trichoderma	longibrachiatum		ATCC 18648						GCA_003025155.1	983965		11132	10934	Scaffold
 Trichoderma	parareesei								GCA_001050175.1	858221		9062	9062	Scaffold
 Trichoderma	reesei		QM6a						GCA_000167675.2	431241		9120	9115	Scaffold
 Trichoderma	reesei		RUT C-30						GCA_000513815.1	1344414		10048	9849	Scaffold
 Trichoderma	virens		Gv29-8						GCA_000170995.2	413071		12405	12406	Scaffold
-Trichophyton	benhamiae		CBS 112371						GCA_001858085.1	663331		7405	7405	Contig
 Trichophyton	benhamiae		CBS 112371						GCA_000151125.2	663331		8035	7974	Contig
 Trichophyton	equinum		CBS 127.97						GCA_000151175.1	559882		8785	8676	Scaffold
 Trichophyton	interdigitale		H6						GCA_000616785.1	1215336		8209	8397	Scaffold
 Trichophyton	interdigitale		MR816						GCA_000622975.1	1215338		8083	8282	Contig
-Trichophyton	rubrum								GCA_001651445.1	5551		7051	7051	Scaffold
-Trichophyton	rubrum								GCA_000812105.1	5551		8253	8264	Contig
 Trichophyton	rubrum		CBS 100081						GCA_000616805.1	1215328		8985	10637	Scaffold
 Trichophyton	rubrum		CBS 118892						GCA_000151425.1	559305		8804	8706	Scaffold
 Trichophyton	rubrum		CBS 202.88						GCA_000616985.1	1215334		9162	10820	Scaffold
@@ -973,6 +879,7 @@ Trichophyton	rubrum		D6						GCA_000622995.1	1215335		9007	10659	Contig
 Trichophyton	rubrum		MR1448						GCA_000616905.1	1215339		9017	10643	Scaffold
 Trichophyton	rubrum		MR1459						GCA_000616945.1	1215341		9076	10813	Scaffold
 Trichophyton	rubrum		MR850						GCA_000616765.1	1215337		9032	10686	Scaffold
+Trichophyton	rubrum								GCA_001651445.1	5551		7051	7051	Scaffold
 Trichophyton	soudanense		CBS 452.61						GCA_000616865.1	1215331		9015	10671	Scaffold
 Trichophyton	tonsurans		CBS 112818						GCA_000151455.1	647933		8625	8521	Scaffold
 Trichophyton	verrucosum		HKI 517						GCA_000151505.1	663202		8086	8028	Scaffold
@@ -985,24 +892,18 @@ Tuber	melanosporum								GCA_000151645.1	39416		7496	7496	Scaffold
 Tulasnella	calospora		MUT 4182						GCA_000827465.1	1051891		19635	19554	Scaffold
 Umbilicaria	pustulata								GCA_900169345.1	136370		8268	8268	Scaffold
 Uncinocarpus	reesii		1704						GCA_000003515.2	336963		7856	7760	Scaffold
-Ustilaginoidea	virens								GCA_000965225.2	1159556		6451	6451	Contig
 Ustilaginoidea	virens								GCA_000687475.1	1159556		8426	8426	Scaffold
 Ustilago	bromivora								GCA_900080155.1	307758		7408	7227	Complete Genome
 Ustilago	hordei								GCA_000286035.1	120017		7220	7111	Scaffold
 Ustilago	maydis		521						GCA_000328475.2	237631		6910	6783	Chromosome
-Valsa	mali								GCA_000818155.1	105487		11284	11284	Chromosome
 Valsa	mali	var. pyri							GCA_000813385.1	694573		10855	10855	Scaffold
+Valsa	mali								GCA_000818155.1	105487		11284	11284	Chromosome
 Vanderwaltozyma	polyspora		DSM 70294						GCA_000150035.1	436907		5762	5367	Scaffold
 Vavraia	culicis	subsp. floridensis							GCA_000192795.1	948595		2823	2773	Scaffold
 Verruconis	gallopava								GCA_000836295.1	253628		9870	11357	Scaffold
 Verticillium	alfalfae		VaMs.102						GCA_000150825.1	526221		10488	10237	Scaffold
-Verticillium	dahliae								GCA_002893045.1	27337		9925	9986	Scaffold
-Verticillium	dahliae								GCA_002892995.1	27337		9933	9990	Scaffold
-Verticillium	dahliae								GCA_002893025.1	27337		10294	10371	Scaffold
-Verticillium	dahliae								GCA_002893035.1	27337		10330	10415	Scaffold
-Verticillium	dahliae								GCA_002892985.1	27337		10485	10613	Contig
 Verticillium	dahliae		VdLs.17						GCA_000150675.2	498257		10811	10535	Scaffold
-Verticillium	longisporum								GCA_001268145.1	100787		20793	20793	Scaffold
+Verticillium	dahliae								GCA_002893035.1	27337		10330	10415	Scaffold
 Verticillium	longisporum								GCA_001268165.1	100787		21072	21072	Scaffold
 Vittaforma	corneae		ATCC 50505						GCA_000231115.1	993615		2291	2239	Scaffold
 Wallemia	ichthyophaga		EXF-994						GCA_000400465.1	1299270		5000	4863	Scaffold
@@ -1012,15 +913,13 @@ Wickerhamomyces	ciferrii								GCA_000313485.1	1041607		6702	6702	Contig
 Wolfiporia	cocos		MD-104 SS10						GCA_000344635.1	742152		12358	12212	Scaffold
 Xanthophyllomyces	dendrorhous								GCA_001007165.2	5421		-	6380	Scaffold
 Xylona	heveae		TC161						GCA_001619985.1	1328760		8346	8201	Scaffold
-Yarrowia	lipolytica								GCA_900087985.1	4952		7298	6418	Scaffold
-Yarrowia	lipolytica								GCA_001761485.1	4952		8746	7949	Complete Genome
 Yarrowia	lipolytica		CLIB122						GCA_000002525.1	284591		7144	6472	Chromosome
+Yarrowia	lipolytica								GCA_001761485.1	4952		8746	7949	Complete Genome
 Zancudomyces	culisetae								GCA_001969505.1	1213189		8244	8068	Scaffold
-Zygosaccharomyces	bailii								GCA_900162805.1	4954		5407	5141	Scaffold
 Zygosaccharomyces	bailii		CLIB 213						GCA_000442885.1	1333698		5240	4723	Scaffold
 Zygosaccharomyces	bailii		ISA1307						GCA_000530735.1	1355161		10442	9925	Scaffold
+Zygosaccharomyces	bailii								GCA_900162805.1	4954		5407	5141	Scaffold
 Zygosaccharomyces	parabailii								GCA_001984395.2	1365886		10633	10086	Complete Genome
-Zygosaccharomyces	rouxii								GCA_000026365.1	4956		5323	4991	Chromosome
 Zygosaccharomyces	rouxii								GCA_001972345.1	4956		10576	10038	Scaffold
 Zymoseptoria	brevis								GCA_000966595.1	1047168		10566	10566	Contig
 Zymoseptoria	tritici		IPO323						GCA_000219625.1	336722		10964	10963	Chromosome
