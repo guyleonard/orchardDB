@@ -4,7 +4,8 @@
 
 ## Dependencies
 ### Perl
+ * Bioperl
  * DateTime
  
 ```
-  sudo cpanm DateTime
+  sudo cpanm Bio::Perl DateTime
