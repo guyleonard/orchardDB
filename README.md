@@ -12,7 +12,7 @@
 ```
 ### MySQL
 #### Username & Password Access
-
+You will need to set up a username and password for the database access.
 ```
   mysql -u root -p
   
