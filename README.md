@@ -6,5 +6,5 @@
 ### Perl
  * DateTime
  
- '''
-  sudo cpanm DateTime
+``
+  sudo cpanm DateTime
