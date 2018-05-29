@@ -22,11 +22,13 @@ use v5.10;
 use Data::Dumper;
 
 our $VERSION = 0.1;
-my $version = "OrchardDB v1.0 -- plant.pl v0.1";
+my $version = "OrchardDB v1.0 -- plant.pl v$VERSION";
 
 # things
-my $work_dir = cwd();
-my $info     = 1;
+my $work_dir           = cwd();
+my $info               = 1;
+my $annotation_version = '1';
+my $published;
 
 # input directories etc
 my $input_fasta_dir;     # original FASTA format protein directory
@@ -40,7 +42,6 @@ my $ip_address = q{};
 my $user;
 my $password;
 my $table_name;
-my $annotation_version = '1';
 
 # options
 my $setup;
@@ -117,26 +118,39 @@ if ($populate) {
                 $subsource = $parts[2];
                 $filename  = $parts[3];
             }
-            
+
             # Skip over files not in sub folders
-            if (! defined $filename) {
-                say "\t[WARN] Erroneous file $file_path - skipping. Please put in correct folder.";
+            if ( !defined $filename ) {
+                say
+                    "\t[WARN] Erroneous file $file_path - skipping. Please put in correct folder.";
                 next;
             }
 
             # Get the NCBI taxid from the input file if it exists in the
             # input file/taxid match list
             my ( $filenamex, $taxid );
-            if (my ($match) = grep { $_ =~ $filename } @ncbi_taxids) {
-                ( $filenamex, $taxid, $ome_type, $annotation_version ) = split /,/, $match;
-                if (! defined $ome_type or $ome_type eq '') { $ome_type = 'DNA'}
-                if (! defined $annotation_version or $annotation_version eq '') { $annotation_version = '1'}
+            if ( my ($match) = grep { $_ =~ $filename } @ncbi_taxids ) {
+                (   $filenamex, $taxid, $ome_type, $annotation_version,
+                    $published
+                ) = split /,/, $match;
+                if ( !defined $ome_type or $ome_type eq '' ) {
+                    $ome_type = 'DNA';
+                }
+                if ( !defined $annotation_version
+                    or $annotation_version eq '' )
+                {
+                    $annotation_version = '1';
+                }
+                if ( !defined $published or $published eq '' ) {
+                    $published = 'Unknown';
+                }
             }
             else {
-                say "\t[ERROR] The $filename file is missing from input file but exists in the input dir.";
+                say
+                    "\t[ERROR] The $filename file is missing from input file but exists in the input dir.";
                 next;
             }
-            
+
             # Check for existing taxa based on taxid
             my $taxa_exists
                 = check_taxa_in_mysql( $user, $password, $ip_address,
@@ -188,16 +202,20 @@ if ($populate) {
 
             ##
             my $seqio_mysql = open_seqio($file_path);
-            say "[INFO] $taxid // $source // $subsource // $ome_type // $annotation_version" if $info == 1;
+            say
+                "[INFO] $taxid // $source // $subsource // $ome_type // $annotation_version // $published"
+                if $info == 1;
+
             if ( $source =~ /JGI/i ) {
 
                 my @mysql_push = process_jgi(
-                    $seqio_mysql,  $filename,           $full_name,
-                    $date_time,    $source,             $subsource,
-                    $ome_type,     $annotation_version, $taxid,
-                    $superkingdom, $kingdom,            $subkingdom,
-                    $phylum,       $subphylum,          $class,
-                    $order,        $family,             $special,
+                    $seqio_mysql, $filename,           $full_name,
+                    $date_time,   $source,             $subsource,
+                    $ome_type,    $annotation_version, $taxid,
+                    $published,   $superkingdom,       $kingdom,
+                    $subkingdom,  $phylum,             $subphylum,
+                    $class,       $order,              $family,
+                    $special
                 );
 
                 if ( $mysql == 1 ) {
@@ -212,12 +230,13 @@ if ($populate) {
             }
             elsif ( $source =~ /NCBI/i ) {
                 my @mysql_push = process_ncbi(
-                    $seqio_mysql,  $filename,           $full_name,
-                    $date_time,    $source,             $subsource,
-                    $ome_type,     $annotation_version, $taxid,
-                    $superkingdom, $kingdom,            $subkingdom,
-                    $phylum,       $subphylum,          $class,
-                    $order,        $family,             $special,
+                    $seqio_mysql, $filename,           $full_name,
+                    $date_time,   $source,             $subsource,
+                    $ome_type,    $annotation_version, $taxid,
+                    $published,   $superkingdom,       $kingdom,
+                    $subkingdom,  $phylum,             $subphylum,
+                    $class,       $order,              $family,
+                    $special
                 );
 
                 if ( $mysql == 1 ) {
@@ -232,12 +251,13 @@ if ($populate) {
             }
             elsif ( $source =~ /Ensembl/i ) {
                 my @mysql_push = process_ensembl(
-                    $seqio_mysql,  $filename,           $full_name,
-                    $date_time,    $source,             $subsource,
-                    $ome_type,     $annotation_version, $taxid,
-                    $superkingdom, $kingdom,            $subkingdom,
-                    $phylum,       $subphylum,          $class,
-                    $order,        $family,             $special,
+                    $seqio_mysql, $filename,           $full_name,
+                    $date_time,   $source,             $subsource,
+                    $ome_type,    $annotation_version, $taxid,
+                    $published,   $superkingdom,       $kingdom,
+                    $subkingdom,  $phylum,             $subphylum,
+                    $class,       $order,              $family,
+                    $special
                 );
 
                 if ( $mysql == 1 ) {
@@ -252,12 +272,13 @@ if ($populate) {
             }
             elsif ( $source =~ /EuPathDB/i ) {
                 my @mysql_push = process_eupathdb(
-                    $seqio_mysql,  $filename,           $full_name,
-                    $date_time,    $source,             $subsource,
-                    $ome_type,     $annotation_version, $taxid,
-                    $superkingdom, $kingdom,            $subkingdom,
-                    $phylum,       $subphylum,          $class,
-                    $order,        $family,             $special,
+                    $seqio_mysql, $filename,           $full_name,
+                    $date_time,   $source,             $subsource,
+                    $ome_type,    $annotation_version, $taxid,
+                    $published,   $superkingdom,       $kingdom,
+                    $subkingdom,  $phylum,             $subphylum,
+                    $class,       $order,              $family,
+                    $special
                 );
 
                 if ( $mysql == 1 ) {
@@ -271,12 +292,13 @@ if ($populate) {
             }
             else {
                 my @mysql_push = process_other(
-                    $seqio_mysql,  $filename,           $full_name,
-                    $date_time,    $source,             $subsource,
-                    $ome_type,     $annotation_version, $taxid,
-                    $superkingdom, $kingdom,            $subkingdom,
-                    $phylum,       $subphylum,          $class,
-                    $order,        $family,             $special,
+                    $seqio_mysql, $filename,           $full_name,
+                    $date_time,   $source,             $subsource,
+                    $ome_type,    $annotation_version, $taxid,
+                    $published,   $superkingdom,       $kingdom,
+                    $subkingdom,  $phylum,             $subphylum,
+                    $class,       $order,              $family,
+                    $special
                 );
 
                 if ( $mysql == 1 ) {
@@ -309,9 +331,10 @@ sub process_jgi {
     my ($seqio_object, $filename,           $full_name,
         $date_time,    $source,             $subsource,
         $ome_type,     $annotation_version, $taxid,
-        $superkingdom, $kingdom,            $subkingdom,
-        $phylum,       $subphylum,          $class,
-        $order,        $family,             $special,
+        $published,    $superkingdom,       $kingdom,
+        $subkingdom,   $phylum,             $subphylum,
+        $class,        $order,              $family,
+        $special
     ) = @_;
     my $accession;
 
@@ -352,7 +375,7 @@ sub process_jgi {
 
         # this must not have spaces!
         my $record
-            = "$hashed_accession,$accession,$original_header,$filename,$full_name,$date_time,$source,$subsource,$ome_type,$annotation_version,$taxid,$superkingdom,$kingdom,$subkingdom,$phylum,$subphylum,$class,$order,$family,$special";
+            = "$hashed_accession,$accession,$original_header,$filename,$full_name,$date_time,$source,$subsource,$ome_type,$annotation_version,$taxid,$published,$superkingdom,$kingdom,$subkingdom,$phylum,$subphylum,$class,$order,$family,$special";
 
         push @array_for_mysql, $record;
     }
@@ -365,9 +388,10 @@ sub process_ensembl {
     my ($seqio_object, $filename,           $full_name,
         $date_time,    $source,             $subsource,
         $ome_type,     $annotation_version, $taxid,
-        $superkingdom, $kingdom,            $subkingdom,
-        $phylum,       $subphylum,          $class,
-        $order,        $family,             $special,
+        $published,    $superkingdom,       $kingdom,
+        $subkingdom,   $phylum,             $subphylum,
+        $class,        $order,              $family,
+        $special
     ) = @_;
     my $accession;
 
@@ -393,7 +417,7 @@ sub process_ensembl {
 
         # this must not have spaces!
         my $record
-            = "$hashed_accession,$accession,$original_header,$filename,$full_name,$date_time,$source,$subsource,$ome_type,$annotation_version,$taxid,$superkingdom,$kingdom,$subkingdom,$phylum,$subphylum,$class,$order,$family,$special";
+            = "$hashed_accession,$accession,$original_header,$filename,$full_name,$date_time,$source,$subsource,$ome_type,$annotation_version,$taxid,$published,$superkingdom,$kingdom,$subkingdom,$phylum,$subphylum,$class,$order,$family,$special";
 
         push @array_for_mysql, $record;
 
@@ -407,9 +431,10 @@ sub process_ncbi {
     my ($seqio_object, $filename,           $full_name,
         $date_time,    $source,             $subsource,
         $ome_type,     $annotation_version, $taxid,
-        $superkingdom, $kingdom,            $subkingdom,
-        $phylum,       $subphylum,          $class,
-        $order,        $family,             $special,
+        $published,    $superkingdom,       $kingdom,
+        $subkingdom,   $phylum,             $subphylum,
+        $class,        $order,              $family,
+        $special
     ) = @_;
     my $accession;
     my $warning = 0;
@@ -425,7 +450,7 @@ sub process_ncbi {
 
         if ( $seq->id =~ /^gi/ ) {
             say
-                "\n\t[WARN] Old NCBI Headers Detected. Considering updating your data."
+                "\n\t[WARN] Old NCBI Headers Detected. Consider updating your data."
                 if $warning == 1;
             $original_header =~ /gi\|.*\|.*\|(.*)\|.*/;
             $accession = $1;
@@ -444,7 +469,7 @@ sub process_ncbi {
 
         # this must not have spaces!
         my $record
-            = "$hashed_accession,$accession,$original_header,$filename,$full_name,$date_time,$source,$subsource,$ome_type,$annotation_version,$taxid,$superkingdom,$kingdom,$subkingdom,$phylum,$subphylum,$class,$order,$family,$special";
+            = "$hashed_accession,$accession,$original_header,$filename,$full_name,$date_time,$source,$subsource,$ome_type,$annotation_version,$taxid,$published,$superkingdom,$kingdom,$subkingdom,$phylum,$subphylum,$class,$order,$family,$special";
 
         push @array_for_mysql, $record;
 
@@ -458,9 +483,10 @@ sub process_eupathdb {
     my ($seqio_object, $filename,           $full_name,
         $date_time,    $source,             $subsource,
         $ome_type,     $annotation_version, $taxid,
-        $superkingdom, $kingdom,            $subkingdom,
-        $phylum,       $subphylum,          $class,
-        $order,        $family,             $special,
+        $published,    $superkingdom,       $kingdom,
+        $subkingdom,   $phylum,             $subphylum,
+        $class,        $order,              $family,
+        $special
     ) = @_;
     my $accession;
 
@@ -486,7 +512,7 @@ sub process_eupathdb {
 
         # this must not have spaces!
         my $record
-            = "$hashed_accession,$accession,$original_header,$filename,$full_name,$date_time,$source,$subsource,$ome_type,$annotation_version,$taxid,$superkingdom,$kingdom,$subkingdom,$phylum,$subphylum,$class,$order,$family,$special";
+            = "$hashed_accession,$accession,$original_header,$filename,$full_name,$date_time,$source,$subsource,$ome_type,$annotation_version,$taxid,$published,$superkingdom,$kingdom,$subkingdom,$phylum,$subphylum,$class,$order,$family,$special";
 
         push @array_for_mysql, $record;
 
@@ -500,9 +526,10 @@ sub process_other {
     my ($seqio_object, $filename,           $full_name,
         $date_time,    $source,             $subsource,
         $ome_type,     $annotation_version, $taxid,
-        $superkingdom, $kingdom,            $subkingdom,
-        $phylum,       $subphylum,          $class,
-        $order,        $family,             $special,
+        $published,    $superkingdom,       $kingdom,
+        $subkingdom,   $phylum,             $subphylum,
+        $class,        $order,              $family,
+        $special
     ) = @_;
     my $accession;
 
@@ -526,7 +553,7 @@ sub process_other {
 
         # this must not have spaces!
         my $record
-            = "$hashed_accession,$accession,$original_header,$filename,$full_name,$date_time,$source,$subsource,$ome_type,$annotation_version,$taxid,$superkingdom,$kingdom,$subkingdom,$phylum,$subphylum,$class,$order,$family,$special";
+            = "$hashed_accession,$accession,$original_header,$filename,$full_name,$date_time,$source,$subsource,$ome_type,$annotation_version,$taxid,$published,$superkingdom,$kingdom,$subkingdom,$phylum,$subphylum,$class,$order,$family,$special";
 
         push @array_for_mysql, $record;
 
@@ -573,15 +600,15 @@ sub insert_mysql {
         "INSERT IGNORE into $table_name
        (
          hashed_accession, extracted_accession, original_header,
-         original_fn, new_fn, date_added,
-         source, subsource, type, version, taxid,
+         original_fn, new_fn, date_added, source,
+         subsource, type, version, taxid, published,
          t_superkingdom, t_kingdom, t_subkingdom, 
          t_phylum, t_subphylum, t_class, 
          t_order, t_family, t_special
        )
        VALUES
        (
-         ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+         ?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
        );"
     ) or die "Couldn't connect to database: " . DBI->errstr;
 
@@ -702,6 +729,7 @@ sub get_taxonomy {
         if ( $node->rank eq 'no rank' ) {
             $special = $node->node_name;
         }
+        #else { $special = "no rank" }
     }
 
     return $full_name, $superkingdom, $kingdom, $subkingdom, $phylum,
@@ -722,7 +750,8 @@ sub get_genome_files {
     my @fasta_files;
     my $file_finder = sub {
         return if !-f;
-        return if !/\.fa|\.faa|\.fas|\.fasta|\.aa|\.pep|\.protein|\.prot|\.gz/;
+        return
+            if !/\.fa|\.faa|\.fas|\.fasta|\.aa|\.pep|\.protein|\.prot|\.gz/;
         push @fasta_files, $File::Find::name;
     };
     find( $file_finder, $input_dir );
@@ -779,6 +808,7 @@ sub setup_mysql_db {
      type                VARCHAR(3) DEFAULT NULL,
      version             TEXT DEFAULT NULL,
      taxid               TEXT DEFAULT NULL,
+     published           VARCHAR(15) DEFAULT NULL,
      t_superkingdom      VARCHAR(50) DEFAULT NULL,
      t_kingdom           VARCHAR(50) DEFAULT NULL,
      t_subkingdom        VARCHAR(50) DEFAULT NULL,
@@ -822,7 +852,8 @@ sub help_message {
     say
         "\t--populate [required options] -in <input directory> -out <output directory> -ncbi <NCBI taxa ID list> -dump <NCBI taxdump directory>";
     say "Options:";
-    say "-type = DNA or RNA (default: DNA)";
+    say "  -type\t\t DNA or RNA (default: DNA)";
+    say "  -mysql 0/1\t insert in to db or just rename headers";
 
     exit(1);
 }
