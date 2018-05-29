@@ -16,7 +16,7 @@ You will need to set up a username and password for the database access.
 ```
   mysql -u root -p
   
-  mysql> CREATE USER 'orchardb'@'localhost' IDENTIFIED BY 'password';
-  mysql> GRANT ALL PRIVILEGES ON *.* TO 'orchardb'@'localhost';
+  mysql> CREATE USER 'orcharddb'@'localhost' IDENTIFIED BY 'password';
+  mysql> GRANT ALL PRIVILEGES ON *.* TO 'orcharddb'@'localhost';
   mysql> FLUSH PRIVILEGES;
 ```
