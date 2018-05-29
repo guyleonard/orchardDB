@@ -132,7 +132,7 @@ if ($populate) {
             if ( my ($match) = grep { $_ =~ $filename } @ncbi_taxids ) {
                 (   $filenamex, $taxid, $ome_type, $annotation_version,
                     $published
-                ) = split /,/, $match;
+                ) = split /,|\t/, $match;
                 if ( !defined $ome_type or $ome_type eq '' ) {
                     $ome_type = 'DNA';
                 }
@@ -147,7 +147,7 @@ if ($populate) {
             }
             else {
                 say
-                    "\t[ERROR] The $filename file is missing from input file but exists in the input dir.";
+                    "\t[ERROR] The $filename file is missing from the input file but exists in the input dir.";
                 next;
             }
 
