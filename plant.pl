@@ -354,6 +354,9 @@ sub process_jgi {
             # jgi|Encro1|1|EROM_010010m.01
             $original_header =~ /jgi[|].*[|](\d+)[|].*/;
             $accession = $1;
+            if ( !defined $accession ) {
+                $accession = $seq->id;
+            }
         }
         elsif ( $subsource =~ /phytozome/i ) {
 
@@ -729,6 +732,7 @@ sub get_taxonomy {
         if ( $node->rank eq 'no rank' ) {
             $special = $node->node_name;
         }
+
         #else { $special = "no rank" }
     }
 
