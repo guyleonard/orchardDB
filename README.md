@@ -4,7 +4,19 @@
 
 ## Dependencies
 ### Perl
+ * Bioperl
  * DateTime
  
- '''
-  sudo cpanm DateTime
+```
+  sudo cpanm Bio::Perl DateTime
+```
+### MySQL
+#### Username & Password Access
+You will need to set up a username and password for the database access.
+```
+  mysql -u root -p
+  
+  mysql> CREATE USER 'orchardb'@'localhost' IDENTIFIED BY 'password';
+  mysql> GRANT ALL PRIVILEGES ON *.* TO 'orchardb'@'localhost';
+  mysql> FLUSH PRIVILEGES;
+```
