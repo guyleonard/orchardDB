@@ -19,23 +19,30 @@ my $first_line = <$file_in>;
 foreach my $line (<$file_in>) {
 
     my @current_line = split( /,/, $line );
+
     #my $taxon_name = $line;
 
-    my $taxon_name = "$current_line[0] $current_line[1] $current_line[2] $current_line[3]";
-    my $original_taxid = "$current_line[9]";
+    my $taxon_name
+        = "$current_line[0] $current_line[1] $current_line[2]";# $current_line[3]";
+
+    #my $original_taxid = "$current_line[9]";
     #print "Read in: $taxon_name\n";
 
-    my $split_taxon_name = &split_taxon_name("$taxon_name");
+    #my $split_taxon_name = &split_taxon_name("$taxon_name");
     my $taxid = &get_ncbi_taxid("$taxon_name");
+
+    my $db = Bio::DB::Taxonomy->new(-source => 'entrez');
+    my $taxon = $db->get_taxon(-taxonid => $taxid);
+    $taxon = $taxon->node_name;
 
     #print "ID: $taxid\n";
 
-    #my $colour           = &get_ncbi_taxonomy("$taxon_name");
+    #my $colour = &get_ncbi_taxonomy("$taxon_name");
 
     #print "Identified: $taxon_name\tNCBI: $leaf_name_id\n";
     #print $file_out "$leaf_name,$split_taxon_name$leaf_name_id,0,$colour\n";
-
-    print "$split_taxon_name$taxon_name,$taxid,$original_taxid\n";
+    #print "$split_taxon_name$taxon_name,$taxid,$original_taxid\n";
+    print "$taxon_name,$taxon,$taxid\n";    #,$colour\n";
 
 }
 
@@ -126,21 +133,22 @@ sub get_ncbi_taxonomy {
         $taxonomy = "$taxonomy$name\[$rank\],";
     }
 
+    return $taxonomy;
+
     #print "Taxonomy = $taxonomy\n\n";
 
-    my $group = "";
-    for my $key ( keys %taxa_colours ) {
-        my $value = $taxa_colours{$key};
-        if ( $taxonomy =~ m/$key/igsm ) {
-
-            #print "$key - $value - Yep\n";
-            $group  = $key;
-            $colour = $value;
-        }
-    }
+    #my $group = "";
+    #for my $key ( keys %taxa_colours ) {
+    #    my $value = $taxa_colours{$key};
+    #    if ( $taxonomy =~ m/$key/igsm ) {
+    #        #print "$key - $value - Yep\n";
+    #        $group  = $key;
+    #        $colour = $value;
+    #    }
+    #}
 
     #print "C: $colour\tT: $group\n";
-    return "$colour,$group";
+    #return "$colour,$group";
 }
 
 sub split_taxon_name {
@@ -168,6 +176,7 @@ sub split_taxon_name {
         $genus            = $strings[0];
         $species          = $strings[1];
         $split_taxon_name = "$genus,$species,,";
+
         #print "G:$genus\t$species\n";
     }
     elsif ( $#strings == '2' ) {
