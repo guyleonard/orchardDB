@@ -1,0 +1,194 @@
+Acanthisitta chloris
+Acromyrmex echinatior
+Acytostelium subglobosum
+Alligator mississippiensis
+Alligator sinensis
+Apaloderma vittatum
+Apis dorsata
+Apis florea
+Aplysia californica
+Aptenodytes forsteri
+Arachis duranensis
+Arachis ipaensis
+Ascaris suum
+Azadirachta indica
+Babesia equi strain WA
+Bactrocera cucurbitae
+Bactrocera dorsalis
+Balaenoptera acutorostrata scammoni
+Balearica regulorum gibbericeps
+Bison bison bison
+Blechomonas ayalai
+Bos grunniens
+Bos mutus
+Bubalus bubalis
+Buceros rhinoceros silvestris
+Cajanus cajan
+Calcarisporiella thermophila
+Callorhinchus milii
+Calypte anna
+Camelina sativa
+Camelus bactrianus
+Camelus dromedarius
+Camelus ferus
+Camponotus floridanus
+Caprimulgus carolinensis
+Capsicum annuum
+Capsicum annuum L.
+Capsicum annuum var. glabriusculum
+Cariama cristata
+Castanea mollissima
+Cathartes aura
+Cerapachys biroi
+Ceratitis capitata
+Ceratotherium simum
+Chaetura pelagica
+Charadrius vociferus
+Chelonia mydas
+Chlamydotis undulata macqueenii
+Chrysemys picta bellii
+Chrysochloris asiatica
+Cicer arietinum L.
+Citrullus lanatus
+Citrullus lanatus subsp. Vulgaris
+Clonorchis sinensis
+Colius striatus
+Columba livia
+Condylura cristata
+Corvus brachyrhynchos
+Corvus cornix cornix
+Crithidia fasciculata
+Cuculus canorus
+Cucumis melo L.
+Cynoglossus semilaevis
+Cytauxzoon felis
+Diaphorina citri
+Egretta garzetta
+Elaeis guineensis
+Elephantulus edwardii
+Endotrypanum monterogeii
+Eptesicus fuscus
+Equus przewalskii
+Eriocheir sinensis
+Esox lucius
+Eurypyga helias
+Falco cherrug
+Falco peregrinus
+Fopius arisanus
+Fulmarus glacialis
+Galeopterus variegatus
+Gavia stellata
+Genlisea aurea
+Geospiza fortis
+Glossina morsitans
+Haliaeetus albicilla
+Haliaeetus leucocephalus
+Haplochromis burtoni
+Harpegnathos saltator
+Hydra vulgaris
+Hyphochytrium catenoides old
+Jatropha curcas
+Klebsormidium flaccidum
+Lachancea kluyveri
+Lachancea waltii
+Larimichthys crocea
+Leptonychotes weddellii
+Leptosomus discolor
+Lipotes vexillifer
+Lotus japonicus
+Lytechinus variegatus
+Malbranchea cinnamomea
+Manacus vitellinus
+Mastigamoeba balamuthi
+Maylandia zebra
+Megachile rotundata
+Melopsittacus undulatus
+Merops nubicus
+Mesitornis unicolor
+Metaseiulus occidentalis
+Microplitis demolitor
+Musca domestica
+Myceliophthora fergusii
+Myceliophthora sepedonium
+Myotis brandtii
+Myotis davidii
+Myriococcum thermophilum
+Nanorana parkeri
+Nelumbo nucifera
+Neolamprologus brichardi
+Nestor notabilis
+Nicotiana benthamiana
+Nicotiana sylvestris
+Nicotiana tomentosiformis
+Nipponia nippon
+Notothenia coriiceps
+Nucleospora salmonis
+Oculimacula yallundae
+Odobenus rosmarus
+Oikopleura dioica
+Oncorhynchus mykiss
+Opisthocomus hoazin
+Orcinus orca
+Orycteropus afer afer
+Panthera tigris altaica
+Pantholops hodgsonii
+Pararge aegeria
+Patiria miniata
+Pelecanus crispus
+Phaethon lepturus
+Phalacrocorax carbo
+Phoenicopterus ruber
+Phyllostachys edulis
+Physeter catodon
+Picea abies
+Picea sitchensis
+Pichia sorbitophila
+Picoides pubescens
+Pinus taeda
+Plutella xylostella
+Podiceps cristatus
+Poecilia reticulata
+Populus euphratica
+Primula veris
+Prunus mume
+Pseudopoces humilis
+Pseudozyma brasiliensis
+Pseudozyma flocculosa
+Pterocles gutturalis
+Pteropus alecto
+Pundamilia nyererei
+Pygoscelis adeliae
+Pyropia yezoensis
+Pyrus x bretschneideri
+Python bivittatus
+Rasamsonia byssochlamydoides
+Rhipicephalus pulchellus
+Rhizomucor pusillus
+Rhodosporidium toruloides MTCC 457
+Saccharomyces bayanus var. uvarum
+Saccharomyces kudriavzevii ZP591
+Schistosoma haematobium
+Schistosoma japonicum
+Scytalidium thermophilum
+Serinus canaria
+Sesamum indicum
+Solanum pimpinellifolium
+Stegastes partitus
+Struthio camelus
+Taenia solium
+Tarenaya hassleriana
+Tauraco erythrolophus
+Thermoascus crustaceus
+Thermomyces dupontii
+Thielavia australiensis
+Tinamus guttatus
+Toxocara canis
+Trichechus manatus latirostris
+Trichuris muris
+Tupaia chinensis
+Tyto alba
+Ursus maritimus
+Vaccinium corymbosum
+Xenopus laevis
+Zonotrichia albicollis
+Zygosaccharomyces bailii CLIB 213
