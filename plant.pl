@@ -353,9 +353,11 @@ sub process_jgi {
 
             # jgi|Encro1|1|EROM_010010m.01
             $original_header =~ /jgi[|].*[|](\d+)[|].*/;
-            $accession = $1;
-            if ( !defined $accession ) {
+            if ( !defined $1 ) {
                 $accession = $seq->id;
+            }
+            else {
+                $accession = $1;
             }
         }
         elsif ( $subsource =~ /phytozome/i ) {
@@ -363,7 +365,12 @@ sub process_jgi {
             #94000 pacid=27412871 transcript=94000 locus=ost_18_004_031 \
             #ID=94000.2.0.231 annot-version=v2.0
             $original_header =~ /\d+\s+pacid\=(\d+)\s+.*/;
-            $accession = $1;
+            if ( !defined $1 ) {
+                $accession = $seq->id;
+            }
+            else {
+                $accession = $1;
+            }
         }
         else {
             $accession = $seq->id;
@@ -409,7 +416,12 @@ sub process_ensembl {
 
         #EER13651 pep supercontig:JCVI_PMG_1.0:scf_1104 ...
         $original_header =~ /(.*)\s+pep\s+.*/;
-        $accession = $1;
+        if ( !defined $1 ) {
+            $accession = $seq->id;
+        }
+        else {
+            $accession = $1;
+        }
 
         # replace header info with a hash
         my $hashed_accession = hash_header($original_header);
@@ -456,7 +468,12 @@ sub process_ncbi {
                 "\n\t[WARN] Old NCBI Headers Detected. Consider updating your data."
                 if $warning == 1;
             $original_header =~ /gi\|.*\|.*\|(.*)\|.*/;
-            $accession = $1;
+            if ( !defined $1 ) {
+                $accession = $seq->id;
+            }
+            else {
+                $accession = $1;
+            }
             $warning++;
         }
         else {
@@ -504,7 +521,12 @@ sub process_eupathdb {
 
      #AEWD_010030-t26_1-p1 | transcript=AEWD_010030-t26_1 | gene=AEWD_010030 |
         $original_header =~ /.*gene=(.*)\s+\|\s+org.*/;
-        $accession = $1;
+        if ( !defined $1 ) {
+            $accession = $seq->id;
+        }
+        else {
+            $accession = $1;
+        }
 
         # replace header info with a hash
         my $hashed_accession = hash_header($original_header);
