@@ -659,7 +659,7 @@ sub process_fasta {
     # replace non-alphanumeric chars with underscore
     # include . and - and /
     #$full_name =~ s/[^A-z[|]^0-9[|]^\.[|]^\-]/_/g;
-    $full_name =~ s/[^\w[|]^[.][|]^\-[|]^\/]/_/g;
+    $full_name =~ s/[^\w]|\.|\-|\//_/g;
 
     my $output = Bio::SeqIO->new(
         -file   => ">$output_path\/$full_name\.fasta",
