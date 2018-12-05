@@ -47,6 +47,7 @@ my $table_name;
 my $setup;
 my $populate;
 my $mysql = 1;
+my $force = 0;
 
 if ( !@ARGV ) {
     help_message();
@@ -64,6 +65,7 @@ GetOptions(
     'ncbi=s'    => \$ncbi_taxid_file,
     'dump=s'    => \$ncbi_taxdump_dir,
     'mysql=i'   => \$mysql,
+    'force=i'    => \$force,
 
     'version|v' => sub { say "$version" },
     'help|h'    => sub { help_message() }
@@ -158,7 +160,8 @@ if ($populate) {
             if ( $taxa_exists eq 1 ) {
                 print
                     "\t[WARN] Skipping: $filename - $taxid as it exists in the orchardDB already.\n";
-                next;
+                next unless $force == 1;
+		print "\t[WARN] Not Skipping, force enabled\n";
             }
 
             # check if a file in gzip, if so
@@ -415,7 +418,7 @@ sub process_ensembl {
         my $original_header = $seq->id . ' ' . $seq->desc;
 
         #EER13651 pep supercontig:JCVI_PMG_1.0:scf_1104 ...
-        $original_header =~ /(.*)\s+pep\s+.*/;
+        $original_header =~ /(.*)( pep .*)/ig;
         if ( !defined $1 ) {
             $accession = $seq->id;
         }
@@ -675,6 +678,7 @@ sub process_fasta {
         # replace header info with a hash
         my $hashed_accession = hash_header($original_header);
         $seq->id("$hashed_accession");
+	$seq->desc(""); # remove description
 
         # remove non-useful phylogenetic information from sequence data
         # stop codons at the end of the sequence
@@ -777,7 +781,7 @@ sub get_genome_files {
     my $file_finder = sub {
         return if !-f;
         return
-            if !/\.fa|\.faa|\.fas|\.fasta|\.aa|\.pep|\.protein|\.prot|\.gz/;
+            if !/\.fa|\.faa|\.fas|\.fasta|\.aa|\.pep|\.protein|\.prot/;
         push @fasta_files, $File::Find::name;
     };
     find( $file_finder, $input_dir );
