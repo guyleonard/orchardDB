@@ -3,6 +3,8 @@ use strict;
 use warnings;
 
 use Bio::DB::Taxonomy;
+use Bio::SeqIO;
+use DateTime;
 use DBI;
 use Digest::MD5 qw(md5_hex);
 use File::Path qw(make_path);
@@ -28,9 +30,9 @@ my $populate;
 # inputs
 my $fasta_input;
 my $taxid;
-my $source;
+my $sources;
 my $type;
-my $published = "unknown";
+my $published = "NA";
 my $data_version;
 
 #
@@ -48,7 +50,7 @@ GetOptions(
     'db|d=s'            => \$db_name,
     'fasta|f=s'         => \$fasta_input,
     'taxid|t=s'         => \$taxid,
-    'source|z=s'        => \$source,
+    'source|z=s'        => \$sources,
     'type|y=s'          => \$type,
     'pub|p=s'           => \$published,
     'ver|V=s'           => \$data_version,
@@ -76,20 +78,55 @@ elsif ($populate) {
         && $db_name
         && $fasta_input
         && $taxid
-        && $source
+        && $sources
         && $type
         && $data_version )
     {
-        print "[OrchardDB:Plant:INFO] - Here we go!\n";
-        my $genome_id
-            = generate_genome_ID( $taxid, $data_version, $source, $type );
+        print
+            "[OrchardDB:Plant:INFO] - And awaaay sudo apt-get updatewe go!\n";
 
-        my ($genus_species, $lineage) = get_taxonomy("$taxid");
+        # Generate 'genome_id' record to link database objects
+        my $genome_id
+            = generate_genome_ID( $taxid, $data_version, $sources, $type );
+
+        # get the genus+species and BioPerl taxonomy
+        my ( $genus_species, $lineage ) = get_taxonomy("$taxid");
         my @taxon_lineage = @$lineage;
 
-        print "$genome_id\t$genus_species\n@taxon_lineage\n";
+        # get the date time values in 'YYYY-MM-DD HH:MM:SS'
+        my $date_time = DateTime->now( time_zone => 'local' )->datetime();
 
+        # Remove the erroneous T - not good for MYSQL
+        $date_time =~ s/T/ /igs;
+
+        # get source and subsource
+        my ( $source, $subsource );
+        if ( $sources =~ m/,/ ) {
+
+            ( $source, $subsource ) = split /,/, $sources;
+        }
+        else {
+            print "[OrchardDB:Plant:WARN] - Setting subsource to: none.\n";
+            $source    = $sources;
+            $subsource = "none";
+        }
+
+        my $fasta_output = "$genus_species\.fasta";
+        $fasta_output =~ s/\s+/_/g;
+
+        print
+            "$genome_id $fasta_input $fasta_output $date_time $source $subsource $type $data_version $taxid $published @taxon_lineage\n";
+
+        insert_main_table_record(
+            $user,        $password,     $db_name,      $genome_id,
+            $fasta_input, $fasta_output, $date_time,    $source,
+            $subsource,   $type,         $data_version, $taxid,
+            $published,   @taxon_lineage
+        );
+
+        process_fasta( $db_name, $fasta_input, $genus_species );
     }
+
     else {
         print "[OrchardDB:Plant:ERR] - Missing Input Options\n";
         help_message();
@@ -116,7 +153,7 @@ sub setup_sqlite_db {
             or die $DBI::errstr;
         print "[OrchardDB:Plant:INFO] - Successfully Created: $database\n";
 
-        my $main_table = qq(CREATE TABLE odb_maintable(
+        my $main_table = qq(CREATE TABLE IF NOT EXISTS odb_maintable(
         genome_id INT PRIMARY KEY NOT NULL,
         original_fn TEXT NOT NULL,
         new_fn TEXT NOT NULL,
@@ -138,7 +175,7 @@ sub setup_sqlite_db {
                 "[OrchardDB:Plant:INFO] - Main Table Created Successfully\n";
         }
 
-        my $accession_table = qq(CREATE TABLE odb_accessions(
+        my $accession_table = qq(CREATE TABLE IF NOT EXISTS odb_accessions(
         hashed_accession CHAR(32) PRIMARY KEY NOT NULL,
         extracted_accession TEXT NOT NULL,
         original_header TEXT NOT NULL,
@@ -155,6 +192,76 @@ sub setup_sqlite_db {
         }
         $dbh->disconnect();
     }
+}
+
+sub insert_main_table_record {
+    my ($user,        $password,     $db_name,      $genome_id,
+        $fasta_input, $fasta_output, $date_time,    $source,
+        $subsource,   $type,         $data_version, $taxid,
+        $published,   @taxon_lineage
+    ) = @_;
+
+    if ( !-f "$db_name\/$db_name\.sql" ) {
+        print
+            "[OrchardDB:Plant:INFO] - $db_name\/$db_name\.sql Does Not Exist!\n";
+    }
+    else {
+
+        my $driver   = "SQLite";
+        my $database = "$db_name\/$db_name\.sql";
+        my $dsn      = "DBI:$driver:dbname=$database";
+        my $dbh = DBI->connect( $dsn, $user, $password, { RaiseError => 1 } )
+            or die $DBI::errstr;
+        print "[OrchardDB:Plant:INFO] - Successfully Conected: $database\n";
+
+        my $statement
+            = qq (INSERT OR IGNORE INTO odb_maintable (genome_id,original_fn,new_fn,date_added,source,subsource,type,version,ncbi_taxid,published,taxonomy) 
+                VALUES (?,?,?,?,?,?,?,?,?,?,?));
+        my $prepare = $dbh->prepare($statement);
+        my $insert  = $prepare->execute(
+            "$genome_id",    "$fasta_input",
+            "$fasta_output", "$date_time",
+            "$source",       "$subsource",
+            "$type",         "$data_version",
+            "$taxid",        "$published",
+            "@taxon_lineage"
+        ) or die $DBI::errstr;
+
+        $dbh->disconnect();
+    }
+}
+
+sub insert_accession_records {
+    my ( $user, $password, $db_name, $fasta_input, $fasta_output, ) = @_;
+
+    # if ( !-f "$db_name\/$db_name\.sql" ) {
+    #     print
+    #         "[OrchardDB:Plant:INFO] - $db_name\/$db_name\.sql Does Not Exist!\n";
+    # }
+    # else {
+
+    #     my $driver   = "SQLite";
+    #     my $database = "$db_name\/$db_name\.sql";
+    #     my $dsn      = "DBI:$driver:dbname=$database";
+    #     my $dbh = DBI->connect( $dsn, $user, $password, { RaiseError => 1 } )
+    #         or die $DBI::errstr;
+    #     print "[OrchardDB:Plant:INFO] - Successfully Conected: $database\n";
+
+    #     my $statement
+    #         = qq (INSERT OR IGNORE INTO odb_maintable (genome_id,original_fn,new_fn,date_added,source,subsource,type,version,ncbi_taxid,published,taxonomy) 
+    #             VALUES (?,?,?,?,?,?,?,?,?,?,?));
+    #     my $prepare = $dbh->prepare($statement);
+    #     my $insert  = $prepare->execute(
+    #         "$genome_id",    "$fasta_input",
+    #         "$fasta_output", "$date_time",
+    #         "$source",       "$subsource",
+    #         "$type",         "$data_version",
+    #         "$taxid",        "$published",
+    #         "@taxon_lineage"
+    #     ) or die $DBI::errstr;
+
+    #     $dbh->disconnect();
+    # }
 }
 
 #
@@ -212,7 +319,7 @@ sub get_taxonomy {
     # get the taxonomy lineage with associated levels, e.g. Kingdom
     my @lineage_groups = $tree_functions->get_lineage_nodes($taxon);
 
-    return ($full_name, \@lineage_groups);
+    return ( $full_name, \@lineage_groups );
 }
 
 #
@@ -277,6 +384,10 @@ sub process_fasta {
         }
     }
 }
+
+#
+# Portal Functions
+#
 
 #
 # Help Function
