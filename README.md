@@ -6,17 +6,20 @@
 ### Perl
  * Bioperl
  * DateTime
- 
+ * Bio::DB::Taxonomy;
+ * Bio::SeqIO;
+ * DBI;
+ * Digest::MD5 qw(md5_hex);
+ * File::Path qw(make_path);
+ * Getopt::Long; 
 ```
   sudo cpanm Bio::Perl DateTime
 ```
-### MySQL
-#### Username & Password Access
-You will need to set up a username and password for the database access.
+### System Tools
+ * SQLite 3
+
+## Usage
+### Setup
 ```
-  mysql -u root -p
-  
-  mysql> CREATE USER 'orcharddb'@'localhost' IDENTIFIED BY 'password';
-  mysql> GRANT ALL PRIVILEGES ON *.* TO 'orcharddb'@'localhost';
-  mysql> FLUSH PRIVILEGES;
+  plant_new.pl --setup --user test --pass test --db cider
 ```
