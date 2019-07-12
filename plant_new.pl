@@ -18,6 +18,8 @@ my $version = "OrchardDB v1.0 -- plant.pl v$VERSION";
 #
 # Input Variables
 #
+my $warnings = 1;
+
 # database access
 my $user;
 my $password;
@@ -82,16 +84,15 @@ elsif ($populate) {
         && $type
         && $data_version )
     {
-        print
-            "[OrchardDB:Plant:INFO] - And awaaay sudo apt-get updatewe go!\n";
+        print "[OrchardDB:Plant:INFO] - And awaaay we go!\n";
 
         # Generate 'genome_id' record to link database objects
         my $genome_id
             = generate_genome_ID( $taxid, $data_version, $sources, $type );
+        print "[OrchardDB:Plant:INFO] - Your GenomeID: $genome_id\n";
 
         # get the genus+species and BioPerl taxonomy
-        my ( $genus_species, $lineage ) = get_taxonomy("$taxid");
-        my @taxon_lineage = @$lineage;
+        my ( $genus_species, $taxon_lineage ) = get_taxonomy("$taxid");
 
         # get the date time values in 'YYYY-MM-DD HH:MM:SS'
         my $date_time = DateTime->now( time_zone => 'local' )->datetime();
@@ -111,24 +112,32 @@ elsif ($populate) {
             $subsource = "none";
         }
 
+        if ($published eq "NA") {
+            print "[OrchardDB:Plant:WARN] - Setting published to: NA.\n";
+        }
+
         my $fasta_output = "$genus_species\.fasta";
         $fasta_output =~ s/\s+/_/g;
 
-        print
-            "$genome_id $fasta_input $fasta_output $date_time $source $subsource $type $data_version $taxid $published @taxon_lineage\n";
-
+        print "[OrchardDB:Plant:INFO] - Populating Main Table!\n";
         insert_main_table_record(
             $user,        $password,     $db_name,      $genome_id,
             $fasta_input, $fasta_output, $date_time,    $source,
             $subsource,   $type,         $data_version, $taxid,
-            $published,   @taxon_lineage
+            $published,   $taxon_lineage
         );
 
-        process_fasta( $db_name, $fasta_input, $genus_species );
+        my @odb_accessions
+            = process_fasta( $db_name, $fasta_input, $genus_species, $source,
+            $subsource );
+
+        print "[OrchardDB:Plant:INFO] - Populating Accessions Table!\n";
+        insert_accession_records( $user, $password, $db_name, $genome_id,
+            @odb_accessions );
     }
 
     else {
-        print "[OrchardDB:Plant:ERR] - Missing Input Options\n";
+        print "[OrchardDB:Plant:ERRR] - Missing Input Options\n";
         help_message();
     }
 }
@@ -176,7 +185,7 @@ sub setup_sqlite_db {
         }
 
         my $accession_table = qq(CREATE TABLE IF NOT EXISTS odb_accessions(
-        hashed_accession CHAR(32) PRIMARY KEY NOT NULL,
+        hashed_accession TEXT PRIMARY KEY NOT NULL,
         extracted_accession TEXT NOT NULL,
         original_header TEXT NOT NULL,
         lookup_id INT NOT NULL,
@@ -198,7 +207,7 @@ sub insert_main_table_record {
     my ($user,        $password,     $db_name,      $genome_id,
         $fasta_input, $fasta_output, $date_time,    $source,
         $subsource,   $type,         $data_version, $taxid,
-        $published,   @taxon_lineage
+        $published,   $taxon_lineage
     ) = @_;
 
     if ( !-f "$db_name\/$db_name\.sql" ) {
@@ -224,7 +233,7 @@ sub insert_main_table_record {
             "$source",       "$subsource",
             "$type",         "$data_version",
             "$taxid",        "$published",
-            "@taxon_lineage"
+            "$taxon_lineage"
         ) or die $DBI::errstr;
 
         $dbh->disconnect();
@@ -232,36 +241,41 @@ sub insert_main_table_record {
 }
 
 sub insert_accession_records {
-    my ( $user, $password, $db_name, $fasta_input, $fasta_output, ) = @_;
+    my ( $user, $password, $db_name, $genome_id, @odb_accessions ) = @_;
 
-    # if ( !-f "$db_name\/$db_name\.sql" ) {
-    #     print
-    #         "[OrchardDB:Plant:INFO] - $db_name\/$db_name\.sql Does Not Exist!\n";
-    # }
-    # else {
+    if ( !-f "$db_name\/$db_name\.sql" ) {
+        print
+            "[OrchardDB:Plant:INFO] - $db_name\/$db_name\.sql Does Not Exist!\n";
+    }
+    else {
 
-    #     my $driver   = "SQLite";
-    #     my $database = "$db_name\/$db_name\.sql";
-    #     my $dsn      = "DBI:$driver:dbname=$database";
-    #     my $dbh = DBI->connect( $dsn, $user, $password, { RaiseError => 1 } )
-    #         or die $DBI::errstr;
-    #     print "[OrchardDB:Plant:INFO] - Successfully Conected: $database\n";
+        my $driver   = "SQLite";
+        my $database = "$db_name\/$db_name\.sql";
+        my $dsn      = "DBI:$driver:dbname=$database";
+        my $dbh = DBI->connect( $dsn, $user, $password, { RaiseError => 1 } )
+            or die $DBI::errstr;
+        print "[OrchardDB:Plant:INFO] - Successfully Conected: $database\n";
 
-    #     my $statement
-    #         = qq (INSERT OR IGNORE INTO odb_maintable (genome_id,original_fn,new_fn,date_added,source,subsource,type,version,ncbi_taxid,published,taxonomy) 
-    #             VALUES (?,?,?,?,?,?,?,?,?,?,?));
-    #     my $prepare = $dbh->prepare($statement);
-    #     my $insert  = $prepare->execute(
-    #         "$genome_id",    "$fasta_input",
-    #         "$fasta_output", "$date_time",
-    #         "$source",       "$subsource",
-    #         "$type",         "$data_version",
-    #         "$taxid",        "$published",
-    #         "@taxon_lineage"
-    #     ) or die $DBI::errstr;
+        my $statement
+            = qq (INSERT OR IGNORE INTO odb_accessions (hashed_accession,extracted_accession,original_header,lookup_id)
+             VALUES (?,?,?,?));
+        my $prepare = $dbh->prepare($statement);
 
-    #     $dbh->disconnect();
-    # }
+        foreach my $sequence (@odb_accessions) {
+            my ( $hashed_accession, $accession, $original_header )
+                = split /,/,
+                $sequence;
+
+            my $insert = $prepare->execute(
+                "$hashed_accession", "$accession",
+                "$original_header",  "$genome_id"
+            ) or die $DBI::errstr;
+            print "[OrchardDB:Plant:INFO] - Inserting $accession\n"
+                if $warnings == 1;
+        }
+
+        $dbh->disconnect();
+    }
 }
 
 #
@@ -319,7 +333,14 @@ sub get_taxonomy {
     # get the taxonomy lineage with associated levels, e.g. Kingdom
     my @lineage_groups = $tree_functions->get_lineage_nodes($taxon);
 
-    return ( $full_name, \@lineage_groups );
+    my $lineages = "";
+    foreach my $node (@lineage_groups) {
+        my $rank = $node->rank;
+        my $name = $node->node_name;
+        $lineages = $lineages . "$rank\:$name\;";
+    }
+
+    return ( "$full_name", "$lineages" );
 }
 
 #
@@ -335,7 +356,9 @@ sub create_hash {
 }
 
 sub process_fasta {
-    my ( $db_name, $filename, $genus_species ) = @_;
+    my ( $db_name, $filename, $genus_species, $source, $subsource ) = @_;
+    my $accession;
+    my @odb_accessions;
 
     if ( !-f "$db_name\/$db_name\.sql" ) {
         print
@@ -380,18 +403,130 @@ sub process_fasta {
             $sequence =~ s/[^A-z|^\-]/X/g;
             $seq->seq("$sequence");
 
+            # output to file
             $seqio_out->write_seq($seq);
+
+            if ( $source =~ m/ncbi/i ) {
+                $accession = process_ncbi( $original_header, $subsource );
+            }
+            elsif ( $source =~ m/jgi/i ) {
+                $accession = process_jgi( $original_header, $subsource );
+            }
+            elsif ( $source =~ m/ensembl/i ) {
+                $accession = process_ensembl( $original_header, $subsource );
+            }
+            elsif ( $source =~ m/eupathdb/i ) {
+                $accession = process_eupathdb( $original_header, $subsource );
+            }
+            else {
+                ($accession) = split / /, $original_header;
+            }
+
+            # output to array
+            push @odb_accessions,
+                "$hashed_accession,$accession,$original_header";
         }
     }
+
+    return @odb_accessions;
 }
 
 #
 # Portal Functions
 #
+sub process_eupathdb {
+    my $header = shift;
+    my $accession;
+
+    #AEWD_010030-t26_1-p1 | transcript=AEWD_010030-t26_1 | gene=AEWD_010030 |
+    $header =~ /.*gene=(.*)\s+\|\s+org.*/;
+    if ( !defined $1 ) {
+        $accession = $header;
+    }
+    else {
+        $accession = $1;
+    }
+
+    return $accession;
+}
+
+sub process_ensembl {
+    my $header = shift;
+    my $accession;
+
+    #EER13651 pep supercontig:JCVI_PMG_1.0:scf_1104 ...
+    $header =~ /(.*)( pep .*)/ig;
+    if ( !defined $1 ) {
+        $accession = $header;
+    }
+    else {
+        $accession = $1;
+    }
+    return $accession;
+}
+
+sub process_jgi {
+    my ( $header, $subsource ) = @_;
+    my $accession;
+
+    # each JGI portals has different headers
+    # some of the fungi may also break here
+    if ( $subsource =~ /fungi|mycocosm/i ) {
+
+        # jgi|Encro1|1|EROM_010010m.01
+        $header =~ /jgi[|].*[|](\d+)[|].*/;
+        if ( !defined $1 ) {
+            $accession = $header;
+        }
+        else {
+            $accession = $1;
+        }
+    }
+    elsif ( $subsource =~ /phytozome/i ) {
+
+        #94000 pacid=27412871 transcript=94000 locus=ost_18_004_031 \
+        #ID=94000.2.0.231 annot-version=v2.0
+        $header =~ /\d+\s+pacid\=(\d+)\s+.*/;
+        if ( !defined $1 ) {
+            $accession = $header;
+        }
+        else {
+            $accession = $1;
+        }
+    }
+    else {
+        $accession = $header;
+    }
+
+    return $accession;
+}
+
+sub process_ncbi {
+    my $header = shift;
+    my $accession;
+
+    if ( $header =~ /^gi/ ) {
+        print
+            "[OrchardDB:Plant:WARN] - Old Style NCBI Headers Detected. Consider Updating your Source Data.\n"
+            if $warnings == 1;
+        $header =~ /gi\|.*\|.*\|(.*)\|.*/;
+        if ( !defined $1 ) {
+            $accession = $header;
+        }
+        else {
+            $accession = $1;
+        }
+    }
+    else {
+        ($accession) = split / /, $header;
+    }
+    return $accession;
+}
 
 #
 # Help Function
 #
 sub help_message {
     print "Help!\n";
+    exit(1);
 }
