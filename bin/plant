@@ -212,7 +212,8 @@ sub insert_main_table_record {
 
     if ( !-f "$db_name\/$db_name\.sql" ) {
         print
-            "[OrchardDB:Plant:INFO] - $db_name\/$db_name\.sql Does Not Exist!\n";
+            "[OrchardDB:Plant:ERRR] - $db_name\/$db_name\.sql Does Not Exist!\n";
+            exit(1);
     }
     else {
 
@@ -245,7 +246,8 @@ sub insert_accession_records {
 
     if ( !-f "$db_name\/$db_name\.sql" ) {
         print
-            "[OrchardDB:Plant:INFO] - $db_name\/$db_name\.sql Does Not Exist!\n";
+            "[OrchardDB:Plant:ERR] - $db_name\/$db_name\.sql Does Not Exist!\n";
+            exit(1);
     }
     else {
 
@@ -362,7 +364,8 @@ sub process_fasta {
 
     if ( !-f "$db_name\/$db_name\.sql" ) {
         print
-            "[OrchardDB:Plant:INFO] - No OrchardDB Detected. Please Make a DB First.\n";
+            "[OrchardDB:Plant:ERRR] - No OrchardDB Detected. Please Make a DB First.\n";
+            exit(1);
     }
     else {
         my $output_path = "$db_name/";
