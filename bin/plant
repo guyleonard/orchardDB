@@ -125,20 +125,17 @@ elsif ($populate) {
             print "[OrchardDB:Plant:WARN] - Setting published to: NA.\n";
         }
 
-        my $fasta_output = "$genus_species\.fasta";
-        $fasta_output =~ s/\s+/_/g;
-
         print "[OrchardDB:Plant:INFO] - Populating Main Table!\n";
         insert_main_table_record(
             $user,        $password,     $db_name,      $genome_id,
-            $fasta_input, $fasta_output, $date_time,    $source,
+            $fasta_input, $date_time,    $source,
             $subsource,   $type,         $data_version, $taxid,
             $published,   $taxon_lineage
         );
 
         my @odb_accessions
             = process_fasta( $db_name, $fasta_input, $genus_species, $source,
-            $subsource );
+            $subsource, $genome_id );
 
         print "[OrchardDB:Plant:INFO] - Populating Accessions Table!\n";
         insert_accession_records( $user, $password, $db_name, $genome_id,
@@ -174,7 +171,6 @@ sub setup_sqlite_db {
         my $main_table = qq(CREATE TABLE IF NOT EXISTS odb_maintable(
         genome_id INT PRIMARY KEY NOT NULL,
         original_fn TEXT NOT NULL,
-        new_fn TEXT NOT NULL,
         date_added TEXT NOT NULL,
         source TEXT NOT NULL,
         subsource TEXT,
@@ -215,7 +211,7 @@ sub setup_sqlite_db {
 
 sub insert_main_table_record {
     my ($user,        $password,     $db_name,      $genome_id,
-        $fasta_input, $fasta_output, $date_time,    $source,
+        $fasta_input, $date_time,    $source,
         $subsource,   $type,         $data_version, $taxid,
         $published,   $taxon_lineage
     ) = @_;
@@ -235,12 +231,12 @@ sub insert_main_table_record {
         print "[OrchardDB:Plant:INFO] - Successfully Conected: $database\n";
 
         my $statement
-            = qq (INSERT OR IGNORE INTO odb_maintable (genome_id,original_fn,new_fn,date_added,source,subsource,type,version,ncbi_taxid,published,taxonomy) 
-                VALUES (?,?,?,?,?,?,?,?,?,?,?));
+            = qq (INSERT OR IGNORE INTO odb_maintable (genome_id,original_fn,date_added,source,subsource,type,version,ncbi_taxid,published,taxonomy) 
+                VALUES (?,?,?,?,?,?,?,?,?,?));
         my $prepare = $dbh->prepare($statement);
         my $insert  = $prepare->execute(
             "$genome_id",    "$fasta_input",
-            "$fasta_output", "$date_time",
+            "$date_time",
             "$source",       "$subsource",
             "$type",         "$data_version",
             "$taxid",        "$published",
@@ -400,7 +396,7 @@ sub create_hash {
 }
 
 sub process_fasta {
-    my ( $db_name, $filename, $genus_species, $source, $subsource ) = @_;
+    my ( $db_name, $filename, $genus_species, $source, $subsource, $genome_id ) = @_;
     my $accession;
     my @odb_accessions;
 
@@ -425,7 +421,7 @@ sub process_fasta {
         );
 
         my $seqio_out = Bio::SeqIO->new(
-            -file   => ">$output_path\/$genus_species\.fasta",
+            -file   => ">$output_path\/$genome_id\.fasta",
             -format => 'fasta'
         );
 
