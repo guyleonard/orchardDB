@@ -86,10 +86,19 @@ elsif ($populate) {
     {
         print "[OrchardDB:Plant:INFO] - And awaaay we go!\n";
 
-        # Generate 'genome_id' record to link database objects
+        # Generate 'genome_id' record to link database objects and check
+        # to see if it exists first before insert
         my $genome_id
             = generate_genome_ID( $taxid, $data_version, $sources, $type );
         print "[OrchardDB:Plant:INFO] - Your GenomeID: $genome_id\n";
+        my $status
+            = check_genome_ID( $user, $password, $db_name, $genome_id );
+
+        if ( $status eq 1 ) {
+            print
+                "[OrchardDB:Plant:ERRR] - The GenomeID already exists. Stopping!\n";
+            exit(1);
+        }
 
         # get the genus+species and BioPerl taxonomy
         my ( $genus_species, $taxon_lineage ) = get_taxonomy("$taxid");
@@ -112,7 +121,7 @@ elsif ($populate) {
             $subsource = "NA";
         }
 
-        if ($published eq "NA") {
+        if ( $published eq "NA" ) {
             print "[OrchardDB:Plant:WARN] - Setting published to: NA.\n";
         }
 
@@ -133,7 +142,7 @@ elsif ($populate) {
 
         print "[OrchardDB:Plant:INFO] - Populating Accessions Table!\n";
         insert_accession_records( $user, $password, $db_name, $genome_id,
-            @odb_accessions);
+            @odb_accessions );
     }
 
     else {
@@ -214,7 +223,7 @@ sub insert_main_table_record {
     if ( !-f "$db_name\/$db_name\.sqlite" ) {
         print
             "[OrchardDB:Plant:ERRR] - $db_name\/$db_name\.sqlite Does Not Exist!\n";
-            exit(1);
+        exit(1);
     }
     else {
 
@@ -236,19 +245,19 @@ sub insert_main_table_record {
             "$type",         "$data_version",
             "$taxid",        "$published",
             "$taxon_lineage"
-        ) or die $DBI::errstr;
+        );
 
         $dbh->disconnect();
     }
 }
 
 sub insert_accession_records {
-    my ( $user, $password, $db_name, $genome_id, @odb_accessions) = @_;
+    my ( $user, $password, $db_name, $genome_id, @odb_accessions ) = @_;
 
     if ( !-f "$db_name\/$db_name\.sqlite" ) {
         print
             "[OrchardDB:Plant:ERR] - $db_name\/$db_name\.sqlite Does Not Exist!\n";
-            exit(1);
+        exit(1);
     }
     else {
 
@@ -265,13 +274,16 @@ sub insert_accession_records {
         my $prepare = $dbh->prepare($statement);
 
         foreach my $sequence (@odb_accessions) {
-            my ( $hashed_accession, $accession, $original_header, $amino_acids )
+            my ($hashed_accession, $accession,
+                $original_header,  $amino_acids
+                )
                 = split /,/,
                 $sequence;
 
             my $insert = $prepare->execute(
                 "$hashed_accession", "$accession",
-                "$original_header",  "$genome_id", "$amino_acids"
+                "$original_header",  "$genome_id",
+                "$amino_acids"
             ) or die $DBI::errstr;
             print "[OrchardDB:Plant:INFO] - Inserting $accession\n"
                 if $warnings == 1;
@@ -292,6 +304,35 @@ sub generate_genome_ID {
     my ( $taxid, $data_version, $source, $type ) = @_;
     my $genome_id = create_hash("$taxid$data_version$source$type");
     return $genome_id;
+}
+
+sub check_genome_ID {
+    my ( $user, $password, $db_name, $genome_id ) = @_;
+    my $status = 0;
+
+    if ( !-f "$db_name\/$db_name\.sqlite" ) {
+        print
+            "[OrchardDB:Plant:ERR] - $db_name\/$db_name\.sqlite Does Not Exist!\n";
+        exit(1);
+    }
+    else {
+
+        my $driver   = "SQLite";
+        my $database = "$db_name\/$db_name\.sqlite";
+        my $dsn      = "DBI:$driver:dbname=$database";
+        my $dbh = DBI->connect( $dsn, $user, $password, { RaiseError => 1 } )
+            or die $DBI::errstr;
+        print "[OrchardDB:Plant:INFO] - Successfully Conected: $database\n"
+            if $warnings >= 1;
+
+        my $statement
+            = qq(SELECT count(*) FROM odb_maintable WHERE genome_id='$genome_id');
+        $status = $dbh->prepare($statement);
+        $status->execute();
+        ($status) = $status->fetchrow_array();
+    }
+
+    return $status;
 }
 
 #
@@ -366,7 +407,7 @@ sub process_fasta {
     if ( !-f "$db_name\/$db_name\.sqlite" ) {
         print
             "[OrchardDB:Plant:ERRR] - No OrchardDB Detected. Please Make a DB First.\n";
-            exit(1);
+        exit(1);
     }
     else {
         my $output_path = "$db_name/";
@@ -425,6 +466,7 @@ sub process_fasta {
             else {
                 ($accession) = split / /, $original_header;
             }
+
             # output to array
             push @odb_accessions,
                 "$hashed_accession,$accession,$original_header,$sequence";
