@@ -1,5 +1,5 @@
 # orchardDB
-:apple: :deciduous_tree: A script to create and populate a local database and folder set with amino acid sequences retrieved from a variety of genome portals for use with the Orchard pipeline.
+:apple: :deciduous_tree: A script to create and populate a local database and folder-set with amino acid sequences retrieved from a variety of genome portals for use with the Orchard pipeline. Amino acid sequences can be derived from DNA & RNA gene predictions or from EST libraries. Multiple versions of different taxa (e.g. different gene-calling methods or updated genomes) can exist in the database.
 
 ## Install
 Please make sure all dependencies are currently installed.
@@ -20,7 +20,12 @@ git clone https://github.com/guyleonard/orchardDB.git
  * SQLite 3
 
 ## Usage
-### Setup Database
+Firstly you must set up your database, and then secondly populate it with your sequence data as detailed below.
+
+Each 'genome' - loosely used here to represent a set of amino acid sequences that come from the gene predictions of different sequencing projects - is given a unique ID (not an NCBI Taxon ID), allowing for multiple versions and sources of the same taxa. These unique IDs are used to represent the 'genome' in the database and downstream scripts, they can be translated back to a variety of information. Additionally, each sequence is given it's own unique ID, separate to that of the one from it's genome portal.
+
+### Set Up Database
+This command will create a directory named "cider" and a SQL DB named "cider.sqlite" in the same directory. This will be your store of information for the whole orchardDB.
 ```
 ./bin/plant --setup \     # instruct script to create OrchardDB
             --user test \ # username for OrchardDB
@@ -28,8 +33,10 @@ git clone https://github.com/guyleonard/orchardDB.git
             --db cider    # OrchardDB name
 ```
 ### Populate Database
+This command will add information to the database and copy your old file to the database directory with new headers. You will need to provide a file of your amino acids in FASTA format, an NCBI Taxon ID code for your species, a source as "source,subsource" choosing from (NCBI, JGI, ENSEMBL, EuPathDB or OTHER) e.g. "JGI,Mycocosm", a 'type' suggesting where your data is predicted from (e.g. DNA, RNA, EST) and a version number (always "1" if you leave this option blank). You may also like to add publication info as a PubMed ID or DOI or simply "YES","NO" or "NA".
+
 #### Any Other Genome Portal
-Header must be plain, consisting of only the accession number:
+Headers must be plain, consisting of only the accession number:
  * \>Hypho2016_00017489
 ```
 ./bin/plant --populate \  # instruct script to add data
@@ -45,7 +52,7 @@ Header must be plain, consisting of only the accession number:
 ```
 
 #### NCBI Portal
-Header must be in one of these styles, old NCBI or newer:
+Headers must be in one of these styles, old NCBI or newer:
  * \>gi|CCI39445.1|embl|CCI39445.1| unnamed protein product [Albugo candida]
    * A warning will be issued to update your source.
  * \>6FAI_A unnamed protein product [Saccharomyces cerevisiae S288C]
