@@ -107,9 +107,9 @@ elsif ($populate) {
             ( $source, $subsource ) = split /,/, $sources;
         }
         else {
-            print "[OrchardDB:Plant:WARN] - Setting subsource to: none.\n";
+            print "[OrchardDB:Plant:WARN] - Setting subsource to: NA.\n";
             $source    = $sources;
-            $subsource = "none";
+            $subsource = "NA";
         }
 
         if ($published eq "NA") {
@@ -133,7 +133,7 @@ elsif ($populate) {
 
         print "[OrchardDB:Plant:INFO] - Populating Accessions Table!\n";
         insert_accession_records( $user, $password, $db_name, $genome_id,
-            @odb_accessions );
+            @odb_accessions);
     }
 
     else {
@@ -189,6 +189,7 @@ sub setup_sqlite_db {
         extracted_accession TEXT NOT NULL,
         original_header TEXT NOT NULL,
         lookup_id INT NOT NULL,
+        sequence TEXT NOT NULL,
         FOREIGN KEY(lookup_id) REFERENCES odb_maintable(genome_id)););
 
         my $add_accession_table = $dbh->do($accession_table);
@@ -242,7 +243,7 @@ sub insert_main_table_record {
 }
 
 sub insert_accession_records {
-    my ( $user, $password, $db_name, $genome_id, @odb_accessions ) = @_;
+    my ( $user, $password, $db_name, $genome_id, @odb_accessions) = @_;
 
     if ( !-f "$db_name\/$db_name\.sql" ) {
         print
@@ -259,18 +260,18 @@ sub insert_accession_records {
         print "[OrchardDB:Plant:INFO] - Successfully Conected: $database\n";
 
         my $statement
-            = qq (INSERT OR IGNORE INTO odb_accessions (hashed_accession,extracted_accession,original_header,lookup_id)
-             VALUES (?,?,?,?));
+            = qq (INSERT OR IGNORE INTO odb_accessions (hashed_accession,extracted_accession,original_header,lookup_id,sequence)
+             VALUES (?,?,?,?,?));
         my $prepare = $dbh->prepare($statement);
 
         foreach my $sequence (@odb_accessions) {
-            my ( $hashed_accession, $accession, $original_header )
+            my ( $hashed_accession, $accession, $original_header, $amino_acids )
                 = split /,/,
                 $sequence;
 
             my $insert = $prepare->execute(
                 "$hashed_accession", "$accession",
-                "$original_header",  "$genome_id"
+                "$original_header",  "$genome_id", "$amino_acids"
             ) or die $DBI::errstr;
             print "[OrchardDB:Plant:INFO] - Inserting $accession\n"
                 if $warnings == 1;
@@ -424,10 +425,9 @@ sub process_fasta {
             else {
                 ($accession) = split / /, $original_header;
             }
-
             # output to array
             push @odb_accessions,
-                "$hashed_accession,$accession,$original_header";
+                "$hashed_accession,$accession,$original_header,$sequence";
         }
     }
 
