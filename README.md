@@ -2,7 +2,7 @@
 :apple: :deciduous_tree: A script to create and populate a local database and folder-set with amino acid sequences retrieved from a variety of genome portals for use with the Orchard pipeline. Amino acid sequences can be derived from DNA & RNA gene predictions or from EST libraries. Multiple versions of different taxa (e.g. different gene-calling methods or updated genomes) can exist in the database.
 
 ## Install
-Please make sure all dependencies are currently installed.
+Please make sure all dependencies are currently installed, then do:
 ```
 git clone https://github.com/guyleonard/orchardDB.git
 ```
@@ -23,6 +23,8 @@ git clone https://github.com/guyleonard/orchardDB.git
 Firstly you must set up your database, and then secondly populate it with your sequence data as detailed below.
 
 Each 'genome' - loosely used here to represent a set of amino acid sequences that come from the gene predictions of different sequencing projects - is given a unique ID (not an NCBI Taxon ID), allowing for multiple versions and sources of the same taxa. These unique IDs are used to represent the 'genome' in the database and downstream scripts, they can be translated back to a variety of information. Additionally, each sequence is given it's own unique ID, separate to that of the one from it's genome portal.
+
+You may add any sequence data you like to your local database, respecting any specific data release policies. Genomes included in the 'testing' dataset and the 'default' orchardDB are all publically available.
 
 ### Set Up Database
 This command will create a directory named "cider" and a SQL DB named "cider.sqlite" in the same directory. This will be your store of information for the whole orchardDB.
