@@ -30,7 +30,7 @@ git clone https://github.com/guyleonard/orchardDB.git
 ### Populate Database
 #### Any Other Genome Portal
 Header must be plain, consisting of only the accession number:
- * >Hypho2016_00017489
+ * \>Hypho2016_00017489
 ```
 ./bin/plant --populate \  # instruct script to add data
             --user test \ # username for OrchardDB
@@ -47,7 +47,7 @@ Header must be plain, consisting of only the accession number:
 #### NCBI Portal
 Header must be in one of these styles, old NCBI or newer:
  * \>gi|CCI39445.1|embl|CCI39445.1| unnamed protein product [Albugo candida]
-  * A warning will be issued to update your source.
+   * A warning will be issued to update your source.
  * \>6FAI_A unnamed protein product [Saccharomyces cerevisiae S288C]
 ```
 ./bin/plant --populate --user test --pass test --db cider --fasta testing/NCBI/Albugo_candida.fas --taxid 65357 --source NCBI --type DNA  --ver 1
