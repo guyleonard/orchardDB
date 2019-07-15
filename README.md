@@ -1,21 +1,22 @@
 # orchardDB
-:apple: :deciduous_tree: A set of publicly available amino acid sequences from various genome portals and projects for use with the Orchard pipeline.
+:apple: :deciduous_tree: A script to create and populate a local database and folder set with amino acid sequences retrieved from a variety of genome portals for use with the Orchard pipeline.
 
-
-## Dependencies
-### Perl
- * Bioperl
- * DateTime
+## Install
+Please make sure all dependencies are currently installed.
+```
+git clone https://github.com/guyleonard/orchardDB.git
+```
+### Dependencies
+#### Perl
  * Bio::DB::Taxonomy;
  * Bio::SeqIO;
+ * DateTime;
  * DBI;
  * Digest::MD5 qw(md5_hex);
  * File::Path qw(make_path);
  * Getopt::Long; 
-```
-  sudo cpanm Bio::Perl DateTime
-```
-### System Tools
+
+#### System Tools
  * SQLite 3
 
 ## Usage
@@ -24,11 +25,27 @@
 ./bin/plant --setup --user test --pass test --db cider
 ```
 ### Populate Database
+#### Any Other Genome Portal
+Header must be plain, consisting of only the accession number:
+ * >Hypho2016_00017489
+```
+./bin/plant --populate \  # istruct script to add data
+            --user test \ # username for OrchardDB
+            --pass test \ # password for OrchardDB 
+            --db cider \  # OrchardDB name
+            --fasta testing/other/richardslab/Hyphochytrium_catenoides_predicted_proteins_renamed_modified.fasta \
+            --taxid 42384 \ # NCBI TaxonID
+            --source other,richardslab \ # source,subsource
+            --type DNA \    # DNA, RNA, EST
+            --ver 1 \       # version number
+            --pub yes       # yes, DOI, NA
+```
+
 #### NCBI Portal
 Header must be in one of these styles, old NCBI or newer:
- * >gi|CCI39445.1|embl|CCI39445.1| unnamed protein product [Albugo candida]
+ * \>gi|CCI39445.1|embl|CCI39445.1| unnamed protein product [Albugo candida]
   * A warning will be issued to update your source.
- * >6FAI_A unnamed protein product [Saccharomyces cerevisiae S288C]
+ * \>6FAI_A unnamed protein product [Saccharomyces cerevisiae S288C]
 ```
 ./bin/plant --populate --user test --pass test --db cider --fasta testing/NCBI/Albugo_candida.fas --taxid 65357 --source NCBI --type DNA  --ver 1
 ./bin/plant --populate --user test --pass test --db cider --fasta testing/NCBI/Saccharomyces_cerevisiae_S288C.fas --taxid 559292 --source NCBI --type DNA  --ver 1 --pub yes
@@ -60,11 +77,4 @@ Headers are usually in this form:
  * >AEWD_010010-t26_1-p1 | transcript=AEWD_010010-t26_1 | gene=AEWD_010010 | organism=Encephalitozoon_cuniculi_EC1 | gene_product=serine hydroxymethyltransferase | transcript_product=serine hydroxymethyltransferase | location=ECI_CH01:23-1405(+) | protein_length=460 | sequence_SO=chromosome | SO
 ```
 ./bin/plant --populate --user test --pass test --db cider --fasta testing/EuPathDB/MicrosporidiaDB/MicrosporidiaDB-36_EcuniculiEC1_AnnotatedProteins.fasta --taxid 986730 --source EuPathDB,MicrosporidiaDB --type DNA  --ver 1 -pub yes
-```
-
-#### Other Genome Portal
-Header must be plain, consisting of only the accession number:
- * >Hypho2016_00017489
-```
-./bin/plant --populate --user test --pass test --db cider --fasta testing/other/richardslab/Hyphochytrium_catenoides_predicted_proteins_renamed_modified.fasta --taxid 42384 --source other,richardslab --type DNA  --ver 1 --pub yes
 ```
