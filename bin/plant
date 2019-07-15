@@ -66,7 +66,7 @@ GetOptions(
 if ($setup) {
     if ( $user && $password && $db_name ) {
         print
-            "[OrchardDB:Plant:INFO] - Trying to Create Database $db_name\/$db_name\.sql\n";
+            "[OrchardDB:Plant:INFO] - Trying to Create Database $db_name\/$db_name\.sqlite\n";
         setup_sqlite_db( $user, $password, $db_name );
     }
     else {
@@ -148,15 +148,15 @@ elsif ($populate) {
 sub setup_sqlite_db {
     my ( $user, $password, $db_name ) = @_;
 
-    if ( -f "$db_name\/$db_name\.sql" ) {
-        print "[OrchardDB:Plant:INFO] - $db_name\/$db_name\.sql Exists!\n";
+    if ( -f "$db_name\/$db_name\.sqlite" ) {
+        print "[OrchardDB:Plant:INFO] - $db_name\/$db_name\.sqlite Exists!\n";
     }
     else {
 
         make_path($db_name);
 
         my $driver   = "SQLite";
-        my $database = "$db_name\/$db_name\.sql";
+        my $database = "$db_name\/$db_name\.sqlite";
         my $dsn      = "DBI:$driver:dbname=$database";
         my $dbh = DBI->connect( $dsn, $user, $password, { RaiseError => 1 } )
             or die $DBI::errstr;
@@ -211,15 +211,15 @@ sub insert_main_table_record {
         $published,   $taxon_lineage
     ) = @_;
 
-    if ( !-f "$db_name\/$db_name\.sql" ) {
+    if ( !-f "$db_name\/$db_name\.sqlite" ) {
         print
-            "[OrchardDB:Plant:ERRR] - $db_name\/$db_name\.sql Does Not Exist!\n";
+            "[OrchardDB:Plant:ERRR] - $db_name\/$db_name\.sqlite Does Not Exist!\n";
             exit(1);
     }
     else {
 
         my $driver   = "SQLite";
-        my $database = "$db_name\/$db_name\.sql";
+        my $database = "$db_name\/$db_name\.sqlite";
         my $dsn      = "DBI:$driver:dbname=$database";
         my $dbh = DBI->connect( $dsn, $user, $password, { RaiseError => 1 } )
             or die $DBI::errstr;
@@ -245,15 +245,15 @@ sub insert_main_table_record {
 sub insert_accession_records {
     my ( $user, $password, $db_name, $genome_id, @odb_accessions) = @_;
 
-    if ( !-f "$db_name\/$db_name\.sql" ) {
+    if ( !-f "$db_name\/$db_name\.sqlite" ) {
         print
-            "[OrchardDB:Plant:ERR] - $db_name\/$db_name\.sql Does Not Exist!\n";
+            "[OrchardDB:Plant:ERR] - $db_name\/$db_name\.sqlite Does Not Exist!\n";
             exit(1);
     }
     else {
 
         my $driver   = "SQLite";
-        my $database = "$db_name\/$db_name\.sql";
+        my $database = "$db_name\/$db_name\.sqlite";
         my $dsn      = "DBI:$driver:dbname=$database";
         my $dbh = DBI->connect( $dsn, $user, $password, { RaiseError => 1 } )
             or die $DBI::errstr;
@@ -363,7 +363,7 @@ sub process_fasta {
     my $accession;
     my @odb_accessions;
 
-    if ( !-f "$db_name\/$db_name\.sql" ) {
+    if ( !-f "$db_name\/$db_name\.sqlite" ) {
         print
             "[OrchardDB:Plant:ERRR] - No OrchardDB Detected. Please Make a DB First.\n";
             exit(1);
