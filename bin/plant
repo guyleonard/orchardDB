@@ -127,10 +127,10 @@ elsif ($populate) {
 
         print "[OrchardDB:Plant:INFO] - Populating Main Table!\n";
         insert_main_table_record(
-            $user,        $password,     $db_name,      $genome_id,
-            $fasta_input, $date_time,    $source,
-            $subsource,   $type,         $data_version, $taxid,
-            $published,   $taxon_lineage
+            $user,          $password,     $db_name, $genome_id,
+            $fasta_input,   $date_time,    $source,  $subsource,
+            $type,          $data_version, $taxid,   $published,
+            $genus_species, $taxon_lineage
         );
 
         my @odb_accessions
@@ -178,6 +178,16 @@ sub setup_sqlite_db {
         version TEXT NOT NULL,
         ncbi_taxid TEXT NOT NULL,
         published TEXT,
+        t_superkingdom TEXT NOT NULL,
+        t_kingdom TEXT NOT NULL,
+        t_subkingdom TEXT NOT NULL,
+        t_phylum TEXT NOT NULL,
+        t_subphylum TEXT NOT NULL,
+        t_class TEXT NOT NULL,
+        t_order TEXT NOT NULL,
+        t_family TEXT NOT NULL,
+        t_special TEXT NOT NULL,
+        genus_species TEXT NOT NULL,
         taxonomy TEXT NOT NULL););
 
         my $add_main_table = $dbh->do($main_table);
@@ -210,10 +220,10 @@ sub setup_sqlite_db {
 }
 
 sub insert_main_table_record {
-    my ($user,        $password,     $db_name,      $genome_id,
-        $fasta_input, $date_time,    $source,
-        $subsource,   $type,         $data_version, $taxid,
-        $published,   $taxon_lineage
+    my ($user,          $password,     $db_name, $genome_id,
+        $fasta_input,   $date_time,    $source,  $subsource,
+        $type,          $data_version, $taxid,   $published,
+        $genus_species, $taxon_lineage
     ) = @_;
 
     if ( !-f "$db_name\/$db_name\.sqlite" ) {
@@ -223,24 +233,62 @@ sub insert_main_table_record {
     }
     else {
 
+        my %hash = split /[;:]/, $taxon_lineage;
+        my ($superkingdom, $kingdom, $subkingdom, $phylum, $subphylum,
+            $class,        $order,   $family,     $special
+        ) = ("NA") x 9;
+
+        if ( defined $hash{'superkingdom'} ) {
+            $superkingdom = $hash{'superkingdom'};
+        }
+        if ( defined $hash{'subkingdom'} ) {
+            $subkingdom = $hash{'subkingdom'};
+        }
+        if ( defined $hash{'kingdom'} ) {
+            $kingdom = $hash{'kingdom'};
+        }
+        if ( defined $hash{'phylum'} ) {
+            $phylum = $hash{'phylum'};
+        }
+        if ( defined $hash{'subphylum'} ) {
+            $subphylum = $hash{'subphylum'};
+        }
+        if ( defined $hash{'class'} ) {
+            $class = $hash{'class'};
+        }
+        if ( defined $hash{'order'} ) {
+            $order = $hash{'order'};
+        }
+        if ( defined $hash{'family'} ) {
+            $family = $hash{'family'};
+        }
+        if ( defined $hash{'no rank'} ) {
+            $special = $hash{'no rank'};
+        }
+
         my $driver   = "SQLite";
         my $database = "$db_name\/$db_name\.sqlite";
         my $dsn      = "DBI:$driver:dbname=$database";
         my $dbh = DBI->connect( $dsn, $user, $password, { RaiseError => 1 } )
             or die $DBI::errstr;
-        print "[OrchardDB:Plant:INFO] - Successfully Conected: $database\n";
+        print "[OrchardDB:Plant:INFO] - Successfully Conected: $database\n"
+            if $warnings >= 1;
 
         my $statement
-            = qq (INSERT OR IGNORE INTO odb_maintable (genome_id,original_fn,date_added,source,subsource,type,version,ncbi_taxid,published,taxonomy) 
-                VALUES (?,?,?,?,?,?,?,?,?,?));
+            = qq (INSERT OR IGNORE INTO odb_maintable (genome_id,original_fn,date_added,source,subsource,type,version,ncbi_taxid,published,genus_species,t_superkingdom,t_kingdom,t_subkingdom,t_phylum,t_subphylum,t_class,t_order,t_family,t_special,taxonomy) 
+                VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?));
         my $prepare = $dbh->prepare($statement);
         my $insert  = $prepare->execute(
             "$genome_id",    "$fasta_input",
-            "$date_time",
-            "$source",       "$subsource",
-            "$type",         "$data_version",
-            "$taxid",        "$published",
-            "$taxon_lineage"
+            "$date_time",    "$source",
+            "$subsource",    "$type",
+            "$data_version", "$taxid",
+            "$published",    "$genus_species",
+            "$superkingdom", "$kingdom",
+            "$subkingdom",   "$phylum",
+            "$subphylum",    "$class",
+            "$order",        "$family",
+            "$special",      "$taxon_lineage"
         );
 
         $dbh->disconnect();
@@ -396,7 +444,9 @@ sub create_hash {
 }
 
 sub process_fasta {
-    my ( $db_name, $filename, $genus_species, $source, $subsource, $genome_id ) = @_;
+    my ( $db_name, $filename, $genus_species, $source, $subsource,
+        $genome_id )
+        = @_;
     my $accession;
     my @odb_accessions;
 
