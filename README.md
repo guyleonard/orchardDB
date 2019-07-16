@@ -19,6 +19,10 @@ git clone https://github.com/guyleonard/orchardDB.git
 #### System Tools
  * SQLite 3
 
+#### Databases
+ * NCBI Taxdump - from ftp://ftp.ncbi.nih.gov/pub/taxonomy/taxdump.tar.gz
+ * Place the names.dmp and nodes.dmp file in to the cloned repository
+
 ## Usage
 Firstly you must set up your database, and then secondly populate it with your sequence data as detailed below.
 
