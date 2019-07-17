@@ -21,14 +21,20 @@ git clone https://github.com/guyleonard/orchardDB.git
 
 #### Databases
  * NCBI Taxdump - from ftp://ftp.ncbi.nih.gov/pub/taxonomy/taxdump.tar.gz
- * Place the names.dmp and nodes.dmp file in to the cloned repository
+   * Place the names.dmp and nodes.dmp file in to the cloned repository.
+ * Your own DB created by the commands below.
+ or
+ * The 'default' DB named *cider* which can be created from scripts in this repository.
 
 ## Usage
-Firstly you must set up your database, and then secondly populate it with your sequence data as detailed below.
+Firstly you must set up a database, and then secondly populate it with sequence data as detailed below.
 
-Each 'genome' - loosely used here to represent a set of amino acid sequences that come from the gene predictions of different sequencing projects - is given a unique ID (not an NCBI Taxon ID), allowing for multiple versions and sources of the same taxa. These unique IDs are used to represent the 'genome' in the database and downstream scripts, they can be translated back to a variety of information. Additionally, each sequence is given it's own unique ID, separate to that of the one from it's genome portal.
+Each 'genome' (loosely used here to represent a set of amino acid sequences that come from the gene predictions of different sequencing projects) is given a unique ID (not an NCBI Taxon ID although you will need to know this for each taxa), allowing for multiple versions and sources from the same taxa. These unique IDs are used to represent the 'genome' in the database and downstream scripts, they can be translated back to a variety of useful information but are not human readable. Additionally, each sequence is given it's own unique ID, separate to that of the one from it's genome portal, you will see those in the database accessions and initial trees before renaming.
 
-You may add any sequence data you like to your local database, respecting any specific data release policies. Genomes included in the 'testing' dataset and the 'default' orchardDB are all publically available.
+You may add any sequence data you like to your local database, respecting any specific data release policies or not - I am not your mother. Genomes included in the 'testing' dataset and the 'default' *cider* DB are all publically available and published.
+
+### Set Up *cider* Database
+Run the scripts in the cider folder, they will download the initial set of genomes and add them to a local database.
 
 ### Set Up Database
 This command will create a directory named "cider" and a SQL DB named "cider.sqlite" in the same directory. This will be your store of information for the whole orchardDB.
