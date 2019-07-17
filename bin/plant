@@ -140,6 +140,8 @@ elsif ($populate) {
         print "[OrchardDB:Plant:INFO] - Populating Accessions Table!\n";
         insert_accession_records( $user, $password, $db_name, $genome_id,
             @odb_accessions );
+
+        print "[OrchardDB:Plant:INFO] - Success!\n";
     }
 
     else {
@@ -310,7 +312,8 @@ sub insert_accession_records {
         my $dsn      = "DBI:$driver:dbname=$database";
         my $dbh = DBI->connect( $dsn, $user, $password, { RaiseError => 1 } )
             or die $DBI::errstr;
-        print "[OrchardDB:Plant:INFO] - Successfully Conected: $database\n";
+        print "[OrchardDB:Plant:INFO] - Successfully Conected: $database\n"
+            if $warnings >= 1;
 
         my $statement
             = qq (INSERT OR IGNORE INTO odb_accessions (hashed_accession,extracted_accession,original_header,lookup_id,sequence)
