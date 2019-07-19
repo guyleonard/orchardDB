@@ -1,214 +1,150 @@
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Marchantia_polymorpha.Marchanta_polymorpha_v1.pep.all.fa	--taxid	3197	--source	Ensembl,Plants	--type	DNA	--ver	Marchanta_polymorpha_v1	--pub	DOI:10.1016/j.cell.2017.09.030	Marchantia	polymorpha
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Physcomitrella_patens.ASM242v1.pep.all.fa	--taxid	3218	--source	Ensembl,Plants	--type	DNA	--ver	ASM242v1	--pub	DOI:10.1016/j.cell.2017.09.030	Physcomitrella	patens
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Cyanidioschyzon_merolae.ASM9120v1.pep.all.fa	--taxid	280699	--source	Ensembl,Plants	--type	DNA	--ver	ASM9120v1	--pub	DOI:10.1038/nature02398	Cyanidioschyzon	merolae
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Chondrus_crispus.ASM35022v2.pep.all.fa	--taxid	2769	--source	Ensembl,Plants	--type	DNA	--ver	ASM35022v2	--pub	DOI:10.1073/pnas.1221259110	Chondrus	crispus
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Chlamydomonas_reinhardtii.v3.1.pep.all.fa	--taxid	3055	--source	Ensembl,Plants	--type	DNA	--ver	v3.1	--pub	DOI:10.1126/science.1143609	Chlamydomonas	reinhardtii
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Selaginella_moellendorffii.v1.0.pep.all.fa	--taxid	88036	--source	Ensembl,Plants	--type	DNA	--ver	v1.0	--pub	DOI:10.1126/science.1203810 	Selaginella	moellendorffii
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Galdieria_sulphuraria.ASM34128v1.pep.all.fa	--taxid	130081	--source	Ensembl,Plants	--type	DNA	--ver	ASM34128v1	--pub	DOI:10.1126/science.1231707	Galdieria	sulphuraria
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Actinidia_chinensis.Red5_PS1_1.69.0.pep.all.fa	--taxid	1590841	--source	Ensembl,Plants	--type	DNA	--ver	Red5_PS1_1.69.0	--pub	DOI:10.1038/ncomms3640	Actinidia	chinensis
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Aegilops_tauschii.ASM34733v1.pep.all.fa	--taxid	37682	--source	Ensembl,Plants	--type	DNA	--ver	ASM34733v1	--pub	DOI:10.1038/nature12028	Aegilops	tauschii
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Amborella_trichopoda.AMTR1.0.pep.all.fa	--taxid	13333	--source	Ensembl,Plants	--type	DNA	--ver	AMTR1.0	--pub	DOI:10.1126/science.1241089	Amborella	trichopoda
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Arabidopsis_halleri.Ahal2.2.pep.all.fa	--taxid	63677	--source	Ensembl,Plants	--type	DNA	--ver	Ahal2.2	--pub	NA	Arabidopsis	halleri
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Arabidopsis_lyrata.v.1.0.pep.all.fa	--taxid	81972	--source	Ensembl,Plants	--type	DNA	--ver	v.1.0	--pub	DOI:10.1038/ng.807	Arabidopsis	lyrata
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Arabidopsis_thaliana.TAIR10.pep.all.fa	--taxid	3702	--source	Ensembl,Plants	--type	DNA	--ver	TAIR10	--pub	DOI:10.1038/35048692	Arabidopsis	thaliana
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Beta_vulgaris.RefBeet-1.2.2.pep.all.fa	--taxid	3555	--source	Ensembl,Plants	--type	DNA	--ver	RefBeet-1.2.2	--pub	DOI:10.1038/nature12817	Beta	vulgaris
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Brachypodium_distachyon.v1.0.pep.all.fa	--taxid	15368	--source	Ensembl,Plants	--type	DNA	--ver	v1.0	--pub	DOI:10.1038/nature08747	Brachypodium	distachyon
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Brassica_napus.AST_PRJEB5043_v1.pep.all.fa	--taxid	3708	--source	Ensembl,Plants	--type	DNA	--ver	AST_PRJEB5043_v1	--pub	DOI:10.1126/science.1253435	Brassica	napus
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Brassica_oleracea.v2.1.pep.all.fa	--taxid	109376	--source	Ensembl,Plants	--type	DNA	--ver	v2.1	--pub	DOI:10.1038/ncomms4930	Brassica	oleracea
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Brassica_rapa.IVFCAASv1.pep.all.fa	--taxid	51351	--source	Ensembl,Plants	--type	DNA	--ver	IVFCAASv1	--pub	DOI:10.1038/ng.919	Brassica	rapa
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Corchorus_capsularis.CCACVL1_1.0.pep.all.fa	--taxid	210143	--source	Ensembl,Plants	--type	DNA	--ver	CCACVL1_1.0	--pub	DOI:10.1038/nplants.2016.223	Corchorus	capsularis
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Cucumis_sativus.ASM407v2.pep.all.fa	--taxid	3659	--source	Ensembl,Plants	--type	DNA	--ver	ASM407v2	--pub	yes	Cucumis	sativus
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Daucus_carota.ASM162521v1.pep.all.fa	--taxid	79200	--source	Ensembl,Plants	--type	DNA	--ver	ASM162521v1	--pub	yes	Daucus	carota
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Dioscorea_rotundata.TDr96_F1_Pseudo_Chromosome_v1.0.pep.all.fa	--taxid	55577	--source	Ensembl,Plants	--type	DNA	--ver	TDr96_F1_Pseudo_Chromosome_v1.0	--pub	yes	Dioscorea	rotundata
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Glycine_max.Glycine_max_v2.0.pep.all.fa	--taxid	3847	--source	Ensembl,Plants	--type	DNA	--ver	Glycine_max_v2.0	--pub	yes	Glycine	max
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Gossypium_raimondii.Graimondii2_0.pep.all.fa	--taxid	29730	--source	Ensembl,Plants	--type	DNA	--ver	Graimondii2_0	--pub	yes	Gossypium	raimondii
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Helianthus_annuus.HanXRQr1.0.pep.all.fa	--taxid	4232	--source	Ensembl,Plants	--type	DNA	--ver	HanXRQr1.0	--pub	yes	Helianthus	annuus
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Hordeum_vulgare.Hv_IBSC_PGSB_v2.pep.all.fa	--taxid	112509	--source	Ensembl,Plants	--type	DNA	--ver	IBSC v2	--pub	yes	Hordeum	vulgare
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Leersia_perrieri.Lperr_V1.4.pep.all.fa	--taxid	77586	--source	Ensembl,Plants	--type	DNA	--ver	Lperr_V1.4	--pub	yes	Leersia	perrieri
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Lupinus_angustifolius.LupAngTanjil_v1.0.pep.all.fa	--taxid	3871	--source	Ensembl,Plants	--type	DNA	--ver	LupAngTanjil_v1.0	--pub	yes	Lupinus	angustifolius
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Manihot_esculenta.Manihot_esculenta_v6.pep.all.fa	--taxid	3983	--source	Ensembl,Plants	--type	DNA	--ver	Manihot_esculenta_v6	--pub	yes	Manihot	esculenta
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Medicago_truncatula.MedtrA17_4.0.pep.all.fa	--taxid	3880	--source	Ensembl,Plants	--type	DNA	--ver	MedtrA17_4.0	--pub	yes	Medicago	truncatula
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Musa_acuminata.MA1.pep.all.fa	--taxid	214687	--source	Ensembl,Plants	--type	DNA	--ver	MA1	--pub	yes	Musa	acuminata
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Nicotiana_attenuata.NIATTr2.pep.all.fa	--taxid	49451	--source	Ensembl,Plants	--type	DNA	--ver	NIATTr2	--pub	yes	Nicotiana	attenuata
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Oryza_barthii.O.barthii_v1.pep.all.fa	--taxid	65489	--source	Ensembl,Plants	--type	DNA	--ver	O.barthii_v1	--pub	yes	Oryza	barthii
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Oryza_brachyantha.Oryza_brachyantha.v1.4b.pep.all.fa	--taxid	4533	--source	Ensembl,Plants	--type	DNA	--ver	Oryza_brachyantha.v1.4b	--pub	yes	Oryza	brachyantha
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Oryza_glaberrima.AGI1.1.pep.all.fa	--taxid	4538	--source	Ensembl,Plants	--type	DNA	--ver	AGI1.1	--pub	yes	Oryza	glaberrima
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Oryza_glumaepatula.ALNU02000000.pep.all.fa	--taxid	40148	--source	Ensembl,Plants	--type	DNA	--ver	ALNU02000000	--pub	yes	Oryza	glumaepatula
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Oryza_indica.ASM465v1.pep.all.fa	--taxid	39946	--source	Ensembl,Plants	--type	DNA	--ver	ASM465v1	--pub	yes	Oryza	sativa
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Oryza_longistaminata.O_longistaminata_v1.0.pep.all.fa	--taxid	4528	--source	Ensembl,Plants	--type	DNA	--ver	O_longistaminata_v1.0	--pub	yes	Oryza	longistaminata
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Oryza_meridionalis.Oryza_meridionalis_v1.3.pep.all.fa	--taxid	40149	--source	Ensembl,Plants	--type	DNA	--ver	Oryza_meridionalis_v1.3	--pub	yes	Oryza	meridionalis
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Oryza_nivara.AWHD00000000.pep.all.fa	--taxid	4536	--source	Ensembl,Plants	--type	DNA	--ver	AWHD00000000	--pub	yes	Oryza	nivara
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Oryza_punctata.AVCL00000000.pep.all.fa	--taxid	4537	--source	Ensembl,Plants	--type	DNA	--ver	AVCL00000000	--pub	yes	Oryza	punctata
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Oryza_rufipogon.OR_W1943.pep.all.fa	--taxid	4529	--source	Ensembl,Plants	--type	DNA	--ver	OR_W1943	--pub	yes	Oryza	rufipogon
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Oryza_sativa.IRGSP-1.0.pep.all.fa	--taxid	39947	--source	Ensembl,Plants	--type	DNA	--ver	IRGSP-1.0	--pub	yes	Oryza	sativa
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Ostreococcus_lucimarinus.ASM9206v1.pep.all.fa	--taxid	436017	--source	Ensembl,Plants	--type	DNA	--ver	ASM9206v1	--pub	yes	Ostreococcus	lucimarinus
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Panicum_hallii_fil2.PHallii_v3.1.pep.all.fa	--taxid	206008	--source	Ensembl,Plants	--type	DNA	--ver	PHallii_v3.1	--pub	yes	Panicum	hallii
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Panicum_hallii_hal2.PhalliiHAL_v2.1.pep.all.fa	--taxid	1504633	--source	Ensembl,Plants	--type	DNA	--ver	PhalliiHAL_v2.1	--pub	yes	Panicum	hallii
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Phaseolus_vulgaris.PhaVulg1_0.pep.all.fa	--taxid	3885	--source	Ensembl,Plants	--type	DNA	--ver	PhaVulg1_0	--pub	yes	Phaseolus	vulgaris
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Populus_trichocarpa.JGI2.0.pep.all.fa	--taxid	3694	--source	Ensembl,Plants	--type	DNA	--ver	JGI2.0	--pub	yes	Populus	trichocarpa
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Prunus_persica.Prunus_persica_NCBIv2.pep.all.fa	--taxid	3760	--source	Ensembl,Plants	--type	DNA	--ver	Prunus_persica_NCBIv2	--pub	yes	Prunus	persica
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Setaria_italica.JGIv2.0.pep.all.fa	--taxid	4555	--source	Ensembl,Plants	--type	DNA	--ver	JGIv2.0	--pub	yes	Setaria	italica
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Solanum_lycopersicum.SL2.50.pep.all.fa	--taxid	4081	--source	Ensembl,Plants	--type	DNA	--ver	SL2.50	--pub	yes	Solanum	lycopersicum
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Solanum_tuberosum.SolTub_3.0.pep.all.fa	--taxid	4113	--source	Ensembl,Plants	--type	DNA	--ver	SolTub_3.0	--pub	yes	Solanum	tuberosum
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Sorghum_bicolor.Sorghum_bicolor_NCBIv3.pep.all.fa	--taxid	4558	--source	Ensembl,Plants	--type	DNA	--ver	Sorghum_bicolor_NCBIv3	--pub	yes	Sorghum	bicolor
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Theobroma_cacao.Theobroma_cacao_20110822.pep.all.fa	--taxid	3641	--source	Ensembl,Plants	--type	DNA	--ver	Theobroma_cacao_20110822	--pub	yes	Theobroma	cacao
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Trifolium_pratense.Trpr.pep.all.fa	--taxid	57577	--source	Ensembl,Plants	--type	DNA	--ver	Trpr	--pub	yes	Trifolium	pratense
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Triticum_aestivum.TGACv1.pep.all.fa	--taxid	4565	--source	Ensembl,Plants	--type	DNA	--ver	TGACv1	--pub	yes	Triticum	aestivum
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Triticum_dicoccoides.WEWSeq_v.1.0.pep.all.fa	--taxid	85692	--source	Ensembl,Plants	--type	DNA	--ver	WEWSeq_v.1.0	--pub	yes	Triticum	dicoccoides
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Triticum_urartu.ASM34745v1.pep.all.fa	--taxid	4572	--source	Ensembl,Plants	--type	DNA	--ver	ASM34745v1	--pub	yes	Triticum	urartu
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Vigna_angularis.Vigan1.1.pep.all.fa	--taxid	3914	--source	Ensembl,Plants	--type	DNA	--ver	Vigan1.1	--pub	yes	Vigna	angularis
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Vigna_radiata.Vradiata_ver6.pep.all.fa	--taxid	3916	--source	Ensembl,Plants	--type	DNA	--ver	Vradiata_ver6	--pub	yes	Vigna	radiata
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Vitis_vinifera.IGGP_12x.pep.all.fa	--taxid	29760	--source	Ensembl,Plants	--type	DNA	--ver	IGGP_12x	--pub	yes	Vitis	vinifera
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Zea_mays.AGPv4.pep.all.fa	--taxid	4577	--source	Ensembl,Plants	--type	DNA	--ver	B73 RefGen_v4	--pub	yes	Zea	mays
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Ostta4221_3_GeneCatalog_proteins_20161028.aa.fasta	--taxid	70448	--source	JGI,Phytozome	--type	DNA	--ver	v3.0	--pub	DOI:10.1073/pnas.0604795103	Ostreococcus	tauri
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	OstreococcusRCC809v2.allModels.proteins.fasta	--taxid	385169	--source	JGI,Phytozome	--type	DNA	--ver	v2.0	--pub	DOI:10.1073/pnas.0611046104	Ostreococcus	sp.
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Czofingiensis_461_v5.2.3.2.protein.fa	--taxid	31302	--source	JGI,Phytozome	--type	DNA	--ver	v5.2.3.2	--pub	DOI:10.1073/pnas.1619928114	Chromochloris	zofingiensis
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Pumbilicalis_456_v1.5.protein.fa	--taxid	2786	--source	JGI,Phytozome	--type	DNA	--ver	v1.5	--pub	DOI:10.1073/pnas.1703088114	Porphyra	umbilicalis
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Chlorella_NC64A.all_proteins.fasta 	--taxid	554065	--source	JGI,Phytozome	--type	DNA	--ver		--pub	DOI:10.1105/tpc.110.076406	Chlorella	variabilis
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	MpusillaCCMP1545_228_v3.0.protein.fa	--taxid	564608	--source	JGI,Phytozome	--type	DNA	--ver	v3.0	--pub	DOI:10.1126/science.1167222	Micromonas	pusilla
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	MspRCC299_229_v3.0.protein.fa	--taxid	296587	--source	JGI,Phytozome	--type	DNA	--ver	v3.0	--pub	DOI:10.1126/science.1167222	Micromonas	sp.
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Vcarteri_317_v2.1.protein.fa	--taxid	3067	--source	JGI,Phytozome	--type	DNA	--ver	v2.1	--pub	DOI:10.1126/science.1188800	Volvox	carteri
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Bbraunii_502_v2.1.protein.fa	--taxid	38881	--source	JGI,Phytozome	--type	DNA	--ver	v2.1	--pub	DOI:10.1128/genomeA.00215-17	Botryococcus	braunii
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	CsubellipsoideaC_169_227_v2.0.protein.fa	--taxid	574566	--source	JGI,Phytozome	--type	DNA	--ver	v2.0	--pub	DOI:10.1186/gb-2012-13-5-r39	Coccomyxa	subellipsoidea
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Ahypochondriacus_459_v2.1.protein.fa	--taxid	28502	--source	JGI,Phytozome	--type	DNA	--ver	v2.1	--pub	DOI:10.1093/dnares/dsu021	Amaranthus	hypochondriacus
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Aoccidentale_449_v0.9.protein.fa	--taxid	171929	--source	JGI,Phytozome	--type	DNA	--ver	v0.9	--pub	NA	Anacardium	occidentale
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Acomosus_321_v3.protein.fa	--taxid	4615	--source	JGI,Phytozome	--type	DNA	--ver	v3	--pub	DOI:10.1038/ng.3435	Ananas	comosus
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Acoerulea_322_v3.1.protein.fa	--taxid	218851	--source	JGI,Phytozome	--type	DNA	--ver	v3.1	--pub	DOI:10.7554/eLife.36426	Aquilegia	coerulea
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Aofficinalis_498_V1.1.protein.fa	--taxid	4686	--source	JGI,Phytozome	--type	DNA	--ver	V1.1	--pub	DOI:10.1038/s41467-017-01064-8	Asparagus	officinalis
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Bstricta_278_v1.2.protein.fa	--taxid	72658	--source	JGI,Phytozome	--type	DNA	--ver	v1.2	--pub	DOI:10.3390/genes9040185	Boechera	stricta
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Bstacei_316_v1.1.protein.fa	--taxid	1071399	--source	JGI,Phytozome	--type	DNA	--ver	v1.1	--pub	NA	Brachypodium	stacei
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Bhybridum_463_v1.1.protein.fa	--taxid	1071398	--source	JGI,Phytozome	--type	DNA	--ver	v1.1	--pub	NA	Brachypodium	hybridum
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Bsylvaticum_490_v1.1.protein.fa	--taxid	29664	--source	JGI,Phytozome	--type	DNA	--ver	v1.1	--pub	NA	Brachypodium	sylvaticum
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Cgrandiflora_266_v1.1.protein.fa	--taxid	264402	--source	JGI,Phytozome	--type	DNA	--ver	v1.1	--pub	NA	Capsella	grandiflora
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Crubella_183_v1.0.protein.fa	--taxid	81985	--source	JGI,Phytozome	--type	DNA	--ver	v1.0	--pub	DOI:10.1038/ng.2669	Capsella	rubella
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Cpapaya_113_ASGPBv0.4.protein.fa	--taxid	3649	--source	JGI,Phytozome	--type	DNA	--ver	v0.4	--pub	DOI:10.1038/35048692	Carica	papaya
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Cquinoa_392_v1.0.protein.fa	--taxid	63459	--source	JGI,Phytozome	--type	DNA	--ver	v1.0	--pub	DOI:10.1093/dnares/dsw037	Chenopodium	quinoa
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Carietinum_492_v1.0.protein.fa	--taxid	3827	--source	JGI,Phytozome	--type	DNA	--ver	v1.0	--pub	DOI:10.1038/nbt.2491	Cicer	arietinum
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Cclementina_182_v1.0.protein.fa	--taxid	85681	--source	JGI,Phytozome	--type	DNA	--ver	v1.0	--pub	DOI:10.1038/nbt.2906	Citrus	clementina
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Csinensis_154_v1.1.protein.fa	--taxid	2711	--source	JGI,Phytozome	--type	DNA	--ver	v1.1	--pub	DOI:10.1038/ng.2472	Citrus	sinensis
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Dsalina_325_v1.0.protein.fa	--taxid	3046	--source	JGI,Phytozome	--type	DNA	--ver	v1.0	--pub	yes	Dunaliella	salina
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Egrandis_297_v2.0.protein.fa	--taxid	71139	--source	JGI,Phytozome	--type	DNA	--ver	v2.0	--pub	yes	Eucalyptus	grandis
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Esalsugineum_173_v1.0.protein.fa	--taxid	72664	--source	JGI,Phytozome	--type	DNA	--ver	v1.0	--pub	yes	Eutrema	salsugineum
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Fvesca_226_v1.1.protein.fa	--taxid	57918	--source	JGI,Phytozome	--type	DNA	--ver	v1.1	--pub	yes	Fragaria	vesca
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Ghirsutum_458_v1.1.protein.fa	--taxid	3635	--source	JGI,Phytozome	--type	DNA	--ver	v1.1	--pub	yes	Gossypium	hirsutum
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Kfedtschenkoi_382_v1.1.protein.fa	--taxid	63787	--source	JGI,Phytozome	--type	DNA	--ver	v1.1	--pub	yes	Kalanchoe	fedtschenkoi
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Klaxiflora_309_v1.1.protein.fa	--taxid	1670617	--source	JGI,Phytozome	--type	DNA	--ver	v1.1	--pub	yes	Kalanchoe	laxiflora
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Lsativa_467_v5.protein.fa	--taxid	4236	--source	JGI,Phytozome	--type	DNA	--ver	V8	--pub	yes	Lactuca	sativa
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Lusitatissimum_200_v1.0.protein.fa	--taxid	4006	--source	JGI,Phytozome	--type	DNA	--ver	v1.0	--pub	yes	Linum	usitatissimum
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Mdomestica_196_v1.0.protein.fa	--taxid	3750	--source	JGI,Phytozome	--type	DNA	--ver	v1.0	--pub	yes	Malus	domestica
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Mguttatus_256_v2.0.protein.fa	--taxid	4155	--source	JGI,Phytozome	--type	DNA	--ver	v2.0	--pub	yes	Mimulus	guttatus
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Msinensis_497_v7.1.protein.fa	--taxid	62337	--source	JGI,Phytozome	--type	DNA	--ver	v7.1	--pub	yes	Miscanthus	sinensis
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Oeuropaea_451_v1.0.protein.fa	--taxid	158386	--source	JGI,Phytozome	--type	DNA	--ver	v1.0	--pub	yes	Olea	europaea
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Othomaeum_386_v1.0.protein.fa	--taxid	1148796	--source	JGI,Phytozome	--type	DNA	--ver	v1.0	--pub	yes	Oropetium	thomaeum
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Pvirgatum_273_v1.1.protein.fa	--taxid	38727	--source	JGI,Phytozome	--type	DNA	--ver	v1.1	--pub	yes	Panicum	virgatum
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	PdeltoidesWV94_445_v2.1.protein.fa	--taxid	3696	--source	JGI,Phytozome	--type	DNA	--ver	v2.1	--pub	yes	Populus	deltoides
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Rcommunis_119_v0.1.protein.fa	--taxid	3988	--source	JGI,Phytozome	--type	DNA	--ver	v0.1	--pub	yes	Ricinus	communis
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Spurpurea_289_v1.0.protein.fa	--taxid	77065	--source	JGI,Phytozome	--type	DNA	--ver	v1.0	--pub	yes	Salix	purpurea
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Sviridis_500_v2.1.protein.fa	--taxid	4556	--source	JGI,Phytozome	--type	DNA	--ver	v2.1	--pub	yes	Setaria	viridis
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Sfallax_310_v0.5.protein.fa	--taxid	53036	--source	JGI,Phytozome	--type	DNA	--ver	v0.5	--pub	yes	Sphagnum	fallax
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Spolyrhiza_290_v2.protein.fa	--taxid	29656	--source	JGI,Phytozome	--type	DNA	--ver	v2	--pub	yes	Spirodela	polyrhiza
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Taestivum_296_v2.2.protein.fa	--taxid	4565	--source	JGI,Phytozome	--type	DNA	--ver	v2.2	--pub	yes	Triticum	aestivum
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Vunguiculata_469_v1.1.protein.fa	--taxid	3917	--source	JGI,Phytozome	--type	DNA	--ver	v1.1	--pub	yes	Vigna	unguiculata
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Zmarina_324_v2.2.protein.fa	--taxid	29655	--source	JGI,Phytozome	--type	DNA	--ver	v2.2	--pub	yes	Zostera	marina
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCA_003427395.1_Cbr_1.0_protein.faa.gz	--taxid	69332	--source	NCBI,GenBank	--type	DNA	--ver	1	--pub	DOI:10.1016/j.cell.2018.06.033	Chara	braunii
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCA_001584585.1_ASM158458v1_protein.faa.gz	--taxid	33097	--source	NCBI,GenBank	--type	DNA	--ver	1	--pub	DOI:10.1038/ncomms11370	Gonium	pectorale
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCA_003203535.1_Rsub_1.0_protein.faa	--taxid	307507	--source	NCBI,GenBank	--type	DNA	--ver	1	--pub	DOI:10.1038/s41598-018-26331-6	Raphidocelis	subcapitata
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCA_002335675.1_C.eustigma_genome_v1.0_protein.faa	--taxid	1157962	--source	NCBI,GenBank	--type	DNA	--ver	1	--pub	DOI:10.1073/pnas.1707072114	Chlamydomonas	eustigma
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCA_002891735.1_TetSoc1_protein.faa	--taxid	47790	--source	NCBI,GenBank	--type	DNA	--ver	1	--pub	DOI:10.1093/molbev/msx332	Tetrabaena	socialis
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCA_002245835.2_Chlorella_sorokiniana_2.0_protein.faa	--taxid	3076	--source	NCBI,GenBank	--type	DNA	--ver	2	--pub	DOI:10.1111/tpj.13789	Chlorella	sorokiniana
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCA_002245815.2_ASM224581v2_protein.faa	--taxid	554055	--source	NCBI,GenBank	--type	DNA	--ver	2	--pub	DOI:10.1111/tpj.13789	Micractinium	conductrix
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCA_003194525.1_GraCho1.0_protein.faa	--taxid	448386	--source	NCBI,GenBank	--type	DNA	--ver	1	--pub	PMID:29688518	Gracilariopsis	chorda
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCA_002271885.2_ASM227188v2_protein.faa	--taxid	33114	--source	NCBI,GenBank	--type	DNA	--ver	2	--pub	DOI:10.1186/s13059-017-1341-9	Capsicum	baccatum
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCA_002271895.2_ASM227189v2_protein.faa	--taxid	80379	--source	NCBI,GenBank	--type	DNA	--ver	2	--pub	DOI:10.1186/s13059-017-1341-9	Capsicum	chinense
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCA_900059795.1_AUK_PRJEB4211_v1_protein.faa	--taxid	49390	--source	NCBI,GenBank	--type	DNA	--ver	1	--pub	DOI:10.1126/science.1255274	Coffea	canephora
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_000611645.1_mono_v1_protein.faa	--taxid	145388	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	DOI:10.1186/1471-2164-14-926	Monoraphidium	neglectum
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_000733215.1_ASM73321v1_protein.faa	--taxid	3075	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	DOI:10.1186/1471-2164-15-582	Auxenochlorella	protothecoides
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_000340665.1_C.cajan_V1.0_protein.faa.gz	--taxid	3821	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	PMID:22057054	Cajanus	cajan
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_002220235.1_ASM222023v1_protein.faa	--taxid	41875	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	PMID:22745802	Bathycoccus	prasinos
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_003086295.2_arahy.Tifrunner.gnm1.KYV3_protein.faa	--taxid	3818	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	PMID:22967170	Arachis	hypogaea
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_000816755.2_Araip1.1_protein.faa.gz	--taxid	130454	--source	NCBI,RefSeq	--type	DNA	--ver	1.1	--pub	PMID:22967170	Arachis	ipaensis
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_000817695.2_Aradu1.1_protein.faa	--taxid	130453	--source	NCBI,RefSeq	--type	DNA	--ver	1.1	--pub	PMID:26901068	Arachis	duranensis
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_000633955.1_Cs_protein.faa	--taxid	90675	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	DOI:10.1038/ncomms4706	Camelina	sativa
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_000710875.1_Pepper_Zunla_1_Ref_v1.0_protein.faa	--taxid	4072	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	DOI:10.1038/ng.2877	Capsicum	annuum
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_003713225.1_Cara_1.0_protein.faa	--taxid	13443	--source	NCBI,RefSeq	--type	DNA	--ver		--pub	DOI:10.1111/pbi.12912	Coffea	arabica
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	canSat3_transcriptome-representative_ORFs.fa	--taxid	3483	--source	Other,CGB	--type	ORF	--ver	1	--pub	DOI:10.1186/gb-2011-12-10-r102	Cannabis	sativa
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	G.phlegrea.Predicted_Proteins.aa	--taxid	1389228	--source	Other,CGP	--type	DNA	--ver	2010	--pub	DOI:10.1016/j.cub.2013.08.046	Galdieria	phlegrea
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Cyanophora_paradoxa_MAKER_gene_predictions-022111-aa.fasta	--taxid	2762	--source	Other,CGP	--type	DNA	--ver	2011	--pub	DOI:10.1126/science.1213561	Cyanophora	paradoxa
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	C.maxima_v1_HWB.peptide.fasta	--taxid	37334	--source	Other,citrusgenomedb	--type	DNA	--ver	1	--pub	NA	Citrus	maxima
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	watermelon_97103_v2.protein.fa	--taxid	3654	--source	Other,cucurbitgenomics	--type	DNA	--ver	2	--pub	DOI:10.1038/ng.2470	Citrullus	lanatus
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Gmm.final.pep	--taxid	3381	--source	Other,Dryad	--type	DNA	--ver	1	--pub	DOI:10.1038/s41477-017-0097-2	Gnetum	montanum
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	CF150.aa.fa	--taxid	1034479	--source	Other,Dryad	--type	DNA	--ver	1	--pub	DOI:10.5061/dryad.k83g4	Chloroidium	sp.
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Azolla_filiculoides.proteins_v1.1.fasta	--taxid	84609	--source	Other,Fernbase	--type	DNA	--ver	1.1	--pub	DOI:10.1038/s41477-018-0188-8	Azolla	filiculoides
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Salvinia_cucullata.proteins_v1.2.fasta	--taxid	32188	--source	Other,Fernbase	--type	DNA	--ver	1.2	--pub	DOI:10.1038/s41477-018-0188-8	Salvinia	cucullata
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	pearl_millet_pep	--taxid	4543	--source	Other,GigaDB	--type	DNA	--ver	2016	--pub	DOI:10.1038/nbt.3943 	Cenchrus	americanus
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Pyezoensis_Augustus_proteins_v1.fasta	--taxid	2788	--source	Other,NRIFS	--type	DNA	--ver	1	--pub	DOI:10.1371/journal.pone.0057122	Pyropia	yezoensis
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	clen_genemodels-v1.1.faa	--taxid	148947	--source	Other,OIST	--type	DNA	--ver	1.1	--pub	DOI:10.1093/dnares/dsz002	Caulerpa	lentillifera
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Ulvmu_prot_LATEST.tfa	--taxid	498180	--source	Other,OrcAE	--type	DNA	--ver	2018	--pub	DOI:10.1016/j.cub.2018.08.015	Ulva	mutabilis
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Pabies1.0-all-pep.faa	--taxid	3329	--source	Other,PlantGenie	--type	DNA	--ver	1	--pub	DOI:10.1038/nature12211	Picea	abies
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	manualannotations-PG29V4_protein.fna	--taxid	3330	--source	Other,PlantGenie	--type	DNA	--ver	PG29v4	--pub	DOI:10.1038/nature12211	Picea	glauca
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Manual_annotations_Protein.fasta	--taxid	3330	--source	Other,PlantGenie	--type	DNA	--ver	WS77111v1	--pub	DOI:10.1038/nature12211	Picea	glauca
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	ptaeda.v1.01.scaffolds.trimmed.all.maker.proteins.fa	--taxid	3352	--source	Other,PlantGenie	--type	DNA	--ver	1.01	--pub	DOI:10.1186/gb-2014-15-3-r59	Pinus	taeda
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Helicosporidium.fasta	--taxid	1907511	--source	Other,PloSGen	--type	DNA	--ver	1	--pub	DOI:10.1371/journal.pgen.1004355	Helicosporidium	sp.
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Porphyridium_genemodels_UPDATED.fasta	--taxid	35688	--source	Other,Rutgers	--type	DNA	--ver	2012	--pub	DOI:10.1038/ncomms2931	Porphyridium	purpureum
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Picochlorum-SENEW3-peptides.fasta	--taxid	1470871	--source	Other,Rutgers	--type	DNA	--ver	1	--pub	DOI:10.1111/1462-2920.12541	Picochlorum	sp.
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Cr_protein_v2.0.fasta	--taxid	90898	--source	Other,WCGAP	--type	DNA	--ver	2	--pub	DOI:10.1093/dnares/dsw042	Cicer	reticulatum
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Ginkgo_biloba.HiC.protein.fasta	--taxid	3311	--source	Other,GigaDB	--type	DNA	--ver	2019	--pub	DOI:10.1016/j.cell.2017.09.030	Ginkgo	biloba
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	160614_klebsormidium_v1.1_AA.fasta	--taxid	3175	--source	Other,KGP	--type	DNA	--ver	1.1	--pub	DOI:10.1038/ncomms4978	Klebsormidium	flaccidum
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_000313045.1_ASM31304v1_protein.faa	--taxid	3656	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	DOI:10.1073/pnas.1205415109	Cucumis	melo
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_002738345.1_Cmax_1.0_protein.faa	--taxid	3661	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	DOI:10.1016/j.molp.2017.09.003	Cucurbita	maxima
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_002738365.1_Cmos_1.0_protein.faa	--taxid	3662	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	DOI:10.1016/j.molp.2017.09.003	Cucurbita	moschata
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_002806865.1_ASM280686v2_protein.faa	--taxid	3663	--source	NCBI,RefSeq	--type	DNA	--ver	2	--pub	DOI:10.1111/pbi.12860	Cucurbita	pepo
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_001531365.1_CcrdV1_protein	--taxid	4265	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	DOI:10.1038/srep19427	Cynara	cardunculus
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_001605985.2_ASM160598v2_protein.faa	--taxid	906689	--source	NCBI,RefSeq	--type	DNA	--ver	2	--pub	DOI:10.1038/srep19029	Dendrobium	catenatum
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	55577	--source		--type	DNA	--ver		--pub	yes	Dioscorea	rotundata
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	66656	--source		--type	DNA	--ver		--pub	yes	Durio	zibethinus
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	113446	--source		--type	DNA	--ver		--pub	yes	Echium	plantagineum
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	51953	--source		--type	DNA	--ver		--pub	yes	Elaeis	guineensis
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	4155	--source		--type	DNA	--ver		--pub	yes	Erythranthe	guttata
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	62330	--source		--type	DNA	--ver		--pub	yes	Fagopyrum	tataricum
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	3848	--source		--type	DNA	--ver		--pub	yes	Glycine	soja
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	47615	--source		--type	DNA	--ver		--pub	yes	Gossypioides	kirkii
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	29729	--source		--type	DNA	--ver		--pub	yes	Gossypium	arboreum
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	34273	--source		--type	DNA	--ver		--pub	yes	Gossypium	thurberi
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	4232	--source		--type	DNA	--ver		--pub	yes	Helianthus	annuus
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	108875	--source		--type	DNA	--ver		--pub	yes	Herrania	umbratica
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	3981	--source		--type	DNA	--ver		--pub	yes	Hevea	brasiliensis
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	4120	--source		--type	DNA	--ver		--pub	yes	Ipomoea	batatas
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	35883	--source		--type	DNA	--ver		--pub	yes	Ipomoea	nil
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	35884	--source		--type	DNA	--ver		--pub	yes	Ipomoea	trifida
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	35885	--source		--type	DNA	--ver		--pub	yes	Ipomoea	triloba
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	180498	--source		--type	DNA	--ver		--pub	yes	Jatropha	curcas
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	91219	--source		--type	DNA	--ver		--pub	yes	Juglans	microcarpa
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	3668	--source		--type	DNA	--ver		--pub	yes	Lagenaria	siceraria
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	183675	--source		--type	DNA	--ver		--pub	yes	Miscanthus	sacchariflorus
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	3673	--source		--type	DNA	--ver		--pub	yes	Momordica	charantia
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	262757	--source		--type	DNA	--ver		--pub	yes	Morella	rubra
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	981085	--source		--type	DNA	--ver		--pub	yes	Morus	notabilis
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	52838	--source		--type	DNA	--ver		--pub	yes	Musa	balbisiana
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	4096	--source		--type	DNA	--ver		--pub	yes	Nicotiana	sylvestris
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	4097	--source		--type	DNA	--ver		--pub	yes	Nicotiana	tabacum
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	4098	--source		--type	DNA	--ver		--pub	yes	Nicotiana	tomentosiformis
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	4540	--source		--type	DNA	--ver		--pub	yes	Panicum	miliaceum
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	3469	--source		--type	DNA	--ver		--pub	yes	Papaver	somniferum
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	78828	--source		--type	DNA	--ver		--pub	yes	Phalaenopsis	equestris
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	42345	--source		--type	DNA	--ver		--pub	yes	Phoenix	dactylifera
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	75702	--source		--type	DNA	--ver		--pub	yes	Populus	euphratica
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	42229	--source		--type	DNA	--ver		--pub	yes	Prunus	avium
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	102107	--source		--type	DNA	--ver		--pub	yes	Prunus	mume
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	97700	--source		--type	DNA	--ver		--pub	yes	Quercus	lobata
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	58331	--source		--type	DNA	--ver		--pub	yes	Quercus	suber
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	3726	--source		--type	DNA	--ver		--pub	yes	Raphanus	sativus
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	74649	--source		--type	DNA	--ver		--pub	yes	Rosa	chinensis
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	62335	--source		--type	DNA	--ver		--pub	yes	Saccharum	spontaneum
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	98039	--source		--type	DNA	--ver		--pub	yes	Schrenkiella	parvula
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	65409	--source		--type	DNA	--ver		--pub	yes	Scutellaria	baicalensis
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	4182	--source		--type	DNA	--ver		--pub	yes	Sesamum	indicum
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	28526	--source		--type	DNA	--ver		--pub	yes	Solanum	pennellii
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	455371	--source		--type	DNA	--ver		--pub	yes	Spatholobus	suberectus
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	3562	--source		--type	DNA	--ver		--pub	yes	Spinacia	oleracea
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	29656	--source		--type	DNA	--ver		--pub	yes	Spirodela	polyrhiza
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	28532	--source		--type	DNA	--ver		--pub	yes	Tarenaya	hassleriana
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	13748	--source		--type	DNA	--ver		--pub	yes	Utricularia	gibba
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	96939	--source		--type	DNA	--ver		--pub	yes	Vitis	riparia
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	99658	--source		--type	DNA	--ver		--pub	yes	Xanthoceras	sorbifolium
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta		--taxid	326968	--source		--type	DNA	--ver		--pub	yes	Ziziphus	jujuba
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Actinidia_chinensis.Red5_PS1_1.69.0.pep.all.fa	--taxid	1590841	--source	Ensembl,Plants	--type	DNA	--ver	Red5_PS1_1.69.0	--pub	DOI:10.1038/ncomms3640	Actinidia	chinensis	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Aegilops_tauschii.ASM34733v1.pep.all.fa	--taxid	37682	--source	Ensembl,Plants	--type	DNA	--ver	ASM34733v1	--pub	DOI:10.1038/nature12028	Aegilops	tauschii	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Amborella_trichopoda.AMTR1.0.pep.all.fa	--taxid	13333	--source	Ensembl,Plants	--type	DNA	--ver	AMTR1.0	--pub	DOI:10.1126/science.1241089	Amborella	trichopoda	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Arabidopsis_lyrata.v.1.0.pep.all.fa	--taxid	81972	--source	Ensembl,Plants	--type	DNA	--ver	v.1.0	--pub	DOI:10.1038/ng.807	Arabidopsis	lyrata	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Arabidopsis_thaliana.TAIR10.pep.all.fa	--taxid	3702	--source	Ensembl,Plants	--type	DNA	--ver	TAIR10	--pub	DOI:10.1038/35048692	Arabidopsis	thaliana	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Beta_vulgaris.RefBeet-1.2.2.pep.all.fa	--taxid	3555	--source	Ensembl,Plants	--type	DNA	--ver	RefBeet-1.2.2	--pub	DOI:10.1038/nature12817	Beta	vulgaris	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Brachypodium_distachyon.v1.0.pep.all.fa	--taxid	15368	--source	Ensembl,Plants	--type	DNA	--ver	v1.0	--pub	DOI:10.1038/nature08747	Brachypodium	distachyon	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Brassica_napus.AST_PRJEB5043_v1.pep.all.fa	--taxid	3708	--source	Ensembl,Plants	--type	DNA	--ver	AST_PRJEB5043_v1	--pub	DOI:10.1126/science.1253435	Brassica	napus	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Brassica_rapa.IVFCAASv1.pep.all.fa	--taxid	51351	--source	Ensembl,Plants	--type	DNA	--ver	IVFCAASv1	--pub	DOI:10.1038/ng.919	Brassica	rapa	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Cucumis_sativus.ASM407v2.pep.all.fa	--taxid	3659	--source	Ensembl,Plants	--type	DNA	--ver	ASM407v2	--pub	DOI:10.1038/ng.475	Cucumis	sativus	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Daucus_carota.ASM162521v1.pep.all.fa	--taxid	79200	--source	Ensembl,Plants	--type	DNA	--ver	ASM162521v1	--pub	DOI:10.1038/ng.3565	Daucus	carota	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Dioscorea_rotundata.TDr96_F1_Pseudo_Chromosome_v1.0.pep.all.fa	--taxid	55577	--source	Ensembl,Plants	--type	DNA	--ver	TDr96_F1_Pseudo_Chromosome_v1.0	--pub	DOI:10.1186/s12915-017-0419-x	Dioscorea	rotundata	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Glycine_max.Glycine_max_v2.0.pep.all.fa	--taxid	3847	--source	Ensembl,Plants	--type	DNA	--ver	Glycine_max_v2.0	--pub	DOI:10.1038/nature08670	Glycine	max	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Gossypium_raimondii.Graimondii2_0.pep.all.fa	--taxid	29730	--source	Ensembl,Plants	--type	DNA	--ver	Graimondii2_0	--pub	DOI:10.1038/ng.2371	Gossypium	raimondii	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Hordeum_vulgare.Hv_IBSC_PGSB_v2.pep.all.fa	--taxid	112509	--source	Ensembl,Plants	--type	DNA	--ver	IBSC v2	--pub	DOI:10.1038/nature11543	Hordeum	vulgare	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Leersia_perrieri.Lperr_V1.4.pep.all.fa	--taxid	77586	--source	Ensembl,Plants	--type	DNA	--ver	Lperr_V1.4	--pub	DOI:10.1038/s41588-018-0040-0	Leersia	perrieri	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Lupinus_angustifolius.LupAngTanjil_v1.0.pep.all.fa	--taxid	3871	--source	Ensembl,Plants	--type	DNA	--ver	LupAngTanjil_v1.0	--pub	DOI:10.1371/journal.pone.0064799	Lupinus	angustifolius	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Manihot_esculenta.Manihot_esculenta_v6.pep.all.fa	--taxid	3983	--source	Ensembl,Plants	--type	DNA	--ver	Manihot_esculenta_v6	--pub	DOI:10.1007/s12042-011-9088-z	Manihot	esculenta	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Medicago_truncatula.MedtrA17_4.0.pep.all.fa	--taxid	3880	--source	Ensembl,Plants	--type	DNA	--ver	MedtrA17_4.0	--pub	DOI:10.1038/nature10625	Medicago	truncatula	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Musa_acuminata.MA1.pep.all.fa	--taxid	214687	--source	Ensembl,Plants	--type	DNA	--ver	MA1	--pub	DOI:10.1038/nature11241	Musa	acuminata	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Nicotiana_attenuata.NIATTr2.pep.all.fa	--taxid	49451	--source	Ensembl,Plants	--type	DNA	--ver	NIATTr2	--pub	DOI:10.1073/pnas.1700073114	Nicotiana	attenuata	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Oryza_sativa.IRGSP-1.0.pep.all.fa	--taxid	39947	--source	Ensembl,Plants	--type	DNA	--ver	IRGSP-1.0	--pub	DOI:10.1126/science.1068037	Oryza	sativa	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Panicum_hallii_fil2.PHallii_v3.1.pep.all.fa	--taxid	206008	--source	Ensembl,Plants	--type	DNA	--ver	PHallii_v3.1	--pub	DOI:10.1038/s41467-019-08409-5	Panicum	hallii	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Populus_trichocarpa.JGI2.0.pep.all.fa	--taxid	3694	--source	Ensembl,Plants	--type	DNA	--ver	JGI2.0	--pub	DOI:10.1126/science.1128691	Populus	trichocarpa	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Setaria_italica.JGIv2.0.pep.all.fa	--taxid	4555	--source	Ensembl,Plants	--type	DNA	--ver	JGIv2.0	--pub	DOI:10.1038/nbt.2195	Setaria	italica	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Solanum_lycopersicum.SL2.50.pep.all.fa	--taxid	4081	--source	Ensembl,Plants	--type	DNA	--ver	SL2.50	--pub	DOI:10.1038/nature11119	Solanum	lycopersicum	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Solanum_tuberosum.SolTub_3.0.pep.all.fa	--taxid	4113	--source	Ensembl,Plants	--type	DNA	--ver	SolTub_3.0	--pub	DOI:10.1038/nature10158	Solanum	tuberosum	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Sorghum_bicolor.Sorghum_bicolor_NCBIv3.pep.all.fa	--taxid	4558	--source	Ensembl,Plants	--type	DNA	--ver	Sorghum_bicolor_NCBIv3	--pub	DOI:10.1038/nature07723	Sorghum	bicolor	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Theobroma_cacao.Theobroma_cacao_20110822.pep.all.fa	--taxid	3641	--source	Ensembl,Plants	--type	DNA	--ver	Theobroma_cacao_20110822	--pub	DOI:10.1038/ng.736	Theobroma	cacao	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Triticum_aestivum.TGACv1.pep.all.fa	--taxid	4565	--source	Ensembl,Plants	--type	DNA	--ver	TGACv1	--pub	DOI:10.1126/science.1251788	Triticum	aestivum	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Triticum_urartu.ASM34745v1.pep.all.fa	--taxid	4572	--source	Ensembl,Plants	--type	DNA	--ver	ASM34745v1	--pub	DOI:10.1038/nature11997	Triticum	urartu	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Vigna_angularis.Vigan1.1.pep.all.fa	--taxid	3914	--source	Ensembl,Plants	--type	DNA	--ver	Vigan1.1	--pub	DOI:10.1038/srep08069	Vigna	angularis	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Vigna_radiata.Vradiata_ver6.pep.all.fa	--taxid	3916	--source	Ensembl,Plants	--type	DNA	--ver	Vradiata_ver6	--pub	DOI:10.1038/ncomms6443	Vigna	radiata	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Vitis_vinifera.IGGP_12x.pep.all.fa	--taxid	29760	--source	Ensembl,Plants	--type	DNA	--ver	IGGP_12x	--pub	DOI:10.1038/nature06148	Vitis	vinifera	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Zea_mays.AGPv4.pep.all.fa	--taxid	4577	--source	Ensembl,Plants	--type	DNA	--ver	B73 RefGen_v4	--pub	DOI:10.1126/science.1178534	Zea	mays	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Ahypochondriacus_459_v2.1.protein.fa	--taxid	28502	--source	JGI,Phytozome	--type	DNA	--ver	v2.1	--pub	DOI:10.1093/dnares/dsu021	Amaranthus	hypochondriacus	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Acomosus_321_v3.protein.fa	--taxid	4615	--source	JGI,Phytozome	--type	DNA	--ver	v3	--pub	DOI:10.1038/ng.3435	Ananas	comosus	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Aofficinalis_498_V1.1.protein.fa	--taxid	4686	--source	JGI,Phytozome	--type	DNA	--ver	V1.1	--pub	DOI:10.1038/s41467-017-01064-8	Asparagus	officinalis	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Cgrandiflora_266_v1.1.protein.fa	--taxid	264402	--source	JGI,Phytozome	--type	DNA	--ver	v1.1	--pub	NA	Capsella	grandiflora	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Cpapaya_113_ASGPBv0.4.protein.fa	--taxid	3649	--source	JGI,Phytozome	--type	DNA	--ver	v0.4	--pub	DOI:10.1038/35048692	Carica	papaya	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Cquinoa_392_v1.0.protein.fa	--taxid	63459	--source	JGI,Phytozome	--type	DNA	--ver	v1.0	--pub	DOI:10.1093/dnares/dsw037	Chenopodium	quinoa	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Carietinum_492_v1.0.protein.fa	--taxid	3827	--source	JGI,Phytozome	--type	DNA	--ver	v1.0	--pub	DOI:10.1038/nbt.2491	Cicer	arietinum	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Csinensis_154_v1.1.protein.fa	--taxid	2711	--source	JGI,Phytozome	--type	DNA	--ver	v1.1	--pub	DOI:10.1038/ng.2472	Citrus	sinensis	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Egrandis_297_v2.0.protein.fa	--taxid	71139	--source	JGI,Phytozome	--type	DNA	--ver	v2.0	--pub	DOI:10.1038/nature13308	Eucalyptus	grandis	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Esalsugineum_173_v1.0.protein.fa	--taxid	72664	--source	JGI,Phytozome	--type	DNA	--ver	v1.0	--pub	DOI:10.3389/fpls.2013.00046	Eutrema	salsugineum	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Fvesca_226_v1.1.protein.fa	--taxid	57918	--source	JGI,Phytozome	--type	DNA	--ver	v1.1	--pub	DOI:10.1038/ng.740	Fragaria	vesca	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Lusitatissimum_200_v1.0.protein.fa	--taxid	4006	--source	JGI,Phytozome	--type	DNA	--ver	v1.0	--pub	DOI:10.1111/j.1365-313X.2012.05093.x	Linum	usitatissimum	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Mdomestica_196_v1.0.protein.fa	--taxid	3750	--source	JGI,Phytozome	--type	DNA	--ver	v1.0	--pub	DOI:10.1038/ng.654	Malus	domestica	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Mguttatus_256_v2.0.protein.fa	--taxid	4155	--source	JGI,Phytozome	--type	DNA	--ver	v2.0	--pub	DOI:10.1073/pnas.1319032110	Mimulus	guttatus	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Oeuropaea_451_v1.0.protein.fa	--taxid	158386	--source	JGI,Phytozome	--type	DNA	--ver	v1.0	--pub	DOI:10.1186/s13742-016-0134-5	Olea	europaea	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Spurpurea_289_v1.0.protein.fa	--taxid	77065	--source	JGI,Phytozome	--type	DNA	--ver	v1.0	--pub	DOI:10.1038/cr.2014.83	Salix	purpurea	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Spolyrhiza_290_v2.protein.fa	--taxid	29656	--source	JGI,Phytozome	--type	DNA	--ver	v2	--pub	DOI:10.1038/ncomms4311	Spirodela	polyrhiza	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Vunguiculata_469_v1.1.protein.fa	--taxid	3917	--source	JGI,Phytozome	--type	DNA	--ver	v1.1	--pub	DOI:10.1111/tpj.14349	Vigna	unguiculata	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Zmarina_324_v2.2.protein.fa	--taxid	29655	--source	JGI,Phytozome	--type	DNA	--ver	v2.2	--pub	DOI:10.1038/nature16548	Zostera	marina	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Aquilegia_coerulea_v1/GCA_002738505.1_Aquilegia_coerulea_v1_protein.faa	--taxid	218851	--source	NCBI,GenBank	--type	DNA	--ver	1	--pub	DOI:10.7554/eLife.36426	Aquilegia	coerulea	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCA_002271885.2_ASM227188v2_protein.faa	--taxid	33114	--source	NCBI,GenBank	--type	DNA	--ver	2	--pub	DOI:10.1186/s13059-017-1341-9	Capsicum	baccatum	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCA_002271895.2_ASM227189v2_protein.faa	--taxid	80379	--source	NCBI,GenBank	--type	DNA	--ver	2	--pub	DOI:10.1186/s13059-017-1341-9	Capsicum	chinense	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCA_001972305.1_Cfol_1.0_protein.faa	--taxid	3775	--source	NCBI,GenBank	--type	DNA	--ver	1	--pub	DOI:10.1038/s41559-016-0059	Cephalotus	follicularis	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCA_003546025.1_ASBRC_Ckan_1.0_protein.faa	--taxid	337465	--source	NCBI,GenBank	--type	DNA	--ver	1	--pub	DOI:10.1038/s41477-018-0337-0	Cinnamomum	micranthum	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCA_900059795.1_AUK_PRJEB4211_v1_protein.faa	--taxid	49390	--source	NCBI,GenBank	--type	DNA	--ver	1	--pub	DOI:10.1126/science.1255274	Coffea	canephora	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCA_001598015.1_Boea_hygrometrica.v1_protein.faa	--taxid	472368	--source	NCBI,GenBank	--type	DNA	--ver	1	--pub	DOI:10.1073/pnas.1505811112	Dorcoceras	hygrometricum	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCA_004837865.1_BananaB_V1_protein	--taxid	52838	--source	NCBI,GenBank	--type	DNA	--ver	1	--pub	DOI:10.1186/1471-2164-14-683	Musa	balbisiana	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_000340665.1_C.cajan_V1.0_protein.faa.gz	--taxid	3821	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	PMID:22057054	Cajanus	cajan	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_000633955.1_Cs_protein.faa	--taxid	90675	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	DOI:10.1038/ncomms4706	Camelina	sativa	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_004153795.1_AHAU_CSS_1_protein.faa	--taxid	4442	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	DOI:10.1016/j.molp.2017.04.002	Camellia	sinensis	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_003713225.1_Cara_1.0_protein.faa	--taxid	13443	--source	NCBI,RefSeq	--type	DNA	--ver		--pub	DOI:10.1111/pbi.12912	Coffea	arabica	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_000313045.1_ASM31304v1_protein.faa	--taxid	3656	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	DOI:10.1073/pnas.1205415109	Cucumis	melo	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_002738345.1_Cmax_1.0_protein.faa	--taxid	3661	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	DOI:10.1016/j.molp.2017.09.003	Cucurbita	maxima	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_002806865.1_ASM280686v2_protein.faa	--taxid	3663	--source	NCBI,RefSeq	--type	DNA	--ver	2	--pub	DOI:10.1111/pbi.12860	Cucurbita	pepo	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_001605985.2_ASM160598v2_protein.faa	--taxid	906689	--source	NCBI,RefSeq	--type	DNA	--ver	2	--pub	DOI:10.1038/srep19029	Dendrobium	catenatum	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_000442705.1_EG5_protein.faa	--taxid	51953	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	DOI:10.1038/nature12309	Elaeis	guineensis	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_004193775.1_ASM419377v2_protein.faa	--taxid	3848	--source	NCBI,RefSeq	--type	DNA	--ver	2	--pub	DOI:10.1038/nbt.2979	Glycine	soja	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_002127325.1_HanXRQr1.0_protein.faa	--taxid	4232	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	DOI:10.1038/nature22380	Helianthus	annuus	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_001879475.1_Asagao_1.1_protein.faa	--taxid	35883	--source	NCBI,RefSeq	--type	DNA	--ver	1.1	--pub	DOI:10.1038/ncomms13295	Ipomoea	nil	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_000696525.1_JatCur_1.0_protein.faa	--taxid	180498	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	DOI:10.1093/dnares/dsq030	Jatropha	curcas	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_000365185.1_Chinese_Lotus_1.1_protein.faa	--taxid	4432	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	DOI:10.1186/gb-2013-14-5-r41	Nelumbo	nucifera	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_000393655.1_Nsyl_protein.faa	--taxid	4096	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	DOI:10.1186/gb-2013-14-6-r60	Nicotiana	sylvestris	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_000715135.1_Ntab-TN90_protein.faa	--taxid	4097	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	DOI:10.1038/ncomms4833	Nicotiana	tabacum	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_000390325.2_Ntom_v01_protein.faa	--taxid	4098	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	DOI:10.1186/gb-2013-14-6-r60	Nicotiana	tomentosiformis	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_003573695.1_ASM357369v1_protein.faa	--taxid	3469	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	DOI:10.1126/science.aat4096	Papaver	somniferum	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_001263595.1_ASM126359v1_protein.faa	--taxid	78828	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	DOI:10.1038/ng.3149	Phalaenopsis	equestris	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_002207925.1_PAV_r1.0_protein.faa	--taxid	42229	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	DOI:10.1093/dnares/dsx020	Prunus	avium	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_000346735.1_P.mume_V1.0_protein.faa	--taxid	102107	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	DOI:10.1038/ncomms2290	Prunus	mume	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_002906115.1_CorkOak1.0_protein.faa	--taxid	58331	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	DOI:10.1038/sdata.2018.69	Quercus	suber	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_000801105.1_Rs1.0_protein.faa	--taxid	3726	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	DOI:10.1093/dnares/dsu014	Raphanus	sativus	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_002994745.1_RchiOBHm-V2_protein.faa	--taxid	74649	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	DOI:10.1038/s41588-018-0110-3	Rosa	chinensis	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_000512975.1_S_indicum_v1.0_protein.faa	--taxid	4182	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	DOI:10.1186/gb-2014-15-2-r39	Sesamum	indicum	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_001406875.1_SPENNV200_protein.faa	--taxid	28526	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	DOI:10.1038/ng.3046	Solanum	pennellii	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_002007265.1_ASM200726v1_protein.faa	--taxid	3562	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	DOI:10.1038/ncomms15275	Spinacia	oleracea	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_000463585.1_ASM46358v1_protein.faa	--taxid	28532	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	DOI:10.1105/tpc.113.113480	Tarenaya	hassleriana	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_000826755.1_ZizJuj_1.1_protein.faa	--taxid	326968	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	DOI:10.1038/ncomms6315	Ziziphus	jujuba	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Amajus.IGDBv3.pros.fasta	--taxid	4151	--source	Other,AGDB	--type	DNA	--ver	3	--pub	DOI:10.1038/s41477-018-0349-9	Antirrhinum	majus	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	FES_r1.0.pep.fa.gz	--taxid	3617	--source	Other,BGDB	--type	DNA	--ver	1	--pub	DOI:10.1093/dnares/dsw012	Fagopyrum	esculentum	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	DCA_r1.0_pep.faa.gz	--taxid	3570	--source	Other,CarnationDB	--type	DNA	--ver	1	--pub	DOI:10.1093/dnares/dst053	Dianthus	caryophyllus	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	canSat3_transcriptome-representative_ORFs.fa	--taxid	3483	--source	Other,CGB	--type	ORF	--ver	1	--pub	DOI:10.1186/gb-2011-12-10-r102	Cannabis	sativa	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	watermelon_97103_v2.protein.fa	--taxid	3654	--source	Other,cucurbitgenomics	--type	DNA	--ver	2	--pub	DOI:10.1038/ng.2470	Citrullus	lanatus	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Lsiceraria_v1.protein.fa	--taxid	3668	--source	Other,cucurbitgenomics	--type	DNA	--ver	1	--pub	DOI:10.1111/tpj.13722	Lagenaria	siceraria	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Malania_oleifera.pep	--taxid	397392	--source	Other,GigaDB	--type	DNA	--ver	2018	--pub	DOI:10.5524/100549	Malania	oleifera	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Ginseng_proteins_v1.fasta	--taxid	4054	--source	Other,GigaDB	--type	DNA	--ver	2017	--pub	DOI:10.1093/gigascience/gix093 	Panax	ginseng	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	liriodendron_chinense_Final.pep	--taxid		--source	Other,hardwoodgenomics	--type	DNA	--ver	2018	--pub	DOI:10.1038/s41477-018-0323-6	Liriodendron	chinense	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	maca.v1.1_proteins.fasta	--taxid	60698	--source	Other,hardwoodgenomics	--type	DNA	--ver	2016	--pub	DOI:10.1186/s12864-016-3272-3	Macadamia	integrifolia	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	maskedHaplotigsCascade_v2_longestTranscript_pep150.fasta	--taxid	3486	--source	Other,HopBase	--type	DNA	--ver	Masked_haplotig	--pub	DOI:10.1093/pcp/pcu169	Humulus	lupulus	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	TpV84ORFs.protein	--taxid	98039	--source	Other,Thellungiella.org	--type	DNA	--ver	1	--pub	DOI:10.1038/ng.889	Thellungiella	parvula	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	V_corymbosum_Draper_v1.0-proteins-nameTruncated.fasta	--taxid	69266	--source	Other,vaccinium.org	--type	DNA	--ver	1	--pub	DOI:10.1186/s13742-015-0046-9	Vaccinium	corymbosum	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Cr_protein_v2.0.fasta	--taxid	90898	--source	Other,WCGAP	--type	DNA	--ver	2	--pub	DOI:10.1093/dnares/dsw042	Cicer	reticulatum	x
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Chlamydomonas_reinhardtii.v3.1.pep.all.fa	--taxid	3055	--source	Ensembl,Plants	--type	DNA	--ver	v3.1	--pub	DOI:10.1126/science.1143609	Chlamydomonas	reinhardtii	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Chondrus_crispus.ASM35022v2.pep.all.fa	--taxid	2769	--source	Ensembl,Plants	--type	DNA	--ver	ASM35022v2	--pub	DOI:10.1073/pnas.1221259110	Chondrus	crispus	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Cyanidioschyzon_merolae.ASM9120v1.pep.all.fa	--taxid	280699	--source	Ensembl,Plants	--type	DNA	--ver	ASM9120v1	--pub	DOI:10.1038/nature02398	Cyanidioschyzon	merolae	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Galdieria_sulphuraria.ASM34128v1.pep.all.fa	--taxid	130081	--source	Ensembl,Plants	--type	DNA	--ver	ASM34128v1	--pub	DOI:10.1126/science.1231707	Galdieria	sulphuraria	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Marchantia_polymorpha.Marchanta_polymorpha_v1.pep.all.fa	--taxid	3197	--source	Ensembl,Plants	--type	DNA	--ver	Marchanta_polymorpha_v1	--pub	DOI:10.1016/j.cell.2017.09.030	Marchantia	polymorpha	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Ostreococcus_lucimarinus.ASM9206v1.pep.all.fa	--taxid	436017	--source	Ensembl,Plants	--type	DNA	--ver	ASM9206v1	--pub	DOI:10.1073/pnas.0611046104	Ostreococcus	lucimarinus	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Physcomitrella_patens.ASM242v1.pep.all.fa	--taxid	3218	--source	Ensembl,Plants	--type	DNA	--ver	ASM242v1	--pub	DOI:10.1016/j.cell.2017.09.030	Physcomitrella	patens	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Selaginella_moellendorffii.v1.0.pep.all.fa	--taxid	88036	--source	Ensembl,Plants	--type	DNA	--ver	v1.0	--pub	DOI:10.1126/science.1203810 	Selaginella	moellendorffii	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Bbraunii_502_v2.1.protein.fa	--taxid	38881	--source	JGI,Phytozome	--type	DNA	--ver	v2.1	--pub	DOI:10.1128/genomeA.00215-17	Botryococcus	braunii	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Chlorella_NC64A.all_proteins.fasta 	--taxid	554065	--source	JGI,Phytozome	--type	DNA	--ver		--pub	DOI:10.1105/tpc.110.076406	Chlorella	variabilis	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Czofingiensis_461_v5.2.3.2.protein.fa	--taxid	31302	--source	JGI,Phytozome	--type	DNA	--ver	v5.2.3.2	--pub	DOI:10.1073/pnas.1619928114	Chromochloris	zofingiensis	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	CsubellipsoideaC_169_227_v2.0.protein.fa	--taxid	574566	--source	JGI,Phytozome	--type	DNA	--ver	v2.0	--pub	DOI:10.1186/gb-2012-13-5-r39	Coccomyxa	subellipsoidea	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	MpusillaCCMP1545_228_v3.0.protein.fa	--taxid	564608	--source	JGI,Phytozome	--type	DNA	--ver	v3.0	--pub	DOI:10.1126/science.1167222	Micromonas	pusilla	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	MspRCC299_229_v3.0.protein.fa	--taxid	296587	--source	JGI,Phytozome	--type	DNA	--ver	v3.0	--pub	DOI:10.1126/science.1167222	Micromonas	sp.	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	OstreococcusRCC809v2.allModels.proteins.fasta	--taxid	385169	--source	JGI,Phytozome	--type	DNA	--ver	v2.0	--pub	DOI:10.1073/pnas.0611046104	Ostreococcus	sp.	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Ostta4221_3_GeneCatalog_proteins_20161028.aa.fasta	--taxid	70448	--source	JGI,Phytozome	--type	DNA	--ver	v3.0	--pub	DOI:10.1073/pnas.0604795103	Ostreococcus	tauri	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Pumbilicalis_456_v1.5.protein.fa	--taxid	2786	--source	JGI,Phytozome	--type	DNA	--ver	v1.5	--pub	DOI:10.1073/pnas.1703088114	Porphyra	umbilicalis	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Vcarteri_317_v2.1.protein.fa	--taxid	3067	--source	JGI,Phytozome	--type	DNA	--ver	v2.1	--pub	DOI:10.1126/science.1188800	Volvox	carteri	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCA_003427395.1_Cbr_1.0_protein.faa.gz	--taxid	69332	--source	NCBI,GenBank	--type	DNA	--ver	1	--pub	DOI:10.1016/j.cell.2018.06.033	Chara	braunii	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCA_002335675.1_C.eustigma_genome_v1.0_protein.faa	--taxid	1157962	--source	NCBI,GenBank	--type	DNA	--ver	1	--pub	DOI:10.1073/pnas.1707072114	Chlamydomonas	eustigma	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCA_002245835.2_Chlorella_sorokiniana_2.0_protein.faa	--taxid	3076	--source	NCBI,GenBank	--type	DNA	--ver	2	--pub	DOI:10.1111/tpj.13789	Chlorella	sorokiniana	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCA_001584585.1_ASM158458v1_protein.faa.gz	--taxid	33097	--source	NCBI,GenBank	--type	DNA	--ver	1	--pub	DOI:10.1038/ncomms11370	Gonium	pectorale	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCA_003194525.1_GraCho1.0_protein.faa	--taxid	448386	--source	NCBI,GenBank	--type	DNA	--ver	1	--pub	PMID:29688518	Gracilariopsis	chorda	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCA_002245815.2_ASM224581v2_protein.faa	--taxid	554055	--source	NCBI,GenBank	--type	DNA	--ver	2	--pub	DOI:10.1111/tpj.13789	Micractinium	conductrix	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCA_003203535.1_Rsub_1.0_protein.faa	--taxid	307507	--source	NCBI,GenBank	--type	DNA	--ver	1	--pub	DOI:10.1038/s41598-018-26331-6	Raphidocelis	subcapitata	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCA_002891735.1_TetSoc1_protein.faa	--taxid	47790	--source	NCBI,GenBank	--type	DNA	--ver	1	--pub	DOI:10.1093/molbev/msx332	Tetrabaena	socialis	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_000733215.1_ASM73321v1_protein.faa	--taxid	3075	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	DOI:10.1186/1471-2164-15-582	Auxenochlorella	protothecoides	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_000611645.1_mono_v1_protein.faa	--taxid	145388	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	DOI:10.1186/1471-2164-14-926	Monoraphidium	neglectum	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Cyanophora_paradoxa_MAKER_gene_predictions-022111-aa.fasta	--taxid	2762	--source	Other,CGP	--type	DNA	--ver	2011	--pub	DOI:10.1126/science.1213561	Cyanophora	paradoxa	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	G.phlegrea.Predicted_Proteins.aa	--taxid	1389228	--source	Other,CGP	--type	DNA	--ver	2010	--pub	DOI:10.1016/j.cub.2013.08.046	Galdieria	phlegrea	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	CF150.aa.fa	--taxid	1034479	--source	Other,Dryad	--type	DNA	--ver	1	--pub	DOI:10.5061/dryad.k83g4	Chloroidium	sp.	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Gmm.final.pep	--taxid	3381	--source	Other,Dryad	--type	DNA	--ver	1	--pub	DOI:10.1038/s41477-017-0097-2	Gnetum	montanum	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Azolla_filiculoides.proteins_v1.1.fasta	--taxid	84609	--source	Other,Fernbase	--type	DNA	--ver	1.1	--pub	DOI:10.1038/s41477-018-0188-8	Azolla	filiculoides	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Salvinia_cucullata.proteins_v1.2.fasta	--taxid	32188	--source	Other,Fernbase	--type	DNA	--ver	1.2	--pub	DOI:10.1038/s41477-018-0188-8	Salvinia	cucullata	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Ginkgo_biloba.HiC.protein.fasta	--taxid	3311	--source	Other,GigaDB	--type	DNA	--ver	2019	--pub	DOI:10.1016/j.cell.2017.09.030	Ginkgo	biloba	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	160614_klebsormidium_v1.1_AA.fasta	--taxid	3175	--source	Other,KGP	--type	DNA	--ver	1.1	--pub	DOI:10.1038/ncomms4978	Klebsormidium	flaccidum	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Pyezoensis_Augustus_proteins_v1.fasta	--taxid	2788	--source	Other,NRIFS	--type	DNA	--ver	1	--pub	DOI:10.1371/journal.pone.0057122	Pyropia	yezoensis	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	clen_genemodels-v1.1.faa	--taxid	148947	--source	Other,OIST	--type	DNA	--ver	1.1	--pub	DOI:10.1093/dnares/dsz002	Caulerpa	lentillifera	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Ulvmu_prot_LATEST.tfa	--taxid	498180	--source	Other,OrcAE	--type	DNA	--ver	2018	--pub	DOI:10.1016/j.cub.2018.08.015	Ulva	mutabilis	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Pabies1.0-all-pep.faa	--taxid	3329	--source	Other,PlantGenie	--type	DNA	--ver	1	--pub	DOI:10.1038/nature12211	Picea	abies	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	manualannotations-PG29V4_protein.fna	--taxid	3330	--source	Other,PlantGenie	--type	DNA	--ver	PG29v4	--pub	DOI:10.1038/nature12211	Picea	glauca	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	ptaeda.v1.01.scaffolds.trimmed.all.maker.proteins.fa	--taxid	3352	--source	Other,PlantGenie	--type	DNA	--ver	1.01	--pub	DOI:10.1186/gb-2014-15-3-r59	Pinus	taeda	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Helicosporidium.fasta	--taxid	1907511	--source	Other,PloSGen	--type	DNA	--ver	1	--pub	DOI:10.1371/journal.pgen.1004355	Helicosporidium	sp.	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Picochlorum-SENEW3-peptides.fasta	--taxid	1470871	--source	Other,Rutgers	--type	DNA	--ver	1	--pub	DOI:10.1111/1462-2920.12541	Picochlorum	sp.	y
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Porphyridium_genemodels_UPDATED.fasta	--taxid	35688	--source	Other,Rutgers	--type	DNA	--ver	2012	--pub	DOI:10.1038/ncomms2931	Porphyridium	purpureum	y
