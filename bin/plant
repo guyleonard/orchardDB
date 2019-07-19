@@ -320,6 +320,8 @@ sub insert_accession_records {
              VALUES (?,?,?,?,?));
         my $prepare = $dbh->prepare($statement);
 
+        print "[OrchardDB:Plant:INFO] - Inserting $#odb_accessions Sequences\n";
+
         foreach my $sequence (@odb_accessions) {
             my ($hashed_accession, $accession,
                 $original_header,  $amino_acids
@@ -332,8 +334,9 @@ sub insert_accession_records {
                 "$original_header",  "$genome_id",
                 "$amino_acids"
             ) or die $DBI::errstr;
+
             print "[OrchardDB:Plant:INFO] - Inserting $accession\n"
-                if $warnings == 1;
+                if $warnings == 2;
         }
 
         $dbh->disconnect();
