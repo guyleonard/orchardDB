@@ -26,6 +26,17 @@ git clone https://github.com/guyleonard/orchardDB.git
  or
  * The 'default' DB named *cider* which can be created from scripts in this repository.
 
+## 'Cider' DB
+A set of genomes curated from Archaeplastida, Fungi, Metazoa, Protists and Archaea & Bacteria. My suggestions are somewhat protist and fungal heavy due to the interests of the Richards' Lab. They are not meant to be a final say, please add-on or remove genomes as you like. If there are genomes you have think I have missed, please feel free to add them by way of pull-requests, email or Issues.
+
+ * 150 Archaeplastida Genomes
+   * A wide selection of Angiosperms.
+   * As many non-angiosperm (Glauco-, Rhodo-, Chloro-phyta) genomes with predicted proteins as I could locate as of July 2019.
+ * Fungal Genomes
+ * Metazoan Genomes
+ * Protist Genomes
+ * Archaea & Bacteria
+
 ## Usage
 Firstly you must set up a database, and then secondly populate it with sequence data as detailed below.
 
