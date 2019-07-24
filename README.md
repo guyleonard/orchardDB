@@ -60,7 +60,7 @@ Headers must be plain, consisting of only the accession number:
             --source other,richardslab \ # source,subsource
             --type DNA \    # DNA, RNA, EST
             --ver 1 \       # version number
-            --pub yes       # yes, DOI, NA
+            --pub yes       # yes, PMID, DOI, NA
 ```
 
 #### NCBI Portal
