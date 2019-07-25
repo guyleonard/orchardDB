@@ -19,16 +19,18 @@ echo "[CREATE] Creating orchardDB with ${USER}:${PASS}@${DB}"
 
 echo "[CREATE] Downloading Archaeplastida Genomes"
 ./get_archaeplastida_genomes.sh
+echo -e "\tMove Original FASTA Records"
+mkdir -p ${DB}/archaeplastida
+mv *.fa *.fna *.faa *.fasta *.pep *.tfa ${DB}/archaeplastida
 echo "[CREATE] UnGzip Files"
-pigz -d *.gz
+pigz -d ${DB}/archaeplastida/*.gz
 
 echo "[CREATE] Archaeplastida Genomes"
 ./insert_archaeplastida_genomes.sh ${USER} ${PASS} ${DB}
 
 echo "[CREATE] Tidying Up"
 mkdir -p archaeplastida
-echo -e "\tMove Original FASTA Records"
-mv *.fa *.fna *.faa *.fasta *.pep *.tfa archaeplastida
+
 echo -e "\tGZIP Original FASTA Records"
 pigz -9 -R archaeplastida/* 
 
