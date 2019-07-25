@@ -43,36 +43,36 @@ wget ftp://ftp.ensemblgenomes.org/pub/release-44/plants/fasta/ostreococcus_lucim
 wget ftp://ftp.ensemblgenomes.org/pub/release-44/plants/fasta/physcomitrella_patens/pep/Physcomitrella_patens.ASM242v1.pep.all.fa.gz
 wget ftp://ftp.ensemblgenomes.org/pub/release-44/plants/fasta/selaginella_moellendorffii/pep/Selaginella_moellendorffii.v1.0.pep.all.fa.gz
 
-echo "Downloading Sequence Data from JGI"
-https://genome.jgi.doe.gov/portal/Cquinoa/download/_JAMO/57bcd2937ded5e0c8712b082/Cquinoa_392_v1.0.protein.fa.gz
-https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/54ad8ddd0d8785565d4707cf/Egrandis_297_v2.0.protein.fa.gz
-https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/564bd7330d878531d71e63ad/Acomosus_321_v3.protein.fa.gz
-https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/5693355a0d87851ee9726ab5/Zmarina_324_v2.2.protein.fa.gz
-https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/56957e490d87851ee97273e7/Spolyrhiza_290_v2.protein.fa.gz
-https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/56981cd10d87851ee9727cdd/Fvesca_226_v1.1.protein.fa.gz
-https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/56981cd70d87851ee9727cf5/Mdomestica_196_v1.0.protein.fa.gz
-https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/56981cdc0d87851ee9727d0c/Esalsugineum_173_v1.0.protein.fa.gz
-https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/56981ce20d87851ee9727d5b/Lusitatissimum_200_v1.0.protein.fa.gz
-https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/56981ced0d87851ee9727d8a/Mguttatus_256_v2.0.protein.fa.gz
-https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/56981ced0d87851ee9727d92/Cgrandiflora_266_v1.1.protein.fa.gz
-https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/56981cf30d87851ee9727daf/Csinensis_154_v1.1.protein.fa.gz
-https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/56983e600d87851ee9727eb0/Spurpurea_289_v1.0.protein.fa.gz
-https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/585474c77ded5e78cff8c4bd/Cpapaya_113_ASGPBv0.4.protein.fa.gz
-https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/591103597ded5e1e49ffd1f4/Ahypochondriacus_459_v2.1.protein.fa.gz
-https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/597f9cb67ded5e0452b3f367/Vunguiculata_469_v1.1.protein.fa.gz
-https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/59a4ae1a7ded5e41edd8dcdd/Carietinum_492_v1.0.protein.fa.gz
-https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/59e148fd7ded5e372ecbabed/Oeuropaea_451_v1.0.protein.fa.gz
-https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/5a3972de7ded5e35e94f8a12/Aofficinalis_498_V1.1.protein.fa.gz
-https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/5a7e0e7564d0b313b0c4f892/Bbraunii_502_v2.1.protein.fa.gz
-https://genome.jgi.doe.gov/portal/ChlNC64A_1/download/Chlorella_NC64A.all_proteins.fasta.gz 
-https://genome.jgi.doe.gov/portal/OstRCC809_2/download/OstreococcusRCC809v2.allModels.proteins.fasta.gz
-https://genome.jgi.doe.gov/portal/Ostta4221_3/download/Ostta4221_3_GeneCatalog_proteins_20161028.aa.fasta.gz
-https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/56901bf70d878508e3d1fbc3/Vcarteri_317_v2.1.protein.fa.gz
-https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/56981cd80d87851ee9727cfe/MpusillaCCMP1545_228_v3.0.protein.fa.gz
-https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/56981cdd0d87851ee9727d2a/CsubellipsoideaC_169_227_v2.0.protein.fa.gz
-https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/56981ce00d87851ee9727d57/MspRCC299_229_v3.0.protein.fa.gz
-https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/591a8cd77ded5e1e49005e30/Czofingiensis_461_v5.2.3.2.protein.fa.gz
-https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/597f9cbd7ded5e0452b3f376/Pumbilicalis_456_v1.5.protein.fa.gz
+echo "NOT Downloading Sequence Data from JGI"
+# https://genome.jgi.doe.gov/portal/Cquinoa/download/_JAMO/57bcd2937ded5e0c8712b082/Cquinoa_392_v1.0.protein.fa.gz
+# https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/54ad8ddd0d8785565d4707cf/Egrandis_297_v2.0.protein.fa.gz
+# https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/564bd7330d878531d71e63ad/Acomosus_321_v3.protein.fa.gz
+# https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/5693355a0d87851ee9726ab5/Zmarina_324_v2.2.protein.fa.gz
+# https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/56957e490d87851ee97273e7/Spolyrhiza_290_v2.protein.fa.gz
+# https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/56981cd10d87851ee9727cdd/Fvesca_226_v1.1.protein.fa.gz
+# https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/56981cd70d87851ee9727cf5/Mdomestica_196_v1.0.protein.fa.gz
+# https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/56981cdc0d87851ee9727d0c/Esalsugineum_173_v1.0.protein.fa.gz
+# https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/56981ce20d87851ee9727d5b/Lusitatissimum_200_v1.0.protein.fa.gz
+# https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/56981ced0d87851ee9727d8a/Mguttatus_256_v2.0.protein.fa.gz
+# https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/56981ced0d87851ee9727d92/Cgrandiflora_266_v1.1.protein.fa.gz
+# https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/56981cf30d87851ee9727daf/Csinensis_154_v1.1.protein.fa.gz
+# https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/56983e600d87851ee9727eb0/Spurpurea_289_v1.0.protein.fa.gz
+# https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/585474c77ded5e78cff8c4bd/Cpapaya_113_ASGPBv0.4.protein.fa.gz
+# https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/591103597ded5e1e49ffd1f4/Ahypochondriacus_459_v2.1.protein.fa.gz
+# https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/597f9cb67ded5e0452b3f367/Vunguiculata_469_v1.1.protein.fa.gz
+# https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/59a4ae1a7ded5e41edd8dcdd/Carietinum_492_v1.0.protein.fa.gz
+# https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/59e148fd7ded5e372ecbabed/Oeuropaea_451_v1.0.protein.fa.gz
+# https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/5a3972de7ded5e35e94f8a12/Aofficinalis_498_V1.1.protein.fa.gz
+# https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/5a7e0e7564d0b313b0c4f892/Bbraunii_502_v2.1.protein.fa.gz
+# https://genome.jgi.doe.gov/portal/ChlNC64A_1/download/Chlorella_NC64A.all_proteins.fasta.gz 
+# https://genome.jgi.doe.gov/portal/OstRCC809_2/download/OstreococcusRCC809v2.allModels.proteins.fasta.gz
+# https://genome.jgi.doe.gov/portal/Ostta4221_3/download/Ostta4221_3_GeneCatalog_proteins_20161028.aa.fasta.gz
+# https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/56901bf70d878508e3d1fbc3/Vcarteri_317_v2.1.protein.fa.gz
+# https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/56981cd80d87851ee9727cfe/MpusillaCCMP1545_228_v3.0.protein.fa.gz
+# https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/56981cdd0d87851ee9727d2a/CsubellipsoideaC_169_227_v2.0.protein.fa.gz
+# https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/56981ce00d87851ee9727d57/MspRCC299_229_v3.0.protein.fa.gz
+# https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/591a8cd77ded5e1e49005e30/Czofingiensis_461_v5.2.3.2.protein.fa.gz
+# https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/597f9cbd7ded5e0452b3f376/Pumbilicalis_456_v1.5.protein.fa.gz
 
 echo "Downloading Sequence Data from NCBI"
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/001/584/585/GCA_001584585.1_ASM158458v1/GCA_001584585.1_ASM158458v1_protein.faa.gz
