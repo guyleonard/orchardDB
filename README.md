@@ -45,7 +45,7 @@ Each 'genome' (loosely used here to represent a set of amino acid sequences that
 You may add any sequence data you like to your local database, respecting any specific data release policies or not - I am not your mother. Genomes included in the 'testing' dataset and the 'default' *cider* DB are all publically available and published.
 
 ### Set Up *cider* Database
-Run the scripts in the cider folder, they will download the initial set of genomes and add them to a local database.
+Run the scripts in the cider_db folder, they will download the initial set of genomes and add them to a local database.
 
 ### Set Up Database
 This command will create a directory named "cider" and a SQL DB named "cider.sqlite" in the same directory. This will be your store of information for the whole orchardDB.
@@ -88,11 +88,13 @@ Headers must be in one of these styles, old NCBI or newer:
 ##### Mycocosm / Fungi
 Headers are usually in this form:
  * \>jgi|Encro1|1|EROM_010010m.01
+```
+./bin/plant --populate --user test --pass test --db cider --fasta testing/JGI/Mycocosm/Encro1_GeneCatalog_proteins_20131209.aa.fasta --taxid 1178016 --source JGI,mycocosm --type DNA  --ver 1 --pub yes
+```
 ##### Phytozome & Other -zomes
 Headers are usually in this form:
  * \>28448 pacid=27412865 transcript=28448 locus=eugene.1800010031 ID=28448.2.0.231 annot-version=v2.0
 ```
-./bin/plant --populate --user test --pass test --db cider --fasta testing/JGI/Mycocosm/Encro1_GeneCatalog_proteins_20131209.aa.fasta --taxid 1178016 --source JGI,mycocosm --type DNA  --ver 1 --pub yes
 ./bin/plant --populate --user test --pass test --db cider --fasta testing/JGI/Phytozome/Olucimarinus_231_v2.0.protein.fa --taxid 242159 --source JGI,Phytozome --type DNA  --ver 1 --pub yes
 ```
 
