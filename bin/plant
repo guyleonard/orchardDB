@@ -86,10 +86,13 @@ elsif ($populate) {
     {
         print "[OrchardDB:Plant:INFO] - And awaaay we go!\n";
 
-        if ( ! -f $fasta_input) {
-            print "[OrchardDB:Plant:ERRR] - The file $fasta_input does not exist!\n";
-            open my $fh, '>>', 'orchardDB_errors.log' or die "Could not open file 'orchardDB_errors.log' $!";
-            print {$fh} "[OrchardDB:Plant:ERRR] - The file $fasta_input does not exist!\n";
+        if ( !-f $fasta_input ) {
+            print
+                "[OrchardDB:Plant:ERRR] - The file $fasta_input does not exist!\n";
+            open my $fh, '>>', 'orchardDB_errors.log'
+                or die "Could not open file 'orchardDB_errors.log' $!";
+            print {$fh}
+                "[OrchardDB:Plant:ERRR] - The file $fasta_input does not exist!\n";
             close $fh;
             exit(1);
         }
@@ -279,7 +282,9 @@ sub insert_main_table_record {
         my $driver   = 'SQLite';
         my $database = "$db_name\/$db_name\.sqlite";
         my $dsn      = "DBI:$driver:dbname=$database";
-        my $dbh = DBI->connect( $dsn, $user, $password, { RaiseError => 1, AutoCommit => 0 } )
+        my $dbh
+            = DBI->connect( $dsn, $user, $password,
+            { RaiseError => 1, AutoCommit => 0 } )
             or die $DBI::errstr;
         print "[OrchardDB:Plant:INFO] - Successfully Conected: $database\n"
             if $warnings >= 1;
@@ -320,7 +325,9 @@ sub insert_accession_records {
         my $driver   = 'SQLite';
         my $database = "$db_name\/$db_name\.sqlite";
         my $dsn      = "DBI:$driver:dbname=$database";
-        my $dbh = DBI->connect( $dsn, $user, $password, { RaiseError => 1, AutoCommit => 0 } )
+        my $dbh
+            = DBI->connect( $dsn, $user, $password,
+            { RaiseError => 1, AutoCommit => 0 } )
             or die $DBI::errstr;
         print "[OrchardDB:Plant:INFO] - Successfully Conected: $database\n"
             if $warnings >= 1;
@@ -330,7 +337,8 @@ sub insert_accession_records {
              VALUES (?,?,?,?,?));
         my $prepare = $dbh->prepare($statement);
 
-        print "[OrchardDB:Plant:INFO] - Inserting $#odb_accessions Sequences\n";
+        print
+            "[OrchardDB:Plant:INFO] - Inserting $#odb_accessions Sequences\n";
 
         foreach my $sequence (@odb_accessions) {
             my ($hashed_accession, $accession,
