@@ -18,7 +18,7 @@ my $version = "OrchardDB v1.0 -- plant.pl v$VERSION";
 #
 # Input Variables
 #
-my $warnings = 1;
+my $warnings = 0;
 
 # database access
 my $user;
@@ -36,6 +36,7 @@ my $sources;
 my $type;
 my $published = 'NA';
 my $data_version;
+my $light_db = 'TRUE';
 
 #
 # getopt Logic
@@ -56,6 +57,7 @@ GetOptions(
     'type|y=s'          => \$type,
     'pub|p=s'           => \$published,
     'ver|V=s'           => \$data_version,
+    'light|l=s'         => \$light_db,
     'version|v'         => sub { print "$version" },
     'help|h'            => sub { help_message() }
 ) or help_message();
@@ -82,7 +84,8 @@ elsif ($populate) {
         && $taxid
         && $sources
         && $type
-        && $data_version )
+        && $data_version
+        && $light_db )
     {
         print "[OrchardDB:Plant:INFO] - And awaaay we go!\n";
 
@@ -152,7 +155,7 @@ elsif ($populate) {
         insert_accession_records( $user, $password, $db_name, $genome_id,
             @odb_accessions );
 
-        print "[OrchardDB:Plant:INFO] - Success!\n";
+        print "[OrchardDB:Plant:INFO] - Success!\n\n";
     }
 
     else {
@@ -346,6 +349,11 @@ sub insert_accession_records {
                 )
                 = split /,/,
                 $sequence;
+
+            if ( $light_db eq 'TRUE' || $light_db =~ m/t/i )
+            {
+                $amino_acids = '';
+            }
 
             my $insert = $prepare->execute(
                 "$hashed_accession", "$accession",
