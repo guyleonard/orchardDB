@@ -86,6 +86,14 @@ elsif ($populate) {
     {
         print "[OrchardDB:Plant:INFO] - And awaaay we go!\n";
 
+        if ( ! -f $fasta_input) {
+            print "[OrchardDB:Plant:ERRR] - The file $fasta_input does not exist!\n";
+            open(my $fh, '>', "orchardDB_errors.log") or die "Could not open file 'orchardDB_errors.log' $!";
+            print $fh "[OrchardDB:Plant:ERRR] - The file $fasta_input does not exist!\n";
+            close($fh);
+            exit(1);
+        }
+
         # Generate 'genome_id' record to link database objects and check
         # to see if it exists first before insert
         my $genome_id
@@ -166,7 +174,7 @@ sub setup_sqlite_db {
         my $driver   = "SQLite";
         my $database = "$db_name\/$db_name\.sqlite";
         my $dsn      = "DBI:$driver:dbname=$database";
-        my $dbh = DBI->connect( $dsn, $user, $password, { RaiseError => 1, AutoCommit => 0 } )
+        my $dbh = DBI->connect( $dsn, $user, $password, { RaiseError => 1 } )
             or die $DBI::errstr;
         print "[OrchardDB:Plant:INFO] - Successfully Created: $database\n";
 
