@@ -29,7 +29,7 @@ echo "[CREATE] Archaeplastida Genomes"
 ./insert_archaeplastida_genomes.sh ${USER} ${PASS} ${DB}
 
 echo -e "\tGZIP Original FASTA Records"
-pigz -9 -R archaeplastida/* 
+pigz -9 -R ${DB}/archaeplastida/* 
 
 
 exit 0
