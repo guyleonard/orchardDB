@@ -34,7 +34,7 @@ my $fasta_input;
 my $taxid;
 my $sources;
 my $type;
-my $published = "NA";
+my $published = 'NA';
 my $data_version;
 
 #
@@ -88,9 +88,9 @@ elsif ($populate) {
 
         if ( ! -f $fasta_input) {
             print "[OrchardDB:Plant:ERRR] - The file $fasta_input does not exist!\n";
-            open(my $fh, '>>', "orchardDB_errors.log") or die "Could not open file 'orchardDB_errors.log' $!";
-            print $fh "[OrchardDB:Plant:ERRR] - The file $fasta_input does not exist!\n";
-            close($fh);
+            open my $fh, '>>', 'orchardDB_errors.log' or die "Could not open file 'orchardDB_errors.log' $!";
+            print {$fh} "[OrchardDB:Plant:ERRR] - The file $fasta_input does not exist!\n";
+            close $fh;
             exit(1);
         }
 
@@ -102,7 +102,7 @@ elsif ($populate) {
         my $status
             = check_genome_ID( $user, $password, $db_name, $genome_id );
 
-        if ( $status eq 1 ) {
+        if ( $status == 1 ) {
             print
                 "[OrchardDB:Plant:ERRR] - The GenomeID already exists. Stopping!\n";
             exit(1);
@@ -171,7 +171,7 @@ sub setup_sqlite_db {
 
         make_path($db_name);
 
-        my $driver   = "SQLite";
+        my $driver   = 'SQLite';
         my $database = "$db_name\/$db_name\.sqlite";
         my $dsn      = "DBI:$driver:dbname=$database";
         my $dbh = DBI->connect( $dsn, $user, $password, { RaiseError => 1 } )
@@ -246,7 +246,7 @@ sub insert_main_table_record {
         my %hash = split /[;:]/, $taxon_lineage;
         my ($superkingdom, $kingdom, $subkingdom, $phylum, $subphylum,
             $class,        $order,   $family,     $special
-        ) = ("NA") x 9;
+        ) = ('NA') x 9;
 
         if ( defined $hash{'superkingdom'} ) {
             $superkingdom = $hash{'superkingdom'};
@@ -276,7 +276,7 @@ sub insert_main_table_record {
             $special = $hash{'no rank'};
         }
 
-        my $driver   = "SQLite";
+        my $driver   = 'SQLite';
         my $database = "$db_name\/$db_name\.sqlite";
         my $dsn      = "DBI:$driver:dbname=$database";
         my $dbh = DBI->connect( $dsn, $user, $password, { RaiseError => 1, AutoCommit => 0 } )
@@ -317,7 +317,7 @@ sub insert_accession_records {
     }
     else {
 
-        my $driver   = "SQLite";
+        my $driver   = 'SQLite';
         my $database = "$db_name\/$db_name\.sqlite";
         my $dsn      = "DBI:$driver:dbname=$database";
         my $dbh = DBI->connect( $dsn, $user, $password, { RaiseError => 1, AutoCommit => 0 } )
@@ -379,7 +379,7 @@ sub check_genome_ID {
     }
     else {
 
-        my $driver   = "SQLite";
+        my $driver   = 'SQLite';
         my $database = "$db_name\/$db_name\.sqlite";
         my $dsn      = "DBI:$driver:dbname=$database";
         my $dbh = DBI->connect( $dsn, $user, $password, { RaiseError => 1 } )
@@ -405,22 +405,22 @@ sub get_taxonomy {
     my $full_name;
 
     # if the sqlite db does not exist, warn user
-    if ( !-f "nodes.dmp" || !-f "names.dmp" ) {
+    if ( !-f 'nodes.dmp' || !-f 'names.dmp' ) {
         print
             "[OrchardDB:Plant:WARN] - nodes.dmp and/or names.dmp Missing! Please Download to Continue.\n";
         exit(1);
     }
 
-    if ( !-f "taxonomy.sqlite" ) {
+    if ( !-f 'taxonomy.sqlite' ) {
         print "[OrchardDB:Plant:INFO] - Indexing NCBI Taxonomy - Slow!\n";
     }
 
     # read in taxonomy from taxdump
     my $db = Bio::DB::Taxonomy->new(
         -source    => 'sqlite',
-        -db        => "taxonomy.sqlite",
-        -nodesfile => "nodes.dmp",
-        -namesfile => "names.dmp"
+        -db        => 'taxonomy.sqlite',
+        -nodesfile => 'nodes.dmp',
+        -namesfile => 'names.dmp'
     );
 
     # given the NCBI taxa ID from user input, get the taxon info
