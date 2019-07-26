@@ -88,7 +88,7 @@ elsif ($populate) {
 
         if ( ! -f $fasta_input) {
             print "[OrchardDB:Plant:ERRR] - The file $fasta_input does not exist!\n";
-            open(my $fh, '>', "orchardDB_errors.log") or die "Could not open file 'orchardDB_errors.log' $!";
+            open(my $fh, '>>', "orchardDB_errors.log") or die "Could not open file 'orchardDB_errors.log' $!";
             print $fh "[OrchardDB:Plant:ERRR] - The file $fasta_input does not exist!\n";
             close($fh);
             exit(1);
@@ -301,6 +301,8 @@ sub insert_main_table_record {
             "$special",      "$taxon_lineage"
         );
 
+        $dbh->commit;
+
         $dbh->disconnect();
     }
 }
@@ -346,6 +348,8 @@ sub insert_accession_records {
             print "[OrchardDB:Plant:INFO] - Inserting $accession\n"
                 if $warnings == 2;
         }
+
+        $dbh->commit;
 
         $dbh->disconnect();
     }
