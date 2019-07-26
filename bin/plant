@@ -92,6 +92,7 @@ elsif ($populate) {
         if ( !-f $fasta_input ) {
             print
                 "[OrchardDB:Plant:ERRR] - The file $fasta_input does not exist!\n";
+            print "[OrchardDB:Plant:INFO] - Quitting.\n\n";
             open my $fh, '>>', 'orchardDB_errors.log'
                 or die "Could not open file 'orchardDB_errors.log' $!";
             print {$fh}
@@ -116,6 +117,7 @@ elsif ($populate) {
 
         # get the genus+species and BioPerl taxonomy
         my ( $genus_species, $taxon_lineage ) = get_taxonomy("$taxid");
+        print "[OrchardDB:Plant:INFO] - Your Taxa: $genus_species\n";
 
         # get the date time values in 'YYYY-MM-DD HH:MM:SS'
         my $date_time = DateTime->now( time_zone => 'local' )->datetime();
