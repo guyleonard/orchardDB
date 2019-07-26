@@ -271,7 +271,7 @@ sub insert_main_table_record {
         my $driver   = "SQLite";
         my $database = "$db_name\/$db_name\.sqlite";
         my $dsn      = "DBI:$driver:dbname=$database";
-        my $dbh = DBI->connect( $dsn, $user, $password, { RaiseError => 1 } )
+        my $dbh = DBI->connect( $dsn, $user, $password, { RaiseError => 1, AutoCommit => 0 } )
             or die $DBI::errstr;
         print "[OrchardDB:Plant:INFO] - Successfully Conected: $database\n"
             if $warnings >= 1;
@@ -310,7 +310,7 @@ sub insert_accession_records {
         my $driver   = "SQLite";
         my $database = "$db_name\/$db_name\.sqlite";
         my $dsn      = "DBI:$driver:dbname=$database";
-        my $dbh = DBI->connect( $dsn, $user, $password, { RaiseError => 1 } )
+        my $dbh = DBI->connect( $dsn, $user, $password, { RaiseError => 1, AutoCommit => 0 } )
             or die $DBI::errstr;
         print "[OrchardDB:Plant:INFO] - Successfully Conected: $database\n"
             if $warnings >= 1;
