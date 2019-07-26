@@ -152,4 +152,4 @@ wget -nc https://datadryad.org/bitstream/handle/10255/dryad.186892/ Gmm.final.pe
 wget -nc https://doi.org/10.1371/journal.pgen.1004355.s013 -O Helicosporidium.fasta -a get_archaeplastida.log
 wget -nc https://marinegenomics.oist.jp/umibudo/download/clen_genemodels-v1.1.faa.gz -a get_archaeplastida.log
 wget -nc https://www.hardwoodgenomics.org/sites/default/files/sequences/liriodendron_chinense/Final.pep -O liriodendron_chinense_Final.pep -a get_archaeplastida.log
-wget -nc wget -nc https://datadryad.org/bitstream/handle/10255/dryad.143573/Dataset%201-genomics.zip?sequence=1 -O data.zip -a get_archaeplastida.log && unzip data.zip && rm CF150.fa CF150.gff CF150.tr.fa Dataset_blast2go.zip Dataset_blastp.txt Dataset_hmmsearch.txt Dataset_model.zip && rm -r __MACOSX
+wget -nc wget -nc https://datadryad.org/bitstream/handle/10255/dryad.143573/Dataset%201-genomics.zip?sequence=1 -O data.zip -a get_archaeplastida.log && unzip data.zip && rm CF150.fa CF150.gff CF150.tr.fa Dataset_blast2go.zip Dataset_blastp.txt Dataset_hmmsearch.txt Dataset_model.zip && rm -r __MACOSX && rm data.zip
