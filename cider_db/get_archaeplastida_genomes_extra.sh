@@ -69,12 +69,9 @@ wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/995/035/GCF_001995035.1_ASM1
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/168/275/GCF_002168275.1_ASM216827v2/GCF_002168275.1_ASM216827v2_protein.faa.gz
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/220/235/GCF_002220235.1_ASM222023v1/GCF_002220235.1_ASM222023v1_protein.faa.gz
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/303/985/GCF_002303985.1_Duzib1.0/GCF_002303985.1_Duzib1.0_protein.faa.gz
-wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/738/345/GCF_002738345.1_Cmax_1.0/GCF_002738345.1_Cmax_1.0_protein.faa.gz
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/086/295/GCF_003086295.2_arahy.Tifrunner.gnm1.KYV3/GCF_003086295.2_arahy.Tifrunner.gnm1.KYV3_protein.faa.gz
 
 echo "Downloading Sequence Data from Other DBs"
 wget ftp://ftp.bioinfo.wsu.edu/www.citrusgenomedb.org/Citrus_maxima/C.maxima_Hzau_v1_genome/annotation/C.maxima_v1_HWB.peptide.fasta
 wget ftp://parrot.genomics.cn/gigadb/pub/10.5524/100001_101000/100192/pearl_millet_pep.gz
 wget ftp://plantgenie.org/Data/ConGenIE/Picea_glauca/WS77111/v1.0/FASTA/Manual_annotations_Protein.fasta
-wget http://nrifs.fra.affrc.go.jp/cgi-bin/lime_download/lime.cgi?nori_FASTA_AminoAcid
-wget https://www.hardwoodgenomics.org/sites/default/files/sequences/macadamia_integrifolia/maca.v1.1_proteins.fasta

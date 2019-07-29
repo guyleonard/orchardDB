@@ -122,6 +122,8 @@ wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/573/695/GCF_003573695.1_
 wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/713/225/GCF_003713225.1_Cara_1.0/GCF_003713225.1_Cara_1.0_protein.faa.gz -a get_archaeplastida.log
 wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/004/153/795/GCF_004153795.1_AHAU_CSS_1/GCF_004153795.1_AHAU_CSS_1_protein.faa.gz -a get_archaeplastida.log
 wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/004/193/775/GCF_004193775.1_ASM419377v2/GCF_004193775.1_ASM419377v2_protein.faa.gz -a get_archaeplastida.log
+wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/738/345/GCF_002738345.1_Cmax_1.0/GCF_002738345.1_Cmax_1.0_protein.faa.gz -a get_archaeplastida.log
+
 
 echo "Downloading Sequence Data from Other DBs"
 wget -nc ftp://cucurbitgenomics.org/pub/cucurbit/genome/Lagenaria_siceraria/Lsiceraria_v1.protein.fa.gz -a get_archaeplastida.log
@@ -148,8 +150,10 @@ wget -nc http://thellungiella.org/blast/db/TpV84ORFs.protein -a get_archaeplasti
 wget -nc http://www.nipgr.ac.in/WCGAP/download/genome_sequencing/annotation/Gene%20annotation/WCGAP_v2.0/Cr_protein_v2.0.fasta -a get_archaeplastida.log
 wget -nc http://www.plantmorphogenesis.bio.titech.ac.jp/~algae_genome_project/klebsormidium/kf_download/160614_klebsormidium_v1.1_AA.fasta -a get_archaeplastida.log
 wget -nc https://bioinformatics.psb.ugent.be/gdb/ulva/Ulvmu_prot_LATEST.tfa.gz -a get_archaeplastida.log
-wget -nc https://datadryad.org/bitstream/handle/10255/dryad.186892/ Gmm.final.pep.gz -a get_archaeplastida.log
+wget -nc https://datadryad.org/bitstream/handle/10255/dryad.186892/Gmm.final.pep.gz -a get_archaeplastida.log
 wget -nc https://doi.org/10.1371/journal.pgen.1004355.s013 -O Helicosporidium.fasta -a get_archaeplastida.log
 wget -nc https://marinegenomics.oist.jp/umibudo/download/clen_genemodels-v1.1.faa.gz -a get_archaeplastida.log
 wget -nc https://www.hardwoodgenomics.org/sites/default/files/sequences/liriodendron_chinense/Final.pep -O liriodendron_chinense_Final.pep -a get_archaeplastida.log
-wget -nc wget -nc https://datadryad.org/bitstream/handle/10255/dryad.143573/Dataset%201-genomics.zip?sequence=1 -O data.zip -a get_archaeplastida.log && unzip data.zip && rm CF150.fa CF150.gff CF150.tr.fa Dataset_blast2go.zip Dataset_blastp.txt Dataset_hmmsearch.txt Dataset_model.zip && rm -r __MACOSX && rm data.zip
+wget -nc wget -nc https://datadryad.org/bitstream/handle/10255/dryad.143573/Dataset%201-genomics.zip?sequence=1 -O data.zip -a get_archaeplastida.log; unzip data.zip CF150.aa.fa; rm data.zip
+wget https://www.hardwoodgenomics.org/sites/default/files/sequences/macadamia_integrifolia/maca.v1.1_proteins.fasta -a get_archaeplastida.log
+wget http://nrifs.fra.affrc.go.jp/cgi-bin/lime_download/lime.cgi?nori_FASTA_AminoAcid -O Pyezoensis_Augustus_proteins_v1.fasta -a get_archaeplastida.log
