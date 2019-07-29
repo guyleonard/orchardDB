@@ -66,7 +66,7 @@ DB=$3
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/GCF_000340665.1_C.cajan_V1.0_protein.faa.gz --taxid 3821 --source NCBI,RefSeq --type DNA --ver 1 --pub PMID:22057054
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/GCF_000633955.1_Cs_protein.faa --taxid 90675 --source NCBI,RefSeq --type DNA --ver 1 --pub DOI:10.1038/ncomms4706
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/GCF_004153795.1_AHAU_CSS_1_protein.faa --taxid 4442 --source NCBI,RefSeq --type DNA --ver 1 --pub DOI:10.1016/j.molp.2017.04.002
-../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/GCF_003713225.1_Cara_1.0_protein.faa --taxid 13443 --source NCBI,RefSeq --type DNA --ver  --pub DOI:10.1111/pbi.12912
+../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/GCF_003713225.1_Cara_1.0_protein.faa --taxid 13443 --source NCBI,RefSeq --type DNA --ver 1 --pub DOI:10.1111/pbi.12912
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/GCF_000313045.1_ASM31304v1_protein.faa --taxid 3656 --source NCBI,RefSeq --type DNA --ver 1 --pub DOI:10.1073/pnas.1205415109
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/GCF_002738345.1_Cmax_1.0_protein.faa --taxid 3661 --source NCBI,RefSeq --type DNA --ver 1 --pub DOI:10.1016/j.molp.2017.09.003
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/GCF_002806865.1_ASM280686v2_protein.faa --taxid 3663 --source NCBI,RefSeq --type DNA --ver 2 --pub DOI:10.1111/pbi.12860
