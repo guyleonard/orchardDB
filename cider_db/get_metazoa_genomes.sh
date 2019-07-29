@@ -81,7 +81,6 @@ wget -nc ftp://ftp.ensembl.org/pub/release-97/fasta/anas_platyrhynchos_platyrhyn
 wget -nc ftp://ftp.ensembl.org/pub/release-97/fasta/anolis_carolinensis/pep/Anolis_carolinensis.AnoCar2.0.pep.all.fa.gz -a get_metazoa.log
 wget -nc ftp://ftp.ensembl.org/pub/release-97/fasta/aotus_nancymaae/pep/Aotus_nancymaae.Anan_2.0.pep.all.fa.gz -a get_metazoa.log
 wget -nc ftp://ftp.ensembl.org/pub/release-97/fasta/astyanax_mexicanus/pep/Astyanax_mexicanus.Astyanax_mexicanus-2.0.pep.all.fa.gz -a get_metazoa.log
-wget -nc ftp://ftp.ensembl.org/pub/release-97/fasta/bos_taurus/pep/Bos_taurus.UMD3.1.pep.all.fa.gz -a get_metazoa.log
 wget -nc ftp://ftp.ensembl.org/pub/release-97/fasta/callithrix_jacchus/pep/Callithrix_jacchus.ASM275486v1.pep.all.fa.gz -a get_metazoa.log
 wget -nc ftp://ftp.ensembl.org/pub/release-97/fasta/canis_familiaris/pep/Canis_familiaris.CanFam3.1.pep.all.fa.gz -a get_metazoa.log
 wget -nc ftp://ftp.ensembl.org/pub/release-97/fasta/capra_hircus/pep/Capra_hircus.ARS1.pep.all.fa.gz -a get_metazoa.log
