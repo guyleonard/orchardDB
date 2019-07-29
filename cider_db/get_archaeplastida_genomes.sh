@@ -114,6 +114,7 @@ wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/001/879/475/GCF_001879475.1_
 wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/007/265/GCF_002007265.1_ASM200726v1/GCF_002007265.1_ASM200726v1_protein.faa.gz -a get_archaeplastida.log
 wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/127/325/GCF_002127325.1_HanXRQr1.0/GCF_002127325.1_HanXRQr1.0_protein.faa.gz -a get_archaeplastida.log
 wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/207/925/GCF_002207925.1_PAV_r1.0/GCF_002207925.1_PAV_r1.0_protein.faa.gz -a get_archaeplastida.log
+wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/738/345/GCF_002738345.1_Cmax_1.0/GCF_002738345.1_Cmax_1.0_protein.faa.gz -a get_archaeplastida.log
 wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/738/365/GCF_002738365.1_Cmos_1.0/GCF_002738365.1_Cmos_1.0_protein.faa.gz -a get_archaeplastida.log
 wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/806/865/GCF_002806865.1_ASM280686v2/GCF_002806865.1_ASM280686v2_protein.faa.gz -a get_archaeplastida.log
 wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/906/115/GCF_002906115.1_CorkOak1.0/GCF_002906115.1_CorkOak1.0_protein.faa.gz -a get_archaeplastida.log
@@ -122,15 +123,13 @@ wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/573/695/GCF_003573695.1_
 wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/713/225/GCF_003713225.1_Cara_1.0/GCF_003713225.1_Cara_1.0_protein.faa.gz -a get_archaeplastida.log
 wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/004/153/795/GCF_004153795.1_AHAU_CSS_1/GCF_004153795.1_AHAU_CSS_1_protein.faa.gz -a get_archaeplastida.log
 wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/004/193/775/GCF_004193775.1_ASM419377v2/GCF_004193775.1_ASM419377v2_protein.faa.gz -a get_archaeplastida.log
-wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/738/345/GCF_002738345.1_Cmax_1.0/GCF_002738345.1_Cmax_1.0_protein.faa.gz -a get_archaeplastida.log
-
 
 echo "Downloading Sequence Data from Other DBs"
 wget -nc ftp://cucurbitgenomics.org/pub/cucurbit/genome/Lagenaria_siceraria/Lsiceraria_v1.protein.fa.gz -a get_archaeplastida.log
 wget -nc ftp://cucurbitgenomics.org/pub/cucurbit/genome/watermelon/97103/v2/watermelon_97103_v2.protein.fa.gz -a get_archaeplastida.log
 wget -nc ftp://ftp.bioinfo.wsu.edu/species/Vaccinium_corymbosum/Vcorymbosum_Draper_genome_v1/annotation/V_corymbosum_Draper_v1.0-proteins-nameTruncated.fasta -a get_archaeplastida.log
-wget -nc ftp://ftp.fernbase.org/Azolla_filiculoides/Azolla_asm_v1.1/Azolla_filiculoides.protein.highconfidence_v1.1.fasta  -a get_archaeplastida.log && wget -nc ftp://ftp.fernbase.org/Azolla_filiculoides/Azolla_asm_v1.1/Azolla_filiculoides.protein.lowconfidence_v1.1.fasta && cat Azolla_filiculoides.protein.highconfidence_v1.1.fasta Azolla_filiculoides.protein.lowconfidence_v1.1.fasta > Azolla_filiculoides.proteins_v1.1.fasta
-wget -nc ftp://ftp.fernbase.org/Salvinia_cucullata/Salvinia_asm_v1.2/Salvinia_cucullata.protein.highconfidence_v1.2.fasta  -a get_archaeplastida.log && wget -nc ftp://ftp.fernbase.org/Salvinia_cucullata/Salvinia_asm_v1.2/Salvinia_cucullata.protein.lowconfidence_v1.2.fasta && cat Salvinia_cucullata.protein.highconfidence_v1.2.fasta Salvinia_cucullata.protein.lowconfidence_v1.2.fasta > Salvinia_cucullata.proteins_v1.2.fasta
+wget -nc ftp://ftp.fernbase.org/Azolla_filiculoides/Azolla_asm_v1.1/Azolla_filiculoides.protein.highconfidence_v1.1.fasta -a get_archaeplastida.log && wget -nc ftp://ftp.fernbase.org/Azolla_filiculoides/Azolla_asm_v1.1/Azolla_filiculoides.protein.lowconfidence_v1.1.fasta  -a get_archaeplastida.log && cat Azolla_filiculoides.protein.highconfidence_v1.1.fasta Azolla_filiculoides.protein.lowconfidence_v1.1.fasta > Azolla_filiculoides.proteins_v1.1.fasta
+wget -nc ftp://ftp.fernbase.org/Salvinia_cucullata/Salvinia_asm_v1.2/Salvinia_cucullata.protein.highconfidence_v1.2.fasta -a get_archaeplastida.log && wget -nc ftp://ftp.fernbase.org/Salvinia_cucullata/Salvinia_asm_v1.2/Salvinia_cucullata.protein.lowconfidence_v1.2.fasta  -a get_archaeplastida.log && cat Salvinia_cucullata.protein.highconfidence_v1.2.fasta Salvinia_cucullata.protein.lowconfidence_v1.2.fasta > Salvinia_cucullata.proteins_v1.2.fasta
 wget -nc ftp://ftp.kazusa.or.jp/pub/buckwheat/FES_r1.0.pep.fa.gz -a get_archaeplastida.log
 wget -nc ftp://ftp.kazusa.or.jp/pub/carnation/Gene_set/DCA_r1.0_pep.faa.gz -a get_archaeplastida.log
 wget -nc ftp://parrot.genomics.cn/gigadb/pub/10.5524/100001_101000/100348/Ginseng_proteins_v1.fasta.gz -a get_archaeplastida.log
