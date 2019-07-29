@@ -102,7 +102,6 @@
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	maskedHaplotigsCascade_v2_longestTranscript_pep150.fasta	--taxid	3486	--source	Other,HopBase	--type	DNA	--ver	Masked_haplotig	--pub	DOI:10.1093/pcp/pcu169	Humulus	lupulus
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	TpV84ORFs.protein	--taxid	98039	--source	Other,Thellungiella.org	--type	DNA	--ver	1	--pub	DOI:10.1038/ng.889	Thellungiella	parvula
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	V_corymbosum_Draper_v1.0-proteins-nameTruncated.fasta	--taxid	69266	--source	Other,vaccinium.org	--type	DNA	--ver	1	--pub	DOI:10.1186/s13742-015-0046-9	Vaccinium	corymbosum
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Cr_protein_v2.0.fasta	--taxid	90898	--source	Other,WCGAP	--type	DNA	--ver	2	--pub	DOI:10.1093/dnares/dsw042	Cicer	reticulatum
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Chlamydomonas_reinhardtii.Chlamydomonas_reinhardtii_v5.5.pep.all.fa	--taxid	3055	--source	Ensembl,Plants	--type	DNA	--ver	5.5	--pub	DOI:10.1126/science.1143609	Chlamydomonas	reinhardtii
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Chondrus_crispus.ASM35022v2.pep.all.fa	--taxid	2769	--source	Ensembl,Plants	--type	DNA	--ver	ASM35022v2	--pub	DOI:10.1073/pnas.1221259110	Chondrus	crispus
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Cyanidioschyzon_merolae.ASM9120v1.pep.all.fa	--taxid	280699	--source	Ensembl,Plants	--type	DNA	--ver	ASM9120v1	--pub	DOI:10.1038/nature02398	Cyanidioschyzon	merolae

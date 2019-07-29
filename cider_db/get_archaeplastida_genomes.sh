@@ -146,7 +146,6 @@ wget -nc http://cyanophora.rutgers.edu/porphyridium/Porphyridium_genemodels_UPDA
 wget -nc http://genome.ccbr.utoronto.ca/downloads/canSat3_transcriptome-representative_ORFs.fa.gz -a get_archaeplastida.log
 wget -nc http://hopbase.cgrb.oregonstate.edu/content/maskedHaplotigs/maskedHaplotigsCascade_v2_longestTranscript_pep150.fasta.gz -a get_archaeplastida.log
 wget -nc http://thellungiella.org/blast/db/TpV84ORFs.protein -a get_archaeplastida.log
-wget -nc http://www.nipgr.ac.in/WCGAP/download/genome_sequencing/annotation/Gene%20annotation/WCGAP_v2.0/Cr_protein_v2.0.fasta -a get_archaeplastida.log
 wget -nc http://www.plantmorphogenesis.bio.titech.ac.jp/~algae_genome_project/klebsormidium/kf_download/160614_klebsormidium_v1.1_AA.fasta -a get_archaeplastida.log
 wget -nc https://bioinformatics.psb.ugent.be/gdb/ulva/Ulvmu_prot_LATEST.tfa.gz -a get_archaeplastida.log
 wget -nc https://datadryad.org/bitstream/handle/10255/dryad.186892/Gmm.final.pep.gz -a get_archaeplastida.log
@@ -155,4 +154,4 @@ wget -nc https://marinegenomics.oist.jp/umibudo/download/clen_genemodels-v1.1.fa
 wget -nc https://www.hardwoodgenomics.org/sites/default/files/sequences/liriodendron_chinense/Final.pep -O liriodendron_chinense_Final.pep -a get_archaeplastida.log
 wget -nc wget -nc https://datadryad.org/bitstream/handle/10255/dryad.143573/Dataset%201-genomics.zip?sequence=1 -O data.zip -a get_archaeplastida.log; unzip data.zip CF150.aa.fa; rm data.zip
 wget https://www.hardwoodgenomics.org/sites/default/files/sequences/macadamia_integrifolia/maca.v1.1_proteins.fasta -a get_archaeplastida.log
-wget http://nrifs.fra.affrc.go.jp/cgi-bin/lime_download/lime.cgi?nori_FASTA_AminoAcid -O Pyezoensis_Augustus_proteins_v1.fasta -a get_archaeplastida.log
+wget http://nrifs.fra.affrc.go.jp/cgi-bin/lime_download/lime.cgi?nori_FASTA_AminoAcid -O Pyezoensis_Augustus_proteins_v1.fasta.gz -a get_archaeplastida.log
