@@ -36,7 +36,7 @@ pigz -9 -R ${DB}/archaeplastida/*
 # Metazoa
 #
 echo "[CREATE] Downloading Metazoan Genomes"
-./get_metazoa_genomes.sh
+./get_metazoan_genomes.sh
 echo -e "\tMove Original FASTA Records"
 mkdir -p ${DB}/metazoa
 echo "[CREATE] UnGzip Files"
