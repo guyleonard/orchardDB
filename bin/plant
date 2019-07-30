@@ -36,7 +36,7 @@ my $sources;
 my $type;
 my $published = 'NA';
 my $data_version;
-my $light_db = 'TRUE';
+my $lite_db = 'TRUE';
 
 #
 # getopt Logic
@@ -57,7 +57,7 @@ GetOptions(
     'type|y=s'          => \$type,
     'pub|p=s'           => \$published,
     'ver|V=s'           => \$data_version,
-    'light|l=s'         => \$light_db,
+    'lite|l=s'         => \$lite_db,
     'version|v'         => sub { print "$version" },
     'help|h'            => sub { help_message() }
 ) or help_message();
@@ -85,7 +85,7 @@ elsif ($populate) {
         && $sources
         && $type
         && $data_version
-        && $light_db )
+        && $lite_db )
     {
         print "[OrchardDB:Plant:INFO] - And awaaay we go!\n";
 
@@ -352,7 +352,7 @@ sub insert_accession_records {
                 = split /,/,
                 $sequence;
 
-            if ( $light_db eq 'TRUE' || $light_db =~ m/t/i )
+            if ( $lite_db eq 'TRUE' || $lite_db =~ m/t/i )
             {
                 $amino_acids = '';
             }
