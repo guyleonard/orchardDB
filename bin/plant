@@ -13,7 +13,7 @@ use Getopt::Long;
 use Data::Dumper;
 
 our $VERSION = 0.1;
-my $version = "OrchardDB v1.0 -- plant.pl v$VERSION";
+my $version = "OrchardDB v1.0 -- plant v$VERSION\n";
 
 #
 # Input Variables
@@ -57,8 +57,8 @@ GetOptions(
     'type|y=s'          => \$type,
     'pub|p=s'           => \$published,
     'ver|V=s'           => \$data_version,
-    'lite|l=s'         => \$lite_db,
-    'version|v'         => sub { print "$version" },
+    'lite|l=s'          => \$lite_db,
+    'version|v'         => sub { print "$version"; exit(0) },
     'help|h'            => sub { help_message() }
 ) or help_message();
 
@@ -425,7 +425,7 @@ sub get_taxonomy {
     # if the sqlite db does not exist, warn user
     if ( !-f 'nodes.dmp' || !-f 'names.dmp' ) {
         print
-            "[OrchardDB:Plant:WARN] - nodes.dmp and/or names.dmp Missing! Please Download to Continue.\n";
+            "[OrchardDB:Plant:ERRR] - nodes.dmp and/or names.dmp Missing! Please Download to Continue.\n";
         exit(1);
     }
 
@@ -654,6 +654,21 @@ sub process_ncbi {
 # Help Function
 #
 sub help_message {
-    print "Help!\n";
-    exit(1);
+    print "Usage: bin/plant options\n";
+    print "Program Mode\n";
+    print "\t--setup\n";
+    print "\t--populate\n";
+    print "Required Parameters\n";
+    print "\t--user|u <username>\tUsername for orchardDB\n";
+    print "\t--pass|p <password>\tPassword for orchardDB\n";
+    print "\t--db|d <db name>\torchardDB Name not Location\n";
+    print "Populate Options\n";
+    print "\t--fasta <fasta file>\t\tRequired\n";
+    print "\t--taxid <NCBI TaxID>\t\tNCBI Tax ID (Required)\n";
+    print "\t--source <source,subsource>\te.g. NCBI,RefSeq or JGI,Phytozome\n";
+    print "\t--type <string>\t\t\tOne of DNA, RNA or EST\n";
+    print "\t--ver <string>\t\t\tVersion Number from Genome\n";
+    print "\t--pub <string>\t\t\tPublication DOI or PMID\n";
+    print "\t--lite\t\t\t\tDon't Save Sequence in orchardDB\n";
+    exit(0);
 }
