@@ -153,5 +153,5 @@ wget -nc https://doi.org/10.1371/journal.pgen.1004355.s013 -O Helicosporidium.fa
 wget -nc https://marinegenomics.oist.jp/umibudo/download/clen_genemodels-v1.1.faa.gz -a get_archaeplastida.log
 wget -nc https://www.hardwoodgenomics.org/sites/default/files/sequences/liriodendron_chinense/Final.pep -O liriodendron_chinense_Final.pep -a get_archaeplastida.log
 wget -nc wget -nc https://datadryad.org/bitstream/handle/10255/dryad.143573/Dataset%201-genomics.zip?sequence=1 -O data.zip -a get_archaeplastida.log; unzip data.zip CF150.aa.fa; rm data.zip
-wget https://www.hardwoodgenomics.org/sites/default/files/sequences/macadamia_integrifolia/maca.v1.1_proteins.fasta -a get_archaeplastida.log
-wget http://nrifs.fra.affrc.go.jp/cgi-bin/lime_download/lime.cgi?nori_FASTA_AminoAcid -O Pyezoensis_Augustus_proteins_v1.fasta.gz -a get_archaeplastida.log
+wget -nc https://www.hardwoodgenomics.org/sites/default/files/sequences/macadamia_integrifolia/maca.v1.1_proteins.fasta -a get_archaeplastida.log
+wget -nc http://nrifs.fra.affrc.go.jp/cgi-bin/lime_download/lime.cgi?nori_FASTA_AminoAcid -O Pyezoensis_Augustus_proteins_v1.fasta.gz -a get_archaeplastida.log
