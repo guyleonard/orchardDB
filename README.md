@@ -13,15 +13,17 @@ git clone https://github.com/guyleonard/orchardDB.git
  * Bio::SeqIO
  * DateTime
  * DBI
- * Digest::MD5 qw(md5_hex)
- * File::Path qw(make_path)
+ * Digest::MD5
+ * File::Path
  * Getopt::Long
+ 
 e.g.
 ```
-sudo cpanm Bio::DB::Taxonomy Bio::SeqIO DateTime DBI Digest::MD5qw(md5_hex) File::Pathqw(make_path) Getopt::Long
+sudo cpanm Bio::DB::Taxonomy Bio::SeqIO DateTime DBI Digest::MD5 File::Path Getopt::Long
 ```
 #### Database
  * SQLite 3
+
  e.g.
  ```
  sudo apt-get install sqlite
