@@ -16,7 +16,7 @@ git clone https://github.com/guyleonard/orchardDB.git
  * Digest::MD5
  * File::Path
  * Getopt::Long
- 
+
 e.g.
 ```
 sudo cpanm Bio::DB::Taxonomy Bio::SeqIO DateTime DBI Digest::MD5 File::Path Getopt::Long
@@ -106,7 +106,8 @@ Headers are usually in this form:
 ```
 ./bin/plant --populate --user test --pass test --db cider --fasta testing/JGI/Mycocosm/Encro1_GeneCatalog_proteins_20131209.aa.fasta --taxid 1178016 --source JGI,mycocosm --type DNA  --ver 1 --pub yes
 ```
-####### Phytozome & Other -zomes
+
+###### Phytozome & Other -zomes
 Headers are usually in this form:
  * \>28448 pacid=27412865 transcript=28448 locus=eugene.1800010031 ID=28448.2.0.231 annot-version=v2.0
 ```
