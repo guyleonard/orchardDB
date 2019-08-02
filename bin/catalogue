@@ -1,0 +1,51 @@
+#!/usr/bin/env perl
+use strict;
+use warnings;
+
+use File::Basename;
+use DBI;
+
+my ( $username, $password, $orchardDB ) = @ARGV;
+
+if ( !defined $username || !defined $password || !defined $orchardDB ) {
+    print "Missing Parameters!\n";
+    print "Usage: catalogue username password orchardb\n";
+    exit(1);
+}
+
+my $basename = fileparse( $orchardDB, qr/\Q.sqlite\E/ );
+
+my $dbh = sqllite();
+my $statement
+    = qq(SELECT genome_id, genus_species, source, subsource, version, ncbi_taxid, t_superkingdom, t_kingdom, t_subkingdom, t_phylum, t_subphylum, t_class, t_order, t_family, t_special FROM odb_maintable GROUP BY genus_species);
+my $prepare = $dbh->prepare($statement);
+$prepare->execute();
+
+open my $catalogue_out, '>', "$basename\_catalogue\.tsv";
+while (
+    my ($genome_id,    $genus_species, $source,         $subsource,
+        $version,      $ncbi_taxid,    $t_superkingdom, $t_kingdom,
+        $t_subkingdom, $t_phylum,      $t_subphylum,    $t_class,
+        $t_order,      $t_family,      $t_special
+    )
+    = $prepare->fetchrow_array()
+    )
+{
+    print $catalogue_out
+        "$genome_id\t$genus_species\t$ncbi_taxid\t$t_superkingdom\t$t_kingdom\t$t_subkingdom\t$t_phylum\t$t_subphylum\t$t_class\t$t_order\t$t_family\t$t_special\t$source\t$subsource\t$version\n";
+}
+close($catalogue_out);
+
+#
+# SQLLite
+#
+sub sqllite {
+    my $driver   = 'SQLite';
+    my $database = "$orchardDB";
+    my $dsn      = "DBI:$driver:dbname=$database";
+
+    my $dbh = DBI->connect( $dsn, $username, $password, { RaiseError => 1 } )
+        or die $DBI::errstr;
+
+    return $dbh;
+}
