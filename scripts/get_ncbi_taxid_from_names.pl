@@ -18,12 +18,12 @@ my $first_line = <$file_in>;
 
 foreach my $line (<$file_in>) {
 
-    my @current_line = split( /,/, $line );
+    my @current_line = split( / /, $line );
 
     #my $taxon_name = $line;
 
     my $taxon_name
-        = "$current_line[0] $current_line[1] $current_line[2]";# $current_line[3]";
+        = "$current_line[0] $current_line[1]";#$current_line[2]"; # $current_line[3]";
 
     #my $original_taxid = "$current_line[9]";
     #print "Read in: $taxon_name\n";
@@ -37,12 +37,12 @@ foreach my $line (<$file_in>) {
 
     #print "ID: $taxid\n";
 
-    #my $colour = &get_ncbi_taxonomy("$taxon_name");
+    my $colour = &get_ncbi_taxonomy("$taxon_name");
 
     #print "Identified: $taxon_name\tNCBI: $leaf_name_id\n";
     #print $file_out "$leaf_name,$split_taxon_name$leaf_name_id,0,$colour\n";
     #print "$split_taxon_name$taxon_name,$taxid,$original_taxid\n";
-    print "$taxon_name,$taxon,$taxid\n";    #,$colour\n";
+    print "$taxon,$taxid,$colour\n";    #,$colour\n";
 
 }
 
@@ -107,7 +107,7 @@ sub get_ncbi_taxonomy {
     my ( $genus, $species ) = split( / /, $query );
     my $unknown;
     my $colour;
-    print "$genus $species\n";
+    #print "$genus $species\n";
 
     my $dbh = Bio::DB::Taxonomy->new( -source => 'entrez' );
 
