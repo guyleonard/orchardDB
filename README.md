@@ -1,11 +1,12 @@
 # orchardDB
 :apple: :deciduous_tree: A script to create and populate a local database and folder-set of amino acid sequences and taxonomic information retrieved from a variety of genome-portals for use with the Orchard tree building pipeline.
 
-## Install
+## Installation
 Please make sure all dependencies are currently installed, then do:
 ```
 git clone https://github.com/guyleonard/orchardDB.git
 ```
+
 ### Dependencies
 #### Perl
  * Bio::DB::Taxonomy
@@ -15,12 +16,17 @@ git clone https://github.com/guyleonard/orchardDB.git
  * Digest::MD5 qw(md5_hex)
  * File::Path qw(make_path)
  * Getopt::Long
-e.g
+e.g.
 ```
 sudo cpanm Bio::DB::Taxonomy Bio::SeqIO DateTime DBI Digest::MD5qw(md5_hex) File::Pathqw(make_path) Getopt::Long
 ```
 #### Database
  * SQLite 3
+ e.g.
+ ```
+ sudo apt-get install sqlite
+ ```
+
 #### Databases
  * NCBI Taxdump - from ftp://ftp.ncbi.nih.gov/pub/taxonomy/taxdump.tar.gz
    * Place the names.dmp and nodes.dmp files in to the cloned repository.
@@ -29,12 +35,12 @@ sudo cpanm Bio::DB::Taxonomy Bio::SeqIO DateTime DBI Digest::MD5qw(md5_hex) File
 ## Standard Usage
 Firstly you must set up a database, and then secondly populate it with sequence data as detailed below.
 
-Amino acid sequences can be derived from DNA or RNA gene predictions, or from EST libraries. Multiple versions of different taxa (e.g. different gene-calling methods or updated genomes) can exist in the database. A unique ID is used to represent the 'genome' in the database and downstream scripts, they can be translated back to a variety of useful information. Additionally, each sequence is given it's own unique ID, separate to that of the one from it's genome portal, you will see those in the database accessions and initial trees before renaming.
+Amino acid sequences can be derived from DNA or RNA gene predictions, or from EST libraries. Multiple versions of different taxa (e.g. different gene-calling methods or updated genomes) can exist in the database. A unique ID is used to represent the 'genome' in the database and downstream scripts, they can be translated back to a variety of useful information in the orchard package. Additionally, each sequence is given it's own unique ID, separate to that of the one from it's genome portal.
 
-You may add any sequence data you like to your local database, respecting any specific data release policies or not. Genomes included in the 'testing' dataset and the 'default' *cider* DB are all publically available and published.
+You may add any sequence data you like to your local database, please remember to respect any specific data release policies. Genomes included in the 'testing' dataset and the 'default' *cider* DB are all publically available and published. The majority are sourced from ENSEMBL, JGI and NCBI respectively.
 
-### 'Cider' DB
-A set of genomes curated from groups such as Archaeplastida, Fungi, Metazoa, Protists along with Archaea & Bacteria. The list included here may be somewhat protist- and/or fungal-heavy due to the interests of the Richards' Lab. The list is not meant to be comprehensive, nor does it suggest any preference (for the most part I try to take a sample across the eToL and from published genomes), please add or remove genomes as *your* analyses require. If there are genomes that you have think I have missed and would like included, then please feel free to add them by way of pull-requests or add an issue above.
+### 'Cider' Database
+A set of genomes curated from groups such as Archaeplastida, Fungi, Metazoa, Protists along with Archaea & Bacteria. The list included here is somewhat protist- and fungal-heavy due to the interests of the Richards' Lab. Please add or remove genomes as *your* analyses require. If there are genomes that you have think I have absolutely missed and would like included here, then please feel free to add them by way of a pull-request or add an issue above.
 
  * ~150 Archaeplastida Genomes
    * A wide selection of Angiosperms from Ensemble Plants, JGI Phytozome, NCBI and others.
@@ -44,6 +50,7 @@ A set of genomes curated from groups such as Archaeplastida, Fungi, Metazoa, Pro
    * Mostly from Ensembl Metazoa & Vetebrates.
    * Some NCBI and other sources.
  * Protist Genomes
+   * Mostly Ensembl Protists
  * Archaea & Bacteria
 
 #### Set Up *cider* Database
@@ -51,7 +58,6 @@ Run the scripts in the cider_db folder, they will download the initial set of ge
 ```
 ./create_cider_db.sh username password db_name
 ```
-
 ### Your Own Database
 #### Set Up
 This command will create a directory named "cider" and a SQL DB named "cider.sqlite" in the same directory. This will be your store of information for the whole orchardDB.
@@ -62,7 +68,7 @@ This command will create a directory named "cider" and a SQL DB named "cider.sql
             --db cider    # OrchardDB name
 ```
 #### Populate Database
-This command will add information to the database and copy your original files to the database directory with new headers. You will need to provide a file of your amino acids in FASTA format, an NCBI Taxon ID code for your species, a source as "source,subsource" choosing from (NCBI, JGI, ENSEMBL, EuPathDB or OTHER) e.g. "JGI,Mycocosm", a 'type' suggesting where your data is predicted from (e.g. DNA, RNA, EST) and a version number (always "1" if you leave this option blank). You may also like to add publication info as a PubMed ID or DOI or simply "YES","NO" or "NA". You may choose to store sequences in the DB by using the "lite" option, however this is not standard and is turned off by default (reduces DB size).
+This command will add information to the database and copy your original files to the database directory with the new headers. You will need to provide a file of your amino acids in FASTA format, an NCBI Taxon ID code for your species, a source as "source,subsource" choosing from (NCBI, JGI, ENSEMBL, EuPathDB or OTHER) e.g. "JGI,Mycocosm", a 'type' suggesting where your data is predicted from (e.g. DNA, RNA, EST) and a version number (always "1" if you leave this option blank). You may also like to add publication info as a PubMed ID or DOI or simply "YES","NO" or "NA". You may choose to store sequences in the DB by using the "lite" option, however this is not standard and is turned off by default (reduces DB size).
 
 ##### Any Other Genome Portal
 Headers must be plain, consisting of only the accession number:
@@ -122,4 +128,11 @@ Headers are usually in this form:
  * \>AEWD_010010-t26_1-p1 | transcript=AEWD_010010-t26_1 | gene=AEWD_010010 | organism=Encephalitozoon_cuniculi_EC1 | gene_product=serine hydroxymethyltransferase | transcript_product=serine hydroxymethyltransferase | location=ECI_CH01:23-1405(+) | protein_length=460 | sequence_SO=chromosome | SO
 ```
 ./bin/plant --populate --user test --pass test --db cider --fasta testing/EuPathDB/MicrosporidiaDB/MicrosporidiaDB-36_EcuniculiEC1_AnnotatedProteins.fasta --taxid 986730 --source EuPathDB,MicrosporidiaDB --type DNA  --ver 1 -pub yes
+```
+
+### Other Scripts
+#### Catalogue
+This script will query your database and output a tab-separated text file of the main database table. This allows the user to see the IDs that were generated for each of their 'genomes' in the database along with the other information stored there. This is useful for choosing the taxa that you want to use in the 'Orchard' scripts.
+```
+./bin/catalogue username password /path/to/database.sql
 ```
