@@ -11,6 +11,20 @@ if [ "${NUMARGS}" -eq 0 ]; then
     exit 1
 fi
 
+if [ ! -f nodes.dmp ]; then
+	echo "nodes.dmp is Missing";
+	exit 1
+fi
+
+if [ ! -f names.dmp ]; then
+	echo "names.dmp is Missing";
+	exit 1
+fi
+
+if [ ! -f taxonomy.sqlite ]; then
+	echo "taxonomy.sqlite is Missing. It will be generated on the first pass.";
+fi
+
 #
 # Setup
 #
