@@ -10,9 +10,7 @@ use Digest::MD5 qw(md5_hex);
 use File::Path qw(make_path);
 use Getopt::Long;
 
-use Data::Dumper;
-
-our $VERSION = 0.1;
+our $VERSION = 0.2;
 my $version = "OrchardDB v1.0 -- plant v$VERSION\n";
 
 #
@@ -21,22 +19,15 @@ my $version = "OrchardDB v1.0 -- plant v$VERSION\n";
 my $warnings = 0;
 
 # database access
-my $user;
-my $password;
-my $db_name;
+my ( $user, password, $db_name );
 
 # options
-my $setup;
-my $populate;
+my ( $setup, $populate, $uproot );
 
 # inputs
-my $fasta_input;
-my $taxid;
-my $sources;
-my $type;
+my ( $fasta_input, $taxid, $sources, $type, $data_version );
 my $published = 'NA';
-my $data_version;
-my $lite_db = 'TRUE';
+my $lite_db   = 'TRUE';
 
 #
 # getopt Logic
@@ -48,6 +39,7 @@ if ( !@ARGV ) {
 GetOptions(
     'setup'             => \$setup,
     'populate'          => \$populate,
+    'uproot=s'          => \$uproot,
     'user|u=s'          => \$user,
     'pass|password|p=s' => \$password,
     'db|d=s'            => \$db_name,
@@ -59,7 +51,7 @@ GetOptions(
     'ver|V=s'           => \$data_version,
     'lite|l=s'          => \$lite_db,
     'version|v'         => sub { print "$version"; exit(0) },
-    'help|h'            => sub { help_message() }
+    'help|h' => sub { help_message() }
 ) or help_message();
 
 #
@@ -164,6 +156,18 @@ elsif ($populate) {
         print "[OrchardDB:Plant:ERRR] - Missing Input Options\n";
         help_message();
     }
+}
+elsif ( defined $uproot ) {
+    if (   $user
+        && $password
+        && $db_name )
+    {
+        print "[OrchardDB:Plant:INFO] - Removing Taxa: $uproot\n";
+        remove_taxa($uproot);
+    }
+}
+else {
+    print "[OrchardDB:Plant:ERRR] - Something is Wrong!\n";
 }
 
 #
@@ -352,8 +356,7 @@ sub insert_accession_records {
                 = split /,/,
                 $sequence;
 
-            if ( $lite_db eq 'TRUE' || $lite_db =~ m/t/i )
-            {
+            if ( $lite_db eq 'TRUE' || $lite_db =~ m/t/i ) {
                 $amino_acids = '';
             }
 
@@ -371,6 +374,34 @@ sub insert_accession_records {
 
         $dbh->disconnect();
     }
+}
+
+sub remove_taxa {
+    my $taxon_id = shift;
+
+    my $driver   = 'SQLite';
+    my $database = "$db_name\/$db_name\.sqlite";
+    my $dsn      = "DBI:$driver:dbname=$database";
+    my $dbh
+        = DBI->connect( $dsn, $user, $password,
+        { RaiseError => 1, AutoCommit => 0 } )
+        or die $DBI::errstr;
+    print "[OrchardDB:Plant:INFO] - Successfully Conected: $database\n"
+        if $warnings >= 1;
+
+    my $statement
+        = qq (DELETE FROM odb_accessions WHERE lookup_id='$taxon_id');
+    my $prepare = $dbh->prepare($statement);
+    my $delete = $prepare->execute() or die $DBI::errstr;
+    $dbh->commit;
+
+    my $statement2
+        = qq (DELETE FROM odb_maintable WHERE genome_id='$taxon_id');
+    my $prepare2 = $dbh->prepare2($statement2);
+    my $delete2 = $prepare2->execute() or die $DBI::errstr;
+    $dbh->commit;
+
+    $dbh->disconnect();
 }
 
 #
@@ -665,7 +696,8 @@ sub help_message {
     print "Populate Options\n";
     print "\t--fasta <fasta file>\t\tRequired\n";
     print "\t--taxid <NCBI TaxID>\t\tNCBI Tax ID (Required)\n";
-    print "\t--source <source,subsource>\te.g. NCBI,RefSeq or JGI,Phytozome\n";
+    print
+        "\t--source <source,subsource>\te.g. NCBI,RefSeq or JGI,Phytozome\n";
     print "\t--type <string>\t\t\tOne of DNA, RNA or EST\n";
     print "\t--ver <string>\t\t\tVersion Number from Genome\n";
     print "\t--pub <string>\t\t\tPublication DOI or PMID\n";
