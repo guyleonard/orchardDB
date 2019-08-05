@@ -246,3 +246,6 @@
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	160208_2k_oki_prot.fa	--taxid	309737	--source	Other,OIST	--type	DNA	--ver		--pub	NA	Cladosiphon okamuranus
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	run_2.all.maker.proteins.renamed.fasta	--taxid	4808	--source	Other,richardslab	--type	DNA	--ver	1	--pub	NA	Blastocladiella emersonii 
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	hyphochytrium_catenoides_predicted_proteins_renamed.fasta	--taxid	42384	--source	Other,richardslab	--type	DNA	--ver	1	--pub	NA	Hyphochytrium catenoides 
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	T_borealis_oct2012_proteins.fasta	--taxid	5893	--source	Other,cilliate.org	--type	DNA	--ver	2012	--pub	NA	Tetrahymena borealis
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	T_elliotti_oct2012_proteins.fasta	--taxid	5897	--source	Other,cilliate.org	--type	DNA	--ver	2012	--pub	NA	Tetrahymena elliotti
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	T_malaccensis_oct2012_proteins.fasta	--taxid	5901	--source	Other,cilliate.org	--type	DNA	--ver	2012	--pub	NA	Tetrahymena malaccensis

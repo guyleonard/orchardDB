@@ -248,7 +248,9 @@ wget -nc https://marinegenomics.oist.jp/ito_mozuku_v1/download/ito_mozuku_onna1_
 wget -nc https://marinegenomics.oist.jp/algae/download/160208_2k_oki_prot.fa.gz
 wget -nc https://github.com/guyleonard/blastocladiella/raw/master/run_2.all.maker.proteins.renamed.fasta
 wget -nc https://github.com/guyleonard/hyphochytrium/raw/master/data_submission/hyphochytrium_catenoides_predicted_proteins_renamed.fasta
-
+wget -nc http://www.ciliate.org/system/downloads/T_borealis_oct2012_proteins.fasta
+wget -nc http://www.ciliate.org/system/downloads/T_elliotti_oct2012_proteins.fasta
+wget -nc http://www.ciliate.org/system/downloads/T_malaccensis_oct2012_proteins.fasta
 
 echo "Downloading Sequence Data from NCBI"
 wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/002/081/595/GCA_002081595.1_ACH_lane_v1/GCA_002081595.1_ACH_lane_v1_protein.faa.gz
