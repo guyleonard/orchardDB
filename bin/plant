@@ -162,8 +162,15 @@ elsif ( defined $uproot ) {
         && $password
         && $db_name )
     {
-        print "[OrchardDB:Plant:INFO] - Removing Taxa: $uproot\n";
+        print
+            "[OrchardDB:Plant:INFO] - Removing Taxa: $uproot from $database\n";
         remove_taxa( $user, $password, $db_name, $uproot );
+        print
+            "[OrchardDB:Plant:INFO] - Successfully Removed $uproot from $database\n";
+    }
+    else {
+        print "[OrchardDB:Plant:ERRR] - Missing Input Options\n";
+        help_message();
     }
 }
 else {
@@ -389,16 +396,17 @@ sub remove_taxa {
     print "[OrchardDB:Plant:INFO] - Successfully Conected: $database\n"
         if $warnings >= 1;
 
-    my $statement
+    my $statement_accessions
         = qq (DELETE FROM odb_accessions WHERE lookup_id='$taxon_id');
-    my $prepare = $dbh->prepare($statement);
-    my $delete = $prepare->execute() or die $DBI::errstr;
+    my $prepare_accessions = $dbh->prepare($statement_accessions);
+    my $delete_accessions  = $prepare_accessions->execute()
+        or die $DBI::errstr;
     $dbh->commit;
 
-    my $statement2
+    my $statement_main
         = qq (DELETE FROM odb_maintable WHERE genome_id='$taxon_id');
-    my $prepare2 = $dbh->prepare2($statement2);
-    my $delete2 = $prepare2->execute() or die $DBI::errstr;
+    my $prepare_main = $dbh->prepare($statement_main);
+    my $delete_main = $prepare_main->execute() or die $DBI::errstr;
     $dbh->commit;
 
     $dbh->disconnect();
