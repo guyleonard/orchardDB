@@ -273,6 +273,6 @@ wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/002/754/855/GCA_002754855.1_
 wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/224/145/GCF_000224145.3_KH/GCF_000224145.3_KH_protein.faa.gz -a get_metazoa.log
 
 echo "Downloading Sequence Data from Other DBs"
-wget -nc https://neurobase.rc.ufl.edu/pleurobrachia/downloadFasta?id=38 -O Pleurobrachia_bachei.fasta -a get_metazoa.log
+wget -nc https://neurobase.rc.ufl.edu/pleurobrachia/downloadFasta?id=38 -O Pleurobrachia_bachei.fasta -a get_metazoa.log && sed -i -e '1,4d' Pleurobrachia_bachei.fasta
 wget -nc ftp://parrot.genomics.cn/gigadb/pub/10.5524/100001_101000/100565/renilla_predicted_proteins.fasta -a get_metazoa.log
 wget -nc http://octopus.unit.oist.jp/HEMIDATA/pfl.prot -a get_metazoa.log
