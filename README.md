@@ -51,6 +51,9 @@ A set of genomes curated from groups such as Archaeplastida, Fungi, Metazoa, Pro
  * ~270 Metazoan Genomes
    * Mostly from Ensembl Metazoa & Vetebrates.
    * Some NCBI and other sources.
+   * real  229m2.717s
+   * user  67m45.328s
+   * sys   21m55.732s
  * Protist Genomes
    * Mostly Ensembl Protists
  * Archaea & Bacteria
@@ -131,6 +134,16 @@ Headers are usually in this form:
  * \>AEWD_010010-t26_1-p1 | transcript=AEWD_010010-t26_1 | gene=AEWD_010010 | organism=Encephalitozoon_cuniculi_EC1 | gene_product=serine hydroxymethyltransferase | transcript_product=serine hydroxymethyltransferase | location=ECI_CH01:23-1405(+) | protein_length=460 | sequence_SO=chromosome | SO
 ```
 ./bin/plant --populate --user test --pass test --db cider --fasta testing/EuPathDB/MicrosporidiaDB/MicrosporidiaDB-36_EcuniculiEC1_AnnotatedProteins.fasta --taxid 986730 --source EuPathDB,MicrosporidiaDB --type DNA  --ver 1 -pub yes
+```
+
+#### Remove Taxa from Database
+Sometimes you may wish to delete a taxa and all it's associated records from the DB. You can do this with the "uproot" command and the unique genome ID of your taxa.
+
+```
+./bin/plant --uproot 01bd3bdf0e8ae98c26aec99074fefaab \ # genome ID
+            --user test \
+            --pass test \
+            --db cider
 ```
 
 ### Other Scripts
