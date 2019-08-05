@@ -43,8 +43,8 @@ pigz -d *.gz
 mv *.aa *.fa *.fna *.faa *.fasta *.pep *.protein *.tfa ${DB}/archaeplastida
 echo "[CREATE] Archaeplastida Genomes"
 ./insert_archaeplastida_genomes.sh ${USER} ${PASS} ${DB}
-echo -e "\tGZIP Original FASTA Records"
-pigz -9 -R ${DB}/archaeplastida/* 
+echo -e "\tGZIP Original Archaeplastida FASTA Records"
+pigz -9 -R ${DB}/archaeplastida/*
 
 #
 # Metazoa
@@ -58,7 +58,22 @@ pigz -d *.gz
 mv *.aa *.fa *.fna *.faa *.fasta *.pep *.protein *.prot *.tfa ${DB}/metazoa
 echo "[CREATE] Metazoa Genomes"
 ./insert_metazoan_genomes.sh ${USER} ${PASS} ${DB}
-echo -e "\tGZIP Original FASTA Records"
-pigz -9 -R ${DB}/metazoa/* 
+echo -e "\tGZIP Original Metazoan FASTA Records"
+pigz -9 -R ${DB}/metazoa/*
+
+#
+# Protists
+#
+echo "[CREATE] Downloading Protist Genomes"
+./get_protist_genomes.sh
+echo -e "\tMove Original FASTA Records"
+mkdir -p ${DB}/protists
+echo "[CREATE] UnGzip Files"
+pigz -d *.gz
+mv *.aa *.fa *.fna *.faa *.fasta *.pep *.protein *.prot *.tfa ${DB}/protist
+echo "[CREATE] Protist Genomes"
+./insert_protist_genomes.sh ${USER} ${PASS} ${DB}
+echo -e "\tGZIP Original Protist FASTA Records"
+pigz -9 -R ${DB}/protists/* 
 
 exit 0
