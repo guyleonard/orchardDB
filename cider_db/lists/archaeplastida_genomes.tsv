@@ -147,3 +147,8 @@
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Helicosporidium.fasta	--taxid	1907511	--source	Other,PloSGen	--type	DNA	--ver	1	--pub	DOI:10.1371/journal.pgen.1004355	Helicosporidium	sp.
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Picochlorum-SENEW3-peptides.fasta	--taxid	1470871	--source	Other,Rutgers	--type	DNA	--ver	1	--pub	DOI:10.1111/1462-2920.12541	Picochlorum	sp.
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Porphyridium_genemodels_UPDATED.fasta	--taxid	35688	--source	Other,Rutgers	--type	DNA	--ver	2012	--pub	DOI:10.1038/ncomms2931	Porphyridium	purpureum
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Calliarthron_tuberculosum_partial_protein.txt	--taxid	48942	--source	Other,realDB	--type	DNA	--ver	partial	--pub	NA	Calliarthron	tuberculosum
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Gracilariopsis_lemaneiformis_pep.txt	--taxid	2782	--source	Other,realDB	--type	DNA	--ver	1	--pub	NA	Gracilariopsis	lemaneiformis
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Porphyridium_cruentum_pep.txt	--taxid	35688	--source	Other,realDB	--type	DNA	--ver	1	--pub	NA	Porphyridium	cruentum
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_002220235.1_ASM222023v1_protein.faa	--taxid	41875	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	NA	Bathycoccus	prasinos
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Ch_genome_seq_final.mod01.fasta.aa.gz	--taxid	2041167	--source	Other,OISTMarine	--type	DNA	--ver	1	--pub	NA	Chlorella 	sp. A99

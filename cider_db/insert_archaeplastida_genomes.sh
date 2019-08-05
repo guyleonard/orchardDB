@@ -150,3 +150,8 @@ DB=$3
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/Helicosporidium.fasta --taxid 1907511 --source Other,PloSGen --type DNA --ver 1 --pub DOI:10.1371/journal.pgen.1004355 --lite T
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/Picochlorum-SENEW3-peptides.fasta --taxid 1470871 --source Other,Rutgers --type DNA --ver 1 --pub DOI:10.1111/1462-2920.12541 --lite T
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/Porphyridium_genemodels_UPDATED.fasta --taxid 35688 --source Other,Rutgers --type DNA --ver 2012 --pub DOI:10.1038/ncomms2931 --lite T
+../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/Calliarthron_tuberculosum_partial_protein.txt --taxid 48942 --source Other,realDB --type DNA --ver partial --pub NA Calliarthron tuberculosum --lite T
+../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/Gracilariopsis_lemaneiformis_pep.txt --taxid 2782 --source Other,realDB --type DNA --ver 1 --pub NA Gracilariopsis lemaneiformis --lite T
+../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/Porphyridium_cruentum_pep.txt --taxid 35688 --source Other,realDB --type DNA --ver 1 --pub NA Porphyridium cruentum --lite T
+../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/GCF_002220235.1_ASM222023v1_protein.faa --taxid 41875 --source NCBI,RefSeq --type DNA --ver 1 --pub NA Bathycoccus prasinos --lite T
+../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/Ch_genome_seq_final.mod01.fasta.aa.gz --taxid 2041167 --source Other,OISTMarine --type DNA --ver 1 --pub NA Chlorella  sp. A99 --lite T

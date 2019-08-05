@@ -123,6 +123,7 @@ wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/573/695/GCF_003573695.1_
 wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/713/225/GCF_003713225.1_Cara_1.0/GCF_003713225.1_Cara_1.0_protein.faa.gz -a get_archaeplastida.log
 wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/004/153/795/GCF_004153795.1_AHAU_CSS_1/GCF_004153795.1_AHAU_CSS_1_protein.faa.gz -a get_archaeplastida.log
 wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/004/193/775/GCF_004193775.1_ASM419377v2/GCF_004193775.1_ASM419377v2_protein.faa.gz -a get_archaeplastida.log
+wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/220/235/GCF_002220235.1_ASM222023v1/GCF_002220235.1_ASM222023v1_protein.faa.gz
 
 echo "Downloading Sequence Data from Other DBs"
 wget -nc ftp://cucurbitgenomics.org/pub/cucurbit/genome/Lagenaria_siceraria/Lsiceraria_v1.protein.fa.gz -a get_archaeplastida.log
@@ -155,3 +156,7 @@ wget -nc https://www.hardwoodgenomics.org/sites/default/files/sequences/lirioden
 wget -nc wget -nc https://datadryad.org/bitstream/handle/10255/dryad.143573/Dataset%201-genomics.zip?sequence=1 -O data.zip -a get_archaeplastida.log; unzip data.zip CF150.aa.fa; rm data.zip
 wget -nc https://www.hardwoodgenomics.org/sites/default/files/sequences/macadamia_integrifolia/maca.v1.1_proteins.fasta -a get_archaeplastida.log
 wget -nc http://nrifs.fra.affrc.go.jp/cgi-bin/lime_download/lime.cgi?nori_FASTA_AminoAcid -O Pyezoensis_Augustus_proteins_v1.fasta.gz -a get_archaeplastida.log
+wget -nc ftp://106.14.123.14/Algae/realdb/Calliarthron_tuberculosum/Calliarthron_tuberculosum_partial_protein.txt
+wget -nc ftp://106.14.123.14/Algae/realdb/Gracilariopsis_lemaneiformis/Gracilariopsis_lemaneiformis_pep.txt
+wget -nc ftp://106.14.123.14/Algae/realdb/Porphyridium_cruentum/Porphyridium_cruentum_pep.txt
+wget -nc http://marinegenomics.oist.jp/chlorellaA99/download/Ch_genome_seq_final.mod01.fasta.aa.gz
