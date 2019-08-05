@@ -12,7 +12,6 @@
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Babesia_ovata_gca_002897235.Bovata_7.1.pep.all.fa	--taxid	189622	--source	Ensembl,Protists	--type	DNA	--ver	Bovata_7.1	--pub	NA	Babesia ovata str. Miyake
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Babesia_sp_xinjiang_gca_002095265.B_xinjiang1.0.pep.all.fa	--taxid	462227	--source	Ensembl,Protists	--type	DNA	--ver	B_xinjiang1.0	--pub	NA	Babesia sp. Xinjiang
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Besnoitia_besnoiti_gca_002563875.Bbes1.0.pep.all.fa	--taxid	94643	--source	Ensembl,Protists	--type	DNA	--ver	Bbes1.0	--pub	NA	Besnoitia besnoiti str. Bb-Ger1
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Bigelowiella_natans_gca_000002455.ASM245v1.pep.all.fa	--taxid	227086	--source	Ensembl,Protists	--type	DNA	--ver	ASM245v1	--pub	NA	Bigelowiella natans
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Bigelowiella_natans.Bigna1.pep.all.fa	--taxid	753081	--source	Ensembl,Protists	--type	DNA	--ver	Bigna1	--pub	NA	Bigelowiella natans
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Blastocystis_hominis.ASM15166v1.pep.all.fa	--taxid	12968	--source	Ensembl,Protists	--type	DNA	--ver	ASM15166v1	--pub	NA	Blastocystis hominis str. Singapore isolate B (sub-type 7)
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Bodo_saltans.BSAL.pep.all.fa	--taxid	75058	--source	Ensembl,Protists	--type	DNA	--ver	BSAL	--pub	NA	Bodo saltans
@@ -227,7 +226,6 @@
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Aplke1_all_proteins_20121220.aa.fasta	--taxid	702273	--source	JGI,Other	--type	DNA	--ver	V1.0	--pub	NA	Aplanochytrium kerguelense
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Aurli1_all_proteins_20120618.aa.fasta	--taxid	717989	--source	JGI,Other	--type	DNA	--ver	V1.0	--pub	NA	Aurantiochytrium limacinum
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	proteins.Auran1_FilteredModels3.fasta	--taxid	44056	--source	JGI,Other	--type	DNA	--ver	V1.0	--pub	NA	Aureococcus anophagefferens
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Bigna1_all_proteins.fasta	--taxid	753081	--source	JGI,Other	--type	DNA	--ver	V1.0	--pub	NA	Bigelowiella natans
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Crypto2293_1_all_proteins_20160903.aa.fasta	--taxid	3027	--source	JGI,Other	--type	DNA	--ver	V1.0	--pub	NA	Cryptophyceae sp.
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Ochro2298_1_all_proteins_20160817.aa.fasta	--taxid	88165	--source	JGI,Other	--type	DNA	--ver	V1.0	--pub	NA	Ochromonadaceae sp.
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Pavlov2436_1_all_proteins_20160817.aa.fasta	--taxid	73026	--source	JGI,Other	--type	DNA	--ver	V1.0	--pub	NA	Pavlovales sp.
