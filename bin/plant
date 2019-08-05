@@ -163,10 +163,10 @@ elsif ( defined $uproot ) {
         && $db_name )
     {
         print
-            "[OrchardDB:Plant:INFO] - Removing Taxa: $uproot from $database\n";
+            "[OrchardDB:Plant:INFO] - Removing Taxa: $uproot from $db_name\n";
         remove_taxa( $user, $password, $db_name, $uproot );
         print
-            "[OrchardDB:Plant:INFO] - Successfully Removed $uproot from $database\n";
+            "[OrchardDB:Plant:INFO] - Successfully Removed $uproot from $db_name\n";
     }
     else {
         print "[OrchardDB:Plant:ERRR] - Missing Input Options\n";
