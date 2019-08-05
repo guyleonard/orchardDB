@@ -47,7 +47,11 @@ A set of genomes curated from groups such as Archaeplastida, Fungi, Metazoa, Pro
  * ~150 Archaeplastida Genomes
    * A wide selection of Angiosperms from Ensemble Plants, JGI Phytozome, NCBI and others.
    * As many non-angiosperm (Glauco-, Rhodo-, Chloro-phyta) genomes with predicted proteins as I could locate as of July 2019.
+   * real   187m47.410s
+   * user  45m37.288s
+   * sys   17m46.896s
  * Fungal Genomes
+   * Coming Soon!
  * ~270 Metazoan Genomes
    * Mostly from Ensembl Metazoa & Vetebrates.
    * Some NCBI and other sources.
@@ -56,6 +60,7 @@ A set of genomes curated from groups such as Archaeplastida, Fungi, Metazoa, Pro
    * sys   21m55.732s
  * Protist Genomes
    * Mostly Ensembl Protists
+   * A few from NCBI, EuPathDB and Other Sources.
  * Archaea & Bacteria
 
 #### Set Up *cider* Database
