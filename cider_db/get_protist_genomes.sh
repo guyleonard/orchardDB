@@ -208,3 +208,48 @@ wget -nc ftp://ftp.ensemblgenomes.org/pub/release-44/protists/fasta/pythium_vexa
 wget -nc ftp://ftp.ensemblgenomes.org/pub/release-44/protists/fasta/tetrahymena_thermophila/pep/Tetrahymena_thermophila.JCVI-TTA1-2.2.pep.all.fa.gz
 wget -nc ftp://ftp.ensemblgenomes.org/pub/release-44/protists/fasta/thalassiosira_pseudonana/pep/Thalassiosira_pseudonana.ASM14940v2.pep.all.fa.gz
 wget -nc ftp://ftp.ensemblgenomes.org/pub/release-44/protists/fasta/trypanosoma_brucei/pep/Trypanosoma_brucei.TryBru_Apr2005_chr11.pep.all.fa.gz
+
+echo "Downloading Sequence Data from EuPathDB"
+wget -nc http://amoebadb.org/common/downloads/Current_Release/EmoshkovskiiLaredo/fasta/data/AmoebaDB-44_EmoshkovskiiLaredo_AnnotatedProteins.fasta
+wget -nc http://amoebadb.org/common/downloads/Current_Release/NfowleriATCC30863/fasta/data/AmoebaDB-44_NfowleriATCC30863_AnnotatedProteins.fasta
+wget -nc http://cryptodb.org/common/downloads/Current_Release/CveliaCCMP2878/fasta/data/CryptoDB-44_CveliaCCMP2878_AnnotatedProteins.fasta
+wget -nc http://cryptodb.org/common/downloads/Current_Release/Chominis30976/fasta/data/CryptoDB-44_Chominis30976_AnnotatedProteins.fasta
+wget -nc http://cryptodb.org/common/downloads/Current_Release/ChominisTU502/fasta/data/CryptoDB-44_ChominisTU502_AnnotatedProteins.fasta
+wget -nc http://cryptodb.org/common/downloads/Current_Release/CtyzzeriUGA55/fasta/data/CryptoDB-44_CtyzzeriUGA55_AnnotatedProteins.fasta
+wget -nc http://cryptodb.org/common/downloads/Current_Release/Cubiquitum39726/fasta/data/CryptoDB-44_Cubiquitum39726_AnnotatedProteins.fasta
+wget -nc http://giardiadb.org/common/downloads/Current_Release/SsalmonicidaATCC50377/fasta/data/GiardiaDB-44_SsalmonicidaATCC50377_AnnotatedProteins.fasta
+wget -nc http://plasmodb.org/common/downloads/Current_Release/PcynomolgiM/fasta/data/PlasmoDB-44_PcynomolgiM_AnnotatedProteins.fasta
+wget -nc http://toxodb.org/common/downloads/Current_Release/NcaninumLIV/fasta/data/ToxoDB-44_NcaninumLIV_AnnotatedProteins.fasta
+wget -nc http://toxodb.org/common/downloads/Current_Release/TgondiiRH/fasta/data/ToxoDB-44_TgondiiRH_AnnotatedProteins.fasta
+wget -nc http://tritrypdb.org/common/downloads/Current_Release/LaethiopicaL147/fasta/data/TriTrypDB-44_LaethiopicaL147_AnnotatedProteins.fasta
+wget -nc http://tritrypdb.org/common/downloads/Current_Release/LtropicaL590/fasta/data/TriTrypDB-44_LtropicaL590_AnnotatedProteins.fasta
+wget -nc http://tritrypdb.org/common/downloads/Current_Release/TcongolenseIL3000/fasta/data/TriTrypDB-44_TcongolenseIL3000_AnnotatedProteins.fasta
+wget -nc http://tritrypdb.org/common/downloads/Current_Release/TvivaxY486/fasta/data/TriTrypDB-44_TvivaxY486_AnnotatedProteins.fasta
+
+echo "Downloading Sequence Data from JGI"
+https://genome.jgi.doe.gov/portal/Aplke1/download/Aplke1_all_proteins_20121220.aa.fasta.gz
+https://genome.jgi.doe.gov/portal/Aurli1/download/Aurli1_all_proteins_20120618.aa.fasta.gz
+https://genome.jgi.doe.gov/portal/Auran1/download/proteins.Auran1_FilteredModels3.fasta.gz
+https://genome.jgi.doe.gov/portal/Bigna1/download/Bigna1_all_proteins.fasta.gz
+https://genome.jgi.doe.gov/portal/Crypto2293_1/download/Crypto2293_1_all_proteins_20160903.aa.fasta.gz
+https://genome.jgi.doe.gov/portal/Ochro2298_1/download/Ochro2298_1_all_proteins_20160817.aa.fasta.gz
+https://genome.jgi.doe.gov/portal/Pavlov2436_1/download/Pavlov2436_1_all_proteins_20160817.aa.fasta.gz
+https://genome.jgi.doe.gov/portal/Pelago2097_1/download/Pelago2097_1_all_proteins_20160408.aa.fasta.gz
+https://genome.jgi.doe.gov/portal/Phyca11/download/Phyca11_unfiltered_proteins.fasta.gz
+https://genome.jgi.doe.gov/portal/portal/Phyci1/download/Phyci1_all_proteins_20120612.aa.fasta.gz
+https://genome.jgi.doe.gov/portal/portal/Psemu1/download/Psemu1_all_proteins_20111011.aa.fasta.gz
+https://genome.jgi.doe.gov/portal/portal/Schag1/download/Schag1_all_proteins_20121220.aa.fasta.gz
+
+echo "Downloading Sequence Data from Others"
+wget -nc http://marinegenomics.oist.jp/symb/download/symbB.v1.2.augustus.prot.fa.gz
+wget -nc https://marinegenomics.oist.jp/symb/download/syma_aug_37.aa.gz
+wget -nc https://marinegenomics.oist.jp/symb/download/symC_aug_40.aa.gz
+wget -nc https://marinegenomics.oist.jp/ito_mozuku_v1/download/ito_mozuku_onna1_protein_seq.zip
+wget -nc https://marinegenomics.oist.jp/algae/download/160208_2k_oki_prot.fa.gz
+wget -nc https://github.com/guyleonard/blastocladiella/raw/master/run_2.all.maker.proteins.renamed.fasta
+wget -nc https://github.com/guyleonard/hyphochytrium/raw/master/data_submission/hyphochytrium_catenoides_predicted_proteins_renamed.fasta
+
+
+echo "Downloading Sequence Data from NCBI"
+wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/002/081/595/GCA_002081595.1_ACH_lane_v1/GCA_002081595.1_ACH_lane_v1_protein.faa.gz
+wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/787/575/GCF_000787575.1_Asub_2.0/GCF_000787575.1_Asub_2.0_protein.faa.gz

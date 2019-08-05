@@ -207,3 +207,42 @@
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Trypanosoma_rangeli_sc58_gca_000492115.T_rangeli_SC58v1.pep.all.fa	--taxid	429131	--source	Ensembl,Protists	--type	DNA	--ver	T_rangeli_SC58v1	--pub	NA	Trypanosoma rangeli SC58
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Trypanosoma_theileri_gca_002087225.Tth_v3.pep.all.fa	--taxid	67003	--source	Ensembl,Protists	--type	DNA	--ver	Tth_v3	--pub	NA	Trypanosoma theileri
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Vitrella_brassicaformis_ccmp3155.Vbrassicaformis.pep.all.fa	--taxid	1169540	--source	Ensembl,Protists	--type	DNA	--ver	Vbrassicaformis	--pub	NA	Vitrella brassicaformis
+																				
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	AmoebaDB-44_EmoshkovskiiLaredo_AnnotatedProteins.fasta	--taxid	41668	--source	EuPathDB,AmoebaDB	--type	DNA	--ver	2012-10-15	--pub	NA	Entamoeba moshkovskii
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	AmoebaDB-44_NfowleriATCC30863_AnnotatedProteins.fasta	--taxid	5763	--source	EuPathDB,AmoebaDB	--type	DNA	--ver	2014-11-05	--pub	NA	Naegleria fowleri
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	CryptoDB-44_CveliaCCMP2878_AnnotatedProteins.fasta	--taxid	1169474	--source	EuPathDB,CryptoDB	--type	DNA	--ver	2014-05-15	--pub	NA	Chromera velia
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	CryptoDB-44_Chominis30976_AnnotatedProteins.fasta	--taxid	237895	--source	EuPathDB,CryptoDB	--type	DNA	--ver	2017-11-16	--pub	NA	Cryptosporidium hominis
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	CryptoDB-44_ChominisTU502_AnnotatedProteins.fasta	--taxid	353151	--source	EuPathDB,CryptoDB	--type	DNA	--ver	2004-10-17	--pub	NA	Cryptosporidium hominis
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	CryptoDB-44_CtyzzeriUGA55_AnnotatedProteins.fasta	--taxid	756076	--source	EuPathDB,CryptoDB	--type	DNA	--ver	2017-11-16	--pub	NA	Cryptosporidium tyzzeri
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	CryptoDB-44_Cubiquitum39726_AnnotatedProteins.fasta	--taxid	857276	--source	EuPathDB,CryptoDB	--type	DNA	--ver	2016-11-03	--pub	NA	Cryptosporidium ubiquitum
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GiardiaDB-44_SsalmonicidaATCC50377_AnnotatedProteins.fasta	--taxid	348837	--source	EuPathDB,GiardiaDB	--type	DNA	--ver	2015-03-23	--pub	NA	Spironucleus salmonicida
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	PlasmoDB-44_PcynomolgiM_AnnotatedProteins.fasta	--taxid	1274352	--source	EuPathDB,PlasmoDB	--type	DNA	--ver	2017-10-23	--pub	NA	Plasmodium cynomolgi 
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	ToxoDB-44_NcaninumLIV_AnnotatedProteins.fasta	--taxid	572307	--source	EuPathDB,ToxoDB	--type	DNA	--ver	2015-02-27	--pub	NA	Neospora caninum 
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	ToxoDB-44_TgondiiRH_AnnotatedProteins.fasta	--taxid	383379	--source	EuPathDB,ToxoDB	--type	DNA	--ver	2006-09-25	--pub	NA	Toxoplasma gondii RH
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	TriTrypDB-44_LaethiopicaL147_AnnotatedProteins.fasta	--taxid	1206056	--source	EuPathDB,TriTrypDB	--type	DNA	--ver	2014-12-16	--pub	NA	Leishmania aethiopica 
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	TriTrypDB-44_LtropicaL590_AnnotatedProteins.fasta	--taxid	1206058	--source	EuPathDB,TriTrypDB	--type	DNA	--ver	2014-12-16	--pub	NA	Leishmania tropica 
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	TriTrypDB-44_TcongolenseIL3000_AnnotatedProteins.fasta	--taxid	1068625	--source	EuPathDB,TriTrypDB	--type	DNA	--ver	2016-06-06	--pub	NA	Trypanosoma congolense 
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	TriTrypDB-44_TvivaxY486_AnnotatedProteins.fasta	--taxid	1055687	--source	EuPathDB,TriTrypDB	--type	DNA	--ver	2016-06-06	--pub	NA	Trypanosoma vivax 
+																				
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Aplke1_all_proteins_20121220.aa.fasta	--taxid	702273	--source	JGI,Other	--type	DNA	--ver	V1.0	--pub	NA	Aplanochytrium kerguelense
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Aurli1_all_proteins_20120618.aa.fasta	--taxid	717989	--source	JGI,Other	--type	DNA	--ver	V1.0	--pub	NA	Aurantiochytrium limacinum
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	proteins.Auran1_FilteredModels3.fasta	--taxid	44056	--source	JGI,Other	--type	DNA	--ver	V1.0	--pub	NA	Aureococcus anophagefferens
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Bigna1_all_proteins.fasta	--taxid	753081	--source	JGI,Other	--type	DNA	--ver	V1.0	--pub	NA	Bigelowiella natans
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Crypto2293_1_all_proteins_20160903.aa.fasta	--taxid	3027	--source	JGI,Other	--type	DNA	--ver	V1.0	--pub	NA	Cryptophyceae sp.
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Ochro2298_1_all_proteins_20160817.aa.fasta	--taxid	88165	--source	JGI,Other	--type	DNA	--ver	V1.0	--pub	NA	Ochromonadaceae sp.
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Pavlov2436_1_all_proteins_20160817.aa.fasta	--taxid	73026	--source	JGI,Other	--type	DNA	--ver	V1.0	--pub	NA	Pavlovales sp.
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Pelago2097_1_all_proteins_20160408.aa.fasta	--taxid	35675	--source	JGI,Other	--type	DNA	--ver	V1.0	--pub	NA	Pelagophyceae sp.
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Phyca11_unfiltered_proteins.fasta	--taxid	763924	--source	JGI,Other	--type	DNA	--ver	v11	--pub	NA	Phytophthora capsici
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Phyci1_all_proteins_20120612.aa.fasta	--taxid	622258	--source	JGI,Other	--type	DNA	--ver	V1.0	--pub	NA	Phytophthora cinnamomi
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Psemu1_all_proteins_20111011.aa.fasta	--taxid	635002	--source	JGI,Other	--type	DNA	--ver	V1.0	--pub	NA	Pseudo-nitzschia multiseries
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Schag1_all_proteins_20121220.aa.fasta	--taxid	876976	--source	JGI,Other	--type	DNA	--ver	V1.0	--pub	NA	Schizochytrium aggregatum
+																				
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCA_002081595.1_ACH_lane_v1_protein.faa	--taxid	1202772	--source	NCBI,GenBank	--type	DNA	--ver	V1.0	--pub	NA	Achlya hypogyna 
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_000787575.1_Asub_2.0_protein.faa	--taxid	361139	--source	NCBI,RefSeq	--type	DNA	--ver	V2.0	--pub	NA	Acytostelium subglobosum 
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	symbB.v1.2.augustus.prot.fa	--taxid	1202447	--source	Other,OIST	--type	DNA	--ver	1.2	--pub	NA	Symbiodinium minutum
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	syma_aug_37.aa	--taxid	154557	--source	Other,OIST	--type	DNA	--ver	1	--pub	NA	Symbiodinium sp. A3
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	symC_aug_40	--taxid	293275	--source	Other,OIST	--type	DNA	--ver	1	--pub	NA	Symbiodinium sp. C
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	ito_mozuku_onna1_protein_seq	--taxid	2185085	--source	Other,OIST	--type	DNA	--ver	1	--pub	NA	Nemacystus decipiens
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	160208_2k_oki_prot.fa	--taxid	309737	--source	Other,OIST	--type	DNA	--ver		--pub	NA	Cladosiphon okamuranus
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	run_2.all.maker.proteins.renamed.fasta	--taxid	4808	--source	Other,richardslab	--type	DNA	--ver	1	--pub	NA	Blastocladiella emersonii 
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	hyphochytrium_catenoides_predicted_proteins_renamed.fasta	--taxid	42384	--source	Other,richardslab	--type	DNA	--ver	1	--pub	NA	Hyphochytrium catenoides 
