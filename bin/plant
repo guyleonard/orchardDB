@@ -19,7 +19,7 @@ my $version = "OrchardDB v1.0 -- plant v$VERSION\n";
 my $warnings = 0;
 
 # database access
-my ( $user, password, $db_name );
+my ( $user, $password, $db_name );
 
 # options
 my ( $setup, $populate, $uproot );
@@ -163,7 +163,7 @@ elsif ( defined $uproot ) {
         && $db_name )
     {
         print "[OrchardDB:Plant:INFO] - Removing Taxa: $uproot\n";
-        remove_taxa($uproot);
+        remove_taxa( $user, $password, $db_name, $uproot );
     }
 }
 else {
@@ -377,7 +377,7 @@ sub insert_accession_records {
 }
 
 sub remove_taxa {
-    my $taxon_id = shift;
+    my ( $user, $password, $db_name, $taxon_id ) = @_;
 
     my $driver   = 'SQLite';
     my $database = "$db_name\/$db_name\.sqlite";
