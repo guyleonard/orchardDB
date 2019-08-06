@@ -243,7 +243,7 @@ echo "Downloading Sequence Data from Others"
 wget -nc http://marinegenomics.oist.jp/symb/download/symbB.v1.2.augustus.prot.fa.gz  -a get_protist.log
 wget -nc https://marinegenomics.oist.jp/symb/download/syma_aug_37.aa.gz  -a get_protist.log
 wget -nc https://marinegenomics.oist.jp/symb/download/symC_aug_40.aa.gz  -a get_protist.log
-wget -nc https://marinegenomics.oist.jp/ito_mozuku_v1/download/ito_mozuku_onna1_protein_seq.zip  -a get_protist.log; unzip ito_mozuku_onna1_protein_seq.zip
+wget -nc https://marinegenomics.oist.jp/ito_mozuku_v1/download/ito_mozuku_onna1_protein_seq.zip  -a get_protist.log; unzip ito_mozuku_onna1_protein_seq.zip; mv ito_mozuku_onna1_protein_seq ito_mozuku_onna1_protein_seq.fasta
 wget -nc https://marinegenomics.oist.jp/algae/download/160208_2k_oki_prot.fa.gz  -a get_protist.log
 wget -nc https://github.com/guyleonard/blastocladiella/raw/master/run_2.all.maker.proteins.renamed.fasta  -a get_protist.log
 wget -nc https://github.com/guyleonard/hyphochytrium/raw/master/data_submission/hyphochytrium_catenoides_predicted_proteins_renamed.fasta  -a get_protist.log

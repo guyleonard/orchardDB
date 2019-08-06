@@ -237,7 +237,7 @@ DB=$3
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/symbB.v1.2.augustus.prot.fa --taxid 1202447 --source Other,OIST --type DNA --ver 1.2 --pub NA
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/syma_aug_37.aa --taxid 154557 --source Other,OIST --type DNA --ver 1 --pub NA
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/symC_aug_40 --taxid 293275 --source Other,OIST --type DNA --ver 1 --pub NA
-../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/ito_mozuku_onna1_protein_seq --taxid 2185085 --source Other,OIST --type DNA --ver 1 --pub NA
+../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/ito_mozuku_onna1_protein_seq.fasta --taxid 2185085 --source Other,OIST --type DNA --ver 1 --pub NA
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/160208_2k_oki_prot.fa --taxid 309737 --source Other,OIST --type DNA --ver  --pub NA
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/run_2.all.maker.proteins.renamed.fasta --taxid 4808 --source Other,richardslab --type DNA --ver 1 --pub NA
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/hyphochytrium_catenoides_predicted_proteins_renamed.fasta --taxid 42384 --source Other,richardslab --type DNA --ver 1 --pub NA
