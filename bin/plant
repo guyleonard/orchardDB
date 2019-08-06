@@ -97,7 +97,9 @@ elsif ($populate) {
         # to see if it exists first before insert
         my $genome_id
             = generate_genome_ID( $taxid, $data_version, $sources, $type );
-        print "[OrchardDB:Plant:INFO] - Your GenomeID: $genome_id\n";
+        print "[OrchardDB:Plant:INFO] - Input : $taxid, $data_version, $sources, $type"
+        print "[OrchardDB:Plant:INFO] - Output: GenomeID: $genome_id\n";
+
         my $status
             = check_genome_ID( $user, $password, $db_name, $genome_id );
 
