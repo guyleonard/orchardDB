@@ -20,6 +20,7 @@ git clone https://github.com/guyleonard/orchardDB.git
 e.g.
 ```
 sudo cpanm Bio::DB::Taxonomy Bio::SeqIO DateTime DBI Digest::MD5 File::Path Getopt::Long
+
 ```
 #### Database
  * SQLite 3
@@ -60,14 +61,16 @@ A set of genomes curated from groups such as Archaeplastida, Fungi, Metazoa, Pro
    * sys   21m55.732s
  * Protist Genomes
    * Mostly Ensembl Protists
-   * A few from NCBI, EuPathDB and Other Sources.
+   * A few from NCBI, EuPathDB and other sources.
  * Archaea & Bacteria
+   * Coming Soon!
 
 #### Set Up *cider* Database
-Run the scripts in the cider_db folder, they will download the initial set of genomes and taxdump files and add them to a local database.
+Run the main script in the cider_db folder as below, it will download the initial set of genomes for each group, along with the NCBI taxdump files, and then set up and add them to a local database. The script will not download genomes from JGI due to the user needing to login. You can try [this](https://github.com/guyleonard/get_jgi_genomes) tool to download them, or try to download them via "Globus" or one of the other difficult JGI methods. Place them in the folder prior to running the script.
 ```
 ./create_cider_db.sh username password db_name
 ```
+
 ### Your Own Database
 #### Set Up
 This command will create a directory named "cider" and a SQL DB named "cider.sqlite" in the same directory. This will be your store of information for the whole orchardDB.
@@ -77,6 +80,7 @@ This command will create a directory named "cider" and a SQL DB named "cider.sql
             --pass test \ # password for OrchardDB 
             --db cider    # OrchardDB name
 ```
+
 #### Populate Database
 This command will add information to the database and copy your original files to the database directory with the new headers. You will need to provide a file of your amino acids in FASTA format, an NCBI Taxon ID code for your species, a source as "source,subsource" choosing from (NCBI, JGI, ENSEMBL, EuPathDB or OTHER) e.g. "JGI,Mycocosm", a 'type' suggesting where your data is predicted from (e.g. DNA, RNA, EST) and a version number (always "1" if you leave this option blank). You may also like to add publication info as a PubMed ID or DOI or simply "YES","NO" or "NA". You may choose to store sequences in the DB by using the "lite" option, however this is not standard and is turned off by default (reduces DB size).
 
@@ -152,7 +156,7 @@ Sometimes you may wish to delete a taxa and all it's associated records from the
 ```
 
 ### Other Scripts
-#### Catalogue
+#### catalogue
 This script will query your database and output a tab-separated text file of the main database table. This allows the user to see the IDs that were generated for each of their 'genomes' in the database along with the other information stored there. This is useful for choosing the taxa that you want to use in the 'Orchard' scripts.
 ```
 ./bin/catalogue username password /path/to/database.sql
