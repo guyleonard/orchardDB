@@ -197,7 +197,7 @@ wget -nc ftp://ftp.ensemblgenomes.org/pub/release-44/protists/fasta/protists_str
 wget -nc ftp://ftp.ensemblgenomes.org/pub/release-44/protists/fasta/protists_stramenopiles1_collection/phytophthora_parasitica_p1976_gca_000365525/pep/Phytophthora_parasitica_p1976_gca_000365525.Phyt_para_P1976_V1.pep.all.fa.gz  -a get_protist.log
 wget -nc ftp://ftp.ensemblgenomes.org/pub/release-44/protists/fasta/protists_stramenopiles1_collection/saprolegnia_diclina_vs20_gca_000281045/pep/Saprolegnia_diclina_vs20_gca_000281045.Sap_diclina_VS20_V1.pep.all.fa.gz  -a get_protist.log
 wget -nc ftp://ftp.ensemblgenomes.org/pub/release-44/protists/fasta/protists_stramenopiles1_collection/saprolegnia_parasitica_cbs_223_65_gca_000151545/pep/Saprolegnia_parasitica_cbs_223_65_gca_000151545.ASM15154v2.pep.all.fa.gz  -a get_protist.log
-wget -nc ftp://ftp.ensemblgenomes.org/pub/release-44/protists/fasta/protists_stramenopiles1_collection/thalassiosira_oceanica/pep/Thalassiosira_oceanica.ThaOc_1.0.pep.all.fa.gz  -a get_protist.log
+wget -nc ftp://ftp.ensemblgenomes.org/pub/release-44/protists/fasta/protists_stramenopiles1_collection/thalassiosira_oceanica_gca_000296195/pep/Thalassiosira_oceanica_gca_000296195.ThaOc_1.0.pep.all.fa.gz  -a get_protist.log
 wget -nc ftp://ftp.ensemblgenomes.org/pub/release-44/protists/fasta/pythium_aphanidermatum/pep/Pythium_aphanidermatum.pag1_scaffolds_v1.pep.all.fa.gz  -a get_protist.log
 wget -nc ftp://ftp.ensemblgenomes.org/pub/release-44/protists/fasta/pythium_arrhenomanes/pep/Pythium_arrhenomanes.par_scaffolds_v1.pep.all.fa.gz  -a get_protist.log
 wget -nc ftp://ftp.ensemblgenomes.org/pub/release-44/protists/fasta/pythium_irregulare/pep/Pythium_irregulare.pir_scaffolds_v1.pep.all.fa.gz  -a get_protist.log
