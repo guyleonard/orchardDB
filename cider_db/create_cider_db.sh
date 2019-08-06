@@ -70,7 +70,7 @@ echo -e "\tMove Original FASTA Records"
 mkdir -p ${DB}/protists
 echo "[CREATE] UnGzip Files"
 pigz -d *.gz
-mv *.aa *.fa *.fna *.faa *.fasta *.pep *.protein *.prot *.tfa ${DB}/protist
+mv *.aa *.fa *.fna *.faa *.fasta *.pep *.protein *.prot *.tfa ${DB}/protists
 echo "[CREATE] Protist Genomes"
 ./insert_protist_genomes.sh ${USER} ${PASS} ${DB}
 echo -e "\tGZIP Original Protist FASTA Records"
