@@ -40,7 +40,7 @@ echo "[CREATE:INFO] - Move Original FASTA Records"
 mv *.aa *.fa *.fna *.faa *.fasta *.pep *.protein *.tfa ${DB}/archaeplastida
 echo "[CREATE:INFO] - Insert Archaeplastida Genomes"
 ./insert_archaeplastida_genomes.sh ${USER} ${PASS} ${DB}
-echo -e "[CREATE:INFO] - GZIP Original Archaeplastida FASTA Records"
+echo "[CREATE:INFO] - GZIP Original Archaeplastida FASTA Records"
 pigz -9 -R ${DB}/archaeplastida/*
 
 #
@@ -55,7 +55,7 @@ echo "[CREATE:INFO] - Move Original FASTA Records"
 mv *.aa *.fa *.fna *.faa *.fasta *.pep *.protein *.tfa ${DB}/metazoa
 echo "[CREATE:INFO] - Insert metazoa Genomes"
 ./insert_metazoan_genomes.sh ${USER} ${PASS} ${DB}
-echo -e "[CREATE:INFO] - GZIP Original metazoa FASTA Records"
+echo "[CREATE:INFO] - GZIP Original metazoa FASTA Records"
 pigz -9 -R ${DB}/metazoa/*
 
 #
@@ -70,7 +70,11 @@ echo "[CREATE:INFO] - Move Original FASTA Records"
 mv *.aa *.fa *.fna *.faa *.fasta *.pep *.protein *.tfa ${DB}/protists
 echo "[CREATE:INFO] - Insert protist Genomes"
 ./insert_protist_genomes.sh ${USER} ${PASS} ${DB}
-echo -e "[CREATE:INFO] - GZIP Original protist FASTA Records"
+echo "[CREATE:INFO] - GZIP Original protist FASTA Records"
 pigz -9 -R ${DB}/protists/*
+
+for i in ${DB}/*.fasta; do
+	makeblastdb -in ${i} -dbtype prot -parse_seqids
+done
 
 exit 0
