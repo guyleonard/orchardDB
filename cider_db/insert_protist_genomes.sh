@@ -107,9 +107,9 @@ DB=$3
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/Plasmodium_berghei.PBANKA01.pep.all.fa --taxid 5821 --source Ensembl,Protists --type DNA --ver PbSP11RLL --pub NA
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/Plasmodium_chabaudi.PCHAS01.pep.all.fa --taxid 31271 --source Ensembl,Protists --type DNA --ver PchCB --pub NA
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/Plasmodium_coatneyi_gca_001680005.ASM168000v1.pep.all.fa --taxid 208452 --source Ensembl,Protists --type DNA --ver ASM168000v1 --pub NA
-../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/Plasmodium_cynomolgi_strain_b.PcynB_1.0.pep.all.fa --taxid 1120755 --source Ensembl,Protists --type DNA --ver PcynB_1.0 --pub NA
+../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/Plasmodium_cynomolgi_strain_b_gca_000321355.PcynB_1.0.pep.all.fa --taxid 1120755 --source Ensembl,Protists --type DNA --ver PcynB_1.0 --pub NA
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/Plasmodium_falciparum.EPr1.pep.all.fa --taxid 36329 --source Ensembl,Protists --type DNA --ver EPr1 --pub NA
-../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/Plasmodium_falciparum_7g8_gca_000150435.Plas_falc_7G8_V1.pep.all.fa.gz --taxid 57266 --source Ensembl,Protists --type DNA --ver Plas_falc_7G8_V1 --pub NA
+../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/Plasmodium_falciparum_7g8_gca_000150435.Plas_falc_7G8_V1.pep.all.fa --taxid 57266 --source Ensembl,Protists --type DNA --ver Plas_falc_7G8_V1 --pub NA
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/Plasmodium_falciparum_camp_malaysia_gca_000521115.Plas_falc_Malayan_Camp_V1.pep.all.fa --taxid 5835 --source Ensembl,Protists --type DNA --ver Plas_falc_Malayan_Camp_V1 --pub NA
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/Plasmodium_falciparum_dd2_gca_000149795.ASM14979v1.pep.all.fa --taxid 57267 --source Ensembl,Protists --type DNA --ver ASM14979v1 --pub NA
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/Plasmodium_falciparum_fch_4_gca_000521155.Plas_falc_FCH_4_V2.pep.all.fa --taxid 1036724 --source Ensembl,Protists --type DNA --ver Plas_falc_FCH_4_V2 --pub NA
@@ -190,7 +190,6 @@ DB=$3
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/Toxoplasma_gondii.TGA4.pep.all.fa --taxid 508771 --source Ensembl,Protists --type DNA --ver TGA4 --pub NA
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/Toxoplasma_gondii_p89_gca_000224885.TGP89A_v02.pep.all.fa --taxid 943119 --source Ensembl,Protists --type DNA --ver TGP89A_v02 --pub NA
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/Toxoplasma_gondii_rub_gca_000224805.TGRUB_v2.pep.all.fa --taxid 935652 --source Ensembl,Protists --type DNA --ver TGRUB_v2 --pub NA
-../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/Toxoplasma_gondii_p89.TGP89A_v02.pep.all.fa --taxid 943120 --source Ensembl,Protists --type DNA --ver TGCATBR9_v2 --pub NA
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/Toxoplasma_gondii_tgcatprc2_gca_000256725.TGCATPRC2_v2.pep.all.fa --taxid 1130821 --source Ensembl,Protists --type DNA --ver TGCATPRC2_v2 --pub NA
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/Toxoplasma_gondii_vand_gca_000224845.TGVAND_v2.pep.all.fa --taxid 933077 --source Ensembl,Protists --type DNA --ver TGVAND_v2 --pub NA
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/Toxoplasma_gondii_veg_gca_000150015.TGVEG.pep.all.fa --taxid 432359 --source Ensembl,Protists --type DNA --ver TGVEG --pub NA
@@ -235,7 +234,7 @@ DB=$3
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/GCF_000787575.1_Asub_2.0_protein.faa --taxid 361139 --source NCBI,RefSeq --type DNA --ver V2.0 --pub NA
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/symbB.v1.2.augustus.prot.fa --taxid 1202447 --source Other,OIST --type DNA --ver 1.2 --pub NA
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/syma_aug_37.aa --taxid 154557 --source Other,OIST --type DNA --ver 1 --pub NA
-../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/symC_aug_40 --taxid 293275 --source Other,OIST --type DNA --ver 1 --pub NA
+../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/symC_aug_40.aa --taxid 293275 --source Other,OIST --type DNA --ver 1 --pub NA
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/ito_mozuku_onna1_protein_seq.fasta --taxid 2185085 --source Other,OIST --type DNA --ver 1 --pub NA
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/160208_2k_oki_prot.fa --taxid 309737 --source Other,OIST --type DNA --ver  --pub NA
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/run_2.all.maker.proteins.renamed.fasta --taxid 4808 --source Other,richardslab --type DNA --ver 1 --pub NA
