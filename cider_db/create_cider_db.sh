@@ -11,14 +11,11 @@ if [ "${NUMARGS}" -eq 0 ]; then
     exit 1
 fi
 
-if [ ! -f nodes.dmp ]; then
-	echo "nodes.dmp is Missing";
-	exit 1
-fi
-
-if [ ! -f names.dmp ]; then
-	echo "names.dmp is Missing";
-	exit 1
+if [[ ! -f nodes.dmp || ! -f names.dmp ]]; then
+	echo "The NCBI Taxdmp files are missing!";
+	wget -nc ftp://ftp.ncbi.nih.gov/pub/taxonomy/taxdump.tar.gz
+	tar zxvf taxdump.tar.gz names.dmp nodes.dmp
+	rm taxdump.tar.gz
 fi
 
 if [ ! -f taxonomy.sqlite ]; then
