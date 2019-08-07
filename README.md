@@ -62,6 +62,9 @@ A set of genomes curated from groups such as Archaeplastida, Fungi, Metazoa, Pro
  * Protist Genomes
    * Mostly Ensembl Protists
    * A few from NCBI, EuPathDB and other sources.
+   * real  79m26.976s
+   * user  25m25.884s
+   * sys   7m17.596s
  * Archaea & Bacteria
    * Coming Soon!
 
