@@ -37,7 +37,7 @@ mkdir -p ${DB}/archaeplastida
 echo "[CREATE:INFO] - UnGzip Files"
 gunzip *.gz
 echo "[CREATE:INFO] - Move Original FASTA Records"
-mv *.aa *.fa *.fna *.faa *.fasta *.pep *.protein *.tfa ${DB}/archaeplastida
+mv *.aa *.fa *.fna *.faa *.fasta *.pep *.protein *.tfa *.txt ${DB}/archaeplastida
 echo "[CREATE:INFO] - Insert Archaeplastida Genomes"
 ./insert_archaeplastida_genomes.sh ${USER} ${PASS} ${DB}
 echo "[CREATE:INFO] - GZIP Original Archaeplastida FASTA Records"
@@ -76,5 +76,9 @@ pigz -9 -R ${DB}/protists/*
 for i in ${DB}/*.fasta; do
 	makeblastdb -in ${i} -dbtype prot -parse_seqids
 done
+
+#for i in ${DB}/*.fasta; do
+#	diamond makedb --in ${i} -d ${i}
+#done
 
 exit 0
