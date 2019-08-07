@@ -123,7 +123,7 @@ wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/573/695/GCF_003573695.1_
 wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/003/713/225/GCF_003713225.1_Cara_1.0/GCF_003713225.1_Cara_1.0_protein.faa.gz -a get_archaeplastida.log
 wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/004/153/795/GCF_004153795.1_AHAU_CSS_1/GCF_004153795.1_AHAU_CSS_1_protein.faa.gz -a get_archaeplastida.log
 wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/004/193/775/GCF_004193775.1_ASM419377v2/GCF_004193775.1_ASM419377v2_protein.faa.gz -a get_archaeplastida.log
-wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/220/235/GCF_002220235.1_ASM222023v1/GCF_002220235.1_ASM222023v1_protein.faa.gz
+wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/220/235/GCF_002220235.1_ASM222023v1/GCF_002220235.1_ASM222023v1_protein.faa.gz -a get_archaeplastida.log
 
 echo "Downloading Sequence Data from Other DBs"
 wget -nc ftp://cucurbitgenomics.org/pub/cucurbit/genome/Lagenaria_siceraria/Lsiceraria_v1.protein.fa.gz -a get_archaeplastida.log
