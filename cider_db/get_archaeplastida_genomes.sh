@@ -156,7 +156,7 @@ wget -nc https://www.hardwoodgenomics.org/sites/default/files/sequences/lirioden
 wget -nc wget -nc https://datadryad.org/bitstream/handle/10255/dryad.143573/Dataset%201-genomics.zip?sequence=1 -O data.zip -a get_archaeplastida.log; unzip data.zip CF150.aa.fa; rm data.zip
 wget -nc https://www.hardwoodgenomics.org/sites/default/files/sequences/macadamia_integrifolia/maca.v1.1_proteins.fasta -a get_archaeplastida.log
 wget -nc http://nrifs.fra.affrc.go.jp/cgi-bin/lime_download/lime.cgi?nori_FASTA_AminoAcid -O Pyezoensis_Augustus_proteins_v1.fasta.gz -a get_archaeplastida.log
-wget -nc ftp://106.14.123.14/Algae/realdb/Calliarthron_tuberculosum/Calliarthron_tuberculosum_partial_protein.txt
-wget -nc ftp://106.14.123.14/Algae/realdb/Gracilariopsis_lemaneiformis/Gracilariopsis_lemaneiformis_pep.txt
-wget -nc ftp://106.14.123.14/Algae/realdb/Porphyridium_cruentum/Porphyridium_cruentum_pep.txt
+wget -nc --no-passive ftp://106.14.123.14/Algae/realdb/Calliarthron_tuberculosum/Calliarthron_tuberculosum_partial_protein.txt
+wget -nc --no-passive ftp://106.14.123.14/Algae/realdb/Gracilariopsis_lemaneiformis/Gracilariopsis_lemaneiformis_pep.txt
+wget -nc --no-passive ftp://106.14.123.14/Algae/realdb/Porphyridium_cruentum/Porphyridium_cruentum_pep.txt
 wget -nc http://marinegenomics.oist.jp/chlorellaA99/download/Ch_genome_seq_final.mod01.fasta.aa.gz
