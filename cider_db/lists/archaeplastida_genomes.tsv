@@ -151,4 +151,4 @@
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Gracilariopsis_lemaneiformis_pep.txt	--taxid	2782	--source	Other,realDB	--type	DNA	--ver	1	--pub	NA	Gracilariopsis	lemaneiformis
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Porphyridium_cruentum_pep.txt	--taxid	35688	--source	Other,realDB	--type	DNA	--ver	1	--pub	NA	Porphyridium	cruentum
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_002220235.1_ASM222023v1_protein.faa	--taxid	41875	--source	NCBI,RefSeq	--type	DNA	--ver	1	--pub	NA	Bathycoccus	prasinos
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Ch_genome_seq_final.mod01.fasta.aa.gz	--taxid	2041167	--source	Other,OISTMarine	--type	DNA	--ver	1	--pub	NA	Chlorella 	sp. A99
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Ch_genome_seq_final.mod01.fasta.aa	--taxid	2041167	--source	Other,OISTMarine	--type	DNA	--ver	1	--pub	NA	Chlorella 	sp. A99
