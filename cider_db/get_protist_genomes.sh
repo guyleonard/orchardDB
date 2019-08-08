@@ -77,7 +77,6 @@ wget -nc ftp://ftp.ensemblgenomes.org/pub/release-43/protists/fasta/protists_eug
 wget -nc ftp://ftp.ensemblgenomes.org/pub/release-43/protists/fasta/protists_euglenozoa1_collection/leishmania_infantum_jpcm5/pep/Leishmania_infantum_jpcm5.ASM287v2.pep.all.fa.gz  -a get_protist.log
 wget -nc ftp://ftp.ensemblgenomes.org/pub/release-43/protists/fasta/protists_euglenozoa1_collection/leishmania_mexicana_mhom_gt_2001_u1103/pep/Leishmania_mexicana_mhom_gt_2001_u1103.ASM23466v4.pep.all.fa.gz  -a get_protist.log
 wget -nc ftp://ftp.ensemblgenomes.org/pub/release-43/protists/fasta/protists_parabasalia1_collection/trichomonas_vaginalis_g3/pep/Trichomonas_vaginalis_g3.ASM282v1.pep.all.fa.gz  -a get_protist.log
-wget -nc ftp://ftp.ensemblgenomes.org/pub/release-43/protists/fasta/protists_rhizaria1_collection/bigelowiella_natans_gca_000002455/pep/Bigelowiella_natans_gca_000002455.ASM245v1.pep.all.fa.gz  -a get_protist.log
 wget -nc ftp://ftp.ensemblgenomes.org/pub/release-43/protists/fasta/protists_rhizaria1_collection/lotharella_oceanica/pep/Lotharella_oceanica.ASM69843v2.pep.all.fa.gz  -a get_protist.log
 wget -nc ftp://ftp.ensemblgenomes.org/pub/release-43/protists/fasta/protists_rhizaria1_collection/paulinella_chromatophora/pep/Paulinella_chromatophora.ASM1792v1.pep.all.fa.gz  -a get_protist.log
 wget -nc ftp://ftp.ensemblgenomes.org/pub/release-43/protists/fasta/protists_stramenopiles1_collection/albugo_candida/pep/Albugo_candida.ASM107853v1.pep.all.fa.gz  -a get_protist.log

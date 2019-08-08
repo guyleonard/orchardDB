@@ -52,7 +52,7 @@ mkdir -p ${DB}/metazoa
 echo "[OrchardDB:CREATE:INFO] - UnGzip Files"
 gunzip *.gz
 echo "[OrchardDB:CREATE:INFO] - Move Original FASTA Records"
-mv *.aa *.fa *.fna *.faa *.fasta *.pep *.protein *.tfa ${DB}/metazoa
+mv *.fa *.faa *.fasta *.prot ${DB}/metazoa
 echo "[OrchardDB:CREATE:INFO] - Insert metazoa Genomes"
 ./insert_metazoan_genomes.sh ${USER} ${PASS} ${DB}
 echo "[OrchardDB:CREATE:INFO] - GZIP Original metazoa FASTA Records"
