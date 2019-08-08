@@ -561,6 +561,7 @@ sub process_fasta {
             # replace header info with a hash
             my $hashed_accession = create_hash($original_header);
             $seq->id("$hashed_accession");
+            $seq->desc('');
 
             # remove non-useful phylogenetic information from sequence data
             # stop codons at the end of the sequence
