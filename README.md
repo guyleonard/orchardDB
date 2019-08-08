@@ -9,15 +9,6 @@ git clone https://github.com/guyleonard/orchardDB.git
 
 ### Dependencies
 #### Perl
- * Bio::DB::Taxonomy
- * Bio::SeqIO
- * DateTime
- * DBI
- * Digest::MD5
- * File::Path
- * Getopt::Long
-
-e.g.
 ```
 sudo cpanm Bio::DB::Taxonomy Bio::SeqIO DateTime DBI Digest::MD5 File::Path Getopt::Long
 
