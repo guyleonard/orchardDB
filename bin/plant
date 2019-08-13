@@ -97,7 +97,8 @@ elsif ($populate) {
         # to see if it exists first before insert
         my $genome_id
             = generate_genome_ID( $taxid, $data_version, $sources, $type );
-        print "[OrchardDB:Plant:INFO] - Input : $taxid, $data_version, $sources, $type\n";
+        print
+            "[OrchardDB:Plant:INFO] - Input : $taxid, $data_version, $sources, $type\n";
         print "[OrchardDB:Plant:INFO] - Output: GenomeID: $genome_id\n";
 
         my $status
@@ -132,15 +133,27 @@ elsif ($populate) {
         }
 
         if ( $published eq "NA" ) {
-            print "[OrchardDB:Plant:WARN] - Setting published to: NA.\n";
+            print "[OrchardDB:Plant:WARN] - Setting published to: NA.\n"
+                if $warnings >= 1;
         }
 
         print "[OrchardDB:Plant:INFO] - Populating Main Table!\n";
+
+        my $driver   = 'SQLite';
+        my $database = "$db_name\/$db_name\.sqlite";
+        my $dsn      = "DBI:$driver:dbname=$database";
+        my $dbh
+            = DBI->connect( $dsn, $user, $password,
+            { RaiseError => 1, AutoCommit => 0 } )
+            or die $DBI::errstr;
+        print "[OrchardDB:Plant:INFO] - Successfully Conected: $database\n"
+            if $warnings >= 1;
+
         insert_main_table_record(
-            $user,          $password,     $db_name, $genome_id,
-            $fasta_input,   $date_time,    $source,  $subsource,
-            $type,          $data_version, $taxid,   $published,
-            $genus_species, $taxon_lineage
+            $dbh,          $db_name, $genome_id, $fasta_input,
+            $date_time,    $source,  $subsource, $type,
+            $data_version, $taxid,   $published, $genus_species,
+            $taxon_lineage
         );
 
         my @odb_accessions
@@ -148,9 +161,10 @@ elsif ($populate) {
             $subsource, $genome_id );
 
         print "[OrchardDB:Plant:INFO] - Populating Accessions Table!\n";
-        insert_accession_records( $user, $password, $db_name, $genome_id,
-            @odb_accessions );
-
+        insert_accession_records( $dbh, $db_name,
+            $genome_id, @odb_accessions );
+        
+        $dbh->disconnect();
         print "[OrchardDB:Plant:INFO] - Success!\n\n";
     }
 
@@ -251,10 +265,10 @@ sub setup_sqlite_db {
 }
 
 sub insert_main_table_record {
-    my ($user,          $password,     $db_name, $genome_id,
-        $fasta_input,   $date_time,    $source,  $subsource,
-        $type,          $data_version, $taxid,   $published,
-        $genus_species, $taxon_lineage
+    my ($dbh,          $db_name, $genome_id, $fasta_input,
+        $date_time,    $source,  $subsource, $type,
+        $data_version, $taxid,   $published, $genus_species,
+        $taxon_lineage
     ) = @_;
 
     if ( !-f "$db_name\/$db_name\.sqlite" ) {
@@ -297,16 +311,6 @@ sub insert_main_table_record {
             $special = $hash{'no rank'};
         }
 
-        my $driver   = 'SQLite';
-        my $database = "$db_name\/$db_name\.sqlite";
-        my $dsn      = "DBI:$driver:dbname=$database";
-        my $dbh
-            = DBI->connect( $dsn, $user, $password,
-            { RaiseError => 1, AutoCommit => 0 } )
-            or die $DBI::errstr;
-        print "[OrchardDB:Plant:INFO] - Successfully Conected: $database\n"
-            if $warnings >= 1;
-
         my $statement
             = qq (INSERT OR IGNORE INTO odb_maintable (genome_id,original_fn,date_added,source,subsource,type,version,ncbi_taxid,published,genus_species,t_superkingdom,t_kingdom,t_subkingdom,t_phylum,t_subphylum,t_class,t_order,t_family,t_special,taxonomy) 
                 VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?));
@@ -325,13 +329,11 @@ sub insert_main_table_record {
         );
 
         $dbh->commit;
-
-        $dbh->disconnect();
     }
 }
 
 sub insert_accession_records {
-    my ( $user, $password, $db_name, $genome_id, @odb_accessions ) = @_;
+    my ( $dbh, $db_name, $genome_id, @odb_accessions ) = @_;
 
     if ( !-f "$db_name\/$db_name\.sqlite" ) {
         print
@@ -339,16 +341,6 @@ sub insert_accession_records {
         exit(1);
     }
     else {
-
-        my $driver   = 'SQLite';
-        my $database = "$db_name\/$db_name\.sqlite";
-        my $dsn      = "DBI:$driver:dbname=$database";
-        my $dbh
-            = DBI->connect( $dsn, $user, $password,
-            { RaiseError => 1, AutoCommit => 0 } )
-            or die $DBI::errstr;
-        print "[OrchardDB:Plant:INFO] - Successfully Conected: $database\n"
-            if $warnings >= 1;
 
         my $statement
             = qq (INSERT OR IGNORE INTO odb_accessions (hashed_accession,extracted_accession,original_header,lookup_id,sequence)
@@ -380,8 +372,6 @@ sub insert_accession_records {
         }
 
         $dbh->commit;
-
-        $dbh->disconnect();
     }
 }
 
