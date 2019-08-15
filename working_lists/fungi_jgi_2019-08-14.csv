@@ -209,7 +209,7 @@ Meripilus sumstinei FP 105329	FALSE			Mersum1	v1.0		https://mycocosm.jgi.doe.gov
 Microdiplodia sp. AK1800	FALSE			Microd1	v1.0		https://mycocosm.jgi.doe.gov/Microd1
 Mitosporidium daphniae UGP3	FALSE			Mitdap1		25313038	https://mycocosm.jgi.doe.gov/Mitdap1
 Mortierella elongata NVP64	FALSE			MoeNVP64_1	v1.0		https://mycocosm.jgi.doe.gov/MoeNVP64_1
-Mortierella elongata MPI-CAGE-AA-0104	FALSE		310910	Morel_U14_1	v1.0		https://mycocosm.jgi.doe.gov/Morel_U14_1
+Mortierella elongata MPI-CAGE-AA-0104	FALSE			Morel_U14_1	v1.0		https://mycocosm.jgi.doe.gov/Morel_U14_1
 Morchella snyderi DOB2414	FALSE			Morsny1	v1.0		https://mycocosm.jgi.doe.gov/Morsny1
 Mucor circinelloides MU402	FALSE			Muccir1_3	v1.0		https://mycocosm.jgi.doe.gov/Muccir1_3
 Mucor mucedo NRRL 3635	FALSE			Mucmuc1	v1.0		https://mycocosm.jgi.doe.gov/Mucmuc1
@@ -253,7 +253,6 @@ Pisolithus croceorrhizus ssp. 2 72	FALSE			Pisthe227_1	v1.0		https://mycocosm.jg
 Pleospora avicennia ATCC 66911	FALSE			Pleav1	v1.0		https://mycocosm.jgi.doe.gov/Pleav1
 Xylariales sp. AK1849	FALSE			Plecto1	v1.0		https://mycocosm.jgi.doe.gov/Plecto1
 Plectosphaerella cucumerina RP01	FALSE			Plecuc1	v1.0		https://mycocosm.jgi.doe.gov/Plecuc1
-Plectosphaerella cucumerina MPI-SDFR-AT-0117	FALSE	Plecuc1	40658	Plecucu1	v1.0		https://mycocosm.jgi.doe.gov/Plecucu1
 Phycomyces nitens S608	FALSE			PnitS608_1	v1.0		https://mycocosm.jgi.doe.gov/PnitS608_1
 Phycomyces nitens S609	FALSE			PnitS609_1	v1.0		https://mycocosm.jgi.doe.gov/PnitS609_1
 Podospora anserina mat+	FALSE			Podans1	v1.0		https://mycocosm.jgi.doe.gov/Podans1
@@ -331,7 +330,7 @@ Trichoderma atrobrunneum ITEM 908	FALSE			Triatrob1		30200883	https://mycocosm.j
 Trichoderma atroviride P1	FALSE			Triatrov1	v1.0		https://mycocosm.jgi.doe.gov/Triatrov1
 Trichoderma brevicompactum IBT40841	FALSE			Tribre1		29649280	https://mycocosm.jgi.doe.gov/Tribre1
 Trinosporium guianense CBS132537	FALSE			Trigu1	v1.0		https://mycocosm.jgi.doe.gov/Trigu1
-Trichoderma guizhouense NJAU 4742	FALSE	Trigu1	1196434	Trigui1		29630596	https://mycocosm.jgi.doe.gov/Trigui1
+Trichoderma guizhouense NJAU 4742	FALSE			Trigui1		29630596	https://mycocosm.jgi.doe.gov/Trigui1
 Trichoderma hamatum GD12	FALSE			Triham1		23908658	https://mycocosm.jgi.doe.gov/Triham1
 Trichoderma harzianum M10	FALSE			TriharM10_1	v1.0		https://mycocosm.jgi.doe.gov/TriharM10_1
 Trichoderma harzianum T22	FALSE			TriharT22_1	v1.0		https://mycocosm.jgi.doe.gov/TriharT22_1
@@ -1077,6 +1076,7 @@ Piriformospora indica DSM 11827 from MPI	TRUE	Pirin1	1109443	Pirin1		22022265	ht
 Pisolithus microcarpus 441	TRUE	Pismi1	765257	Pismi1	v1.0	25706625	https://mycocosm.jgi.doe.gov/Pismi1
 Pisolithus tinctorius Marx 270	TRUE	Pisti1	870435	Pisti1	v1.0	25706625	https://mycocosm.jgi.doe.gov/Pisti1
 Plectosphaerella cucumerina DS2psM2a2	TRUE	Plecu1	40658	Plecu1	v1.0		https://mycocosm.jgi.doe.gov/Plecu1
+Plectosphaerella cucumerina MPI-SDFR-AT-0117	TRUE	Plecucu1	40658	Plecucu1	v1.0		https://mycocosm.jgi.doe.gov/Plecucu1
 Pleurotus eryngii ATCC 90797	TRUE	Pleery1	5323	Pleery1	v1.0		https://mycocosm.jgi.doe.gov/Pleery1
 Plectania melastoma CBS 918.72	TRUE	Plemel1	1280572	Plemel1	v1.0		https://mycocosm.jgi.doe.gov/Plemel1
 Pleurotus ostreatus PC15	TRUE	PleosPC15_2	1137138	PleosPC15_2	v2.0	24958869	https://mycocosm.jgi.doe.gov/PleosPC15_2
