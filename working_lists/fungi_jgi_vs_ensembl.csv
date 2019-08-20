@@ -970,475 +970,484 @@ Metarhizium majus ARSEF 297	1276143	FALSE
 Metarhizium rileyi RCEF 4871	1081105	FALSE						
 Metarhizium robertsii	568076	FALSE						
 Metarhizium robertsii ARSEF 23	655844	TRUE	Metarhizium robertsii ARSEF 23	655844	Metro1		PMID:25368161	https://genome.jgi.doe.gov/portal/Metro1/download/Metro1_GeneCatalog_proteins_20160603.aa.fasta.gz
-Metschnikowia bicuspidata var. bicuspidata NRRL YB-4993	869754	#REF!	Metschnikowia bicuspidata NRRL YB-4993	27322	Metbi1	v1.0	PMID:27535936	https://genome.jgi.doe.gov/portal/Metbi1/download/Metbi1_GeneCatalog_proteins_20120327.aa.fasta.gz
-Meyerozyma guilliermondii ATCC 6260	294746	#REF!	Metschnikowia fructicola 277	1200864	Metfru2		PMID:23496978	https://genome.jgi.doe.gov/portal/Metfru2/download/Metfru2_GeneCatalog_proteins_20170818.aa.fasta.gz
-Microbotryum intermedium	269621	#REF!	Meyerozyma guilliermondii ATCC 6260	294746	Meygui1		PMID:19465905	https://genome.jgi.doe.gov/portal/Meygui1/download/Meygui1_GeneCatalog_proteins_20160903.aa.fasta.gz
-Microbotryum violaceum	683840	#REF!	Microascus trigonosporus CBS 218.31	1314796	Mictr1	v1.0		https://genome.jgi.doe.gov/portal/Mictr1/download/Mictr1_GeneCatalog_proteins_20140926.aa.fasta.gz
-Microdochium bolleyi str. J235TASD1	196109	#REF!	Microbotryum lychnidis-dioicae p1A1 Lamole	683840	Micld1		PMID:26076695	https://genome.jgi.doe.gov/portal/Micld1/download/Micld1_GeneCatalog_proteins_20161101.aa.fasta.gz
-Microsporum canis CBS 113480	554155	#REF!	Microdiplodia sp. AK1800	1932321	Microd1	v1.0		https://genome.jgi.doe.gov/portal/Microd1/download/Microd1_GeneCatalog_proteins_20180925.aa.fasta.gz
-Millerozyma farinosa CBS 7064	559304	#REF!	Microdochium bolleyi J235TASD1	196109	Micbo1	v1.0	PMID:27125481	https://genome.jgi.doe.gov/portal/Micbo1/download/Micbo1_GeneCatalog_proteins_20151118.aa.fasta.gz
-Mitosporidium daphniae str. UGP3	1485682	#REF!	Microdochium trichocladiopsis MPI-CAGE-CH-0230	1682393	Mictri1	v1.0		https://genome.jgi.doe.gov/portal/Mictri1/download/Mictri1_GeneCatalog_proteins_20170510.aa.fasta.gz
-Mixia osmundae IAM 14324	764103	#REF!	Microsporum canis CBS 113480	554155	Micca1		PMID:22951933	https://genome.jgi.doe.gov/portal/Micca1/download/Micca1_GeneCatalog_proteins_20130828.aa.fasta.gz
-Moelleriella libera RCEF 2490	1081109	FALSE	Microthyrium microscopicum CBS 115976	1450532	Micmi1	v1.0		https://genome.jgi.doe.gov/portal/Micmi1/download/Micmi1_GeneCatalog_proteins_20150625.aa.fasta.gz
-Moesziomyces antarcticus str. JCM 10317	84753	FALSE	Mitosporidium daphniae UGP3	1485682	Mitdap1		PMID:25313038	https://genome.jgi.doe.gov/portal/Mitdap1/download/Mitdap1_GeneCatalog_proteins_20180604.aa.fasta.gz
-Moesziomyces antarcticus T-34	1151754	FALSE	Mixia osmundae IAM 14324	764103	Mixos1	v1.0	PMID:24372469	https://genome.jgi.doe.gov/portal/Mixos1/download/Mixos1_GeneCatalog_proteins_20120207.aa.fasta.gz
-Moesziomyces aphidis DSM 70725	1391700	FALSE	Moesziomyces aphidis DSM 70725	1391700	Moeaph1		PMID:24526638	https://genome.jgi.doe.gov/portal/Moeaph1/download/Moeaph1_GeneCatalog_proteins_20170701.aa.fasta.gz
-Moniliophthora perniciosa FA553	554373	FALSE	Monacrosporium haptotylum CBS 200.50	430498	Monha1		PMID:24244185	https://genome.jgi.doe.gov/portal/Monha1/download/Monha1_GeneCatalog_proteins_20131210.aa.fasta.gz
-Moniliophthora roreri MCA 2997	1381753	FALSE	Monascus purpureus	5098	Monpu1	v1.0		https://genome.jgi.doe.gov/portal/Monpu1/download/Monpu1_GeneCatalog_proteins_20130806.aa.fasta.gz
-Moniliophthora roreri str. MCA 2952	221103	FALSE	Monascus ruber NRRL 1597	89489	Monru1	v1.0		https://genome.jgi.doe.gov/portal/Monru1/download/Monru1_GeneCatalog_proteins_20121211.aa.fasta.gz
-Mortierella elongata AG-77	1314771	FALSE	Moniliella sp. MCA 3643	1954213	Monili2	v1.0		https://genome.jgi.doe.gov/portal/Monili2/download/Monili2_GeneCatalog_proteins_20170731.aa.fasta.gz
-Mortierella verticillata NRRL 6337	1069443	FALSE	Moniliophthora perniciosa FA553	554373	Monpe1_1		PMID:19019209	https://genome.jgi.doe.gov/portal/Monpe1_1/download/Monpe1_1_GeneCatalog_proteins_20131213.aa.fasta.gz
-Mucor ambiguus str. NBRC 6742	91626	FALSE	Morchella importuna CCBAS932	1392247	Morco1	v1.0	PMID:30420746	https://genome.jgi.doe.gov/portal/Morco1/download/Morco1_GeneCatalog_proteins_20140113.aa.fasta.gz
-Mucor circinelloides f. circinelloides 1006PhL	1220926	FALSE	Morchella importuna SCYDJ1-A1	1174673	Morimp1	v1.0	PMID:31314937	https://genome.jgi.doe.gov/portal/Morimp1/download/Morimp1_GeneCatalog_proteins_20150807.aa.fasta.gz
-Mucor circinelloides f. lusitanicus CBS 277.49	747725	FALSE	Morchella snyderi DOB2414	1174678	Morsny1	v1.0		https://genome.jgi.doe.gov/portal/Morsny1/download/Morsny1_GeneCatalog_proteins_20180419.aa.fasta.gz
-Mycosphaerella eumusae str. CBS 114824	321146	FALSE	Mortierella elongata AG-77	1314771	Morel2	v2.0	PMID:28076891	https://genome.jgi.doe.gov/portal/Morel2/download/Morel2_GeneCatalog_proteins_20151120.aa.fasta.gz
-Nadsonia fulvescens var. elongata DSM 6958	857566	FALSE	Mortierella elongata NVP64	310910	MoeNVP64_1	v1.0		https://genome.jgi.doe.gov/portal/MoeNVP64_1/download/MoeNVP64_1_GeneCatalog_proteins_20190403.aa.fasta.gz
-Naematelia encephala str. 68-887.2	71784	FALSE	Mortierella multidivaricata RSA 2152 T	101098	Mormul1	v1.0		https://genome.jgi.doe.gov/portal/Mormul1/download/Mormul1_GeneCatalog_proteins_20160906.aa.fasta.gz
-Nannizzia gypsea CBS 118893	535722	FALSE	Mortierella verticillata NRRL 6337	1069443	Morve1			https://genome.jgi.doe.gov/portal/Morve1/download/Morve1_GeneCatalog_proteins_20161024.aa.fasta.gz
-Naumovozyma castellii CBS 4309	1064592	FALSE	Mrakia frigida ATCC 22029	29902	Mrafri1	v1.0		https://genome.jgi.doe.gov/portal/Mrafri1/download/Mrafri1_GeneCatalog_proteins_20160413.aa.fasta.gz
-Naumovozyma dairenensis CBS 421	1071378	FALSE	Mucor circinelloides CBS277.49	36080	Mucci2	v2.0	PMID:27238284	https://genome.jgi.doe.gov/portal/Mucci2/download/Mucor_circinelloides_v2_filtered_proteins.fasta.gz
-Nematocida displodere str. JUm2807	1805483	FALSE	Mucor cordense RSA 1222	4830	Kircor1	v1.0		https://genome.jgi.doe.gov/portal/Kircor1/download/Kircor1_GeneCatalog_proteins_20160812.aa.fasta.gz
-Nematocida parisii ERTm1	881290	FALSE	Mucor heterogamus NRRL 1489	101122	Zyghet1	v1.0		https://genome.jgi.doe.gov/portal/Zyghet1/download/Zyghet1_GeneCatalog_proteins_20160427.aa.fasta.gz
-Nematocida parisii ERTm3	935791	FALSE	Mucor mucedo NRRL 3635	29922	Mucmuc1	v1.0		https://genome.jgi.doe.gov/portal/Mucmuc1/download/Mucmuc1_GeneCatalog_proteins_20181129.aa.fasta.gz
-Nematocida sp. 1 ERTm2	944018	FALSE	Multifurca ochricompacta BPL690	376703	Muloch1	v1.0		https://genome.jgi.doe.gov/portal/Muloch1/download/Muloch1_GeneCatalog_proteins_20170119.aa.fasta.gz
-Nematocida sp. 1 ERTm6	1138374	FALSE	Mutinus elegans ME.BST	288524	Mutel1	v1.0		https://genome.jgi.doe.gov/portal/Mutel1/download/Mutel1_GeneCatalog_proteins_20150215.aa.fasta.gz
-Nematocida sp. ERTm5	1805481	FALSE	Myceliophthora heterothallica CBS 202.75	1149848	Mychet1	v1.0		https://genome.jgi.doe.gov/portal/Mychet1/download/Mychet1_GeneCatalog_proteins_20170418.aa.fasta.gz
-Neocallimastix californiae str. G1	1754190	FALSE	Myceliophthora heterothallica CBS 203.75	1149849	Myche1	v1.0		https://genome.jgi.doe.gov/portal/Myche1/download/Myche1_GeneCatalog_proteins_20150518.aa.fasta.gz
-Neofusicoccum parvum UCRNP2	1287680	FALSE	Myceliophthora similis CBS 632.67	1403191	Corsim1	v1.0		https://genome.jgi.doe.gov/portal/Corsim1/download/Corsim1_GeneCatalog_proteins_20180612.aa.fasta.gz
-Neolecta irregularis DAH-3	1198029	FALSE	Myceliophthora thermophila (Sporotrichum thermophile)	78579	Spoth2	v2.0	PMID:21964414	https://genome.jgi.doe.gov/portal/Spoth2/download/Spoth2_GeneCatalog_proteins_20101221.aa.fasta.gz
-Neolentinus lepideus HHB14362 ss-1	1314782	FALSE	Mycena albidolilacea CBHHK002	1033008	Mycalb1	v1.0		https://genome.jgi.doe.gov/portal/Mycalb1/download/Mycalb1_GeneCatalog_proteins_20180325.aa.fasta.gz
-Neonectria ditissima str. R09/05	78410	FALSE	Mycena alexandri CBHHK200	1745969	Mycale1	v1.0		https://genome.jgi.doe.gov/portal/Mycale1/download/Mycale1_GeneCatalog_proteins_20171027.aa.fasta.gz
-Neurospora crassa	367110	FALSE	Mycena amicta BAPX	380012	Mycami1	v1.0		https://genome.jgi.doe.gov/portal/Mycami1/download/Mycami1_GeneCatalog_proteins_20171027.aa.fasta.gz
-Neurospora crassa str. 73	5141	FALSE	Mycena belliae CBHHK173m	1033014	Mycbel1	v1.0		https://genome.jgi.doe.gov/portal/Mycbel1/download/Mycbel1_GeneCatalog_proteins_20171013.aa.fasta.gz
-Neurospora tetrasperma FGSC 2508	510951	FALSE	Mycena capillaripes Frankland 9286	230804	Mycrub1	v1.0		https://genome.jgi.doe.gov/portal/Mycrub1/download/Mycrub1_GeneCatalog_proteins_20170201.aa.fasta.gz
-Neurospora tetrasperma FGSC 2509 str. FGSC 2509 mat a	510952	FALSE	Mycena crocata CBHHK184	220801	Myccro1	v1.0		https://genome.jgi.doe.gov/portal/Myccro1/download/Myccro1_GeneCatalog_proteins_20171013.aa.fasta.gz
-Nosema apis BRL 01	1037528	FALSE	Mycena epipterygia CBHHK145m	230806	Mycepi1	v1.0		https://genome.jgi.doe.gov/portal/Mycepi1/download/Mycepi1_GeneCatalog_proteins_20171002.aa.fasta.gz
-Nosema bombycis CQ1	578461	FALSE	Mycena filopes CBHHK001	858877	Mycfil1	v1.0		https://genome.jgi.doe.gov/portal/Mycfil1/download/Mycfil1_GeneCatalog_proteins_20171109.aa.fasta.gz
-Nosema ceranae	40302	FALSE	Mycena floridula CBHHK072	1033242	Mycflo1	v1.0		https://genome.jgi.doe.gov/portal/Mycflo1/download/Mycflo1_GeneCatalog_proteins_20171028.aa.fasta.gz
-Nosema ceranae BRL01	578460	FALSE	Mycena galopus ATCC-62051	1314675	Mycgal1	v1.0		https://genome.jgi.doe.gov/portal/Mycgal1/download/Mycgal1_GeneCatalog_proteins_20160823.aa.fasta.gz
-Ogataea parapolymorpha DL-1	871575	FALSE	Mycena haematopus CBHHK189	230807	Mychae1	v1.0		https://genome.jgi.doe.gov/portal/Mychae1/download/Mychae1_GeneCatalog_proteins_20170323.aa.fasta.gz
-Ogataea polymorpha str. NCYC 495 leu1.1	460523	FALSE	Mycena latifolia 10383	1033247	Myclat1	v1.0		https://genome.jgi.doe.gov/portal/Myclat1/download/Myclat1_GeneCatalog_proteins_20190110.aa.fasta.gz
-Oidiodendron maius Zn	913774	FALSE	Mycena rebaudengoi CBHHK068	1045383	Mycreb1	v1.0		https://genome.jgi.doe.gov/portal/Mycreb1/download/Mycreb1_GeneCatalog_proteins_20171023.aa.fasta.gz
-Ophiocordyceps australis	1399860	FALSE	Mycena rosella CBHHK067	1033263	Mycros1	v1.0		https://genome.jgi.doe.gov/portal/Mycros1/download/Mycros1_GeneCatalog_proteins_20170424.aa.fasta.gz
-Ophiocordyceps camponoti-rufipedis	2004952	FALSE	Mycena sanguinolenta CBHHK176m	230812	Mycsan1	v1.0		https://genome.jgi.doe.gov/portal/Mycsan1/download/Mycsan1_GeneCatalog_proteins_20171021.aa.fasta.gz
-Ophiocordyceps sinensis CO18	911162	FALSE	Mycena sp. CBHHK59/15	41247	Myc59_1	v1.0		https://genome.jgi.doe.gov/portal/Myc59_1/download/Myc59_1_GeneCatalog_proteins_20170610.aa.fasta.gz
-Ophiocordyceps unilateralis str. SC16a	268505	FALSE	Mycena vitilis CBHHK169m	1033281	Mycvit1	v1.0		https://genome.jgi.doe.gov/portal/Mycvit1/download/Mycvit1_GeneCatalog_proteins_20171013.aa.fasta.gz
-Ophiostoma piceae UAMH 11346 str. UAMH-11346	1262450	FALSE	Mycosphaerella graminicola	1047171	Mycgr3	v2.0	PMID:21695235	https://genome.jgi.doe.gov/portal/Mycgr3/download/Mgraminicolav2.FilteredModels1.proteins.fasta.gz
-Ordospora colligata OC4	1354746	FALSE	Mycotypha africana NRRL 2978	64632	Mycafr1	v1.0		https://genome.jgi.doe.gov/portal/Mycafr1/download/Mycafr1_GeneCatalog_proteins_20160506.aa.fasta.gz
-Pachysolen tannophilus NRRL Y-2460	669874	FALSE	Myriangiaceae sp. NC1570	1955108	Myrian1	v1.0		https://genome.jgi.doe.gov/portal/Myrian1/download/Myrian1_GeneCatalog_proteins_20181114.aa.fasta.gz
-Paracoccidioides brasiliensis Pb03	482561	FALSE	Myriangium duriaei CBS 260.36	1168546	Myrdu1	v1.0		https://genome.jgi.doe.gov/portal/Myrdu1/download/Myrdu1_GeneCatalog_proteins_20121211.aa.fasta.gz
-Paracoccidioides brasiliensis Pb18	502780	FALSE	Myrothecium inundatum CBS 120646	110576	Myrin1	v1.0		https://genome.jgi.doe.gov/portal/Myrin1/download/Myrin1_GeneCatalog_proteins_20140928.aa.fasta.gz
-Paracoccidioides lutzii Pb01	502779	FALSE	Mytilinidiaceae sp. NC0267	2012375	Lophiu1	v1.0		https://genome.jgi.doe.gov/portal/Lophiu1/download/Lophiu1_GeneCatalog_proteins_20181114.aa.fasta.gz
-Paramicrosporidium saccamoebae str. KSL3	1246581	FALSE	Mytilinidion resinicola CBS 304.34	574789	Mytre1	v1.0		https://genome.jgi.doe.gov/portal/Mytre1/download/Mytre1_GeneCatalog_proteins_20150115.aa.fasta.gz
-Paraphaeosphaeria sporulosa str. AP3s5-JAC2a	1460663	FALSE	Myxozyma melibiosi Phaff 52-87	54550	Myxme1	v1.0		https://genome.jgi.doe.gov/portal/Myxme1/download/Myxme1_GeneCatalog_proteins_20180510.aa.fasta.gz
-Paxillus involutus ATCC 200175	664439	FALSE	Nadsonia fulvescens var. elongata DSM 6958	857566	Nadfu1	v1.0	PMID:27535936	https://genome.jgi.doe.gov/portal/Nadfu1/download/Nadfu1_GeneCatalog_proteins_20110909.aa.fasta.gz
-Paxillus rubicundulus Ve08.2h10	930991	FALSE	Naematella encephela UCDFST 68-887.2	71784	Treen1	v1.0	PMID:28481340	https://genome.jgi.doe.gov/portal/Treen1/download/Treen1_GeneCatalog_proteins_20160201.aa.fasta.gz
-Penicilliopsis zonata CBS 506.65	1073090	FALSE	Naiadella fluitans ATCC 64713	1397326	Naifl1	v1.0		https://genome.jgi.doe.gov/portal/Naifl1/download/Naifl1_GeneCatalog_proteins_20140403.aa.fasta.gz
-Penicillium antarcticum	416450	FALSE	Nakaseomyces bacillisporus CBS 7720	1279116	Nakbac1		PMID:24034898	https://genome.jgi.doe.gov/portal/Nakbac1/download/Nakbac1_GeneCatalog_proteins_20160804.aa.fasta.gz
-Penicillium arizonense	1835702	FALSE	Nakaseomyces delphensis CBS 2170	1279113	Nakdel1		PMID:24034898	https://genome.jgi.doe.gov/portal/Nakdel1/download/Nakdel1_GeneCatalog_proteins_20160805.aa.fasta.gz
-Penicillium brasilianum str. LaBioMMi 136	104259	FALSE	Nakazawaea wickerhamii NRRL Y-2563	1538186	Nakwi1		PMID:29760453	https://genome.jgi.doe.gov/portal/Nakwi1/download/Nakwi1_GeneCatalog_proteins_20181013.aa.fasta.gz
-Penicillium camemberti FM 013	1429867	FALSE	Naohidea sebacea CBS 8477 (P95)	1397327	Naose1	v1.0		https://genome.jgi.doe.gov/portal/Naose1/download/Naose1_GeneCatalog_proteins_20150719.aa.fasta.gz
-Penicillium chrysogenum str. P2niaD18	5076	FALSE	Nectria haematococca	140110	Necha2	v2.0	PMID:19714214	https://genome.jgi.doe.gov/portal/Necha2/download/Necha2_best_proteins.fasta.gz
-Penicillium coprophilum	36646	FALSE	Nectriopsis sporangicola NRRL 22127	1155949	Necsp1	v1.0		https://genome.jgi.doe.gov/portal/Necsp1/download/Necsp1_GeneCatalog_proteins_20180911.aa.fasta.gz
-Penicillium decumbens	69771	FALSE	Nemania abortiva FL1152	561989	Nemabo1	v1.0		https://genome.jgi.doe.gov/portal/Nemabo1/download/Nemabo1_GeneCatalog_proteins_20190325.aa.fasta.gz
-Penicillium digitatum Pd1	1170230	FALSE	Nemania diffusa NC0034	389665	Nemdif1	v1.0		https://genome.jgi.doe.gov/portal/Nemdif1/download/Nemdif1_GeneCatalog_proteins_20190614.aa.fasta.gz
-Penicillium digitatum PHI26	1170229	FALSE	Nemania serpens AK0226	109381	NsAK0226_1	v1.0		https://genome.jgi.doe.gov/portal/NsAK0226_1/download/NsAK0226_1_GeneCatalog_proteins_20190612.aa.fasta.gz
-Penicillium expansum str. MD-8	27334	FALSE	Nemania sp. NC0429	1912656	Nemani1	v1.0		https://genome.jgi.doe.gov/portal/Nemani1/download/Nemani1_GeneCatalog_proteins_20190515.aa.fasta.gz
-Penicillium flavigenum	254877	FALSE	Nematocida parisii ERTm1	881290	Nempa1		PMID:22813931	https://genome.jgi.doe.gov/portal/Nempa1/download/Nempa1_GeneCatalog_proteins_20130904.aa.fasta.gz
-Penicillium freii	48697	FALSE	Neocallimastix californiae G1	1754190	Neosp1	v1.0	PMID:28555641	https://genome.jgi.doe.gov/portal/Neosp1/download/Neosp1_GeneCatalog_proteins_20170918.aa.fasta.gz
-Penicillium griseofulvum str. PG3	5078	FALSE	Neofusicoccum parvum UCRNP2	1287680	Neopa1		PMID:23766404	https://genome.jgi.doe.gov/portal/Neopa1/download/Neopa1_GeneCatalog_proteins_20130909.aa.fasta.gz
-Penicillium italicum str. PHI-1	40296	FALSE	Neolecta irregularis DAH-1	48691	Neoirr1	v1.0	PMID:28176784	https://genome.jgi.doe.gov/portal/Neoirr1/download/Neoirr1_GeneCatalog_proteins_20160803.aa.fasta.gz
-Penicillium nalgiovense	60175	FALSE	Neolentinus lepideus	38799	Neole1	v1.0	PMID:26659563	https://genome.jgi.doe.gov/portal/Neole1/download/Neole1_GeneCatalog_proteins_20130125.aa.fasta.gz
-Penicillium nordicum	229535	FALSE	Neonectria ditissima R09/05	78410	Neodi1		PMID:26586869	https://genome.jgi.doe.gov/portal/Neodi1/download/Neodi1_GeneCatalog_proteins_20170711.aa.fasta.gz
-Penicillium occitanis str. CT1	290292	FALSE	Neonectria radicicola MPI-CAGE-AT-0134	64609	Neora1	v1.0		https://genome.jgi.doe.gov/portal/Neora1/download/Neora1_GeneCatalog_proteins_20180718.aa.fasta.gz
-Penicillium oxalicum 114-2	933388	FALSE	Neosartorya fischeri NRRL 181	331117	Neofi1		PMID:22080559	https://genome.jgi.doe.gov/portal/Neofi1/download/Neofi1_GeneCatalog_proteins_20120815.aa.fasta.gz
-Penicillium polonicum	60169	FALSE	Neurospora crassa FGSC 73 trp-3	5141	Neucr_trp3_1	v1.0	PMID:25838471	https://genome.jgi.doe.gov/portal/Neucr_trp3_1/download/Neucr_trp3_1_GeneCatalog_proteins_20140324.aa.fasta.gz
-Penicillium roqueforti FM164	1365484	FALSE	Neurospora crassa OR74A	367110	Neucr2	v2.0	PMID:12712197	https://genome.jgi.doe.gov/portal/Neucr2/download/Neucr2_GeneCatalog_proteins_20130412.aa.fasta.gz
-Penicillium rubens Wisconsin 54-1255	500485	FALSE	Neurospora discreta FGSC 8579 mat A	510953	Neudi1			https://genome.jgi.doe.gov/portal/Neudi1/download/Ndiscreta.FilteredModels2.proteins.fasta.gz
-Penicillium solitum	60172	FALSE	Neurospora hispaniola FGSC 10403	588809	Neuhi1	v1.0		https://genome.jgi.doe.gov/portal/Neuhi1/download/Neuhi1_GeneCatalog_proteins_20171014.aa.fasta.gz
-Penicillium steckii	303698	FALSE	Neurospora tetrasperma FGSC 2508 mat A	510951	Neute_matA2	v2.0	PMID:21750257	https://genome.jgi.doe.gov/portal/Neute_matA2/download/N.tetrasperma_matA_v2_FilteredModels.proteins.fasta.gz
-Penicillium subrubescens str. CBS 132785	1316194	FALSE	Neurospora tetrasperma FGSC 2509 mat a	40127	Neute_mat_a1	v1.0	PMID:21750257	https://genome.jgi.doe.gov/portal/Neute_matA2/download/N.tetrasperma_matA_v2_FilteredModels.proteins.fasta.gz
-Penicillium vulpinum	29845	FALSE	Nia vibrissa CBS 119815	155003	Niavib1	v1.0		https://genome.jgi.doe.gov/portal/Niavib1/download/Niavib1_GeneCatalog_proteins_20180713.aa.fasta.gz
-Peniophora sp. CONT	1314672	FALSE	Niesslia exilis CBS 358.70	267680	Nieex1	v1.0		https://genome.jgi.doe.gov/portal/Nieex1/download/Nieex1_GeneCatalog_proteins_20140925.aa.fasta.gz
-Periconia macrospinosa str. DSE2036	97972	FALSE	Nosema ceranae BRL01	578460	Nosce1		PMID:19503607	https://genome.jgi.doe.gov/portal/Nosce1/download/Nosce1_GeneCatalog_proteins_20140109.aa.fasta.gz
-Pestalotiopsis fici W106-1	1229662	FALSE	Obba rivulosa 3A-2	1052685	Obbri1	v1.0	PMID:27634999	https://genome.jgi.doe.gov/portal/Obbri1/download/Obbri1_GeneCatalog_proteins_20140615.aa.fasta.gz
-Pezoloma ericae str. UAMH 7357	1745343	FALSE	Obelidium mucronatum JEL802	110081	Obemuc1	v1.0		https://genome.jgi.doe.gov/portal/Obemuc1/download/Obemuc1_GeneCatalog_proteins_20171120.aa.fasta.gz
-Phaeoacremonium minimum UCRPA7	1286976	FALSE	Ogataea parapolymorpha DL-1	871575	Ogapa1			https://genome.jgi.doe.gov/portal/Ogapa1/download/Ogapa1_GeneCatalog_proteins_20161024.aa.fasta.gz
-Phaeomoniella chlamydospora	158046	FALSE	Ogataea polymorpha NCYC 495 leu1.1	638633	Hanpo2	v2.0	PMID:27535936	https://genome.jgi.doe.gov/portal/Hanpo2/download/Hanpo2_GeneCatalog_proteins_20100927.aa.fasta.gz
-Phaeosphaeria nodorum	321614	FALSE	Oidiodendron maius Zn	913774	Oidma1	v1.0	PMID:25706625	https://genome.jgi.doe.gov/portal/Oidma1/download/Oidma1_GeneCatalog_proteins_20110606.aa.fasta.gz
-Phanerochaete carnosa HHB-10118-sp	650164	FALSE	Oliveonia pauxilla MPI-PUGE-AT-0066	1026881	Olipa1	v1.0		https://genome.jgi.doe.gov/portal/Olipa1/download/Olipa1_GeneCatalog_proteins_20171127.aa.fasta.gz
-Phellinus noxius	418867	FALSE	Omphalotus olearius	72120	Ompol1		PMID:22726691	https://genome.jgi.doe.gov/portal/Ompol1/download/Ompol1_GeneCatalog_proteins_20130516.aa.fasta.gz
-Phialocephala scopiformis str. CBS 120377	149040	FALSE	Onnia scaura P-53A	1496296	Onnsc1	v1.0		https://genome.jgi.doe.gov/portal/Onnsc1/download/Onnsc1_GeneCatalog_proteins_20150419.aa.fasta.gz
-Phialocephala subalpina	576137	FALSE	Ophiobolus disseminans CBS 113818	1469910	Ophdi1	v1.0		https://genome.jgi.doe.gov/portal/Ophdi1/download/Ophdi1_GeneCatalog_proteins_20140614.aa.fasta.gz
-Phialophora americana str. CBS 27337	5601	FALSE	Ophiostoma novo-ulmi subsp. novo-ulmi H327	1224258	Ophnu1		PMID:23542132	https://genome.jgi.doe.gov/portal/Ophnu1/download/Ophnu1_GeneCatalog_proteins_20170425.aa.fasta.gz
-Phialophora attae str. CBS 131958	1664694	FALSE	Ophiostoma piceae UAMH 11346	1262450	Ophpic1		PMID:23725015	https://genome.jgi.doe.gov/portal/Ophpic1/download/Ophpic1_GeneCatalog_proteins_20151205.aa.fasta.gz
-Phlebia centrifuga str. FBCC195	98765	FALSE	Ophiostoma piliferum	38032	Ophpi1			https://genome.jgi.doe.gov/portal/Ophpi1/download/Ophpi1_GeneCatalog_proteins_20130808.aa.fasta.gz
-Phlebiopsis gigantea 11061_1 CR5-6	745531	FALSE	Orpinomyces sp.	37163	Orpsp1_1		PMID:23709508	https://genome.jgi.doe.gov/portal/Orpsp1_1/download/Orpsp1_1_GeneCatalog_proteins_20140826.aa.fasta.gz
-Pichia kudriavzevii str. SD108	4909	FALSE	Oudemansiella mucida CBS 558.79	139077	Oudmuc1	v1.0		https://genome.jgi.doe.gov/portal/Oudmuc1/download/Oudmuc1_GeneCatalog_proteins_20160525.aa.fasta.gz
-Pichia membranifaciens NRRL Y-2026	763406	FALSE	Pachysolen tannophilus NRRL Y-2460	669874	Pacta1_2	v1.2	PMID:27535936	https://genome.jgi.doe.gov/portal/Pacta1_2/download/Pacta1_2_GeneCatalog_proteins_20110630.aa.fasta.gz
-Pichia membranifaciens str. KS47-1	4926	FALSE	Paecilomyces niveus CO7	5093	Bysni1	v1.0	PMID:29930063	https://genome.jgi.doe.gov/portal/Bysni1/download/Bysni1_GeneCatalog_proteins_20180319.aa.fasta.gz
-Piloderma croceum F 1598	765440	FALSE	Paecilomyces variotii CBS 101075	264951	Paevar1	v1.0	PMID:30619145	https://genome.jgi.doe.gov/portal/Paevar1/download/Paevar1_GeneCatalog_proteins_20171103.aa.fasta.gz
-Piromyces finnis	1754191	FALSE	Panaeolus papilionaceus CIRM-BRFM 715	330517	Panpap1	v1.0		https://genome.jgi.doe.gov/portal/Panpap1/download/Panpap1_GeneCatalog_proteins_20170130.aa.fasta.gz
-Piromyces sp. E2	73868	FALSE	Panellus stipticus LUM	5636	Panst_LUM_1_1	v1.0		https://genome.jgi.doe.gov/portal/Panst_LUM_1_1/download/Panst_LUM_1_1_GeneCatalog_proteins_20160628.aa.fasta.gz
-Pisolithus microcarpus 441	765257	FALSE	Panus rudis PR-1116 ss-1	1314784	Panru1	v1.0		https://genome.jgi.doe.gov/portal/Panru1/download/Panru1_GeneCatalog_proteins_20141214.aa.fasta.gz
-Pisolithus tinctorius Marx 270	870435	FALSE	Papiliotrema laurentii 5307AH	5418	Papla1	v1.0		https://genome.jgi.doe.gov/portal/Papla1/download/Papla1_GeneCatalog_proteins_20180704.aa.fasta.gz
-Pleurotus ostreatus PC15	1137138	FALSE	Paracoccidioides brasiliensis Pb03	482561	Parbr1		PMID:22046142	https://genome.jgi.doe.gov/portal/Parbr1/download/Parbr1_GeneCatalog_proteins_20131018.aa.fasta.gz
-Plicaturopsis crispa FD-325 SS-3	944288	FALSE	Paracoccidioides brasiliensis Pb18	502780	Parbra1		PMID:22046142	https://genome.jgi.doe.gov/portal/Parbra1/download/Parbra1_GeneCatalog_proteins_20161024.aa.fasta.gz
-Pneumocystis carinii B80	1408658	FALSE	Paraconiothyrium sporulosum AP3s5-JAC2a	1460663	Parsp1	v1.0	PMID:27434633	https://genome.jgi.doe.gov/portal/Parsp1/download/Parsp1_GeneCatalog_proteins_20141011.aa.fasta.gz
-Pneumocystis jirovecii RU7	1408657	FALSE	Paraphoma chrysanthemicola MPI-GEGE-AT-0034	798071	Parch1	v1.0		https://genome.jgi.doe.gov/portal/Parch1/download/Parch1_GeneCatalog_proteins_20171014.aa.fasta.gz
-Pneumocystis murina B123	1069680	FALSE	Paraphysoderma sedebokerense JEL821	1500003	Parsed1	v1.0		https://genome.jgi.doe.gov/portal/Parsed1/download/Parsed1_GeneCatalog_proteins_20170905.aa.fasta.gz
-Pochonia chlamydosporia 170	1380566	FALSE	Parasitella parasitica	35722	Parpar1	v1.0		https://genome.jgi.doe.gov/portal/Parpar1/download/Parpar1_GeneCatalog_proteins_20160126.aa.fasta.gz
-Podospora anserina S mat+	515849	FALSE	Patellaria atrata	703506	Patat1	v1.0		https://genome.jgi.doe.gov/portal/Patat1/download/Patat1_GeneCatalog_proteins_20130514.aa.fasta.gz
-Polytolypa hystricis UAMH7299	1447883	FALSE	Paxillus adelphus Ve08.2h10	1842050	Paxru2	v2.0	PMID:25706625	https://genome.jgi.doe.gov/portal/Paxru2/download/Paxru2_GeneCatalog_proteins_20151118.aa.fasta.gz
-Postia placenta Mad-698-R	561896	FALSE	Paxillus ammoniavirescens Pou09.2	1132860	Paxam1	v1.0		https://genome.jgi.doe.gov/portal/Paxam1/download/Paxam1_GeneCatalog_proteins_20150425.aa.fasta.gz
-Postia placenta MAD-698-R-SB12	670580	FALSE	Paxillus involutus ATCC 200175	664439	Paxin1	v1.0	PMID:25706625	https://genome.jgi.doe.gov/portal/Paxin1/download/Paxin1_GeneCatalog_proteins_20110501.aa.fasta.gz
-Protomyces lactucaedebilis str. 12-1054	56484	FALSE	Penicillium antarcticum IBT 31811	416450	Penant1		PMID:28368369	https://genome.jgi.doe.gov/portal/Penant1/download/Penant1_GeneCatalog_proteins_20170601.aa.fasta.gz
-Pseudocercospora fijiensis CIRAD86	383855	FALSE	Penicillium atramentosum RS17	36652	Penatra1	v1.0		https://genome.jgi.doe.gov/portal/Penatra1/download/Penatra1_GeneCatalog_proteins_20181207.aa.fasta.gz
-Pseudocercospora musae str. CBS 116634	113226	FALSE	Penicillium bilaiae ATCC 20851	1314792	Penbi1	v1.0		https://genome.jgi.doe.gov/portal/Penbi1/download/Penbi1_GeneCatalog_proteins_20130602.aa.fasta.gz
-Pseudogymnoascus destructans	655981	FALSE	Penicillium brevicompactum 1011305	5074	Penbr2	v2.0		https://genome.jgi.doe.gov/portal/Penbr2/download/Penbr2_GeneCatalog_proteins_20130810.aa.fasta.gz
-Pseudogymnoascus destructans 20631-21	658429	FALSE	Penicillium brevicompactum AgRF18	1392249	PenbrAgRF18_1	v1.0		https://genome.jgi.doe.gov/portal/PenbrAgRF18_1/download/PenbrAgRF18_1_GeneCatalog_proteins_20131217.aa.fasta.gz
-Pseudogymnoascus sp. 03VT05	1622148	FALSE	Penicillium canescens ATCC 10419	1314794	Penca1	v1.0		https://genome.jgi.doe.gov/portal/Penca1/download/Penca1_GeneCatalog_proteins_20130524.aa.fasta.gz
-Pseudogymnoascus sp. 05NY08	1622149	FALSE	Penicillium chrysogenum	5076	Pench1	v1.0	PMID:28196534	https://genome.jgi.doe.gov/portal/Pench1/download/Pench1_GeneCatalog_proteins_20120123.aa.fasta.gz
-Pseudogymnoascus sp. 23342-1-I1	1524831	FALSE	Penicillium chrysogenum Wisconsin 54-1255	500485	PenchWisc1_1		PMID:18820685	https://genome.jgi.doe.gov/portal/PenchWisc1_1/download/PenchWisc1_1_GeneCatalog_proteins_20140114.aa.fasta.gz
-Pseudogymnoascus sp. 24MN13	1622150	FALSE	Penicillium coprophilum IBT 31321	36646	Pencop1		PMID:28368369	https://genome.jgi.doe.gov/portal/Pencop1/download/Pencop1_GeneCatalog_proteins_20170602.aa.fasta.gz
-Pseudogymnoascus sp. VKM F-103	1420912	FALSE	Penicillium decumbens IBT 11843	69771	Pendec1		PMID:28368369	https://genome.jgi.doe.gov/portal/Pendec1/download/Pendec1_GeneCatalog_proteins_20170601.aa.fasta.gz
-Pseudogymnoascus sp. VKM F-3557	1437433	FALSE	Penicillium digitatum Pd1	1170230	Pendig1		PMID:23171342	https://genome.jgi.doe.gov/portal/Pendig1/download/Pendig1_GeneCatalog_proteins_20170530.aa.fasta.gz
-Pseudogymnoascus sp. VKM F-3775	1420901	FALSE	Penicillium digitatum PHI26	1170229	Pendi1		PMID:23171342	https://genome.jgi.doe.gov/portal/Pendi1/download/Pendi1_GeneCatalog_proteins_20131020.aa.fasta.gz
-Pseudogymnoascus sp. VKM F-3808	1391699	FALSE	Penicillium expansum ATCC 24692	1314791	Penex1	v1.0		https://genome.jgi.doe.gov/portal/Penex1/download/Penex1_GeneCatalog_proteins_20130524.aa.fasta.gz
-Pseudogymnoascus sp. VKM F-4246	1420902	FALSE	Penicillium expansum d1	27334	Penexp1		PMID:25338147	https://genome.jgi.doe.gov/portal/Penexp1/download/Penexp1_GeneCatalog_proteins_20170706.aa.fasta.gz
-Pseudogymnoascus sp. VKM F-4281 (FW-2241)	1420906	FALSE	Penicillium fellutanum ATCC 48694	1314795	Penfe1	v1.0		https://genome.jgi.doe.gov/portal/Penfe1/download/Penfe1_GeneCatalog_proteins_20130528.aa.fasta.gz
-Pseudogymnoascus sp. VKM F-4513 (FW-928)	1420907	FALSE	Penicillium flavigenum IBT 14082	254877	Penfla1		PMID:28368369	https://genome.jgi.doe.gov/portal/Penfla1/download/Penfla1_GeneCatalog_proteins_20170601.aa.fasta.gz
-Pseudogymnoascus sp. VKM F-4514 (FW-929)	1420908	FALSE	Penicillium glabrum DAOM 239074	1314793	Pengl1	v1.0		https://genome.jgi.doe.gov/portal/Pengl1/download/Pengl1_GeneCatalog_proteins_20130524.aa.fasta.gz
-Pseudogymnoascus sp. VKM F-4515 (FW-2607)	1420909	FALSE	Penicillium griseofulvum PG3	5078	Pengri1		PMID:26729047	https://genome.jgi.doe.gov/portal/Pengri1/download/Pengri1_GeneCatalog_proteins_20170529.aa.fasta.gz
-Pseudogymnoascus sp. VKM F-4516 (FW-969)	1420910	FALSE	Penicillium italicum PHI-1	40296	Penita1		PMID:25338147	https://genome.jgi.doe.gov/portal/Penita1/download/Penita1_GeneCatalog_proteins_20170529.aa.fasta.gz
-Pseudogymnoascus sp. VKM F-4517 (FW-2822)	1420911	FALSE	Penicillium janthinellum ATCC 10455	1397297	Penja1	v1.0		https://genome.jgi.doe.gov/portal/Penja1/download/Penja1_GeneCatalog_proteins_20140203.aa.fasta.gz
-Pseudogymnoascus sp. VKM F-4518 (FW-2643)	1420913	FALSE	Penicillium lanosocoeruleum ATCC 48919	1346256	Penla1	v1.0		https://genome.jgi.doe.gov/portal/Penla1/download/Penla1_GeneCatalog_proteins_20130529.aa.fasta.gz
-Pseudogymnoascus sp. VKM F-4519 (FW-2642)	1420914	FALSE	Penicillium nalgiovense FM193	1439352	Pennal1		PMID:28368369	https://genome.jgi.doe.gov/portal/Pennal1/download/Pennal1_GeneCatalog_proteins_20170601.aa.fasta.gz
-Pseudogymnoascus sp. VKM F-4520 (FW-2644)	1420915	FALSE	Penicillium nordicum DAOMC 185683	229535	Pennord1		PMID:26734552	https://genome.jgi.doe.gov/portal/Pennord1/download/Pennord1_GeneCatalog_proteins_20181004.aa.fasta.gz
-Pseudogymnoascus sp. WSF 3629	1622147	FALSE	Penicillium oxalicum 114-2	933388	Penox1		PMID:23383313	https://genome.jgi.doe.gov/portal/Penox1/download/Penox1_GeneCatalog_proteins_20131211.aa.fasta.gz
-Pseudogymnoascus verrucosus	342668	FALSE	Penicillium polonicum IBT 4502	60169	Penpol1		PMID:28368369	https://genome.jgi.doe.gov/portal/Penpol1/download/Penpol1_GeneCatalog_proteins_20170601.aa.fasta.gz
-Pseudoloma neurophilia str. MK1	146866	FALSE	Penicillium raistrickii ATCC 10490	1392252	Penra1	v1.0		https://genome.jgi.doe.gov/portal/Penra1/download/Penra1_GeneCatalog_proteins_20140107.aa.fasta.gz
-Pseudomassariella vexata str. CBS 129021	1141098	FALSE	Penicillium solitum IBT 29525	60172	Pensol1		PMID:28368369	https://genome.jgi.doe.gov/portal/Pensol1/download/Pensol1_GeneCatalog_proteins_20170601.aa.fasta.gz
-Pseudomicrostroma glucosiphilum str. MCA 4718	1684307	FALSE	Penicillium sp. NC0857	5081	ThyNC0857_1	v1.0		https://genome.jgi.doe.gov/portal/ThyNC0857_1/download/ThyNC0857_1_GeneCatalog_proteins_20190123.aa.fasta.gz
-Pseudozyma hubeiensis SY62	1305764	FALSE	Penicillium steckii IBT 24891	303698	Penste1		PMID:28368369	https://genome.jgi.doe.gov/portal/Penste1/download/Penste1_GeneCatalog_proteins_20170601.aa.fasta.gz
-Puccinia coronata var. avenae f. sp. avenae	200324	FALSE	Penicillium subrubescens FBCC1632 / CBS132785	1316194	Pensub1		PMID:28216099	https://genome.jgi.doe.gov/portal/Pensub1/download/Pensub1_GeneCatalog_proteins_20160929.aa.fasta.gz
-Puccinia graminis	418459	FALSE	Penicillium swiecickii 182 6C1	1295096	Penswi1	v1.0		https://genome.jgi.doe.gov/portal/Penswi1/download/Penswi1_GeneCatalog_proteins_20171024.aa.fasta.gz
-Puccinia graminis Ug99	1040990	FALSE	Penicillium thymicola DAOMC 180753	293382	Penth1	v1.0	PMID:27521635	https://genome.jgi.doe.gov/portal/Penth1/download/Penth1_GeneCatalog_proteins_20150617.aa.fasta.gz
-Puccinia sorghi str. RO10H11247	27349	FALSE	Penicillium vulpinum IBT 29486	29845	Penvul1		PMID:28368369	https://genome.jgi.doe.gov/portal/Penvul1/download/Penvul1_GeneCatalog_proteins_20170601.aa.fasta.gz
-Puccinia striiformis	27350	FALSE	Peniophora sp.	1756134	Ricme1	v1.0	PMID:26659563	https://genome.jgi.doe.gov/portal/Ricme1/download/Ricme1_GeneCatalog_proteins_20130412.aa.fasta.gz
-Puccinia striiformis f. sp. tritici PST-130 str. Race 130	875184	FALSE	Peniophora sp. CONTA	1897082	Lopni1	v1.0	PMID:30886374	https://genome.jgi.doe.gov/portal/Lopni1/download/Lopni1_GeneCatalog_proteins_20150213.aa.fasta.gz
-Puccinia striiformis f. sp. tritici PST-78	1165861	FALSE	Periconia macrospinosa DSE2036	97972	Perma1	v1.0	PMID:29679020	https://genome.jgi.doe.gov/portal/Perma1/download/Perma1_GeneCatalog_proteins_20141217.aa.fasta.gz
-Puccinia triticina	630390	FALSE	Pestalotiopsis sp. NC0098	36460	Pestal1	v1.0		https://genome.jgi.doe.gov/portal/Pestal1/download/Pestal1_GeneCatalog_proteins_20180925.aa.fasta.gz
-Punctularia strigosozonata HHB-11173 SS5	741275	FALSE	Peterozyma xylosa NRRL Y-12939	1337056	Petxy1		PMID:29760453	https://genome.jgi.doe.gov/portal/Petxy1/download/Petxy1_GeneCatalog_proteins_20181012.aa.fasta.gz
-Purpureocillium lilacinum str. 36-1	33203	FALSE	Peziza echinospora DOB1120	61495	Pezech1	v1.0		https://genome.jgi.doe.gov/portal/Pezech1/download/Pezech1_GeneCatalog_proteins_20180326.aa.fasta.gz
-Pyrenochaeta sp. DS3sAY3a	765867	FALSE	Phaeoacremonium aleophilum UCRPA7	1286976	Phaal1		PMID:23814032	https://genome.jgi.doe.gov/portal/Phaal1/download/Phaal1_GeneCatalog_proteins_20130924.aa.fasta.gz
-Pyrenophora teres	861557	FALSE	Phaeoacremonium sp. FL0889	65412	PhaeoFL0889_1	v1.0		https://genome.jgi.doe.gov/portal/PhaeoFL0889_1/download/PhaeoFL0889_1_GeneCatalog_proteins_20170418.aa.fasta.gz
-Pyrenophora tritici-repentis Pt-1C-BFP	426418	FALSE	Phaeomoniella chlamydospora UCRPC4	158046	Phach1		PMID:26084502	https://genome.jgi.doe.gov/portal/Phach1/download/Phach1_GeneCatalog_proteins_20150930.aa.fasta.gz
-Rachicladosporium antarcticum	1507870	FALSE	Phaeomoniellales  sp. NC0930	1618100	ClaNC0930_1	v1.0		https://genome.jgi.doe.gov/portal/ClaNC0930_1/download/ClaNC0930_1_GeneCatalog_proteins_20190124.aa.fasta.gz
-Rachicladosporium sp. CCFEE 5018	1974281	FALSE	Phaeosolenia platensis CBS 268.64	269161	Phapla1	v1.0		https://genome.jgi.doe.gov/portal/Phapla1/download/Phapla1_GeneCatalog_proteins_20180613.aa.fasta.gz
-Ramularia collo-cygni	112498	FALSE	Phaeosphaeria poagena MPI-PUGE-AT-0046c	1508275	Phapo1	v1.0		https://genome.jgi.doe.gov/portal/Phapo1/download/Phapo1_GeneCatalog_proteins_20180321.aa.fasta.gz
-Rasamsonia emersonii CBS 393.64	1408163	FALSE	Phaeosphaeriaceae sp. PMI_808	5020	PhaPMI808	v1.0		https://genome.jgi.doe.gov/portal/PhaPMI808/download/PhaPMI808_GeneCatalog_proteins_20160324.aa.fasta.gz
-Rhinocladiella mackenziei CBS 650.93	1442369	FALSE	Phanerochaete carnosa HHB-10118-Sp	650164	Phaca1	v1.0	PMID:22937793	https://genome.jgi.doe.gov/portal/Phaca1/download/Phaca1_GeneCatalog_proteins_20101213.aa.fasta.gz
-Rhizoclosmatium globosum str. JEL800	329046	FALSE	Phanerochaete chrysosporium RP-78	273507	Phchr2	v2.2	PMID:24853079	https://genome.jgi.doe.gov/portal/Phchr2/download/Phchr2_GeneCatalog_proteins_20131210.aa.fasta.gz
-Rhizoctonia solani	456999	FALSE	Phascolomyces articulosus	60185	Phaart1	v1.0		https://genome.jgi.doe.gov/portal/Phaart1/download/Phaart1_GeneCatalog_proteins_20160822.aa.fasta.gz
-Rhizoctonia solani 123E	1423351	FALSE	Phellinus ferrugineofuscus SpK3Phefer14	167367	Phefer1	v1.0		https://genome.jgi.doe.gov/portal/Phefer1/download/Phefer1_GeneCatalog_proteins_20170510.aa.fasta.gz
-Rhizoctonia solani AG-1 IA str. AG1 IA	983506	FALSE	Phellinus igniarius CCBS 575	40472	Pheign1_1	v1.0		https://genome.jgi.doe.gov/portal/Pheign1_1/download/Pheign1_1_GeneCatalog_proteins_20180321.aa.fasta.gz
-Rhizoctonia solani AG-1 IB	1108050	FALSE	Phellopilus nigrolimitatus SigPhenig9	127956	Pheni1	v1.0		https://genome.jgi.doe.gov/portal/Pheni1/download/Pheni1_GeneCatalog_proteins_20180304.aa.fasta.gz
-Rhizoctonia solani AG-3 Rhs1AP	1086054	FALSE	Phialocephala scopiformis 5WS22E1	149040	Phisc1	v1.0	PMID:26950333	https://genome.jgi.doe.gov/portal/Phisc1/download/Phisc1_GeneCatalog_proteins_20150213.aa.fasta.gz
-Rhizoctonia solani AG-8 WAC10335	1287689	FALSE	Phialophora attae CBS 131958	1664694	Phiatt1		PMID:26586868	https://genome.jgi.doe.gov/portal/Phiatt1/download/Phiatt1_GeneCatalog_proteins_20170914.aa.fasta.gz
-Rhizophagus clarus str. HR1	94130	FALSE	Phlebia brevispora HHB-7030 SS6	747484	Phlbr1	v1.0	PMID:23935031	https://genome.jgi.doe.gov/portal/Phlbr1/download/Phlbr1_GeneCatalog_proteins_20110325.aa.fasta.gz
-Rhizophagus irregularis DAOM 181602=DAOM 197198	747089	FALSE	Phlebia centrifuga FBCC195 	98765	Phlcen1		PMID:29622620	https://genome.jgi.doe.gov/portal/Phlcen1/download/Phlcen1_GeneCatalog_proteins_20160929.aa.fasta.gz
-Rhizophagus irregularis DAOM 197198w str. DAOM197198w	1432141	FALSE	Phlebia radiata Fr. (isolate 79	5308	Phlrad1		PMID:27602055	https://genome.jgi.doe.gov/portal/Phlrad1/download/Phlrad1_GeneCatalog_proteins_20181020.aa.fasta.gz
-Rhizopogon vesiculosus str. AM-OR11-056	180088	FALSE	Phlebiopsis gigantea	82310	Phlgi1	v1.0	PMID:25474575	https://genome.jgi.doe.gov/portal/Phlgi1/download/Phlgi1_GeneCatalog_proteins_20110614.aa.fasta.gz
-Rhizopogon vinicolor AM-OR11-026	1314800	FALSE	Phlebopus sp. FC_14	2060792	Pis20_1	v1.0		https://genome.jgi.doe.gov/portal/Pis20_1/download/Pis20_1_GeneCatalog_proteins_20190327.aa.fasta.gz
-Rhizopus delemar RA 99-880	246409	FALSE	Pholiota alnicola AH 47727	109635	Phoaln1	v1.0		https://genome.jgi.doe.gov/portal/Phoaln1/download/Phoaln1_GeneCatalog_proteins_20160826.aa.fasta.gz
-Rhizopus microsporus ATCC 52813	1340429	FALSE	Pholiota conissans CIRM-BRFM 674	109636	Phocon1	v1.0		https://genome.jgi.doe.gov/portal/Phocon1/download/Phocon1_GeneCatalog_proteins_20151025.aa.fasta.gz
-Rhizopus microsporus var. microsporus str. ATCC 52814	86635	FALSE	Pholiota highlandensis	181755	Phohig1	v1.0		https://genome.jgi.doe.gov/portal/Phohig1/download/Phohig1_GeneCatalog_proteins_20171206.aa.fasta.gz
-Rhodotorula graminis WP1	578459	FALSE	Phoma multirostrata 7a	73003	Phomu1	v1.0		https://genome.jgi.doe.gov/portal/Phomu1/download/Phomu1_GeneCatalog_proteins_20180815.aa.fasta.gz
-Rhodotorula sp. JG-1b	1305733	FALSE	Phoma tracheiphila IPT5	1408161	Photr1	v1.0		https://genome.jgi.doe.gov/portal/Photr1/download/Photr1_GeneCatalog_proteins_20140424.aa.fasta.gz
-Rhodotorula taiwanensis str. MD1149	741276	FALSE	Phycomyces blakesleeanus NRRL1555	763407	Phybl2	v2.0	PMID:27238284	https://genome.jgi.doe.gov/portal/Phybl2/download/Phycomyces_blakesleeanus_v2_filtered_proteins.fasta.gz
-Rhodotorula toruloides	5286	FALSE	Phycomyces blakesleeanus UBC1	4837	Phybla1	v1.0		https://genome.jgi.doe.gov/portal/Phybla1/download/Phybla1_GeneCatalog_proteins_20190111.aa.fasta.gz
-Rhodotorula toruloides ATCC 204091	1001064	FALSE	Phycomyces nitens S607	269771	PnitS607_1	v1.0		https://genome.jgi.doe.gov/portal/PnitS607_1/download/PnitS607_1_GeneCatalog_proteins_20170410.aa.fasta.gz
-Rhodotorula toruloides NP11	1130832	FALSE	Phyllosticta capitalensis CBS 128856	121624	Phycap1	v1.0		https://genome.jgi.doe.gov/portal/Phycap1/download/Phycap1_GeneCatalog_proteins_20170217.aa.fasta.gz
-Rhynchosporium agropyri	914238	FALSE	Phyllosticta citriasiana CBS 120486	595635	Phycit1	v1.0		https://genome.jgi.doe.gov/portal/Phycit1/download/Phycit1_GeneCatalog_proteins_20140925.aa.fasta.gz
-Rhynchosporium commune	914237	FALSE	Phyllosticta citribraziliensis CBS 100098	989973	Phcit1	v1.0		https://genome.jgi.doe.gov/portal/Phcit1/download/Phcit1_GeneCatalog_proteins_20161221.aa.fasta.gz
-Rhynchosporium secalis	38038	FALSE	Phyllosticta citricarpa CBS 127454	55181	Phycitr1	v1.0		https://genome.jgi.doe.gov/portal/Phycitr1/download/Phycitr1_GeneCatalog_proteins_20170406.aa.fasta.gz
-Rosellinia necatrix str. W97	77044	FALSE	Phyllosticta citrichinaensis CBS 130529	1130410	Phcitr1	v1.0		https://genome.jgi.doe.gov/portal/Phcitr1/download/Phcitr1_GeneCatalog_proteins_20170113.aa.fasta.gz
-Rozella allomycis CSF55	988480	FALSE	Phyllosticta paracitricarpa CBS 141357	1907483	Phy27169	v1.0		https://genome.jgi.doe.gov/portal/Phy27169/download/Phy27169_GeneCatalog_proteins_20170510.aa.fasta.gz
-Rutstroemia sp. NJR-2017a BBW	2070414	FALSE	Phyllosticta sp. CPC 27913	1882840	Phycpc1	v1.0		https://genome.jgi.doe.gov/portal/Phycpc1/download/Phycpc1_GeneCatalog_proteins_20170406.aa.fasta.gz
-Rutstroemia sp. NJR-2017a BVV2	2070413	FALSE	Pichia kudriavzevii CBS573	4909	Pickud1		PMID:30024981	https://genome.jgi.doe.gov/portal/Pickud1/download/Pickud1_GeneCatalog_proteins_20181128.aa.fasta.gz
-Rutstroemia sp. NJR-2017a WRK4	2070412	FALSE	Pichia membranifaciens	4926	Picme2	v2.0	PMID:27535936	https://genome.jgi.doe.gov/portal/Picme2/download/Picme2_GeneCatalog_proteins_20111110.aa.fasta.gz
-Saccharomyces arboricola H-6	1160507	FALSE	Pichia pastoris	4922	Picpa1		PMID:19465926	https://genome.jgi.doe.gov/portal/Picpa1/download/Picpa1_GeneCatalog_proteins_20130227.aa.fasta.gz
-Saccharomyces cerevisiae	559292	FALSE	Piedraia hortae	147573	Pieho1_1	v1.1		https://genome.jgi.doe.gov/portal/Pieho1_1/download/Pieho1_1_GeneCatalog_proteins_20130807.aa.fasta.gz
-Saccharomyces cerevisiae CEN.PK113-7D	889517	FALSE	Pilaira anomala RSA1997	64641	Pilano1	v1.0		https://genome.jgi.doe.gov/portal/Pilano1/download/Pilano1_GeneCatalog_proteins_20161117.aa.fasta.gz
-Saccharomyces cerevisiae EC1118	643680	FALSE	Pilobolus umbonatus NRRL 6349	101123	Pilumb1	v1.0		https://genome.jgi.doe.gov/portal/Pilumb1/download/Pilumb1_GeneCatalog_proteins_20170307.aa.fasta.gz
-Saccharomyces cerevisiae FostersB	764102	FALSE	Piloderma croceum F 1598	765440	Pilcr1	v1.0	PMID:25706625	https://genome.jgi.doe.gov/portal/Pilcr1/download/Pilcr1_GeneCatalog_proteins_20120328.aa.fasta.gz
-Saccharomyces cerevisiae FostersO	764101	FALSE	Piptocephalis cylindrospora RSA 2659 single-cell	1907219	Pipcy3_1	v3.0	PMID:30297742	https://genome.jgi.doe.gov/portal/Pipcy3_1/download/Pipcy3_1_GeneCatalog_proteins_20160615.aa.fasta.gz
-Saccharomyces cerevisiae Kyokai no. 7 str. kyokai no. 7	721032	FALSE	Piriformospora indica DSM 11827 from MPI	1109443	Pirin1		PMID:22022265	https://genome.jgi.doe.gov/portal/Pirin1/download/Pirin1_GeneCatalog_proteins_20111203.aa.fasta.gz
-Saccharomyces cerevisiae Lalvin QA23	764098	FALSE	Piromyces finnis	1754191	Pirfi3	v3.0	PMID:28555641	https://genome.jgi.doe.gov/portal/Pirfi3/download/Pirfi3_GeneCatalog_proteins_20160330.aa.fasta.gz
-Saccharomyces cerevisiae P283	1177187	FALSE	Piromyces sp. E2	73868	PirE2_1	v1.0	PMID:28555641	https://genome.jgi.doe.gov/portal/PirE2_1/download/PirE2_1_GeneCatalog_proteins_20110421.aa.fasta.gz
-Saccharomyces cerevisiae P301	1182968	FALSE	Pisolithus albus SI12	178870	Pisalb1	v1.0		https://genome.jgi.doe.gov/portal/Pisalb1/download/Pisalb1_GeneCatalog_proteins_20180801.aa.fasta.gz
-Saccharomyces cerevisiae R103	1182967	FALSE	Pisolithus croceorrhizus subspA 74A	2060934	Piscro1	v1.0		https://genome.jgi.doe.gov/portal/Piscro1/download/Piscro1_GeneCatalog_proteins_20180803.aa.fasta.gz
-Saccharomyces cerevisiae RM11-1a	285006	FALSE	Pisolithus marmoratus ssp. 2 16A	178871	Pismar1	v1.0		https://genome.jgi.doe.gov/portal/Pismar1/download/Pismar1_GeneCatalog_proteins_20180803.aa.fasta.gz
-Saccharomyces cerevisiae Vin13	764099	FALSE	Pisolithus microcarpus 441	765257	Pismi1	v1.0	PMID:25706625	https://genome.jgi.doe.gov/portal/Pismi1/download/Pismi1_GeneCatalog_proteins_20120412.aa.fasta.gz
-Saccharomyces cerevisiae VL3	764100	FALSE	Pisolithus thermaeus 11	2136032	Pisthe1	v1.0		https://genome.jgi.doe.gov/portal/Pisthe1/download/Pisthe1_GeneCatalog_proteins_20180803.aa.fasta.gz
-Saccharomyces cerevisiae x Saccharomyces kudriavzevii VIN7	1095631	FALSE	Pisolithus tinctorius Marx 270	870435	Pisti1	v1.0	PMID:25706625	https://genome.jgi.doe.gov/portal/Pisti1/download/Pisti1_GeneCatalog_proteins_20120410.aa.fasta.gz
-Saccharomyces cerevisiae YJM1078	1296266	FALSE	Plectania melastoma CBS 918.72	1280572	Plemel1	v1.0		https://genome.jgi.doe.gov/portal/Plemel1/download/Plemel1_GeneCatalog_proteins_20160326.aa.fasta.gz
-Saccharomyces cerevisiae YJM1083	1292971	FALSE	Plectosphaerella cucumerina DS2psM2a2	40658	Plecu1	v1.0		https://genome.jgi.doe.gov/portal/Plecu1/download/Plecu1_GeneCatalog_proteins_20150512.aa.fasta.gz
-Saccharomyces cerevisiae YJM1129	1293430	FALSE	Pleomassaria siparia	100044	Plesi1	v1.0		https://genome.jgi.doe.gov/portal/Plesi1/download/Plesi1_GeneCatalog_proteins_20130603.aa.fasta.gz
-Saccharomyces cerevisiae YJM1133	1294333	FALSE	Pleospora avicennia ATCC 66911	193131	Pleav1	v1.0		https://genome.jgi.doe.gov/portal/Pleav1/download/Pleav1_GeneCatalog_proteins_20180620.aa.fasta.gz
-Saccharomyces cerevisiae YJM1190	1294334	FALSE	Pleurotus eryngii ATCC 90797	5323	Pleery1	v1.0		https://genome.jgi.doe.gov/portal/Pleery1/download/Pleery1_GeneCatalog_proteins_20150629.aa.fasta.gz
-Saccharomyces cerevisiae YJM1199	1294335	FALSE	Pleurotus ostreatus PC15	1137138	PleosPC15_2	v2.0	PMID:24958869	https://genome.jgi.doe.gov/portal/PleosPC15_2/download/PleosPC15_2_GeneModels_FilteredModels1_aa.fasta.gz
-Saccharomyces cerevisiae YJM1202	1294336	FALSE	Pleurotus ostreatus PC9	1137139	PleosPC9_1	v1.0	PMID:27117896	https://genome.jgi.doe.gov/portal/PleosPC9_1/download/PleosPC9_1_GeneModels_Filteredmodels2_aa.fasta.gz
-Saccharomyces cerevisiae YJM1208	1294337	FALSE	Plicaturopsis crispa	139390	Plicr1	v1.0	PMID:25706625	https://genome.jgi.doe.gov/portal/Plicr1/download/Plicr1_GeneCatalog_proteins_20111115.aa.fasta.gz
-Saccharomyces cerevisiae YJM1242	1294338	FALSE	Pluteus cervinus NL-1719	181527	Plucer1	v1.0	PMID:30886374	https://genome.jgi.doe.gov/portal/Plucer1/download/Plucer1_GeneCatalog_proteins_20151119.aa.fasta.gz
-Saccharomyces cerevisiae YJM1244	1294339	FALSE	Pneumocystis jirovecii	42068	Pneji1		PMID:23269827	https://genome.jgi.doe.gov/portal/Pneji1/download/Pneji1_GeneCatalog_proteins_20130607.aa.fasta.gz
-Saccharomyces cerevisiae YJM1248	1294340	FALSE	Pochonia chlamydosporia 170	1380566	Pocchl1		PMID:27416025	https://genome.jgi.doe.gov/portal/Pocchl1/download/Pocchl1_GeneCatalog_proteins_20170916.aa.fasta.gz
-Saccharomyces cerevisiae YJM1250	1294341	FALSE	Podospora anserina mat+	5145	Podans1	v1.0		https://genome.jgi.doe.gov/portal/Podans1/download/Podans1_GeneCatalog_proteins_20171002.aa.fasta.gz
-Saccharomyces cerevisiae YJM1252	1294342	FALSE	Podospora anserina S mat+	515849	Podan3		PMID:18460219	https://genome.jgi.doe.gov/portal/Podan3/download/Podan3_GeneCatalog_proteins_20171013.aa.fasta.gz
-Saccharomyces cerevisiae YJM1273	1294343	FALSE	Podospora appendiculata CBS 314.62	314037	Podap1	v1.0		https://genome.jgi.doe.gov/portal/Podap1/download/Podap1_GeneCatalog_proteins_20180511.aa.fasta.gz
-Saccharomyces cerevisiae YJM1304	1294344	FALSE	Podospora curvicolla TEP21a	48157	Podcur1	v1.0		https://genome.jgi.doe.gov/portal/Podcur1/download/Podcur1_GeneCatalog_proteins_20151211.aa.fasta.gz
-Saccharomyces cerevisiae YJM1307	1294345	FALSE	Podospora didyma CBS 232.78	330526	Poddi1	v1.0		https://genome.jgi.doe.gov/portal/Poddi1/download/Poddi1_GeneCatalog_proteins_20171014.aa.fasta.gz
-Saccharomyces cerevisiae YJM1311	1294346	FALSE	Polychaeton citri	705562	Polci1	v1.0		https://genome.jgi.doe.gov/portal/Polci1/download/Polci1_GeneCatalog_proteins_20130311.aa.fasta.gz
-Saccharomyces cerevisiae YJM1326	1294347	FALSE	Polyplosphaeria fusca CBS 125425	682080	Polfu1	v1.0		https://genome.jgi.doe.gov/portal/Polfu1/download/Polfu1_GeneCatalog_proteins_20140813.aa.fasta.gz
-Saccharomyces cerevisiae YJM1332	1294348	FALSE	Polyporus arcularius	5639	Polar1	v1.0	PMID:30886374	https://genome.jgi.doe.gov/portal/Polar1/download/Polar1_GeneCatalog_proteins_20130201.aa.fasta.gz
-Saccharomyces cerevisiae YJM1336	1294349	FALSE	Polyporus brumalis BRFM 1820	139420	Polbr1	v1.0	PMID:30061923	https://genome.jgi.doe.gov/portal/Polbr1/download/Polbr1_GeneCatalog_proteins_20150501.aa.fasta.gz
-Saccharomyces cerevisiae YJM1338	1294350	FALSE	Polyporus squamosus CCBS 676	5640	Polsqu1	v1.0		https://genome.jgi.doe.gov/portal/Polsqu1/download/Polsqu1_GeneCatalog_proteins_20170821.aa.fasta.gz
-Saccharomyces cerevisiae YJM1341	1294351	FALSE	Porodaedalea chrysoloma FP-135951	74615	Porchr1	v1.0		https://genome.jgi.doe.gov/portal/Porchr1/download/Porchr1_GeneCatalog_proteins_20160628.aa.fasta.gz
-Saccharomyces cerevisiae YJM1342	1294352	FALSE	Porodaedalea niemelaei PN71-100-IP13	175858	Pornie1_2	v1.0		https://genome.jgi.doe.gov/portal/Pornie1_2/download/Pornie1_2_GeneCatalog_proteins_20160504.aa.fasta.gz
-Saccharomyces cerevisiae YJM1355	1294353	FALSE	Porpomyces mucidus OMC1666	156595	Pormuc1	v1.0		https://genome.jgi.doe.gov/portal/Pormuc1/download/Pormuc1_GeneCatalog_proteins_20190110.aa.fasta.gz
-Saccharomyces cerevisiae YJM1356	1294354	FALSE	Postia placenta MAD 698-R	561896	Pospl1	v1.0	PMID:19193860	https://genome.jgi.doe.gov/portal/Pospl1/download/Pospl1_FilteredModels2_proteins.fasta.gz
-Saccharomyces cerevisiae YJM1381	1294355	FALSE	Postia placenta MAD-698-R-SB12	670580	PosplRSB12_1	v1.0	PMID:28831381	https://genome.jgi.doe.gov/portal/PosplRSB12_1/download/PosplRSB12_1_GeneCatalog_proteins_20111103.aa.fasta.gz
-Saccharomyces cerevisiae YJM1383	1294356	FALSE	Postia stiptica OMC1664	544579	Possti1	v1.0		https://genome.jgi.doe.gov/portal/Possti1/download/Possti1_GeneCatalog_proteins_20180909.aa.fasta.gz
-Saccharomyces cerevisiae YJM1385	1294357	FALSE	Powellomyces hirtus BR81	109895	Powhir1	v1.0		https://genome.jgi.doe.gov/portal/Powhir1/download/Powhir1_GeneCatalog_proteins_20180423.aa.fasta.gz
-Saccharomyces cerevisiae YJM1386	1294358	FALSE	Protomyces inouyei	27332	Proin1			https://genome.jgi.doe.gov/portal/Proin1/download/Proin1_GeneCatalog_proteins_20130808.aa.fasta.gz
-Saccharomyces cerevisiae YJM1387	1294359	FALSE	Protomyces lactucaedebilis 12-1054	56484	Prola1	v1.0	PMID:28481340	https://genome.jgi.doe.gov/portal/Prola1/download/Prola1_GeneCatalog_proteins_20160129.aa.fasta.gz
-Saccharomyces cerevisiae YJM1388	1294360	FALSE	Pseudocercospora (Mycosphaerella) fijiensis	1873960	Mycfi2	v2.0	PMID:27512984	https://genome.jgi.doe.gov/portal/Mycfi2/download/Mfijiensis_v2.FrozenGeneCatalog_20100402.proteins.fasta.gz
-Saccharomyces cerevisiae YJM1389	1294361	FALSE	Pseudographis elatina	1695903	Pseel1			https://genome.jgi.doe.gov/portal/Pseel1/download/Pseel1_GeneCatalog_proteins_20130808.aa.fasta.gz
-Saccharomyces cerevisiae YJM1399	1294362	FALSE	Pseudogymnoascus destructans 20631-21	658429	Pseudest1		PMID:27365344	https://genome.jgi.doe.gov/portal/Pseudest1/download/Pseudest1_GeneCatalog_proteins_20170919.aa.fasta.gz
-Saccharomyces cerevisiae YJM1400	1294363	FALSE	Pseudomassariella vexata CBS 129021	1141098	Pseve2	v1.0	PMID:28481340	https://genome.jgi.doe.gov/portal/Pseve2/download/Pseve2_GeneCatalog_proteins_20160326.aa.fasta.gz
-Saccharomyces cerevisiae YJM1401	1294364	FALSE	Pseudomicrostroma glucosiphilum gen et sp. nov. MCA 4718	1684307	Rhodsp1	v1.0	PMID:29771364	https://genome.jgi.doe.gov/portal/Rhodsp1/download/Rhodsp1_GeneCatalog_proteins_20150111.aa.fasta.gz
-Saccharomyces cerevisiae YJM1402	1294365	FALSE	Pseudovirgaria hyperparasitica CBS 121739	470096	Psehy1	v1.0		https://genome.jgi.doe.gov/portal/Psehy1/download/Psehy1_GeneCatalog_proteins_20140829.aa.fasta.gz
-Saccharomyces cerevisiae YJM1415	1294366	FALSE	Pseudozyma antarctica T-34	1151754	Psean1_1		PMID:23558529	https://genome.jgi.doe.gov/portal/Psean1_1/download/Psean1_1_GeneCatalog_proteins_20140109.aa.fasta.gz
-Saccharomyces cerevisiae YJM1417	1294367	FALSE	Pseudozyma hubeiensis SY62	1305764	Psehu1		PMID:23814110	https://genome.jgi.doe.gov/portal/Psehu1/download/Psehu1_GeneCatalog_proteins_20130926.aa.fasta.gz
-Saccharomyces cerevisiae YJM1418	1294368	FALSE	Psilocybe cubensis	181762	Psicub1_1	v1.0	PMID:28763571	https://genome.jgi.doe.gov/portal/Psicub1_1/download/Psicub1_1_GeneCatalog_proteins_20180416.aa.fasta.gz
-Saccharomyces cerevisiae YJM1419	1294369	FALSE	Psilocybe serbica	797126	Psiser1	v1.0	PMID:28763571	https://genome.jgi.doe.gov/portal/Psiser1/download/Psiser1_GeneCatalog_proteins_20180612.aa.fasta.gz
-Saccharomyces cerevisiae YJM1433	1294370	FALSE	Pterula gracilis CBS309.79	1884261	Ptegra1	v1.0	PMID:30886374	https://genome.jgi.doe.gov/portal/Ptegra1/download/Ptegra1_GeneCatalog_proteins_20151205.aa.fasta.gz
-Saccharomyces cerevisiae YJM1434	1294371	FALSE	Puccinia coronata avenae 12NC29	860303	PuccoNC29_1		PMID:28846186	https://genome.jgi.doe.gov/portal/PuccoNC29_1/download/PuccoNC29_1_GeneCatalog_proteins_20170808.aa.fasta.gz
-Saccharomyces cerevisiae YJM1439	1294372	FALSE	Puccinia coronata avenae 12SD80	27344	PuccoSD80_1		PMID:28846186	https://genome.jgi.doe.gov/portal/PuccoSD80_1/download/PuccoSD80_1_GeneCatalog_proteins_20170808.aa.fasta.gz
-Saccharomyces cerevisiae YJM1443	1294373	FALSE	Puccinia graminis f. sp. tritici	56615	Pucgr2	v2.0	PMID:21536894	https://genome.jgi.doe.gov/portal/Pucgr2/download/Pucgr2_GeneCatalog_proteins_20150718.aa.fasta.gz
-Saccharomyces cerevisiae YJM1444	1294374	FALSE	Puccinia striiformis f. sp. tritici 104 E137 A-	27350	Pucstr1		PMID:29463659	https://genome.jgi.doe.gov/portal/Pucstr1/download/Pucstr1_GeneCatalog_proteins_20170922.aa.fasta.gz
-Saccharomyces cerevisiae YJM1447	1294375	FALSE	Puccinia striiformis f. sp. tritici PST-130 	875184	Pucst1		PMID:21909385	https://genome.jgi.doe.gov/portal/Pucst1/download/Pucst1_GeneCatalog_proteins_20130920.aa.fasta.gz
-Saccharomyces cerevisiae YJM1450	1294376	FALSE	Puccinia striiformis f. sp. tritici PST-78	1165861	Pucst_PST78_1	v1.0	PMID:27913634	https://genome.jgi.doe.gov/portal/Pucst_PST78_1/download/Pucst_PST78_1_GeneCatalog_proteins_20160608.aa.fasta.gz
-Saccharomyces cerevisiae YJM1460	1294377	FALSE	Puccinia triticina 1-1 BBBD Race 1	630390	Puctr1		PMID:27913634	https://genome.jgi.doe.gov/portal/Puctr1/download/Puctr1_GeneCatalog_proteins_20131203.aa.fasta.gz
-Saccharomyces cerevisiae YJM1463	1294378	FALSE	Punctularia strigosozonata	202698	Punst1	v1.0	PMID:22745431	https://genome.jgi.doe.gov/portal/Punst1/download/Punst1_GeneCatalog_proteins_20101026.aa.fasta.gz
-Saccharomyces cerevisiae YJM1477	1294379	FALSE	Purpureocillium sp. UdeA0106	1323837	Pursp1	v1.0		https://genome.jgi.doe.gov/portal/Pursp1/download/Pursp1_GeneCatalog_proteins_20160908.aa.fasta.gz
-Saccharomyces cerevisiae YJM1478	1294380	FALSE	Pycnoporus cinnabarinus BRFM 137	1445587	Pycci1		PMID:24942338	https://genome.jgi.doe.gov/portal/Pycci1/download/Pycci1_GeneCatalog_proteins_20140109.aa.fasta.gz
-Saccharomyces cerevisiae YJM1479	1294381	FALSE	Pycnoporus cinnabarinus CIRM-BRFM 50	5643	Pyccin1	v1.0		https://genome.jgi.doe.gov/portal/Pyccin1/download/Pyccin1_GeneCatalog_proteins_20170112.aa.fasta.gz
-Saccharomyces cerevisiae YJM1526	1294382	FALSE	Pycnoporus coccineus BRFM 310	1353009	Pycco1	v1.0		https://genome.jgi.doe.gov/portal/Pycco1/download/Pycco1_GeneCatalog_proteins_20140114.aa.fasta.gz
-Saccharomyces cerevisiae YJM1527	1294383	FALSE	Pycnoporus coccineus CIRM1662	158605	Pycco1662_1			https://genome.jgi.doe.gov/portal/Pycco1662_1/download/Pycco1662_1_GeneCatalog_proteins_20140607.aa.fasta.gz
-Saccharomyces cerevisiae YJM1549	1294384	FALSE	Pycnoporus puniceus CIRM-BRFM 1868	571087	Pycpun1	v1.0		https://genome.jgi.doe.gov/portal/Pycpun1/download/Pycpun1_GeneCatalog_proteins_20160226.aa.fasta.gz
-Saccharomyces cerevisiae YJM1573	1294385	FALSE	Pycnoporus sanguineus BRFM 1264	158606	Pycsa1	v1.0		https://genome.jgi.doe.gov/portal/Pycsa1/download/Pycsa1_GeneCatalog_proteins_20140123.aa.fasta.gz
-Saccharomyces cerevisiae YJM1574	1294386	FALSE	Pyrenochaeta lycopersici MPI-SDFR-AT-0127	285811	Pyrly1	v1.0		https://genome.jgi.doe.gov/portal/Pyrly1/download/Pyrly1_GeneCatalog_proteins_20170623.aa.fasta.gz
-Saccharomyces cerevisiae YJM1592	1294387	FALSE	Pyrenochaeta sp. DS3sAY3a	285810	Pyrsp1	v1.0	PMID:27434633	https://genome.jgi.doe.gov/portal/Pyrsp1/download/Pyrsp1_GeneCatalog_proteins_20141006.aa.fasta.gz
-Saccharomyces cerevisiae YJM1615	1294388	FALSE	Pyrenophora teres f. teres	97479	Pyrtt1		PMID:21067574	https://genome.jgi.doe.gov/portal/Pyrtt1/download/Pyrtt1_GeneCatalog_proteins_20110408.aa.fasta.gz
-Saccharomyces cerevisiae YJM189	1294303	FALSE	Pyrenophora tritici-repentis	45151	Pyrtr1		PMID:23316438	https://genome.jgi.doe.gov/portal/Pyrtr1/download/Pyrenophora_tritici_repentis_proteins.fasta.gz
-Saccharomyces cerevisiae YJM193	1294304	FALSE	Pyronema confluens CBS100304	1076935	Pyrco1		PMID:24068976	https://genome.jgi.doe.gov/portal/Pyrco1/download/Pyrco1_GeneCatalog_proteins_20131110.aa.fasta.gz
-Saccharomyces cerevisiae YJM195	1294305	FALSE	Pyronema domesticum DOB7353	47205	Pyrdom1	v1.0		https://genome.jgi.doe.gov/portal/Pyrdom1/download/Pyrdom1_GeneCatalog_proteins_20181004.aa.fasta.gz
-Saccharomyces cerevisiae YJM244	1294306	FALSE	Pyronema omphalodes DOB1672	337075	Pyrom1	v1.0		https://genome.jgi.doe.gov/portal/Pyrom1/download/Pyrom1_GeneCatalog_proteins_20181022.aa.fasta.gz
-Saccharomyces cerevisiae YJM248	1294307	FALSE	Radiomyces spectabilis NRRL 2753	64574	Radspe1	v1.0		https://genome.jgi.doe.gov/portal/Radspe1/download/Radspe1_GeneCatalog_proteins_20161011.aa.fasta.gz
-Saccharomyces cerevisiae YJM270	1294308	FALSE	Radulomyces confluens OMC1631	264109	Radcon1	v1.0		https://genome.jgi.doe.gov/portal/Radcon1/download/Radcon1_GeneCatalog_proteins_20181201.aa.fasta.gz
-Saccharomyces cerevisiae YJM271	1294309	FALSE	Ramaria rubella (R. acris) UT-36052-T	113071	Ramac1	v1.0		https://genome.jgi.doe.gov/portal/Ramac1/download/Ramac1_GeneCatalog_proteins_20140310.aa.fasta.gz
-Saccharomyces cerevisiae YJM320	947042	FALSE	Ramicandelaber brevisporus CBS 109374	304332	Rambr1	v1.0		https://genome.jgi.doe.gov/portal/Rambr1/download/Rambr1_GeneCatalog_proteins_20140929.aa.fasta.gz
-Saccharomyces cerevisiae YJM326	468558	FALSE	Rhamphospora nymphaeae CBS 172.38	62645	Rhanym2_1	v1.0		https://genome.jgi.doe.gov/portal/Rhanym2_1/download/Rhanym2_1_GeneCatalog_proteins_20181022.aa.fasta.gz
-Saccharomyces cerevisiae YJM428	947044	FALSE	Rhexocercosporidium sp. MPI-PUGE-AT-0058	1756112	Rhesp1	v1.0		https://genome.jgi.doe.gov/portal/Rhesp1/download/Rhesp1_GeneCatalog_proteins_20171207.aa.fasta.gz
-Saccharomyces cerevisiae YJM450	1294310	FALSE	Rhizina undulata CBS 300.56	44645	Rhiund1	v1.0		https://genome.jgi.doe.gov/portal/Rhiund1/download/Rhiund1_GeneCatalog_proteins_20190327.aa.fasta.gz
-Saccharomyces cerevisiae YJM451	502869	FALSE	Rhizoclosmatium globosum JEL800	329046	Rhihy1	v1.0	PMID:28481340	https://genome.jgi.doe.gov/portal/Rhihy1/download/Rhihy1_GeneCatalog_proteins_20151219.aa.fasta.gz
-Saccharomyces cerevisiae YJM453	1294311	FALSE	Rhizoctonia solani AG-1 IB	1108050	Rhiso1		PMID:23280342	https://genome.jgi.doe.gov/portal/Rhiso1/download/Rhiso1_GeneCatalog_proteins_20131028.aa.fasta.gz
-Saccharomyces cerevisiae YJM456	1294312	FALSE	Rhizodiscina lignyota CBS 133067	1504668	Rhili1	v1.0		https://genome.jgi.doe.gov/portal/Rhili1/download/Rhili1_GeneCatalog_proteins_20150422.aa.fasta.gz
-Saccharomyces cerevisiae YJM470	1294313	FALSE	Rhizophagus cerebriforme DAOM 227022	658196	Rhice1_1	v1.0	PMID:30636349	https://genome.jgi.doe.gov/portal/Rhice1_1/download/Rhice1_1_GeneCatalog_proteins_20160727.aa.fasta.gz
-Saccharomyces cerevisiae YJM541	1294314	FALSE	Rhizophagus diaphanus	118614	Rhidi1	v1.0	PMID:30636349	https://genome.jgi.doe.gov/portal/Rhidi1/download/Rhidi1_GeneCatalog_proteins_20160421.aa.fasta.gz
-Saccharomyces cerevisiae YJM554	1294315	FALSE	Rhizophagus irregularis A1	588596	RhiirA1_1	v1.0	PMID:29355972	https://genome.jgi.doe.gov/portal/RhiirA1_1/download/RhiirA1_1_GeneCatalog_proteins_20150518.aa.fasta.gz
-Saccharomyces cerevisiae YJM555	1294316	FALSE	Rhizophagus irregularis B3	1330081	RhiirB3	v1.0	PMID:29355972	https://genome.jgi.doe.gov/portal/RhiirB3/download/RhiirB3_GeneCatalog_proteins_20150616.aa.fasta.gz
-Saccharomyces cerevisiae YJM627	1294317	FALSE	Rhizophagus irregularis DAOM 197198	747089	Rhiir2_1	v2.0	PMID:29355972	https://genome.jgi.doe.gov/portal/Rhiir2_1/download/Rhiir2_1_GeneCatalog_proteins_20160502.aa.fasta.gz
-Saccharomyces cerevisiae YJM681	1294318	FALSE	Rhizopogon salebrosus TDB-379	632084	Rhisa1	v1.0		https://genome.jgi.doe.gov/portal/Rhisa1/download/Rhisa1_GeneCatalog_proteins_20141012.aa.fasta.gz
-Saccharomyces cerevisiae YJM682	1294319	FALSE	Rhizopogon truncatus FC74	98235	Rhitru1	v1.0		https://genome.jgi.doe.gov/portal/Rhitru1/download/Rhitru1_GeneCatalog_proteins_20180422.aa.fasta.gz
-Saccharomyces cerevisiae YJM683	1294320	FALSE	Rhizopogon vesiculosus Smith	180088	Rhives1		PMID:28450370	https://genome.jgi.doe.gov/portal/Rhives1/download/Rhives1_GeneCatalog_proteins_20170403.aa.fasta.gz
-Saccharomyces cerevisiae YJM689	1294321	FALSE	Rhizopogon vinicolor AM-OR11-026	1314800	Rhivi1	v1.0	PMID:28450370	https://genome.jgi.doe.gov/portal/Rhivi1/download/Rhivi1_GeneCatalog_proteins_20140605.aa.fasta.gz
-Saccharomyces cerevisiae YJM693	1294322	FALSE	Rhizopogon vulgaris FC72	36057	Rhivul1	v1.0		https://genome.jgi.doe.gov/portal/Rhivul1/download/Rhivul1_GeneCatalog_proteins_20180423.aa.fasta.gz
-Saccharomyces cerevisiae YJM789	307796	FALSE	Rhizopus delemar 99-880 from Broad	246409	Rhior3		PMID:19578406	https://genome.jgi.doe.gov/portal/Rhior3/download/Rhior3_proteins.fasta.gz
-Saccharomyces cerevisiae YJM969	1294323	FALSE	Rhizopus microsporus ATCC11559	58291	Rhimi_ATCC11559_1	v1.0	PMID:27956601	https://genome.jgi.doe.gov/portal/Rhimi_ATCC11559_1/download/Rhimi_ATCC11559_1_GeneCatalog_proteins_20150408.aa.fasta.gz
-Saccharomyces cerevisiae YJM972	1294324	FALSE	Rhizopus microsporus var. chinensis CCTCC M201021	1271458	Rhich1		PMID:23516228	https://genome.jgi.doe.gov/portal/Rhich1/download/Rhich1_GeneCatalog_proteins_20131210.aa.fasta.gz
-Saccharomyces cerevisiae YJM975	1294325	FALSE	Rhizopus microsporus var. microsporus ATCC52813	86635	Rhimi1_1	v1.0	PMID:29184190	https://genome.jgi.doe.gov/portal/Rhimi1_1/download/Rhimi1_1_GeneCatalog_proteins_20130624.aa.fasta.gz
-Saccharomyces cerevisiae YJM978	1294326	FALSE	Rhizopus stolonifer NRRL 66455	4846	Rhisto1	v1.0		https://genome.jgi.doe.gov/portal/Rhisto1/download/Rhisto1_GeneCatalog_proteins_20190501.aa.fasta.gz
-Saccharomyces cerevisiae YJM981	1294327	FALSE	Rhizoscyphus ericae UAMH 7357	1745343	Rhier1	v1.0	PMID:29315638	https://genome.jgi.doe.gov/portal/Rhier1/download/Rhier1_GeneCatalog_proteins_20141012.aa.fasta.gz
-Saccharomyces cerevisiae YJM984	1294328	FALSE	Rhodocollybia butyracea CCBAS 279	206335	Rhobu1	v1.0		https://genome.jgi.doe.gov/portal/Rhobu1/download/Rhobu1_GeneCatalog_proteins_20180801.aa.fasta.gz
-Saccharomyces cerevisiae YJM987	1294329	FALSE	Rhodofomes roseus CIRM-BRFM 1785	34475	Fomros1	v1.0		https://genome.jgi.doe.gov/portal/Fomros1/download/Fomros1_GeneCatalog_proteins_20171027.aa.fasta.gz
-Saccharomyces cerevisiae YJM990	1294330	FALSE	Rhodosporidium diobovatum 08-225	5288	Rhodia1_1	v1.0		https://genome.jgi.doe.gov/portal/Rhodia1_1/download/Rhodia1_1_GeneCatalog_proteins_20180403.aa.fasta.gz
-Saccharomyces cerevisiae YJM993	1294331	FALSE	Rhodosporidium toruloides IFO0880	5286	Rhoto_IFO0880_4	v4.0	PMID:29521624	https://genome.jgi.doe.gov/portal/Rhoto_IFO0880_4/download/Rhoto_IFO0880_4_GeneCatalog_proteins_20170509.aa.fasta.gz
-Saccharomyces cerevisiae YJM996	1294332	FALSE	Rhodosporidium toruloides NP11	1130832	Rhoto1		PMID:23047670	https://genome.jgi.doe.gov/portal/Rhoto1/download/Rhoto1_GeneCatalog_proteins_20141208.aa.fasta.gz
-Saccharomyces eubayanus str. FM1318	1080349	FALSE	Rhodotorula glutinis	5535	Rhoglu1	v1.0		https://genome.jgi.doe.gov/portal/Rhoglu1/download/Rhoglu1_GeneCatalog_proteins_20160519.aa.fasta.gz
-Saccharomyces kudriavzevii IFO 1802	226230	FALSE	Rhodotorula graminis strain WP1	578459	Rhoba1_1	v1.1	PMID:26441909	https://genome.jgi.doe.gov/portal/Rhoba1_1/download/Rhoba1_1_GeneCatalog_proteins_20100913.aa.fasta.gz
-Saccharomyces sp. 'boulardii' str. biocodex	252598	FALSE	Rhodotorula mucilaginosa ATCC58901	5537	Rhomuc1	v1.0		https://genome.jgi.doe.gov/portal/Rhomuc1/download/Rhomuc1_GeneCatalog_proteins_20160519.aa.fasta.gz
-Saccharomycetaceae sp. 'Ashbya aceri'	566037	FALSE	Rhodotorula sp. J31	1853554	RhodotJ31_1	v1.0		https://genome.jgi.doe.gov/portal/RhodotJ31_1/download/RhodotJ31_1_GeneCatalog_proteins_20160519.aa.fasta.gz
-Saitoella complicata NRRL Y-17804	698492	FALSE	Rhodotorula sp. JG-1b	1305733	Rhosp1		PMID:26988035	https://genome.jgi.doe.gov/portal/Rhosp1/download/Rhosp1_GeneCatalog_proteins_20140409.aa.fasta.gz
-Scedosporium apiospermum str. IHEM 14462	563466	FALSE	Rhytidhysteron rufulum	37885	Rhyru1_1		PMID:23236275	https://genome.jgi.doe.gov/portal/Rhyru1_1/download/Rhyru1_1_GeneCatalog_proteins_20150204.aa.fasta.gz
-Scheffersomyces stipitis CBS 6054	322104	FALSE	Rickenella fibula HBK330-10	264144	Ricfib1	v1.0		https://genome.jgi.doe.gov/portal/Ricfib1/download/Ricfib1_GeneCatalog_proteins_20160317.aa.fasta.gz
-Schizophyllum commune H4-8	578458	FALSE	Rickenella mellea	50990	Ricmel1	v1.0 (SZMC22713)	PMID:30902897	https://genome.jgi.doe.gov/portal/Ricmel1/download/Ricmel1_GeneCatalog_proteins_20151108.aa.fasta.gz
-Schizopora paradoxa str. KUC8140	27342	FALSE	Rigidoporus microporus ED310	219653	Rigmic1	v1.0		https://genome.jgi.doe.gov/portal/Rigmic1/download/Rigmic1_GeneCatalog_proteins_20170307.aa.fasta.gz
-Schizosaccharomyces cryophilus	653667	FALSE	Roridomyces roridus 9284	1738132	Rorror1	v1.0		https://genome.jgi.doe.gov/portal/Rorror1/download/Rorror1_GeneCatalog_proteins_20190202.aa.fasta.gz
-Schizosaccharomyces japonicus	402676	FALSE	Rozella allomycis CSF55	988480	Rozal1_1		PMID:23932404	https://genome.jgi.doe.gov/portal/Rozal1_1/download/Rozal1_1_GeneCatalog_proteins_20140111.aa.fasta.gz
-Schizosaccharomyces octosporus	483514	FALSE	Russula brevipes BPL707	98861	Rusbre1	v1.0		https://genome.jgi.doe.gov/portal/Rusbre1/download/Rusbre1_GeneCatalog_proteins_20161010.aa.fasta.gz
-Schizosaccharomyces pombe	284812	FALSE	Russula compacta BPL669	40490	Ruscom1	v1.0		https://genome.jgi.doe.gov/portal/Ruscom1/download/Ruscom1_GeneCatalog_proteins_20170112.aa.fasta.gz
-Scleroderma citrinum Foug A	1036808	FALSE	Russula dissimulans BPL704	258981	Rusdis1	v1.0		https://genome.jgi.doe.gov/portal/Rusdis1/download/Rusdis1_GeneCatalog_proteins_20160910.aa.fasta.gz
-Sclerotinia borealis F-4128	1432307	FALSE	Russula earlei BPL698	71964	Rusear1	v1.0		https://genome.jgi.doe.gov/portal/Rusear1/download/Rusear1_GeneCatalog_proteins_20190529.aa.fasta.gz
-Sclerotinia sclerotiorum 1980 UF-70	665079	FALSE	Russula emetica Přilba	152958	Ruseme1	v1.0		https://genome.jgi.doe.gov/portal/Ruseme1/download/Ruseme1_GeneCatalog_proteins_20190225.aa.fasta.gz
-Serendipita indica DSM 11827	1109443	FALSE	Russula ochroleuca Přilba	152965	Rusoch1	v1.0		https://genome.jgi.doe.gov/portal/Rusoch1/download/Rusoch1_GeneCatalog_proteins_20180325.aa.fasta.gz
-Serendipita vermifera MAFF 305830	933852	FALSE	Russula rugulosa BPL654	1935383	Rusrug1	v1.0		https://genome.jgi.doe.gov/portal/Rusrug1/download/Rusrug1_GeneCatalog_proteins_20161111.aa.fasta.gz
-Serpula lacrymans var. lacrymans S7.3	936435	FALSE	Russula seminuda PSC4341-TAS1	2516854	Russem1	v1.0		https://genome.jgi.doe.gov/portal/Russem1/download/Russem1_GeneCatalog_proteins_20181109.aa.fasta.gz
-Serpula lacrymans var. lacrymans S7.9	578457	FALSE	Russula vinacea BPL710	517384	Rusvin1	v1.0		https://genome.jgi.doe.gov/portal/Rusvin1/download/Rusvin1_GeneCatalog_proteins_20170417.aa.fasta.gz
-Sistotremastrum niveocremeum HHB9708	1314777	FALSE	Rutstroemia firma CBS 115.86	1490168	Rutfi1	v1.0		https://genome.jgi.doe.gov/portal/Rutfi1/download/Rutfi1_GeneCatalog_proteins_20150501.aa.fasta.gz
-Sistotremastrum suecicum HHB10207 ss-3	1314776	FALSE	Saccharata proteae CBS 121410	131308	Sacpr1	v1.0		https://genome.jgi.doe.gov/portal/Sacpr1/download/Sacpr1_GeneCatalog_proteins_20140222.aa.fasta.gz
-Sordaria macrospora k-hell	771870	FALSE	Saccharomyces cerevisiae M3707 Dikaryon	1149757	SacceM3707_1		PMID:23792743	https://genome.jgi.doe.gov/portal/SacceM3707_1/download/SacceM3707_1_GeneCatalog_proteins_20120712.aa.fasta.gz
-Spathaspora passalidarum NRRL Y-27907	619300	FALSE	Saccharomyces cerevisiae M3836	1162671	SacceM3836_1	v1.0	PMID:23792743	https://genome.jgi.doe.gov/portal/SacceM3836_1/download/SacceM3836_1_GeneCatalog_proteins_20120712.aa.fasta.gz
-Sphaerobolus stellatus SS14	990650	FALSE	Saccharomyces cerevisiae M3837	1162672	SacceM3837_1	v1.0	PMID:23792743	https://genome.jgi.doe.gov/portal/SacceM3837_1/download/SacceM3837_1_GeneCatalog_proteins_20120713.aa.fasta.gz
-Sphaerulina musiva SO2202	692275	FALSE	Saccharomyces cerevisiae M3838	1162673	SacceM3838_1	v1.0	PMID:23792743	https://genome.jgi.doe.gov/portal/SacceM3838_1/download/SacceM3838_1_GeneCatalog_proteins_20120714.aa.fasta.gz
-Spizellomyces punctatus DAOM BR117	645134	FALSE	Saccharomyces cerevisiae M3839	1162674	SacceM3839_1	v1.0	PMID:23792743	https://genome.jgi.doe.gov/portal/SacceM3839_1/download/SacceM3839_1_GeneCatalog_proteins_20120714.aa.fasta.gz
-Sporisorium reilianum	999809	FALSE	Saccharomyces cerevisiae S288C	559292	Sacce1		PMID:8849441	https://genome.jgi.doe.gov/portal/Sacce1/download/Sacce1_GeneCatalog_proteins_20101210.aa.fasta.gz
-Sporisorium reilianum f. sp. reilianum	72559	FALSE	Saccharomyces cerevisiae YB210	927258	SacceYB210_1	v1.0		https://genome.jgi.doe.gov/portal/SacceYB210_1/download/SacceYB210_1_GeneCatalog_proteins_20130329.aa.fasta.gz
-Sporothrix brasiliensis 5110	1398154	FALSE	Saccharomycopsis capsularis NRRL Y-17639	36036	Sacca1		PMID:29760453	https://genome.jgi.doe.gov/portal/Sacca1/download/Sacca1_GeneCatalog_proteins_20181012.aa.fasta.gz
-Sporothrix insectorum RCEF 264	1081102	FALSE	Saitoella complicata NRRL Y-17804	698492	Saico1	v1.0	PMID:27535936	https://genome.jgi.doe.gov/portal/Saico1/download/Saico1_GeneCatalog_proteins_20110913.aa.fasta.gz
-Sporothrix schenckii 1099-18	1397361	FALSE	Saksenaea vasiformis B4078	1274794	Sakvas1		PMID:27447865	https://genome.jgi.doe.gov/portal/Sakvas1/download/Sakvas1_GeneCatalog_proteins_20160730.aa.fasta.gz
-Sporothrix schenckii ATCC 58251	1391915	FALSE	Sarcoscypha coccinea ATCC 58028	51139	Sarco1	v1.0		https://genome.jgi.doe.gov/portal/Sarco1/download/Sarco1_GeneCatalog_proteins_20150213.aa.fasta.gz
-Spraguea lophii 42_110	1358809	FALSE	Saturnispora dispora NRRL Y-1447	29835	Satdi1		PMID:29760453	https://genome.jgi.doe.gov/portal/Satdi1/download/Satdi1_GeneCatalog_proteins_20181207.aa.fasta.gz
-Stachybotrys chartarum IBT 40288	1283842	FALSE	Scheffersomyces coipomoensis NRRL Y-17651T	1788519	Schcoi1	v1.0		https://genome.jgi.doe.gov/portal/Schcoi1/download/Schcoi1_GeneCatalog_proteins_20180319.aa.fasta.gz
-Stachybotrys chartarum IBT 40293	1280524	FALSE	Scheffersomyces queiroziae UFMG-CLM-5.1	880181	Schque1	v1.0		https://genome.jgi.doe.gov/portal/Schque1/download/Schque1_GeneCatalog_proteins_20180319.aa.fasta.gz
-Stachybotrys chartarum IBT 7711	1280523	FALSE	Scheffersomyces stipitis NRRL Y-11545	4924	Picst3	v2.0	PMID:17334359	https://genome.jgi.doe.gov/portal/Picst3/download/Pstipitisv2.FrozenGeneCatalog20080115.proteins.fasta.gz
-Stachybotrys chlorohalonata IBT 40285	1283841	FALSE	Scheffersomyces stipitis NRRL Y-7124	913138	Schsti1	v1.0		https://genome.jgi.doe.gov/portal/Schsti1/download/Schsti1_GeneCatalog_proteins_20180420.aa.fasta.gz
-Stagonospora sp. SRC1lsM3a	765868	FALSE	Schizophyllum commune 207.1	5334	Schco2071_1	v1.0		https://genome.jgi.doe.gov/portal/Schco2071_1/download/Schco2071_1_GeneCatalog_proteins_20181109.aa.fasta.gz
-Stemphylium lycopersici str. CIDEFI 216	183478	FALSE	Schizophyllum commune H4-8	578458	Schco3	v3.0	PMID:20622885	https://genome.jgi.doe.gov/portal/Schco3/download/Schco3_GeneCatalog_proteins_20130812.aa.fasta.gz
-Stereum hirsutum FP-91666 SS1	721885	FALSE	Schizophyllum commune Loenen D	1314666	Schco_LoeD_1	v1.0		https://genome.jgi.doe.gov/portal/Schco_LoeD_1/download/Schco_LoeD_1_GeneCatalog_proteins_20130531.aa.fasta.gz
-Sugiyamaella lignohabitans str. CBS 10342	796027	FALSE	Schizophyllum commune Tattone D	1314663	Schco_TatD_1	v1.0		https://genome.jgi.doe.gov/portal/Schco_TatD_1/download/Schco_TatD_1_GeneCatalog_proteins_20130515.aa.fasta.gz
-Suhomyces tanzawaensis NRRL Y-17324	984487	FALSE	Schizopora paradoxa KUC8140	27342	Schpa1	v1.0	PMID:26188242	https://genome.jgi.doe.gov/portal/Schpa1/download/Schpa1_GeneCatalog_proteins_20131225.aa.fasta.gz
-Suillus luteus UH-Slu-Lm8-n1	930992	FALSE	Schizosaccharomyces cryophilus OY26	653667	Schcy1		PMID:21511999	https://genome.jgi.doe.gov/portal/Schcy1/download/Schcy1_GeneCatalog_proteins_20131210.aa.fasta.gz
-Syncephalastrum racemosum str. NRRL 2496	13706	FALSE	Schizosaccharomyces japonicus yFS275	402676	Schja1		PMID:21511999	https://genome.jgi.doe.gov/portal/Schja1/download/Schja1_GeneCatalog_proteins_20131031.aa.fasta.gz
-Talaromyces atroroseus str. IBT 11181	1441469	FALSE	Schizosaccharomyces octosporus yFS286	483514	Schoc1		PMID:21511999	https://genome.jgi.doe.gov/portal/Schoc1/download/Schoc1_GeneCatalog_proteins_20131210.aa.fasta.gz
-Talaromyces cellulolyticus str. Y-94	1472165	FALSE	Schizosaccharomyces pombe	4896	Schpo1		PMID:11859360	https://genome.jgi.doe.gov/portal/Schpo1/download/Schpo1_GeneCatalog_proteins_20130111.aa.fasta.gz
-Talaromyces islandicus	28573	FALSE	Schizothecium vesticola SMH3187-1	314040	Schves1	v1.0		https://genome.jgi.doe.gov/portal/Schves1/download/Schves1_GeneCatalog_proteins_20170615.aa.fasta.gz
-Talaromyces marneffei ATCC 18224	441960	FALSE	Scleroderma citrinum Foug A	1036808	Sclci1	v1.0	PMID:25706625	https://genome.jgi.doe.gov/portal/Sclci1/download/Sclci1_GeneCatalog_proteins_20120626.aa.fasta.gz
-Talaromyces marneffei PM1	1077442	FALSE	Sclerogaster hysterangioides SCL2.BST	1529657	Sclhys1_1	v1.0		https://genome.jgi.doe.gov/portal/Sclhys1_1/download/Sclhys1_1_GeneCatalog_proteins_20160415.aa.fasta.gz
-Talaromyces stipitatus ATCC 10500	441959	FALSE	Sclerophora sanguinea CBS100924	1410009	Sclsan1	v1.0		https://genome.jgi.doe.gov/portal/Sclsan1/download/Sclsan1_GeneCatalog_proteins_20170329.aa.fasta.gz
-Termitomyces sp. J132	1306850	FALSE	Sclerotinia sclerotiorum	5180	Sclsc1	v1.0	PMID:21876677	https://genome.jgi.doe.gov/portal/Sclsc1/download/Sclsc1_GeneCatalog_proteins_20110903.aa.fasta.gz
-Testicularia cyperi str. MCA 3645	1882483	FALSE	Scytinostroma sp. KUC9335	2024391	Scysp1_1	v1.0		https://genome.jgi.doe.gov/portal/Scysp1_1/download/Scysp1_1_GeneCatalog_proteins_20160715.aa.fasta.gz
-Tetrapisispora blattae CBS 6284	1071380	FALSE	Sebacina vermifera MAFF 305830	933852	Sebve1	v1.0	PMID:25706625	https://genome.jgi.doe.gov/portal/Sebve1/download/Sebve1_GeneCatalog_proteins_20120626.aa.fasta.gz
-Tetrapisispora phaffii CBS 4417	1071381	FALSE	Septobasidium sp. PNB30-8B	1884257	Sepsp1	v1.0		https://genome.jgi.doe.gov/portal/Sepsp1/download/Sepsp1_GeneCatalog_proteins_20150424.aa.fasta.gz
-Thermothelomyces thermophila ATCC 42464	573729	FALSE	Septoria musiva SO2202	692275	Sepmu1	v1.0	PMID:23236275	https://genome.jgi.doe.gov/portal/Sepmu1/download/Sepmu1_GeneCatalog_proteins_20100915.aa.fasta.gz
-Thielavia terrestris NRRL 8126	578455	FALSE	Septoria populicola	215467	Seppo1	v1.0	PMID:23236275	https://genome.jgi.doe.gov/portal/Seppo1/download/Seppo1_GeneCatalog_proteins_20110720.aa.fasta.gz
-Thielaviopsis punctulata	72032	FALSE	Serendipita sp. 407	1965286	Serend1	v1.0		https://genome.jgi.doe.gov/portal/Serend1/download/Serend1_GeneCatalog_proteins_20171109.aa.fasta.gz
-Tilletia caries str. DAOM 238032	13290	FALSE	Serendipita vermifera ssp. bescii NFPB0129	109899	Sebvebe1	v1.0		https://genome.jgi.doe.gov/portal/Sebvebe1/download/Sebvebe1_GeneCatalog_proteins_20150401.aa.fasta.gz
-Tilletia controversa str. DAOM 236426	13291	FALSE	Serpula himantioides (S.lacrymans var shastensis) MUCL38935	690234	Serla_varsha1	v1.0	PMID:29305577	https://genome.jgi.doe.gov/portal/Serla_varsha1/download/Serla_varsha1_GeneCatalog_proteins_20110916.aa.fasta.gz
-Tilletia indica str. DAOM 236416	43049	FALSE	Serpula lacrymans S7.3	936435	SerlaS7_3_2	v2.0	PMID:21764756	https://genome.jgi.doe.gov/portal/SerlaS7_3_2/download/Serpula_lacrymans_S7_3_v2.proteins.fasta.gz
-Tilletia walkeri str. DAOM 236422	117179	FALSE	Serpula lacrymans S7.9	578457	SerlaS7_9_2	v2.0	PMID:21764756	https://genome.jgi.doe.gov/portal/SerlaS7_9_2/download/SerlaS7_9_2_GeneCatalog_proteins_20120319.aa.fasta.gz
-Tilletiaria anomala UBC 951	1037660	FALSE	Setomelanomma holmii CBS 110217	210430	Setho1	v1.0		https://genome.jgi.doe.gov/portal/Setho1/download/Setho1_GeneCatalog_proteins_20150424.aa.fasta.gz
-Tilletiopsis washingtonensis str. MCA 4186	58919	FALSE	Setosphaeria turcica Et28A	671987	Settu3	v2.0	PMID:23236275	https://genome.jgi.doe.gov/portal/Settu3/download/Settu3_GeneCatalog_proteins_20170818.aa.fasta.gz
-Tolypocladium capitatum str. CBS 113982	45235	FALSE	Setosphaeria turcica NY001	93612	Settur3	v2.0		https://genome.jgi.doe.gov/portal/Settur3/download/Settur3_GeneCatalog_proteins_20170816.aa.fasta.gz
-Tolypocladium ophioglossoides CBS 100239	1163406	FALSE	Sirobasidium intermedium CBS7805	89935	Sirint1	v1.0		https://genome.jgi.doe.gov/portal/Sirint1/download/Sirint1_GeneCatalog_proteins_20160411.aa.fasta.gz
-Tolypocladium paradoxum str. NRBC 100945	94208	FALSE	Sistotrema raduloides OMC1660	283657	Sisrad1	v1.0		https://genome.jgi.doe.gov/portal/Sisrad1/download/Sisrad1_GeneCatalog_proteins_20180920.aa.fasta.gz
-Torrubiella hemipterigena str. BCC 1449	1531966	FALSE	Sistotremastrum niveocremeum HHB9708 ss-1 1.0	139134	Sisni1		PMID:26659563	https://genome.jgi.doe.gov/portal/Sisni1/download/Sisni1_GeneCatalog_proteins_20130806.aa.fasta.gz
-Tortispora caseinolytica NRRL Y-17796	767744	FALSE	Sistotremastrum suecicum	467971	Sissu1	v1.0	PMID:26659563	https://genome.jgi.doe.gov/portal/Sissu1/download/Sissu1_GeneCatalog_proteins_20130130.aa.fasta.gz
-Torulaspora delbrueckii str. CBS 1146	4950	FALSE	Slooffia pilatii Y-17178	1801567	Slopil1	v1.0		https://genome.jgi.doe.gov/portal/Slopil1/download/Slopil1_GeneCatalog_proteins_20180422.aa.fasta.gz
-Trachipleistophora hominis	72359	FALSE	Smittium culicis ID-206-W2	133412	SmiculW2_1		PMID:27343289	https://genome.jgi.doe.gov/portal/SmiculW2_1/download/SmiculW2_1_GeneCatalog_proteins_20170804.aa.fasta.gz
-Trametes cinnabarina str. BRFM137	5643	FALSE	Smittium mucronatum ALG-7-W6	133383	Smimuc2		PMID:27343289	https://genome.jgi.doe.gov/portal/Smimuc2/download/Smimuc2_GeneCatalog_proteins_20170808.aa.fasta.gz
-Trametes coccinea BRFM310	1353009	FALSE	Sodiomyces alkalinus	1302862	Sodal1	v1.0	PMID:30368956	https://genome.jgi.doe.gov/portal/Sodal1/download/Sodal1_GeneCatalog_proteins_20130716.aa.fasta.gz
-Trametes pubescens str. FBCC735	154538	FALSE	Sordaria brevicollis FGSC1904	83679	Sorbr1	v1.0		https://genome.jgi.doe.gov/portal/Sorbr1/download/Sorbr1_GeneCatalog_proteins_20171129.aa.fasta.gz
-Trametes versicolor FP-101664 SS1	717944	FALSE	Sparassis latifolia CCMJ1100	1202976	Spalat1	v1.0		https://genome.jgi.doe.gov/portal/Spalat1/download/Spalat1_GeneCatalog_proteins_20161107.aa.fasta.gz
-Tremella mesenterica DSM 1558	578456	FALSE	Spathaspora arborariae UFMG-HMD-19.1	979894	Spaarb1	v1.0		https://genome.jgi.doe.gov/portal/Spaarb1/download/Spaarb1_GeneCatalog_proteins_20180319.aa.fasta.gz
-Trichoderma asperellum CBS 433.97	1042311	FALSE	Spathaspora passalidarum NRRL Y-27907	619300	Spapa3	v2.0	PMID:21788494	https://genome.jgi.doe.gov/portal/Spapa3/download/Spapa3_filtered_proteins.fasta.gz
-Trichoderma atroviride IMI 206040	452589	FALSE	Spathularia flavida	33158	Spafl1			https://genome.jgi.doe.gov/portal/Spafl1/download/Spafl1_GeneCatalog_proteins_20130808.aa.fasta.gz
-Trichoderma citrinoviride str. TUCIM 6016	58853	FALSE	Sphaerobolus stellatus	68786	Sphst1	v1.0	PMID:25706625	https://genome.jgi.doe.gov/portal/Sphst1/download/Sphst1_GeneCatalog_proteins_20120430.aa.fasta.gz
-Trichoderma gamsii str. T6085	398673	FALSE	Spinellus fusiger NRRL 22323	101115	Spifus1	v1.0		https://genome.jgi.doe.gov/portal/Spifus1/download/Spifus1_GeneCatalog_proteins_20161021.aa.fasta.gz
-Trichoderma guizhouense str. NJAU 4742	1491466	FALSE	Spizellomyces punctatus DAOM BR117	645134	Spipu1		PMID:27540072	https://genome.jgi.doe.gov/portal/Spipu1/download/Spipu1_GeneCatalog_proteins_20131203.aa.fasta.gz
-Trichoderma harzianum CBS 226.95	983964	FALSE	Sporidiobolus pararoseus Phaff 68-350	5003	Spopa1	v1.0		https://genome.jgi.doe.gov/portal/Spopa1/download/Spopa1_GeneCatalog_proteins_20160208.aa.fasta.gz
-Trichoderma longibrachiatum ATCC 18648	983965	FALSE	Sporisorium reilianum SRZ2	999809	Spore1		PMID:21148393	https://genome.jgi.doe.gov/portal/Spore1/download/Spore1_GeneCatalog_proteins_20131031.aa.fasta.gz
-Trichoderma parareesei	858221	FALSE	Sporobolomyces gracilis NRRL Y-5504	5435	Spogra1_1	v1.0		https://genome.jgi.doe.gov/portal/Spogra1_1/download/Spogra1_1_GeneCatalog_proteins_20180925.aa.fasta.gz
-Trichoderma reesei	431241	FALSE	Sporobolomyces linderae CBS 7893	1397324	Spoli1	v1.0		https://genome.jgi.doe.gov/portal/Spoli1/download/Spoli1_GeneCatalog_proteins_20140310.aa.fasta.gz
-Trichoderma reesei RUT C-30	1344414	FALSE	Sporobolomyces roseus	40563	Sporo1	v1.0		https://genome.jgi.doe.gov/portal/Sporo1/download/Sroseus.FilteredModels1.aa.fasta.gz
-Trichoderma virens	413071	FALSE	Sporodiniella umbellata MES 1446	101117	Spoumb1	v1.0		https://genome.jgi.doe.gov/portal/Spoumb1/download/Spoumb1_GeneCatalog_proteins_20170626.aa.fasta.gz
-Trichophyton benhamiae CBS 112371	663331	FALSE	Sporopachydermia lactativora Phaff 68-199	45794	Spola1	v1.0		https://genome.jgi.doe.gov/portal/Spola1/download/Spola1_GeneCatalog_proteins_20160222.aa.fasta.gz
-Trichophyton equinum CBS 127.97	559882	FALSE	Sporormia fimetaria	718229	Spofi1	v1.0		https://genome.jgi.doe.gov/portal/Spofi1/download/Spofi1_GeneCatalog_proteins_20130818.aa.fasta.gz
-Trichophyton interdigitale H6	1215336	FALSE	Stachybotrys elegans MPI-CAGE-CH-0235	80388	Stael1	v1.0		https://genome.jgi.doe.gov/portal/Stael1/download/Stael1_GeneCatalog_proteins_20170424.aa.fasta.gz
-Trichophyton interdigitale MR816	1215338	FALSE	Stagonospora nodorum SN15	321614	Stano2	v2.0	PMID:18024570	https://genome.jgi.doe.gov/portal/Stano2/download/Stano2_GeneCatalog_proteins_20110506.aa.fasta.gz
-Trichophyton mentagrophytes str. TIMM 2789	523103	FALSE	Stagonospora sp. SRC1lsM3a	765868	Stasp1	v1.0	PMID:27434633	https://genome.jgi.doe.gov/portal/Stasp1/download/Stasp1_GeneCatalog_proteins_20141004.aa.fasta.gz
-Trichophyton rubrum CBS 100081	1215328	FALSE	Stanjemonium grisellum CBS 655.79	73508	Stagr1	v1.0		https://genome.jgi.doe.gov/portal/Stagr1/download/Stagr1_GeneCatalog_proteins_20141015.aa.fasta.gz
-Trichophyton rubrum CBS 118892	559305	FALSE	Stemphylium lycopersici CIDEFI-216	183478	Stely1		PMID:26404600	https://genome.jgi.doe.gov/portal/Stely1/download/Stely1_GeneCatalog_proteins_20170711.aa.fasta.gz
-Trichophyton rubrum CBS 202.88	1215334	FALSE	Stereum hirsutum FP-91666 SS1	721885	Stehi1	v1.0	PMID:22745431	https://genome.jgi.doe.gov/portal/Stehi1/download/Stehi1_GeneCatalog_proteins_20101026.aa.fasta.gz
-Trichophyton rubrum CBS 288.86	1215330	FALSE	Stomiopeltis betulae CBS114420	706121	Stobe1	v1.0		https://genome.jgi.doe.gov/portal/Stobe1/download/Stobe1_GeneCatalog_proteins_20180620.aa.fasta.gz
-Trichophyton rubrum CBS 289.86	1215329	FALSE	Sugiyamaella americana NRRL YB-2067	796026	Sugame1	v1.0		https://genome.jgi.doe.gov/portal/Sugame1/download/Sugame1_GeneCatalog_proteins_20160411.aa.fasta.gz
-Trichophyton rubrum CBS 735.88	1215332	FALSE	Suillus americanus EM31	48561	Suiame1	v1.0		https://genome.jgi.doe.gov/portal/Suiame1/download/Suiame1_GeneCatalog_proteins_20151214.aa.fasta.gz
-Trichophyton rubrum D6	1215335	FALSE	Suillus ampliporus FC55	1912932	Suiamp1	v1.0		https://genome.jgi.doe.gov/portal/Suiamp1/download/Suiamp1_GeneCatalog_proteins_20180421.aa.fasta.gz
-Trichophyton rubrum MR1448	1215339	FALSE	Suillus bovinus UH-Sbo-P2	48563	Suibov1	v1.0		https://genome.jgi.doe.gov/portal/Suibov1/download/Suibov1_GeneCatalog_proteins_20180813.aa.fasta.gz
-Trichophyton rubrum MR1459	1215341	FALSE	Suillus brevipes Sb2	48565	Suibr2	v2.0	PMID:25728665	https://genome.jgi.doe.gov/portal/Suibr2/download/Suibr2_GeneCatalog_proteins_20150912.aa.fasta.gz
-Trichophyton rubrum MR850	1215337	FALSE	Suillus clintonianus FC179	1904413	Suicli1	v1.0		https://genome.jgi.doe.gov/portal/Suicli1/download/Suicli1_GeneCatalog_proteins_20180420.aa.fasta.gz
-Trichophyton rubrum str. CMCC(F)T1i	5551	FALSE	Suillus cothurnatus VC 1858	48568	Suicot1	v1.0		https://genome.jgi.doe.gov/portal/Suicot1/download/Suicot1_GeneCatalog_proteins_20171209.aa.fasta.gz
-Trichophyton soudanense CBS 452.61	1215331	FALSE	Suillus decipiens EM49	48569	Suidec1	v1.0		https://genome.jgi.doe.gov/portal/Suidec1/download/Suidec1_GeneCatalog_proteins_20150904.aa.fasta.gz
-Trichophyton tonsurans CBS 112818	647933	FALSE	Suillus fuscotomentosus FC203	1912939	Suifus1	v1.0		https://genome.jgi.doe.gov/portal/Suifus1/download/Suifus1_GeneCatalog_proteins_20190304.aa.fasta.gz
-Trichophyton verrucosum HKI 0517	663202	FALSE	Suillus granulatus EM37	48571	Suigr1	v1.0		https://genome.jgi.doe.gov/portal/Suigr1/download/Suigr1_GeneCatalog_proteins_20150504.aa.fasta.gz
-Trichophyton violaceum str. CMCC(F)T3l	34388	FALSE	Suillus hirtellus EM16	279518	Suihi1	v1.0		https://genome.jgi.doe.gov/portal/Suihi1/download/Suihi1_GeneCatalog_proteins_20150416.aa.fasta.gz
-Trichosporon asahii var. asahii CBS 2479	1186058	FALSE	Suillus lakei FC43	48574	Suilak1	v1.0		https://genome.jgi.doe.gov/portal/Suilak1/download/Suilak1_GeneCatalog_proteins_20180814.aa.fasta.gz
-Trichosporon asahii var. asahii CBS 8904	1220162	FALSE	Suillus luteus UH-Slu-Lm8-n1	5384	Suilu4	v3.0	PMID:25706625	https://genome.jgi.doe.gov/portal/Suilu4/download/Suilu4_GeneCatalog_proteins_20170628.aa.fasta.gz
-Tsuchiyaea wingfieldii CBS 7118	1295528	FALSE	Suillus occidentalis FC124	756607	Suiocc1	v1.0		https://genome.jgi.doe.gov/portal/Suiocc1/download/Suiocc1_GeneCatalog_proteins_20180813.aa.fasta.gz
-Tuber borchii str. Tbo3840	42251	FALSE	Suillus paluster FC165	48578	Suipal1	v1.0		https://genome.jgi.doe.gov/portal/Suipal1/download/Suipal1_GeneCatalog_proteins_20180813.aa.fasta.gz
-Tuber magnatum	42249	FALSE	Suillus pictus EM44	222705	Suipic1	v1.0		https://genome.jgi.doe.gov/portal/Suipic1/download/Suipic1_GeneCatalog_proteins_20160216.aa.fasta.gz
-Tuber melanosporum	656061	FALSE	Suillus placidus DOB743	48579	Suipla1	v1.0		https://genome.jgi.doe.gov/portal/Suipla1/download/Suipla1_GeneCatalog_proteins_20181128.aa.fasta.gz
-Tulasnella calospora MUT 4182	1051891	FALSE	Suillus subalutaceus FC151	48586	Suisu1	v1.0		https://genome.jgi.doe.gov/portal/Suisu1/download/Suisu1_GeneCatalog_proteins_20180325.aa.fasta.gz
-Umbilicaria pustulata	136370	FALSE	Suillus subaureus MN1	48587	Suisub1	v1.0		https://genome.jgi.doe.gov/portal/Suisub1/download/Suisub1_GeneCatalog_proteins_20170827.aa.fasta.gz
-Uncinocarpus reesii 1704 str. UAMH 1704	336963	FALSE	Suillus tomentosus FC115	48589	Suitom1	v1.0		https://genome.jgi.doe.gov/portal/Suitom1/download/Suitom1_GeneCatalog_proteins_20170729.aa.fasta.gz
-Ustilaginoidea virens	1159556	FALSE	Suillus variegatus UH-Sva-Z1	48592	Suivar1	v1.0		https://genome.jgi.doe.gov/portal/Suivar1/download/Suivar1_GeneCatalog_proteins_20180923.aa.fasta.gz
-Ustilaginomycotina sp. SA 807	1520773	FALSE	Symbiotaphrina kochii	40221	Symko1	v1.0		https://genome.jgi.doe.gov/portal/Symko1/download/Symko1_GeneCatalog_proteins_20121126.aa.fasta.gz
-Ustilago bromivora str. UB2112	307758	FALSE	Sympodiomyces attinorum NRRL Y-27639	254439	Symat1	v1.0		https://genome.jgi.doe.gov/portal/Symat1/download/Symat1_GeneCatalog_proteins_20150304.aa.fasta.gz
-Ustilago hordei str. Uh4857-4	120017	FALSE	Syncephalastrum racemosum NRRL 2496	13706	Synrac1	v1.0	PMID:28481340	https://genome.jgi.doe.gov/portal/Synrac1/download/Synrac1_GeneCatalog_proteins_20160125.aa.fasta.gz
-Ustilago maydis	237631	FALSE	Syncephalis fuscata S228	1851187	Synfus1	v1.0		https://genome.jgi.doe.gov/portal/Synfus1/download/Synfus1_GeneCatalog_proteins_20170105.aa.fasta.gz
-Valsa mali str. 03-8	105487	FALSE	Syncephalis plumigaleata NRRL S24	1851185	Synplu1	v1.0		https://genome.jgi.doe.gov/portal/Synplu1/download/Synplu1_GeneCatalog_proteins_20160902.aa.fasta.gz
-Valsa mali var. pyri str. SXYL134	694573	FALSE	Syncephalis pseudoplumigaleata Benny S71-1 single-cell	1712513	Synps1	v1.0	PMID:30297742	https://genome.jgi.doe.gov/portal/Synps1/download/Synps1_GeneCatalog_proteins_20160128.aa.fasta.gz
-Vanderwaltozyma polyspora DSM 70294	436907	FALSE	Talaromyces aculeatus ATCC 10409	36649	Penac1	v1.0		https://genome.jgi.doe.gov/portal/Penac1/download/Penac1_GeneCatalog_proteins_20140123.aa.fasta.gz
-Vavraia culicis subsp. floridensis	948595	FALSE	Talaromyces borbonicus CBS 141340 	2077152	Talabor1		PMID:29843575	https://genome.jgi.doe.gov/portal/Talabor1/download/Talabor1_GeneCatalog_proteins_20170517.aa.fasta.gz
-Verruconis gallopava str. CBS 43764	253628	FALSE	Talaromyces marneffei ATCC 18224	441960	Talma1_2		PMID:25676766	https://genome.jgi.doe.gov/portal/Talma1_2/download/Talma1_2_GeneCatalog_proteins_20140114.aa.fasta.gz
-Verticillium alfalfae VaMs.102	526221	FALSE	Talaromyces proteolyticus PMI_201	1131652	Talpro1	v1.0		https://genome.jgi.doe.gov/portal/Talpro1/download/Talpro1_GeneCatalog_proteins_20161118.aa.fasta.gz
-Verticillium dahliae	498257	FALSE	Talaromyces stipitatus ATCC 10500	441959	Talst1_2			https://genome.jgi.doe.gov/portal/Talst1_2/download/Talst1_2_GeneCatalog_proteins_20140114.aa.fasta.gz
-Verticillium dahliae JR2	1202531	FALSE	Taphrina deformans	5011	Tapde1_1		PMID:23631913	https://genome.jgi.doe.gov/portal/Tapde1_1/download/Tapde1_1_GeneCatalog_proteins_20130601.aa.fasta.gz
-Verticillium longisporum	100787	FALSE	Taphrina populi-salicis CBS419.54	203085	Tappo1	v1.0		https://genome.jgi.doe.gov/portal/Tappo1/download/Tappo1_GeneCatalog_proteins_20181029.aa.fasta.gz
-Vittaforma corneae ATCC 50505	993615	FALSE	Teichospora sp. FL1471	2107984	Currey1	v1.0		https://genome.jgi.doe.gov/portal/Currey1/download/Currey1_GeneCatalog_proteins_20180707.aa.fasta.gz
-Wallemia ichthyophaga EXF-994	1299270	FALSE	Teratosphaeria nubilosa CBS 116005	161662	Ternu1	v1.0		https://genome.jgi.doe.gov/portal/Ternu1/download/Ternu1_GeneCatalog_proteins_20140925.aa.fasta.gz
-Wallemia mellicola CBS 633.66	671144	FALSE	Teratosphaeriaceae  sp. NC1134	668547	TerNC1134_1	v1.0		https://genome.jgi.doe.gov/portal/TerNC1134_1/download/TerNC1134_1_GeneCatalog_proteins_20190222.aa.fasta.gz
-Wickerhamiella sorbophila str. DS02	45607	FALSE	Terfezia boudieri ATCC MYA-4762	1051890	Terbo2	v1.1	PMID:30420746	https://genome.jgi.doe.gov/portal/Terbo2/download/Terbo2_GeneCatalog_proteins_20141124.aa.fasta.gz
-Wickerhamomyces anomalus NRRL Y-366-8	683960	FALSE	Terfezia claveryi T7	10760	Tercla1	v1.0		https://genome.jgi.doe.gov/portal/Tercla1/download/Tercla1_GeneCatalog_proteins_20170113.aa.fasta.gz
-Wickerhamomyces ciferrii str. NRRL Y-1031	1041607	FALSE	Testicularia cyperi MCA 3645	1882483	Tescy1	v1.0	PMID:29771364	https://genome.jgi.doe.gov/portal/Tescy1/download/Tescy1_GeneCatalog_proteins_20150113.aa.fasta.gz
-Wolfiporia cocos MD-104 SS10	742152	FALSE	Thamnidium elegans	101142	Thaele1	v1.0		https://genome.jgi.doe.gov/portal/Thaele1/download/Thaele1_GeneCatalog_proteins_20160208.aa.fasta.gz
-Xanthophyllomyces dendrorhous	5421	FALSE	Thamnocephalis sphaerospora RSA 1356 single-cell	78915	Thasp1	v1.0	PMID:30297742	https://genome.jgi.doe.gov/portal/Thasp1/download/Thasp1_GeneCatalog_proteins_20160203.aa.fasta.gz
-Xylona heveae TC161	1328760	FALSE	Thanatephorus cucumeris MPI-SDFR-AT-0096	107832	Thacu1	v1.0		https://genome.jgi.doe.gov/portal/Thacu1/download/Thacu1_GeneCatalog_proteins_20170424.aa.fasta.gz
-Yarrowia lipolytica	4952	FALSE	Thelebolus microsporus ATCC 90970	319061	Themi1	v1.0		https://genome.jgi.doe.gov/portal/Themi1/download/Themi1_GeneCatalog_proteins_20141205.aa.fasta.gz
-Yarrowia lipolytica	284591	FALSE	Thelebolus stercoreus	46453	Thest1			https://genome.jgi.doe.gov/portal/Thest1/download/Thest1_GeneCatalog_proteins_20130808.aa.fasta.gz
-Yarrowia lipolytica str. CLIB89 (W29)	755266	FALSE	Thelephora ganbajun P2	370292	Thega1	v1.0		https://genome.jgi.doe.gov/portal/Thega1/download/Thega1_GeneCatalog_proteins_20150318.aa.fasta.gz
-Zygosaccharomyces bailii	4954	FALSE	Thelephora terrestris UH-Tt-Lm1 	56493	Theter1	v1.0		https://genome.jgi.doe.gov/portal/Theter1/download/Theter1_GeneCatalog_proteins_20181017.aa.fasta.gz
-Zygosaccharomyces bailii CLIB 213	1333698	FALSE	Thermoascus aurantiacus ATCC26904	5087	Theau2	v2.0		https://genome.jgi.doe.gov/portal/Theau2/download/Theau2_GeneCatalog_proteins_20190613.aa.fasta.gz
-Zygosaccharomyces bailii ISA1307	1355161	FALSE	Thermomyces lanuginosus SSBP	1158138	Thelan1		PMID:23788551	https://genome.jgi.doe.gov/portal/Thelan1/download/Thelan1_GeneCatalog_proteins_20160730.aa.fasta.gz
-Zygosaccharomyces parabailii str. ATCC 60483	1365886	FALSE	Thielavia antarctica CBS 123565	1450530	Thian1	v1.0		https://genome.jgi.doe.gov/portal/Thian1/download/Thian1_GeneCatalog_proteins_20140328.aa.fasta.gz
-Zygosaccharomyces rouxii str. CBS 732	559307	FALSE	Thielavia appendiculata CBS 731.68	1384585	Thiap1	v1.0		https://genome.jgi.doe.gov/portal/Thiap1/download/Thiap1_GeneCatalog_proteins_20140116.aa.fasta.gz
-Zygosaccharomyces rouxii str. NBRC110957	4956	FALSE	Thielavia arenaria CBS 508.74	1384583	Thiar1	v1.0		https://genome.jgi.doe.gov/portal/Thiar1/download/Thiar1_GeneCatalog_proteins_20131210.aa.fasta.gz
-Zymoseptoria brevis str. Zb18110	1047168	FALSE	Thielavia hyrcaniae CBS 757.83	1384584	Thihy1	v1.0		https://genome.jgi.doe.gov/portal/Thihy1/download/Thihy1_GeneCatalog_proteins_20140109.aa.fasta.gz
-Zymoseptoria tritici	336722	FALSE	Thielavia terrestris	35720	Thite2	v2.0	PMID:21964414	https://genome.jgi.doe.gov/portal/Thite2/download/Thite2_GeneCatalog_proteins_20101221.aa.fasta.gz
-Zymoseptoria tritici ST99CH_1A5	1276529	FALSE	Thozetella sp. PMI_491	1506992	ThoPMI491_1	v2.0		https://genome.jgi.doe.gov/portal/ThoPMI491_1/download/ThoPMI491_1_GeneCatalog_proteins_20140726.aa.fasta.gz
-Zymoseptoria tritici ST99CH_1E4	1276532	FALSE	Tilletiaria anomala UBC 951	1037660	Tilan2	v1.0	PMID:24926052	https://genome.jgi.doe.gov/portal/Tilan2/download/Tilan2_GeneCatalog_proteins_20140224.aa.fasta.gz
-Zymoseptoria tritici ST99CH_3D1	1276537	FALSE	Tilletiopsis albescens	58915	Tilalb1	v1.0		https://genome.jgi.doe.gov/portal/Tilalb1/download/Tilalb1_GeneCatalog_proteins_20160202.aa.fasta.gz
-Zymoseptoria tritici ST99CH_3D7	1276538	FALSE	Tilletiopsis sp. TKC30	1954214	Tillet1	v1.0		https://genome.jgi.doe.gov/portal/Tillet1/download/Tillet1_GeneCatalog_proteins_20170626.aa.fasta.gz
-		FALSE	Tilletiopsis washingtonensis MCA 4186	58919	Tilwa1	v1.0	PMID:29771364	https://genome.jgi.doe.gov/portal/Tilwa1/download/Tilwa1_GeneCatalog_proteins_20141225.aa.fasta.gz
-		FALSE	Tirmania nivea G3	380880	Tirniv1	v1.0		https://genome.jgi.doe.gov/portal/Tirniv1/download/Tirniv1_GeneCatalog_proteins_20181106.aa.fasta.gz
-		FALSE	Tolypocladium inflatum NRRL 8044	29910	Tolinf1		PMID:23818858	https://genome.jgi.doe.gov/portal/Tolinf1/download/Tolinf1_GeneCatalog_proteins_20160803.aa.fasta.gz
-		FALSE	Torpedospora radiata JK5252C	311114	Torra1	v1.0		https://genome.jgi.doe.gov/portal/Torra1/download/Torra1_GeneCatalog_proteins_20150428.aa.fasta.gz
-		FALSE	Tortispora caseinolytica Y-17796	51930	Canca1	v1.0	PMID:27535936	https://genome.jgi.doe.gov/portal/Canca1/download/Canca1_GeneCatalog_proteins_20110525.aa.fasta.gz
-		FALSE	Torulaspora delbrueckii CBS 1146	1076872	Torde1		PMID:22123960	https://genome.jgi.doe.gov/portal/Torde1/download/Torde1_GeneCatalog_proteins_20150128.aa.fasta.gz
-		FALSE	Tothia fuscella CBS 130266	1048955	Totfu1	v1.0		https://genome.jgi.doe.gov/portal/Totfu1/download/Totfu1_GeneCatalog_proteins_20140831.aa.fasta.gz
-		FALSE	Trametes betulina CIRM-BRFM 1801	5632	Trabet1	v1.0		https://genome.jgi.doe.gov/portal/Trabet1/download/Trabet1_GeneCatalog_proteins_20170925.aa.fasta.gz
+Metschnikowia bicuspidata var. bicuspidata NRRL YB-4993	869754	FALSE	Metschnikowia bicuspidata NRRL YB-4993	27322	Metbi1	v1.0	PMID:27535936	https://genome.jgi.doe.gov/portal/Metbi1/download/Metbi1_GeneCatalog_proteins_20120327.aa.fasta.gz
+		FALSE	Metschnikowia fructicola 277	1200864	Metfru2		PMID:23496978	https://genome.jgi.doe.gov/portal/Metfru2/download/Metfru2_GeneCatalog_proteins_20170818.aa.fasta.gz
+Meyerozyma guilliermondii ATCC 6260	294746	TRUE	Meyerozyma guilliermondii ATCC 6260	294746	Meygui1		PMID:19465905	https://genome.jgi.doe.gov/portal/Meygui1/download/Meygui1_GeneCatalog_proteins_20160903.aa.fasta.gz
+		FALSE	Microascus trigonosporus CBS 218.31	1314796	Mictr1	v1.0		https://genome.jgi.doe.gov/portal/Mictr1/download/Mictr1_GeneCatalog_proteins_20140926.aa.fasta.gz
+Microbotryum intermedium	269621	FALSE						
+		FALSE	Microbotryum lychnidis-dioicae p1A1 Lamole	683840	Micld1		PMID:26076695	https://genome.jgi.doe.gov/portal/Micld1/download/Micld1_GeneCatalog_proteins_20161101.aa.fasta.gz
+Microbotryum violaceum	683840	FALSE						
+		FALSE	Microdiplodia sp. AK1800	1932321	Microd1	v1.0		https://genome.jgi.doe.gov/portal/Microd1/download/Microd1_GeneCatalog_proteins_20180925.aa.fasta.gz
+Microdochium bolleyi str. J235TASD1	196109	TRUE	Microdochium bolleyi J235TASD1	196109	Micbo1	v1.0	PMID:27125481	https://genome.jgi.doe.gov/portal/Micbo1/download/Micbo1_GeneCatalog_proteins_20151118.aa.fasta.gz
+		FALSE	Microdochium trichocladiopsis MPI-CAGE-CH-0230	1682393	Mictri1	v1.0		https://genome.jgi.doe.gov/portal/Mictri1/download/Mictri1_GeneCatalog_proteins_20170510.aa.fasta.gz
+Microsporum canis CBS 113480	554155	TRUE	Microsporum canis CBS 113480	554155	Micca1		PMID:22951933	https://genome.jgi.doe.gov/portal/Micca1/download/Micca1_GeneCatalog_proteins_20130828.aa.fasta.gz
+		FALSE	Microthyrium microscopicum CBS 115976	1450532	Micmi1	v1.0		https://genome.jgi.doe.gov/portal/Micmi1/download/Micmi1_GeneCatalog_proteins_20150625.aa.fasta.gz
+Millerozyma farinosa CBS 7064	559304	FALSE						
+Mitosporidium daphniae str. UGP3	1485682	TRUE	Mitosporidium daphniae UGP3	1485682	Mitdap1		PMID:25313038	https://genome.jgi.doe.gov/portal/Mitdap1/download/Mitdap1_GeneCatalog_proteins_20180604.aa.fasta.gz
+Mixia osmundae IAM 14324	764103	TRUE	Mixia osmundae IAM 14324	764103	Mixos1	v1.0	PMID:24372469	https://genome.jgi.doe.gov/portal/Mixos1/download/Mixos1_GeneCatalog_proteins_20120207.aa.fasta.gz
+Moelleriella libera RCEF 2490	1081109	FALSE						
+Moesziomyces antarcticus str. JCM 10317	84753	FALSE						
+Moesziomyces antarcticus T-34	1151754	FALSE						
+Moesziomyces aphidis DSM 70725	1391700	TRUE	Moesziomyces aphidis DSM 70725	1391700	Moeaph1		PMID:24526638	https://genome.jgi.doe.gov/portal/Moeaph1/download/Moeaph1_GeneCatalog_proteins_20170701.aa.fasta.gz
+		FALSE	Monacrosporium haptotylum CBS 200.50	430498	Monha1		PMID:24244185	https://genome.jgi.doe.gov/portal/Monha1/download/Monha1_GeneCatalog_proteins_20131210.aa.fasta.gz
+		FALSE	Monascus purpureus	5098	Monpu1	v1.0		https://genome.jgi.doe.gov/portal/Monpu1/download/Monpu1_GeneCatalog_proteins_20130806.aa.fasta.gz
+		FALSE	Monascus ruber NRRL 1597	89489	Monru1	v1.0		https://genome.jgi.doe.gov/portal/Monru1/download/Monru1_GeneCatalog_proteins_20121211.aa.fasta.gz
+		FALSE	Moniliella sp. MCA 3643	1954213	Monili2	v1.0		https://genome.jgi.doe.gov/portal/Monili2/download/Monili2_GeneCatalog_proteins_20170731.aa.fasta.gz
+Moniliophthora perniciosa FA553	554373	TRUE	Moniliophthora perniciosa FA553	554373	Monpe1_1		PMID:19019209	https://genome.jgi.doe.gov/portal/Monpe1_1/download/Monpe1_1_GeneCatalog_proteins_20131213.aa.fasta.gz
+Moniliophthora roreri MCA 2997	1381753	FALSE						
+Moniliophthora roreri str. MCA 2952	221103	FALSE						
+		FALSE	Morchella importuna CCBAS932	1392247	Morco1	v1.0	PMID:30420746	https://genome.jgi.doe.gov/portal/Morco1/download/Morco1_GeneCatalog_proteins_20140113.aa.fasta.gz
+		FALSE	Morchella importuna SCYDJ1-A1	1174673	Morimp1	v1.0	PMID:31314937	https://genome.jgi.doe.gov/portal/Morimp1/download/Morimp1_GeneCatalog_proteins_20150807.aa.fasta.gz
+		FALSE	Morchella snyderi DOB2414	1174678	Morsny1	v1.0		https://genome.jgi.doe.gov/portal/Morsny1/download/Morsny1_GeneCatalog_proteins_20180419.aa.fasta.gz
+Mortierella elongata AG-77	1314771	TRUE	Mortierella elongata AG-77	1314771	Morel2	v2.0	PMID:28076891	https://genome.jgi.doe.gov/portal/Morel2/download/Morel2_GeneCatalog_proteins_20151120.aa.fasta.gz
+		FALSE	Mortierella elongata NVP64	310910	MoeNVP64_1	v1.0		https://genome.jgi.doe.gov/portal/MoeNVP64_1/download/MoeNVP64_1_GeneCatalog_proteins_20190403.aa.fasta.gz
+		FALSE	Mortierella multidivaricata RSA 2152 T	101098	Mormul1	v1.0		https://genome.jgi.doe.gov/portal/Mormul1/download/Mormul1_GeneCatalog_proteins_20160906.aa.fasta.gz
+Mortierella verticillata NRRL 6337	1069443	TRUE	Mortierella verticillata NRRL 6337	1069443	Morve1			https://genome.jgi.doe.gov/portal/Morve1/download/Morve1_GeneCatalog_proteins_20161024.aa.fasta.gz
+		FALSE	Mrakia frigida ATCC 22029	29902	Mrafri1	v1.0		https://genome.jgi.doe.gov/portal/Mrafri1/download/Mrafri1_GeneCatalog_proteins_20160413.aa.fasta.gz
+Mucor ambiguus str. NBRC 6742	91626	FALSE						
+		FALSE	Mucor circinelloides CBS277.49	36080	Mucci2	v2.0	PMID:27238284	https://genome.jgi.doe.gov/portal/Mucci2/download/Mucor_circinelloides_v2_filtered_proteins.fasta.gz
+Mucor circinelloides f. circinelloides 1006PhL	1220926	FALSE	Mucor cordense RSA 1222	4830	Kircor1	v1.0		https://genome.jgi.doe.gov/portal/Kircor1/download/Kircor1_GeneCatalog_proteins_20160812.aa.fasta.gz
+Mucor circinelloides f. lusitanicus CBS 277.49	747725	FALSE	Mucor heterogamus NRRL 1489	101122	Zyghet1	v1.0		https://genome.jgi.doe.gov/portal/Zyghet1/download/Zyghet1_GeneCatalog_proteins_20160427.aa.fasta.gz
+Mycosphaerella eumusae str. CBS 114824	321146	FALSE	Mucor mucedo NRRL 3635	29922	Mucmuc1	v1.0		https://genome.jgi.doe.gov/portal/Mucmuc1/download/Mucmuc1_GeneCatalog_proteins_20181129.aa.fasta.gz
+Nadsonia fulvescens var. elongata DSM 6958	857566	FALSE	Multifurca ochricompacta BPL690	376703	Muloch1	v1.0		https://genome.jgi.doe.gov/portal/Muloch1/download/Muloch1_GeneCatalog_proteins_20170119.aa.fasta.gz
+Naematelia encephala str. 68-887.2	71784	FALSE	Mutinus elegans ME.BST	288524	Mutel1	v1.0		https://genome.jgi.doe.gov/portal/Mutel1/download/Mutel1_GeneCatalog_proteins_20150215.aa.fasta.gz
+Nannizzia gypsea CBS 118893	535722	FALSE	Myceliophthora heterothallica CBS 202.75	1149848	Mychet1	v1.0		https://genome.jgi.doe.gov/portal/Mychet1/download/Mychet1_GeneCatalog_proteins_20170418.aa.fasta.gz
+Naumovozyma castellii CBS 4309	1064592	FALSE	Myceliophthora heterothallica CBS 203.75	1149849	Myche1	v1.0		https://genome.jgi.doe.gov/portal/Myche1/download/Myche1_GeneCatalog_proteins_20150518.aa.fasta.gz
+Naumovozyma dairenensis CBS 421	1071378	FALSE	Myceliophthora similis CBS 632.67	1403191	Corsim1	v1.0		https://genome.jgi.doe.gov/portal/Corsim1/download/Corsim1_GeneCatalog_proteins_20180612.aa.fasta.gz
+Nematocida displodere str. JUm2807	1805483	FALSE	Myceliophthora thermophila (Sporotrichum thermophile)	78579	Spoth2	v2.0	PMID:21964414	https://genome.jgi.doe.gov/portal/Spoth2/download/Spoth2_GeneCatalog_proteins_20101221.aa.fasta.gz
+Nematocida parisii ERTm1	881290	FALSE	Mycena albidolilacea CBHHK002	1033008	Mycalb1	v1.0		https://genome.jgi.doe.gov/portal/Mycalb1/download/Mycalb1_GeneCatalog_proteins_20180325.aa.fasta.gz
+Nematocida parisii ERTm3	935791	FALSE	Mycena alexandri CBHHK200	1745969	Mycale1	v1.0		https://genome.jgi.doe.gov/portal/Mycale1/download/Mycale1_GeneCatalog_proteins_20171027.aa.fasta.gz
+Nematocida sp. 1 ERTm2	944018	FALSE	Mycena amicta BAPX	380012	Mycami1	v1.0		https://genome.jgi.doe.gov/portal/Mycami1/download/Mycami1_GeneCatalog_proteins_20171027.aa.fasta.gz
+Nematocida sp. 1 ERTm6	1138374	FALSE	Mycena belliae CBHHK173m	1033014	Mycbel1	v1.0		https://genome.jgi.doe.gov/portal/Mycbel1/download/Mycbel1_GeneCatalog_proteins_20171013.aa.fasta.gz
+Nematocida sp. ERTm5	1805481	FALSE	Mycena capillaripes Frankland 9286	230804	Mycrub1	v1.0		https://genome.jgi.doe.gov/portal/Mycrub1/download/Mycrub1_GeneCatalog_proteins_20170201.aa.fasta.gz
+Neocallimastix californiae str. G1	1754190	FALSE	Mycena crocata CBHHK184	220801	Myccro1	v1.0		https://genome.jgi.doe.gov/portal/Myccro1/download/Myccro1_GeneCatalog_proteins_20171013.aa.fasta.gz
+Neofusicoccum parvum UCRNP2	1287680	FALSE	Mycena epipterygia CBHHK145m	230806	Mycepi1	v1.0		https://genome.jgi.doe.gov/portal/Mycepi1/download/Mycepi1_GeneCatalog_proteins_20171002.aa.fasta.gz
+Neolecta irregularis DAH-3	1198029	FALSE	Mycena filopes CBHHK001	858877	Mycfil1	v1.0		https://genome.jgi.doe.gov/portal/Mycfil1/download/Mycfil1_GeneCatalog_proteins_20171109.aa.fasta.gz
+Neolentinus lepideus HHB14362 ss-1	1314782	FALSE	Mycena floridula CBHHK072	1033242	Mycflo1	v1.0		https://genome.jgi.doe.gov/portal/Mycflo1/download/Mycflo1_GeneCatalog_proteins_20171028.aa.fasta.gz
+Neonectria ditissima str. R09/05	78410	FALSE	Mycena galopus ATCC-62051	1314675	Mycgal1	v1.0		https://genome.jgi.doe.gov/portal/Mycgal1/download/Mycgal1_GeneCatalog_proteins_20160823.aa.fasta.gz
+Neurospora crassa	367110	FALSE	Mycena haematopus CBHHK189	230807	Mychae1	v1.0		https://genome.jgi.doe.gov/portal/Mychae1/download/Mychae1_GeneCatalog_proteins_20170323.aa.fasta.gz
+Neurospora crassa str. 73	5141	FALSE	Mycena latifolia 10383	1033247	Myclat1	v1.0		https://genome.jgi.doe.gov/portal/Myclat1/download/Myclat1_GeneCatalog_proteins_20190110.aa.fasta.gz
+Neurospora tetrasperma FGSC 2508	510951	FALSE	Mycena rebaudengoi CBHHK068	1045383	Mycreb1	v1.0		https://genome.jgi.doe.gov/portal/Mycreb1/download/Mycreb1_GeneCatalog_proteins_20171023.aa.fasta.gz
+Neurospora tetrasperma FGSC 2509 str. FGSC 2509 mat a	510952	FALSE	Mycena rosella CBHHK067	1033263	Mycros1	v1.0		https://genome.jgi.doe.gov/portal/Mycros1/download/Mycros1_GeneCatalog_proteins_20170424.aa.fasta.gz
+Nosema apis BRL 01	1037528	FALSE	Mycena sanguinolenta CBHHK176m	230812	Mycsan1	v1.0		https://genome.jgi.doe.gov/portal/Mycsan1/download/Mycsan1_GeneCatalog_proteins_20171021.aa.fasta.gz
+Nosema bombycis CQ1	578461	FALSE	Mycena sp. CBHHK59/15	41247	Myc59_1	v1.0		https://genome.jgi.doe.gov/portal/Myc59_1/download/Myc59_1_GeneCatalog_proteins_20170610.aa.fasta.gz
+Nosema ceranae	40302	FALSE	Mycena vitilis CBHHK169m	1033281	Mycvit1	v1.0		https://genome.jgi.doe.gov/portal/Mycvit1/download/Mycvit1_GeneCatalog_proteins_20171013.aa.fasta.gz
+Nosema ceranae BRL01	578460	FALSE	Mycosphaerella graminicola	1047171	Mycgr3	v2.0	PMID:21695235	https://genome.jgi.doe.gov/portal/Mycgr3/download/Mgraminicolav2.FilteredModels1.proteins.fasta.gz
+Ogataea parapolymorpha DL-1	871575	FALSE	Mycotypha africana NRRL 2978	64632	Mycafr1	v1.0		https://genome.jgi.doe.gov/portal/Mycafr1/download/Mycafr1_GeneCatalog_proteins_20160506.aa.fasta.gz
+Ogataea polymorpha str. NCYC 495 leu1.1	460523	FALSE	Myriangiaceae sp. NC1570	1955108	Myrian1	v1.0		https://genome.jgi.doe.gov/portal/Myrian1/download/Myrian1_GeneCatalog_proteins_20181114.aa.fasta.gz
+Oidiodendron maius Zn	913774	FALSE	Myriangium duriaei CBS 260.36	1168546	Myrdu1	v1.0		https://genome.jgi.doe.gov/portal/Myrdu1/download/Myrdu1_GeneCatalog_proteins_20121211.aa.fasta.gz
+Ophiocordyceps australis	1399860	FALSE	Myrothecium inundatum CBS 120646	110576	Myrin1	v1.0		https://genome.jgi.doe.gov/portal/Myrin1/download/Myrin1_GeneCatalog_proteins_20140928.aa.fasta.gz
+Ophiocordyceps camponoti-rufipedis	2004952	FALSE	Mytilinidiaceae sp. NC0267	2012375	Lophiu1	v1.0		https://genome.jgi.doe.gov/portal/Lophiu1/download/Lophiu1_GeneCatalog_proteins_20181114.aa.fasta.gz
+Ophiocordyceps sinensis CO18	911162	FALSE	Mytilinidion resinicola CBS 304.34	574789	Mytre1	v1.0		https://genome.jgi.doe.gov/portal/Mytre1/download/Mytre1_GeneCatalog_proteins_20150115.aa.fasta.gz
+Ophiocordyceps unilateralis str. SC16a	268505	FALSE	Myxozyma melibiosi Phaff 52-87	54550	Myxme1	v1.0		https://genome.jgi.doe.gov/portal/Myxme1/download/Myxme1_GeneCatalog_proteins_20180510.aa.fasta.gz
+Ophiostoma piceae UAMH 11346 str. UAMH-11346	1262450	FALSE	Nadsonia fulvescens var. elongata DSM 6958	857566	Nadfu1	v1.0	PMID:27535936	https://genome.jgi.doe.gov/portal/Nadfu1/download/Nadfu1_GeneCatalog_proteins_20110909.aa.fasta.gz
+Ordospora colligata OC4	1354746	FALSE	Naematella encephela UCDFST 68-887.2	71784	Treen1	v1.0	PMID:28481340	https://genome.jgi.doe.gov/portal/Treen1/download/Treen1_GeneCatalog_proteins_20160201.aa.fasta.gz
+Pachysolen tannophilus NRRL Y-2460	669874	FALSE	Naiadella fluitans ATCC 64713	1397326	Naifl1	v1.0		https://genome.jgi.doe.gov/portal/Naifl1/download/Naifl1_GeneCatalog_proteins_20140403.aa.fasta.gz
+Paracoccidioides brasiliensis Pb03	482561	FALSE	Nakaseomyces bacillisporus CBS 7720	1279116	Nakbac1		PMID:24034898	https://genome.jgi.doe.gov/portal/Nakbac1/download/Nakbac1_GeneCatalog_proteins_20160804.aa.fasta.gz
+Paracoccidioides brasiliensis Pb18	502780	FALSE	Nakaseomyces delphensis CBS 2170	1279113	Nakdel1		PMID:24034898	https://genome.jgi.doe.gov/portal/Nakdel1/download/Nakdel1_GeneCatalog_proteins_20160805.aa.fasta.gz
+Paracoccidioides lutzii Pb01	502779	FALSE	Nakazawaea wickerhamii NRRL Y-2563	1538186	Nakwi1		PMID:29760453	https://genome.jgi.doe.gov/portal/Nakwi1/download/Nakwi1_GeneCatalog_proteins_20181013.aa.fasta.gz
+Paramicrosporidium saccamoebae str. KSL3	1246581	FALSE	Naohidea sebacea CBS 8477 (P95)	1397327	Naose1	v1.0		https://genome.jgi.doe.gov/portal/Naose1/download/Naose1_GeneCatalog_proteins_20150719.aa.fasta.gz
+Paraphaeosphaeria sporulosa str. AP3s5-JAC2a	1460663	FALSE	Nectria haematococca	140110	Necha2	v2.0	PMID:19714214	https://genome.jgi.doe.gov/portal/Necha2/download/Necha2_best_proteins.fasta.gz
+Paxillus involutus ATCC 200175	664439	FALSE	Nectriopsis sporangicola NRRL 22127	1155949	Necsp1	v1.0		https://genome.jgi.doe.gov/portal/Necsp1/download/Necsp1_GeneCatalog_proteins_20180911.aa.fasta.gz
+Paxillus rubicundulus Ve08.2h10	930991	FALSE	Nemania abortiva FL1152	561989	Nemabo1	v1.0		https://genome.jgi.doe.gov/portal/Nemabo1/download/Nemabo1_GeneCatalog_proteins_20190325.aa.fasta.gz
+Penicilliopsis zonata CBS 506.65	1073090	FALSE	Nemania diffusa NC0034	389665	Nemdif1	v1.0		https://genome.jgi.doe.gov/portal/Nemdif1/download/Nemdif1_GeneCatalog_proteins_20190614.aa.fasta.gz
+Penicillium antarcticum	416450	FALSE	Nemania serpens AK0226	109381	NsAK0226_1	v1.0		https://genome.jgi.doe.gov/portal/NsAK0226_1/download/NsAK0226_1_GeneCatalog_proteins_20190612.aa.fasta.gz
+Penicillium arizonense	1835702	FALSE	Nemania sp. NC0429	1912656	Nemani1	v1.0		https://genome.jgi.doe.gov/portal/Nemani1/download/Nemani1_GeneCatalog_proteins_20190515.aa.fasta.gz
+Penicillium brasilianum str. LaBioMMi 136	104259	FALSE	Nematocida parisii ERTm1	881290	Nempa1		PMID:22813931	https://genome.jgi.doe.gov/portal/Nempa1/download/Nempa1_GeneCatalog_proteins_20130904.aa.fasta.gz
+Penicillium camemberti FM 013	1429867	FALSE	Neocallimastix californiae G1	1754190	Neosp1	v1.0	PMID:28555641	https://genome.jgi.doe.gov/portal/Neosp1/download/Neosp1_GeneCatalog_proteins_20170918.aa.fasta.gz
+Penicillium chrysogenum str. P2niaD18	5076	FALSE	Neofusicoccum parvum UCRNP2	1287680	Neopa1		PMID:23766404	https://genome.jgi.doe.gov/portal/Neopa1/download/Neopa1_GeneCatalog_proteins_20130909.aa.fasta.gz
+Penicillium coprophilum	36646	FALSE	Neolecta irregularis DAH-1	48691	Neoirr1	v1.0	PMID:28176784	https://genome.jgi.doe.gov/portal/Neoirr1/download/Neoirr1_GeneCatalog_proteins_20160803.aa.fasta.gz
+Penicillium decumbens	69771	FALSE	Neolentinus lepideus	38799	Neole1	v1.0	PMID:26659563	https://genome.jgi.doe.gov/portal/Neole1/download/Neole1_GeneCatalog_proteins_20130125.aa.fasta.gz
+Penicillium digitatum Pd1	1170230	FALSE	Neonectria ditissima R09/05	78410	Neodi1		PMID:26586869	https://genome.jgi.doe.gov/portal/Neodi1/download/Neodi1_GeneCatalog_proteins_20170711.aa.fasta.gz
+Penicillium digitatum PHI26	1170229	FALSE	Neonectria radicicola MPI-CAGE-AT-0134	64609	Neora1	v1.0		https://genome.jgi.doe.gov/portal/Neora1/download/Neora1_GeneCatalog_proteins_20180718.aa.fasta.gz
+Penicillium expansum str. MD-8	27334	FALSE	Neosartorya fischeri NRRL 181	331117	Neofi1		PMID:22080559	https://genome.jgi.doe.gov/portal/Neofi1/download/Neofi1_GeneCatalog_proteins_20120815.aa.fasta.gz
+Penicillium flavigenum	254877	FALSE	Neurospora crassa FGSC 73 trp-3	5141	Neucr_trp3_1	v1.0	PMID:25838471	https://genome.jgi.doe.gov/portal/Neucr_trp3_1/download/Neucr_trp3_1_GeneCatalog_proteins_20140324.aa.fasta.gz
+Penicillium freii	48697	FALSE	Neurospora crassa OR74A	367110	Neucr2	v2.0	PMID:12712197	https://genome.jgi.doe.gov/portal/Neucr2/download/Neucr2_GeneCatalog_proteins_20130412.aa.fasta.gz
+Penicillium griseofulvum str. PG3	5078	FALSE	Neurospora discreta FGSC 8579 mat A	510953	Neudi1			https://genome.jgi.doe.gov/portal/Neudi1/download/Ndiscreta.FilteredModels2.proteins.fasta.gz
+Penicillium italicum str. PHI-1	40296	FALSE	Neurospora hispaniola FGSC 10403	588809	Neuhi1	v1.0		https://genome.jgi.doe.gov/portal/Neuhi1/download/Neuhi1_GeneCatalog_proteins_20171014.aa.fasta.gz
+Penicillium nalgiovense	60175	FALSE	Neurospora tetrasperma FGSC 2508 mat A	510951	Neute_matA2	v2.0	PMID:21750257	https://genome.jgi.doe.gov/portal/Neute_matA2/download/N.tetrasperma_matA_v2_FilteredModels.proteins.fasta.gz
+Penicillium nordicum	229535	FALSE	Neurospora tetrasperma FGSC 2509 mat a	40127	Neute_mat_a1	v1.0	PMID:21750257	https://genome.jgi.doe.gov/portal/Neute_matA2/download/N.tetrasperma_matA_v2_FilteredModels.proteins.fasta.gz
+Penicillium occitanis str. CT1	290292	FALSE	Nia vibrissa CBS 119815	155003	Niavib1	v1.0		https://genome.jgi.doe.gov/portal/Niavib1/download/Niavib1_GeneCatalog_proteins_20180713.aa.fasta.gz
+Penicillium oxalicum 114-2	933388	FALSE	Niesslia exilis CBS 358.70	267680	Nieex1	v1.0		https://genome.jgi.doe.gov/portal/Nieex1/download/Nieex1_GeneCatalog_proteins_20140925.aa.fasta.gz
+Penicillium polonicum	60169	FALSE	Nosema ceranae BRL01	578460	Nosce1		PMID:19503607	https://genome.jgi.doe.gov/portal/Nosce1/download/Nosce1_GeneCatalog_proteins_20140109.aa.fasta.gz
+Penicillium roqueforti FM164	1365484	FALSE	Obba rivulosa 3A-2	1052685	Obbri1	v1.0	PMID:27634999	https://genome.jgi.doe.gov/portal/Obbri1/download/Obbri1_GeneCatalog_proteins_20140615.aa.fasta.gz
+Penicillium rubens Wisconsin 54-1255	500485	FALSE	Obelidium mucronatum JEL802	110081	Obemuc1	v1.0		https://genome.jgi.doe.gov/portal/Obemuc1/download/Obemuc1_GeneCatalog_proteins_20171120.aa.fasta.gz
+Penicillium solitum	60172	FALSE	Ogataea parapolymorpha DL-1	871575	Ogapa1			https://genome.jgi.doe.gov/portal/Ogapa1/download/Ogapa1_GeneCatalog_proteins_20161024.aa.fasta.gz
+Penicillium steckii	303698	FALSE	Ogataea polymorpha NCYC 495 leu1.1	638633	Hanpo2	v2.0	PMID:27535936	https://genome.jgi.doe.gov/portal/Hanpo2/download/Hanpo2_GeneCatalog_proteins_20100927.aa.fasta.gz
+Penicillium subrubescens str. CBS 132785	1316194	FALSE	Oidiodendron maius Zn	913774	Oidma1	v1.0	PMID:25706625	https://genome.jgi.doe.gov/portal/Oidma1/download/Oidma1_GeneCatalog_proteins_20110606.aa.fasta.gz
+Penicillium vulpinum	29845	FALSE	Oliveonia pauxilla MPI-PUGE-AT-0066	1026881	Olipa1	v1.0		https://genome.jgi.doe.gov/portal/Olipa1/download/Olipa1_GeneCatalog_proteins_20171127.aa.fasta.gz
+Peniophora sp. CONT	1314672	FALSE	Omphalotus olearius	72120	Ompol1		PMID:22726691	https://genome.jgi.doe.gov/portal/Ompol1/download/Ompol1_GeneCatalog_proteins_20130516.aa.fasta.gz
+Periconia macrospinosa str. DSE2036	97972	FALSE	Onnia scaura P-53A	1496296	Onnsc1	v1.0		https://genome.jgi.doe.gov/portal/Onnsc1/download/Onnsc1_GeneCatalog_proteins_20150419.aa.fasta.gz
+Pestalotiopsis fici W106-1	1229662	FALSE	Ophiobolus disseminans CBS 113818	1469910	Ophdi1	v1.0		https://genome.jgi.doe.gov/portal/Ophdi1/download/Ophdi1_GeneCatalog_proteins_20140614.aa.fasta.gz
+Pezoloma ericae str. UAMH 7357	1745343	FALSE	Ophiostoma novo-ulmi subsp. novo-ulmi H327	1224258	Ophnu1		PMID:23542132	https://genome.jgi.doe.gov/portal/Ophnu1/download/Ophnu1_GeneCatalog_proteins_20170425.aa.fasta.gz
+Phaeoacremonium minimum UCRPA7	1286976	FALSE	Ophiostoma piceae UAMH 11346	1262450	Ophpic1		PMID:23725015	https://genome.jgi.doe.gov/portal/Ophpic1/download/Ophpic1_GeneCatalog_proteins_20151205.aa.fasta.gz
+Phaeomoniella chlamydospora	158046	FALSE	Ophiostoma piliferum	38032	Ophpi1			https://genome.jgi.doe.gov/portal/Ophpi1/download/Ophpi1_GeneCatalog_proteins_20130808.aa.fasta.gz
+Phaeosphaeria nodorum	321614	FALSE	Orpinomyces sp.	37163	Orpsp1_1		PMID:23709508	https://genome.jgi.doe.gov/portal/Orpsp1_1/download/Orpsp1_1_GeneCatalog_proteins_20140826.aa.fasta.gz
+Phanerochaete carnosa HHB-10118-sp	650164	FALSE	Oudemansiella mucida CBS 558.79	139077	Oudmuc1	v1.0		https://genome.jgi.doe.gov/portal/Oudmuc1/download/Oudmuc1_GeneCatalog_proteins_20160525.aa.fasta.gz
+Phellinus noxius	418867	FALSE	Pachysolen tannophilus NRRL Y-2460	669874	Pacta1_2	v1.2	PMID:27535936	https://genome.jgi.doe.gov/portal/Pacta1_2/download/Pacta1_2_GeneCatalog_proteins_20110630.aa.fasta.gz
+Phialocephala scopiformis str. CBS 120377	149040	FALSE	Paecilomyces niveus CO7	5093	Bysni1	v1.0	PMID:29930063	https://genome.jgi.doe.gov/portal/Bysni1/download/Bysni1_GeneCatalog_proteins_20180319.aa.fasta.gz
+Phialocephala subalpina	576137	FALSE	Paecilomyces variotii CBS 101075	264951	Paevar1	v1.0	PMID:30619145	https://genome.jgi.doe.gov/portal/Paevar1/download/Paevar1_GeneCatalog_proteins_20171103.aa.fasta.gz
+Phialophora americana str. CBS 27337	5601	FALSE	Panaeolus papilionaceus CIRM-BRFM 715	330517	Panpap1	v1.0		https://genome.jgi.doe.gov/portal/Panpap1/download/Panpap1_GeneCatalog_proteins_20170130.aa.fasta.gz
+Phialophora attae str. CBS 131958	1664694	FALSE	Panellus stipticus LUM	5636	Panst_LUM_1_1	v1.0		https://genome.jgi.doe.gov/portal/Panst_LUM_1_1/download/Panst_LUM_1_1_GeneCatalog_proteins_20160628.aa.fasta.gz
+Phlebia centrifuga str. FBCC195	98765	FALSE	Panus rudis PR-1116 ss-1	1314784	Panru1	v1.0		https://genome.jgi.doe.gov/portal/Panru1/download/Panru1_GeneCatalog_proteins_20141214.aa.fasta.gz
+Phlebiopsis gigantea 11061_1 CR5-6	745531	FALSE	Papiliotrema laurentii 5307AH	5418	Papla1	v1.0		https://genome.jgi.doe.gov/portal/Papla1/download/Papla1_GeneCatalog_proteins_20180704.aa.fasta.gz
+Pichia kudriavzevii str. SD108	4909	FALSE	Paracoccidioides brasiliensis Pb03	482561	Parbr1		PMID:22046142	https://genome.jgi.doe.gov/portal/Parbr1/download/Parbr1_GeneCatalog_proteins_20131018.aa.fasta.gz
+Pichia membranifaciens NRRL Y-2026	763406	FALSE	Paracoccidioides brasiliensis Pb18	502780	Parbra1		PMID:22046142	https://genome.jgi.doe.gov/portal/Parbra1/download/Parbra1_GeneCatalog_proteins_20161024.aa.fasta.gz
+Pichia membranifaciens str. KS47-1	4926	FALSE	Paraconiothyrium sporulosum AP3s5-JAC2a	1460663	Parsp1	v1.0	PMID:27434633	https://genome.jgi.doe.gov/portal/Parsp1/download/Parsp1_GeneCatalog_proteins_20141011.aa.fasta.gz
+Piloderma croceum F 1598	765440	FALSE	Paraphoma chrysanthemicola MPI-GEGE-AT-0034	798071	Parch1	v1.0		https://genome.jgi.doe.gov/portal/Parch1/download/Parch1_GeneCatalog_proteins_20171014.aa.fasta.gz
+Piromyces finnis	1754191	FALSE	Paraphysoderma sedebokerense JEL821	1500003	Parsed1	v1.0		https://genome.jgi.doe.gov/portal/Parsed1/download/Parsed1_GeneCatalog_proteins_20170905.aa.fasta.gz
+Piromyces sp. E2	73868	FALSE	Parasitella parasitica	35722	Parpar1	v1.0		https://genome.jgi.doe.gov/portal/Parpar1/download/Parpar1_GeneCatalog_proteins_20160126.aa.fasta.gz
+Pisolithus microcarpus 441	765257	FALSE	Patellaria atrata	703506	Patat1	v1.0		https://genome.jgi.doe.gov/portal/Patat1/download/Patat1_GeneCatalog_proteins_20130514.aa.fasta.gz
+Pisolithus tinctorius Marx 270	870435	FALSE	Paxillus adelphus Ve08.2h10	1842050	Paxru2	v2.0	PMID:25706625	https://genome.jgi.doe.gov/portal/Paxru2/download/Paxru2_GeneCatalog_proteins_20151118.aa.fasta.gz
+Pleurotus ostreatus PC15	1137138	FALSE	Paxillus ammoniavirescens Pou09.2	1132860	Paxam1	v1.0		https://genome.jgi.doe.gov/portal/Paxam1/download/Paxam1_GeneCatalog_proteins_20150425.aa.fasta.gz
+Plicaturopsis crispa FD-325 SS-3	944288	FALSE	Paxillus involutus ATCC 200175	664439	Paxin1	v1.0	PMID:25706625	https://genome.jgi.doe.gov/portal/Paxin1/download/Paxin1_GeneCatalog_proteins_20110501.aa.fasta.gz
+Pneumocystis carinii B80	1408658	FALSE	Penicillium antarcticum IBT 31811	416450	Penant1		PMID:28368369	https://genome.jgi.doe.gov/portal/Penant1/download/Penant1_GeneCatalog_proteins_20170601.aa.fasta.gz
+Pneumocystis jirovecii RU7	1408657	FALSE	Penicillium atramentosum RS17	36652	Penatra1	v1.0		https://genome.jgi.doe.gov/portal/Penatra1/download/Penatra1_GeneCatalog_proteins_20181207.aa.fasta.gz
+Pneumocystis murina B123	1069680	FALSE	Penicillium bilaiae ATCC 20851	1314792	Penbi1	v1.0		https://genome.jgi.doe.gov/portal/Penbi1/download/Penbi1_GeneCatalog_proteins_20130602.aa.fasta.gz
+Pochonia chlamydosporia 170	1380566	FALSE	Penicillium brevicompactum 1011305	5074	Penbr2	v2.0		https://genome.jgi.doe.gov/portal/Penbr2/download/Penbr2_GeneCatalog_proteins_20130810.aa.fasta.gz
+Podospora anserina S mat+	515849	FALSE	Penicillium brevicompactum AgRF18	1392249	PenbrAgRF18_1	v1.0		https://genome.jgi.doe.gov/portal/PenbrAgRF18_1/download/PenbrAgRF18_1_GeneCatalog_proteins_20131217.aa.fasta.gz
+Polytolypa hystricis UAMH7299	1447883	FALSE	Penicillium canescens ATCC 10419	1314794	Penca1	v1.0		https://genome.jgi.doe.gov/portal/Penca1/download/Penca1_GeneCatalog_proteins_20130524.aa.fasta.gz
+Postia placenta Mad-698-R	561896	FALSE	Penicillium chrysogenum	5076	Pench1	v1.0	PMID:28196534	https://genome.jgi.doe.gov/portal/Pench1/download/Pench1_GeneCatalog_proteins_20120123.aa.fasta.gz
+Postia placenta MAD-698-R-SB12	670580	FALSE	Penicillium chrysogenum Wisconsin 54-1255	500485	PenchWisc1_1		PMID:18820685	https://genome.jgi.doe.gov/portal/PenchWisc1_1/download/PenchWisc1_1_GeneCatalog_proteins_20140114.aa.fasta.gz
+Protomyces lactucaedebilis str. 12-1054	56484	FALSE	Penicillium coprophilum IBT 31321	36646	Pencop1		PMID:28368369	https://genome.jgi.doe.gov/portal/Pencop1/download/Pencop1_GeneCatalog_proteins_20170602.aa.fasta.gz
+Pseudocercospora fijiensis CIRAD86	383855	FALSE	Penicillium decumbens IBT 11843	69771	Pendec1		PMID:28368369	https://genome.jgi.doe.gov/portal/Pendec1/download/Pendec1_GeneCatalog_proteins_20170601.aa.fasta.gz
+Pseudocercospora musae str. CBS 116634	113226	FALSE	Penicillium digitatum Pd1	1170230	Pendig1		PMID:23171342	https://genome.jgi.doe.gov/portal/Pendig1/download/Pendig1_GeneCatalog_proteins_20170530.aa.fasta.gz
+Pseudogymnoascus destructans	655981	FALSE	Penicillium digitatum PHI26	1170229	Pendi1		PMID:23171342	https://genome.jgi.doe.gov/portal/Pendi1/download/Pendi1_GeneCatalog_proteins_20131020.aa.fasta.gz
+Pseudogymnoascus destructans 20631-21	658429	FALSE	Penicillium expansum ATCC 24692	1314791	Penex1	v1.0		https://genome.jgi.doe.gov/portal/Penex1/download/Penex1_GeneCatalog_proteins_20130524.aa.fasta.gz
+Pseudogymnoascus sp. 03VT05	1622148	FALSE	Penicillium expansum d1	27334	Penexp1		PMID:25338147	https://genome.jgi.doe.gov/portal/Penexp1/download/Penexp1_GeneCatalog_proteins_20170706.aa.fasta.gz
+Pseudogymnoascus sp. 05NY08	1622149	FALSE	Penicillium fellutanum ATCC 48694	1314795	Penfe1	v1.0		https://genome.jgi.doe.gov/portal/Penfe1/download/Penfe1_GeneCatalog_proteins_20130528.aa.fasta.gz
+Pseudogymnoascus sp. 23342-1-I1	1524831	FALSE	Penicillium flavigenum IBT 14082	254877	Penfla1		PMID:28368369	https://genome.jgi.doe.gov/portal/Penfla1/download/Penfla1_GeneCatalog_proteins_20170601.aa.fasta.gz
+Pseudogymnoascus sp. 24MN13	1622150	FALSE	Penicillium glabrum DAOM 239074	1314793	Pengl1	v1.0		https://genome.jgi.doe.gov/portal/Pengl1/download/Pengl1_GeneCatalog_proteins_20130524.aa.fasta.gz
+Pseudogymnoascus sp. VKM F-103	1420912	FALSE	Penicillium griseofulvum PG3	5078	Pengri1		PMID:26729047	https://genome.jgi.doe.gov/portal/Pengri1/download/Pengri1_GeneCatalog_proteins_20170529.aa.fasta.gz
+Pseudogymnoascus sp. VKM F-3557	1437433	FALSE	Penicillium italicum PHI-1	40296	Penita1		PMID:25338147	https://genome.jgi.doe.gov/portal/Penita1/download/Penita1_GeneCatalog_proteins_20170529.aa.fasta.gz
+Pseudogymnoascus sp. VKM F-3775	1420901	FALSE	Penicillium janthinellum ATCC 10455	1397297	Penja1	v1.0		https://genome.jgi.doe.gov/portal/Penja1/download/Penja1_GeneCatalog_proteins_20140203.aa.fasta.gz
+Pseudogymnoascus sp. VKM F-3808	1391699	FALSE	Penicillium lanosocoeruleum ATCC 48919	1346256	Penla1	v1.0		https://genome.jgi.doe.gov/portal/Penla1/download/Penla1_GeneCatalog_proteins_20130529.aa.fasta.gz
+Pseudogymnoascus sp. VKM F-4246	1420902	FALSE	Penicillium nalgiovense FM193	1439352	Pennal1		PMID:28368369	https://genome.jgi.doe.gov/portal/Pennal1/download/Pennal1_GeneCatalog_proteins_20170601.aa.fasta.gz
+Pseudogymnoascus sp. VKM F-4281 (FW-2241)	1420906	FALSE	Penicillium nordicum DAOMC 185683	229535	Pennord1		PMID:26734552	https://genome.jgi.doe.gov/portal/Pennord1/download/Pennord1_GeneCatalog_proteins_20181004.aa.fasta.gz
+Pseudogymnoascus sp. VKM F-4513 (FW-928)	1420907	FALSE	Penicillium oxalicum 114-2	933388	Penox1		PMID:23383313	https://genome.jgi.doe.gov/portal/Penox1/download/Penox1_GeneCatalog_proteins_20131211.aa.fasta.gz
+Pseudogymnoascus sp. VKM F-4514 (FW-929)	1420908	FALSE	Penicillium polonicum IBT 4502	60169	Penpol1		PMID:28368369	https://genome.jgi.doe.gov/portal/Penpol1/download/Penpol1_GeneCatalog_proteins_20170601.aa.fasta.gz
+Pseudogymnoascus sp. VKM F-4515 (FW-2607)	1420909	FALSE	Penicillium raistrickii ATCC 10490	1392252	Penra1	v1.0		https://genome.jgi.doe.gov/portal/Penra1/download/Penra1_GeneCatalog_proteins_20140107.aa.fasta.gz
+Pseudogymnoascus sp. VKM F-4516 (FW-969)	1420910	FALSE	Penicillium solitum IBT 29525	60172	Pensol1		PMID:28368369	https://genome.jgi.doe.gov/portal/Pensol1/download/Pensol1_GeneCatalog_proteins_20170601.aa.fasta.gz
+Pseudogymnoascus sp. VKM F-4517 (FW-2822)	1420911	FALSE	Penicillium sp. NC0857	5081	ThyNC0857_1	v1.0		https://genome.jgi.doe.gov/portal/ThyNC0857_1/download/ThyNC0857_1_GeneCatalog_proteins_20190123.aa.fasta.gz
+Pseudogymnoascus sp. VKM F-4518 (FW-2643)	1420913	FALSE	Penicillium steckii IBT 24891	303698	Penste1		PMID:28368369	https://genome.jgi.doe.gov/portal/Penste1/download/Penste1_GeneCatalog_proteins_20170601.aa.fasta.gz
+Pseudogymnoascus sp. VKM F-4519 (FW-2642)	1420914	FALSE	Penicillium subrubescens FBCC1632 / CBS132785	1316194	Pensub1		PMID:28216099	https://genome.jgi.doe.gov/portal/Pensub1/download/Pensub1_GeneCatalog_proteins_20160929.aa.fasta.gz
+Pseudogymnoascus sp. VKM F-4520 (FW-2644)	1420915	FALSE	Penicillium swiecickii 182 6C1	1295096	Penswi1	v1.0		https://genome.jgi.doe.gov/portal/Penswi1/download/Penswi1_GeneCatalog_proteins_20171024.aa.fasta.gz
+Pseudogymnoascus sp. WSF 3629	1622147	FALSE	Penicillium thymicola DAOMC 180753	293382	Penth1	v1.0	PMID:27521635	https://genome.jgi.doe.gov/portal/Penth1/download/Penth1_GeneCatalog_proteins_20150617.aa.fasta.gz
+Pseudogymnoascus verrucosus	342668	FALSE	Penicillium vulpinum IBT 29486	29845	Penvul1		PMID:28368369	https://genome.jgi.doe.gov/portal/Penvul1/download/Penvul1_GeneCatalog_proteins_20170601.aa.fasta.gz
+Pseudoloma neurophilia str. MK1	146866	FALSE	Peniophora sp.	1756134	Ricme1	v1.0	PMID:26659563	https://genome.jgi.doe.gov/portal/Ricme1/download/Ricme1_GeneCatalog_proteins_20130412.aa.fasta.gz
+Pseudomassariella vexata str. CBS 129021	1141098	FALSE	Peniophora sp. CONTA	1897082	Lopni1	v1.0	PMID:30886374	https://genome.jgi.doe.gov/portal/Lopni1/download/Lopni1_GeneCatalog_proteins_20150213.aa.fasta.gz
+Pseudomicrostroma glucosiphilum str. MCA 4718	1684307	FALSE	Periconia macrospinosa DSE2036	97972	Perma1	v1.0	PMID:29679020	https://genome.jgi.doe.gov/portal/Perma1/download/Perma1_GeneCatalog_proteins_20141217.aa.fasta.gz
+Pseudozyma hubeiensis SY62	1305764	FALSE	Pestalotiopsis sp. NC0098	36460	Pestal1	v1.0		https://genome.jgi.doe.gov/portal/Pestal1/download/Pestal1_GeneCatalog_proteins_20180925.aa.fasta.gz
+Puccinia coronata var. avenae f. sp. avenae	200324	FALSE	Peterozyma xylosa NRRL Y-12939	1337056	Petxy1		PMID:29760453	https://genome.jgi.doe.gov/portal/Petxy1/download/Petxy1_GeneCatalog_proteins_20181012.aa.fasta.gz
+Puccinia graminis	418459	FALSE	Peziza echinospora DOB1120	61495	Pezech1	v1.0		https://genome.jgi.doe.gov/portal/Pezech1/download/Pezech1_GeneCatalog_proteins_20180326.aa.fasta.gz
+Puccinia graminis Ug99	1040990	FALSE	Phaeoacremonium aleophilum UCRPA7	1286976	Phaal1		PMID:23814032	https://genome.jgi.doe.gov/portal/Phaal1/download/Phaal1_GeneCatalog_proteins_20130924.aa.fasta.gz
+Puccinia sorghi str. RO10H11247	27349	FALSE	Phaeoacremonium sp. FL0889	65412	PhaeoFL0889_1	v1.0		https://genome.jgi.doe.gov/portal/PhaeoFL0889_1/download/PhaeoFL0889_1_GeneCatalog_proteins_20170418.aa.fasta.gz
+Puccinia striiformis	27350	FALSE	Phaeomoniella chlamydospora UCRPC4	158046	Phach1		PMID:26084502	https://genome.jgi.doe.gov/portal/Phach1/download/Phach1_GeneCatalog_proteins_20150930.aa.fasta.gz
+Puccinia striiformis f. sp. tritici PST-130 str. Race 130	875184	FALSE	Phaeomoniellales  sp. NC0930	1618100	ClaNC0930_1	v1.0		https://genome.jgi.doe.gov/portal/ClaNC0930_1/download/ClaNC0930_1_GeneCatalog_proteins_20190124.aa.fasta.gz
+Puccinia striiformis f. sp. tritici PST-78	1165861	FALSE	Phaeosolenia platensis CBS 268.64	269161	Phapla1	v1.0		https://genome.jgi.doe.gov/portal/Phapla1/download/Phapla1_GeneCatalog_proteins_20180613.aa.fasta.gz
+Puccinia triticina	630390	FALSE	Phaeosphaeria poagena MPI-PUGE-AT-0046c	1508275	Phapo1	v1.0		https://genome.jgi.doe.gov/portal/Phapo1/download/Phapo1_GeneCatalog_proteins_20180321.aa.fasta.gz
+Punctularia strigosozonata HHB-11173 SS5	741275	FALSE	Phaeosphaeriaceae sp. PMI_808	5020	PhaPMI808	v1.0		https://genome.jgi.doe.gov/portal/PhaPMI808/download/PhaPMI808_GeneCatalog_proteins_20160324.aa.fasta.gz
+Purpureocillium lilacinum str. 36-1	33203	FALSE	Phanerochaete carnosa HHB-10118-Sp	650164	Phaca1	v1.0	PMID:22937793	https://genome.jgi.doe.gov/portal/Phaca1/download/Phaca1_GeneCatalog_proteins_20101213.aa.fasta.gz
+Pyrenochaeta sp. DS3sAY3a	765867	FALSE	Phanerochaete chrysosporium RP-78	273507	Phchr2	v2.2	PMID:24853079	https://genome.jgi.doe.gov/portal/Phchr2/download/Phchr2_GeneCatalog_proteins_20131210.aa.fasta.gz
+Pyrenophora teres	861557	FALSE	Phascolomyces articulosus	60185	Phaart1	v1.0		https://genome.jgi.doe.gov/portal/Phaart1/download/Phaart1_GeneCatalog_proteins_20160822.aa.fasta.gz
+Pyrenophora tritici-repentis Pt-1C-BFP	426418	FALSE	Phellinus ferrugineofuscus SpK3Phefer14	167367	Phefer1	v1.0		https://genome.jgi.doe.gov/portal/Phefer1/download/Phefer1_GeneCatalog_proteins_20170510.aa.fasta.gz
+Rachicladosporium antarcticum	1507870	FALSE	Phellinus igniarius CCBS 575	40472	Pheign1_1	v1.0		https://genome.jgi.doe.gov/portal/Pheign1_1/download/Pheign1_1_GeneCatalog_proteins_20180321.aa.fasta.gz
+Rachicladosporium sp. CCFEE 5018	1974281	FALSE	Phellopilus nigrolimitatus SigPhenig9	127956	Pheni1	v1.0		https://genome.jgi.doe.gov/portal/Pheni1/download/Pheni1_GeneCatalog_proteins_20180304.aa.fasta.gz
+Ramularia collo-cygni	112498	FALSE	Phialocephala scopiformis 5WS22E1	149040	Phisc1	v1.0	PMID:26950333	https://genome.jgi.doe.gov/portal/Phisc1/download/Phisc1_GeneCatalog_proteins_20150213.aa.fasta.gz
+Rasamsonia emersonii CBS 393.64	1408163	FALSE	Phialophora attae CBS 131958	1664694	Phiatt1		PMID:26586868	https://genome.jgi.doe.gov/portal/Phiatt1/download/Phiatt1_GeneCatalog_proteins_20170914.aa.fasta.gz
+Rhinocladiella mackenziei CBS 650.93	1442369	FALSE	Phlebia brevispora HHB-7030 SS6	747484	Phlbr1	v1.0	PMID:23935031	https://genome.jgi.doe.gov/portal/Phlbr1/download/Phlbr1_GeneCatalog_proteins_20110325.aa.fasta.gz
+Rhizoclosmatium globosum str. JEL800	329046	FALSE	Phlebia centrifuga FBCC195 	98765	Phlcen1		PMID:29622620	https://genome.jgi.doe.gov/portal/Phlcen1/download/Phlcen1_GeneCatalog_proteins_20160929.aa.fasta.gz
+Rhizoctonia solani	456999	FALSE	Phlebia radiata Fr. (isolate 79	5308	Phlrad1		PMID:27602055	https://genome.jgi.doe.gov/portal/Phlrad1/download/Phlrad1_GeneCatalog_proteins_20181020.aa.fasta.gz
+Rhizoctonia solani 123E	1423351	FALSE	Phlebiopsis gigantea	82310	Phlgi1	v1.0	PMID:25474575	https://genome.jgi.doe.gov/portal/Phlgi1/download/Phlgi1_GeneCatalog_proteins_20110614.aa.fasta.gz
+Rhizoctonia solani AG-1 IA str. AG1 IA	983506	FALSE	Phlebopus sp. FC_14	2060792	Pis20_1	v1.0		https://genome.jgi.doe.gov/portal/Pis20_1/download/Pis20_1_GeneCatalog_proteins_20190327.aa.fasta.gz
+Rhizoctonia solani AG-1 IB	1108050	FALSE	Pholiota alnicola AH 47727	109635	Phoaln1	v1.0		https://genome.jgi.doe.gov/portal/Phoaln1/download/Phoaln1_GeneCatalog_proteins_20160826.aa.fasta.gz
+Rhizoctonia solani AG-3 Rhs1AP	1086054	FALSE	Pholiota conissans CIRM-BRFM 674	109636	Phocon1	v1.0		https://genome.jgi.doe.gov/portal/Phocon1/download/Phocon1_GeneCatalog_proteins_20151025.aa.fasta.gz
+Rhizoctonia solani AG-8 WAC10335	1287689	FALSE	Pholiota highlandensis	181755	Phohig1	v1.0		https://genome.jgi.doe.gov/portal/Phohig1/download/Phohig1_GeneCatalog_proteins_20171206.aa.fasta.gz
+Rhizophagus clarus str. HR1	94130	FALSE	Phoma multirostrata 7a	73003	Phomu1	v1.0		https://genome.jgi.doe.gov/portal/Phomu1/download/Phomu1_GeneCatalog_proteins_20180815.aa.fasta.gz
+Rhizophagus irregularis DAOM 181602=DAOM 197198	747089	FALSE	Phoma tracheiphila IPT5	1408161	Photr1	v1.0		https://genome.jgi.doe.gov/portal/Photr1/download/Photr1_GeneCatalog_proteins_20140424.aa.fasta.gz
+Rhizophagus irregularis DAOM 197198w str. DAOM197198w	1432141	FALSE	Phycomyces blakesleeanus NRRL1555	763407	Phybl2	v2.0	PMID:27238284	https://genome.jgi.doe.gov/portal/Phybl2/download/Phycomyces_blakesleeanus_v2_filtered_proteins.fasta.gz
+Rhizopogon vesiculosus str. AM-OR11-056	180088	FALSE	Phycomyces blakesleeanus UBC1	4837	Phybla1	v1.0		https://genome.jgi.doe.gov/portal/Phybla1/download/Phybla1_GeneCatalog_proteins_20190111.aa.fasta.gz
+Rhizopogon vinicolor AM-OR11-026	1314800	FALSE	Phycomyces nitens S607	269771	PnitS607_1	v1.0		https://genome.jgi.doe.gov/portal/PnitS607_1/download/PnitS607_1_GeneCatalog_proteins_20170410.aa.fasta.gz
+Rhizopus delemar RA 99-880	246409	FALSE	Phyllosticta capitalensis CBS 128856	121624	Phycap1	v1.0		https://genome.jgi.doe.gov/portal/Phycap1/download/Phycap1_GeneCatalog_proteins_20170217.aa.fasta.gz
+Rhizopus microsporus ATCC 52813	1340429	FALSE	Phyllosticta citriasiana CBS 120486	595635	Phycit1	v1.0		https://genome.jgi.doe.gov/portal/Phycit1/download/Phycit1_GeneCatalog_proteins_20140925.aa.fasta.gz
+Rhizopus microsporus var. microsporus str. ATCC 52814	86635	FALSE	Phyllosticta citribraziliensis CBS 100098	989973	Phcit1	v1.0		https://genome.jgi.doe.gov/portal/Phcit1/download/Phcit1_GeneCatalog_proteins_20161221.aa.fasta.gz
+Rhodotorula graminis WP1	578459	FALSE	Phyllosticta citricarpa CBS 127454	55181	Phycitr1	v1.0		https://genome.jgi.doe.gov/portal/Phycitr1/download/Phycitr1_GeneCatalog_proteins_20170406.aa.fasta.gz
+Rhodotorula sp. JG-1b	1305733	FALSE	Phyllosticta citrichinaensis CBS 130529	1130410	Phcitr1	v1.0		https://genome.jgi.doe.gov/portal/Phcitr1/download/Phcitr1_GeneCatalog_proteins_20170113.aa.fasta.gz
+Rhodotorula taiwanensis str. MD1149	741276	FALSE	Phyllosticta paracitricarpa CBS 141357	1907483	Phy27169	v1.0		https://genome.jgi.doe.gov/portal/Phy27169/download/Phy27169_GeneCatalog_proteins_20170510.aa.fasta.gz
+Rhodotorula toruloides	5286	FALSE	Phyllosticta sp. CPC 27913	1882840	Phycpc1	v1.0		https://genome.jgi.doe.gov/portal/Phycpc1/download/Phycpc1_GeneCatalog_proteins_20170406.aa.fasta.gz
+Rhodotorula toruloides ATCC 204091	1001064	FALSE	Pichia kudriavzevii CBS573	4909	Pickud1		PMID:30024981	https://genome.jgi.doe.gov/portal/Pickud1/download/Pickud1_GeneCatalog_proteins_20181128.aa.fasta.gz
+Rhodotorula toruloides NP11	1130832	FALSE	Pichia membranifaciens	4926	Picme2	v2.0	PMID:27535936	https://genome.jgi.doe.gov/portal/Picme2/download/Picme2_GeneCatalog_proteins_20111110.aa.fasta.gz
+Rhynchosporium agropyri	914238	FALSE	Pichia pastoris	4922	Picpa1		PMID:19465926	https://genome.jgi.doe.gov/portal/Picpa1/download/Picpa1_GeneCatalog_proteins_20130227.aa.fasta.gz
+Rhynchosporium commune	914237	FALSE	Piedraia hortae	147573	Pieho1_1	v1.1		https://genome.jgi.doe.gov/portal/Pieho1_1/download/Pieho1_1_GeneCatalog_proteins_20130807.aa.fasta.gz
+Rhynchosporium secalis	38038	FALSE	Pilaira anomala RSA1997	64641	Pilano1	v1.0		https://genome.jgi.doe.gov/portal/Pilano1/download/Pilano1_GeneCatalog_proteins_20161117.aa.fasta.gz
+Rosellinia necatrix str. W97	77044	FALSE	Pilobolus umbonatus NRRL 6349	101123	Pilumb1	v1.0		https://genome.jgi.doe.gov/portal/Pilumb1/download/Pilumb1_GeneCatalog_proteins_20170307.aa.fasta.gz
+Rozella allomycis CSF55	988480	FALSE	Piloderma croceum F 1598	765440	Pilcr1	v1.0	PMID:25706625	https://genome.jgi.doe.gov/portal/Pilcr1/download/Pilcr1_GeneCatalog_proteins_20120328.aa.fasta.gz
+Rutstroemia sp. NJR-2017a BBW	2070414	FALSE	Piptocephalis cylindrospora RSA 2659 single-cell	1907219	Pipcy3_1	v3.0	PMID:30297742	https://genome.jgi.doe.gov/portal/Pipcy3_1/download/Pipcy3_1_GeneCatalog_proteins_20160615.aa.fasta.gz
+Rutstroemia sp. NJR-2017a BVV2	2070413	FALSE	Piriformospora indica DSM 11827 from MPI	1109443	Pirin1		PMID:22022265	https://genome.jgi.doe.gov/portal/Pirin1/download/Pirin1_GeneCatalog_proteins_20111203.aa.fasta.gz
+Rutstroemia sp. NJR-2017a WRK4	2070412	FALSE	Piromyces finnis	1754191	Pirfi3	v3.0	PMID:28555641	https://genome.jgi.doe.gov/portal/Pirfi3/download/Pirfi3_GeneCatalog_proteins_20160330.aa.fasta.gz
+Saccharomyces arboricola H-6	1160507	FALSE	Piromyces sp. E2	73868	PirE2_1	v1.0	PMID:28555641	https://genome.jgi.doe.gov/portal/PirE2_1/download/PirE2_1_GeneCatalog_proteins_20110421.aa.fasta.gz
+Saccharomyces cerevisiae	559292	FALSE	Pisolithus albus SI12	178870	Pisalb1	v1.0		https://genome.jgi.doe.gov/portal/Pisalb1/download/Pisalb1_GeneCatalog_proteins_20180801.aa.fasta.gz
+Saccharomyces cerevisiae CEN.PK113-7D	889517	FALSE	Pisolithus croceorrhizus subspA 74A	2060934	Piscro1	v1.0		https://genome.jgi.doe.gov/portal/Piscro1/download/Piscro1_GeneCatalog_proteins_20180803.aa.fasta.gz
+Saccharomyces cerevisiae EC1118	643680	FALSE	Pisolithus marmoratus ssp. 2 16A	178871	Pismar1	v1.0		https://genome.jgi.doe.gov/portal/Pismar1/download/Pismar1_GeneCatalog_proteins_20180803.aa.fasta.gz
+Saccharomyces cerevisiae FostersB	764102	FALSE	Pisolithus microcarpus 441	765257	Pismi1	v1.0	PMID:25706625	https://genome.jgi.doe.gov/portal/Pismi1/download/Pismi1_GeneCatalog_proteins_20120412.aa.fasta.gz
+Saccharomyces cerevisiae FostersO	764101	FALSE	Pisolithus thermaeus 11	2136032	Pisthe1	v1.0		https://genome.jgi.doe.gov/portal/Pisthe1/download/Pisthe1_GeneCatalog_proteins_20180803.aa.fasta.gz
+Saccharomyces cerevisiae Kyokai no. 7 str. kyokai no. 7	721032	FALSE	Pisolithus tinctorius Marx 270	870435	Pisti1	v1.0	PMID:25706625	https://genome.jgi.doe.gov/portal/Pisti1/download/Pisti1_GeneCatalog_proteins_20120410.aa.fasta.gz
+Saccharomyces cerevisiae Lalvin QA23	764098	FALSE	Plectania melastoma CBS 918.72	1280572	Plemel1	v1.0		https://genome.jgi.doe.gov/portal/Plemel1/download/Plemel1_GeneCatalog_proteins_20160326.aa.fasta.gz
+Saccharomyces cerevisiae P283	1177187	FALSE	Plectosphaerella cucumerina DS2psM2a2	40658	Plecu1	v1.0		https://genome.jgi.doe.gov/portal/Plecu1/download/Plecu1_GeneCatalog_proteins_20150512.aa.fasta.gz
+Saccharomyces cerevisiae P301	1182968	FALSE	Pleomassaria siparia	100044	Plesi1	v1.0		https://genome.jgi.doe.gov/portal/Plesi1/download/Plesi1_GeneCatalog_proteins_20130603.aa.fasta.gz
+Saccharomyces cerevisiae R103	1182967	FALSE	Pleospora avicennia ATCC 66911	193131	Pleav1	v1.0		https://genome.jgi.doe.gov/portal/Pleav1/download/Pleav1_GeneCatalog_proteins_20180620.aa.fasta.gz
+Saccharomyces cerevisiae RM11-1a	285006	FALSE	Pleurotus eryngii ATCC 90797	5323	Pleery1	v1.0		https://genome.jgi.doe.gov/portal/Pleery1/download/Pleery1_GeneCatalog_proteins_20150629.aa.fasta.gz
+Saccharomyces cerevisiae Vin13	764099	FALSE	Pleurotus ostreatus PC15	1137138	PleosPC15_2	v2.0	PMID:24958869	https://genome.jgi.doe.gov/portal/PleosPC15_2/download/PleosPC15_2_GeneModels_FilteredModels1_aa.fasta.gz
+Saccharomyces cerevisiae VL3	764100	FALSE	Pleurotus ostreatus PC9	1137139	PleosPC9_1	v1.0	PMID:27117896	https://genome.jgi.doe.gov/portal/PleosPC9_1/download/PleosPC9_1_GeneModels_Filteredmodels2_aa.fasta.gz
+Saccharomyces cerevisiae x Saccharomyces kudriavzevii VIN7	1095631	FALSE	Plicaturopsis crispa	139390	Plicr1	v1.0	PMID:25706625	https://genome.jgi.doe.gov/portal/Plicr1/download/Plicr1_GeneCatalog_proteins_20111115.aa.fasta.gz
+Saccharomyces cerevisiae YJM1078	1296266	FALSE	Pluteus cervinus NL-1719	181527	Plucer1	v1.0	PMID:30886374	https://genome.jgi.doe.gov/portal/Plucer1/download/Plucer1_GeneCatalog_proteins_20151119.aa.fasta.gz
+Saccharomyces cerevisiae YJM1083	1292971	FALSE	Pneumocystis jirovecii	42068	Pneji1		PMID:23269827	https://genome.jgi.doe.gov/portal/Pneji1/download/Pneji1_GeneCatalog_proteins_20130607.aa.fasta.gz
+Saccharomyces cerevisiae YJM1129	1293430	FALSE	Pochonia chlamydosporia 170	1380566	Pocchl1		PMID:27416025	https://genome.jgi.doe.gov/portal/Pocchl1/download/Pocchl1_GeneCatalog_proteins_20170916.aa.fasta.gz
+Saccharomyces cerevisiae YJM1133	1294333	FALSE	Podospora anserina mat+	5145	Podans1	v1.0		https://genome.jgi.doe.gov/portal/Podans1/download/Podans1_GeneCatalog_proteins_20171002.aa.fasta.gz
+Saccharomyces cerevisiae YJM1190	1294334	FALSE	Podospora anserina S mat+	515849	Podan3		PMID:18460219	https://genome.jgi.doe.gov/portal/Podan3/download/Podan3_GeneCatalog_proteins_20171013.aa.fasta.gz
+Saccharomyces cerevisiae YJM1199	1294335	FALSE	Podospora appendiculata CBS 314.62	314037	Podap1	v1.0		https://genome.jgi.doe.gov/portal/Podap1/download/Podap1_GeneCatalog_proteins_20180511.aa.fasta.gz
+Saccharomyces cerevisiae YJM1202	1294336	FALSE	Podospora curvicolla TEP21a	48157	Podcur1	v1.0		https://genome.jgi.doe.gov/portal/Podcur1/download/Podcur1_GeneCatalog_proteins_20151211.aa.fasta.gz
+Saccharomyces cerevisiae YJM1208	1294337	FALSE	Podospora didyma CBS 232.78	330526	Poddi1	v1.0		https://genome.jgi.doe.gov/portal/Poddi1/download/Poddi1_GeneCatalog_proteins_20171014.aa.fasta.gz
+Saccharomyces cerevisiae YJM1242	1294338	FALSE	Polychaeton citri	705562	Polci1	v1.0		https://genome.jgi.doe.gov/portal/Polci1/download/Polci1_GeneCatalog_proteins_20130311.aa.fasta.gz
+Saccharomyces cerevisiae YJM1244	1294339	FALSE	Polyplosphaeria fusca CBS 125425	682080	Polfu1	v1.0		https://genome.jgi.doe.gov/portal/Polfu1/download/Polfu1_GeneCatalog_proteins_20140813.aa.fasta.gz
+Saccharomyces cerevisiae YJM1248	1294340	FALSE	Polyporus arcularius	5639	Polar1	v1.0	PMID:30886374	https://genome.jgi.doe.gov/portal/Polar1/download/Polar1_GeneCatalog_proteins_20130201.aa.fasta.gz
+Saccharomyces cerevisiae YJM1250	1294341	FALSE	Polyporus brumalis BRFM 1820	139420	Polbr1	v1.0	PMID:30061923	https://genome.jgi.doe.gov/portal/Polbr1/download/Polbr1_GeneCatalog_proteins_20150501.aa.fasta.gz
+Saccharomyces cerevisiae YJM1252	1294342	FALSE	Polyporus squamosus CCBS 676	5640	Polsqu1	v1.0		https://genome.jgi.doe.gov/portal/Polsqu1/download/Polsqu1_GeneCatalog_proteins_20170821.aa.fasta.gz
+Saccharomyces cerevisiae YJM1273	1294343	FALSE	Porodaedalea chrysoloma FP-135951	74615	Porchr1	v1.0		https://genome.jgi.doe.gov/portal/Porchr1/download/Porchr1_GeneCatalog_proteins_20160628.aa.fasta.gz
+Saccharomyces cerevisiae YJM1304	1294344	FALSE	Porodaedalea niemelaei PN71-100-IP13	175858	Pornie1_2	v1.0		https://genome.jgi.doe.gov/portal/Pornie1_2/download/Pornie1_2_GeneCatalog_proteins_20160504.aa.fasta.gz
+Saccharomyces cerevisiae YJM1307	1294345	FALSE	Porpomyces mucidus OMC1666	156595	Pormuc1	v1.0		https://genome.jgi.doe.gov/portal/Pormuc1/download/Pormuc1_GeneCatalog_proteins_20190110.aa.fasta.gz
+Saccharomyces cerevisiae YJM1311	1294346	FALSE	Postia placenta MAD 698-R	561896	Pospl1	v1.0	PMID:19193860	https://genome.jgi.doe.gov/portal/Pospl1/download/Pospl1_FilteredModels2_proteins.fasta.gz
+Saccharomyces cerevisiae YJM1326	1294347	FALSE	Postia placenta MAD-698-R-SB12	670580	PosplRSB12_1	v1.0	PMID:28831381	https://genome.jgi.doe.gov/portal/PosplRSB12_1/download/PosplRSB12_1_GeneCatalog_proteins_20111103.aa.fasta.gz
+Saccharomyces cerevisiae YJM1332	1294348	FALSE	Postia stiptica OMC1664	544579	Possti1	v1.0		https://genome.jgi.doe.gov/portal/Possti1/download/Possti1_GeneCatalog_proteins_20180909.aa.fasta.gz
+Saccharomyces cerevisiae YJM1336	1294349	FALSE	Powellomyces hirtus BR81	109895	Powhir1	v1.0		https://genome.jgi.doe.gov/portal/Powhir1/download/Powhir1_GeneCatalog_proteins_20180423.aa.fasta.gz
+Saccharomyces cerevisiae YJM1338	1294350	FALSE	Protomyces inouyei	27332	Proin1			https://genome.jgi.doe.gov/portal/Proin1/download/Proin1_GeneCatalog_proteins_20130808.aa.fasta.gz
+Saccharomyces cerevisiae YJM1341	1294351	FALSE	Protomyces lactucaedebilis 12-1054	56484	Prola1	v1.0	PMID:28481340	https://genome.jgi.doe.gov/portal/Prola1/download/Prola1_GeneCatalog_proteins_20160129.aa.fasta.gz
+Saccharomyces cerevisiae YJM1342	1294352	FALSE	Pseudocercospora (Mycosphaerella) fijiensis	1873960	Mycfi2	v2.0	PMID:27512984	https://genome.jgi.doe.gov/portal/Mycfi2/download/Mfijiensis_v2.FrozenGeneCatalog_20100402.proteins.fasta.gz
+Saccharomyces cerevisiae YJM1355	1294353	FALSE	Pseudographis elatina	1695903	Pseel1			https://genome.jgi.doe.gov/portal/Pseel1/download/Pseel1_GeneCatalog_proteins_20130808.aa.fasta.gz
+Saccharomyces cerevisiae YJM1356	1294354	FALSE	Pseudogymnoascus destructans 20631-21	658429	Pseudest1		PMID:27365344	https://genome.jgi.doe.gov/portal/Pseudest1/download/Pseudest1_GeneCatalog_proteins_20170919.aa.fasta.gz
+Saccharomyces cerevisiae YJM1381	1294355	FALSE	Pseudomassariella vexata CBS 129021	1141098	Pseve2	v1.0	PMID:28481340	https://genome.jgi.doe.gov/portal/Pseve2/download/Pseve2_GeneCatalog_proteins_20160326.aa.fasta.gz
+Saccharomyces cerevisiae YJM1383	1294356	FALSE	Pseudomicrostroma glucosiphilum gen et sp. nov. MCA 4718	1684307	Rhodsp1	v1.0	PMID:29771364	https://genome.jgi.doe.gov/portal/Rhodsp1/download/Rhodsp1_GeneCatalog_proteins_20150111.aa.fasta.gz
+Saccharomyces cerevisiae YJM1385	1294357	FALSE	Pseudovirgaria hyperparasitica CBS 121739	470096	Psehy1	v1.0		https://genome.jgi.doe.gov/portal/Psehy1/download/Psehy1_GeneCatalog_proteins_20140829.aa.fasta.gz
+Saccharomyces cerevisiae YJM1386	1294358	FALSE	Pseudozyma antarctica T-34	1151754	Psean1_1		PMID:23558529	https://genome.jgi.doe.gov/portal/Psean1_1/download/Psean1_1_GeneCatalog_proteins_20140109.aa.fasta.gz
+Saccharomyces cerevisiae YJM1387	1294359	FALSE	Pseudozyma hubeiensis SY62	1305764	Psehu1		PMID:23814110	https://genome.jgi.doe.gov/portal/Psehu1/download/Psehu1_GeneCatalog_proteins_20130926.aa.fasta.gz
+Saccharomyces cerevisiae YJM1388	1294360	FALSE	Psilocybe cubensis	181762	Psicub1_1	v1.0	PMID:28763571	https://genome.jgi.doe.gov/portal/Psicub1_1/download/Psicub1_1_GeneCatalog_proteins_20180416.aa.fasta.gz
+Saccharomyces cerevisiae YJM1389	1294361	FALSE	Psilocybe serbica	797126	Psiser1	v1.0	PMID:28763571	https://genome.jgi.doe.gov/portal/Psiser1/download/Psiser1_GeneCatalog_proteins_20180612.aa.fasta.gz
+Saccharomyces cerevisiae YJM1399	1294362	FALSE	Pterula gracilis CBS309.79	1884261	Ptegra1	v1.0	PMID:30886374	https://genome.jgi.doe.gov/portal/Ptegra1/download/Ptegra1_GeneCatalog_proteins_20151205.aa.fasta.gz
+Saccharomyces cerevisiae YJM1400	1294363	FALSE	Puccinia coronata avenae 12NC29	860303	PuccoNC29_1		PMID:28846186	https://genome.jgi.doe.gov/portal/PuccoNC29_1/download/PuccoNC29_1_GeneCatalog_proteins_20170808.aa.fasta.gz
+Saccharomyces cerevisiae YJM1401	1294364	FALSE	Puccinia coronata avenae 12SD80	27344	PuccoSD80_1		PMID:28846186	https://genome.jgi.doe.gov/portal/PuccoSD80_1/download/PuccoSD80_1_GeneCatalog_proteins_20170808.aa.fasta.gz
+Saccharomyces cerevisiae YJM1402	1294365	FALSE	Puccinia graminis f. sp. tritici	56615	Pucgr2	v2.0	PMID:21536894	https://genome.jgi.doe.gov/portal/Pucgr2/download/Pucgr2_GeneCatalog_proteins_20150718.aa.fasta.gz
+Saccharomyces cerevisiae YJM1415	1294366	FALSE	Puccinia striiformis f. sp. tritici 104 E137 A-	27350	Pucstr1		PMID:29463659	https://genome.jgi.doe.gov/portal/Pucstr1/download/Pucstr1_GeneCatalog_proteins_20170922.aa.fasta.gz
+Saccharomyces cerevisiae YJM1417	1294367	FALSE	Puccinia striiformis f. sp. tritici PST-130 	875184	Pucst1		PMID:21909385	https://genome.jgi.doe.gov/portal/Pucst1/download/Pucst1_GeneCatalog_proteins_20130920.aa.fasta.gz
+Saccharomyces cerevisiae YJM1418	1294368	FALSE	Puccinia striiformis f. sp. tritici PST-78	1165861	Pucst_PST78_1	v1.0	PMID:27913634	https://genome.jgi.doe.gov/portal/Pucst_PST78_1/download/Pucst_PST78_1_GeneCatalog_proteins_20160608.aa.fasta.gz
+Saccharomyces cerevisiae YJM1419	1294369	FALSE	Puccinia triticina 1-1 BBBD Race 1	630390	Puctr1		PMID:27913634	https://genome.jgi.doe.gov/portal/Puctr1/download/Puctr1_GeneCatalog_proteins_20131203.aa.fasta.gz
+Saccharomyces cerevisiae YJM1433	1294370	FALSE	Punctularia strigosozonata	202698	Punst1	v1.0	PMID:22745431	https://genome.jgi.doe.gov/portal/Punst1/download/Punst1_GeneCatalog_proteins_20101026.aa.fasta.gz
+Saccharomyces cerevisiae YJM1434	1294371	FALSE	Purpureocillium sp. UdeA0106	1323837	Pursp1	v1.0		https://genome.jgi.doe.gov/portal/Pursp1/download/Pursp1_GeneCatalog_proteins_20160908.aa.fasta.gz
+Saccharomyces cerevisiae YJM1439	1294372	FALSE	Pycnoporus cinnabarinus BRFM 137	1445587	Pycci1		PMID:24942338	https://genome.jgi.doe.gov/portal/Pycci1/download/Pycci1_GeneCatalog_proteins_20140109.aa.fasta.gz
+Saccharomyces cerevisiae YJM1443	1294373	FALSE	Pycnoporus cinnabarinus CIRM-BRFM 50	5643	Pyccin1	v1.0		https://genome.jgi.doe.gov/portal/Pyccin1/download/Pyccin1_GeneCatalog_proteins_20170112.aa.fasta.gz
+Saccharomyces cerevisiae YJM1444	1294374	FALSE	Pycnoporus coccineus BRFM 310	1353009	Pycco1	v1.0		https://genome.jgi.doe.gov/portal/Pycco1/download/Pycco1_GeneCatalog_proteins_20140114.aa.fasta.gz
+Saccharomyces cerevisiae YJM1447	1294375	FALSE	Pycnoporus coccineus CIRM1662	158605	Pycco1662_1			https://genome.jgi.doe.gov/portal/Pycco1662_1/download/Pycco1662_1_GeneCatalog_proteins_20140607.aa.fasta.gz
+Saccharomyces cerevisiae YJM1450	1294376	FALSE	Pycnoporus puniceus CIRM-BRFM 1868	571087	Pycpun1	v1.0		https://genome.jgi.doe.gov/portal/Pycpun1/download/Pycpun1_GeneCatalog_proteins_20160226.aa.fasta.gz
+Saccharomyces cerevisiae YJM1460	1294377	FALSE	Pycnoporus sanguineus BRFM 1264	158606	Pycsa1	v1.0		https://genome.jgi.doe.gov/portal/Pycsa1/download/Pycsa1_GeneCatalog_proteins_20140123.aa.fasta.gz
+Saccharomyces cerevisiae YJM1463	1294378	FALSE	Pyrenochaeta lycopersici MPI-SDFR-AT-0127	285811	Pyrly1	v1.0		https://genome.jgi.doe.gov/portal/Pyrly1/download/Pyrly1_GeneCatalog_proteins_20170623.aa.fasta.gz
+Saccharomyces cerevisiae YJM1477	1294379	FALSE	Pyrenochaeta sp. DS3sAY3a	285810	Pyrsp1	v1.0	PMID:27434633	https://genome.jgi.doe.gov/portal/Pyrsp1/download/Pyrsp1_GeneCatalog_proteins_20141006.aa.fasta.gz
+Saccharomyces cerevisiae YJM1478	1294380	FALSE	Pyrenophora teres f. teres	97479	Pyrtt1		PMID:21067574	https://genome.jgi.doe.gov/portal/Pyrtt1/download/Pyrtt1_GeneCatalog_proteins_20110408.aa.fasta.gz
+Saccharomyces cerevisiae YJM1479	1294381	FALSE	Pyrenophora tritici-repentis	45151	Pyrtr1		PMID:23316438	https://genome.jgi.doe.gov/portal/Pyrtr1/download/Pyrenophora_tritici_repentis_proteins.fasta.gz
+Saccharomyces cerevisiae YJM1526	1294382	FALSE	Pyronema confluens CBS100304	1076935	Pyrco1		PMID:24068976	https://genome.jgi.doe.gov/portal/Pyrco1/download/Pyrco1_GeneCatalog_proteins_20131110.aa.fasta.gz
+Saccharomyces cerevisiae YJM1527	1294383	FALSE	Pyronema domesticum DOB7353	47205	Pyrdom1	v1.0		https://genome.jgi.doe.gov/portal/Pyrdom1/download/Pyrdom1_GeneCatalog_proteins_20181004.aa.fasta.gz
+Saccharomyces cerevisiae YJM1549	1294384	FALSE	Pyronema omphalodes DOB1672	337075	Pyrom1	v1.0		https://genome.jgi.doe.gov/portal/Pyrom1/download/Pyrom1_GeneCatalog_proteins_20181022.aa.fasta.gz
+Saccharomyces cerevisiae YJM1573	1294385	FALSE	Radiomyces spectabilis NRRL 2753	64574	Radspe1	v1.0		https://genome.jgi.doe.gov/portal/Radspe1/download/Radspe1_GeneCatalog_proteins_20161011.aa.fasta.gz
+Saccharomyces cerevisiae YJM1574	1294386	FALSE	Radulomyces confluens OMC1631	264109	Radcon1	v1.0		https://genome.jgi.doe.gov/portal/Radcon1/download/Radcon1_GeneCatalog_proteins_20181201.aa.fasta.gz
+Saccharomyces cerevisiae YJM1592	1294387	FALSE	Ramaria rubella (R. acris) UT-36052-T	113071	Ramac1	v1.0		https://genome.jgi.doe.gov/portal/Ramac1/download/Ramac1_GeneCatalog_proteins_20140310.aa.fasta.gz
+Saccharomyces cerevisiae YJM1615	1294388	FALSE	Ramicandelaber brevisporus CBS 109374	304332	Rambr1	v1.0		https://genome.jgi.doe.gov/portal/Rambr1/download/Rambr1_GeneCatalog_proteins_20140929.aa.fasta.gz
+Saccharomyces cerevisiae YJM189	1294303	FALSE	Rhamphospora nymphaeae CBS 172.38	62645	Rhanym2_1	v1.0		https://genome.jgi.doe.gov/portal/Rhanym2_1/download/Rhanym2_1_GeneCatalog_proteins_20181022.aa.fasta.gz
+Saccharomyces cerevisiae YJM193	1294304	FALSE	Rhexocercosporidium sp. MPI-PUGE-AT-0058	1756112	Rhesp1	v1.0		https://genome.jgi.doe.gov/portal/Rhesp1/download/Rhesp1_GeneCatalog_proteins_20171207.aa.fasta.gz
+Saccharomyces cerevisiae YJM195	1294305	FALSE	Rhizina undulata CBS 300.56	44645	Rhiund1	v1.0		https://genome.jgi.doe.gov/portal/Rhiund1/download/Rhiund1_GeneCatalog_proteins_20190327.aa.fasta.gz
+Saccharomyces cerevisiae YJM244	1294306	FALSE	Rhizoclosmatium globosum JEL800	329046	Rhihy1	v1.0	PMID:28481340	https://genome.jgi.doe.gov/portal/Rhihy1/download/Rhihy1_GeneCatalog_proteins_20151219.aa.fasta.gz
+Saccharomyces cerevisiae YJM248	1294307	FALSE	Rhizoctonia solani AG-1 IB	1108050	Rhiso1		PMID:23280342	https://genome.jgi.doe.gov/portal/Rhiso1/download/Rhiso1_GeneCatalog_proteins_20131028.aa.fasta.gz
+Saccharomyces cerevisiae YJM270	1294308	FALSE	Rhizodiscina lignyota CBS 133067	1504668	Rhili1	v1.0		https://genome.jgi.doe.gov/portal/Rhili1/download/Rhili1_GeneCatalog_proteins_20150422.aa.fasta.gz
+Saccharomyces cerevisiae YJM271	1294309	FALSE	Rhizophagus cerebriforme DAOM 227022	658196	Rhice1_1	v1.0	PMID:30636349	https://genome.jgi.doe.gov/portal/Rhice1_1/download/Rhice1_1_GeneCatalog_proteins_20160727.aa.fasta.gz
+Saccharomyces cerevisiae YJM320	947042	FALSE	Rhizophagus diaphanus	118614	Rhidi1	v1.0	PMID:30636349	https://genome.jgi.doe.gov/portal/Rhidi1/download/Rhidi1_GeneCatalog_proteins_20160421.aa.fasta.gz
+Saccharomyces cerevisiae YJM326	468558	FALSE	Rhizophagus irregularis A1	588596	RhiirA1_1	v1.0	PMID:29355972	https://genome.jgi.doe.gov/portal/RhiirA1_1/download/RhiirA1_1_GeneCatalog_proteins_20150518.aa.fasta.gz
+Saccharomyces cerevisiae YJM428	947044	FALSE	Rhizophagus irregularis B3	1330081	RhiirB3	v1.0	PMID:29355972	https://genome.jgi.doe.gov/portal/RhiirB3/download/RhiirB3_GeneCatalog_proteins_20150616.aa.fasta.gz
+Saccharomyces cerevisiae YJM450	1294310	FALSE	Rhizophagus irregularis DAOM 197198	747089	Rhiir2_1	v2.0	PMID:29355972	https://genome.jgi.doe.gov/portal/Rhiir2_1/download/Rhiir2_1_GeneCatalog_proteins_20160502.aa.fasta.gz
+Saccharomyces cerevisiae YJM451	502869	FALSE	Rhizopogon salebrosus TDB-379	632084	Rhisa1	v1.0		https://genome.jgi.doe.gov/portal/Rhisa1/download/Rhisa1_GeneCatalog_proteins_20141012.aa.fasta.gz
+Saccharomyces cerevisiae YJM453	1294311	FALSE	Rhizopogon truncatus FC74	98235	Rhitru1	v1.0		https://genome.jgi.doe.gov/portal/Rhitru1/download/Rhitru1_GeneCatalog_proteins_20180422.aa.fasta.gz
+Saccharomyces cerevisiae YJM456	1294312	FALSE	Rhizopogon vesiculosus Smith	180088	Rhives1		PMID:28450370	https://genome.jgi.doe.gov/portal/Rhives1/download/Rhives1_GeneCatalog_proteins_20170403.aa.fasta.gz
+Saccharomyces cerevisiae YJM470	1294313	FALSE	Rhizopogon vinicolor AM-OR11-026	1314800	Rhivi1	v1.0	PMID:28450370	https://genome.jgi.doe.gov/portal/Rhivi1/download/Rhivi1_GeneCatalog_proteins_20140605.aa.fasta.gz
+Saccharomyces cerevisiae YJM541	1294314	FALSE	Rhizopogon vulgaris FC72	36057	Rhivul1	v1.0		https://genome.jgi.doe.gov/portal/Rhivul1/download/Rhivul1_GeneCatalog_proteins_20180423.aa.fasta.gz
+Saccharomyces cerevisiae YJM554	1294315	FALSE	Rhizopus delemar 99-880 from Broad	246409	Rhior3		PMID:19578406	https://genome.jgi.doe.gov/portal/Rhior3/download/Rhior3_proteins.fasta.gz
+Saccharomyces cerevisiae YJM555	1294316	FALSE	Rhizopus microsporus ATCC11559	58291	Rhimi_ATCC11559_1	v1.0	PMID:27956601	https://genome.jgi.doe.gov/portal/Rhimi_ATCC11559_1/download/Rhimi_ATCC11559_1_GeneCatalog_proteins_20150408.aa.fasta.gz
+Saccharomyces cerevisiae YJM627	1294317	FALSE	Rhizopus microsporus var. chinensis CCTCC M201021	1271458	Rhich1		PMID:23516228	https://genome.jgi.doe.gov/portal/Rhich1/download/Rhich1_GeneCatalog_proteins_20131210.aa.fasta.gz
+Saccharomyces cerevisiae YJM681	1294318	FALSE	Rhizopus microsporus var. microsporus ATCC52813	86635	Rhimi1_1	v1.0	PMID:29184190	https://genome.jgi.doe.gov/portal/Rhimi1_1/download/Rhimi1_1_GeneCatalog_proteins_20130624.aa.fasta.gz
+Saccharomyces cerevisiae YJM682	1294319	FALSE	Rhizopus stolonifer NRRL 66455	4846	Rhisto1	v1.0		https://genome.jgi.doe.gov/portal/Rhisto1/download/Rhisto1_GeneCatalog_proteins_20190501.aa.fasta.gz
+Saccharomyces cerevisiae YJM683	1294320	FALSE	Rhizoscyphus ericae UAMH 7357	1745343	Rhier1	v1.0	PMID:29315638	https://genome.jgi.doe.gov/portal/Rhier1/download/Rhier1_GeneCatalog_proteins_20141012.aa.fasta.gz
+Saccharomyces cerevisiae YJM689	1294321	FALSE	Rhodocollybia butyracea CCBAS 279	206335	Rhobu1	v1.0		https://genome.jgi.doe.gov/portal/Rhobu1/download/Rhobu1_GeneCatalog_proteins_20180801.aa.fasta.gz
+Saccharomyces cerevisiae YJM693	1294322	FALSE	Rhodofomes roseus CIRM-BRFM 1785	34475	Fomros1	v1.0		https://genome.jgi.doe.gov/portal/Fomros1/download/Fomros1_GeneCatalog_proteins_20171027.aa.fasta.gz
+Saccharomyces cerevisiae YJM789	307796	FALSE	Rhodosporidium diobovatum 08-225	5288	Rhodia1_1	v1.0		https://genome.jgi.doe.gov/portal/Rhodia1_1/download/Rhodia1_1_GeneCatalog_proteins_20180403.aa.fasta.gz
+Saccharomyces cerevisiae YJM969	1294323	FALSE	Rhodosporidium toruloides IFO0880	5286	Rhoto_IFO0880_4	v4.0	PMID:29521624	https://genome.jgi.doe.gov/portal/Rhoto_IFO0880_4/download/Rhoto_IFO0880_4_GeneCatalog_proteins_20170509.aa.fasta.gz
+Saccharomyces cerevisiae YJM972	1294324	FALSE	Rhodosporidium toruloides NP11	1130832	Rhoto1		PMID:23047670	https://genome.jgi.doe.gov/portal/Rhoto1/download/Rhoto1_GeneCatalog_proteins_20141208.aa.fasta.gz
+Saccharomyces cerevisiae YJM975	1294325	FALSE	Rhodotorula glutinis	5535	Rhoglu1	v1.0		https://genome.jgi.doe.gov/portal/Rhoglu1/download/Rhoglu1_GeneCatalog_proteins_20160519.aa.fasta.gz
+Saccharomyces cerevisiae YJM978	1294326	FALSE	Rhodotorula graminis strain WP1	578459	Rhoba1_1	v1.1	PMID:26441909	https://genome.jgi.doe.gov/portal/Rhoba1_1/download/Rhoba1_1_GeneCatalog_proteins_20100913.aa.fasta.gz
+Saccharomyces cerevisiae YJM981	1294327	FALSE	Rhodotorula mucilaginosa ATCC58901	5537	Rhomuc1	v1.0		https://genome.jgi.doe.gov/portal/Rhomuc1/download/Rhomuc1_GeneCatalog_proteins_20160519.aa.fasta.gz
+Saccharomyces cerevisiae YJM984	1294328	FALSE	Rhodotorula sp. J31	1853554	RhodotJ31_1	v1.0		https://genome.jgi.doe.gov/portal/RhodotJ31_1/download/RhodotJ31_1_GeneCatalog_proteins_20160519.aa.fasta.gz
+Saccharomyces cerevisiae YJM987	1294329	FALSE	Rhodotorula sp. JG-1b	1305733	Rhosp1		PMID:26988035	https://genome.jgi.doe.gov/portal/Rhosp1/download/Rhosp1_GeneCatalog_proteins_20140409.aa.fasta.gz
+Saccharomyces cerevisiae YJM990	1294330	FALSE	Rhytidhysteron rufulum	37885	Rhyru1_1		PMID:23236275	https://genome.jgi.doe.gov/portal/Rhyru1_1/download/Rhyru1_1_GeneCatalog_proteins_20150204.aa.fasta.gz
+Saccharomyces cerevisiae YJM993	1294331	FALSE	Rickenella fibula HBK330-10	264144	Ricfib1	v1.0		https://genome.jgi.doe.gov/portal/Ricfib1/download/Ricfib1_GeneCatalog_proteins_20160317.aa.fasta.gz
+Saccharomyces cerevisiae YJM996	1294332	FALSE	Rickenella mellea	50990	Ricmel1	v1.0 (SZMC22713)	PMID:30902897	https://genome.jgi.doe.gov/portal/Ricmel1/download/Ricmel1_GeneCatalog_proteins_20151108.aa.fasta.gz
+Saccharomyces eubayanus str. FM1318	1080349	FALSE	Rigidoporus microporus ED310	219653	Rigmic1	v1.0		https://genome.jgi.doe.gov/portal/Rigmic1/download/Rigmic1_GeneCatalog_proteins_20170307.aa.fasta.gz
+Saccharomyces kudriavzevii IFO 1802	226230	FALSE	Roridomyces roridus 9284	1738132	Rorror1	v1.0		https://genome.jgi.doe.gov/portal/Rorror1/download/Rorror1_GeneCatalog_proteins_20190202.aa.fasta.gz
+Saccharomyces sp. 'boulardii' str. biocodex	252598	FALSE	Rozella allomycis CSF55	988480	Rozal1_1		PMID:23932404	https://genome.jgi.doe.gov/portal/Rozal1_1/download/Rozal1_1_GeneCatalog_proteins_20140111.aa.fasta.gz
+Saccharomycetaceae sp. 'Ashbya aceri'	566037	FALSE	Russula brevipes BPL707	98861	Rusbre1	v1.0		https://genome.jgi.doe.gov/portal/Rusbre1/download/Rusbre1_GeneCatalog_proteins_20161010.aa.fasta.gz
+Saitoella complicata NRRL Y-17804	698492	FALSE	Russula compacta BPL669	40490	Ruscom1	v1.0		https://genome.jgi.doe.gov/portal/Ruscom1/download/Ruscom1_GeneCatalog_proteins_20170112.aa.fasta.gz
+Scedosporium apiospermum str. IHEM 14462	563466	FALSE	Russula dissimulans BPL704	258981	Rusdis1	v1.0		https://genome.jgi.doe.gov/portal/Rusdis1/download/Rusdis1_GeneCatalog_proteins_20160910.aa.fasta.gz
+Scheffersomyces stipitis CBS 6054	322104	FALSE	Russula earlei BPL698	71964	Rusear1	v1.0		https://genome.jgi.doe.gov/portal/Rusear1/download/Rusear1_GeneCatalog_proteins_20190529.aa.fasta.gz
+Schizophyllum commune H4-8	578458	FALSE	Russula emetica Přilba	152958	Ruseme1	v1.0		https://genome.jgi.doe.gov/portal/Ruseme1/download/Ruseme1_GeneCatalog_proteins_20190225.aa.fasta.gz
+Schizopora paradoxa str. KUC8140	27342	FALSE	Russula ochroleuca Přilba	152965	Rusoch1	v1.0		https://genome.jgi.doe.gov/portal/Rusoch1/download/Rusoch1_GeneCatalog_proteins_20180325.aa.fasta.gz
+Schizosaccharomyces cryophilus	653667	FALSE	Russula rugulosa BPL654	1935383	Rusrug1	v1.0		https://genome.jgi.doe.gov/portal/Rusrug1/download/Rusrug1_GeneCatalog_proteins_20161111.aa.fasta.gz
+Schizosaccharomyces japonicus	402676	FALSE	Russula seminuda PSC4341-TAS1	2516854	Russem1	v1.0		https://genome.jgi.doe.gov/portal/Russem1/download/Russem1_GeneCatalog_proteins_20181109.aa.fasta.gz
+Schizosaccharomyces octosporus	483514	FALSE	Russula vinacea BPL710	517384	Rusvin1	v1.0		https://genome.jgi.doe.gov/portal/Rusvin1/download/Rusvin1_GeneCatalog_proteins_20170417.aa.fasta.gz
+Schizosaccharomyces pombe	284812	FALSE	Rutstroemia firma CBS 115.86	1490168	Rutfi1	v1.0		https://genome.jgi.doe.gov/portal/Rutfi1/download/Rutfi1_GeneCatalog_proteins_20150501.aa.fasta.gz
+Scleroderma citrinum Foug A	1036808	FALSE	Saccharata proteae CBS 121410	131308	Sacpr1	v1.0		https://genome.jgi.doe.gov/portal/Sacpr1/download/Sacpr1_GeneCatalog_proteins_20140222.aa.fasta.gz
+Sclerotinia borealis F-4128	1432307	FALSE	Saccharomyces cerevisiae M3707 Dikaryon	1149757	SacceM3707_1		PMID:23792743	https://genome.jgi.doe.gov/portal/SacceM3707_1/download/SacceM3707_1_GeneCatalog_proteins_20120712.aa.fasta.gz
+Sclerotinia sclerotiorum 1980 UF-70	665079	FALSE	Saccharomyces cerevisiae M3836	1162671	SacceM3836_1	v1.0	PMID:23792743	https://genome.jgi.doe.gov/portal/SacceM3836_1/download/SacceM3836_1_GeneCatalog_proteins_20120712.aa.fasta.gz
+Serendipita indica DSM 11827	1109443	FALSE	Saccharomyces cerevisiae M3837	1162672	SacceM3837_1	v1.0	PMID:23792743	https://genome.jgi.doe.gov/portal/SacceM3837_1/download/SacceM3837_1_GeneCatalog_proteins_20120713.aa.fasta.gz
+Serendipita vermifera MAFF 305830	933852	FALSE	Saccharomyces cerevisiae M3838	1162673	SacceM3838_1	v1.0	PMID:23792743	https://genome.jgi.doe.gov/portal/SacceM3838_1/download/SacceM3838_1_GeneCatalog_proteins_20120714.aa.fasta.gz
+Serpula lacrymans var. lacrymans S7.3	936435	FALSE	Saccharomyces cerevisiae M3839	1162674	SacceM3839_1	v1.0	PMID:23792743	https://genome.jgi.doe.gov/portal/SacceM3839_1/download/SacceM3839_1_GeneCatalog_proteins_20120714.aa.fasta.gz
+Serpula lacrymans var. lacrymans S7.9	578457	FALSE	Saccharomyces cerevisiae S288C	559292	Sacce1		PMID:8849441	https://genome.jgi.doe.gov/portal/Sacce1/download/Sacce1_GeneCatalog_proteins_20101210.aa.fasta.gz
+Sistotremastrum niveocremeum HHB9708	1314777	FALSE	Saccharomyces cerevisiae YB210	927258	SacceYB210_1	v1.0		https://genome.jgi.doe.gov/portal/SacceYB210_1/download/SacceYB210_1_GeneCatalog_proteins_20130329.aa.fasta.gz
+Sistotremastrum suecicum HHB10207 ss-3	1314776	FALSE	Saccharomycopsis capsularis NRRL Y-17639	36036	Sacca1		PMID:29760453	https://genome.jgi.doe.gov/portal/Sacca1/download/Sacca1_GeneCatalog_proteins_20181012.aa.fasta.gz
+Sordaria macrospora k-hell	771870	FALSE	Saitoella complicata NRRL Y-17804	698492	Saico1	v1.0	PMID:27535936	https://genome.jgi.doe.gov/portal/Saico1/download/Saico1_GeneCatalog_proteins_20110913.aa.fasta.gz
+Spathaspora passalidarum NRRL Y-27907	619300	FALSE	Saksenaea vasiformis B4078	1274794	Sakvas1		PMID:27447865	https://genome.jgi.doe.gov/portal/Sakvas1/download/Sakvas1_GeneCatalog_proteins_20160730.aa.fasta.gz
+Sphaerobolus stellatus SS14	990650	FALSE	Sarcoscypha coccinea ATCC 58028	51139	Sarco1	v1.0		https://genome.jgi.doe.gov/portal/Sarco1/download/Sarco1_GeneCatalog_proteins_20150213.aa.fasta.gz
+Sphaerulina musiva SO2202	692275	FALSE	Saturnispora dispora NRRL Y-1447	29835	Satdi1		PMID:29760453	https://genome.jgi.doe.gov/portal/Satdi1/download/Satdi1_GeneCatalog_proteins_20181207.aa.fasta.gz
+Spizellomyces punctatus DAOM BR117	645134	FALSE	Scheffersomyces coipomoensis NRRL Y-17651T	1788519	Schcoi1	v1.0		https://genome.jgi.doe.gov/portal/Schcoi1/download/Schcoi1_GeneCatalog_proteins_20180319.aa.fasta.gz
+Sporisorium reilianum	999809	FALSE	Scheffersomyces queiroziae UFMG-CLM-5.1	880181	Schque1	v1.0		https://genome.jgi.doe.gov/portal/Schque1/download/Schque1_GeneCatalog_proteins_20180319.aa.fasta.gz
+Sporisorium reilianum f. sp. reilianum	72559	FALSE	Scheffersomyces stipitis NRRL Y-11545	4924	Picst3	v2.0	PMID:17334359	https://genome.jgi.doe.gov/portal/Picst3/download/Pstipitisv2.FrozenGeneCatalog20080115.proteins.fasta.gz
+Sporothrix brasiliensis 5110	1398154	FALSE	Scheffersomyces stipitis NRRL Y-7124	913138	Schsti1	v1.0		https://genome.jgi.doe.gov/portal/Schsti1/download/Schsti1_GeneCatalog_proteins_20180420.aa.fasta.gz
+Sporothrix insectorum RCEF 264	1081102	FALSE	Schizophyllum commune 207.1	5334	Schco2071_1	v1.0		https://genome.jgi.doe.gov/portal/Schco2071_1/download/Schco2071_1_GeneCatalog_proteins_20181109.aa.fasta.gz
+Sporothrix schenckii 1099-18	1397361	FALSE	Schizophyllum commune H4-8	578458	Schco3	v3.0	PMID:20622885	https://genome.jgi.doe.gov/portal/Schco3/download/Schco3_GeneCatalog_proteins_20130812.aa.fasta.gz
+Sporothrix schenckii ATCC 58251	1391915	FALSE	Schizophyllum commune Loenen D	1314666	Schco_LoeD_1	v1.0		https://genome.jgi.doe.gov/portal/Schco_LoeD_1/download/Schco_LoeD_1_GeneCatalog_proteins_20130531.aa.fasta.gz
+Spraguea lophii 42_110	1358809	FALSE	Schizophyllum commune Tattone D	1314663	Schco_TatD_1	v1.0		https://genome.jgi.doe.gov/portal/Schco_TatD_1/download/Schco_TatD_1_GeneCatalog_proteins_20130515.aa.fasta.gz
+Stachybotrys chartarum IBT 40288	1283842	FALSE	Schizopora paradoxa KUC8140	27342	Schpa1	v1.0	PMID:26188242	https://genome.jgi.doe.gov/portal/Schpa1/download/Schpa1_GeneCatalog_proteins_20131225.aa.fasta.gz
+Stachybotrys chartarum IBT 40293	1280524	FALSE	Schizosaccharomyces cryophilus OY26	653667	Schcy1		PMID:21511999	https://genome.jgi.doe.gov/portal/Schcy1/download/Schcy1_GeneCatalog_proteins_20131210.aa.fasta.gz
+Stachybotrys chartarum IBT 7711	1280523	FALSE	Schizosaccharomyces japonicus yFS275	402676	Schja1		PMID:21511999	https://genome.jgi.doe.gov/portal/Schja1/download/Schja1_GeneCatalog_proteins_20131031.aa.fasta.gz
+Stachybotrys chlorohalonata IBT 40285	1283841	FALSE	Schizosaccharomyces octosporus yFS286	483514	Schoc1		PMID:21511999	https://genome.jgi.doe.gov/portal/Schoc1/download/Schoc1_GeneCatalog_proteins_20131210.aa.fasta.gz
+Stagonospora sp. SRC1lsM3a	765868	FALSE	Schizosaccharomyces pombe	4896	Schpo1		PMID:11859360	https://genome.jgi.doe.gov/portal/Schpo1/download/Schpo1_GeneCatalog_proteins_20130111.aa.fasta.gz
+Stemphylium lycopersici str. CIDEFI 216	183478	FALSE	Schizothecium vesticola SMH3187-1	314040	Schves1	v1.0		https://genome.jgi.doe.gov/portal/Schves1/download/Schves1_GeneCatalog_proteins_20170615.aa.fasta.gz
+Stereum hirsutum FP-91666 SS1	721885	FALSE	Scleroderma citrinum Foug A	1036808	Sclci1	v1.0	PMID:25706625	https://genome.jgi.doe.gov/portal/Sclci1/download/Sclci1_GeneCatalog_proteins_20120626.aa.fasta.gz
+Sugiyamaella lignohabitans str. CBS 10342	796027	FALSE	Sclerogaster hysterangioides SCL2.BST	1529657	Sclhys1_1	v1.0		https://genome.jgi.doe.gov/portal/Sclhys1_1/download/Sclhys1_1_GeneCatalog_proteins_20160415.aa.fasta.gz
+Suhomyces tanzawaensis NRRL Y-17324	984487	FALSE	Sclerophora sanguinea CBS100924	1410009	Sclsan1	v1.0		https://genome.jgi.doe.gov/portal/Sclsan1/download/Sclsan1_GeneCatalog_proteins_20170329.aa.fasta.gz
+Suillus luteus UH-Slu-Lm8-n1	930992	FALSE	Sclerotinia sclerotiorum	5180	Sclsc1	v1.0	PMID:21876677	https://genome.jgi.doe.gov/portal/Sclsc1/download/Sclsc1_GeneCatalog_proteins_20110903.aa.fasta.gz
+Syncephalastrum racemosum str. NRRL 2496	13706	FALSE	Scytinostroma sp. KUC9335	2024391	Scysp1_1	v1.0		https://genome.jgi.doe.gov/portal/Scysp1_1/download/Scysp1_1_GeneCatalog_proteins_20160715.aa.fasta.gz
+Talaromyces atroroseus str. IBT 11181	1441469	FALSE	Sebacina vermifera MAFF 305830	933852	Sebve1	v1.0	PMID:25706625	https://genome.jgi.doe.gov/portal/Sebve1/download/Sebve1_GeneCatalog_proteins_20120626.aa.fasta.gz
+Talaromyces cellulolyticus str. Y-94	1472165	FALSE	Septobasidium sp. PNB30-8B	1884257	Sepsp1	v1.0		https://genome.jgi.doe.gov/portal/Sepsp1/download/Sepsp1_GeneCatalog_proteins_20150424.aa.fasta.gz
+Talaromyces islandicus	28573	FALSE	Septoria musiva SO2202	692275	Sepmu1	v1.0	PMID:23236275	https://genome.jgi.doe.gov/portal/Sepmu1/download/Sepmu1_GeneCatalog_proteins_20100915.aa.fasta.gz
+Talaromyces marneffei ATCC 18224	441960	FALSE	Septoria populicola	215467	Seppo1	v1.0	PMID:23236275	https://genome.jgi.doe.gov/portal/Seppo1/download/Seppo1_GeneCatalog_proteins_20110720.aa.fasta.gz
+Talaromyces marneffei PM1	1077442	FALSE	Serendipita sp. 407	1965286	Serend1	v1.0		https://genome.jgi.doe.gov/portal/Serend1/download/Serend1_GeneCatalog_proteins_20171109.aa.fasta.gz
+Talaromyces stipitatus ATCC 10500	441959	FALSE	Serendipita vermifera ssp. bescii NFPB0129	109899	Sebvebe1	v1.0		https://genome.jgi.doe.gov/portal/Sebvebe1/download/Sebvebe1_GeneCatalog_proteins_20150401.aa.fasta.gz
+Termitomyces sp. J132	1306850	FALSE	Serpula himantioides (S.lacrymans var shastensis) MUCL38935	690234	Serla_varsha1	v1.0	PMID:29305577	https://genome.jgi.doe.gov/portal/Serla_varsha1/download/Serla_varsha1_GeneCatalog_proteins_20110916.aa.fasta.gz
+Testicularia cyperi str. MCA 3645	1882483	FALSE	Serpula lacrymans S7.3	936435	SerlaS7_3_2	v2.0	PMID:21764756	https://genome.jgi.doe.gov/portal/SerlaS7_3_2/download/Serpula_lacrymans_S7_3_v2.proteins.fasta.gz
+Tetrapisispora blattae CBS 6284	1071380	FALSE	Serpula lacrymans S7.9	578457	SerlaS7_9_2	v2.0	PMID:21764756	https://genome.jgi.doe.gov/portal/SerlaS7_9_2/download/SerlaS7_9_2_GeneCatalog_proteins_20120319.aa.fasta.gz
+Tetrapisispora phaffii CBS 4417	1071381	FALSE	Setomelanomma holmii CBS 110217	210430	Setho1	v1.0		https://genome.jgi.doe.gov/portal/Setho1/download/Setho1_GeneCatalog_proteins_20150424.aa.fasta.gz
+Thermothelomyces thermophila ATCC 42464	573729	FALSE	Setosphaeria turcica Et28A	671987	Settu3	v2.0	PMID:23236275	https://genome.jgi.doe.gov/portal/Settu3/download/Settu3_GeneCatalog_proteins_20170818.aa.fasta.gz
+Thielavia terrestris NRRL 8126	578455	FALSE	Setosphaeria turcica NY001	93612	Settur3	v2.0		https://genome.jgi.doe.gov/portal/Settur3/download/Settur3_GeneCatalog_proteins_20170816.aa.fasta.gz
+Thielaviopsis punctulata	72032	FALSE	Sirobasidium intermedium CBS7805	89935	Sirint1	v1.0		https://genome.jgi.doe.gov/portal/Sirint1/download/Sirint1_GeneCatalog_proteins_20160411.aa.fasta.gz
+Tilletia caries str. DAOM 238032	13290	FALSE	Sistotrema raduloides OMC1660	283657	Sisrad1	v1.0		https://genome.jgi.doe.gov/portal/Sisrad1/download/Sisrad1_GeneCatalog_proteins_20180920.aa.fasta.gz
+Tilletia controversa str. DAOM 236426	13291	FALSE	Sistotremastrum niveocremeum HHB9708 ss-1 1.0	139134	Sisni1		PMID:26659563	https://genome.jgi.doe.gov/portal/Sisni1/download/Sisni1_GeneCatalog_proteins_20130806.aa.fasta.gz
+Tilletia indica str. DAOM 236416	43049	FALSE	Sistotremastrum suecicum	467971	Sissu1	v1.0	PMID:26659563	https://genome.jgi.doe.gov/portal/Sissu1/download/Sissu1_GeneCatalog_proteins_20130130.aa.fasta.gz
+Tilletia walkeri str. DAOM 236422	117179	FALSE	Slooffia pilatii Y-17178	1801567	Slopil1	v1.0		https://genome.jgi.doe.gov/portal/Slopil1/download/Slopil1_GeneCatalog_proteins_20180422.aa.fasta.gz
+Tilletiaria anomala UBC 951	1037660	FALSE	Smittium culicis ID-206-W2	133412	SmiculW2_1		PMID:27343289	https://genome.jgi.doe.gov/portal/SmiculW2_1/download/SmiculW2_1_GeneCatalog_proteins_20170804.aa.fasta.gz
+Tilletiopsis washingtonensis str. MCA 4186	58919	FALSE	Smittium mucronatum ALG-7-W6	133383	Smimuc2		PMID:27343289	https://genome.jgi.doe.gov/portal/Smimuc2/download/Smimuc2_GeneCatalog_proteins_20170808.aa.fasta.gz
+Tolypocladium capitatum str. CBS 113982	45235	FALSE	Sodiomyces alkalinus	1302862	Sodal1	v1.0	PMID:30368956	https://genome.jgi.doe.gov/portal/Sodal1/download/Sodal1_GeneCatalog_proteins_20130716.aa.fasta.gz
+Tolypocladium ophioglossoides CBS 100239	1163406	FALSE	Sordaria brevicollis FGSC1904	83679	Sorbr1	v1.0		https://genome.jgi.doe.gov/portal/Sorbr1/download/Sorbr1_GeneCatalog_proteins_20171129.aa.fasta.gz
+Tolypocladium paradoxum str. NRBC 100945	94208	FALSE	Sparassis latifolia CCMJ1100	1202976	Spalat1	v1.0		https://genome.jgi.doe.gov/portal/Spalat1/download/Spalat1_GeneCatalog_proteins_20161107.aa.fasta.gz
+Torrubiella hemipterigena str. BCC 1449	1531966	FALSE	Spathaspora arborariae UFMG-HMD-19.1	979894	Spaarb1	v1.0		https://genome.jgi.doe.gov/portal/Spaarb1/download/Spaarb1_GeneCatalog_proteins_20180319.aa.fasta.gz
+Tortispora caseinolytica NRRL Y-17796	767744	FALSE	Spathaspora passalidarum NRRL Y-27907	619300	Spapa3	v2.0	PMID:21788494	https://genome.jgi.doe.gov/portal/Spapa3/download/Spapa3_filtered_proteins.fasta.gz
+Torulaspora delbrueckii str. CBS 1146	4950	FALSE	Spathularia flavida	33158	Spafl1			https://genome.jgi.doe.gov/portal/Spafl1/download/Spafl1_GeneCatalog_proteins_20130808.aa.fasta.gz
+Trachipleistophora hominis	72359	FALSE	Sphaerobolus stellatus	68786	Sphst1	v1.0	PMID:25706625	https://genome.jgi.doe.gov/portal/Sphst1/download/Sphst1_GeneCatalog_proteins_20120430.aa.fasta.gz
+Trametes cinnabarina str. BRFM137	5643	FALSE	Spinellus fusiger NRRL 22323	101115	Spifus1	v1.0		https://genome.jgi.doe.gov/portal/Spifus1/download/Spifus1_GeneCatalog_proteins_20161021.aa.fasta.gz
+Trametes coccinea BRFM310	1353009	FALSE	Spizellomyces punctatus DAOM BR117	645134	Spipu1		PMID:27540072	https://genome.jgi.doe.gov/portal/Spipu1/download/Spipu1_GeneCatalog_proteins_20131203.aa.fasta.gz
+Trametes pubescens str. FBCC735	154538	FALSE	Sporidiobolus pararoseus Phaff 68-350	5003	Spopa1	v1.0		https://genome.jgi.doe.gov/portal/Spopa1/download/Spopa1_GeneCatalog_proteins_20160208.aa.fasta.gz
+Trametes versicolor FP-101664 SS1	717944	FALSE	Sporisorium reilianum SRZ2	999809	Spore1		PMID:21148393	https://genome.jgi.doe.gov/portal/Spore1/download/Spore1_GeneCatalog_proteins_20131031.aa.fasta.gz
+Tremella mesenterica DSM 1558	578456	FALSE	Sporobolomyces gracilis NRRL Y-5504	5435	Spogra1_1	v1.0		https://genome.jgi.doe.gov/portal/Spogra1_1/download/Spogra1_1_GeneCatalog_proteins_20180925.aa.fasta.gz
+Trichoderma asperellum CBS 433.97	1042311	FALSE	Sporobolomyces linderae CBS 7893	1397324	Spoli1	v1.0		https://genome.jgi.doe.gov/portal/Spoli1/download/Spoli1_GeneCatalog_proteins_20140310.aa.fasta.gz
+Trichoderma atroviride IMI 206040	452589	FALSE	Sporobolomyces roseus	40563	Sporo1	v1.0		https://genome.jgi.doe.gov/portal/Sporo1/download/Sroseus.FilteredModels1.aa.fasta.gz
+Trichoderma citrinoviride str. TUCIM 6016	58853	FALSE	Sporodiniella umbellata MES 1446	101117	Spoumb1	v1.0		https://genome.jgi.doe.gov/portal/Spoumb1/download/Spoumb1_GeneCatalog_proteins_20170626.aa.fasta.gz
+Trichoderma gamsii str. T6085	398673	FALSE	Sporopachydermia lactativora Phaff 68-199	45794	Spola1	v1.0		https://genome.jgi.doe.gov/portal/Spola1/download/Spola1_GeneCatalog_proteins_20160222.aa.fasta.gz
+Trichoderma guizhouense str. NJAU 4742	1491466	FALSE	Sporormia fimetaria	718229	Spofi1	v1.0		https://genome.jgi.doe.gov/portal/Spofi1/download/Spofi1_GeneCatalog_proteins_20130818.aa.fasta.gz
+Trichoderma harzianum CBS 226.95	983964	FALSE	Stachybotrys elegans MPI-CAGE-CH-0235	80388	Stael1	v1.0		https://genome.jgi.doe.gov/portal/Stael1/download/Stael1_GeneCatalog_proteins_20170424.aa.fasta.gz
+Trichoderma longibrachiatum ATCC 18648	983965	FALSE	Stagonospora nodorum SN15	321614	Stano2	v2.0	PMID:18024570	https://genome.jgi.doe.gov/portal/Stano2/download/Stano2_GeneCatalog_proteins_20110506.aa.fasta.gz
+Trichoderma parareesei	858221	FALSE	Stagonospora sp. SRC1lsM3a	765868	Stasp1	v1.0	PMID:27434633	https://genome.jgi.doe.gov/portal/Stasp1/download/Stasp1_GeneCatalog_proteins_20141004.aa.fasta.gz
+Trichoderma reesei	431241	FALSE	Stanjemonium grisellum CBS 655.79	73508	Stagr1	v1.0		https://genome.jgi.doe.gov/portal/Stagr1/download/Stagr1_GeneCatalog_proteins_20141015.aa.fasta.gz
+Trichoderma reesei RUT C-30	1344414	FALSE	Stemphylium lycopersici CIDEFI-216	183478	Stely1		PMID:26404600	https://genome.jgi.doe.gov/portal/Stely1/download/Stely1_GeneCatalog_proteins_20170711.aa.fasta.gz
+Trichoderma virens	413071	FALSE	Stereum hirsutum FP-91666 SS1	721885	Stehi1	v1.0	PMID:22745431	https://genome.jgi.doe.gov/portal/Stehi1/download/Stehi1_GeneCatalog_proteins_20101026.aa.fasta.gz
+Trichophyton benhamiae CBS 112371	663331	FALSE	Stomiopeltis betulae CBS114420	706121	Stobe1	v1.0		https://genome.jgi.doe.gov/portal/Stobe1/download/Stobe1_GeneCatalog_proteins_20180620.aa.fasta.gz
+Trichophyton equinum CBS 127.97	559882	FALSE	Sugiyamaella americana NRRL YB-2067	796026	Sugame1	v1.0		https://genome.jgi.doe.gov/portal/Sugame1/download/Sugame1_GeneCatalog_proteins_20160411.aa.fasta.gz
+Trichophyton interdigitale H6	1215336	FALSE	Suillus americanus EM31	48561	Suiame1	v1.0		https://genome.jgi.doe.gov/portal/Suiame1/download/Suiame1_GeneCatalog_proteins_20151214.aa.fasta.gz
+Trichophyton interdigitale MR816	1215338	FALSE	Suillus ampliporus FC55	1912932	Suiamp1	v1.0		https://genome.jgi.doe.gov/portal/Suiamp1/download/Suiamp1_GeneCatalog_proteins_20180421.aa.fasta.gz
+Trichophyton mentagrophytes str. TIMM 2789	523103	FALSE	Suillus bovinus UH-Sbo-P2	48563	Suibov1	v1.0		https://genome.jgi.doe.gov/portal/Suibov1/download/Suibov1_GeneCatalog_proteins_20180813.aa.fasta.gz
+Trichophyton rubrum CBS 100081	1215328	FALSE	Suillus brevipes Sb2	48565	Suibr2	v2.0	PMID:25728665	https://genome.jgi.doe.gov/portal/Suibr2/download/Suibr2_GeneCatalog_proteins_20150912.aa.fasta.gz
+Trichophyton rubrum CBS 118892	559305	FALSE	Suillus clintonianus FC179	1904413	Suicli1	v1.0		https://genome.jgi.doe.gov/portal/Suicli1/download/Suicli1_GeneCatalog_proteins_20180420.aa.fasta.gz
+Trichophyton rubrum CBS 202.88	1215334	FALSE	Suillus cothurnatus VC 1858	48568	Suicot1	v1.0		https://genome.jgi.doe.gov/portal/Suicot1/download/Suicot1_GeneCatalog_proteins_20171209.aa.fasta.gz
+Trichophyton rubrum CBS 288.86	1215330	FALSE	Suillus decipiens EM49	48569	Suidec1	v1.0		https://genome.jgi.doe.gov/portal/Suidec1/download/Suidec1_GeneCatalog_proteins_20150904.aa.fasta.gz
+Trichophyton rubrum CBS 289.86	1215329	FALSE	Suillus fuscotomentosus FC203	1912939	Suifus1	v1.0		https://genome.jgi.doe.gov/portal/Suifus1/download/Suifus1_GeneCatalog_proteins_20190304.aa.fasta.gz
+Trichophyton rubrum CBS 735.88	1215332	FALSE	Suillus granulatus EM37	48571	Suigr1	v1.0		https://genome.jgi.doe.gov/portal/Suigr1/download/Suigr1_GeneCatalog_proteins_20150504.aa.fasta.gz
+Trichophyton rubrum D6	1215335	FALSE	Suillus hirtellus EM16	279518	Suihi1	v1.0		https://genome.jgi.doe.gov/portal/Suihi1/download/Suihi1_GeneCatalog_proteins_20150416.aa.fasta.gz
+Trichophyton rubrum MR1448	1215339	FALSE	Suillus lakei FC43	48574	Suilak1	v1.0		https://genome.jgi.doe.gov/portal/Suilak1/download/Suilak1_GeneCatalog_proteins_20180814.aa.fasta.gz
+Trichophyton rubrum MR1459	1215341	FALSE	Suillus luteus UH-Slu-Lm8-n1	5384	Suilu4	v3.0	PMID:25706625	https://genome.jgi.doe.gov/portal/Suilu4/download/Suilu4_GeneCatalog_proteins_20170628.aa.fasta.gz
+Trichophyton rubrum MR850	1215337	FALSE	Suillus occidentalis FC124	756607	Suiocc1	v1.0		https://genome.jgi.doe.gov/portal/Suiocc1/download/Suiocc1_GeneCatalog_proteins_20180813.aa.fasta.gz
+Trichophyton rubrum str. CMCC(F)T1i	5551	FALSE	Suillus paluster FC165	48578	Suipal1	v1.0		https://genome.jgi.doe.gov/portal/Suipal1/download/Suipal1_GeneCatalog_proteins_20180813.aa.fasta.gz
+Trichophyton soudanense CBS 452.61	1215331	FALSE	Suillus pictus EM44	222705	Suipic1	v1.0		https://genome.jgi.doe.gov/portal/Suipic1/download/Suipic1_GeneCatalog_proteins_20160216.aa.fasta.gz
+Trichophyton tonsurans CBS 112818	647933	FALSE	Suillus placidus DOB743	48579	Suipla1	v1.0		https://genome.jgi.doe.gov/portal/Suipla1/download/Suipla1_GeneCatalog_proteins_20181128.aa.fasta.gz
+Trichophyton verrucosum HKI 0517	663202	FALSE	Suillus subalutaceus FC151	48586	Suisu1	v1.0		https://genome.jgi.doe.gov/portal/Suisu1/download/Suisu1_GeneCatalog_proteins_20180325.aa.fasta.gz
+Trichophyton violaceum str. CMCC(F)T3l	34388	FALSE	Suillus subaureus MN1	48587	Suisub1	v1.0		https://genome.jgi.doe.gov/portal/Suisub1/download/Suisub1_GeneCatalog_proteins_20170827.aa.fasta.gz
+Trichosporon asahii var. asahii CBS 2479	1186058	FALSE	Suillus tomentosus FC115	48589	Suitom1	v1.0		https://genome.jgi.doe.gov/portal/Suitom1/download/Suitom1_GeneCatalog_proteins_20170729.aa.fasta.gz
+Trichosporon asahii var. asahii CBS 8904	1220162	FALSE	Suillus variegatus UH-Sva-Z1	48592	Suivar1	v1.0		https://genome.jgi.doe.gov/portal/Suivar1/download/Suivar1_GeneCatalog_proteins_20180923.aa.fasta.gz
+Tsuchiyaea wingfieldii CBS 7118	1295528	FALSE	Symbiotaphrina kochii	40221	Symko1	v1.0		https://genome.jgi.doe.gov/portal/Symko1/download/Symko1_GeneCatalog_proteins_20121126.aa.fasta.gz
+Tuber borchii str. Tbo3840	42251	FALSE	Sympodiomyces attinorum NRRL Y-27639	254439	Symat1	v1.0		https://genome.jgi.doe.gov/portal/Symat1/download/Symat1_GeneCatalog_proteins_20150304.aa.fasta.gz
+Tuber magnatum	42249	FALSE	Syncephalastrum racemosum NRRL 2496	13706	Synrac1	v1.0	PMID:28481340	https://genome.jgi.doe.gov/portal/Synrac1/download/Synrac1_GeneCatalog_proteins_20160125.aa.fasta.gz
+Tuber melanosporum	656061	FALSE	Syncephalis fuscata S228	1851187	Synfus1	v1.0		https://genome.jgi.doe.gov/portal/Synfus1/download/Synfus1_GeneCatalog_proteins_20170105.aa.fasta.gz
+Tulasnella calospora MUT 4182	1051891	FALSE	Syncephalis plumigaleata NRRL S24	1851185	Synplu1	v1.0		https://genome.jgi.doe.gov/portal/Synplu1/download/Synplu1_GeneCatalog_proteins_20160902.aa.fasta.gz
+Umbilicaria pustulata	136370	FALSE	Syncephalis pseudoplumigaleata Benny S71-1 single-cell	1712513	Synps1	v1.0	PMID:30297742	https://genome.jgi.doe.gov/portal/Synps1/download/Synps1_GeneCatalog_proteins_20160128.aa.fasta.gz
+Uncinocarpus reesii 1704 str. UAMH 1704	336963	FALSE	Talaromyces aculeatus ATCC 10409	36649	Penac1	v1.0		https://genome.jgi.doe.gov/portal/Penac1/download/Penac1_GeneCatalog_proteins_20140123.aa.fasta.gz
+Ustilaginoidea virens	1159556	FALSE	Talaromyces borbonicus CBS 141340 	2077152	Talabor1		PMID:29843575	https://genome.jgi.doe.gov/portal/Talabor1/download/Talabor1_GeneCatalog_proteins_20170517.aa.fasta.gz
+Ustilaginomycotina sp. SA 807	1520773	FALSE	Talaromyces marneffei ATCC 18224	441960	Talma1_2		PMID:25676766	https://genome.jgi.doe.gov/portal/Talma1_2/download/Talma1_2_GeneCatalog_proteins_20140114.aa.fasta.gz
+Ustilago bromivora str. UB2112	307758	FALSE	Talaromyces proteolyticus PMI_201	1131652	Talpro1	v1.0		https://genome.jgi.doe.gov/portal/Talpro1/download/Talpro1_GeneCatalog_proteins_20161118.aa.fasta.gz
+Ustilago hordei str. Uh4857-4	120017	FALSE	Talaromyces stipitatus ATCC 10500	441959	Talst1_2			https://genome.jgi.doe.gov/portal/Talst1_2/download/Talst1_2_GeneCatalog_proteins_20140114.aa.fasta.gz
+Ustilago maydis	237631	FALSE	Taphrina deformans	5011	Tapde1_1		PMID:23631913	https://genome.jgi.doe.gov/portal/Tapde1_1/download/Tapde1_1_GeneCatalog_proteins_20130601.aa.fasta.gz
+Valsa mali str. 03-8	105487	FALSE	Taphrina populi-salicis CBS419.54	203085	Tappo1	v1.0		https://genome.jgi.doe.gov/portal/Tappo1/download/Tappo1_GeneCatalog_proteins_20181029.aa.fasta.gz
+Valsa mali var. pyri str. SXYL134	694573	FALSE	Teichospora sp. FL1471	2107984	Currey1	v1.0		https://genome.jgi.doe.gov/portal/Currey1/download/Currey1_GeneCatalog_proteins_20180707.aa.fasta.gz
+Vanderwaltozyma polyspora DSM 70294	436907	FALSE	Teratosphaeria nubilosa CBS 116005	161662	Ternu1	v1.0		https://genome.jgi.doe.gov/portal/Ternu1/download/Ternu1_GeneCatalog_proteins_20140925.aa.fasta.gz
+Vavraia culicis subsp. floridensis	948595	FALSE	Teratosphaeriaceae  sp. NC1134	668547	TerNC1134_1	v1.0		https://genome.jgi.doe.gov/portal/TerNC1134_1/download/TerNC1134_1_GeneCatalog_proteins_20190222.aa.fasta.gz
+Verruconis gallopava str. CBS 43764	253628	FALSE	Terfezia boudieri ATCC MYA-4762	1051890	Terbo2	v1.1	PMID:30420746	https://genome.jgi.doe.gov/portal/Terbo2/download/Terbo2_GeneCatalog_proteins_20141124.aa.fasta.gz
+Verticillium alfalfae VaMs.102	526221	FALSE	Terfezia claveryi T7	10760	Tercla1	v1.0		https://genome.jgi.doe.gov/portal/Tercla1/download/Tercla1_GeneCatalog_proteins_20170113.aa.fasta.gz
+Verticillium dahliae	498257	FALSE	Testicularia cyperi MCA 3645	1882483	Tescy1	v1.0	PMID:29771364	https://genome.jgi.doe.gov/portal/Tescy1/download/Tescy1_GeneCatalog_proteins_20150113.aa.fasta.gz
+Verticillium dahliae JR2	1202531	FALSE	Thamnidium elegans	101142	Thaele1	v1.0		https://genome.jgi.doe.gov/portal/Thaele1/download/Thaele1_GeneCatalog_proteins_20160208.aa.fasta.gz
+Verticillium longisporum	100787	FALSE	Thamnocephalis sphaerospora RSA 1356 single-cell	78915	Thasp1	v1.0	PMID:30297742	https://genome.jgi.doe.gov/portal/Thasp1/download/Thasp1_GeneCatalog_proteins_20160203.aa.fasta.gz
+Vittaforma corneae ATCC 50505	993615	FALSE	Thanatephorus cucumeris MPI-SDFR-AT-0096	107832	Thacu1	v1.0		https://genome.jgi.doe.gov/portal/Thacu1/download/Thacu1_GeneCatalog_proteins_20170424.aa.fasta.gz
+Wallemia ichthyophaga EXF-994	1299270	FALSE	Thelebolus microsporus ATCC 90970	319061	Themi1	v1.0		https://genome.jgi.doe.gov/portal/Themi1/download/Themi1_GeneCatalog_proteins_20141205.aa.fasta.gz
+Wallemia mellicola CBS 633.66	671144	FALSE	Thelebolus stercoreus	46453	Thest1			https://genome.jgi.doe.gov/portal/Thest1/download/Thest1_GeneCatalog_proteins_20130808.aa.fasta.gz
+Wickerhamiella sorbophila str. DS02	45607	FALSE	Thelephora ganbajun P2	370292	Thega1	v1.0		https://genome.jgi.doe.gov/portal/Thega1/download/Thega1_GeneCatalog_proteins_20150318.aa.fasta.gz
+Wickerhamomyces anomalus NRRL Y-366-8	683960	FALSE	Thelephora terrestris UH-Tt-Lm1 	56493	Theter1	v1.0		https://genome.jgi.doe.gov/portal/Theter1/download/Theter1_GeneCatalog_proteins_20181017.aa.fasta.gz
+Wickerhamomyces ciferrii str. NRRL Y-1031	1041607	FALSE	Thermoascus aurantiacus ATCC26904	5087	Theau2	v2.0		https://genome.jgi.doe.gov/portal/Theau2/download/Theau2_GeneCatalog_proteins_20190613.aa.fasta.gz
+Wolfiporia cocos MD-104 SS10	742152	FALSE	Thermomyces lanuginosus SSBP	1158138	Thelan1		PMID:23788551	https://genome.jgi.doe.gov/portal/Thelan1/download/Thelan1_GeneCatalog_proteins_20160730.aa.fasta.gz
+Xanthophyllomyces dendrorhous	5421	FALSE	Thielavia antarctica CBS 123565	1450530	Thian1	v1.0		https://genome.jgi.doe.gov/portal/Thian1/download/Thian1_GeneCatalog_proteins_20140328.aa.fasta.gz
+Xylona heveae TC161	1328760	FALSE	Thielavia appendiculata CBS 731.68	1384585	Thiap1	v1.0		https://genome.jgi.doe.gov/portal/Thiap1/download/Thiap1_GeneCatalog_proteins_20140116.aa.fasta.gz
+Yarrowia lipolytica	4952	FALSE	Thielavia arenaria CBS 508.74	1384583	Thiar1	v1.0		https://genome.jgi.doe.gov/portal/Thiar1/download/Thiar1_GeneCatalog_proteins_20131210.aa.fasta.gz
+Yarrowia lipolytica	284591	FALSE	Thielavia hyrcaniae CBS 757.83	1384584	Thihy1	v1.0		https://genome.jgi.doe.gov/portal/Thihy1/download/Thihy1_GeneCatalog_proteins_20140109.aa.fasta.gz
+Yarrowia lipolytica str. CLIB89 (W29)	755266	FALSE	Thielavia terrestris	35720	Thite2	v2.0	PMID:21964414	https://genome.jgi.doe.gov/portal/Thite2/download/Thite2_GeneCatalog_proteins_20101221.aa.fasta.gz
+Zygosaccharomyces bailii	4954	FALSE	Thozetella sp. PMI_491	1506992	ThoPMI491_1	v2.0		https://genome.jgi.doe.gov/portal/ThoPMI491_1/download/ThoPMI491_1_GeneCatalog_proteins_20140726.aa.fasta.gz
+Zygosaccharomyces bailii CLIB 213	1333698	FALSE	Tilletiaria anomala UBC 951	1037660	Tilan2	v1.0	PMID:24926052	https://genome.jgi.doe.gov/portal/Tilan2/download/Tilan2_GeneCatalog_proteins_20140224.aa.fasta.gz
+Zygosaccharomyces bailii ISA1307	1355161	FALSE	Tilletiopsis albescens	58915	Tilalb1	v1.0		https://genome.jgi.doe.gov/portal/Tilalb1/download/Tilalb1_GeneCatalog_proteins_20160202.aa.fasta.gz
+Zygosaccharomyces parabailii str. ATCC 60483	1365886	FALSE	Tilletiopsis sp. TKC30	1954214	Tillet1	v1.0		https://genome.jgi.doe.gov/portal/Tillet1/download/Tillet1_GeneCatalog_proteins_20170626.aa.fasta.gz
+Zygosaccharomyces rouxii str. CBS 732	559307	FALSE	Tilletiopsis washingtonensis MCA 4186	58919	Tilwa1	v1.0	PMID:29771364	https://genome.jgi.doe.gov/portal/Tilwa1/download/Tilwa1_GeneCatalog_proteins_20141225.aa.fasta.gz
+Zygosaccharomyces rouxii str. NBRC110957	4956	FALSE	Tirmania nivea G3	380880	Tirniv1	v1.0		https://genome.jgi.doe.gov/portal/Tirniv1/download/Tirniv1_GeneCatalog_proteins_20181106.aa.fasta.gz
+Zymoseptoria brevis str. Zb18110	1047168	FALSE	Tolypocladium inflatum NRRL 8044	29910	Tolinf1		PMID:23818858	https://genome.jgi.doe.gov/portal/Tolinf1/download/Tolinf1_GeneCatalog_proteins_20160803.aa.fasta.gz
+Zymoseptoria tritici	336722	FALSE	Torpedospora radiata JK5252C	311114	Torra1	v1.0		https://genome.jgi.doe.gov/portal/Torra1/download/Torra1_GeneCatalog_proteins_20150428.aa.fasta.gz
+Zymoseptoria tritici ST99CH_1A5	1276529	FALSE	Tortispora caseinolytica Y-17796	51930	Canca1	v1.0	PMID:27535936	https://genome.jgi.doe.gov/portal/Canca1/download/Canca1_GeneCatalog_proteins_20110525.aa.fasta.gz
+Zymoseptoria tritici ST99CH_1E4	1276532	FALSE	Torulaspora delbrueckii CBS 1146	1076872	Torde1		PMID:22123960	https://genome.jgi.doe.gov/portal/Torde1/download/Torde1_GeneCatalog_proteins_20150128.aa.fasta.gz
+Zymoseptoria tritici ST99CH_3D1	1276537	FALSE	Tothia fuscella CBS 130266	1048955	Totfu1	v1.0		https://genome.jgi.doe.gov/portal/Totfu1/download/Totfu1_GeneCatalog_proteins_20140831.aa.fasta.gz
+Zymoseptoria tritici ST99CH_3D7	1276538	FALSE	Trametes betulina CIRM-BRFM 1801	5632	Trabet1	v1.0		https://genome.jgi.doe.gov/portal/Trabet1/download/Trabet1_GeneCatalog_proteins_20170925.aa.fasta.gz
 		FALSE	Trametes cingulata BRFM 1805	575983	Traci1	v1.0		https://genome.jgi.doe.gov/portal/Traci1/download/Traci1_GeneCatalog_proteins_20150209.aa.fasta.gz
 		FALSE	Trametes gibbosa CIRM-BRFM 1770	160864	Tragib1	v1.0		https://genome.jgi.doe.gov/portal/Tragib1/download/Tragib1_GeneCatalog_proteins_20161031.aa.fasta.gz
 		FALSE	Trametes ljubarskyi CIRM1659	1140396	Tralj1	v1.0		https://genome.jgi.doe.gov/portal/Tralj1/download/Tralj1_GeneCatalog_proteins_20140625.aa.fasta.gz
