@@ -1907,4 +1907,4 @@ DB=$3
 ./bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta Zygosaccharomyces_rouxii_gca_000026365.ASM2636v1.pep.all.fa --taxid 559307 --source Ensembl,Fungi --type DNA --ver ASM2636v1 --pub PMID:19525356
 ./bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta Zymoseptoria_brevis_gca_000966595.ASM96659v1.pep.all.fa --taxid 1047168 --source Ensembl,Fungi --type DNA --ver ASM96659v1 --pub PMID:25917918
                    
-./bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta blastocladiella_emersonii_2018.fasta --taxid 1313167 --source other,richardslab --type DNA --ver 2018 
+./bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta Blastocladiella_emersonii_ATCC_22665.proteins.fa --taxid 1313167 --source other,richardslab --type DNA --ver 2018 
