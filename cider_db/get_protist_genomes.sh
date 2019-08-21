@@ -236,6 +236,7 @@ echo "NOT Downloading Sequence Data from JGI"
 #https://genome.jgi.doe.gov/portal/portal/Phyci1/download/Phyci1_all_proteins_20120612.aa.fasta.gz  -a get_protist.log
 #https://genome.jgi.doe.gov/portal/portal/Psemu1/download/Psemu1_all_proteins_20111011.aa.fasta.gz  -a get_protist.log
 #https://genome.jgi.doe.gov/portal/portal/Schag1/download/Schag1_all_proteins_20121220.aa.fasta.gz  -a get_protist.log
+#https://genome.jgi.doe.gov/portal/Nanoce1779_2/download/Nanoce1779_2_GeneCatalog_proteins_20180119.aa.fasta.gz
 
 echo "Downloading Sequence Data from Others"
 wget -nc http://marinegenomics.oist.jp/symb/download/symbB.v1.2.augustus.prot.fa.gz  -a get_protist.log

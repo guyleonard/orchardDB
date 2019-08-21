@@ -242,3 +242,4 @@ DB=$3
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/T_borealis_oct2012_proteins.fasta --taxid 5893 --source Other,cilliate.org --type DNA --ver 2012 --pub NA
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/T_elliotti_oct2012_proteins.fasta --taxid 5897 --source Other,cilliate.org --type DNA --ver 2012 --pub NA
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/T_malaccensis_oct2012_proteins.fasta --taxid 5901 --source Other,cilliate.org --type DNA --ver 2012 --pub NA
+../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/Nanoce1779_2_GeneCatalog_proteins_20180119.aa.fasta --taxid 145522 --source JGI,Other --type DNA --ver Nanoce1779_2 --pub NA
