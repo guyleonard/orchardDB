@@ -73,6 +73,11 @@ echo "NOT Downloading Sequence Data from JGI"
 # https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/59e148fd7ded5e372ecbabed/Oeuropaea_451_v1.0.protein.fa.gz
 # https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/5a3972de7ded5e35e94f8a12/Aofficinalis_498_V1.1.protein.fa.gz
 # https://genome.jgi.doe.gov/portal/Phytozome/download/_JAMO/5a7e0e7564d0b313b0c4f892/Bbraunii_502_v2.1.protein.fa.gz
+# https://genome.jgi.doe.gov/portal/Astpho2/download/Astpho2_GeneCatalog_proteins_20111209.aa.fasta.gz																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																													
+# https://genome.jgi.doe.gov/portal/Chrsp_1/download/Chrsp_1_GeneCatalog_proteins_20180813.aa.fasta.gz
+# https://genome.jgi.doe.gov/portal/Crypto2293_1/download/Crypto2293_1_GeneCatalog_proteins_20160903.aa.fasta.gz
+# https://genome.jgi.doe.gov/portal/Dunsal1/download/Dunsal1_GeneCatalog_proteins_20180508.aa.fasta.gz
+# https://genome.jgi.doe.gov/portal/MicpuN3v2/download/MicpuN3v2_GeneCatalog_proteins_20131216.aa.fasta.gz
 
 echo "Downloading Sequence Data from NCBI"
 wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/001/584/585/GCA_001584585.1_ASM158458v1/GCA_001584585.1_ASM158458v1_protein.faa.gz -a get_archaeplastida.log

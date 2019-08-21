@@ -155,3 +155,8 @@ DB=$3
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/Porphyridium_cruentum_pep.txt --taxid 35688 --source Other,realDB --type DNA --ver 1 --pub NA Porphyridium cruentum --lite T
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/GCF_002220235.1_ASM222023v1_protein.faa --taxid 41875 --source NCBI,RefSeq --type DNA --ver 1 --pub NA Bathycoccus prasinos --lite T
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/Ch_genome_seq_final.mod01.fasta.aa --taxid 2041167 --source Other,OISTMarine --type DNA --ver 1 --pub NA Chlorella  sp. A99 --lite T
+../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta Astpho2_GeneCatalog_proteins_20111209.aa.fasta --taxid 763042 --source JGI,Other --type DNA --ver Astpho2 --pub NA --lite T
+../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta Chrsp_1_GeneCatalog_proteins_20180813.aa.fasta --taxid 1460289 --source JGI,Other --type DNA --ver Chrsp_1 --pub NA --lite T
+../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta Crypto2293_1_GeneCatalog_proteins_20160903.aa.fasta --taxid 697907 --source JGI,Other --type DNA --ver Crypto2293_1 --pub NA --lite T
+../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta Dunsal1_GeneCatalog_proteins_20180508.aa.fasta --taxid 3046 --source JGI,Other --type DNA --ver Dunsal1 --pub NA --lite T
+../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta MicpuN3v2_GeneCatalog_proteins_20131216.aa.fasta --taxid 296587 --source JGI,Other --type DNA --ver MicpuN3v2 --pub NA --lite T
