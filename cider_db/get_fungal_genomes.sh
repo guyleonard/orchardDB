@@ -928,8 +928,8 @@ wget -nc ftp://ftp.ensemblgenomes.org/pub/release-44/fungi/fasta/yarrowia_lipoly
 wget -nc ftp://ftp.ensemblgenomes.org/pub/release-44/fungi/fasta/fungi_ascomycota3_collection/yarrowia_lipolytica_gca_001761485/pep/Yarrowia_lipolytica_gca_001761485.ASM176148v1.pep.all.fa.gz -a get_fungi.log
 wget -nc ftp://ftp.ensemblgenomes.org/pub/release-44/fungi/fasta/fungi_ascomycota1_collection/zygosaccharomyces_rouxii_gca_000026365/pep/Zygosaccharomyces_rouxii_gca_000026365.ASM2636v1.pep.all.fa.gz -a get_fungi.log
 wget -nc ftp://ftp.ensemblgenomes.org/pub/release-44/fungi/fasta/fungi_ascomycota2_collection/zymoseptoria_brevis_gca_000966595/pep/Zymoseptoria_brevis_gca_000966595.ASM96659v1.pep.all.fa.gz -a get_fungi.log
-wget -nc 
-# echo "NOT Downloading Sequence Data from JGI"
+
+echo "NOT Downloading Sequence Data from JGI"
 # https://genome.jgi.doe.gov/portal/Aaoar1/download/Aaoar1_GeneCatalog_proteins_20140429.aa.fasta.gz
 # https://genome.jgi.doe.gov/portal/Abobi1/download/Abobi1_GeneCatalog_proteins_20170901.aa.fasta.gz
 # https://genome.jgi.doe.gov/portal/Chlpad1/download/Chlpad1_GeneCatalog_proteins_20160815.aa.fasta.gz
