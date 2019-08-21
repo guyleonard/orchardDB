@@ -73,6 +73,21 @@ echo "[OrchardDB:CREATE:INFO] - Insert protist Genomes"
 echo "[OrchardDB:CREATE:INFO] - GZIP Original protist FASTA Records"
 pigz -9 -R ${DB}/protists/*
 
+#
+# Fungi
+#
+echo "[OrchardDB:CREATE:INFO] - Downloading Fungal Genomes"
+./get_fungal_genomes.sh
+mkdir -p ${DB}/fungi
+echo "[OrchardDB:CREATE:INFO] - UnGzip Files"
+gunzip *.gz
+echo "[OrchardDB:CREATE:INFO] - Move Original FASTA Records"
+mv *.aa *.fa *.fna *.faa *.fasta *.pep *.protein *.tfa ${DB}/fungi
+echo "[OrchardDB:CREATE:INFO] - Insert Fungal Genomes"
+./insert_fungal_genomes.sh ${USER} ${PASS} ${DB}
+echo "[OrchardDB:CREATE:INFO] - GZIP Original Fungal FASTA Records"
+pigz -9 -R ${DB}/fungi/*
+
 echo "[OrchardDB:CREATE:INFO] - Making BLAST Databases"
 for i in ${DB}/*.fasta; do
 	makeblastdb -in ${i} -dbtype prot -parse_seqids
