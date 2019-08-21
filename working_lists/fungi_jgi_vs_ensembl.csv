@@ -1,4 +1,4 @@
-ENSEMBL Name	Taxon ID		JGI Name	NCBI Tax ID	JGI ID	Version	Publication	
+ENSEMBL Name	Taxon ID	Exists in Both	JGI Name	NCBI Tax ID	JGI ID	Version	Publication	
 Absidia glauca	4829	FALSE						
 Acidomyces richmondensis	245562	FALSE						
 Amorphotheca resinae ATCC 22711	857342	FALSE						
@@ -620,13 +620,6 @@ Zymoseptoria tritici ST99CH_1A5	1276529	FALSE
 Zymoseptoria tritici ST99CH_1E4	1276532	FALSE						
 Zymoseptoria tritici ST99CH_3D1	1276537	FALSE						
 Zymoseptoria tritici ST99CH_3D7	1276538	FALSE						
-		FALSE	Amorphotheca resinae	5101	Amore1	v1.0	PMID:29315638	https://genome.jgi.doe.gov/portal/Amore1/download/Amore1_GeneCatalog_proteins_20110719.aa.fasta.gz
-		FALSE	Aspergillus brasiliensis	319629	Aspbr1	v1.0	PMID:28196534	https://genome.jgi.doe.gov/portal/Aspbr1/download/Aspbr1_GeneCatalog_proteins_20120615.aa.fasta.gz
-		FALSE	Aspergillus glaucus	41413	Aspgl1	v1.0	PMID:28196534	https://genome.jgi.doe.gov/portal/Aspgl1/download/Aspgl1_GeneCatalog_proteins_20121005.aa.fasta.gz
-		FALSE	Aspergillus nomius IBT 12657	41061	Aspnom1	v1.0		https://genome.jgi.doe.gov/portal/Aspnom1/download/Aspnom1_GeneCatalog_proteins_20160910.aa.fasta.gz
-		FALSE	Fusarium fujikuroi IMI 58289	1279085	Fusfu1		PMID:23825955	https://genome.jgi.doe.gov/portal/Fusfu1/download/Fusfu1_GeneCatalog_proteins_20130915.aa.fasta.gz
-		FALSE	Tremella mesenterica Fries	5217	Treme1	v1.0	PMID:22745431	https://genome.jgi.doe.gov/portal/Treme1/download/Treme1_best_proteins.fasta.gz
-		FALSE	Trichoderma atroviride	63577	Triat2	v2.0	PMID:21501500	https://genome.jgi.doe.gov/portal/Triat2/download/Tatroviridev2_FrozenGeneCatalog_20100319.proteins.fasta.gz
 		FALSE	Aaosphaeria arxii CBS 175.79	1450172	Aaoar1	v1.0		https://genome.jgi.doe.gov/portal/Aaoar1/download/Aaoar1_GeneCatalog_proteins_20140429.aa.fasta.gz
 		FALSE	Abortiporus biennis CIRM-BRFM1778	137743	Abobi1	v1.0		https://genome.jgi.doe.gov/portal/Abobi1/download/Abobi1_GeneCatalog_proteins_20170901.aa.fasta.gz
 		FALSE	Absidia padenii NRRL 2977	90267	Chlpad1	v1.0		https://genome.jgi.doe.gov/portal/Chlpad1/download/Chlpad1_GeneCatalog_proteins_20160815.aa.fasta.gz
@@ -647,6 +640,7 @@ Zymoseptoria tritici ST99CH_3D7	1276538	FALSE
 		FALSE	Amanita rubescens Přilba	71933	Amarub1	v1.0		https://genome.jgi.doe.gov/portal/Amarub1/download/Amarub1_GeneCatalog_proteins_20190322.aa.fasta.gz
 		FALSE	Ambrosiozyma philentoma NRRL Y-7523	43984	Ambph1		PMID:29760453	https://genome.jgi.doe.gov/portal/Ambph1/download/Ambph1_GeneCatalog_proteins_20181206.aa.fasta.gz
 		FALSE	Amniculicola lignicola CBS 123094	1392246	Amnli1	v1.0		https://genome.jgi.doe.gov/portal/Amnli1/download/Amnli1_GeneCatalog_proteins_20140304.aa.fasta.gz
+		FALSE	Amorphotheca resinae	5101	Amore1	v1.0	PMID:29315638	https://genome.jgi.doe.gov/portal/Amore1/download/Amore1_GeneCatalog_proteins_20110719.aa.fasta.gz
 		FALSE	Ampelomyces quisqualis HMLAC05119	50730	Ampqui1	v1.0		https://genome.jgi.doe.gov/portal/Ampqui1/download/Ampqui1_GeneCatalog_proteins_20160127.aa.fasta.gz
 		FALSE	Amylocarpus encephaloides TRa018bII	45428	Amyenc1	v1.0		https://genome.jgi.doe.gov/portal/Amyenc1/download/Amyenc1_GeneCatalog_proteins_20190204.aa.fasta.gz
 		FALSE	Amylocorticium subincarnatum OMC1654	264088	Amysub1	v1.0		https://genome.jgi.doe.gov/portal/Amysub1/download/Amysub1_GeneCatalog_proteins_20181105.aa.fasta.gz
@@ -693,6 +687,7 @@ Zymoseptoria tritici ST99CH_3D7	1276538	FALSE
 		FALSE	Aspergillus avenaceus IBT 18842	36643	Aspave1	v1.0		https://genome.jgi.doe.gov/portal/Aspave1/download/Aspave1_GeneCatalog_proteins_20160920.aa.fasta.gz
 		FALSE	Aspergillus bertholletius IBT 29228	1226010	Aspber1	v1.0		https://genome.jgi.doe.gov/portal/Aspber1/download/Aspber1_GeneCatalog_proteins_20160916.aa.fasta.gz
 		FALSE	Aspergillus bisporus CBS 707.71	41753	Aspbisp1	v1.0		https://genome.jgi.doe.gov/portal/Aspbisp1/download/Aspbisp1_GeneCatalog_proteins_20160414.aa.fasta.gz
+		FALSE	Aspergillus brasiliensis	319629	Aspbr1	v1.0	PMID:28196534	https://genome.jgi.doe.gov/portal/Aspbr1/download/Aspbr1_GeneCatalog_proteins_20120615.aa.fasta.gz
 		FALSE	Aspergillus brevijanus CBS 111.46	176172	Aspbrev1	v1.0		https://genome.jgi.doe.gov/portal/Aspbrev1/download/Aspbrev1_GeneCatalog_proteins_20160412.aa.fasta.gz
 		FALSE	Aspergillus caelatus CBS 763.97	61420	Aspcae1	v1.0		https://genome.jgi.doe.gov/portal/Aspcae1/download/Aspcae1_GeneCatalog_proteins_20160916.aa.fasta.gz
 		FALSE	Aspergillus carlsbadensis CBS 123894	1810906	Aspcar1	v1.0		https://genome.jgi.doe.gov/portal/Aspcar1/download/Aspcar1_GeneCatalog_proteins_20170323.aa.fasta.gz
@@ -704,6 +699,7 @@ Zymoseptoria tritici ST99CH_3D7	1276538	FALSE
 		FALSE	Aspergillus fijiensis CBS 313.89	1448319	Aspfij1	v1.0	PMID:30349117	https://genome.jgi.doe.gov/portal/Aspfij1/download/Aspfij1_GeneCatalog_proteins_20141130.aa.fasta.gz
 		FALSE	Aspergillus filifera CBS 114510	447248	Aspfili1	v1.0		https://genome.jgi.doe.gov/portal/Aspfili1/download/Aspfili1_GeneCatalog_proteins_20160412.aa.fasta.gz
 		FALSE	Aspergillus funiculosus CBS 116.56	176168	Aspfuni1	v1.0		https://genome.jgi.doe.gov/portal/Aspfuni1/download/Aspfuni1_GeneCatalog_proteins_20160414.aa.fasta.gz
+		FALSE	Aspergillus glaucus	41413	Aspgl1	v1.0	PMID:28196534	https://genome.jgi.doe.gov/portal/Aspgl1/download/Aspgl1_GeneCatalog_proteins_20121005.aa.fasta.gz
 		FALSE	Aspergillus homomorphus CBS 101889	1450537	Asphom1	v1.0	PMID:30349117	https://genome.jgi.doe.gov/portal/Asphom1/download/Asphom1_GeneCatalog_proteins_20140716.aa.fasta.gz
 		FALSE	Aspergillus ibericus CBS 121593	1448316	Aspibe1	v1.0	PMID:30349117	https://genome.jgi.doe.gov/portal/Aspibe1/download/Aspibe1_GeneCatalog_proteins_20141129.aa.fasta.gz
 		FALSE	Aspergillus indicus	138288	Aspind2_1	v2.0		https://genome.jgi.doe.gov/portal/Aspind2_1/download/Aspind2_1_GeneCatalog_proteins_20160309.aa.fasta.gz
@@ -719,6 +715,7 @@ Zymoseptoria tritici ST99CH_3D7	1276538	FALSE
 		FALSE	Aspergillus niger CBS 513.88	425011	Aspni_DSM_1		PMID:17259976	https://genome.jgi.doe.gov/portal/Aspni_DSM_1/download/Aspni_DSM_1_GeneCatalog_proteins_20130526.aa.fasta.gz
 		FALSE	Aspergillus niger NRRL3	1451139	Aspni_NRRL3_1		PMID:30349117	https://genome.jgi.doe.gov/portal/Aspni_NRRL3_1/download/Aspni_NRRL3_1_GeneCatalog_proteins_20140311.aa.fasta.gz
 		FALSE	Aspergillus niger van Tieghem ATCC 13496	1353008	Aspni_bvT_1	v1.0	PMID:30349117	https://genome.jgi.doe.gov/portal/Aspni_bvT_1/download/Aspni_bvT_1_GeneCatalog_proteins_20140302.aa.fasta.gz
+		FALSE	Aspergillus nomius IBT 12657	41061	Aspnom1	v1.0		https://genome.jgi.doe.gov/portal/Aspnom1/download/Aspnom1_GeneCatalog_proteins_20160910.aa.fasta.gz
 		FALSE	Aspergillus nomius NRRL 13137	1509407	Aspnom13137_1		PMID:26216546	https://genome.jgi.doe.gov/portal/Aspnom13137_1/download/Aspnom13137_1_GeneCatalog_proteins_20160919.aa.fasta.gz
 		FALSE	Aspergillus novoparasiticus CBS 126849	986946	Aspnovo1	v1.0		https://genome.jgi.doe.gov/portal/Aspnovo1/download/Aspnovo1_GeneCatalog_proteins_20160816.aa.fasta.gz
 		FALSE	Aspergillus olivicola	1250372	Aspoli1_1	v1.0		https://genome.jgi.doe.gov/portal/Aspoli1_1/download/Aspoli1_1_GeneCatalog_proteins_20160309.aa.fasta.gz
@@ -967,6 +964,7 @@ Zymoseptoria tritici ST99CH_3D7	1276538	FALSE
 		FALSE	Fomitiporia mediterranea	208960	Fomme1	v1.0	PMID:22745431	https://genome.jgi.doe.gov/portal/Fomme1/download/Fomme1_GeneCatalog_proteins_20101122.aa.fasta.gz
 		FALSE	Fomitopsis betulina CIRM-BRFM 1772	40450	Pipbet1_1	v1.1		https://genome.jgi.doe.gov/portal/Pipbet1_1/download/Pipbet1_1_GeneCatalog_proteins_20171124.aa.fasta.gz
 		FALSE	Fusarium commune MPI-SDFR-AT-0072	249398	Fusco1	v1.0		https://genome.jgi.doe.gov/portal/Fusco1/download/Fusco1_GeneCatalog_proteins_20180421.aa.fasta.gz
+		FALSE	Fusarium fujikuroi IMI 58289	1279085	Fusfu1		PMID:23825955	https://genome.jgi.doe.gov/portal/Fusfu1/download/Fusfu1_GeneCatalog_proteins_20130915.aa.fasta.gz
 		FALSE	Fusarium oxysporum MPI-SDFR-AT-0094	5507	Fusoxy1	v1.0		https://genome.jgi.doe.gov/portal/Fusoxy1/download/Fusoxy1_GeneCatalog_proteins_20171014.aa.fasta.gz
 		FALSE	Fusarium redolens MPI-CAGE-AT-0023	48865	Fusre1	v1.0		https://genome.jgi.doe.gov/portal/Fusre1/download/Fusre1_GeneCatalog_proteins_20170625.aa.fasta.gz
 		FALSE	Fusarium solani FSSC 5	169388	Fusso1	v1.0		https://genome.jgi.doe.gov/portal/Fusso1/download/Fusso1_GeneCatalog_proteins_20180401.aa.fasta.gz
@@ -1503,6 +1501,7 @@ Zymoseptoria tritici ST99CH_3D7	1276538	FALSE
 		FALSE	Trametes versicolor	5325	Trave1	v1.0	PMID:22745431	https://genome.jgi.doe.gov/portal/Trave1/download/Trave1_GeneCatalog_proteins_20101111.aa.fasta.gz
 		FALSE	Trametopsis cervina CIRM-BRFM 1824	1111950	Trace1	v1.0		https://genome.jgi.doe.gov/portal/Trace1/download/Trace1_GeneCatalog_proteins_20150503.aa.fasta.gz
 		FALSE	Trematosphaeria pertusa CBS 122368	1447946	Trepe1	v1.0		https://genome.jgi.doe.gov/portal/Trepe1/download/Trepe1_GeneCatalog_proteins_20140415.aa.fasta.gz
+		FALSE	Tremella mesenterica Fries	5217	Treme1	v1.0	PMID:22745431	https://genome.jgi.doe.gov/portal/Treme1/download/Treme1_best_proteins.fasta.gz
 		FALSE	Trichaptum abietinum	40452	Triab1_1	v1.0		https://genome.jgi.doe.gov/portal/Triab1_1/download/Triab1_1_GeneCatalog_proteins_20130513.aa.fasta.gz
 		FALSE	Tricharina aff. praecox DOB1048	43430	Pezsub1	v1.0		https://genome.jgi.doe.gov/portal/Pezsub1/download/Pezsub1_GeneCatalog_proteins_20181004.aa.fasta.gz
 		FALSE	Tricharina praecox DOB2270	43433	Tripra1	v1.0		https://genome.jgi.doe.gov/portal/Tripra1/download/Tripra1_GeneCatalog_proteins_20180307.aa.fasta.gz
@@ -1510,6 +1509,7 @@ Zymoseptoria tritici ST99CH_3D7	1276538	FALSE
 		FALSE	Trichoderma arundinaceum IBT 40837	490622	Triaru1		PMID:29649280	https://genome.jgi.doe.gov/portal/Triaru1/download/Triaru1_GeneCatalog_proteins_20181221.aa.fasta.gz
 		FALSE	Trichoderma asperellum TR356	101201	Triasp1	v1.0	PMID:31189469	https://genome.jgi.doe.gov/portal/Triasp1/download/Triasp1_GeneCatalog_proteins_20150522.aa.fasta.gz
 		FALSE	Trichoderma atrobrunneum ITEM 908	1491457	Triatrob1		PMID:30200883	https://genome.jgi.doe.gov/portal/Triatrob1/download/Triatrob1_GeneCatalog_proteins_20181004.aa.fasta.gz
+		FALSE	Trichoderma atroviride	63577	Triat2	v2.0	PMID:21501500	https://genome.jgi.doe.gov/portal/Triat2/download/Tatroviridev2_FrozenGeneCatalog_20100319.proteins.fasta.gz
 		FALSE	Trichoderma brevicompactum IBT40841	247546	Tribre1		PMID:29649280	https://genome.jgi.doe.gov/portal/Tribre1/download/Tribre1_GeneCatalog_proteins_20190327.aa.fasta.gz
 		FALSE	Trichoderma hamatum GD12	1247866	Triham1		PMID:23908658	https://genome.jgi.doe.gov/portal/Triham1/download/Triham1_GeneCatalog_proteins_20181220.aa.fasta.gz
 		FALSE	Trichoderma harzianum TR274	5544	Trihar1	v1.0	PMID:31189469	https://genome.jgi.doe.gov/portal/Trihar1/download/Trihar1_GeneCatalog_proteins_20141017.aa.fasta.gz
@@ -1890,5 +1890,3 @@ Yarrowia lipolytica	4952	TRUE	Yarrowia lipolytica FKP355	4952	Yarlip1	v1.0	PMID:
 Yarrowia lipolytica str. CLIB89 (W29)	755266	TRUE	Yarrowia lipolytica CLIB89(W29)	755266	YarliW29_1		PMID:27603307	https://genome.jgi.doe.gov/portal/YarliW29_1/download/YarliW29_1_GeneCatalog_proteins_20190319.aa.fasta.gz
 Zygosaccharomyces rouxii str. CBS 732	559307	TRUE	Zygosaccharomyces rouxii CBS732	559307	Zygro1		PMID:19525356	https://genome.jgi.doe.gov/portal/Zygro1/download/Zygro1_GeneCatalog_proteins_20150128.aa.fasta.gz
 Zymoseptoria brevis str. Zb18110	1047168	TRUE	Zymoseptoria brevis Zb18110	1047168	Zymbr1		PMID:25917918	https://genome.jgi.doe.gov/portal/Zymbr1/download/Zymbr1_GeneCatalog_proteins_20170711.aa.fasta.gz
-		TRUE						
-		TRUE						
