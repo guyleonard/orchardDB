@@ -106,7 +106,7 @@ elsif ($populate) {
 
         if ( $status == 1 ) {
             print
-                "[OrchardDB:Plant:ERRR] - The GenomeID already exists. Stopping!\n";
+                "[OrchardDB:Plant:ERRR] - The GenomeID already exists. Stopping!\n\n";
             exit(1);
         }
 
