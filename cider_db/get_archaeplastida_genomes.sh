@@ -131,8 +131,8 @@ wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/004/193/775/GCF_004193775.1_
 wget -nc ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/220/235/GCF_002220235.1_ASM222023v1/GCF_002220235.1_ASM222023v1_protein.faa.gz -a get_archaeplastida.log
 
 echo "Downloading Sequence Data from Other DBs"
-wget -nc ftp://cucurbitgenomics.org/pub/cucurbit/genome/Lagenaria_siceraria/Lsiceraria_v1.protein.fa.gz -a get_archaeplastida.log
-wget -nc ftp://cucurbitgenomics.org/pub/cucurbit/genome/watermelon/97103/v2/watermelon_97103_v2.protein.fa.gz -a get_archaeplastida.log
+wget -nc ftp://cucurbitgenomics.org/pub/cucurbit/genome/Lagenaria_siceraria/Lsiceraria_pep_v1.fa.gz -a get_archaeplastida.log
+wget -nc ftp://cucurbitgenomics.org/pub/cucurbit/genome/watermelon/97103/v2/97103_pep_v2.fa.gz -a get_archaeplastida.log
 wget -nc ftp://ftp.bioinfo.wsu.edu/species/Vaccinium_corymbosum/Vcorymbosum_Draper_genome_v1/annotation/V_corymbosum_Draper_v1.0-proteins-nameTruncated.fasta -a get_archaeplastida.log
 wget -nc ftp://ftp.fernbase.org/Azolla_filiculoides/Azolla_asm_v1.1/Azolla_filiculoides.protein.highconfidence_v1.1.fasta -a get_archaeplastida.log && wget -nc ftp://ftp.fernbase.org/Azolla_filiculoides/Azolla_asm_v1.1/Azolla_filiculoides.protein.lowconfidence_v1.1.fasta  -a get_archaeplastida.log && cat Azolla_filiculoides.protein.highconfidence_v1.1.fasta Azolla_filiculoides.protein.lowconfidence_v1.1.fasta > Azolla_filiculoides.proteins_v1.1.fasta
 wget -nc ftp://ftp.fernbase.org/Salvinia_cucullata/Salvinia_asm_v1.2/Salvinia_cucullata.protein.highconfidence_v1.2.fasta -a get_archaeplastida.log && wget -nc ftp://ftp.fernbase.org/Salvinia_cucullata/Salvinia_asm_v1.2/Salvinia_cucullata.protein.lowconfidence_v1.2.fasta  -a get_archaeplastida.log && cat Salvinia_cucullata.protein.highconfidence_v1.2.fasta Salvinia_cucullata.protein.lowconfidence_v1.2.fasta > Salvinia_cucullata.proteins_v1.2.fasta
