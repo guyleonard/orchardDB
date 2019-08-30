@@ -1683,7 +1683,7 @@ DB=$3
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/fungi/RhodotJ31_1_GeneCatalog_proteins_20160519.aa.fasta --taxid 1853554 --source JGI,Mycocosm --type DNA --ver v1.0 --pub NA
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/fungi/Rhyru1_1_GeneCatalog_proteins_20150204.aa.fasta --taxid 37885 --source JGI,Mycocosm --type DNA --ver 1 --pub PMID:23236275
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/fungi/Ricfib1_GeneCatalog_proteins_20160317.aa.fasta --taxid 264144 --source JGI,Mycocosm --type DNA --ver v1.0 --pub NA
-../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/fungi/Ricmel1_GeneCatalog_proteins_20151108.aa.fasta --taxid 50990 --source JGI,Mycocosm --type DNA --ver v1.0 (SZMC22713) --pub PMID:30902897
+../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/fungi/Ricmel1_GeneCatalog_proteins_20151108.aa.fasta --taxid 50990 --source JGI,Mycocosm --type DNA --ver v1.0 --pub PMID:30902897
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/fungi/Rigmic1_GeneCatalog_proteins_20170307.aa.fasta --taxid 219653 --source JGI,Mycocosm --type DNA --ver v1.0 --pub NA
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/fungi/Rorror1_GeneCatalog_proteins_20190202.aa.fasta --taxid 1738132 --source JGI,Mycocosm --type DNA --ver v1.0 --pub NA
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/fungi/Rusbre1_GeneCatalog_proteins_20161010.aa.fasta --taxid 98861 --source JGI,Mycocosm --type DNA --ver v1.0 --pub NA
