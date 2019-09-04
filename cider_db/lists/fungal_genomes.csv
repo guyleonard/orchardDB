@@ -1107,7 +1107,7 @@
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Canar1_GeneCatalog_proteins_20111127.aa.fasta	--taxid	983967	--source	JGI,Mycocosm	--type	DNA	--ver	v1.0	--pub	PMID:27535936	Candida arabinofermentans NRRL YB-2248
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Canbo1_GeneCatalog_proteins_20181210.aa.fasta	--taxid	5477	--source	JGI,Mycocosm	--type	DNA	--ver	1	--pub	PMID:29760453	Candida boidinii NRRL Y-2332
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Canta1_GeneCatalog_proteins_20120131.aa.fasta	--taxid	984487	--source	JGI,Mycocosm	--type	DNA	--ver	v1.0	--pub	PMID:27535936	Candida tanzawaensis NRRL Y-17324 
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Cante1_all_proteins_v1_1.fasta	--taxid	45596	--source	JGI,Mycocosm	--type	DNA	--ver	v1.0	--pub	PMID:21788494	Candida tenuis NRRL Y-1498
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Cante1_all_proteins_v1_1.fasta	--taxid	2315449	--source	JGI,Mycocosm	--type	DNA	--ver	v1.0	--pub	PMID:21788494	Candida tenuis NRRL Y-1498
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Cananz1_GeneCatalog_proteins_20160317.aa.fasta	--taxid	1750568	--source	JGI,Mycocosm	--type	DNA	--ver	v1.0	--pub	NA	Cantharellus anzutake C23
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Capse1_GeneCatalog_proteins_20160902.aa.fasta	--taxid	5601	--source	JGI,Mycocosm	--type	DNA	--ver	1	--pub	PMID:28348446	Capronia semiimmersa CBS27337
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Caupr1_GeneCatalog_proteins_20150107.aa.fasta	--taxid	1555241	--source	JGI,Mycocosm	--type	DNA	--ver	v1.0	--pub	PMID:30297742	Caulochytrium protostelioides ATCC 52028

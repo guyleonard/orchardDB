@@ -1110,7 +1110,7 @@ DB=$3
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/fungi/Canar1_GeneCatalog_proteins_20111127.aa.fasta --taxid 983967 --source JGI,Mycocosm --type DNA --ver v1.0 --pub PMID:27535936
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/fungi/Canbo1_GeneCatalog_proteins_20181210.aa.fasta --taxid 5477 --source JGI,Mycocosm --type DNA --ver 1 --pub PMID:29760453
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/fungi/Canta1_GeneCatalog_proteins_20120131.aa.fasta --taxid 984487 --source JGI,Mycocosm --type DNA --ver v1.0 --pub PMID:27535936
-../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/fungi/Cante1_all_proteins_v1_1.fasta --taxid 45596 --source JGI,Mycocosm --type DNA --ver v1.0 --pub PMID:21788494
+../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/fungi/Cante1_all_proteins_v1_1.fasta --taxid 2315449 --source JGI,Mycocosm --type DNA --ver v1.0 --pub PMID:21788494
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/fungi/Cananz1_GeneCatalog_proteins_20160317.aa.fasta --taxid 1750568 --source JGI,Mycocosm --type DNA --ver v1.0 --pub NA
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/fungi/Capse1_GeneCatalog_proteins_20160902.aa.fasta --taxid 5601 --source JGI,Mycocosm --type DNA --ver 1 --pub PMID:28348446
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/fungi/Caupr1_GeneCatalog_proteins_20150107.aa.fasta --taxid 1555241 --source JGI,Mycocosm --type DNA --ver v1.0 --pub PMID:30297742
