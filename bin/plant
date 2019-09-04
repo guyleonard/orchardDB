@@ -112,6 +112,11 @@ elsif ($populate) {
 
         # get the genus+species and BioPerl taxonomy
         my ( $genus_species, $taxon_lineage ) = get_taxonomy("$taxid");
+        if ( $genus_species eq "" ) {
+            print
+                "[OrchardDB:Plant:ERRR] - No species name found! Please make sure your TAXID is correct.\n";
+            exit(1);
+        }
         print "[OrchardDB:Plant:INFO] - Your Taxa: $genus_species\n";
 
         # get the date time values in 'YYYY-MM-DD HH:MM:SS'
@@ -163,7 +168,7 @@ elsif ($populate) {
         print "[OrchardDB:Plant:INFO] - Populating Accessions Table!\n";
         insert_accession_records( $dbh, $db_name,
             $genome_id, @odb_accessions );
-        
+
         $dbh->disconnect();
         print "[OrchardDB:Plant:INFO] - Success!\n\n";
     }
