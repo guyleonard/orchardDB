@@ -222,7 +222,7 @@
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Aplke1_GeneCatalog_proteins_20121220.aa.fasta	--taxid	702273	--source	JGI,Other	--type	DNA	--ver	V1.0	--pub	NA	Aplanochytrium kerguelense
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Aurli1_GeneCatalog_proteins_20120618.aa.fasta	--taxid	717989	--source	JGI,Other	--type	DNA	--ver	V1.0	--pub	NA	Aurantiochytrium limacinum
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	proteins.Auran1_FilteredModels3.fasta	--taxid	44056	--source	JGI,Other	--type	DNA	--ver	V1.0	--pub	NA	Aureococcus anophagefferens
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Crypto2293_1_GeneCatalog_proteins_20160903.aa.fasta	--taxid	3027	--source	JGI,Other	--type	DNA	--ver	V1.0	--pub	NA	Cryptophyceae sp.
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Crypto2293_1_GeneCatalog_proteins_20160903.aa.fasta	--taxid	697909	--source	JGI,Other	--type	DNA	--ver	V1.0	--pub	NA	Cryptophyceae sp.
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Nanoce1779_2_GeneCatalog_proteins_20180119.aa.fasta	--taxid	145522	--source	JGI,Other	--type	DNA	--ver	Nanoce1779_2	--pub	NA	Nannochloropsis oceanica
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Ochro2298_1_GeneCatalog_proteins_20160817.aa.fasta	--taxid	88165	--source	JGI,Other	--type	DNA	--ver	V1.0	--pub	NA	Ochromonadaceae sp.
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Pavlov2436_1_GeneCatalog_proteins_20160817.aa.fasta	--taxid	73026	--source	JGI,Other	--type	DNA	--ver	V1.0	--pub	NA	Pavlovales sp.

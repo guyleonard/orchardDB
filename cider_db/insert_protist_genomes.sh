@@ -222,7 +222,7 @@ DB=$3
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/Aplke1_GeneCatalog_proteins_20121220.aa.fasta --taxid 702273 --source JGI,Other --type DNA --ver V1.0 --pub NA
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/Aurli1_GeneCatalog_proteins_20120618.aa.fasta --taxid 717989 --source JGI,Other --type DNA --ver V1.0 --pub NA
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/proteins.Auran1_FilteredModels3.fasta --taxid 44056 --source JGI,Other --type DNA --ver V1.0 --pub NA
-../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/Crypto2293_1_GeneCatalog_proteins_20160903.aa.fasta --taxid 3027 --source JGI,Other --type DNA --ver V1.0 --pub NA
+../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/Crypto2293_1_GeneCatalog_proteins_20160903.aa.fasta --taxid 697909 --source JGI,Other --type DNA --ver V1.0 --pub NA
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/Ochro2298_1_GeneCatalog_proteins_20160817.aa.fasta --taxid 88165 --source JGI,Other --type DNA --ver V1.0 --pub NA
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/Pavlov2436_1_GeneCatalog_proteins_20160817.aa.fasta --taxid 73026 --source JGI,Other --type DNA --ver V1.0 --pub NA
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/Pelago2097_1_GeneCatalog_proteins_20160408.aa.fasta --taxid 35675 --source JGI,Other --type DNA --ver V1.0 --pub NA
