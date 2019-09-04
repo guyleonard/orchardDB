@@ -1254,7 +1254,7 @@ DB=$3
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/fungi/Disac1_GeneCatalog_proteins_20130805.aa.fasta --taxid 112489 --source JGI,Mycocosm --type DNA --ver v1.0 --pub NA
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/fungi/Disorn1_GeneCatalog_proteins_20180714.aa.fasta --taxid 979620 --source JGI,Mycocosm --type DNA --ver v1.0 --pub NA
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/fungi/Dotsy1_GeneCatalog_proteins_20131210.aa.fasta --taxid 548649 --source JGI,Mycocosm --type DNA --ver v1.0 --pub NA
-../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/fungi/Earsca1_GeneCatalog_proteins_20171018.aa.fasta --taxid 239200 --source JGI,Mycocosm --type DNA --ver v1.0 --pub NA
+../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/fungi/Earsca1_GeneCatalog_proteins_20171018.aa.fasta --taxid 2478900 --source JGI,Mycocosm --type DNA --ver v1.0 --pub NA
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/fungi/Echtin1_GeneCatalog_proteins_20180919.aa.fasta --taxid 40440 --source JGI,Mycocosm --type DNA --ver v1.0 --pub NA
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/fungi/Ellano1_GeneCatalog_proteins_20190325.aa.fasta --taxid 101134 --source JGI,Mycocosm --type DNA --ver v1.0 --pub NA
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/fungi/Elsamp1_GeneCatalog_proteins_20151205.aa.fasta --taxid 302913 --source JGI,Mycocosm --type DNA --ver v1.0 --pub NA

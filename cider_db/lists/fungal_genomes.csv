@@ -1251,7 +1251,7 @@
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Disac1_GeneCatalog_proteins_20130805.aa.fasta	--taxid	112489	--source	JGI,Mycocosm	--type	DNA	--ver	v1.0	--pub	NA	Dissoconium aciculare
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Disorn1_GeneCatalog_proteins_20180714.aa.fasta	--taxid	979620	--source	JGI,Mycocosm	--type	DNA	--ver	v1.0	--pub	NA	Dissophora ornata CBS 347.77
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Dotsy1_GeneCatalog_proteins_20131210.aa.fasta	--taxid	548649	--source	JGI,Mycocosm	--type	DNA	--ver	v1.0	--pub	NA	Dothidotthia symphoricarpi
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Earsca1_GeneCatalog_proteins_20171018.aa.fasta	--taxid	239200	--source	JGI,Mycocosm	--type	DNA	--ver	v1.0	--pub	NA	Earliella scabrosa CIRM-BRFM 1817
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Earsca1_GeneCatalog_proteins_20171018.aa.fasta	--taxid	2478900	--source	JGI,Mycocosm	--type	DNA	--ver	v1.0	--pub	NA	Earliella scabrosa CIRM-BRFM 1817
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Echtin1_GeneCatalog_proteins_20180919.aa.fasta	--taxid	40440	--source	JGI,Mycocosm	--type	DNA	--ver	v1.0	--pub	NA	Echinodontium tinctorium Aho-80
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Ellano1_GeneCatalog_proteins_20190325.aa.fasta	--taxid	101134	--source	JGI,Mycocosm	--type	DNA	--ver	v1.0	--pub	NA	Ellisomyces anomalus CBS 243.57
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Elsamp1_GeneCatalog_proteins_20151205.aa.fasta	--taxid	302913	--source	JGI,Mycocosm	--type	DNA	--ver	v1.0	--pub	NA	Elsinoe ampelina CECT 20119
