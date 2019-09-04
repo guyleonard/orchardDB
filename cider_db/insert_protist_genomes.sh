@@ -232,7 +232,7 @@ DB=$3
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/Schag1_GeneCatalog_proteins_20121220.aa.fasta --taxid 876976 --source JGI,Other --type DNA --ver V1.0 --pub NA
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/GCA_002081595.1_ACH_lane_v1_protein.faa --taxid 1202772 --source NCBI,GenBank --type DNA --ver V1.0 --pub NA
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/GCF_000787575.1_Asub_2.0_protein.faa --taxid 361139 --source NCBI,RefSeq --type DNA --ver V2.0 --pub NA
-../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/symbB.v1.2.augustus.prot.fa --taxid 1202447 --source Other,OIST --type DNA --ver 1.2 --pub NA
+../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/symbB.v1.2.augustus.prot.fa --taxid 2499525 --source Other,OIST --type DNA --ver 1.2 --pub NA
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/syma_aug_37.aa --taxid 154557 --source Other,OIST --type DNA --ver 1 --pub NA
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/symC_aug_40.aa --taxid 293275 --source Other,OIST --type DNA --ver 1 --pub NA
 ../bin/plant --populate  --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/protists/ito_mozuku_onna1_protein_seq.fasta --taxid 2185085 --source Other,OIST --type DNA --ver 1 --pub NA

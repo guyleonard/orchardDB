@@ -234,7 +234,7 @@
 																				
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCA_002081595.1_ACH_lane_v1_protein.faa	--taxid	1202772	--source	NCBI,GenBank	--type	DNA	--ver	V1.0	--pub	NA	Achlya hypogyna 
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	GCF_000787575.1_Asub_2.0_protein.faa	--taxid	361139	--source	NCBI,RefSeq	--type	DNA	--ver	V2.0	--pub	NA	Acytostelium subglobosum 
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	symbB.v1.2.augustus.prot.fa	--taxid	1202447	--source	Other,OIST	--type	DNA	--ver	1.2	--pub	NA	Symbiodinium minutum
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	symbB.v1.2.augustus.prot.fa	--taxid	2499525	--source	Other,OIST	--type	DNA	--ver	1.2	--pub	NA	Symbiodinium minutum
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	syma_aug_37.aa	--taxid	154557	--source	Other,OIST	--type	DNA	--ver	1	--pub	NA	Symbiodinium sp. A3
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	symC_aug_40.aa	--taxid	293275	--source	Other,OIST	--type	DNA	--ver	1	--pub	NA	Symbiodinium sp. C
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	ito_mozuku_onna1_protein_seq.fasta	--taxid	2185085	--source	Other,OIST	--type	DNA	--ver	1	--pub	NA	Nemacystus decipiens
