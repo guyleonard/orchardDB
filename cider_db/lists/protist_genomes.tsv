@@ -224,7 +224,7 @@
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	proteins.Auran1_FilteredModels3.fasta	--taxid	44056	--source	JGI,Other	--type	DNA	--ver	V1.0	--pub	NA	Aureococcus anophagefferens
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Crypto2293_1_GeneCatalog_proteins_20160903.aa.fasta	--taxid	697909	--source	JGI,Other	--type	DNA	--ver	V1.0	--pub	NA	Cryptophyceae sp.
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Nanoce1779_2_GeneCatalog_proteins_20180119.aa.fasta	--taxid	145522	--source	JGI,Other	--type	DNA	--ver	Nanoce1779_2	--pub	NA	Nannochloropsis oceanica
-./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Ochro2298_1_GeneCatalog_proteins_20160817.aa.fasta	--taxid	88165	--source	JGI,Other	--type	DNA	--ver	V1.0	--pub	NA	Ochromonadaceae sp.
+./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Ochro2298_1_GeneCatalog_proteins_20160817.aa.fasta	--taxid	483371	--source	JGI,Other	--type	DNA	--ver	V1.0	--pub	NA	Ochromonadaceae sp.
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Pavlov2436_1_GeneCatalog_proteins_20160817.aa.fasta	--taxid	73026	--source	JGI,Other	--type	DNA	--ver	V1.0	--pub	NA	Pavlovales sp.
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Pelago2097_1_GeneCatalog_proteins_20160408.aa.fasta	--taxid	35675	--source	JGI,Other	--type	DNA	--ver	V1.0	--pub	NA	Pelagophyceae sp.
 ./bin/plant	--populate	--user	test	--pass	test	--db	cider	--fasta	Phyca11_unfiltered_proteins.fasta	--taxid	763924	--source	JGI,Other	--type	DNA	--ver	v11	--pub	NA	Phytophthora capsici
