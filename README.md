@@ -56,8 +56,11 @@ A set of genomes curated from groups such as Archaeplastida, Fungi, Metazoa, Pro
    * real  79m26.976s
    * user  25m25.884s
    * sys   7m17.596s
- * Archaea & Bacteria
-   * Coming Soon!
+ * Archaea 
+   * NCBI's representative set of complete genomes [here](https://www.ncbi.nlm.nih.gov/genome/browse#!/prokaryotes/refseq_category:representative)
+ * Bacteria
+   * NCBI's reference set of complete genomes [here](https://www.ncbi.nlm.nih.gov/genome/browse#!/prokaryotes/refseq_category:reference)
+
 
 real  587m34.362s
 user  779m50.184s
