@@ -59,6 +59,10 @@ A set of genomes curated from groups such as Archaeplastida, Fungi, Metazoa, Pro
  * Archaea & Bacteria
    * Coming Soon!
 
+real  587m34.362s
+user  779m50.184s
+sys   67m25.940s
+
 #### Set Up *cider* Database
 Run the main script in the cider_db folder as below, it will download the initial set of genomes for each group, along with the NCBI taxdump files, and then set up and add them to a local database. The script will not download genomes from JGI due to the user needing to login. You can try [this](https://github.com/guyleonard/get_jgi_genomes) tool to download them, or try to download them via "Globus" or one of the other difficult JGI methods. Place them in the folder prior to running the script.
 ```
