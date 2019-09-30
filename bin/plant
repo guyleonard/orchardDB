@@ -547,6 +547,7 @@ sub process_fasta {
             -format => 'fasta'
         );
 
+        my $accession_count = 1;
         while ( my $seq = $seqio_in->next_seq() ) {
 
             # get full header, made from id and description
@@ -571,24 +572,31 @@ sub process_fasta {
             $seqio_out->write_seq($seq);
 
             if ( $source =~ m/ncbi/i ) {
-                $accession = process_ncbi( $original_header, $subsource );
+                $accession = process_ncbi( $original_header, $subsource,
+                    $accession_count );
             }
             elsif ( $source =~ m/jgi/i ) {
-                $accession = process_jgi( $original_header, $subsource );
+                $accession = process_jgi( $original_header, $subsource,
+                    $accession_count );
             }
             elsif ( $source =~ m/ensembl/i ) {
-                $accession = process_ensembl( $original_header, $subsource );
+                $accession
+                    = process_ensembl( $original_header, $accession_count );
             }
             elsif ( $source =~ m/eupathdb/i ) {
-                $accession = process_eupathdb( $original_header, $subsource );
+                $accession
+                    = process_eupathdb( $original_header, $accession_count );
             }
             else {
-                ($accession) = split / /, $original_header;
+                $accession = "ORCHARD-$accession_count";
+
+                #($accession) = split / /, $original_header;
             }
 
             # output to array
             push @odb_accessions,
                 "$hashed_accession,$accession,$original_header,$sequence";
+            $accession_count++;
         }
     }
 
@@ -599,13 +607,13 @@ sub process_fasta {
 # Portal Functions
 #
 sub process_eupathdb {
-    my $header = shift;
+    my ( $header, $accession_count ) = @_;
     my $accession;
 
     #AEWD_010030-t26_1-p1 | transcript=AEWD_010030-t26_1 | gene=AEWD_010030 |
     $header =~ /.*gene=(.*)\s+\|\s+org.*/;
     if ( !defined $1 ) {
-        $accession = $header;
+        $accession = "ORCHARD-$accession_count";
     }
     else {
         $accession = $1;
@@ -615,13 +623,13 @@ sub process_eupathdb {
 }
 
 sub process_ensembl {
-    my $header = shift;
+    my ( $header, $accession_count ) = @_;
     my $accession;
 
     #EER13651 pep supercontig:JCVI_PMG_1.0:scf_1104 ...
     $header =~ /(.*)( pep .*)/ig;
     if ( !defined $1 ) {
-        $accession = $header;
+        $accession = "ORCHARD-$accession_count";
     }
     else {
         $accession = $1;
@@ -630,43 +638,51 @@ sub process_ensembl {
 }
 
 sub process_jgi {
-    my ( $header, $subsource ) = @_;
+    my ( $header, $subsource, $accession_count ) = @_;
     my $accession;
 
-    # each JGI portals has different headers
+    # each JGI portal has different headers
     # some of the fungi may also break here
     if ( $subsource =~ /fungi|mycocosm/i ) {
 
         # jgi|Encro1|1|EROM_010010m.01
         $header =~ /jgi[|].*[|](\d+)[|].*/;
         if ( !defined $1 ) {
-            $accession = $header;
+            $accession = "ORCHARD-$accession_count";
         }
         else {
             $accession = $1;
         }
     }
-    elsif ( $subsource =~ /phytozome/i ) {
-
-        #94000 pacid=27412871 transcript=94000 locus=ost_18_004_031 \
-        #ID=94000.2.0.231 annot-version=v2.0
-        $header =~ /\d+\s+pacid\=(\d+)\s+.*/;
+    elsif ( $subsource =~ /phytozome|algae/i ) {
+        $header =~ /.*\s+pacid\=(\d+)\s+.*/;
         if ( !defined $1 ) {
-            $accession = $header;
+            $accession = "ORCHARD-$accession_count";
+        }
+        else {
+            $accession = $1;
+        }
+    }
+    elsif ( $subsource =~ /metazome/i ) {
+
+        #>AAEL000014-PA|PACid:53585
+        $header =~ /.*\|PACid\:(\d+)/;
+        if ( !defined $1 ) {
+            $accession = "ORCHARD-$accession_count";
         }
         else {
             $accession = $1;
         }
     }
     else {
-        $accession = $header;
+        $accession = "ORCHARD-$accession_count";
     }
 
     return $accession;
 }
 
 sub process_ncbi {
-    my $header = shift;
+    my ( $header, $subsource, $accession_count ) = @_;
     my $accession;
 
     if ( $header =~ /^gi/ ) {
@@ -675,7 +691,7 @@ sub process_ncbi {
             if $warnings == 1;
         $header =~ /gi\|.*\|.*\|(.*)\|.*/;
         if ( !defined $1 ) {
-            $accession = $header;
+            $accession = "ORCHARD-$accession_count";
         }
         else {
             $accession = $1;
