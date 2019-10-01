@@ -63,7 +63,7 @@ DB=$3
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/Crubella_183_v1.0.protein.fa --taxid 81985 --source JGI,Phytozome --type DNA --ver V1.1 --pub NA
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/Cpapaya_113_ASGPBv0.4.protein.fa --taxid 3649 --source JGI,Phytozome --type DNA --ver v0.4 --pub DOI:10.1038/35048692
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/Cquinoa_392_v1.0.protein.fa --taxid 63459 --source JGI,Phytozome --type DNA --ver v1.0 --pub DOI:10.1093/dnares/dsw037
-../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/Chlorella_NC64A.all_proteins.fasta  --taxid 554065 --source JGI,Phytozome --type DNA --ver  --pub DOI:10.1105/tpc.110.076406
+../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/Chlorella_NC64A.all_proteins.fasta  --taxid 554065 --source JGI,Phytozome --type DNA --ver 1 --pub DOI:10.1105/tpc.110.076406
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/Czofingiensis_461_v5.2.3.2.protein.fa --taxid 31302 --source JGI,Phytozome --type DNA --ver v5.2.3.2 --pub DOI:10.1073/pnas.1619928114
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/Carietinum_492_v1.0.protein.fa --taxid 3827 --source JGI,Phytozome --type DNA --ver v1.0 --pub DOI:10.1038/nbt.2491
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/Cclementina_182_v1.0.protein.fa --taxid 85681 --source JGI,Phytozome --type DNA --ver v.1.0 --pub NA
@@ -99,7 +99,7 @@ DB=$3
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/Sfallax_310_v0.5.protein.fa --taxid 53036 --source JGI,Phytozome --type DNA --ver V0.5 --pub NA
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/Spolyrhiza_290_v2.protein.fa --taxid 29656 --source JGI,Phytozome --type DNA --ver v2 --pub DOI:10.1038/ncomms4311
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/Tintermedium_503_v2.1.protein.fa --taxid 85679 --source JGI,Phytozome --type DNA --ver V2.1 --pub NA
-../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/Tpratense_385_v2.protein.fa --taxid 57577 --source JGI,Phytozome --type DNA --ver  --pub NA
+../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/Tpratense_385_v2.protein.fa --taxid 57577 --source JGI,Phytozome --type DNA --ver 1 --pub NA
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/Vunguiculata_469_v1.1.protein.fa --taxid 3917 --source JGI,Phytozome --type DNA --ver v1.1 --pub DOI:10.1111/tpj.14349
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/Vcarteri_317_v2.1.protein.fa --taxid 3067 --source JGI,Phytozome --type DNA --ver v2.1 --pub DOI:10.1126/science.1188800
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/Zmarina_324_v2.2.protein.fa --taxid 29655 --source JGI,Phytozome --type DNA --ver v2.2 --pub DOI:10.1038/nature16548
@@ -124,7 +124,7 @@ DB=$3
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/GCF_000340665.1_C.cajan_V1.0_protein.faa --taxid 3821 --source NCBI,RefSeq --type DNA --ver 1 --pub PMID:22057054
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/GCF_000633955.1_Cs_protein.faa --taxid 90675 --source NCBI,RefSeq --type DNA --ver 1 --pub DOI:10.1038/ncomms4706
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/GCF_004153795.1_AHAU_CSS_1_protein.faa --taxid 4442 --source NCBI,RefSeq --type DNA --ver 1 --pub DOI:10.1016/j.molp.2017.04.002
-../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/GCF_003713225.1_Cara_1.0_protein.faa --taxid 13443 --source NCBI,RefSeq --type DNA --ver  --pub DOI:10.1111/pbi.12912
+../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/GCF_003713225.1_Cara_1.0_protein.faa --taxid 13443 --source NCBI,RefSeq --type DNA --ver 1 --pub DOI:10.1111/pbi.12912
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/GCF_000313045.1_ASM31304v1_protein.faa --taxid 3656 --source NCBI,RefSeq --type DNA --ver 1 --pub DOI:10.1073/pnas.1205415109
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/GCF_002738345.1_Cmax_1.0_protein.faa --taxid 3661 --source NCBI,RefSeq --type DNA --ver 1 --pub DOI:10.1016/j.molp.2017.09.003
 ../bin/plant --populate --user ${USER} --pass ${PASS} --db ${DB} --fasta ${DB}/archaeplastida/GCF_002806865.1_ASM280686v2_protein.faa --taxid 3663 --source NCBI,RefSeq --type DNA --ver 2 --pub DOI:10.1111/pbi.12860
