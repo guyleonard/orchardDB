@@ -89,19 +89,19 @@ echo "[OrchardDB:CREATE:INFO] - GZIP Original Fungal FASTA Records"
 pigz -9 -R ${DB}/fungi/*
 
 #
-# Prokaryotes
+# Archaea + Bacteria
 #
-echo "[OrchardDB:CREATE:INFO] - Downloading Prokaryote Genomes"
-./get_prokaryote_genomes.sh
-mkdir -p ${DB}/prokaryotes
+echo "[OrchardDB:CREATE:INFO] - Downloading Archaea + Bacteria Genomes"
+./get_arch_bac_genomes.sh
+mkdir -p ${DB}/arch_bac
 echo "[OrchardDB:CREATE:INFO] - UnGzip Files"
 gunzip *.gz
 echo "[OrchardDB:CREATE:INFO] - Move Original FASTA Records"
-mv *.faa ${DB}/prokaryotes
-echo "[OrchardDB:CREATE:INFO] - Insert Prokaryote Genomes"
-./insert_prokaryote_genomes.sh ${USER} ${PASS} ${DB}
-echo "[OrchardDB:CREATE:INFO] - GZIP Original Prokaryote FASTA Records"
-pigz -9 -R ${DB}/prokaryotes/*
+mv *.faa ${DB}/arch_bac
+echo "[OrchardDB:CREATE:INFO] - Insert Archaea + Bacteria Genomes"
+./insert_arch_bac_genomes.sh ${USER} ${PASS} ${DB}
+echo "[OrchardDB:CREATE:INFO] - GZIP Original Archaea + Bacteria FASTA Records"
+pigz -9 -R ${DB}/arch_bac/*
 
 echo "[OrchardDB:CREATE:INFO] - Making BLAST Databases"
 for i in ${DB}/*.fasta; do
