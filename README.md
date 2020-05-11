@@ -1,5 +1,5 @@
 # orchardDB
-:apple: :deciduous_tree: A script to create and populate a local database- and folder-set of amino acid sequences, and taxonomic information, retrieved from a variety of genome-portals for use with the [Orchard tree building pipeline](https://github.com/guyleonard/orchard).
+:apple: :deciduous_tree: A script to create and populate a local database- and folder- set of amino acid sequences along with taxonomic information, retrieved from a variety of genome-portals for use with the [Orchard tree building pipeline](https://github.com/guyleonard/orchard).
 
 ## Installation
 Please make sure all dependencies are currently installed, then do:
@@ -12,23 +12,21 @@ git clone https://github.com/guyleonard/orchardDB.git
 If you have 'cpan minus' installed you can simply do:
 ```
 sudo cpanm Bio::DB::Taxonomy Bio::SeqIO DateTime DBI Digest::MD5 File::Path Getopt::Long
-
 ```
 
 To install 'cpan minus' on Ubuntu:
 ```
- sudo apt-get install cpanminus
+ sudo apt install cpanminus
 ```
 
 #### Database
  * SQLite 3
-
- e.g.
+ To install 'sqlite' on Ubuntu:
  ```
- sudo apt-get install sqlite
+ sudo apt install sqlite
  ```
 
-#### Taxonmomic Database
+#### NCBI's Taxonmomic Database
  * NCBI Taxdump - from ftp://ftp.ncbi.nih.gov/pub/taxonomy/taxdump.tar.gz
    * Place the names.dmp and nodes.dmp files in to the cloned repository.
    * NCBI's taxonomy can be limited and may not acurately reflect current or newly accepted groupings. You may wish to edit it with [this](https://github.com/guyleonard/taxdump_edit) tool.
