@@ -80,6 +80,8 @@ Headers must be plain, consisting of only the accession number:
 ### EukProt
  * coming soon
 
+## Other Scripts / Commands
+
 ### Removing Taxa from a Database
 Sometimes you may wish to delete an old taxa along with all associated records from the DB. You can do this with the "uproot" command and the unique genome ID of your taxa.
 
@@ -90,7 +92,6 @@ Sometimes you may wish to delete an old taxa along with all associated records f
             --db example
 ```
 
-## Other Scripts
 ### catalogue
 This script will query your database and output a tab-separated text file of the main database table. This allows the user to see the IDs that were generated for each of their 'genomes' in the database along with the other information stored there. This is useful for choosing the taxa that you want to use in the 'Orchard' scripts.
 ```
