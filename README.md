@@ -1,5 +1,7 @@
 # orchardDB
-:apple: :deciduous_tree: A script to create and populate a local database of amino acid sequences combined with taxonomic information, the AA gene predictions can be retrieved from a variety of genome-portals and then used with the [Orchard tree building pipeline](https://github.com/guyleonard/orchard).
+:apple: :deciduous_tree: The orchardDB suite of tools takes a set of user collated amino acid gene predictions in FASTA format from different taxa or assemblies and builds a local SQLITE database and data folder of consistently and uqniuely renamed gene predictions ready to be used with the [Orchard tree building pipeline](https://github.com/guyleonard/orchard).
+
+Below you will find a set of instructions to install the scripts, dependencies and build your first database. Their are also instructions to import dataset from genome portals such as Ensembl, JGI and UniProt.
 
 ## Installation
 Please make sure all dependencies are currently installed, then do:
@@ -100,7 +102,35 @@ This script will query your database and output a tab-separated text file of the
 ./bin/catalogue username password /path/to/database.sql
 ```
 
-## A Note on Header Formats
+## Internal Taxa and Accession Names
+This database is mainly intended for use with the Orchard Tree Building pipeline or for producing your own phylogenies. Some issues that affect leaf naming within treefiles is their length (although not a huge constraint more recently), the use of non-alphanumeric characters (which interfere with Newick/Nexus formats) and identidical accessions even though they may come from different gene prediction sets. Another issue that you may experience in your database creation is providing gene predictions for the same taxa but from different versions or differen assemblies. This again would lead to identicial file names or filenames that end up looking like "taxaname_version_2_1_updated" or similar.
+
+In order to address this, the orchardDB script translates the names in to it's own consistent and unique identities. We do this by providing some of the information to a 'hashing' function (specifically MD5). This does mean the files and accessions end up being unreadable in a human-way but for the most part we don't need to know what files we are dealing with - just the scripts do, and tools are provided to translate the names back later (this is the current reason for use of the SQL database).
+
+### Filenames
+To generate a consistent and unique taxonomic ID within the database for each input, we take the NCBI:txid, the version number of the predictions, the source, and the 'type' of data.
+
+For example the input of;
+
+  TaxID: 1313167
+  Version: 2018
+  Souce: other,richardslab
+  Type: DNA
+
+Produces: 0e69f6622affb742c678ab46cf7d1302
+
+Modifying any of the input variables by even one letter will change the hashed output name, so this gives the user multiple ways to include either different gene prediction versions, different sources or different types of the same taxa in the database.
+
+### Accessions
+The accessions are handled in a similar way, although
+
+For example;
+  
+  accession: >FUN_000001-T1 FUN_000001
+
+
+
+## A Note on Input Header Formats
 As well as the ability to import data with just an accession (as in the YAGP example above) the input FASTA files can have their accession/information headers be in one of the standard formats as below, we provide database inseration examples too.
 
 ### NCBI
