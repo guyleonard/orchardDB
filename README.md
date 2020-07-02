@@ -92,14 +92,16 @@ Sometimes you may wish to delete an old taxa along with all associated records f
             --db example
 ```
 
+Warning: This will mean that any downstream files (e.g. phylogenies) that you have not translated from orchardDB IDs to taxonomic names that include the removed taxa will not be able to be translated.
+
 ### catalogue
 This script will query your database and output a tab-separated text file of the main database table. This allows the user to see the IDs that were generated for each of their 'genomes' in the database along with the other information stored there. This is useful for choosing the taxa that you want to use in the 'Orchard' scripts.
 ```
 ./bin/catalogue username password /path/to/database.sql
 ```
 
-## Header Formats
-The input FASTA files will need to have their accession/information headers be in one of the standard formats as below, database inseration examples are also given.
+## A Note on Header Formats
+As well as the ability to import data with just an accession (as in the YAGP example above) the input FASTA files can have their accession/information headers be in one of the standard formats as below, we provide database inseration examples too.
 
 ### NCBI
 Headers must be in one of these styles, old NCBI or newer:
