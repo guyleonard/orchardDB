@@ -555,7 +555,7 @@ sub process_fasta {
             my $sequence        = $seq->seq;
 
             # replace header info with a hash
-            my $hashed_accession = create_hash($original_header);
+            my $hashed_accession = create_hash("$original_header$genome_id");
             $seq->id("$hashed_accession");
             $seq->desc('');
 
