@@ -1,41 +1,10 @@
 # orchardDB
-:apple: :deciduous_tree: The orchardDB suite of tools takes a set of user collated amino acid gene predictions in FASTA format from different taxa or assemblies and builds a local SQLITE database and data folder of consistently and uqniuely renamed gene predictions ready to be used with the [Orchard tree building pipeline](https://github.com/guyleonard/orchard).
+:apple: :deciduous_tree: The orchardDB suite of tools takes a set of user collated amino acid gene predictions in FASTA format from different taxa and/or assemblies and builds a local SQLITE database and data folder of consistently, repeatable and uniquely re-named accessions ready to be used with the [Orchard tree building pipeline](https://github.com/guyleonard/orchard) or other downstream applications. The SQLITE database allows for fast access to metadata in order to annotate taxonomy (via NCBI Taxonomy) and other information into alignments and trees.
 
-Below you will find a set of instructions to install the scripts, dependencies and build your first database. Their are also instructions to import dataset from genome portals such as Ensembl, JGI and UniProt.
-
-## Installation
-Please make sure all dependencies are currently installed, then do:
-```
-git clone https://github.com/guyleonard/orchardDB.git
-```
-
-### Dependencies
-#### Perl
-If you have 'cpan minus' installed you can simply do:
-```
-sudo cpanm Bio::DB::Taxonomy Bio::SeqIO DateTime DBI Digest::MD5 File::Path Getopt::Long
-```
-
-To install 'cpan minus' on Ubuntu:
-```
- sudo apt install cpanminus
-```
-
-#### Database
- * SQLite 3
- To install 'sqlite' on Ubuntu:
- ```
- sudo apt install sqlite
- ```
-
-#### NCBI's Taxonmomic Database
- * NCBI Taxdump - from ftp://ftp.ncbi.nih.gov/pub/taxonomy/taxdump.tar.gz
-   * Place the names.dmp and nodes.dmp files in to the cloned repository.
-
-NB - NCBI's taxonomy can be limited and may not acurately reflect current or newly accepted groups/clades. You can edit it with [this](https://github.com/guyleonard/taxdump_edit) tool.
+Below you will find a set of instructions to install the scripts & dependencies and also how to build your first database. There are also instructions to import datasets from genome portals such as Ensembl, JGI and EukProt.
 
 ## Standard Usage
-Firstly, you will need to set up a database, and then secondly populate it with sequence data as detailed below.
+Firstly you will need collate your set of input sequences, secondly to set up a database, and then thirdly populate the database with sequence data as detailed below.
 
 Amino acid sequences can be derived from the gene predictions of DNA or RNA-Seq assemblies, or from EST libraries. Multiple versions of different taxa (e.g. different gene-calling methods or updated genome versions) can exist in the same database. A unique ID is used to represent the 'genome' in the database, and also in downstream scripts/data files, they can be translated back to a variety of useful information via the tools in the Orchard pipeline. Additionally, each sequence itself is given it's own unique ID, separate to that of the one from the originating genome portal. These IDs will be the same across multiple versions of databases, assuming the same source files are used to build them.
 
@@ -128,7 +97,36 @@ For example;
   
   accession: >FUN_000001-T1 FUN_000001
 
+## Installation
+Please make sure all dependencies are installed, then clone the repository:
+```
+git clone https://github.com/guyleonard/orchardDB.git
+```
 
+### Dependencies
+#### Perl
+If you have 'cpan minus' installed you can simply do:
+```
+sudo cpanm Bio::DB::Taxonomy Bio::SeqIO DateTime DBI Digest::MD5 File::Path Getopt::Long
+```
+
+To install 'cpan minus' on Ubuntu:
+```
+ sudo apt install cpanminus
+```
+
+#### Database
+ * SQLite 3
+ To install 'sqlite' on Ubuntu:
+ ```
+ sudo apt install sqlite
+ ```
+
+#### NCBI's Taxonmomic Database
+ * NCBI Taxdump - from ftp://ftp.ncbi.nih.gov/pub/taxonomy/taxdump.tar.gz
+   * Place the names.dmp and nodes.dmp files in to the cloned repository.
+
+NB - NCBI's taxonomy can be limited and may not acurately reflect current or newly accepted groups/clades. You can edit it with [this](https://github.com/guyleonard/taxdump_edit) tool.
 
 ## A Note on Input Header Formats
 As well as the ability to import data with just an accession (as in the YAGP example above) the input FASTA files can have their accession/information headers be in one of the standard formats as below, we provide database inseration examples too.
