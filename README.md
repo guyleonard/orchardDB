@@ -10,7 +10,7 @@ Amino acid sequences can be derived from the gene predictions of DNA or RNA-Seq 
 
 You may add any sequence data you like to your local database, please remember to respect any specific data release policies that they may be bound by. Genomes included in the 'testing' dataset are all publically available and published.
 
-### Your Own Data
+### Using Your Own Data
 Here you will learn how to set up your own database. First you need to create the database directory and 'sql' schema - don't worry, there's a script to do this for you, all you need to do is choose a name, username and password. Following that, you will need to populate your database.
 
 #### Set Up
@@ -72,19 +72,19 @@ This script will query your database and output a tab-separated text file of the
 ```
 
 ## Internal Taxa and Accession Names
-This database is mainly intended for use with the Orchard Tree Building pipeline or for producing your own phylogenies. Some issues that affect leaf naming within treefiles is their length (although not a huge constraint more recently), the use of non-alphanumeric characters (which interfere with Newick/Nexus formats) and identidical accessions even though they may come from different gene prediction sets. Another issue that you may experience in your database creation is providing gene predictions for the same taxa but from different versions or differen assemblies. This again would lead to identicial file names or filenames that end up looking like "taxaname_version_2_1_updated" or similar.
+This database is mainly intended for use with the Orchard Tree Building pipeline or for producing your own phylogenies. Some issues that affect leaf-naming within treefiles are their length (although not a huge constraint more recently), the use of non-alphanumeric characters (which interfere with Newick/Nexus formats) and identidical accessions even though they may come from different gene prediction sets or taxa. Another issue that you may experience in your database creation is providing gene predictions for the same taxa but from different versions or different assemblies. This can lead to identicial file names or filenames that end up looking something like "taxa_name_version_2_1_updated_final" or similar.
 
-In order to address this, the orchardDB script translates the names in to it's own consistent and unique identities. We do this by providing some of the information to a 'hashing' function (specifically MD5). This does mean the files and accessions end up being unreadable in a human-way but for the most part we don't need to know what files we are dealing with - just the scripts do, and tools are provided to translate the names back later (this is the current reason for use of the SQL database).
+In order to address this, the orchardDB script translates the names into it's own consistent and unique identities. We do this by providing some of the information to a 'hashing' function (specifically MD5). This means that the files and accessions end up being unreadable in a human-way, but for the most part we don't need to know what files we are dealing with - just the scripts do, and tools are provided to translate the names back later (this is the current reason for use of the SQL database).
 
 ### Filenames
 To generate a consistent and unique taxonomic ID within the database for each input, we take the NCBI:txid, the version number of the predictions, the source, and the 'type' of data.
 
 For example the input of;
 
-  TaxID: 1313167
-  Version: 2018
-  Souce: other,richardslab
-  Type: DNA
+ * TaxID: 1313167
+ * Version: 2018
+ * Souce: other,richardslab
+ * Type: DNA
 
 Produces: 0e69f6622affb742c678ab46cf7d1302
 
@@ -95,7 +95,10 @@ The accessions are handled in a similar way, although
 
 For example;
   
-  accession: >FUN_000001-T1 FUN_000001
+ * accession: >FUN_000001-T1 FUN_000001
+ * genome_ID: 0e69f6622affb742c678ab46cf7d1302
+
+Produces: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ## Installation
 Please make sure all dependencies are installed, then clone the repository:
