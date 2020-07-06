@@ -71,35 +71,6 @@ This script will query your database and output a tab-separated text file of the
 ./bin/catalogue username password /path/to/database.sql
 ```
 
-## Internal Taxa and Accession Names
-This database is mainly intended for use with the Orchard Tree Building pipeline or for producing your own phylogenies. Some issues that affect leaf-naming within treefiles are their length (although not a huge constraint more recently), the use of non-alphanumeric characters (which interfere with Newick/Nexus formats) and identidical accessions even though they may come from different gene prediction sets or taxa. Another issue that you may experience in your database creation is providing gene predictions for the same taxa but from different versions or different assemblies. This can lead to identicial file names or filenames that end up looking something like "taxa_name_version_2_1_updated_final" or similar.
-
-In order to address this, the orchardDB script translates the names into it's own consistent and unique identities. We do this by providing some of the information to a 'hashing' function (specifically MD5). This means that the files and accessions end up being unreadable in a human-way, but for the most part we don't need to know what files we are dealing with - just the scripts do, and tools are provided to translate the names back later (this is the current reason for use of the SQL database).
-
-### Filenames
-To generate a consistent and unique taxonomic ID within the database for each input, we take the NCBI:txid, the version number of the predictions, the source, and the 'type' of data.
-
-For example the input of;
-
- * TaxID: 1313167
- * Version: 2018
- * Souce: other,richardslab
- * Type: DNA
-
-Produces: 0e69f6622affb742c678ab46cf7d1302
-
-Modifying any of the input variables by even one letter will change the hashed output name, so this gives the user multiple ways to include either different gene prediction versions, different sources or different types of the same taxa in the database.
-
-### Accessions
-The accessions are handled in a similar way, although
-
-For example;
-  
- * accession: >FUN_000001-T1 FUN_000001
- * genome_ID: 0e69f6622affb742c678ab46cf7d1302
-
-Produces: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
 ## Installation
 Please make sure all dependencies are installed, then clone the repository:
 ```
@@ -131,8 +102,37 @@ To install 'cpan minus' on Ubuntu:
 
 NB - NCBI's taxonomy can be limited and may not acurately reflect current or newly accepted groups/clades. You can edit it with [this](https://github.com/guyleonard/taxdump_edit) tool.
 
+## Internal Taxa and Accession Names
+This database is mainly intended for use with the Orchard Tree Building pipeline or for producing your own phylogenies. Some issues that affect leaf-naming within treefiles are their length (although not a huge constraint more recently), the use of non-alphanumeric characters (which interfere with Newick/Nexus formats) and identidical accessions even though they may come from different gene prediction sets or taxa. Another issue that you may experience in your database creation is providing gene predictions for the same taxa but from different versions or different assemblies. This can lead to identicial file names or filenames that end up looking something like "taxa_name_version_2_1_updated_final" or similar.
+
+In order to address this, the orchardDB script translates the names into it's own consistent and unique identities. We do this by providing some of the information to a 'hashing' function (specifically MD5). This means that the files and accessions end up being unreadable in a human-way, but for the most part we don't need to know what files we are dealing with - just the scripts do, and tools are provided to translate the names back later (this is the current reason for use of the SQL database).
+
+### Filenames
+To generate a consistent and unique taxonomic ID within the database for each input, we take the NCBI:txid, the version number of the predictions, the source, and the 'type' of data.
+
+For example, the input of;
+
+ * TaxID: 1313167
+ * Version: 2018
+ * Souce: other,richardslab
+ * Type: DNA
+
+Produces: 0e69f6622affb742c678ab46cf7d1302
+
+Modifying any of the input variables by even one letter will change the hashed output name, so this gives the user multiple ways to include either different gene prediction versions, different sources or different types of the same taxa in the database.
+
+### Accessions
+The accessions are handled in a similar way, although
+
+For example, the input of;
+  
+ * accession: FUN_000001-T1 FUN_000001
+ * genome_ID: 0e69f6622affb742c678ab46cf7d1302
+
+Produces: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
 ## A Note on Input Header Formats
-As well as the ability to import data with just an accession (as in the YAGP example above) the input FASTA files can have their accession/information headers be in one of the standard formats as below, we provide database inseration examples too.
+As well as the ability to import data with just an accession (as in the YAGP example above) the input FASTA files can have their accession/information headers be in one of the standard formats as below, here we provide database inseration examples too.
 
 ### NCBI
 Headers must be in one of these styles, old NCBI or newer:
