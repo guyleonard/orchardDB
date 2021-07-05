@@ -2,11 +2,13 @@
 use strict;
 use warnings;
 
+use Archive::Tar;
 use Bio::DB::Taxonomy;
 use Bio::SeqIO;
 use DateTime;
 use DBI;
 use Digest::MD5 qw(md5_hex);
+use File::Fetch;
 use File::Path qw(make_path);
 use Getopt::Long;
 
@@ -51,7 +53,7 @@ GetOptions(
     'ver|V=s'           => \$data_version,
     'lite|l=s'          => \$lite_db,
     'version|v'         => sub { print "$version"; exit(0) },
-    'help|h' => sub { help_message() }
+    'help|h'            => sub { help_message() }
 ) or help_message();
 
 #
@@ -403,7 +405,7 @@ sub remove_taxa {
     my $statement_main
         = qq (DELETE FROM odb_maintable WHERE genome_id='$taxon_id');
     my $prepare_main = $dbh->prepare($statement_main);
-    my $delete_main = $prepare_main->execute() or die $DBI::errstr;
+    my $delete_main  = $prepare_main->execute() or die $DBI::errstr;
     $dbh->commit;
 
     $dbh->disconnect();
@@ -461,12 +463,12 @@ sub get_taxonomy {
     # if the sqlite db does not exist, warn user
     if ( !-f 'nodes.dmp' || !-f 'names.dmp' ) {
         print
-            "[OrchardDB:Plant:ERRR] - nodes.dmp and/or names.dmp Missing! Please Download to Continue.\n";
-        exit(1);
+            "[OrchardDB:Plant:WARN] - nodes.dmp and/or names.dmp Missing!\n";
+        get_taxonomy_db();
     }
 
     if ( !-f 'taxonomy.sqlite' ) {
-        print "[OrchardDB:Plant:INFO] - Indexing NCBI Taxonomy - Slow!\n";
+        print "[OrchardDB:Plant:INFO] - Indexing NCBI Taxonomy - May take a few minutes!\n";
     }
 
     # read in taxonomy from taxdump
@@ -501,6 +503,25 @@ sub get_taxonomy {
     }
 
     return ( "$full_name", "$lineages" );
+}
+
+sub get_taxonomy_db {
+
+    my $url  = "https://ftp.ncbi.nlm.nih.gov/pub/taxonomy/";
+    my $file = "taxdump.tar.gz";
+
+    print
+        "[OrchardDB:Plant:INFO] - Attempting to download $url$file! This may take a few minutes.\n";
+    my $ff   = File::Fetch->new( uri => "$url$file" );
+    my $file = $ff->fetch() or die $ff->error;
+
+    print
+        "[OrchardDB:Plant:INFO] - Attempting to extract nodes.dmp and names.dmp!\n";
+    my @files = ( "nodes.dmp", "names.dmp" );
+    my $tar   = Archive::Tar->new();
+    $tar->read("$file");
+    $tar->extract(@files);
+
 }
 
 #
